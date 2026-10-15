@@ -1,4 +1,5 @@
 ---
+import Signup from '../components/Signup.astro';
 import Base from '../layouts/Base.astro';
 import { ALL, CATS, byCat } from '../lib/data';
 const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-server','langgraph','qdrant','stripe'].map(s=>ALL.find(e=>e.slug===s)!).filter(Boolean);
@@ -20,6 +21,9 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <a class="card" href="/use-cases/"><h3>Use cases &amp; personas</h3><p>Eight ready-made agent roles, with the tools they use.</p></a>
 <a class="card" href="/marketplace/"><h3>Marketplace</h3><p>Skills, workflows and prompt packs for agents. Coming soon.</p></a>
 </div>
+<h2>Newsletter</h2>
+<p>A short weekly note: new tools in the directory, API changes that matter to agent builders, and product launches.</p>
+<Signup list="newsletter" source="home" button="Subscribe" />
 <script type="module">
 const q=document.getElementById('q'),r=document.getElementById('results');let data=null;
 q.addEventListener('input',async()=>{const t=q.value.trim().toLowerCase();if(!t){r.classList.add('hidden');return}

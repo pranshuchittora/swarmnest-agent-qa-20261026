@@ -1,0 +1,9 @@
+---
+const { list='newsletter', source='', button='Subscribe', interest='' } = Astro.props;
+---
+<form action="/api/subscribe" method="post" class="signup">
+<p><input type="email" name="email" placeholder="you@example.com" required aria-label="Email address" autocomplete="email"> <button class="btn" type="submit">{button}</button></p>
+<input type="hidden" name="list" value={list}><input type="hidden" name="source" value={source}><input type="hidden" name="interest" value={interest}>
+<p style="position:absolute;left:-9999px" aria-hidden="true"><label>Leave blank <input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
+<p class="small">We'll use your email only to send Swarmnest updates and will ask you to confirm before sending more. Unsubscribe any time. See our <a href="/privacy/">privacy policy</a>.</p>
+</form>

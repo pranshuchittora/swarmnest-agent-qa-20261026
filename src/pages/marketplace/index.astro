@@ -1,4 +1,5 @@
 ---
+import Signup from '../../components/Signup.astro';
 import Base from '../../layouts/Base.astro';
 import { PRODUCTS } from '../../lib/content';
 import { SITE } from '../../lib/data';
@@ -9,6 +10,6 @@ const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest ma
 <p class="lead">Skills, workflows and prompt packs for AI agents. These first seven are made by Swarmnest and are not on sale yet. Prices are planned and may change.</p>
 <div class="grid">{PRODUCTS.map(p=><a class="card" href={`/marketplace/${p.slug}/`}><h3>{p.title}</h3><p class="small">{p.type} · {p.price}</p><p>{p.summary}</p></a>)}</div>
 <h2>Waitlist</h2>
-<form action="mailto:hello@swarmnest.ai" method="post" enctype="text/plain"><p><input type="email" name="email" placeholder="you@example.com" required aria-label="Email"> <button class="btn" type="submit">Join the waitlist</button></p><p class="small">Opens your email app for now; a proper signup form is coming.</p></form>
+<Signup list="waitlist" source="marketplace" button="Join the waitlist" />
 <p class="small">Selling something? Outside sellers are not open yet. See <a href="/refunds/">Refunds</a> and <a href="/takedown/">Takedown</a>.</p>
 </Base>

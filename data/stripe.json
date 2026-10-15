@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "slug": "web-research-skill-pack",
+      "product_id": "prod_VRbwpjY8NpR7hM",
+      "price_id": "price_1UQiit6aC1E09RZYMYrWB82m",
+      "price_cents": 1900,
+      "payment_link_id": "plink_1UQiiu6aC1E09RZYADZeUAns"
+    },
+    {
+      "slug": "lead-research-workflow",
+      "product_id": "prod_VRbwVjs04K5df9",
+      "price_id": "price_1UQiiu6aC1E09RZYeRUgmMIk",
+      "price_cents": 2900,
+      "payment_link_id": "plink_1UQiiv6aC1E09RZYkRq9P9L3"
+    },
+    {
+      "slug": "customer-support-prompt-pack",
+      "product_id": "prod_VRbwdLZAaXadmf",
+      "price_id": "price_1UQiiv6aC1E09RZYXejhssVQ",
+      "price_cents": 1500,
+      "payment_link_id": "plink_1UQiiw6aC1E09RZYxnl9TtZH"
+    },
+    {
+      "slug": "content-repurposing-workflow",
+      "product_id": "prod_VRbw1K1m3h0ang",
+      "price_id": "price_1UQiiw6aC1E09RZY9mPSHrqo",
+      "price_cents": 1900,
+      "payment_link_id": "plink_1UQiix6aC1E09RZY437lq2fp"
+    },
+    {
+      "slug": "mcp-server-starter-kit",
+      "product_id": "prod_VRbw8jENqkdS4E",
+      "price_id": "price_1UQiix6aC1E09RZYuCUJk2Mt",
+      "price_cents": 2400,
+      "payment_link_id": "plink_1UQiiy6aC1E09RZY6wbhD3DM"
+    },
+    {
+      "slug": "agent-eval-guardrails-pack",
+      "product_id": "prod_VRbwhnhy1sstLu",
+      "price_id": "price_1UQiiy6aC1E09RZYupaHKFmA",
+      "price_cents": 2900,
+      "payment_link_id": "plink_1UQiiy6aC1E09RZY561yF4tm"
+    },
+    {
+      "slug": "persona-bundle",
+      "product_id": "prod_VRbwYZ2UO3c2A4",
+      "price_id": "price_1UQiiz6aC1E09RZY6BordMgo",
+      "price_cents": 900,
+      "payment_link_id": "plink_1UQiiz6aC1E09RZY7ngscrT2"
+    }
+  ],
+  "account": "acct_1UQhDQ6aC1E09RZY",
+  "statement_descriptor": "SWARMNEST.AI",
+  "tax": "automatic_tax disabled"
+}

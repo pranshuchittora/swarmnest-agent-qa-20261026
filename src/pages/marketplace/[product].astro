@@ -1,4 +1,5 @@
 ---
+import Signup from '../../components/Signup.astro';
 import Base from '../../layouts/Base.astro';
 import { PRODUCTS } from '../../lib/content';
 import { SITE } from '../../lib/data';
@@ -14,6 +15,6 @@ const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,descri
 <p class="lead">{p.summary}</p>
 <p><strong>Type:</strong> {p.type}<br><strong>Status:</strong> Coming soon<br><strong>{p.price}</strong> (not final)</p>
 <h2>Get notified</h2>
-<form action="mailto:hello@swarmnest.ai" method="post" enctype="text/plain"><p><input type="email" name="email" placeholder="you@example.com" required aria-label="Email"> <button class="btn" type="submit">Join the waitlist</button></p></form>
+<Signup list="waitlist" source={`product:${p.slug}`} interest={p.slug} button="Join the waitlist" />
 <p class="small">Not purchasable yet. When it is, our <a href="/refunds/">refund policy</a> will apply.</p>
 </Base>
