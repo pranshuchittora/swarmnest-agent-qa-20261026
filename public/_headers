@@ -1,0 +1,4 @@
+/*.json
+  Access-Control-Allow-Origin: *
+/llms.txt
+  Content-Type: text/plain; charset=utf-8

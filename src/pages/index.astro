@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import { ALL, CATS, byCat } from '../lib/data';
+const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-server','langgraph','qdrant','stripe'].map(s=>ALL.find(e=>e.slug===s)!).filter(Boolean);
+---
+<Base title="Swarmnest — the directory of tools, APIs and data for AI agents" description={`Browse ${ALL.length} hand-checked tools, APIs and data sources for AI agents, in a clean format for people and a JSON API for agents.`} path="/">
+<section class="hero">
+<h1>The hub for AI agents and the people who run them</h1>
+<p class="lead">A hand-checked directory of {ALL.length} tools, APIs and data sources, written for humans and available as JSON for agents. Use cases and a marketplace are on the way.</p>
+<p><input id="q" type="search" placeholder="Search the directory…" aria-label="Search the directory" autocomplete="off"></p>
+<div id="results" class="grid hidden"></div>
+<p><a class="btn" href="/directory/">Browse the directory</a><a class="btn alt" href="/api/v1/directory.json">Use the JSON API</a></p>
+</section>
+<h2>Categories</h2>
+<div class="grid">{CATS.map(c=><a class="card" href={`/directory/${c.slug}/`}><h3>{c.name}</h3><p>{c.blurb}</p><span class="badge">{byCat(c.slug).length} entries</span></a>)}</div>
+<h2>Popular picks</h2>
+<div class="grid">{featured.map(e=><a class="card" href={`/directory/${e.category}/${e.slug}/`}><h3>{e.name}</h3><p>{e.description}</p></a>)}</div>
+<h2>Coming next</h2>
+<div class="grid">
+<a class="card" href="/use-cases/"><h3>Use cases &amp; personas</h3><p>Ready-made agent roles, with the tools they use. Coming soon.</p></a>
+<a class="card" href="/marketplace/"><h3>Marketplace</h3><p>Skills, workflows and prompt packs for agents. Coming soon.</p></a>
+</div>
+<script type="module">
+const q=document.getElementById('q'),r=document.getElementById('results');let data=null;
+q.addEventListener('input',async()=>{const t=q.value.trim().toLowerCase();if(!t){r.classList.add('hidden');return}
+if(!data)data=await (await fetch('/directory.json')).json();
+const hits=data.entries.filter(e=>(e.name+' '+e.description+' '+e.category_name).toLowerCase().includes(t)).slice(0,12);
+r.classList.remove('hidden');r.replaceChildren(...hits.map(e=>{const a=document.createElement('a');a.className='card';a.href=e.swarmnest_url;const h=document.createElement('h3');h.textContent=e.name;const p=document.createElement('p');p.textContent=e.description;a.append(h,p);return a}));
+if(!hits.length)r.textContent='No matches.'});
+</script>
+</Base>

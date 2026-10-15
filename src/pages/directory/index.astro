@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import { ALL, CATS, byCat, SITE } from '../../lib/data';
+const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Directory',item:SITE+'/directory/'}]}];
+---
+<Base title="AI agent tools directory — APIs, MCP servers, frameworks | Swarmnest" description={`Directory of ${ALL.length} tools, APIs and data sources for AI agents across ${CATS.length} categories, from LLM APIs to payments.`} path="/directory/" jsonld={ld}>
+<p class="crumbs"><a href="/">Home</a> › Directory</p>
+<h1>Directory</h1>
+<p class="lead">{ALL.length} entries in {CATS.length} categories. Machine-readable version: <a href="/directory.json">/directory.json</a>.</p>
+<div class="grid">{CATS.map(c=><a class="card" href={`/directory/${c.slug}/`}><h3>{c.name}</h3><p>{c.blurb}</p><span class="badge">{byCat(c.slug).length} entries</span></a>)}</div>
+</Base>

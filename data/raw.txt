@@ -1,0 +1,138 @@
+llm-apis|OpenAI API|https://openai.com/api/|https://platform.openai.com/docs|key|paid|Hosted GPT-family language, image, speech and embedding models behind a single REST API, with function calling and structured outputs.
+llm-apis|Anthropic API|https://www.anthropic.com/api|https://docs.anthropic.com|key|paid|Access to the Claude model family over REST, with tool use, long context windows and prompt caching.
+llm-apis|Google Gemini API|https://ai.google.dev/|https://ai.google.dev/gemini-api/docs|key|freemium|Google's multimodal Gemini models via API key, with a free tier for prototyping and support for large context inputs.
+llm-apis|Groq|https://groq.com/|https://console.groq.com/docs|key|freemium|Very fast inference for open-weight models on custom hardware, exposed through an OpenAI-compatible endpoint.
+llm-apis|OpenRouter|https://openrouter.ai/|https://openrouter.ai/docs|key|paid|One API and one bill for hundreds of models from many providers, with routing and fallback between them.
+llm-apis|Mistral AI|https://mistral.ai/|https://docs.mistral.ai|key|freemium|European lab offering open and commercial chat, code and embedding models through a hosted API.
+llm-apis|Cohere|https://cohere.com/|https://docs.cohere.com|key|freemium|Enterprise-oriented language models with strong embedding and reranking endpoints for retrieval pipelines.
+llm-apis|Together AI|https://www.together.ai/|https://docs.together.ai|key|paid|Serverless and dedicated inference for open-source models, plus fine-tuning and image generation.
+llm-apis|Fireworks AI|https://fireworks.ai/|https://docs.fireworks.ai|key|paid|Fast hosted inference for open models with function calling, JSON mode and fine-tuning support.
+llm-apis|Hugging Face Inference Providers|https://huggingface.co/docs/inference-providers|https://huggingface.co/docs/inference-providers|key|freemium|Unified access to models from the Hugging Face Hub, served by several inference partners behind one token.
+llm-apis|Perplexity Sonar API|https://www.perplexity.ai/|https://docs.perplexity.ai|key|paid|Search-grounded answer models that return responses with citations, useful when an agent needs current facts.
+llm-apis|DeepSeek API|https://www.deepseek.com/|https://api-docs.deepseek.com|key|paid|Low-cost chat and reasoning models served through an OpenAI-compatible interface.
+llm-apis|xAI API|https://x.ai/api|https://docs.x.ai|key|paid|Grok models for chat, reasoning and vision, available through an OpenAI-compatible API.
+llm-apis|Replicate|https://replicate.com/|https://replicate.com/docs|key|paid|Run community and official models, mostly image, video and audio, with a simple prediction API and per-second billing.
+llm-apis|Cloudflare Workers AI|https://developers.cloudflare.com/workers-ai/|https://developers.cloudflare.com/workers-ai/|key|freemium|Run open models on Cloudflare's network from a Worker or REST call, with a daily free allowance.
+llm-apis|Ollama|https://ollama.com/|https://github.com/ollama/ollama/blob/main/docs/api.md|none|free|Run open-weight models locally and talk to them over a simple HTTP API on your own machine.
+search-apis|Brave Search API|https://brave.com/search/api/|https://api-dashboard.search.brave.com/app/documentation|key|freemium|Web, news, image and video search from an independent index, with a small free plan.
+search-apis|Tavily|https://tavily.com/|https://docs.tavily.com|key|freemium|Search and content extraction built for LLM agents, returning cleaned snippets rather than raw links.
+search-apis|Exa|https://exa.ai/|https://docs.exa.ai|key|paid|Neural search engine that finds pages by meaning, with content retrieval and similar-page lookups.
+search-apis|SerpApi|https://serpapi.com/|https://serpapi.com/search-api|key|freemium|Structured JSON results scraped from Google and other search engines, including maps and shopping.
+search-apis|Serper|https://serper.dev/|https://serper.dev/|key|freemium|Inexpensive Google search results as JSON, popular for quick agent lookups.
+search-apis|You.com API|https://you.com/|https://documentation.you.com|key|paid|Web search and research endpoints aimed at grounding AI applications with fresh sources.
+search-apis|Google Programmable Search|https://programmablesearchengine.google.com/|https://developers.google.com/custom-search/v1/overview|key|freemium|Query a custom set of sites, or the whole web, with Google's Custom Search JSON API and a daily free quota.
+search-apis|SearXNG|https://github.com/searxng/searxng|https://docs.searxng.org|none|free|Self-hostable metasearch engine that aggregates many engines and can return JSON for agents.
+search-apis|Linkup|https://www.linkup.so/|https://docs.linkup.so|key|freemium|Search API focused on premium and licensed sources, returning answers with source attributions.
+search-apis|Kagi API|https://kagi.com/|https://help.kagi.com/kagi/api/overview.html|key|paid|Ad-free search plus summarizer and FastGPT endpoints for paying Kagi users.
+scraping-browsing|Firecrawl|https://www.firecrawl.dev/|https://docs.firecrawl.dev|key|freemium|Turns websites into clean markdown or structured data, with crawl, scrape and map endpoints.
+scraping-browsing|Browserbase|https://www.browserbase.com/|https://docs.browserbase.com|key|freemium|Managed headless browsers in the cloud for agents, with session recording and stealth features.
+scraping-browsing|Playwright|https://playwright.dev/|https://playwright.dev/docs/intro|none|free|Open-source browser automation library for Chromium, Firefox and WebKit in several languages.
+scraping-browsing|Puppeteer|https://pptr.dev/|https://pptr.dev/category/introduction|none|free|Node library that drives Chrome or Firefox through DevTools protocols for scraping and testing.
+scraping-browsing|Jina Reader|https://jina.ai/reader/|https://jina.ai/reader/|none|freemium|Prefix a URL and get an LLM-friendly text version of the page back; a keyless tier exists with rate limits.
+scraping-browsing|Apify|https://apify.com/|https://docs.apify.com|key|freemium|Platform with thousands of ready-made scrapers called Actors, plus infrastructure to run your own.
+scraping-browsing|Crawl4AI|https://github.com/unclecode/crawl4ai|https://docs.crawl4ai.com|none|free|Open-source crawler that outputs markdown tuned for LLM pipelines, runnable locally or in Docker.
+scraping-browsing|ScrapingBee|https://www.scrapingbee.com/|https://www.scrapingbee.com/documentation/|key|paid|Scraping API that handles proxies, headless rendering and blocks behind a single request.
+scraping-browsing|Bright Data|https://brightdata.com/|https://docs.brightdata.com|key|paid|Large proxy network with web unlocker, scraper APIs and datasets for data collection at scale.
+scraping-browsing|Cloudflare Browser Rendering|https://developers.cloudflare.com/browser-rendering/|https://developers.cloudflare.com/browser-rendering/|key|freemium|Run headless Chrome from a Worker or REST API to screenshot, scrape or automate pages.
+scraping-browsing|Browser Use|https://browser-use.com/|https://docs.browser-use.com|key|freemium|Open-source library that lets an LLM control a real browser, with an optional hosted cloud.
+scraping-browsing|Stagehand|https://www.stagehand.dev/|https://docs.stagehand.dev|key|freemium|Browser automation SDK that mixes plain-language actions with code, built on Playwright.
+scraping-browsing|Scrapy|https://scrapy.org/|https://docs.scrapy.org|none|free|Mature Python framework for writing fast, scalable crawlers and extracting structured data.
+scraping-browsing|Common Crawl|https://commoncrawl.org/|https://commoncrawl.org/get-started|none|free|Free, open repository of petabytes of web crawl data, useful for research and training datasets.
+mcp-servers|Model Context Protocol|https://modelcontextprotocol.io/|https://modelcontextprotocol.io/docs/getting-started/intro|none|free|The open protocol that lets AI apps connect to tools and data through a standard client-server interface.
+mcp-servers|MCP Reference Servers|https://github.com/modelcontextprotocol/servers|https://github.com/modelcontextprotocol/servers#readme|none|free|Official collection of example servers, including filesystem, fetch, git and memory, and a pointer to community ones.
+mcp-servers|GitHub MCP Server|https://github.com/github/github-mcp-server|https://github.com/github/github-mcp-server#readme|oauth|free|GitHub's own server that lets agents read repos, manage issues and pull requests, and inspect workflow runs.
+mcp-servers|Playwright MCP|https://github.com/microsoft/playwright-mcp|https://github.com/microsoft/playwright-mcp#readme|none|free|Gives agents browser control through accessibility snapshots rather than screenshots.
+mcp-servers|Context7|https://github.com/upstash/context7|https://github.com/upstash/context7#readme|none|freemium|MCP server that pulls current library documentation into an agent's context to reduce outdated code.
+mcp-servers|Sentry MCP|https://github.com/getsentry/sentry-mcp|https://docs.sentry.io/product/sentry-mcp/|oauth|freemium|Lets an agent look up errors, issues and traces in Sentry while debugging.
+mcp-servers|Cloudflare MCP Servers|https://github.com/cloudflare/mcp-server-cloudflare|https://developers.cloudflare.com/agents/model-context-protocol/|oauth|freemium|Remote servers for managing Workers, docs, observability and other Cloudflare services from an agent.
+mcp-servers|Stripe MCP|https://docs.stripe.com/mcp|https://docs.stripe.com/mcp|oauth|free|Stripe's server exposing payment, customer and subscription operations plus knowledge search to agents.
+mcp-servers|Notion MCP|https://developers.notion.com/docs/mcp|https://developers.notion.com/docs/mcp|oauth|free|Hosted server for reading and writing Notion pages and databases from an AI client.
+mcp-servers|Linear MCP|https://linear.app/docs/mcp|https://linear.app/docs/mcp|oauth|free|Remote server for finding, creating and updating Linear issues and projects from an agent.
+mcp-servers|Supabase MCP|https://github.com/supabase-community/supabase-mcp|https://supabase.com/docs/guides/getting-started/mcp|key|free|Connects agents to Supabase projects for schema design, SQL queries and configuration.
+mcp-servers|Official MCP Registry|https://registry.modelcontextprotocol.io/|https://github.com/modelcontextprotocol/registry#readme|none|free|The community-run catalog and API where MCP servers are published and discovered.
+mcp-servers|FastMCP|https://gofastmcp.com/|https://gofastmcp.com/getting-started/welcome|none|free|Pythonic framework for building MCP servers and clients with very little boilerplate.
+mcp-servers|Smithery|https://smithery.ai/|https://smithery.ai/docs|key|freemium|Marketplace and hosting for MCP servers, with a CLI to install them into clients.
+agent-frameworks|LangGraph|https://www.langchain.com/langgraph|https://langchain-ai.github.io/langgraph/|none|free|Library for building stateful, multi-step agents as graphs, with persistence and human-in-the-loop controls.
+agent-frameworks|LangChain|https://www.langchain.com/|https://python.langchain.com/docs/introduction/|none|free|Widely used toolkit of components for LLM apps, covering models, tools, retrievers and chains.
+agent-frameworks|CrewAI|https://www.crewai.com/|https://docs.crewai.com|none|freemium|Framework for orchestrating teams of role-playing agents that split up a task.
+agent-frameworks|AutoGen|https://github.com/microsoft/autogen|https://microsoft.github.io/autogen/|none|free|Microsoft's framework for multi-agent conversations and workflows, in Python and .NET.
+agent-frameworks|OpenAI Agents SDK|https://github.com/openai/openai-agents-python|https://openai.github.io/openai-agents-python/|key|free|Lightweight SDK with agents, handoffs, guardrails and tracing as its core primitives.
+agent-frameworks|LlamaIndex|https://www.llamaindex.ai/|https://docs.llamaindex.ai|none|freemium|Framework centred on connecting LLMs to your data, with ingestion, indexing and agent workflows.
+agent-frameworks|Pydantic AI|https://ai.pydantic.dev/|https://ai.pydantic.dev/|none|free|Type-safe Python agent framework from the Pydantic team, with structured outputs and dependency injection.
+agent-frameworks|Mastra|https://mastra.ai/|https://mastra.ai/docs|none|free|TypeScript framework for agents, workflows, memory and evals.
+agent-frameworks|Vercel AI SDK|https://ai-sdk.dev/|https://ai-sdk.dev/docs|none|free|TypeScript toolkit for streaming text, tool calls and agents across many model providers.
+agent-frameworks|Hugging Face smolagents|https://github.com/huggingface/smolagents|https://huggingface.co/docs/smolagents|none|free|Minimal library where agents write and run Python code to complete tasks.
+agent-frameworks|Semantic Kernel|https://github.com/microsoft/semantic-kernel|https://learn.microsoft.com/en-us/semantic-kernel/|none|free|Microsoft's SDK for adding models, plugins and agents to C#, Python and Java apps.
+agent-frameworks|Google Agent Development Kit|https://github.com/google/adk-python|https://google.github.io/adk-docs/|none|free|Google's open-source toolkit for building, evaluating and deploying agents and multi-agent systems.
+agent-frameworks|Cloudflare Agents SDK|https://github.com/cloudflare/agents|https://developers.cloudflare.com/agents/|none|freemium|Build stateful agents on Workers and Durable Objects with scheduling, websockets and MCP support.
+agent-frameworks|DSPy|https://dspy.ai/|https://dspy.ai/learn/|none|free|Programming framework that compiles prompts and weights from code and metrics rather than hand-written prompts.
+agent-frameworks|n8n|https://n8n.io/|https://docs.n8n.io|none|freemium|Visual workflow automation with AI agent nodes; source-available and self-hostable.
+memory-vector-dbs|Pinecone|https://www.pinecone.io/|https://docs.pinecone.io|key|freemium|Fully managed vector database with serverless indexes and integrated embedding and reranking.
+memory-vector-dbs|Qdrant|https://qdrant.tech/|https://qdrant.tech/documentation/|key|freemium|Open-source vector search engine written in Rust, available self-hosted or as a managed cloud.
+memory-vector-dbs|Chroma|https://www.trychroma.com/|https://docs.trychroma.com|none|free|Developer-friendly open-source embedding database that runs in-process or as a server.
+memory-vector-dbs|Cloudflare Vectorize|https://developers.cloudflare.com/vectorize/|https://developers.cloudflare.com/vectorize/|key|freemium|Vector database built into Workers for storing and querying embeddings close to your code.
+memory-vector-dbs|Weaviate|https://weaviate.io/|https://docs.weaviate.io|key|freemium|Open-source vector database with hybrid search and built-in vectorizer modules.
+memory-vector-dbs|Milvus|https://milvus.io/|https://milvus.io/docs|none|free|Open-source, highly scalable vector database, also offered as the managed Zilliz Cloud.
+memory-vector-dbs|pgvector|https://github.com/pgvector/pgvector|https://github.com/pgvector/pgvector#readme|none|free|Postgres extension that adds vector columns and similarity search to an ordinary database.
+memory-vector-dbs|LanceDB|https://lancedb.com/|https://lancedb.github.io/lancedb/|none|free|Embedded, serverless vector database storing data in an open columnar format.
+memory-vector-dbs|Mem0|https://mem0.ai/|https://docs.mem0.ai|key|freemium|Memory layer that lets agents remember user facts and preferences across sessions.
+memory-vector-dbs|Zep|https://www.getzep.com/|https://help.getzep.com|key|freemium|Long-term memory for agents built on a temporal knowledge graph of conversations and data.
+memory-vector-dbs|Letta|https://www.letta.com/|https://docs.letta.com|key|freemium|Platform for stateful agents with self-managed memory, descended from the MemGPT research project.
+memory-vector-dbs|Turbopuffer|https://turbopuffer.com/|https://turbopuffer.com/docs|key|paid|Serverless search engine on object storage combining vector and full-text queries at low cost.
+memory-vector-dbs|Redis Vector Search|https://redis.io/docs/latest/develop/ai/search-and-query/|https://redis.io/docs/latest/develop/ai/search-and-query/|key|freemium|Vector similarity and hybrid search inside Redis, handy when you already use it for caching.
+open-data|Wikidata|https://www.wikidata.org/|https://www.wikidata.org/wiki/Wikidata:Data_access|none|free|Free collaborative knowledge base of structured facts, queryable by SPARQL and a REST API.
+open-data|Wikipedia API|https://www.mediawiki.org/wiki/API:Main_page|https://api.wikimedia.org/wiki/Main_Page|none|free|Read article text, summaries and search results from Wikipedia and sister projects without a key.
+open-data|OpenStreetMap|https://www.openstreetmap.org/|https://wiki.openstreetmap.org/wiki/API|none|free|Community-built world map data, downloadable or queryable through the Overpass API.
+open-data|Data.gov|https://data.gov/|https://data.gov/developers/apis/|none|free|Catalog of US federal open datasets with a CKAN-based search API.
+open-data|SEC EDGAR|https://www.sec.gov/edgar|https://www.sec.gov/search-filings/edgar-application-programming-interfaces|none|free|US company filings and financial facts as JSON; requires a descriptive User-Agent header.
+open-data|arXiv API|https://arxiv.org/|https://info.arxiv.org/help/api/index.html|none|free|Search and fetch metadata for millions of open-access preprints in science and maths.
+open-data|OpenAlex|https://openalex.org/|https://docs.openalex.org|none|free|Open index of scholarly works, authors and institutions, with a generous free API.
+open-data|Open-Meteo|https://open-meteo.com/|https://open-meteo.com/en/docs|none|free|Keyless weather forecast and historical data API, free for non-commercial use.
+open-data|World Bank Open Data|https://data.worldbank.org/|https://datahelpdesk.worldbank.org/knowledgebase/topics/125589|none|free|Development indicators for countries worldwide, available via a simple JSON API.
+open-data|REST Countries|https://restcountries.com/|https://restcountries.com/#api-endpoints-v3|none|free|Simple API returning facts such as capitals, currencies and languages for every country.
+open-data|NASA Open APIs|https://api.nasa.gov/|https://api.nasa.gov/|key|free|Free API key unlocks astronomy picture of the day, Mars rover photos, near-earth objects and more.
+open-data|GDELT Project|https://www.gdeltproject.org/|https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/|none|free|Monitors global news in many languages and exposes searchable event and article data.
+open-data|Hugging Face Datasets|https://huggingface.co/datasets|https://huggingface.co/docs/datasets-server|none|free|Hub of community datasets with a viewer API for browsing and downloading them.
+open-data|FRED Economic Data|https://fred.stlouisfed.org/|https://fred.stlouisfed.org/docs/api/fred/|key|free|Hundreds of thousands of economic time series from the St. Louis Fed, free with an API key.
+open-data|Crossref API|https://www.crossref.org/|https://www.crossref.org/documentation/retrieve-metadata/rest-api/|none|free|Metadata and DOIs for scholarly publications, handy for citation lookups.
+comms|Resend|https://resend.com/|https://resend.com/docs|key|freemium|Developer-focused email sending API with a free tier and official SDKs.
+comms|Twilio|https://www.twilio.com/|https://www.twilio.com/docs|key|paid|Programmable SMS, voice, WhatsApp and verification APIs used by many production systems.
+comms|Slack API|https://api.slack.com/|https://api.slack.com/docs|oauth|freemium|Build bots and apps that read and post in Slack workspaces using the Web API and events.
+comms|Telegram Bot API|https://core.telegram.org/bots/api|https://core.telegram.org/bots/api|key|free|Free HTTP interface for creating Telegram bots, with tokens issued by BotFather.
+comms|Discord Developer Platform|https://discord.com/developers/docs/intro|https://discord.com/developers/docs/intro|oauth|free|Bot and application APIs for building agents that live in Discord servers.
+comms|SendGrid|https://sendgrid.com/|https://www.twilio.com/docs/sendgrid|key|freemium|Twilio's transactional and marketing email service with a REST API.
+comms|Postmark|https://postmarkapp.com/|https://postmarkapp.com/developer|key|paid|Transactional email with a reputation for fast, reliable delivery and clear logs.
+comms|Mailgun|https://www.mailgun.com/|https://documentation.mailgun.com|key|freemium|Email API for sending, receiving and parsing messages programmatically.
+comms|AgentMail|https://www.agentmail.to/|https://docs.agentmail.to|key|freemium|Email inboxes created through an API specifically so agents can send and receive mail.
+comms|Vonage APIs|https://www.vonage.com/communications-apis/|https://developer.vonage.com|key|paid|SMS, voice and messaging APIs from Vonage for global communications.
+comms|Microsoft Graph|https://developer.microsoft.com/en-us/graph|https://learn.microsoft.com/en-us/graph/overview|oauth|free|One API for Outlook mail, Teams, calendar and files across Microsoft 365.
+comms|Gmail API|https://developers.google.com/workspace/gmail/api|https://developers.google.com/workspace/gmail/api/guides|oauth|free|Read, send and label Gmail messages on a user's behalf through OAuth.
+comms|WhatsApp Business Platform|https://developers.facebook.com/docs/whatsapp|https://developers.facebook.com/docs/whatsapp/cloud-api|key|paid|Meta's Cloud API for sending and receiving WhatsApp messages from businesses.
+comms|Cloudflare Email Routing|https://developers.cloudflare.com/email-routing/|https://developers.cloudflare.com/email-routing/|key|free|Free custom-domain addresses that forward to an inbox or run through an Email Worker.
+dev-sandbox|GitHub REST API|https://docs.github.com/en/rest|https://docs.github.com/en/rest|key|free|Programmatic access to repos, issues, pull requests and Actions, with token or app authentication.
+dev-sandbox|E2B|https://e2b.dev/|https://e2b.dev/docs|key|freemium|Secure cloud sandboxes where agents can run code and shell commands in isolation.
+dev-sandbox|Cloudflare Workers|https://workers.cloudflare.com/|https://developers.cloudflare.com/workers/|key|freemium|Run JavaScript and WebAssembly at the edge, with free daily requests and KV, D1 and R2 bindings.
+dev-sandbox|Modal|https://modal.com/|https://modal.com/docs|key|freemium|Serverless Python compute with GPUs and sandboxes, defined entirely in code.
+dev-sandbox|Daytona|https://www.daytona.io/|https://www.daytona.io/docs|key|freemium|Fast, secure infrastructure for running AI-generated code in disposable sandboxes.
+dev-sandbox|Vercel|https://vercel.com/|https://vercel.com/docs|key|freemium|Platform for deploying frontends and serverless functions, with a REST API and sandbox product.
+dev-sandbox|Docker|https://www.docker.com/|https://docs.docker.com|none|freemium|Container tooling that is the usual way to isolate and reproduce agent runtime environments.
+dev-sandbox|Judge0|https://judge0.com/|https://ce.judge0.com/|key|freemium|Open-source code execution service supporting dozens of languages through a simple API.
+dev-sandbox|Supabase|https://supabase.com/|https://supabase.com/docs|key|freemium|Open-source Postgres backend with auth, storage and edge functions, handy for agent app state.
+dev-sandbox|Neon|https://neon.com/|https://neon.com/docs|key|freemium|Serverless Postgres with instant branching, popular for giving agents disposable databases.
+dev-sandbox|Fly.io|https://fly.io/|https://fly.io/docs/|key|paid|Run containers close to users on fast-booting microVMs, with an API for machines.
+dev-sandbox|Langfuse|https://langfuse.com/|https://langfuse.com/docs|key|freemium|Open-source observability for LLM apps: traces, evals, prompt management and cost tracking.
+dev-sandbox|LangSmith|https://www.langchain.com/langsmith|https://docs.smith.langchain.com|key|freemium|Tracing, evaluation and monitoring platform for LLM applications and agents.
+payments-commerce|Stripe|https://stripe.com/|https://docs.stripe.com/api|key|paid|Payments platform with APIs for one-off charges, subscriptions, invoicing and Payment Links.
+payments-commerce|Lemon Squeezy|https://www.lemonsqueezy.com/|https://docs.lemonsqueezy.com|key|paid|Merchant-of-record platform for digital products that handles sales tax and VAT for you.
+payments-commerce|Shopify Admin API|https://shopify.dev/docs/api/admin|https://shopify.dev/docs/api/admin|oauth|paid|GraphQL and REST interfaces for managing products, orders and customers in a Shopify store.
+payments-commerce|PayPal Developer|https://developer.paypal.com/|https://developer.paypal.com/docs/api/overview/|oauth|paid|APIs for accepting PayPal and card payments, subscriptions and payouts.
+payments-commerce|Paddle|https://www.paddle.com/|https://developer.paddle.com|key|paid|Merchant of record for software sales, handling billing, tax and compliance.
+payments-commerce|Square APIs|https://developer.squareup.com/|https://developer.squareup.com/docs|oauth|paid|Payments, catalog, orders and inventory APIs for in-person and online sellers.
+payments-commerce|Polar|https://polar.sh/|https://docs.polar.sh|key|paid|Merchant-of-record billing built for developers selling software, subscriptions and digital products.
+payments-commerce|Coinbase Developer Platform|https://www.coinbase.com/developer-platform|https://docs.cdp.coinbase.com|key|freemium|APIs and wallets for onchain payments, including tooling for agents that transact in stablecoins.
+payments-commerce|x402|https://www.x402.org/|https://github.com/coinbase/x402#readme|none|free|Open protocol that revives HTTP 402 so an API can charge small per-request payments from agents.
+payments-commerce|Adyen|https://www.adyen.com/|https://docs.adyen.com|key|paid|Global payment platform for enterprises with unified online and in-store processing.
+payments-commerce|Wise Platform|https://wise.com/|https://docs.wise.com|oauth|paid|APIs for international transfers and multi-currency accounts at transparent exchange rates.
+payments-commerce|WooCommerce REST API|https://woocommerce.com/|https://woocommerce.github.io/woocommerce-rest-api-docs/|key|free|REST endpoints for managing products and orders in WordPress-based WooCommerce stores.
+payments-commerce|Plaid|https://plaid.com/|https://plaid.com/docs/|key|paid|Connects apps to users' bank accounts for balances, transactions and identity data.
+payments-commerce|Gumroad|https://gumroad.com/|https://gumroad.com/api|oauth|free|Simple storefront for selling digital goods, with a small API for sales and products.

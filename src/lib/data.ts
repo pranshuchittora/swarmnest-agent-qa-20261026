@@ -1,0 +1,12 @@
+import entries from '../../data/entries.json';
+import categories from '../../data/categories.json';
+export type Entry = (typeof entries)[number];
+export const SITE = 'https://swarmnest.ai';
+export const ALL: Entry[] = entries as Entry[];
+export const CATS = categories;
+export const catName = (slug: string) => CATS.find(c => c.slug === slug)!.name;
+export const byCat = (slug: string) => ALL.filter(e => e.category === slug);
+export const authLabel: Record<string,string> = { none: 'No auth', key: 'API key', oauth: 'OAuth' };
+export const priceLabel: Record<string,string> = { free: 'Free', freemium: 'Free tier', paid: 'Paid' };
+export const entryJson = (e: Entry) => ({ ...e, category_name: catName(e.category), swarmnest_url: `${SITE}/directory/${e.category}/${e.slug}/` });
+export const BUILD_DATE = '2026-10-14';

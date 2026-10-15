@@ -1,0 +1,38 @@
+---
+import '../styles.css';
+import { SITE } from '../lib/data';
+interface Props { title: string; description: string; path: string; jsonld?: object[]; type?: string; }
+const { title, description, path, jsonld = [], type = 'website' } = Astro.props;
+const canonical = SITE + path;
+const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarmnest',url:SITE,logo:SITE+'/favicon.svg',email:'hello@swarmnest.ai',description:'A directory of tools, APIs and data sources for AI agents, with agent use cases and a marketplace coming soon.' };
+const site = { '@context':'https://schema.org','@type':'WebSite',name:'Swarmnest',url:SITE };
+const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title}</title>
+<meta name="description" content={description}>
+<link rel="canonical" href={canonical}>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt">
+<link rel="alternate" type="application/json" href="/directory.json" title="Directory (JSON)">
+<meta property="og:site_name" content="Swarmnest"><meta property="og:type" content={type}>
+<meta property="og:title" content={title}><meta property="og:description" content={description}>
+<meta property="og:url" content={canonical}><meta property="og:image" content={SITE+'/og.png'}>
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content={title}><meta name="twitter:description" content={description}>
+{ld.map(o => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+ <a class="brand" href="/"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><use href="/favicon.svg#i"/></svg> Swarmnest</a>
+ <nav><a href="/directory/">Directory</a><a href="/use-cases/">Use cases</a><a href="/marketplace/">Marketplace</a><a href="/api/v1/directory.json">API</a><a href="/submit/">Submit a tool</a></nav>
+</div></header>
+<main class="wrap"><slot /></main>
+<footer><div class="wrap">
+ <div class="sponsor"><strong>Sponsor / advertise</strong> — reach people building with AI agents. <a href="mailto:hello@swarmnest.ai?subject=Sponsorship">Get in touch</a>.</div>
+ <p class="small">Swarmnest is not affiliated with the tools listed. Names and trademarks belong to their owners. Some links may become affiliate links; if so we will mark them and it never affects what we list. <em>(Affiliate disclosure placeholder.)</em></p>
+ <p class="small"><a href="/about/">About</a> · <a href="/submit/">Submit a tool</a> · <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="/llms.txt">llms.txt</a> · <a href="/openapi.json">OpenAPI</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a></p>
+</div></footer>
+</body></html>

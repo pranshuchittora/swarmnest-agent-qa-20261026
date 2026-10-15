@@ -1,0 +1,12 @@
+[
+ {"slug":"llm-apis","name":"LLM APIs","blurb":"Hosted language models and the gateways that route between them."},
+ {"slug":"search-apis","name":"Search APIs","blurb":"Web search and retrieval endpoints that give agents fresh information."},
+ {"slug":"scraping-browsing","name":"Scraping & Browsing","blurb":"Crawlers, headless browsers and page readers that let agents use the web."},
+ {"slug":"mcp-servers","name":"MCP Servers","blurb":"Model Context Protocol servers and tooling that plug agents into other software."},
+ {"slug":"agent-frameworks","name":"Agent Frameworks","blurb":"Libraries and platforms for building, orchestrating and running agents."},
+ {"slug":"memory-vector-dbs","name":"Memory & Vector DBs","blurb":"Vector databases and memory layers so agents can store and recall knowledge."},
+ {"slug":"open-data","name":"Open Data","blurb":"Free datasets and public APIs covering knowledge, science, economics and more."},
+ {"slug":"comms","name":"Comms","blurb":"Email, messaging, voice and chat APIs for agents that talk to people."},
+ {"slug":"dev-sandbox","name":"Dev & Sandbox","blurb":"Code execution, hosting, databases and observability for agent infrastructure."},
+ {"slug":"payments-commerce","name":"Payments & Commerce","blurb":"Payment, billing and storefront APIs for agents that sell or spend."}
+]
