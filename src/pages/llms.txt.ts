@@ -1,7 +1,8 @@
+import { PERSONAS, PRODUCTS } from '../lib/content';
 import { ALL, CATS, byCat, SITE } from '../lib/data';
 export const GET = () => new Response(`# Swarmnest
 
-> Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. Use cases/personas and a marketplace are coming soon.
+> Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has 8 agent personas, and a marketplace of own products that is coming soon.
 
 ## Machine-readable
 - [Directory JSON](${SITE}/directory.json): every entry with name, slug, category, description, url, docs_url, auth, pricing
@@ -20,6 +21,16 @@ ${CATS.map(c=>`- [${c.name}](${SITE}/directory/${c.slug}/): ${c.blurb} (${byCat(
 - [Submit a tool](${SITE}/submit/): email hello@swarmnest.ai
 - [Terms](${SITE}/terms/)
 - [Privacy](${SITE}/privacy/)
+- [Refunds](${SITE}/refunds/)
+- [Takedown](${SITE}/takedown/)
+
+## Use cases (personas)
+- [Index](${SITE}/use-cases/) and [JSON](${SITE}/api/v1/personas.json)
+${PERSONAS.map(p=>`- [${p.name}](${SITE}/use-cases/${p.slug}/): ${p.role}`).join('\n')}
+
+## Marketplace (coming soon, not for sale yet)
+- [Marketplace](${SITE}/marketplace/) and [JSON](${SITE}/api/v1/products.json)
+${PRODUCTS.map(p=>`- [${p.title}](${SITE}/marketplace/${p.slug}/): ${p.summary}`).join('\n')}
 
 ## Notes
 - Fields: auth is none, key or oauth; pricing is free, freemium or paid.

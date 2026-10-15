@@ -16,11 +16,11 @@ llm-apis|Cloudflare Workers AI|https://developers.cloudflare.com/workers-ai/|htt
 llm-apis|Ollama|https://ollama.com/|https://github.com/ollama/ollama/blob/main/docs/api.md|none|free|Run open-weight models locally and talk to them over a simple HTTP API on your own machine.
 search-apis|Brave Search API|https://brave.com/search/api/|https://api-dashboard.search.brave.com/app/documentation|key|freemium|Web, news, image and video search from an independent index, with a small free plan.
 search-apis|Tavily|https://tavily.com/|https://docs.tavily.com|key|freemium|Search and content extraction built for LLM agents, returning cleaned snippets rather than raw links.
-search-apis|Exa|https://exa.ai/|https://docs.exa.ai|key|paid|Neural search engine that finds pages by meaning, with content retrieval and similar-page lookups.
+search-apis|Exa|https://exa.ai/|https://docs.exa.ai|key|freemium|Neural search engine that finds pages by meaning, with content retrieval and similar-page lookups.
 search-apis|SerpApi|https://serpapi.com/|https://serpapi.com/search-api|key|freemium|Structured JSON results scraped from Google and other search engines, including maps and shopping.
 search-apis|Serper|https://serper.dev/|https://serper.dev/|key|freemium|Inexpensive Google search results as JSON, popular for quick agent lookups.
 search-apis|You.com API|https://you.com/|https://documentation.you.com|key|paid|Web search and research endpoints aimed at grounding AI applications with fresh sources.
-search-apis|Google Programmable Search|https://programmablesearchengine.google.com/|https://developers.google.com/custom-search/v1/overview|key|freemium|Query a custom set of sites, or the whole web, with Google's Custom Search JSON API and a daily free quota.
+search-apis|Google Programmable Search|https://programmablesearchengine.google.com/|https://developers.google.com/custom-search/v1/overview|key|freemium|Google's site-search API for up to 50 domains. The Custom Search JSON API is closed to new customers and ends on 1 January 2027, and whole-web search is no longer offered to new users.
 search-apis|SearXNG|https://github.com/searxng/searxng|https://docs.searxng.org|none|free|Self-hostable metasearch engine that aggregates many engines and can return JSON for agents.
 search-apis|Linkup|https://www.linkup.so/|https://docs.linkup.so|key|freemium|Search API focused on premium and licensed sources, returning answers with source attributions.
 search-apis|Kagi API|https://kagi.com/|https://help.kagi.com/kagi/api/overview.html|key|paid|Ad-free search plus summarizer and FastGPT endpoints for paying Kagi users.

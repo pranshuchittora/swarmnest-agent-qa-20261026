@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { PRODUCTS } from '../../lib/content';
+import { SITE } from '../../lib/data';
+export function getStaticPaths(){ return PRODUCTS.map(p=>({params:{product:p.slug},props:{p}})); }
+const { p } = Astro.props;
+const path=`/marketplace/${p.slug}/`;
+const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,description:p.summary,brand:{'@type':'Brand',name:'Swarmnest'},offers:{'@type':'Offer',availability:'https://schema.org/PreOrder',priceCurrency:'USD',url:SITE+path}},
+{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Marketplace',item:SITE+'/marketplace/'},{'@type':'ListItem',position:3,name:p.title,item:SITE+path}]}];
+---
+<Base title={`${p.title}: coming soon | Swarmnest`} description={`${p.summary} Coming soon from Swarmnest.`} path={path} jsonld={ld}>
+<p class="small"><a href="/marketplace/">Marketplace</a> › {p.title}</p>
+<h1>{p.title}</h1>
+<p class="lead">{p.summary}</p>
+<p><strong>Type:</strong> {p.type}<br><strong>Status:</strong> Coming soon<br><strong>{p.price}</strong> (not final)</p>
+<h2>Get notified</h2>
+<form action="mailto:hello@swarmnest.ai" method="post" enctype="text/plain"><p><input type="email" name="email" placeholder="you@example.com" required aria-label="Email"> <button class="btn" type="submit">Join the waitlist</button></p></form>
+<p class="small">Not purchasable yet. When it is, our <a href="/refunds/">refund policy</a> will apply.</p>
+</Base>

@@ -1,10 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { PRODUCTS } from '../../lib/content';
+import { SITE } from '../../lib/data';
+const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest marketplace (coming soon)',itemListElement:PRODUCTS.map((p,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/marketplace/${p.slug}/`,name:p.title}))}];
 ---
-<Base title="Marketplace — coming soon | Swarmnest" description="Skills, workflows and prompt packs for AI agents, coming soon to Swarmnest." path="/marketplace/">
+<Base title="Marketplace for AI agent skills, workflows and prompt packs | Swarmnest" description="Seven skills, workflows and prompt packs for AI agents, built by Swarmnest. Coming soon: join the waitlist." path="/marketplace/" jsonld={ld}>
 <h1>Marketplace</h1>
-<p class="lead">Coming soon. Skills, workflows and prompt packs for AI agents, coming soon to Swarmnest.</p>
-<p>Get notified when it launches:</p>
-<form action="mailto:hello@swarmnest.ai" method="post" enctype="text/plain"><p><input type="email" name="email" placeholder="you@example.com" required aria-label="Email"> <button class="btn" type="submit">Notify me</button></p><p class="small">Newsletter signup placeholder: this will become a proper signup form. For now it opens your email app.</p></form>
-<p><a href="/directory/">Browse the directory meanwhile →</a></p>
+<p class="lead">Skills, workflows and prompt packs for AI agents. These first seven are made by Swarmnest and are not on sale yet. Prices are planned and may change.</p>
+<div class="grid">{PRODUCTS.map(p=><a class="card" href={`/marketplace/${p.slug}/`}><h3>{p.title}</h3><p class="small">{p.type} · {p.price}</p><p>{p.summary}</p></a>)}</div>
+<h2>Waitlist</h2>
+<form action="mailto:hello@swarmnest.ai" method="post" enctype="text/plain"><p><input type="email" name="email" placeholder="you@example.com" required aria-label="Email"> <button class="btn" type="submit">Join the waitlist</button></p><p class="small">Opens your email app for now; a proper signup form is coming.</p></form>
+<p class="small">Selling something? Outside sellers are not open yet. See <a href="/refunds/">Refunds</a> and <a href="/takedown/">Takedown</a>.</p>
 </Base>

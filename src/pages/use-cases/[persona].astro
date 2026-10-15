@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { PERSONAS } from '../../lib/content';
+import { ALL, SITE } from '../../lib/data';
+export function getStaticPaths(){ return PERSONAS.map(p=>({params:{persona:p.slug},props:{p}})); }
+const { p } = Astro.props;
+const tools = p.tools.map(s=>ALL.find(e=>e.slug===s)).filter(Boolean);
+const path=`/use-cases/${p.slug}/`;
+const ld=[{'@context':'https://schema.org','@type':'HowTo',name:`How to set up a ${p.name} agent`,description:p.role,step:[
+ {'@type':'HowToStep',name:'Paste the instructions',text:p.instructions},
+ {'@type':'HowToStep',name:'Apply the guardrails',text:p.guardrails.join(' ')},
+ {'@type':'HowToStep',name:'Connect the tools',text:tools.map(t=>t.name).join(', ')}]},
+{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Use cases',item:SITE+'/use-cases/'},{'@type':'ListItem',position:3,name:p.name,item:SITE+path}]}];
+---
+<Base title={`${p.name} AI agent persona: instructions and tools | Swarmnest`} description={`${p.role} System prompt, guardrails, example prompts and tools for a ${p.name} agent.`} path={path} jsonld={ld}>
+<p class="small"><a href="/use-cases/">Use cases</a> › {p.name}</p>
+<h1>{p.name}</h1>
+<p class="lead">{p.role}</p>
+<p><strong>Tone:</strong> {p.tone}</p>
+<h2>Instructions</h2><p>{p.instructions}</p>
+<h2>Guardrails</h2><ul>{p.guardrails.map(g=><li>{g}</li>)}</ul>
+<h2>Example prompts</h2><ul>{p.prompts.map(g=><li>{g}</li>)}</ul>
+<h2>Tools this persona uses</h2>
+<ul>{tools.map(t=><li><a href={`/directory/${t.category}/${t.slug}/`}>{t.name}</a>: {t.description}</li>)}</ul>
+<p class="small">Starting point only; review and test before relying on it. <a href={`/api/v1/personas/${p.slug}.json`}>JSON</a></p>
+</Base>

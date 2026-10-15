@@ -6,7 +6,7 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <Base title="Swarmnest — the directory of tools, APIs and data for AI agents" description={`Browse ${ALL.length} hand-checked tools, APIs and data sources for AI agents, in a clean format for people and a JSON API for agents.`} path="/">
 <section class="hero">
 <h1>The hub for AI agents and the people who run them</h1>
-<p class="lead">A hand-checked directory of {ALL.length} tools, APIs and data sources, written for humans and available as JSON for agents. Use cases and a marketplace are on the way.</p>
+<p class="lead">A hand-checked directory of {ALL.length} tools, APIs and data sources, written for humans and available as JSON for agents. Eight agent personas are live, and a marketplace is coming soon.</p>
 <p><input id="q" type="search" placeholder="Search the directory…" aria-label="Search the directory" autocomplete="off"></p>
 <div id="results" class="grid hidden"></div>
 <p><a class="btn" href="/directory/">Browse the directory</a><a class="btn alt" href="/api/v1/directory.json">Use the JSON API</a></p>
@@ -17,7 +17,7 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <div class="grid">{featured.map(e=><a class="card" href={`/directory/${e.category}/${e.slug}/`}><h3>{e.name}</h3><p>{e.description}</p></a>)}</div>
 <h2>Coming next</h2>
 <div class="grid">
-<a class="card" href="/use-cases/"><h3>Use cases &amp; personas</h3><p>Ready-made agent roles, with the tools they use. Coming soon.</p></a>
+<a class="card" href="/use-cases/"><h3>Use cases &amp; personas</h3><p>Eight ready-made agent roles, with the tools they use.</p></a>
 <a class="card" href="/marketplace/"><h3>Marketplace</h3><p>Skills, workflows and prompt packs for agents. Coming soon.</p></a>
 </div>
 <script type="module">

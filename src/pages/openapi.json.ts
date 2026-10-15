@@ -8,5 +8,8 @@ export const GET = () => new Response(JSON.stringify({
   '/api/v1/directory.json':{get:{operationId:'listDirectory',summary:'List all directory entries',responses:json({type:'object',properties:{count:{type:'integer'},entries:{type:'array',items:entry}}})}},
   '/api/v1/directory/{slug}.json':{get:{operationId:'getEntry',summary:'Get one entry by slug',parameters:[{name:'slug',in:'path',required:true,schema:{type:'string'}}],responses:{...json(entry),'404':{description:'Not found'}}}},
   '/api/v1/categories.json':{get:{operationId:'listCategories',summary:'List categories with entry counts',responses:json({type:'object'})}},
+  '/api/v1/personas.json':{get:{operationId:'listPersonas',summary:'List agent personas',responses:json({type:'object'})}},
+  '/api/v1/personas/{slug}.json':{get:{operationId:'getPersona',summary:'Get one persona',parameters:[{name:'slug',in:'path',required:true,schema:{type:'string'}}],responses:json({type:'object'})}},
+  '/api/v1/products.json':{get:{operationId:'listProducts',summary:'List marketplace products (coming soon, not for sale)',responses:json({type:'object'})}},
   '/directory.json':{get:{operationId:'directoryJson',summary:'Full directory snapshot (same data as /api/v1/directory.json)',responses:json({type:'object'})}}
  }},null,1),{headers:{'content-type':'application/json; charset=utf-8','access-control-allow-origin':'*'}});

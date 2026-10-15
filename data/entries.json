@@ -241,7 +241,7 @@
   "url": "https://exa.ai/",
   "docs_url": "https://docs.exa.ai",
   "auth": "key",
-  "pricing": "paid",
+  "pricing": "freemium",
   "http_status": 200,
   "last_checked_at": "2026-10-14",
   "status": "active"
@@ -289,7 +289,7 @@
   "name": "Google Programmable Search",
   "slug": "google-programmable-search",
   "category": "search-apis",
-  "description": "Query a custom set of sites, or the whole web, with Google's Custom Search JSON API and a daily free quota.",
+  "description": "Google's site-search API for up to 50 domains. The Custom Search JSON API is closed to new customers and ends on 1 January 2027, and whole-web search is no longer offered to new users.",
   "url": "https://programmablesearchengine.google.com/",
   "docs_url": "https://developers.google.com/custom-search/v1/overview",
   "auth": "key",
