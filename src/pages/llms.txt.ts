@@ -1,3 +1,4 @@
+import { LAUNCH } from '../lib/config';
 import { PERSONAS, PRODUCTS } from '../lib/content';
 import { ALL, CATS, byCat, SITE } from '../lib/data';
 export const GET = () => new Response(`# Swarmnest
@@ -30,9 +31,9 @@ ${CATS.map(c=>`- [${c.name}](${SITE}/directory/${c.slug}/): ${c.blurb} (${byCat(
 - [Index](${SITE}/use-cases/) and [JSON](${SITE}/api/v1/personas.json)
 ${PERSONAS.map(p=>`- [${p.name}](${SITE}/use-cases/${p.slug}/): ${p.role}`).join('\n')}
 
-## Marketplace (coming soon, not for sale yet)
+## Marketplace (${LAUNCH?'for sale':'coming soon, not for sale yet'})
 - [Marketplace](${SITE}/marketplace/) and [JSON](${SITE}/api/v1/products.json)
-${PRODUCTS.map(p=>`- [${p.title}](${SITE}/marketplace/${p.slug}/): ${p.summary}`).join('\n')}
+${PRODUCTS.map(p=>`- [${p.title}](${SITE}/marketplace/${p.slug}/): ${p.summary}${LAUNCH?' ('+p.price+')':''}`).join('\n')}
 
 ## Notes
 - Fields: auth is none, key or oauth; pricing is free, freemium or paid.

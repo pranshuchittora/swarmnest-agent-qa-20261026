@@ -3,13 +3,13 @@ import Signup from '../../components/Signup.astro';
 import Base from '../../layouts/Base.astro';
 import { PRODUCTS } from '../../lib/content';
 import { SITE } from '../../lib/data';
-const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest marketplace (coming soon)',itemListElement:PRODUCTS.map((p,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/marketplace/${p.slug}/`,name:p.title}))}];
+import { LAUNCH } from '../../lib/config';
+const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest marketplace',itemListElement:PRODUCTS.map((p,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/marketplace/${p.slug}/`,name:p.title}))}];
 ---
-<Base title="Marketplace for AI agent skills, workflows and prompt packs | Swarmnest" description="Seven skills, workflows and prompt packs for AI agents, built by Swarmnest. Coming soon: join the waitlist." path="/marketplace/" jsonld={ld}>
+<Base title="Marketplace for AI agent skills, workflows and prompt packs | Swarmnest" description={`Seven skills, workflows and prompt packs for AI agents, built by Swarmnest, from $9. ${LAUNCH?'Instant download after purchase.':'Coming soon.'}`} path="/marketplace/" jsonld={ld}>
 <h1>Marketplace</h1>
-<p class="lead">Skills, workflows and prompt packs for AI agents. These first seven are made by Swarmnest and are not on sale yet. Prices are planned and may change.</p>
-<div class="grid">{PRODUCTS.map(p=><a class="card" href={`/marketplace/${p.slug}/`}><h3>{p.title}</h3><p class="small">{p.type} · {p.price}</p><p>{p.summary}</p></a>)}</div>
-<h2>Waitlist</h2>
-<Signup list="waitlist" source="marketplace" button="Join the waitlist" />
-<p class="small">Selling something? Outside sellers are not open yet. See <a href="/refunds/">Refunds</a> and <a href="/takedown/">Takedown</a>.</p>
+<p class="lead">Skills, workflows and prompt packs for AI agents, made by Swarmnest. {LAUNCH ? 'Pay once, get an instant download (readable files plus a zip). One-time price, personal and commercial use.' : 'Launching soon. Prices are shown below.'}</p>
+<div class="grid">{PRODUCTS.map(p=><a class="card" href={`/marketplace/${p.slug}/`}><h3>{p.title}</h3><p class="small">{p.type} · <strong>{p.price}</strong>{LAUNCH ? '' : ' · coming soon'}</p><p>{p.summary}</p></a>)}</div>
+{!LAUNCH && <><h2>Get notified at launch</h2><Signup list="waitlist" source="marketplace" button="Notify me" /></>}
+<p class="small">See the <a href="/license/">product license</a>, <a href="/refunds/">refund policy</a> and <a href="/tax/">tax notes</a>. Selling something? Outside sellers are not open yet; see <a href="/creator-agreement/">the creator agreement</a> and <a href="/takedown/">Takedown</a>.</p>
 </Base>

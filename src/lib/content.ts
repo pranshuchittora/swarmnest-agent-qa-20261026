@@ -41,11 +41,11 @@ export const PERSONAS = [
    prompts:['Write five post options announcing our new feature, each with a different angle.','Summarize this week\'s mentions and flag anything needing a human reply.','Turn this blog post into a short thread draft.'] },
 ];
 export const PRODUCTS = [
- { slug:'web-research-skill-pack', title:'Web Research Skill Pack', type:'Skill pack', summary:'Search, read and cite: a reusable skill with a strict JSON output schema for sourced answers.', price:'Planned: $19' },
- { slug:'lead-research-workflow', title:'Lead Research Workflow', type:'Workflow', summary:'Find and qualify prospects from public sources. Includes an n8n workflow and a plain-script version.', price:'Planned: $29' },
- { slug:'customer-support-prompt-pack', title:'Customer Support Prompt Pack', type:'Prompt pack', summary:'Prompts for answering from docs, escalating, tone control and ticket summaries.', price:'Planned: $15' },
- { slug:'content-repurposing-workflow', title:'Content Repurposing Workflow', type:'Workflow', summary:'Turn one article or video transcript into posts, a newsletter section and a summary.', price:'Planned: $19' },
- { slug:'mcp-server-starter-kit', title:'MCP Server Starter Kit', type:'Starter kit', summary:'A Cloudflare Workers template for building and deploying your own MCP server, with examples.', price:'Planned: $24' },
- { slug:'agent-eval-guardrails-pack', title:'Agent Eval & Guardrails Pack', type:'Prompt pack', summary:'Test cases, rubrics and guardrail prompts to check an agent before you trust it.', price:'Planned: $29' },
- { slug:'persona-bundle', title:'Persona Bundle', type:'Persona pack', summary:'All eight launch personas as ready-to-use system prompts and JSON.', price:'Planned: $9' },
+ { slug:'web-research-skill-pack', title:'Web Research Skill Pack', type:'Skill pack', summary:'Search, read and cite: a reusable skill with a strict JSON output schema for sourced answers.', price:'$19', cents:1900 },
+ { slug:'lead-research-workflow', title:'Lead Research Workflow', type:'Workflow', summary:'Find and qualify prospects from public sources. Includes an n8n workflow and a plain-script version.', price:'$29', cents:2900 },
+ { slug:'customer-support-prompt-pack', title:'Customer Support Prompt Pack', type:'Prompt pack', summary:'Prompts for answering from docs, escalating, tone control and ticket summaries.', price:'$15', cents:1500 },
+ { slug:'content-repurposing-workflow', title:'Content Repurposing Workflow', type:'Workflow', summary:'Turn one article or video transcript into posts, a newsletter section and a summary.', price:'$19', cents:1900 },
+ { slug:'mcp-server-starter-kit', title:'MCP Server Starter Kit', type:'Starter kit', summary:'A Cloudflare Workers template for building and deploying your own MCP server, with examples.', price:'$24', cents:2400 },
+ { slug:'agent-eval-guardrails-pack', title:'Agent Eval & Guardrails Pack', type:'Prompt pack', summary:'Test cases, rubrics and guardrail prompts to check an agent before you trust it.', price:'$29', cents:2900 },
+ { slug:'persona-bundle', title:'Persona Bundle', type:'Persona pack', summary:'All eight launch personas as ready-to-use system prompts and JSON.', price:'$9', cents:900 },
 ];

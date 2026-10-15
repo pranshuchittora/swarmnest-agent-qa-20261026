@@ -1,0 +1,35 @@
+import { onRequestGet as dl } from '../functions/download/[[path]].js';
+import { sendDeliveryEmail, buildDeliveryEmail } from '../functions/_lib/email.js';
+import { onRequestPost as hook } from '../functions/api/stripe-webhook.js';
+import { createHmac } from 'crypto';
+const ok=(c,n)=>{console.log(c?'PASS':'FAIL',n); if(!c) process.exitCode=1;};
+const store=new Map(); const kv={get:async(k)=>store.has(k)?store.get(k):null,put:async(k,v)=>{store.set(k,v)}};
+const T='a'.repeat(64);
+store.set('dl:'+T,JSON.stringify({slug:'persona-bundle',expires:Date.now()+1e6,count:0}));
+store.set('pm:persona-bundle',JSON.stringify(['README.md','personas/x/persona.json']));
+store.set('pf:persona-bundle:README.md','# hi'); store.set('pf:persona-bundle:personas/x/persona.json','{"a":1}');
+store.set('file:persona-bundle-v1.0.zip',new Uint8Array([80,75]).buffer);
+const env={SIGNUPS:kv,FILES:kv};
+const get=(path,q='')=>dl({params:{path},env,request:{url:'https://x/download/'+path.join('/')+q}});
+let r=await get([T]); let h=await r.text(); ok(r.status===200&&r.headers.get('content-type').startsWith('text/html')&&h.includes('/f/personas/x/persona.json')&&h.includes('/zip'),'list page');
+r=await get([T,'f','README.md']); ok(r.status===200&&r.headers.get('content-type')==='text/plain; charset=utf-8'&&r.headers.get('content-disposition').startsWith('inline')&&await r.text()==='# hi','view md');
+r=await get([T,'f','personas','x','persona.json'],'?dl=1'); ok(r.headers.get('content-disposition').startsWith('attachment'),'save json');
+r=await get([T,'f','..','etc']); ok(r.status===404,'traversal');
+r=await get([T,'f','nope.md']); ok(r.status===404,'missing file');
+r=await get([T,'zip']); ok(r.status===200&&r.headers.get('content-type')==='application/zip','zip'); ok(JSON.parse(store.get('dl:'+T)).count===1,'count');
+r=await get(['zz']); ok(r.status===404,'bad token');
+store.set('dl:'+T,JSON.stringify({slug:'persona-bundle',expires:Date.now()-1,count:0})); r=await get([T,'f','README.md']); ok(r.status===410,'expired');
+// email
+ok((await sendDeliveryEmail({},{to:'a@b.co',slug:'persona-bundle',token:T,sessionId:'cs_test_1'})).skipped,'noop without key');
+let sent; const f=async(u,o)=>{sent={u,o};return {ok:true,status:200}};
+ok((await sendDeliveryEmail({RESEND_API_KEY:'k'},{to:'a@b.co',slug:'persona-bundle',token:T,sessionId:'cs_test_1'},f)).sent && JSON.parse(sent.o.body).text.includes('/download/'+T),'sends');
+ok((await sendDeliveryEmail({RESEND_API_KEY:'k'},{to:null,slug:'persona-bundle',token:T,sessionId:'c'},f)).skipped,'no recipient');
+ok(!(await sendDeliveryEmail({RESEND_API_KEY:'k'},{to:'a@b.co',slug:'persona-bundle',token:T,sessionId:'c'},async()=>{throw new Error('x')})).sent,'fetch error swallowed');
+// webhook with no key
+const price='price_1UQiiz6aC1E09RZY6BordMgo';
+globalThis.fetch=async()=>({ok:true,json:async()=>({object:'checkout.session',payment_status:'paid',line_items:{data:[{price:{id:price}}]}})});
+const body=JSON.stringify({id:'evt_1',type:'checkout.session.completed',data:{object:{id:'cs_test_abc',customer_details:{email:'a@b.co'}}}});
+const t=Math.floor(Date.now()/1000), sig=createHmac('sha256','wh').update(`${t}.${body}`).digest('hex');
+store.clear();
+const res=await hook({request:{text:async()=>body,headers:{get:()=>`t=${t},v1=${sig}`}},env:{...env,STRIPE_WEBHOOK_SECRET:'wh',STRIPE_API_KEY:'x'}});
+ok(res.status===200&&JSON.parse(store.get('order:cs_test_abc')).emailed===false,'webhook ok without RESEND key');

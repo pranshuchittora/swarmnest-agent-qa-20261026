@@ -3,27 +3,38 @@ import Signup from '../../components/Signup.astro';
 import Base from '../../layouts/Base.astro';
 import { PRODUCTS } from '../../lib/content';
 import { SITE } from '../../lib/data';
+import { LAUNCH, BUY_URLS } from '../../lib/config';
+import FILES from '../../lib/product-files.json';
 export function getStaticPaths(){ return PRODUCTS.map(p=>({params:{product:p.slug},props:{p}})); }
 const { p } = Astro.props;
 const path=`/marketplace/${p.slug}/`;
-const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,description:p.summary,brand:{'@type':'Brand',name:'Swarmnest'},offers:{'@type':'Offer',availability:'https://schema.org/PreOrder',priceCurrency:'USD',url:SITE+path}},
+const files=(FILES as Record<string,string[]>)[p.slug]||[];
+const buy=BUY_URLS[p.slug];
+const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,description:p.summary,brand:{'@type':'Brand',name:'Swarmnest'},offers:{'@type':'Offer',availability:LAUNCH?'https://schema.org/InStock':'https://schema.org/PreOrder',priceCurrency:'USD',price:String(p.cents/100),url:SITE+path}},
 {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Marketplace',item:SITE+'/marketplace/'},{'@type':'ListItem',position:3,name:p.title,item:SITE+path}]}];
 ---
-<Base title={`${p.title}: coming soon | Swarmnest`} description={`${p.summary} Coming soon from Swarmnest.`} path={path} jsonld={ld}>
+<Base title={`${p.title} (${p.price}) | Swarmnest`} description={`${p.summary} ${p.price}, one-time purchase, instant download.`} path={path} jsonld={ld}>
 <p class="small"><a href="/marketplace/">Marketplace</a> › {p.title}</p>
 <div id="thanks" hidden class="lead"><h2>Thank you for your purchase</h2><p id="thanks-msg">Verifying your payment…</p></div>
 <h1>{p.title}</h1>
 <p class="lead">{p.summary}</p>
-<p><strong>Type:</strong> {p.type}<br><strong>Status:</strong> Coming soon<br><strong>{p.price}</strong> (not final)</p>
-<h2>Get notified</h2>
-<Signup list="waitlist" source={`product:${p.slug}`} interest={p.slug} button="Join the waitlist" />
-<p class="small">Not purchasable yet. When it is, our <a href="/refunds/">refund policy</a> will apply.</p>
+<p><strong>Type:</strong> {p.type}<br><strong>Price:</strong> {p.price} USD, one-time<br><strong>Format:</strong> readable text files (Markdown, JSON, scripts) plus a zip</p>
+<p>
+{LAUNCH && buy ? <a class="btn" href={buy}>Buy now: {p.price}</a> : <span class="btn alt" aria-disabled="true">Coming soon: {p.price}</span>}
+</p>
+{LAUNCH ? <p class="small">Secure checkout by Stripe. You get a download page right after paying, and a copy by email.</p> : <><h2>Get notified at launch</h2><Signup list="waitlist" source={`product:${p.slug}`} interest={p.slug} button="Notify me" /></>}
+<h2>What's included</h2>
+<ul class="small">{files.map(f=><li><code>{f}</code></li>)}</ul>
+<h2>License and refunds</h2>
+<p class="small">One buyer per purchase; personal and commercial use; no resale or redistribution. Read the <a href="/license/">product license</a> and <a href="/refunds/">refund policy</a>. Questions: hello@swarmnest.ai.</p>
+<h2>Already bought this?</h2>
+<p class="small">Your download link lasts 72 hours. To get a fresh one, open the confirmation page from your receipt or email (the page address ends with <code>?thanks=1&amp;session_id=…</code>). Bookmark that page and it will always give you a new link. A way to look up past orders by email is coming; until then write hello@swarmnest.ai from your purchase email.</p>
 </Base>
 
 <script is:inline>
 (function(){var q=new URLSearchParams(location.search);if(q.get('thanks')!=='1')return;var id=q.get('session_id');var box=document.getElementById('thanks'),m=document.getElementById('thanks-msg');box.hidden=false;
 if(!id){m.textContent='Missing order reference. Email hello@swarmnest.ai.';return;}
 fetch('/api/fulfill?session_id='+encodeURIComponent(id)).then(function(r){return r.json()}).then(function(d){
-if(d.ok){m.innerHTML='Your payment is confirmed. <a href="'+d.url+'"><strong>Download your files</strong></a> (link valid 72 hours; bookmark this page to get a fresh link). We cannot email it yet, so please save the file now.';}
+if(d.ok){m.innerHTML='Payment confirmed. <a href="'+d.url+'"><strong>Open your download page</strong></a>: tap any file to read it (works on iPhone), or get the zip. The link is valid 72 hours. <strong>Bookmark this page</strong>: opening it again always gives you a fresh link. We also email the link to your purchase address (check spam if it does not arrive).';}
 else{m.textContent=d.error+' If you were charged, email hello@swarmnest.ai.';}}).catch(function(){m.textContent='Could not verify payment. Reload, or email hello@swarmnest.ai.';});})();
 </script>

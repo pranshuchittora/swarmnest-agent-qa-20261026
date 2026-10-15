@@ -6,3 +6,4 @@ Source for [swarmnest.ai](https://swarmnest.ai), a hub for AI agents. Astro stat
 
 ## Signups
 `functions/api/subscribe.js` stores newsletter/waitlist signups in the Pages KV binding `SIGNUPS` (namespace `swarmnest-signups`), keys `sub:<email>`, status `pending` until a confirmation email flow exists.
+- Files for individual delivery are uploaded via: node scripts/product-files.mjs && wrangler kv:bulk put /workspace/kv-files-bulk.json --namespace-id <FILES id>
