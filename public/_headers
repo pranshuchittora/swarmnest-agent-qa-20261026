@@ -2,3 +2,6 @@
   Access-Control-Allow-Origin: *
 /llms.txt
   Content-Type: text/plain; charset=utf-8
+
+/download/*
+  X-Robots-Tag: noindex

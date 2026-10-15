@@ -11,6 +11,7 @@ const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,descri
 ---
 <Base title={`${p.title}: coming soon | Swarmnest`} description={`${p.summary} Coming soon from Swarmnest.`} path={path} jsonld={ld}>
 <p class="small"><a href="/marketplace/">Marketplace</a> › {p.title}</p>
+<div id="thanks" hidden class="lead"><h2>Thank you for your purchase</h2><p id="thanks-msg">Verifying your payment…</p></div>
 <h1>{p.title}</h1>
 <p class="lead">{p.summary}</p>
 <p><strong>Type:</strong> {p.type}<br><strong>Status:</strong> Coming soon<br><strong>{p.price}</strong> (not final)</p>
@@ -18,3 +19,11 @@ const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,descri
 <Signup list="waitlist" source={`product:${p.slug}`} interest={p.slug} button="Join the waitlist" />
 <p class="small">Not purchasable yet. When it is, our <a href="/refunds/">refund policy</a> will apply.</p>
 </Base>
+
+<script is:inline>
+(function(){var q=new URLSearchParams(location.search);if(q.get('thanks')!=='1')return;var id=q.get('session_id');var box=document.getElementById('thanks'),m=document.getElementById('thanks-msg');box.hidden=false;
+if(!id){m.textContent='Missing order reference. Email hello@swarmnest.ai.';return;}
+fetch('/api/fulfill?session_id='+encodeURIComponent(id)).then(function(r){return r.json()}).then(function(d){
+if(d.ok){m.innerHTML='Your payment is confirmed. <a href="'+d.url+'"><strong>Download your files</strong></a> (link valid 72 hours; bookmark this page to get a fresh link). We cannot email it yet, so please save the file now.';}
+else{m.textContent=d.error+' If you were charged, email hello@swarmnest.ai.';}}).catch(function(){m.textContent='Could not verify payment. Reload, or email hello@swarmnest.ai.';});})();
+</script>
