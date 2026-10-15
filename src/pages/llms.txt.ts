@@ -21,6 +21,8 @@ ${CATS.map(c=>`- [${c.name}](${SITE}/directory/${c.slug}/): ${c.blurb} (${byCat(
 - [Submit a tool](${SITE}/submit/): email hello@swarmnest.ai
 - [Terms](${SITE}/terms/)
 - [Privacy](${SITE}/privacy/)
+- [API terms](${SITE}/api-terms/)
+- [All legal policies](${SITE}/legal/)
 - [Refunds](${SITE}/refunds/)
 - [Takedown](${SITE}/takedown/)
 

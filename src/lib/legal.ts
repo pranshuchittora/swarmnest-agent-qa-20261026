@@ -1,0 +1,16 @@
+export const LEGAL: [string, string, string][] = [
+  ['/terms/','Terms of Use','The main rules for using swarmnest.ai, buying products and using our data.'],
+  ['/privacy/','Privacy Policy','What personal information we collect, why, who we share it with and your rights.'],
+  ['/cookies/','Cookie Notice','Which cookies and similar technologies are involved, and why there is no cookie banner.'],
+  ['/do-not-sell/','Do Not Sell or Share','Our California (CCPA) notice: we do not sell or share personal information.'],
+  ['/acceptable-use/','Acceptable Use Policy','What you may not do with the site, the API or our products.'],
+  ['/license/','Product License','What you can and cannot do with prompt packs, workflows and skills you buy.'],
+  ['/refunds/','Refund Policy','Our 14-day window for defective or undelivered digital products, and how to ask.'],
+  ['/tax/','Sales Tax Notes','How sales tax and VAT are handled at checkout.'],
+  ['/disclosure/','Sponsored & Affiliate Disclosure','How we label paid placements and affiliate links.'],
+  ['/api-terms/','API Terms','Rules for the public JSON API, llms.txt and other machine-readable data.'],
+  ['/takedown/','Takedown & Corrections','Copyright (DMCA) notices, counter-notices and directory correction or removal requests.'],
+  ['/dmca/','DMCA Designated Agent','Where to send copyright notices.'],
+  ['/creator-agreement/','Creator Agreement (draft)','Draft terms for third-party sellers, once the marketplace opens to them.'],
+  ['/accessibility/','Accessibility Statement','Our accessibility goals, known limitations and how to report a problem.'],
+];

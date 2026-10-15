@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LEGAL } from '../../lib/legal';
+---
+<Base title="Legal | Swarmnest" description="Terms, privacy, refunds, licensing, disclosure, API terms and takedown policies for swarmnest.ai." path="/legal/">
+<h1>Legal</h1>
+<p class="lead">The policies that apply to swarmnest.ai, written in plain English.</p>
+<p class="small">Last updated Oct 15, 2026. These are drafts written by Swarmnest. They have not yet been reviewed by a lawyer and they are not legal advice. Swarmnest is owned and operated by J S in California, USA. Contact: <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a>.</p>
+<div class="grid">{LEGAL.map(([u, t, d]) => <a class="card" href={u}><h3>{t}</h3><p>{d}</p></a>)}</div>
+</Base>

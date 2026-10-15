@@ -1,0 +1,40 @@
+---
+import Legal from '../../components/Legal.astro';
+---
+<Legal title="API Terms" heading="API Terms" description="Terms for the Swarmnest public JSON API, OpenAPI description, llms.txt and other machine-readable directory data." path="/api-terms/">
+<p>Swarmnest publishes its directory for people and for machines. These terms cover our machine-readable data: the JSON API (such as <code>/api/v1/directory.json</code>, <code>/api/v1/categories.json</code> and <code>/directory.json</code>), <a href="/openapi.json">/openapi.json</a>, <a href="/llms.txt">/llms.txt</a>, <code>/llms-full.txt</code>, the sitemap, and the public pages themselves when read by software (together, the "API"). They are part of our <a href="/terms/">Terms of Use</a>.</p>
+
+<h2>1. Access</h2>
+<ul>
+<li>The API is free, needs no key, and allows cross-origin requests from browsers.</li>
+<li>Search engines, AI assistants, agents and other crawlers are welcome, as our <code>robots.txt</code> says. AI systems may read, index, summarize and cite our public pages and data.</li>
+<li>We may introduce keys, rate limits or paid tiers in the future and will update these terms if we do.</li>
+</ul>
+
+<h2>2. What you may do</h2>
+<ul>
+<li>Use the data in your own apps, agents, tools, research and websites, including commercial ones.</li>
+<li>Store and cache the data, and transform or combine it with other data.</li>
+<li>Show the data to your users, as long as you follow the attribution rule below.</li>
+</ul>
+
+<h2>3. Attribution</h2>
+<p>When you show our data to others in a meaningful amount (for example, more than a few entries, or our descriptions), credit it as "Data from Swarmnest" with a link to <a href="https://swarmnest.ai">https://swarmnest.ai</a> or to the relevant entry's <code>swarmnest_url</code>. AI assistants citing individual facts should link to the source page where practical.</p>
+
+<h2>4. What you may not do</h2>
+<ul>
+<li>Republish the whole directory, or a substantial part of it, as a competing directory or dataset, or sell or license the data as a standalone product, without our written permission.</li>
+<li>Imply that Swarmnest endorses you or your product, or remove "Sponsored" or similar labels from data you republish.</li>
+<li>Send so many requests that you degrade the Service for others. Please cache responses (the data changes infrequently), use reasonable intervals, back off on errors, and identify your client with a descriptive User-Agent that includes contact details.</li>
+<li>Use the API to access anything not public, such as paid product files, checkout or account areas, or in any way that breaks the <a href="/acceptable-use/">Acceptable Use Policy</a>.</li>
+</ul>
+
+<h2>5. Data quality</h2>
+<p>The data is provided as is. Entries are summaries written in good faith and fields such as pricing, authentication and status may be out of date or wrong. Status checks are automated. Check vendors' own sites before relying on the data, and do not use it as the sole basis for security, legal or purchasing decisions. Third-party names and trademarks in the data belong to their owners.</p>
+
+<h2>6. Changes and availability</h2>
+<p>We aim to keep the <code>/api/v1/</code> format stable and to add fields rather than remove them, but we may change, limit or discontinue the API at any time. We may block clients that break these terms or put the Service at risk.</p>
+
+<h2>7. Contact</h2>
+<p>For higher-volume use, bulk data, partnerships or problems with the API, email <a href="mailto:hello@swarmnest.ai?subject=API">hello@swarmnest.ai</a>. To correct a listing, see <a href="/takedown/">Takedown &amp; Corrections</a>.</p>
+</Legal>

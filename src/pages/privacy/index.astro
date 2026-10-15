@@ -1,10 +1,75 @@
 ---
-import Base from '../../layouts/Base.astro';
+import Legal from '../../components/Legal.astro';
 ---
-<Base title="Privacy Policy | Swarmnest" description="How swarmnest.ai handles data: no accounts, no ad trackers, privacy-friendly analytics only." path="/privacy/">
-<h1>Privacy Policy</h1><p class="small">Draft, last updated 14 October 2026. Placeholder pending legal review.</p>
-<h2>What we collect</h2><p>The site has no accounts. Our hosting provider, Cloudflare, processes standard request logs (such as IP address and user agent) to deliver and protect the site. We may add Cloudflare Web Analytics, which does not use cookies or track individuals across sites.</p>
-<h2>Email</h2><p>If you email <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a>, we keep the message to reply to you. If a newsletter launches, we will store only the address you give us, use it for that newsletter, and include an unsubscribe link in every issue.</p>
-<h2>Sharing</h2><p>We do not sell personal data. Service providers such as Cloudflare process data on our behalf.</p>
-<h2>Your choices</h2><p>Email us to ask what we hold or to have it deleted.</p>
-</Base>
+<Legal title="Privacy Policy" heading="Privacy Policy" description="How Swarmnest collects, uses, shares and keeps personal information, including Stripe payments, Cloudflare analytics, email and your CCPA and GDPR rights." path="/privacy/">
+<p>This policy explains how Swarmnest (owned and operated by J S in California, USA; "we", "us") handles personal information when you use swarmnest.ai, our API, our marketplace and our emails. We are the party responsible for your information (the "controller" under laws such as the GDPR). Contact: <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a>.</p>
+<p><strong>The short version:</strong> there are no user accounts today, we do not run advertising trackers, we do not sell or share your personal information for advertising, and we collect only what we need to run the site, sell products and answer you.</p>
+
+<h2>1. What we collect</h2>
+<h3>When you visit the site or call the API</h3>
+<p>Our hosting and network provider, Cloudflare, processes standard request data to deliver and protect the site: IP address, browser or client type (user agent), the page or endpoint requested, referring page, date and time, and approximate location derived from the IP address. Cloudflare uses this for security (for example, blocking attacks and bots) and gives us aggregated traffic statistics. We may also turn on Cloudflare Web Analytics, a privacy-focused tool that counts page views and performance without cookies and without building profiles of individual visitors. We do not use Google Analytics, ad pixels or cross-site tracking.</p>
+<h3>When you email us</h3>
+<p>If you email <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a> (including to submit a tool, request a correction or takedown, ask about sponsorship, or join the waitlist through the email link on our marketplace pages), we receive your email address, name if you include it, and whatever you write.</p>
+<h3>When you join the newsletter or waitlist</h3>
+<p>We collect your email address and the date you signed up. If we use an email service to send the newsletter, it may record whether emails are delivered, opened or clicked, so we can see what is useful. We will name that service in this policy when the newsletter launches.</p>
+<h3>When you buy something</h3>
+<p>Checkout is handled by Stripe. Stripe collects your payment details, email address, and billing details such as name, country and postal code (and sometimes a full address or tax ID, where needed to calculate tax). We do not receive or store your full card number. Stripe gives us your name, email, billing country and postal code, what you bought, the amount, tax charged, and limited card details such as the card brand and last four digits. Stripe also uses device and transaction data to prevent fraud. Stripe's use of your information is described in the <a href="https://stripe.com/privacy" rel="noopener">Stripe Privacy Policy</a>.</p>
+<h3>If we add accounts or third-party sellers</h3>
+<p>We would collect your login email, profile details and purchase history; for sellers, the identity, business, tax and payout information that we and Stripe need to pay you and meet legal obligations. We will update this policy before launching those features.</p>
+<p>We do not intentionally collect sensitive personal information (such as health data, precise location or government ID numbers) from buyers, and we ask you not to send it to us.</p>
+
+<h2>2. Why we use it</h2>
+<table>
+<tr><th>Purpose</th><td>Information</td><td>GDPR legal basis</td></tr>
+<tr><th>Running, securing and fixing the site and API</th><td>Request data</td><td>Legitimate interests (keeping the Service working and safe)</td></tr>
+<tr><th>Understanding traffic in aggregate</th><td>Request data, cookieless analytics</td><td>Legitimate interests</td></tr>
+<tr><th>Selling and delivering products, receipts, support, refunds</th><td>Order and contact data</td><td>Performing our contract with you</td></tr>
+<tr><th>Tax, accounting, fraud prevention and legal compliance</th><td>Order and payment data</td><td>Legal obligation; legitimate interests</td></tr>
+<tr><th>Replying to emails, submissions, corrections and takedowns</th><td>What you send us</td><td>Legitimate interests; legal obligation for copyright notices</td></tr>
+<tr><th>Newsletter and waitlist emails</th><td>Email address</td><td>Your consent, which you can withdraw at any time</td></tr>
+</table>
+<p>We do not use your information for automated decisions that have legal or similarly significant effects on you, and we do not use personal information you send us to train AI models.</p>
+
+<h2>3. Who we share it with</h2>
+<p>We do not sell personal information, and we do not share it for cross-context behavioral advertising. We share it only with:</p>
+<ul>
+<li><strong>Service providers</strong> that process it for us: Cloudflare (hosting, security, analytics), Stripe (payments, tax calculation, fraud prevention), our email provider for the hello@swarmnest.ai mailbox, and, once launched, our newsletter provider. They may only use it to provide their services to us.</li>
+<li><strong>Creators</strong>, if we later open the marketplace to outside sellers: when you buy a creator's product, we may share your name, email and order details with that creator so they can support the product and meet their own legal duties.</li>
+<li><strong>People who send copyright notices or counter-notices</strong>, as required by the DMCA process described on our <a href="/takedown/">Takedown page</a>.</li>
+<li><strong>Authorities and others where the law requires</strong>, or where needed to protect rights, safety or the Service, such as in response to valid legal process.</li>
+<li><strong>A buyer or successor</strong> if Swarmnest is sold, merged or reorganized, under a policy at least as protective as this one.</li>
+</ul>
+
+<h2>4. Cookies</h2>
+<p>We do not set advertising or tracking cookies. Cloudflare may set strictly necessary security cookies, and Stripe sets cookies on its own checkout pages. See the <a href="/cookies/">Cookie Notice</a>.</p>
+
+<h2>5. How long we keep it</h2>
+<ul>
+<li>Order and payment records: as long as needed for tax, accounting and legal purposes, generally up to 7 years after the purchase.</li>
+<li>Emails and submissions: as long as needed to deal with them, and generally no longer than 2 years after our last contact, unless we need them for a legal claim. Copyright notices and counter-notices may be kept longer as a record.</li>
+<li>Newsletter and waitlist: until you unsubscribe or ask us to delete your address. We may keep a minimal record that you unsubscribed so we do not email you again.</li>
+<li>Request logs and analytics: held by Cloudflare for limited periods under its own retention practices; we keep only aggregated statistics.</li>
+</ul>
+
+<h2>6. Your rights</h2>
+<p>Wherever you live, you can ask us to tell you what personal information we hold about you, give you a copy, correct it, or delete it, and you can unsubscribe from marketing emails at any time. Email <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a>. We will reply within 30 days (45 days for California requests, which the law allows us to extend once by another 45 days where reasonably necessary). We may need to confirm your identity, usually by asking you to reply from the email address we have on file. We will not treat you differently for using your rights.</p>
+<h3>California residents (CCPA/CPRA)</h3>
+<p>California law gives you the right to know what personal information we collect, use and disclose; to delete it; to correct it; to opt out of its sale or sharing; to limit use of sensitive personal information; and not to be discriminated against for using these rights. You may use an authorized agent, and we may ask the agent for proof that you authorized them. In the last 12 months we have collected these categories: identifiers (such as email and IP address), commercial information (purchases), internet activity (request data), approximate geolocation derived from IP, and the content of messages you send us. Sources are you, your device, and our service providers. Purposes are those in section 2. We disclose them only to the recipients in section 3, for business purposes. We do not sell or share personal information and have not done so; see <a href="/do-not-sell/">Do Not Sell or Share</a>. We do not use or disclose sensitive personal information for purposes that would trigger the right to limit. We do not disclose personal information to third parties for their own direct marketing (California "Shine the Light" law).</p>
+<h3>EU, EEA and UK residents (GDPR/UK GDPR)</h3>
+<p>You have the rights to access, correct, delete, restrict or object to our use of your personal information, to data portability, and to withdraw consent at any time (this does not affect use before you withdrew). You can complain to your local data protection authority. We are based in the US, so your information is processed in the US and by providers such as Cloudflare and Stripe, which use recognized transfer mechanisms such as standard contractual clauses or the EU-US Data Privacy Framework where available.</p>
+
+<h2>7. Do Not Track and Global Privacy Control</h2>
+<p>We do not track you across other websites, so we do not change our behavior in response to browser "Do Not Track" signals. We treat a Global Privacy Control (GPC) signal as a request to opt out of sale or sharing; since we do not sell or share personal information, no further action is needed today.</p>
+
+<h2>8. Children</h2>
+<p>The Service is not directed at children under 13, and buying requires being 18 or older. We do not knowingly collect personal information from children under 13 (or under 16 in the EU/UK without parental consent). If you believe a child has sent us personal information, email us and we will delete it.</p>
+
+<h2>9. Security</h2>
+<p>We use reputable providers, HTTPS throughout the site, and limit who can access personal information. No method of transmission or storage is completely secure, so we cannot guarantee security. If a breach affects your personal information, we will notify you where the law requires.</p>
+
+<h2>10. Changes</h2>
+<p>We will update this policy when our practices change, for example when the newsletter, accounts or third-party sellers launch, and change the "Last updated" date. For significant changes we will give notice on the site or by email where we have your address.</p>
+
+<h2>11. Contact</h2>
+<p>Swarmnest, owned and operated by J S, California, USA. Email: <a href="mailto:hello@swarmnest.ai?subject=Privacy">hello@swarmnest.ai</a>.</p>
+</Legal>
