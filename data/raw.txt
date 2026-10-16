@@ -77,7 +77,7 @@ memory-vector-dbs|pgvector|https://github.com/pgvector/pgvector|https://github.c
 memory-vector-dbs|LanceDB|https://lancedb.com/|https://lancedb.github.io/lancedb/|none|free|Embedded, serverless vector database storing data in an open columnar format.
 memory-vector-dbs|Mem0|https://mem0.ai/|https://docs.mem0.ai|key|freemium|Memory layer that lets agents remember user facts and preferences across sessions.
 memory-vector-dbs|Zep|https://www.getzep.com/|https://help.getzep.com|key|freemium|Long-term memory for agents built on a temporal knowledge graph of conversations and data.
-memory-vector-dbs|Letta|https://www.letta.com/|https://docs.letta.com|key|freemium|Platform for stateful agents with self-managed memory, descended from the MemGPT research project.
+agent-frameworks|Letta|https://www.letta.com/|https://docs.letta.com|key|freemium|Platform for stateful agents with self-managed memory, descended from the MemGPT research project.
 memory-vector-dbs|Turbopuffer|https://turbopuffer.com/|https://turbopuffer.com/docs|key|paid|Serverless search engine on object storage combining vector and full-text queries at low cost.
 memory-vector-dbs|Redis Vector Search|https://redis.io/docs/latest/develop/ai/search-and-query/|https://redis.io/docs/latest/develop/ai/search-and-query/|key|freemium|Vector similarity and hybrid search inside Redis, handy when you already use it for caching.
 knowledge-bases|Wikidata|https://www.wikidata.org/|https://www.wikidata.org/wiki/Wikidata:Data_access|none|free|Free collaborative knowledge base of structured facts, queryable by SPARQL and a REST API.
@@ -89,7 +89,7 @@ academic-research|arXiv API|https://arxiv.org/|https://info.arxiv.org/help/api/i
 academic-research|OpenAlex|https://openalex.org/|https://docs.openalex.org|none|free|Open index of scholarly works, authors and institutions, with a generous free API.
 weather|Open-Meteo|https://open-meteo.com/|https://open-meteo.com/en/docs|none|free|Keyless weather forecast and historical data API, free for non-commercial use.
 government-statistics|World Bank Open Data|https://data.worldbank.org/|https://datahelpdesk.worldbank.org/knowledgebase/topics/125589|none|free|Development indicators for countries worldwide, available via a simple JSON API.
-open-data|REST Countries|https://restcountries.com/|https://restcountries.com/#api-endpoints-v3|none|free|Simple API returning facts such as capitals, currencies and languages for every country.
+knowledge-bases|REST Countries|https://restcountries.com/|https://restcountries.com/#api-endpoints-v3|none|free|Simple API returning facts such as capitals, currencies and languages for every country.
 open-data|NASA Open APIs|https://api.nasa.gov/|https://api.nasa.gov/|key|free|Free API key unlocks astronomy picture of the day, Mars rover photos, near-earth objects and more.
 news|GDELT Project|https://www.gdeltproject.org/|https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/|none|free|Monitors global news in many languages and exposes searchable event and article data.
 datasets|Hugging Face Datasets|https://huggingface.co/datasets|https://huggingface.co/docs/datasets-server|none|free|Hub of community datasets with a viewer API for browsing and downloading them.
@@ -246,12 +246,12 @@ llm-apis|Weights & Biases Weave|https://wandb.ai/site/weave/|https://docs.wandb.
 llm-apis|LangWatch|https://langwatch.ai/|https://langwatch.ai/docs/self-hosting/overview|unknown|unknown|Trace, test, route and govern every LLM call in your company, from your own agents to the coding assistants your engineers use. Built for AI platform teams.
 llm-apis|Traceloop|https://traceloop.com/|https://www.traceloop.com/docs/introduction|unknown|unknown|Traceloop turns evals and monitors into a continuous feedback loop - so every release gets better
 llm-apis|Arize AI|https://arize.com/|https://arize.com/docs/ax/|unknown|unknown|Continuously improve AI agents with agent observability, evaluation, tracing, and experimentation.
-llm-apis|Galileo|https://galileo.ai/|https://v2docs.galileo.ai/what-is-galileo|unknown|unknown|Galileo's AI observability and evaluation platform empowers AI teams to evaluate, monitor, and protect GenAI applications and agents at enterprise scale.
+llm-apis|Galileo|https://galileo.ai/|https://galileo.ai/|unknown|unknown|Galileo's AI observability and evaluation platform empowers AI teams to evaluate, monitor, and protect GenAI applications and agents at enterprise scale.
 llm-apis|Braintrust|https://www.braintrust.dev/|https://www.braintrust.dev/docs|unknown|unknown|Ship quality agents at scale. Braintrust is the AI observability platform for tracing production, running evals, and catching regressions before they reach users.
 llm-apis|PromptLayer|https://www.promptlayer.com/|https://docs.promptlayer.com/|unknown|unknown|PromptLayer is the prompt management platform for AI teams. Version prompts, run LLM evals, and monitor agents in production with tracing, logs, and regression sets.
 llm-apis|Humanloop|https://humanloop.com/|https://humanloop.com/docs/guides/migrating-from-humanloop|unknown|unknown|Humanloop is joining Anthropic to accelerate the adoption of AI, safely.
 llm-apis|Haystack|https://github.com/deepset-ai/haystack|https://github.com/deepset-ai/haystack/tree/main/docs-website|none|free|Open-source AI orchestration framework for building context-engineered, production-ready LLM applications.
-llm-apis|TGI (Text Generation Inference)|https://github.com/huggingface/text-generation-inference|http://hf.co/docs/text-generation-inference|none|free|Large Language Model Text Generation Inference.
+llm-apis|TGI (Text Generation Inference)|https://github.com/huggingface/text-generation-inference|https://github.com/huggingface/text-generation-inference|none|free|Large Language Model Text Generation Inference.
 llm-apis|SGLang|https://github.com/sgl-project/sglang|https://github.com/sgl-project/sglang/tree/main/docs|none|free|SGLang is a high-performance serving framework for large language models and multimodal models.
 llm-apis|TensorRT-LLM|https://github.com/NVIDIA/TensorRT-LLM|https://github.com/NVIDIA/TensorRT-LLM/tree/main/docs|none|free|TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA.
 llm-apis|LM Studio|https://lmstudio.ai/|https://lmstudio.ai/docs/bionic|unknown|unknown|Bionic is LM Studio's agent for work and code. Create documents, slides, PDFs, and software with local or frontier open models.
@@ -266,7 +266,7 @@ llm-apis|Inflection AI API|https://inflection.ai/|https://inflection.ai/|unknown
 llm-apis|OpenLLM (self‑hosted gateway)|https://github.com/bentoml/OpenLLM|https://docs.bentoml.com/en/latest/guides/build-options.html|none|free|Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.
 llm-apis|KoboldAI API (2024 revamp)|https://github.com/KoboldAI/KoboldAI-Client|https://github.com/KoboldAI/KoboldAI-Client|none|free|For GGUF support, see KoboldCPP: https://github.com/LostRuins/koboldcpp
 llm-apis|LiteLLM|https://github.com/BerriAI/litellm|https://docs.litellm.ai/docs/|none|free|The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure.
-search-apis|DataForSEO|https://dataforseo.com/|https://dataforseo.com/|unknown|unknown|We provide comprehensive data solutions for SEO and SEM analytics via API. DataForSEO is a trusted partner for 750+ SEO software companies and agencies.
+seo-tools|DataForSEO|https://dataforseo.com/|https://dataforseo.com/|unknown|unknown|We provide comprehensive data solutions for SEO and SEM analytics via API. DataForSEO is a trusted partner for 750+ SEO software companies and agencies.
 scraping-browsing|ScraperAPI|https://www.scraperapi.com/|https://docs.scraperapi.com/making-requests/structured-data-collection-method/amazon-product-page-api|unknown|unknown|ScraperAPI is a web scraping API that lets you collect data from any public website without worrying about proxies, browsers, or CAPTCHAs.
 scraping-browsing|Oxylabs|https://oxylabs.io/|https://oxylabs.io/|unknown|unknown|Access fresh, reliable web data at any scale with APIs built for AI and premium proxies. Power agents and applications with 177M+ IPs and robust infrastructure.
 search-apis|Qwant API|https://www.qwant.com/api|https://www.qwant.com/api|unknown|unknown|Fast, reliable answers and still in trust: Qwant does not store your search data, does not sell your personal data and is hosted in Europe.
@@ -286,7 +286,7 @@ site-search-engines|ZincSearch|https://github.com/zincsearch/zincsearch|https://
 site-search-engines|RediSearch|https://github.com/RediSearch/RediSearch|https://redis.io/docs/latest/develop/ai/search-and-query/|none|free|A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggregations.
 site-search-engines|Whoosh|https://github.com/mchaput/whoosh|https://github.com/mchaput/whoosh/tree/main/docs|none|free|Pure-Python full-text search library.
 search-apis|Searx|https://github.com/searx/searx|https://github.com/searx/searx/tree/master/docs|none|free|Privacy-respecting metasearch engine.
-site-search-engines|Elasticlunr.js|https://github.com/weixsong/elasticlunr.js|http://elasticlunr.com/docs/index.html|none|free|Based on lunr.js, but more flexible and customized.
+site-search-engines|Elasticlunr.js|https://github.com/weixsong/elasticlunr.js|https://github.com/weixsong/elasticlunr.js|none|free|Based on lunr.js, but more flexible and customized.
 site-search-engines|ElasticSearch-Python|https://github.com/elastic/elasticsearch-py|https://github.com/elastic/elasticsearch-py/tree/main/docs|none|free|Official Python client for Elasticsearch.
 site-search-engines|ElasticSearch-Java|https://github.com/elastic/elasticsearch|https://github.com/elastic/elasticsearch/tree/main/docs|none|free|Free and Open Source, Distributed, RESTful Search Engine
 site-search-engines|ElasticSearch-Node|https://github.com/elastic/elasticsearch-js|https://github.com/elastic/elasticsearch-js/tree/main/docs|none|free|Official Elasticsearch client library for Node.js.
@@ -355,12 +355,12 @@ browser-automation|Crawlee|https://crawlee.dev/|https://crawlee.dev/|unknown|unk
 browser-automation|Nodriver|https://github.com/ultrafunkamsterdam/nodriver|https://github.com/ultrafunkamsterdam/nodriver/tree/main/docs|none|free|Successor of Undetected-Chromedriver. Providing a blazing fast framework for web automation, webscraping, bots and any other creative ideas which are normally hindered by annoying anti bot.
 browser-automation|undetected-chromedriver|https://github.com/ultrafunkamsterdam/undetected-chromedriver|https://github.com/ultrafunkamsterdam/undetected-chromedriver|none|free|Custom Selenium Chromedriver / Zero-Config / Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)
 browser-automation|Patchright|https://github.com/Kaliiiiiiiiii-Vinyzu/patchright|https://scrappey.com/docs?utm_source=patchright&utm_medium=github&utm_campaign=repo_readme|none|free|Undetected version of the Playwright testing and automation library.
-proxy-services|HAProxy|https://www.haproxy.org/|http://docs.haproxy.org/|unknown|unknown|Reliable, High Performance TCP/HTTP Load Balancer
+proxy-services|HAProxy|https://www.haproxy.org/|https://www.haproxy.org/|unknown|unknown|Reliable, High Performance TCP/HTTP Load Balancer
 scraping-libraries|Colly|https://github.com/gocolly/colly|https://github.com/gocolly/colly|none|free|Elegant Scraper and Crawler Framework for Golang.
 scraping-libraries|Goutte|https://github.com/FriendsOfPHP/Goutte|https://github.com/FriendsOfPHP/Goutte|none|free|Goutte, a simple PHP Web Scraper.
 content-extraction|Newspaper3k|https://github.com/codelucas/newspaper|https://github.com/codelucas/newspaper/tree/master/docs|none|free|newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:
 content-extraction|Readability.js|https://github.com/mozilla/readability|https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP|none|free|A standalone version of the readability lib.
-scraping-libraries|Scrapy-Selenium|https://github.com/clemfromspace/scrapy-selenium|http://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.webdriver|none|free|Scrapy middleware to handle javascript pages using selenium
+scraping-libraries|Scrapy-Selenium|https://github.com/clemfromspace/scrapy-selenium|https://github.com/clemfromspace/scrapy-selenium|none|free|Scrapy middleware to handle javascript pages using selenium
 browser-automation|Headless Chrome|https://github.com/puppeteer/puppeteer|https://github.com/puppeteer/puppeteer/tree/main/docs|none|free|JavaScript API for Chrome and Firefox.
 browser-automation|Headless Firefox|https://github.com/mozilla/geckodriver|https://firefox-source-docs.mozilla.org/testing/geckodriver/|none|free|WebDriver Classic proxy for automating Firefox through Marionette
 scraping-libraries|Scrapy-Selector|https://github.com/scrapy/scrapy|https://github.com/scrapy/scrapy/tree/master/docs|none|free|Scrapy, a fast high-level web crawling & scraping framework for Python.
@@ -373,7 +373,7 @@ no-code-scrapers|WebScraper.io|https://webscraper.io/|https://webscraper.io/|unk
 proxy-services|Free Proxy List|https://free-proxy-list.net/|https://free-proxy-list.net/|unknown|unknown|Here are the latest 300 free proxies that are just checked and added into our proxy list. The proxy list is updated every 10 minutes to keep fresh.
 proxy-services|ProxyScrape|https://proxyscrape.com/free-proxy-list|https://docs.proxyscrape.com/|unknown|unknown|Free proxy list with thousands of HTTP, HTTPS, SOCKS4 and SOCKS5 proxies across 180+ countries. Verified by automated checkers and refreshed every minute.
 scraping-browsing|Zenscrape (Free tier)|https://zenscrape.com/|https://app.zenscrape.com/documentation|unknown|unknown|Zenscrape offers a robust web scraping API for fast, reliable data extraction. Try our free scraping API to scrape data easily and efficiently.
-scraping-libraries|MechanicalSoup (Python)|https://github.com/MechanicalSoup/MechanicalSoup|http://mechanicalsoup.readthedocs.io/en/stable/|none|free|A Python library for automating interaction with websites.
+scraping-libraries|MechanicalSoup (Python)|https://github.com/MechanicalSoup/MechanicalSoup|https://github.com/MechanicalSoup/MechanicalSoup|none|free|A Python library for automating interaction with websites.
 scraping-libraries|Requests-HTML|https://github.com/psf/requests-html|https://github.com/psf/requests-html/tree/master/docs|none|free|Pythonic HTML Parsing for Humans™.
 browser-automation|Headless Chrome (via Chrome DevTools)|https://developer.chrome.com/docs/devtools/remote-debugging/|https://developer.chrome.com/docs|unknown|unknown|Remote debug live content on an Android device from a Windows, Mac, or Linux computer.
 no-code-scrapers|WebCopy (Cyotek)|https://www.cyotek.com/cyotek-webcopy|https://docs.cyotek.com/cyowcopy/current/|unknown|unknown|Cyotek WebCopy is a free tool for automatically downloading the content of a website onto your local device. WebCopy will scan the specified website and download its content.
@@ -413,7 +413,7 @@ agent-frameworks|Jina AI|https://jina.ai/|https://docs.jina.ai|unknown|unknown|E
 agent-frameworks|LlamaIndex (GPT Index)|https://github.com/run-llama/llama_index|https://github.com/run-llama/llama_index/tree/main/docs|none|free|LlamaIndex is the document processing platform for AI
 memory-vector-dbs|Weaviate with Generative Search|https://github.com/weaviate/weaviate|https://github.com/weaviate/weaviate/tree/main/docs|none|free|Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and.
 agent-frameworks|Rasa Open Source (conversational agents)|https://github.com/RasaHQ/rasa|https://rasa.com/docs/rasa/|none|free|💬 Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice.
-agent-frameworks|Botpress|https://github.com/botpress/botpress|https://docs.botpress.cloud|none|free|The open-source hub to build & deploy GPT/LLM Agents ⚡️
+agent-frameworks|Botpress|https://github.com/botpress/botpress|https://github.com/botpress/botpress|none|free|The open-source hub to build & deploy GPT/LLM Agents ⚡️
 agent-frameworks|LangChain Hub|https://github.com/langchain-ai/langchain|https://docs.langchain.com/langchain/|none|free|The agent engineering platform.
 agent-frameworks|AgentOps|https://www.agentops.ai/|https://docs.agentops.ai/v1/examples/examples|unknown|unknown|Trace, Debug, & Deploy Reliable AI Agents.
 memory-vector-dbs|Weaviate AI Agent Integration|https://docs.weaviate.io/query-agent|https://docs.weaviate.io/query-agent|unknown|unknown|Get an overview of the Weaviate Query Agent and what it can do.
@@ -455,7 +455,7 @@ memory-vector-dbs|DiskANN|https://github.com/microsoft/DiskANN|https://github.co
 memory-vector-dbs|CockroachDB|https://www.cockroachlabs.com/|https://docs.cockroachlabs.com/|unknown|unknown|Cockroach Labs develops CockroachDB and Cockroach Continuum, an agentic database cloud-native, distributed SQL database designed for extreme resilience, seamless horizontal scaling, and.
 memory-vector-dbs|TiDB|https://www.pingcap.com/|https://www.pingcap.com/|unknown|unknown|TiDB is the distributed SQL database built for AI agents. Vectors, transactions, and analytics in one engine with ACID guarantees and elastic scale.
 memory-vector-dbs|SingleStore|https://www.singlestore.com/|https://www.singlestore.com/|unknown|unknown|SingleStore is the real-time database for AI, apps and analytics. Build intelligent experiences with live reads and writes, one engine for transactions and analytics, and open data access.
-memory-vector-dbs|ClickHouse|https://clickhouse.com/|https://clickhouse.com/docs/get-started/about/why-clickhouse-is-so-fast|unknown|unknown|ClickHouse is a fast open-source column-oriented database management system that allows generating analytical data reports in real-time using SQL queries
+data-etl|ClickHouse|https://clickhouse.com/|https://clickhouse.com/docs/get-started/about/why-clickhouse-is-so-fast|unknown|unknown|ClickHouse is a fast open-source column-oriented database management system that allows generating analytical data reports in real-time using SQL queries
 databases-backend|Apache Pinot|https://pinot.apache.org/|https://docs.pinot.apache.org|unknown|unknown|Open-source distributed OLAP database for user-facing apps and AI agents. Query fresh streaming data with sub-second latency, high concurrency, and petabyte-scale performance.
 databases-backend|Apache Spark|https://spark.apache.org/|https://spark.apache.org/docs/latest/quick-start.html|unknown|unknown|Apache Spark is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.
 databases-backend|Databricks|https://www.databricks.com/|https://www.databricks.com/|unknown|unknown|Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data + AI Platform.
@@ -475,7 +475,7 @@ databases-backend|DB2|https://www.ibm.com/products/db2|https://www.ibm.com/docs/
 databases-backend|Sybase|https://www.sybase.com/|https://www.sybase.com/|unknown|unknown|SAP acquired Sybase in 2010 to drive forward the realization of its in-memory computing vision.
 databases-backend|Elastic Search with k-NN plugin|https://www.elastic.co/|https://www.elastic.co/|unknown|unknown|Powered by Elasticsearch. Ready to deploy your data? Start free.
 databases-backend|NMSLIB|https://github.com/nmslib/nmslib|https://github.com/nmslib/nmslib/tree/master/docs|none|free|Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
-databases-backend|RedisGraph|https://github.com/RedisGraph/RedisGraph|https://redis.io/docs/stack/graph/|none|free|A graph database as a Redis module.
+databases-backend|RedisGraph|https://github.com/RedisGraph/RedisGraph|https://github.com/RedisGraph/RedisGraph|none|free|A graph database as a Redis module.
 databases-backend|DuckDB with vector extension|https://duckdb.org/|https://duckdb.org/docs/current|unknown|unknown|DuckDB is a SQL OLAP database management system. Simple, feature-rich, fast & open source.
 databases-backend|Neo4j Graph Data Science with vector similarity|https://neo4j.com/|https://neo4j.com/|unknown|unknown|Connect data as it's stored with Neo4j. Perform powerful, complex queries at scale and speed with our graph data platform.
 databases-backend|Cohere Vector Search API (free tier)|https://cohere.com/|https://cohere.com/developers|unknown|unknown|Cohere builds powerful models and AI solutions enabling enterprises to automate processes, empower employees, and turn fragmented data into actionable insights.
@@ -499,7 +499,7 @@ environment-hazards|USGS Earthquake Hazards Program|https://earthquake.usgs.gov/
 open-data|OpenStreetMap Data Download|https://download.geofabrik.de/|https://download.geofabrik.de/|unknown|unknown|Download OpenStreetMap data for OpenStreetMap Data Extracts for self-hosting or data analysis. OSM PBF and Shapefiles available.
 databases-backend|CKAN|https://ckan.org/|https://ckan.org/|unknown|unknown|CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data.
 databases-backend|DataHub|https://github.com/datahub-project/datahub|https://github.com/datahub-project/datahub/tree/master/docs-website|none|free|The Context Platform for your Data and AI Stack.
-databases-backend|Socrata Open Data API (SODA) client library (Python)|https://github.com/Socrata/sodapy|http://docs.python-requests.org/en/latest/|none|free|Python bindings for the Socrata Open Data API.
+databases-backend|Socrata Open Data API (SODA) client library (Python)|https://github.com/Socrata/sodapy|https://github.com/Socrata/sodapy|none|free|Python bindings for the Socrata Open Data API.
 government-statistics|Data.gov Catalog API|https://github.com/GSA/data.gov|https://github.com/GSA/data.gov/tree/main/docs|none|free|Main repository for the data.gov service.
 open-data|Superset (Apache)|https://github.com/apache/superset|https://github.com/apache/superset/tree/master/docs|none|free|Apache Superset is a Data Visualization and Data Exploration Platform
 open-data|ElasticSearch + Kibana for open data|https://github.com/elastic/kibana|https://github.com/elastic/kibana/tree/main/docs-dev|none|free|Your window into all of your data.
@@ -718,7 +718,7 @@ serverless-hosting|Fly.io Community|https://community.fly.io/|https://community.
 serverless-hosting|Fly.io Blog|https://fly.io/blog/|https://docs.fly.io/about/brand|unknown|unknown|News, tips, and tricks from the team at Fly
 serverless-hosting|Fly.io Support|https://fly.io/support/|https://fly.io/support/|unknown|unknown|Fly.io support engineers are working developers. Compare support plans, first-response times and what each includes, from personal projects to large teams.
 serverless-hosting|Fly.io Security|https://fly.io/security/|https://fly.io/security/|unknown|unknown|Fly.io was designed by vulnerability researchers. Tenants never share a kernel, and containers run as hardware-isolated microVMs on our own hardware.
-serverless-hosting|OpenFaaS Cloud|https://github.com/openfaas/openfaas-cloud|https://docs.openfaas.com/openfaas-cloud/intro/|none|free|The Multi-user OpenFaaS Platform.
+serverless-hosting|OpenFaaS Cloud|https://github.com/openfaas/openfaas-cloud|https://github.com/openfaas/openfaas-cloud|none|free|The Multi-user OpenFaaS Platform.
 serverless-hosting|OpenWhisk (Apache)|https://github.com/apache/openwhisk|https://github.com/apache/openwhisk/tree/master/docs|none|free|Apache OpenWhisk is an open source serverless cloud platform
 serverless-hosting|Fission (Serverless)|https://github.com/fission/fission|https://github.com/fission/fission/tree/main/docs|none|free|Fast and Simple Serverless Functions for Kubernetes
 cloud-dev-environments|Katacoda Interactive Scenarios|https://www.katacoda.com/|https://www.katacoda.com/|unknown|unknown|Learn the latest technologies with our hands-on labs
@@ -805,7 +805,7 @@ speech-transcription|Coqui TTS|https://github.com/coqui-ai/TTS|https://github.co
 speech-transcription|Vosk Server|https://github.com/alphacep/vosk-server|https://github.com/alphacep/vosk-server|none|free|WebSocket, gRPC and WebRTC speech recognition server based on Vosk and Kaldi libraries
 speech-transcription|Buzz|https://github.com/chidiwilliams/buzz|https://github.com/chidiwilliams/buzz/tree/main/docs|none|free|Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.
 speech-transcription|WhisperX|https://github.com/m-bain/whisperX|https://docs.nvidia.com/cuda/cuda-installation-guide-linux/|none|free|WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
-speech-transcription|pyannote.audio|https://github.com/pyannote/pyannote-audio|https://docs.pytorch.org/torchcodec/|none|free|Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding - GitHub
+speech-transcription|pyannote.audio|https://github.com/pyannote/pyannote-audio|https://github.com/pyannote/pyannote-audio|none|free|Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding - GitHub
 speech-transcription|3D-Speaker|https://github.com/modelscope/3D-Speaker|https://github.com/modelscope/3D-Speaker/tree/main/docs/images|none|free|A Repository for Single- and Multi-modal Speaker Verification, Speaker Recognition and Speaker Diarization
 speech-transcription|WeSpeaker|https://github.com/wenet-e2e/wespeaker|https://github.com/wenet-e2e/wespeaker/tree/master/docs|none|free|Research and Production Oriented Speaker Verification, Recognition and Diarization Toolkit
 speech-transcription|GigaSpeech|https://github.com/SpeechColab/GigaSpeech|https://github.com/SpeechColab/GigaSpeech|none|free|Large, modern dataset for speech recognition.
@@ -1500,3 +1500,390 @@ code-execution|CodeSandbox SDK|https://codesandbox.io/docs/sdk|https://codesandb
 code-execution|Runloop|https://www.runloop.ai/|https://docs.runloop.ai/|key|paid|Devboxes for AI coding agents.
 code-execution|Morph Cloud|https://morph.so/|https://cloud.morph.so/docs|key|paid|Infinibranch cloud for agents.
 code-execution|Gitpod / Ona|https://ona.com/|https://ona.com/docs|oauth|freemium|Cloud development environments.
+mcp-servers|Filesystem MCP Server|https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem|https://github.com/modelcontextprotocol/servers|none|free|Reference MCP server for secure local file operations.
+mcp-servers|Fetch MCP Server|https://github.com/modelcontextprotocol/servers/tree/main/src/fetch|https://github.com/modelcontextprotocol/servers|none|free|Reference MCP server that fetches web pages and converts them to markdown.
+mcp-servers|Memory MCP Server|https://github.com/modelcontextprotocol/servers/tree/main/src/memory|https://github.com/modelcontextprotocol/servers|none|free|Reference knowledge-graph memory MCP server.
+mcp-servers|Git MCP Server|https://github.com/modelcontextprotocol/servers/tree/main/src/git|https://github.com/modelcontextprotocol/servers|none|free|Reference MCP server for reading and manipulating Git repositories.
+mcp-servers|Sequential Thinking MCP Server|https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking|https://github.com/modelcontextprotocol/servers|none|free|Reference MCP server for dynamic, reflective problem solving.
+mcp-servers|Slack MCP Server|https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack|https://github.com/modelcontextprotocol/servers-archived|key|free|Archived reference MCP server for Slack workspaces.
+mcp-servers|Postgres MCP Server|https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres|https://github.com/modelcontextprotocol/servers-archived|none|free|Archived reference MCP server for read-only PostgreSQL access.
+mcp-servers|Atlassian Remote MCP|https://www.atlassian.com/platform/remote-mcp-server|https://www.atlassian.com/platform/remote-mcp-server|oauth|free|Atlassian's remote MCP server for Jira and Confluence.
+mcp-servers|Neon MCP|https://github.com/neondatabase/mcp-server-neon|https://neon.com/docs/ai/neon-mcp-server|key|free|Neon's MCP server for Postgres management.
+mcp-servers|Figma Dev Mode MCP|https://help.figma.com/hc/en-us/articles/32132100833559|https://help.figma.com/hc/en-us/articles/32132100833559|oauth|free|Figma's MCP server giving agents design context.
+mcp-servers|Firecrawl MCP|https://github.com/mendableai/firecrawl-mcp-server|https://docs.firecrawl.dev/mcp|key|freemium|Firecrawl's MCP server for scraping and crawling.
+mcp-servers|Brave Search MCP|https://github.com/brave/brave-search-mcp-server|https://github.com/brave/brave-search-mcp-server|key|freemium|Brave's official MCP server for web search.
+mcp-servers|Tavily MCP|https://github.com/tavily-ai/tavily-mcp|https://docs.tavily.com/documentation/mcp|key|freemium|Tavily's MCP server for search and extraction.
+mcp-servers|Exa MCP|https://github.com/exa-labs/exa-mcp-server|https://docs.exa.ai/reference/exa-mcp|key|freemium|Exa's MCP server for web search.
+mcp-servers|Puppeteer MCP Server|https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer|https://github.com/modelcontextprotocol/servers-archived|none|free|Archived reference MCP server for browser automation with Puppeteer.
+mcp-servers|Docker MCP Toolkit|https://docs.docker.com/ai/mcp-catalog-and-toolkit/|https://docs.docker.com/ai/mcp-catalog-and-toolkit/|none|free|Docker's toolkit to run and manage MCP servers in containers.
+mcp-servers|Kubernetes MCP Server|https://github.com/containers/kubernetes-mcp-server|https://github.com/containers/kubernetes-mcp-server|none|free|MCP server for Kubernetes and OpenShift.
+mcp-servers|Terraform MCP Server|https://github.com/hashicorp/terraform-mcp-server|https://developer.hashicorp.com/terraform/mcp-server|none|free|HashiCorp's MCP server for Terraform registry and workspaces.
+mcp-servers|AWS MCP Servers|https://github.com/awslabs/mcp|https://awslabs.github.io/mcp/|oauth|free|AWS Labs' collection of MCP servers.
+mcp-servers|Azure MCP Server|https://github.com/Azure/azure-mcp|https://learn.microsoft.com/azure/developer/azure-mcp-server/|oauth|free|Microsoft's MCP server for Azure services.
+mcp-servers|Google Workspace MCP|https://github.com/taylorwilsdon/google_workspace_mcp|https://github.com/taylorwilsdon/google_workspace_mcp|oauth|free|Community MCP server for Gmail, Drive, Calendar and Docs.
+mcp-servers|MCP Inspector|https://github.com/modelcontextprotocol/inspector|https://modelcontextprotocol.io/docs/tools/inspector|none|free|Visual testing tool for MCP servers.
+mcp-servers|MCP TypeScript SDK|https://github.com/modelcontextprotocol/typescript-sdk|https://modelcontextprotocol.io/docs/sdk|none|free|Official TypeScript SDK for MCP.
+mcp-servers|MCP Python SDK|https://github.com/modelcontextprotocol/python-sdk|https://modelcontextprotocol.io/docs/sdk|none|free|Official Python SDK for MCP.
+mcp-servers|mcp-remote|https://github.com/geelen/mcp-remote|https://github.com/geelen/mcp-remote|none|free|Bridge allowing local MCP clients to talk to remote servers.
+llm-apis|AI21 Studio|https://www.ai21.com/studio|https://docs.ai21.com/|key|freemium|Jamba models via API.
+llm-apis|Moonshot AI Kimi API|https://platform.moonshot.ai/|https://platform.moonshot.ai/docs|key|paid|Kimi models via API.
+llm-apis|Alibaba Qwen (DashScope)|https://www.alibabacloud.com/en/product/modelstudio|https://www.alibabacloud.com/help/en/model-studio/|key|paid|Qwen models through Alibaba Cloud Model Studio.
+llm-apis|Zhipu AI (Z.ai) API|https://z.ai/|https://docs.z.ai/|key|freemium|GLM models via API.
+llm-apis|Reka API|https://reka.ai/|https://docs.reka.ai/|key|paid|Multimodal Reka models.
+llm-apis|GitHub Models|https://docs.github.com/github-models|https://docs.github.com/github-models|key|freemium|Free-tier access to many models for prototyping.
+llm-apis|Cloudflare AI Gateway|https://developers.cloudflare.com/ai-gateway/|https://developers.cloudflare.com/ai-gateway/|key|free|Proxy with caching, analytics and fallback for AI APIs.
+llm-apis|Vercel AI Gateway|https://vercel.com/ai-gateway|https://vercel.com/docs/ai-gateway|key|freemium|Unified endpoint to many models.
+llm-apis|Meta Llama API|https://llama.developer.meta.com/|https://llama.developer.meta.com/docs|key|freemium|Meta's hosted Llama API.
+agent-frameworks|Agno|https://www.agno.com/|https://docs.agno.com/|none|free|Framework for building multi-modal agents.
+agent-frameworks|OpenHands|https://github.com/All-Hands-AI/OpenHands|https://docs.all-hands.dev/|none|free|Open platform for AI software developers.
+agent-frameworks|Vercel AI SDK Agents|https://ai-sdk.dev/docs/agents/overview|https://ai-sdk.dev/docs/agents/overview|none|free|Agent building blocks in the AI SDK.
+agent-frameworks|BeeAI Framework|https://github.com/i-am-bee/beeai-framework|https://framework.beeai.dev/|none|free|IBM-backed framework for production agents.
+agent-frameworks|Swarm (OpenAI)|https://github.com/openai/swarm|https://github.com/openai/swarm|none|free|Educational multi-agent orchestration framework.
+agent-frameworks|Camel-AI|https://www.camel-ai.org/|https://docs.camel-ai.org/|none|free|Multi-agent framework and research community.
+agent-frameworks|Rig|https://rig.rs/|https://rig.rs/|none|free|Rust library for LLM apps and agents.
+agent-frameworks|Eliza (ElizaOS)|https://elizaos.ai/|https://docs.elizaos.ai/|none|free|Open-source TypeScript agent framework.
+agent-frameworks|Goose|https://block.github.io/goose/|https://block.github.io/goose/|none|free|Block's open-source extensible AI agent.
+agent-frameworks|Claude Agent SDK|https://docs.anthropic.com/en/docs/claude-code/sdk|https://docs.anthropic.com/en/docs/claude-code/sdk|key|free|Anthropic's SDK for building agents on Claude Code's harness.
+memory-vector-dbs|Cognee|https://www.cognee.ai/|https://docs.cognee.ai/|none|free|Memory for agents using knowledge graphs.
+memory-vector-dbs|Usearch|https://github.com/unum-cloud/usearch|https://github.com/unum-cloud/usearch|none|free|Fast single-file similarity search.
+memory-vector-dbs|Graphiti|https://github.com/getzep/graphiti|https://help.getzep.com/graphiti|none|free|Temporal knowledge graph framework for agents.
+text-to-speech|OpenAI Text-to-Speech|https://platform.openai.com/docs/guides/text-to-speech|https://platform.openai.com/docs/guides/text-to-speech|key|paid|OpenAI's TTS models.
+text-to-speech|Cartesia|https://cartesia.ai/|https://docs.cartesia.ai/|key|freemium|Low-latency TTS for voice agents.
+text-to-speech|Deepgram Aura|https://deepgram.com/product/text-to-speech|https://developers.deepgram.com/docs/text-to-speech|key|paid|Deepgram's TTS API.
+text-to-speech|Azure AI Speech TTS|https://azure.microsoft.com/products/ai-services/text-to-speech|https://learn.microsoft.com/azure/ai-services/speech-service/|key|freemium|Neural voices from Microsoft.
+text-to-speech|WellSaid Labs|https://wellsaidlabs.com/|https://docs.wellsaidlabs.com/|key|paid|Enterprise TTS.
+text-to-speech|LMNT|https://lmnt.com/|https://docs.lmnt.com/|key|freemium|Fast TTS API.
+text-to-speech|Kokoro|https://huggingface.co/hexgrad/Kokoro-82M|https://huggingface.co/hexgrad/Kokoro-82M|none|free|Small open-weight TTS model.
+text-to-speech|Bark|https://github.com/suno-ai/bark|https://github.com/suno-ai/bark|none|free|Transformer text-to-audio model.
+text-to-speech|Fish Speech|https://github.com/fishaudio/fish-speech|https://speech.fish.audio/|none|free|Open multilingual TTS.
+text-to-speech|XTTS|https://huggingface.co/coqui/XTTS-v2|https://huggingface.co/coqui/XTTS-v2|none|free|Voice cloning TTS model.
+text-to-speech|Suno|https://suno.com/|https://suno.com/|oauth|freemium|AI music generation.
+text-to-speech|Udio|https://www.udio.com/|https://www.udio.com/|oauth|freemium|AI music generation.
+text-to-speech|Stable Audio|https://stableaudio.com/|https://platform.stability.ai/docs/api-reference|key|freemium|Stability AI's audio generation.
+text-to-speech|MusicGen (AudioCraft)|https://github.com/facebookresearch/audiocraft|https://facebookresearch.github.io/audiocraft/|none|free|Meta's open music and audio generation.
+sports-data|API-Football|https://www.api-football.com/|https://www.api-football.com/documentation-v3|key|freemium|Football (soccer) scores, fixtures and stats API.
+sports-data|football-data.org|https://www.football-data.org/|https://www.football-data.org/documentation/quickstart|key|freemium|Free football data API for major leagues.
+sports-data|TheSportsDB|https://www.thesportsdb.com/|https://www.thesportsdb.com/documentation|key|freemium|Crowd-sourced sports database and API.
+sports-data|balldontlie|https://www.balldontlie.io/|https://docs.balldontlie.io/|key|freemium|NBA and other sports stats API.
+sports-data|MySportsFeeds|https://www.mysportsfeeds.com/|https://www.mysportsfeeds.com/data-feeds/api-docs/|key|freemium|Pro sports data feeds.
+sports-data|SportsDataIO|https://sportsdata.io/|https://sportsdata.io/developers/api-documentation|key|freemium|Sports data and odds APIs.
+sports-data|The Odds API|https://the-odds-api.com/|https://the-odds-api.com/liveapi/guides/v4/|key|freemium|Betting odds from many bookmakers.
+sports-data|MLB Stats API|https://statsapi.mlb.com/|https://github.com/toddrob99/MLB-StatsAPI/wiki|none|free|Unofficial public MLB data API.
+sports-data|OpenF1|https://openf1.org/|https://openf1.org/#api-endpoints|none|free|Open API for Formula 1 data.
+sports-data|Jolpica F1|https://github.com/jolpica/jolpica-f1|https://github.com/jolpica/jolpica-f1/tree/main/docs|none|free|Formula 1 historical data API (Ergast successor).
+sports-data|Sportmonks|https://www.sportmonks.com/|https://docs.sportmonks.com/|key|freemium|Football, cricket and F1 data APIs.
+sports-data|nflverse|https://nflverse.com/|https://nflreadr.nflverse.com/|none|free|Open NFL data packages.
+sports-data|Chess.com Public API|https://www.chess.com/news/view/published-data-api|https://www.chess.com/news/view/published-data-api|none|free|Public data on players and games.
+sports-data|Lichess API|https://lichess.org/api|https://lichess.org/api|none|free|Open chess platform API.
+movies-tv-data|The Movie Database (TMDB)|https://www.themoviedb.org/|https://developer.themoviedb.org/docs|key|free|Community movie and TV metadata API.
+movies-tv-data|OMDb API|https://www.omdbapi.com/|https://www.omdbapi.com/#parameters|key|freemium|Movie info from IMDb-style data.
+movies-tv-data|TVMaze API|https://www.tvmaze.com/api|https://www.tvmaze.com/api|none|free|TV show data API.
+movies-tv-data|Trakt API|https://trakt.docs.apiary.io/|https://trakt.docs.apiary.io/|key|free|Watch tracking and metadata.
+movies-tv-data|TVDB API|https://thetvdb.com/api-information|https://thetvdb.github.io/v4-api/|key|freemium|TV and movie database API.
+movies-tv-data|Watchmode|https://api.watchmode.com/|https://api.watchmode.com/docs|key|freemium|Streaming availability API.
+movies-tv-data|AniList API|https://anilist.gitbook.io/anilist-apiv2-docs|https://anilist.gitbook.io/anilist-apiv2-docs|none|free|GraphQL API for anime and manga.
+movies-tv-data|Jikan (MyAnimeList)|https://jikan.moe/|https://docs.api.jikan.moe/|none|free|Unofficial MyAnimeList REST API.
+movies-tv-data|Kitsu API|https://kitsu.docs.apiary.io/|https://kitsu.docs.apiary.io/|none|free|Anime and manga database API.
+movies-tv-data|MangaDex API|https://api.mangadex.org/docs/|https://api.mangadex.org/docs/|none|free|Manga catalog and reader API.
+movies-tv-data|Open Library|https://openlibrary.org/developers/api|https://openlibrary.org/developers/api|none|free|Open book metadata API.
+movies-tv-data|Google Books API|https://developers.google.com/books|https://developers.google.com/books/docs/v1/getting_started|key|free|Book search and metadata.
+movies-tv-data|MusicBrainz API|https://musicbrainz.org/doc/MusicBrainz_API|https://musicbrainz.org/doc/MusicBrainz_API|none|free|Open music encyclopedia API.
+movies-tv-data|Discogs API|https://www.discogs.com/developers|https://www.discogs.com/developers|oauth|free|Music database and marketplace API.
+movies-tv-data|IGDB API|https://api-docs.igdb.com/|https://api-docs.igdb.com/|oauth|free|Video game database API.
+movies-tv-data|RAWG|https://rawg.io/apidocs|https://rawg.io/apidocs|key|freemium|Video games database API.
+movies-tv-data|Steam Web API|https://steamcommunity.com/dev|https://partner.steamgames.com/doc/webapi|key|free|Steam player and game data API.
+movies-tv-data|PokéAPI|https://pokeapi.co/|https://pokeapi.co/docs/v2|none|free|Pokémon data API.
+movies-tv-data|Scryfall API|https://scryfall.com/docs/api|https://scryfall.com/docs/api|none|free|Magic: The Gathering card data.
+health-medical-data|openFDA|https://open.fda.gov/|https://open.fda.gov/apis/|key|free|FDA drug, device and food data APIs.
+health-medical-data|RxNorm API|https://lhncbc.nlm.nih.gov/RxNav/|https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html|none|free|Normalized drug names API from NLM.
+health-medical-data|ClinicalTrials.gov API|https://clinicaltrials.gov/data-api/api|https://clinicaltrials.gov/data-api/about-api|none|free|Clinical trial registry data.
+health-medical-data|NIH RePORTER API|https://api.reporter.nih.gov/|https://api.reporter.nih.gov/documents/Data%20Elements%20for%20RePORTER%20Project%20API_V2.pdf|none|free|NIH-funded research projects.
+health-medical-data|disease.sh|https://disease.sh/|https://disease.sh/docs/|none|free|Open disease statistics API.
+health-medical-data|CDC Data APIs|https://data.cdc.gov/|https://dev.socrata.com/foundry/data.cdc.gov|none|free|CDC open datasets.
+health-medical-data|WHO Global Health Observatory API|https://www.who.int/data/gho|https://www.who.int/data/gho/info/gho-odata-api|none|free|WHO health indicator data.
+health-medical-data|FHIR (HL7)|https://hl7.org/fhir/|https://hl7.org/fhir/documentation.html|none|free|Healthcare data exchange standard.
+health-medical-data|Open Food Facts|https://world.openfoodfacts.org/|https://openfoodfacts.github.io/openfoodfacts-server/api/|none|free|Open food product database.
+health-medical-data|USDA FoodData Central|https://fdc.nal.usda.gov/|https://fdc.nal.usda.gov/api-guide.html|key|free|Nutrient data for foods.
+health-medical-data|Nutritionix|https://www.nutritionix.com/business/api|https://www.nutritionix.com/business/api|key|paid|Nutrition database API.
+health-medical-data|Spoonacular|https://spoonacular.com/food-api|https://spoonacular.com/food-api/docs|key|freemium|Recipe and food API.
+health-medical-data|TheMealDB|https://www.themealdb.com/api.php|https://www.themealdb.com/api.php|none|free|Open recipe database.
+health-medical-data|Edamam|https://developer.edamam.com/|https://developer.edamam.com/edamam-docs-recipe-api|key|freemium|Recipe and nutrition APIs.
+health-medical-data|Terra API|https://tryterra.co/|https://docs.tryterra.co/|key|paid|Wearable and health data aggregation.
+travel-transport|Amadeus for Developers|https://developers.amadeus.com/|https://developers.amadeus.com/self-service|key|freemium|Flights, hotels and travel APIs.
+travel-transport|Duffel|https://duffel.com/|https://duffel.com/docs/api|key|paid|Flight booking API.
+travel-transport|Skyscanner API|https://developers.skyscanner.net/|https://developers.skyscanner.net/docs/intro|key|paid|Travel search API for partners.
+travel-transport|AviationStack|https://aviationstack.com/|https://aviationstack.com/documentation|key|freemium|Real-time flight data API.
+travel-transport|OpenSky Network|https://opensky-network.org/|https://openskynetwork.github.io/opensky-api/|none|free|Open live air-traffic data.
+travel-transport|AeroAPI (FlightAware)|https://www.flightaware.com/commercial/aeroapi/|https://www.flightaware.com/aeroapi/portal/documentation|key|paid|Flight tracking API.
+travel-transport|Booking.com Demand API|https://developers.booking.com/|https://developers.booking.com/demand/docs/open-api/demand-api|key|free|Accommodation search for partners.
+travel-transport|Google Places API|https://developers.google.com/maps/documentation/places/web-service|https://developers.google.com/maps/documentation/places/web-service/overview|key|freemium|Place details, search and reviews.
+travel-transport|Yelp Fusion API|https://docs.developer.yelp.com/|https://docs.developer.yelp.com/docs/fusion-intro|key|freemium|Business search and reviews.
+travel-transport|Transitland|https://www.transit.land/|https://www.transit.land/documentation/rest-api/|key|freemium|Open public transit data API.
+travel-transport|GTFS|https://gtfs.org/|https://gtfs.org/documentation/overview/|none|free|Standard format for public transit schedules.
+travel-transport|OpenChargeMap|https://openchargemap.org/site/develop/api|https://openchargemap.org/site/develop/api|key|free|EV charging station data.
+travel-transport|Rome2Rio|https://www.rome2rio.com/documentation/search|https://www.rome2rio.com/documentation/search|key|paid|Multi-modal travel search.
+jobs-hiring|Adzuna API|https://developer.adzuna.com/|https://developer.adzuna.com/overview|key|freemium|Job search data API.
+jobs-hiring|Greenhouse Harvest API|https://developers.greenhouse.io/|https://developers.greenhouse.io/harvest.html|key|paid|Applicant tracking API.
+jobs-hiring|Lever API|https://hire.lever.co/developer/documentation|https://hire.lever.co/developer/documentation|key|paid|Applicant tracking API.
+jobs-hiring|Ashby API|https://developers.ashbyhq.com/|https://developers.ashbyhq.com/docs|key|paid|Recruiting platform API.
+jobs-hiring|Remotive API|https://remotive.com/api-documentation|https://remotive.com/api-documentation|none|free|Remote jobs listing API.
+jobs-hiring|RemoteOK API|https://remoteok.com/api|https://remoteok.com/api|none|free|Remote jobs JSON feed.
+jobs-hiring|Arbeitnow API|https://www.arbeitnow.com/api|https://documenter.getpostman.com/view/18545278/UVJbJdKh|none|free|Job board API.
+jobs-hiring|USAJOBS API|https://developer.usajobs.gov/|https://developer.usajobs.gov/api-reference/get-api-search|key|free|US federal job listings.
+jobs-hiring|Workable API|https://workable.readme.io/|https://workable.readme.io/reference/generate-an-access-token|key|paid|Hiring platform API.
+jobs-hiring|Recruitee API|https://docs.recruitee.com/|https://docs.recruitee.com/|key|paid|Hiring platform API.
+jobs-hiring|BambooHR API|https://documentation.bamboohr.com/|https://documentation.bamboohr.com/docs|key|paid|HR platform API.
+jobs-hiring|Gusto API|https://docs.gusto.com/|https://docs.gusto.com/embedded-payroll/docs/introduction|oauth|paid|Payroll and benefits API.
+jobs-hiring|Deel API|https://developer.deel.com/|https://developer.deel.com/docs|key|paid|Global hiring and payroll API.
+workflow-automation|Merge|https://www.merge.dev/|https://docs.merge.dev/|key|paid|Unified API for HR, ATS, CRM and more.
+jobs-hiring|Rippling API|https://developer.rippling.com/|https://developer.rippling.com/documentation|key|paid|HR and IT platform API.
+real-estate|Zillow Bridge API|https://www.bridgeinteractive.com/developers/zillow-group-data/|https://www.bridgeinteractive.com/developers/zillow-group-data/|key|free|Zillow data via Bridge Interactive.
+real-estate|ATTOM Data|https://www.attomdata.com/|https://api.developer.attomdata.com/docs|key|paid|Property data API.
+real-estate|RentCast|https://www.rentcast.io/|https://developers.rentcast.io/|key|freemium|Property and rental market data.
+real-estate|Walk Score API|https://www.walkscore.com/professional/api.php|https://www.walkscore.com/professional/api.php|key|freemium|Walkability scores.
+real-estate|HouseCanary|https://www.housecanary.com/|https://api-docs.housecanary.com/|key|paid|Property valuation API.
+real-estate|Redfin Data Center|https://www.redfin.com/news/data-center/|https://www.redfin.com/news/data-center/|none|free|Housing market datasets.
+real-estate|Realtor.com Data|https://www.realtor.com/research/data/|https://www.realtor.com/research/data/|none|free|Housing inventory datasets.
+real-estate|FHFA House Price Index|https://www.fhfa.gov/data/hpi|https://www.fhfa.gov/data/hpi|none|free|US house price index data.
+legal-data|CourtListener API|https://www.courtlistener.com/help/api/|https://www.courtlistener.com/help/api/rest/|key|free|Court opinions and dockets.
+legal-data|Case.law (Caselaw Access Project)|https://case.law/|https://case.law/|none|free|US case law archive.
+legal-data|GovInfo API|https://api.govinfo.gov/docs/|https://api.govinfo.gov/docs/|key|free|US government publications.
+legal-data|Congress.gov API|https://api.congress.gov/|https://github.com/LibraryOfCongress/api.congress.gov|key|free|Bills, members and votes.
+legal-data|Federal Register API|https://www.federalregister.gov/developers/documentation/api/v1|https://www.federalregister.gov/developers/documentation/api/v1|none|free|Federal Register documents.
+legal-data|Regulations.gov API|https://open.gsa.gov/api/regulationsgov/|https://open.gsa.gov/api/regulationsgov/|key|free|US rulemaking documents.
+legal-data|EUR-Lex|https://eur-lex.europa.eu/|https://eur-lex.europa.eu/content/help/data-reuse/webservice.html|key|free|EU law web service.
+company-registries|OpenCorporates API|https://api.opencorporates.com/|https://api.opencorporates.com/documentation/API-Reference|key|freemium|Global company registry data.
+legal-data|SAM.gov Opportunities API|https://open.gsa.gov/api/get-opportunities-public-api/|https://open.gsa.gov/api/get-opportunities-public-api/|key|free|US government contract opportunities.
+legal-data|USASpending API|https://api.usaspending.gov/|https://api.usaspending.gov/docs/endpoints|none|free|US federal spending data.
+legal-data|OpenSecrets API|https://www.opensecrets.org/open-data/api|https://www.opensecrets.org/open-data/api-documentation|key|free|Money in politics data.
+legal-data|Open States|https://openstates.org/|https://docs.openstates.org/api-v3/|key|free|US state legislature data.
+legal-data|Google Civic Information API|https://developers.google.com/civic-information|https://developers.google.com/civic-information/docs/v2|key|free|Election and representative info.
+legal-data|DocuSign eSignature API|https://developers.docusign.com/|https://developers.docusign.com/docs/esign-rest-api/|oauth|paid|Electronic signature API.
+legal-data|Dropbox Sign API|https://developers.hellosign.com/|https://developers.hellosign.com/docs/|key|paid|Electronic signature API.
+legal-data|Documenso|https://documenso.com/|https://docs.documenso.com/|key|freemium|Open-source e-signature platform.
+education|Khan Academy|https://www.khanacademy.org/|https://github.com/Khan|none|free|Free learning platform with open-source tooling.
+education|Wikibooks|https://www.wikibooks.org/|https://www.mediawiki.org/wiki/API:Main_page|none|free|Open-content textbooks with MediaWiki API.
+education|Open Trivia DB|https://opentdb.com/|https://opentdb.com/api_config.php|none|free|Free trivia question API.
+education|Datamuse|https://www.datamuse.com/api/|https://www.datamuse.com/api/|none|free|Word-finding query engine.
+education|Free Dictionary API|https://dictionaryapi.dev/|https://dictionaryapi.dev/|none|free|Free English dictionary API.
+education|Merriam-Webster API|https://dictionaryapi.com/|https://dictionaryapi.com/products/index|key|freemium|Dictionary and thesaurus API.
+education|WordsAPI|https://www.wordsapi.com/|https://www.wordsapi.com/docs/|key|freemium|Word data API.
+education|Wiktionary API|https://en.wiktionary.org/api/rest_v1/|https://en.wiktionary.org/api/rest_v1/|none|free|Open dictionary via Wikimedia REST API.
+education|Open Educational Resources Commons|https://www.oercommons.org/|https://www.oercommons.org/api|none|free|Open educational resources.
+education|MIT OpenCourseWare|https://ocw.mit.edu/|https://ocw.mit.edu/about/|none|free|Free MIT course materials.
+education|edX|https://www.edx.org/|https://openedx.org/|none|free|Online courses; Open edX platform is open source.
+education|Moodle Web Services|https://moodle.org/|https://moodledev.io/docs/apis|key|free|Open-source LMS APIs.
+education|Canvas LMS API|https://canvas.instructure.com/doc/api/|https://canvas.instructure.com/doc/api/|key|free|Learning management system API.
+education|Duolingo|https://www.duolingo.com/|https://www.duolingo.com/|oauth|freemium|Language learning platform.
+accounting-tax|QuickBooks Online API|https://developer.intuit.com/|https://developer.intuit.com/app/developer/qbo/docs/get-started|oauth|paid|Accounting API.
+accounting-tax|Xero API|https://developer.xero.com/|https://developer.xero.com/documentation/|oauth|paid|Accounting API.
+accounting-tax|FreshBooks API|https://www.freshbooks.com/api|https://www.freshbooks.com/api/start|oauth|paid|Invoicing and accounting API.
+accounting-tax|Wave Apps API|https://developer.waveapps.com/|https://developer.waveapps.com/hc/en-us|oauth|free|Small business accounting API.
+accounting-tax|Zoho Books API|https://www.zoho.com/books/api/v3/|https://www.zoho.com/books/api/v3/introduction/|oauth|freemium|Accounting API.
+accounting-tax|Akaunting|https://akaunting.com/|https://akaunting.com/docs|key|free|Open-source accounting software.
+accounting-tax|ERPNext|https://erpnext.com/|https://docs.erpnext.com/|key|free|Open-source ERP with REST API.
+accounting-tax|TaxJar API|https://developers.taxjar.com/|https://developers.taxjar.com/api/reference/|key|paid|Sales tax calculation API.
+accounting-tax|Avalara AvaTax|https://developer.avalara.com/|https://developer.avalara.com/avatax/|key|paid|Sales tax automation API.
+accounting-tax|Stripe Tax|https://stripe.com/tax|https://docs.stripe.com/tax|key|paid|Tax calculation and registration.
+accounting-tax|Anrok|https://www.anrok.com/|https://www.anrok.com/|key|paid|Sales tax for software companies.
+accounting-tax|Lago|https://www.getlago.com/|https://doc.getlago.com/|key|freemium|Open-source usage-based billing.
+accounting-tax|Chargebee API|https://www.chargebee.com/|https://apidocs.chargebee.com/docs/api|key|paid|Subscription billing API.
+accounting-tax|Recurly API|https://recurly.com/|https://recurly.com/developers/api/|key|paid|Subscription management API.
+accounting-tax|Maxio|https://www.maxio.com/|https://developers.maxio.com/|key|paid|Subscription billing API.
+accounting-tax|Orb|https://www.withorb.com/|https://docs.withorb.com/|key|paid|Usage-based billing API.
+accounting-tax|Metronome|https://metronome.com/|https://docs.metronome.com/|key|paid|Usage billing API.
+accounting-tax|Stripe Atlas|https://stripe.com/atlas|https://stripe.com/atlas|oauth|paid|Company incorporation service.
+accounting-tax|Mercury API|https://mercury.com/|https://docs.mercury.com/|key|free|Business banking API.
+accounting-tax|Increase|https://increase.com/|https://increase.com/documentation|key|paid|Banking infrastructure API.
+accounting-tax|Moov|https://moov.io/|https://docs.moov.io/|key|paid|Payments infrastructure API.
+accounting-tax|Dwolla|https://www.dwolla.com/|https://developers.dwolla.com/|key|paid|ACH payments API.
+accounting-tax|GoCardless API|https://gocardless.com/|https://developer.gocardless.com/|key|paid|Bank debit payments API.
+accounting-tax|Lithic|https://www.lithic.com/|https://docs.lithic.com/|key|paid|Card issuing API.
+accounting-tax|Stripe Issuing|https://stripe.com/issuing|https://docs.stripe.com/issuing|key|paid|Programmatic card issuing.
+accounting-tax|Ramp Developer API|https://docs.ramp.com/|https://docs.ramp.com/developer-api/v1/overview/introduction|oauth|free|Spend management API.
+accounting-tax|Brex API|https://developer.brex.com/|https://developer.brex.com/|oauth|free|Corporate card and spend API.
+web-analytics|Google Analytics Data API|https://developers.google.com/analytics|https://developers.google.com/analytics/devguides/reporting/data/v1|oauth|free|GA4 reporting API.
+web-analytics|Plausible|https://plausible.io/|https://plausible.io/docs|key|paid|Privacy-friendly analytics.
+web-analytics|PostHog|https://posthog.com/|https://posthog.com/docs|key|freemium|Open-source product analytics.
+web-analytics|Umami|https://umami.is/|https://umami.is/docs|none|free|Open-source privacy-focused analytics.
+web-analytics|Matomo|https://matomo.org/|https://developer.matomo.org/api-reference/reporting-api|key|freemium|Open-source web analytics.
+web-analytics|Fathom|https://usefathom.com/|https://usefathom.com/api|key|paid|Privacy-first analytics.
+web-analytics|Mixpanel|https://mixpanel.com/|https://developer.mixpanel.com/|key|freemium|Product analytics.
+web-analytics|Amplitude|https://amplitude.com/|https://amplitude.com/docs/apis|key|freemium|Product analytics.
+web-analytics|Segment|https://segment.com/|https://segment.com/docs/|key|freemium|Customer data platform.
+web-analytics|Cloudflare Web Analytics|https://www.cloudflare.com/web-analytics/|https://developers.cloudflare.com/web-analytics/|none|free|Free privacy-first analytics.
+web-analytics|Simple Analytics|https://www.simpleanalytics.com/|https://docs.simpleanalytics.com/|key|paid|Privacy-friendly analytics.
+web-analytics|Hotjar|https://www.hotjar.com/|https://help.hotjar.com/|key|freemium|Heatmaps and session recordings.
+web-analytics|Microsoft Clarity|https://clarity.microsoft.com/|https://learn.microsoft.com/clarity/|none|free|Free heatmaps and recordings.
+web-analytics|Google Search Console API|https://developers.google.com/webmaster-tools|https://developers.google.com/webmaster-tools/v1/how-tos/search_analytics|oauth|free|Search performance data.
+web-analytics|Bing Webmaster API|https://www.bing.com/webmasters|https://learn.microsoft.com/bingwebmaster/|key|free|Bing search performance and URL submission.
+seo-tools|Ahrefs API|https://ahrefs.com/api|https://docs.ahrefs.com/|key|paid|Backlink and SEO data.
+seo-tools|Semrush API|https://www.semrush.com/api-analytics/|https://developer.semrush.com/api/|key|paid|SEO and competitive data.
+seo-tools|Moz API|https://moz.com/products/api|https://moz.com/help/links-api|key|freemium|Domain authority and link data.
+seo-tools|Google PageSpeed Insights API|https://developers.google.com/speed/docs/insights/v5/get-started|https://developers.google.com/speed/docs/insights/v5/get-started|key|free|Performance and Lighthouse audits.
+seo-tools|Lighthouse|https://github.com/GoogleChrome/lighthouse|https://developer.chrome.com/docs/lighthouse|none|free|Automated site auditing.
+seo-tools|IndexNow|https://www.indexnow.org/|https://www.indexnow.org/documentation|none|free|Protocol to notify search engines of changes.
+seo-tools|Screaming Frog|https://www.screamingfrog.co.uk/seo-spider/|https://www.screamingfrog.co.uk/seo-spider/user-guide/|none|freemium|Desktop site crawler.
+seo-tools|Google Trends|https://trends.google.com/|https://trends.google.com/trends/|none|free|Search interest over time.
+seo-tools|Answer The Public|https://answerthepublic.com/|https://answerthepublic.com/|oauth|freemium|Search question research.
+seo-tools|Keywords Everywhere|https://keywordseverywhere.com/|https://api.keywordseverywhere.com/docs/|key|paid|Keyword data API.
+seo-tools|Serpstat API|https://serpstat.com/api/|https://serpstat.com/api/|key|paid|SEO data API.
+seo-tools|Common Crawl Index|https://index.commoncrawl.org/|https://commoncrawl.org/get-started|none|free|Search the crawl index by URL.
+seo-tools|Schema Markup Validator|https://validator.schema.org/|https://schema.org/docs/documents.html|none|free|Validate structured data.
+seo-tools|Rich Results Test|https://search.google.com/test/rich-results|https://developers.google.com/search/docs/appearance/structured-data|none|free|Test structured data eligibility.
+domains-dns|Cloudflare API|https://developers.cloudflare.com/api/|https://developers.cloudflare.com/api/|key|free|Manage DNS, Workers, Pages and more.
+domains-dns|Namecheap API|https://www.namecheap.com/support/api/intro/|https://www.namecheap.com/support/api/methods/|key|free|Domain registration API.
+domains-dns|GoDaddy Domains API|https://developer.godaddy.com/|https://developer.godaddy.com/doc|key|free|Domain management.
+domains-dns|Porkbun API|https://porkbun.com/api/json/v3/documentation|https://porkbun.com/api/json/v3/documentation|key|free|Domain and DNS API.
+domains-dns|Squarespace Domains|https://domains.squarespace.com/|https://domains.squarespace.com/|oauth|paid|Domain registration.
+domains-dns|WHOIS (RDAP)|https://about.rdap.org/|https://www.icann.org/rdap|none|free|Standard registration data access protocol.
+domains-dns|WhoisXML API|https://www.whoisxmlapi.com/|https://whoisapi.whoisxmlapi.com/docs|key|freemium|WHOIS and DNS data.
+domains-dns|Dnsimple API|https://developer.dnsimple.com/|https://developer.dnsimple.com/v2/|key|paid|DNS and domain API.
+domains-dns|Route 53|https://aws.amazon.com/route53/|https://docs.aws.amazon.com/route53/|oauth|paid|AWS DNS.
+domains-dns|Google Public DNS over HTTPS|https://developers.google.com/speed/public-dns/docs/doh|https://developers.google.com/speed/public-dns/docs/doh/json|none|free|DNS over HTTPS JSON API.
+domains-dns|Cloudflare DNS over HTTPS|https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/|https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/make-api-requests/|none|free|DNS over HTTPS JSON API.
+domains-dns|crt.sh|https://crt.sh/|https://crt.sh/|none|free|Certificate transparency search.
+domains-dns|Let's Encrypt|https://letsencrypt.org/|https://letsencrypt.org/docs/|none|free|Free TLS certificates with ACME.
+domains-dns|DuckDNS|https://www.duckdns.org/|https://www.duckdns.org/spec.jsp|key|free|Free dynamic DNS.
+domains-dns|Tailscale API|https://tailscale.com/|https://tailscale.com/api|key|freemium|Mesh VPN API.
+domains-dns|ngrok|https://ngrok.com/|https://ngrok.com/docs|key|freemium|Tunnels and API gateway.
+domains-dns|Cloudflare Tunnel|https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/|https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/|key|free|Expose local services securely.
+url-utilities|Bitly API|https://dev.bitly.com/|https://dev.bitly.com/api-reference|key|freemium|URL shortening API.
+url-utilities|Short.io API|https://short.io/|https://developers.short.io/|key|freemium|Branded short links API.
+url-utilities|Dub|https://dub.co/|https://dub.co/docs|key|freemium|Open-source link management.
+url-utilities|YOURLS|https://yourls.org/|https://yourls.org/docs|key|free|Self-hosted URL shortener.
+url-utilities|QR Code Generator API (goQR.me)|https://goqr.me/api/|https://goqr.me/api/doc/|none|free|Free QR code API.
+url-utilities|Linkpreview.net|https://www.linkpreview.net/|https://docs.linkpreview.net/|key|freemium|Link preview metadata API.
+url-utilities|Microlink|https://microlink.io/|https://microlink.io/docs/api/getting-started/overview|key|freemium|Link metadata, screenshots and PDFs API.
+url-utilities|ScreenshotOne|https://screenshotone.com/|https://screenshotone.com/docs/|key|freemium|Website screenshot API.
+url-utilities|ApiFlash|https://apiflash.com/|https://apiflash.com/documentation|key|freemium|Chrome screenshot API.
+url-utilities|Urlbox|https://urlbox.com/|https://urlbox.com/docs|key|paid|Screenshot API.
+url-utilities|Wayback Machine API|https://archive.org/help/wayback_api.php|https://archive.org/help/wayback_api.php|none|free|Check and save archived web pages.
+url-utilities|archive.today|https://archive.ph/|https://archive.ph/|none|free|Web page archiving service.
+url-utilities|OpenGraph.io|https://www.opengraph.io/|https://www.opengraph.io/documentation/|key|freemium|Open Graph scraping API.
+url-utilities|DocRaptor|https://docraptor.com/|https://docraptor.com/documentation|key|paid|HTML to PDF API.
+url-utilities|html2pdf.app|https://html2pdf.app/|https://html2pdf.app/documentation|key|freemium|HTML to PDF API.
+url-utilities|WeasyPrint|https://weasyprint.org/|https://doc.courtbouillon.org/weasyprint/stable/|none|free|HTML and CSS to PDF.
+feature-flags-config|LaunchDarkly|https://launchdarkly.com/|https://docs.launchdarkly.com/|key|paid|Feature flag management.
+feature-flags-config|Unleash|https://www.getunleash.io/|https://docs.getunleash.io/|none|freemium|Open-source feature flags.
+feature-flags-config|Flagsmith|https://www.flagsmith.com/|https://docs.flagsmith.com/|key|freemium|Open-source feature flags.
+feature-flags-config|GrowthBook|https://www.growthbook.io/|https://docs.growthbook.io/|key|freemium|Open-source feature flags and A/B testing.
+feature-flags-config|OpenFeature|https://openfeature.dev/|https://openfeature.dev/docs/reference/intro|none|free|Vendor-neutral feature flag standard.
+feature-flags-config|Statsig|https://statsig.com/|https://docs.statsig.com/|key|freemium|Feature flags and experimentation.
+feature-flags-config|Optimizely|https://www.optimizely.com/|https://docs.developers.optimizely.com/|key|paid|Experimentation platform.
+feature-flags-config|ConfigCat|https://configcat.com/|https://configcat.com/docs/|key|freemium|Feature flag service.
+feature-flags-config|Split.io|https://www.split.io/|https://help.split.io/|key|freemium|Feature delivery platform.
+feature-flags-config|PostHog Feature Flags|https://posthog.com/feature-flags|https://posthog.com/docs/feature-flags|key|freemium|Feature flags in PostHog.
+cms-content|Contentful|https://www.contentful.com/|https://www.contentful.com/developers/docs/|key|freemium|Headless CMS.
+cms-content|Sanity|https://www.sanity.io/|https://www.sanity.io/docs|key|freemium|Headless CMS with real-time content.
+cms-content|Strapi|https://strapi.io/|https://docs.strapi.io/|key|freemium|Open-source headless CMS.
+cms-content|Directus|https://directus.io/|https://docs.directus.io/|key|freemium|Open-source data platform and CMS.
+cms-content|Payload CMS|https://payloadcms.com/|https://payloadcms.com/docs|none|free|Open-source TypeScript CMS.
+cms-content|WordPress REST API|https://developer.wordpress.org/rest-api/|https://developer.wordpress.org/rest-api/reference/|key|free|REST API for WordPress sites.
+cms-content|Ghost Content API|https://ghost.org/docs/content-api/|https://ghost.org/docs/content-api/|key|free|Read-only content API for Ghost.
+cms-content|Prismic|https://prismic.io/|https://prismic.io/docs|key|freemium|Headless CMS.
+cms-content|Storyblok|https://www.storyblok.com/|https://www.storyblok.com/docs|key|freemium|Headless CMS.
+cms-content|Decap CMS|https://decapcms.org/|https://decapcms.org/docs/|none|free|Git-based open-source CMS.
+cms-content|Keystatic|https://keystatic.com/|https://keystatic.com/docs|none|free|Git-based CMS.
+cms-content|TinaCMS|https://tina.io/|https://tina.io/docs|key|freemium|Git-backed headless CMS.
+cms-content|Hygraph|https://hygraph.com/|https://hygraph.com/docs|key|freemium|GraphQL-native CMS.
+cms-content|DatoCMS|https://www.datocms.com/|https://www.datocms.com/docs|key|freemium|Headless CMS.
+cms-content|Webflow API|https://developers.webflow.com/|https://developers.webflow.com/data/reference/rest-introduction|oauth|paid|Site and CMS API.
+cms-content|Medium API|https://github.com/Medium/medium-api-docs|https://github.com/Medium/medium-api-docs|key|free|Publishing API for Medium.
+cms-content|DEV (Forem) API|https://developers.forem.com/api|https://developers.forem.com/api/v1|key|free|API for DEV and Forem communities.
+forms-surveys|Typeform API|https://www.typeform.com/developers/|https://www.typeform.com/developers/create/|oauth|freemium|Forms and surveys API.
+forms-surveys|Tally|https://tally.so/|https://developers.tally.so/|key|freemium|Free form builder with API.
+forms-surveys|Formspree|https://formspree.io/|https://help.formspree.io/|key|freemium|Form backend.
+forms-surveys|Basin|https://usebasin.com/|https://usebasin.com/docs|key|freemium|Form endpoint service.
+forms-surveys|Web3Forms|https://web3forms.com/|https://docs.web3forms.com/|key|free|Free form API.
+forms-surveys|Google Forms API|https://developers.google.com/forms|https://developers.google.com/forms/api/guides|oauth|free|Create and read Google Forms.
+forms-surveys|SurveyMonkey API|https://developer.surveymonkey.com/|https://developer.surveymonkey.com/api/v3/|oauth|freemium|Survey API.
+forms-surveys|Jotform API|https://api.jotform.com/docs/|https://api.jotform.com/docs/|key|freemium|Forms API.
+forms-surveys|Fillout|https://www.fillout.com/|https://www.fillout.com/help/fillout-rest-api|key|freemium|Forms with REST API.
+forms-surveys|Formbricks|https://formbricks.com/|https://formbricks.com/docs|key|freemium|Open-source survey platform.
+forms-surveys|LimeSurvey|https://www.limesurvey.org/|https://manual.limesurvey.org/RemoteControl_2_API|key|freemium|Open-source survey tool.
+forms-surveys|Getform|https://getform.io/|https://docs.getform.io/|key|freemium|Form backend.
+api-testing-mocking|Postman|https://www.postman.com/|https://learning.postman.com/docs/|key|freemium|API platform for building and testing.
+api-testing-mocking|Insomnia|https://insomnia.rest/|https://docs.insomnia.rest/|none|freemium|API client for REST and GraphQL.
+api-testing-mocking|Bruno|https://www.usebruno.com/|https://docs.usebruno.com/|none|free|Open-source API client.
+api-testing-mocking|Hoppscotch|https://hoppscotch.io/|https://docs.hoppscotch.io/|none|free|Open-source API development ecosystem.
+api-testing-mocking|httpbin|https://httpbin.org/|https://httpbin.org/#/|none|free|HTTP request and response testing service.
+api-testing-mocking|JSONPlaceholder|https://jsonplaceholder.typicode.com/|https://jsonplaceholder.typicode.com/guide/|none|free|Free fake REST API.
+api-testing-mocking|Mockoon|https://mockoon.com/|https://mockoon.com/docs/latest/about/|none|free|Local mock API server.
+api-testing-mocking|WireMock|https://wiremock.org/|https://wiremock.org/docs/|none|free|API mocking tool.
+api-testing-mocking|Prism|https://stoplight.io/open-source/prism|https://stoplight.io/open-source/prism|none|free|OpenAPI mock server.
+api-testing-mocking|Stoplight|https://stoplight.io/|https://docs.stoplight.io/|key|freemium|API design platform.
+api-testing-mocking|Swagger UI|https://swagger.io/tools/swagger-ui/|https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/|none|free|Interactive OpenAPI docs.
+api-testing-mocking|Redocly|https://redocly.com/|https://redocly.com/docs/|key|freemium|API documentation tools.
+api-testing-mocking|Scalar|https://scalar.com/|https://guides.scalar.com/|none|free|Open-source API reference and client.
+api-testing-mocking|Schemathesis|https://github.com/schemathesis/schemathesis|https://schemathesis.readthedocs.io/|none|free|Property-based API testing from OpenAPI.
+api-testing-mocking|Dredd|https://dredd.org/|https://dredd.org/en/latest/|none|free|API documentation testing tool.
+api-testing-mocking|k6|https://k6.io/|https://grafana.com/docs/k6/|none|free|Load testing tool.
+api-testing-mocking|Locust|https://locust.io/|https://docs.locust.io/|none|free|Python load testing tool.
+api-testing-mocking|Webhook.site|https://webhook.site/|https://docs.webhook.site/|none|freemium|Inspect incoming webhooks.
+api-testing-mocking|Svix|https://www.svix.com/|https://docs.svix.com/|key|freemium|Webhook sending service.
+api-testing-mocking|Hookdeck|https://hookdeck.com/|https://hookdeck.com/docs|key|freemium|Webhook infrastructure.
+api-testing-mocking|Beeceptor|https://beeceptor.com/|https://beeceptor.com/docs/|key|freemium|Mock APIs and inspect requests.
+uptime-monitoring|Better Stack|https://betterstack.com/|https://betterstack.com/docs/|key|freemium|Uptime monitoring and logs.
+uptime-monitoring|UptimeRobot|https://uptimerobot.com/|https://uptimerobot.com/api/|key|freemium|Website uptime monitoring.
+uptime-monitoring|Uptime Kuma|https://github.com/louislam/uptime-kuma|https://github.com/louislam/uptime-kuma/wiki|none|free|Self-hosted monitoring tool.
+uptime-monitoring|Healthchecks.io|https://healthchecks.io/|https://healthchecks.io/docs/|key|freemium|Cron job monitoring.
+uptime-monitoring|Statuspage|https://www.atlassian.com/software/statuspage|https://www.atlassian.com/software/statuspage|key|paid|Status page product.
+uptime-monitoring|Instatus|https://instatus.com/|https://instatus.com/help|key|freemium|Status pages.
+uptime-monitoring|Checkly|https://www.checklyhq.com/|https://www.checklyhq.com/docs/|key|freemium|Synthetic monitoring with Playwright.
+uptime-monitoring|PagerDuty API|https://developer.pagerduty.com/|https://developer.pagerduty.com/api-reference/|key|paid|Incident response API.
+uptime-monitoring|Opsgenie|https://www.atlassian.com/software/opsgenie|https://docs.opsgenie.com/docs/api-overview|key|paid|Alerting and on-call.
+uptime-monitoring|Prometheus|https://prometheus.io/|https://prometheus.io/docs/|none|free|Open-source monitoring and alerting.
+uptime-monitoring|Netdata|https://www.netdata.cloud/|https://learn.netdata.cloud/|none|freemium|Real-time infrastructure monitoring.
+uptime-monitoring|Datadog|https://www.datadoghq.com/|https://docs.datadoghq.com/api/|key|paid|Monitoring and security platform.
+uptime-monitoring|New Relic|https://newrelic.com/|https://docs.newrelic.com/docs/apis/|key|freemium|Observability platform.
+uptime-monitoring|Logtail|https://betterstack.com/logs|https://betterstack.com/docs/logs/|key|freemium|Log management.
+uptime-monitoring|Loki|https://grafana.com/oss/loki/|https://grafana.com/docs/loki/latest/|none|free|Log aggregation system.
+uptime-monitoring|GlitchTip|https://glitchtip.com/|https://glitchtip.com/documentation|key|freemium|Open-source Sentry-compatible error tracking.
+data-viz-bi|Metabase|https://www.metabase.com/|https://www.metabase.com/docs/latest/|none|freemium|Open-source business intelligence.
+data-viz-bi|Apache Superset|https://superset.apache.org/|https://superset.apache.org/docs/intro|none|free|Open-source data exploration and visualization.
+data-viz-bi|Grafana Dashboards|https://grafana.com/grafana/|https://grafana.com/docs/grafana/latest/|none|freemium|Dashboards for metrics and data.
+data-viz-bi|Redash|https://redash.io/|https://redash.io/help/|none|free|Query and visualization tool.
+data-viz-bi|Evidence|https://evidence.dev/|https://docs.evidence.dev/|none|free|Code-based BI with SQL and markdown.
+data-viz-bi|Observable|https://observablehq.com/|https://observablehq.com/documentation|oauth|freemium|Data notebooks and visualization.
+data-viz-bi|D3.js|https://d3js.org/|https://d3js.org/getting-started|none|free|JavaScript visualization library.
+data-viz-bi|Chart.js|https://www.chartjs.org/|https://www.chartjs.org/docs/latest/|none|free|Simple JavaScript charts.
+data-viz-bi|Plotly|https://plotly.com/|https://plotly.com/python/|none|free|Interactive graphing libraries.
+data-viz-bi|Vega-Lite|https://vega.github.io/vega-lite/|https://vega.github.io/vega-lite/docs/|none|free|Grammar of interactive graphics.
+data-viz-bi|Apache ECharts|https://echarts.apache.org/|https://echarts.apache.org/en/api.html|none|free|JavaScript charting library.
+data-viz-bi|Matplotlib|https://matplotlib.org/|https://matplotlib.org/stable/users/index.html|none|free|Python plotting library.
+data-viz-bi|QuickChart|https://quickchart.io/|https://quickchart.io/documentation/|none|freemium|Chart image API.
+data-viz-bi|Mermaid|https://mermaid.js.org/|https://mermaid.js.org/intro/|none|free|Diagrams from text.
+data-viz-bi|Streamlit|https://streamlit.io/|https://docs.streamlit.io/|none|free|Build data apps in Python.
+data-viz-bi|Gradio|https://www.gradio.app/|https://www.gradio.app/docs|none|free|Build ML demos and apps.
+data-viz-bi|Datasette|https://datasette.io/|https://docs.datasette.io/|none|free|Explore and publish SQLite data.
+data-viz-bi|Pandas|https://pandas.pydata.org/|https://pandas.pydata.org/docs/|none|free|Python data analysis library.
+data-viz-bi|Polars|https://pola.rs/|https://docs.pola.rs/|none|free|Fast DataFrame library.
+data-etl|Airbyte|https://airbyte.com/|https://docs.airbyte.com/|key|freemium|Open-source data integration.
+data-etl|dbt|https://www.getdbt.com/|https://docs.getdbt.com/|none|freemium|Transform data in the warehouse.
+data-etl|Fivetran|https://www.fivetran.com/|https://fivetran.com/docs|key|paid|Managed data pipelines.
+data-etl|Meltano|https://meltano.com/|https://docs.meltano.com/|none|free|Open-source ELT.
+data-etl|Apache Kafka|https://kafka.apache.org/|https://kafka.apache.org/documentation/|none|free|Distributed event streaming.
+data-etl|Redpanda|https://www.redpanda.com/|https://docs.redpanda.com/|key|freemium|Kafka-compatible streaming.
+data-etl|Apache Flink|https://flink.apache.org/|https://nightlies.apache.org/flink/flink-docs-stable/|none|free|Stream processing.
+data-etl|MotherDuck|https://motherduck.com/|https://motherduck.com/docs/|key|freemium|Cloud DuckDB.
+data-etl|Great Expectations|https://greatexpectations.io/|https://docs.greatexpectations.io/|none|free|Data quality validation.
+data-etl|Apache Iceberg|https://iceberg.apache.org/|https://iceberg.apache.org/docs/latest/|none|free|Open table format.
+data-etl|Debezium|https://debezium.io/|https://debezium.io/documentation/|none|free|Change data capture.
+data-etl|Apache NiFi|https://nifi.apache.org/|https://nifi.apache.org/docs.html|none|free|Dataflow automation.
+data-etl|Singer|https://www.singer.io/|https://github.com/singer-io/getting-started|none|free|Open standard for data extraction.
+3d-graphics|Three.js|https://threejs.org/|https://threejs.org/docs/|none|free|JavaScript 3D library.
+3d-graphics|Babylon.js|https://www.babylonjs.com/|https://doc.babylonjs.com/|none|free|3D engine for the web.
+3d-graphics|Blender|https://www.blender.org/|https://docs.blender.org/api/current/|none|free|Open-source 3D creation suite with Python API.
+3d-graphics|Meshy|https://www.meshy.ai/|https://docs.meshy.ai/|key|freemium|Text- and image-to-3D generation API.
+3d-graphics|Tripo AI|https://www.tripo3d.ai/|https://platform.tripo3d.ai/docs|key|freemium|AI 3D model generation API.
+3d-graphics|Sketchfab API|https://sketchfab.com/developers|https://docs.sketchfab.com/|key|freemium|3D model hosting and API.
+3d-graphics|Hunyuan3D|https://github.com/Tencent-Hunyuan/Hunyuan3D-2|https://github.com/Tencent-Hunyuan/Hunyuan3D-2|none|free|Open 3D generation models.
+3d-graphics|TRELLIS|https://github.com/microsoft/TRELLIS|https://github.com/microsoft/TRELLIS|none|free|Microsoft's open 3D asset generation.
+3d-graphics|Luma Genie|https://lumalabs.ai/genie|https://lumalabs.ai/genie|oauth|freemium|Text-to-3D.
+3d-graphics|Rodin (Hyper3D)|https://hyper3d.ai/|https://developer.hyper3d.ai/|key|freemium|3D generation API.
+3d-graphics|Godot Engine|https://godotengine.org/|https://docs.godotengine.org/|none|free|Open-source game engine.
+3d-graphics|Unity|https://unity.com/|https://docs.unity3d.com/|oauth|freemium|Game engine.
+3d-graphics|Unreal Engine|https://www.unrealengine.com/|https://dev.epicgames.com/documentation/en-us/unreal-engine|oauth|freemium|Game engine.
+3d-graphics|Polyhaven API|https://polyhaven.com/|https://github.com/Poly-Haven/Public-API|none|free|Free CC0 3D assets, HDRIs and textures.
+3d-graphics|Poly Pizza|https://poly.pizza/|https://poly.pizza/|key|free|Free low-poly 3D models.

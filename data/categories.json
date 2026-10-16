@@ -548,5 +548,115 @@
   "slug": "open-data-portals",
   "name": "Open Data Portals",
   "blurb": "Government and city open data portals and catalogs."
+ },
+ {
+  "slug": "sports-data",
+  "name": "Sports Data",
+  "blurb": "Scores, stats, odds and schedules."
+ },
+ {
+  "slug": "movies-tv-data",
+  "name": "Movies & TV Data",
+  "blurb": "Film and television metadata and discovery APIs."
+ },
+ {
+  "slug": "health-medical-data",
+  "name": "Health & Medical Data",
+  "blurb": "Drug, clinical, public health and wearable data."
+ },
+ {
+  "slug": "travel-transport",
+  "name": "Travel & Transport",
+  "blurb": "Flights, hotels, transit and mobility APIs."
+ },
+ {
+  "slug": "jobs-hiring",
+  "name": "Jobs & Hiring",
+  "blurb": "Job listings and applicant-tracking APIs."
+ },
+ {
+  "slug": "real-estate",
+  "name": "Real Estate",
+  "blurb": "Property, rental and housing data."
+ },
+ {
+  "slug": "legal-data",
+  "name": "Legal Data",
+  "blurb": "Case law, legislation and legal documents."
+ },
+ {
+  "slug": "education",
+  "name": "Education",
+  "blurb": "Learning resources and educational APIs."
+ },
+ {
+  "slug": "accounting-tax",
+  "name": "Accounting",
+  "blurb": "Accounting and bookkeeping platforms."
+ },
+ {
+  "slug": "web-analytics",
+  "name": "Web & Product Analytics",
+  "blurb": "Website and product analytics tools."
+ },
+ {
+  "slug": "seo-tools",
+  "name": "SEO Tools",
+  "blurb": "SEO data, auditing and search-engine tools."
+ },
+ {
+  "slug": "domains-dns",
+  "name": "Domains & DNS",
+  "blurb": "Registrars, DNS and domain intelligence."
+ },
+ {
+  "slug": "url-utilities",
+  "name": "URL & Web Utilities",
+  "blurb": "Utilities for links, QR codes and web content."
+ },
+ {
+  "slug": "feature-flags-config",
+  "name": "Feature Flags & Experimentation",
+  "blurb": "Feature flag and A/B testing platforms."
+ },
+ {
+  "slug": "cms-content",
+  "name": "Headless CMS & Content",
+  "blurb": "Content management systems with APIs."
+ },
+ {
+  "slug": "forms-surveys",
+  "name": "Forms & Surveys",
+  "blurb": "Form builders, form backends and surveys."
+ },
+ {
+  "slug": "api-testing-mocking",
+  "name": "API Testing & Mocking",
+  "blurb": "API clients, mock servers, documentation and load testing."
+ },
+ {
+  "slug": "uptime-monitoring",
+  "name": "Uptime & Monitoring",
+  "blurb": "Uptime, status and infrastructure monitoring."
+ },
+ {
+  "slug": "data-viz-bi",
+  "name": "Data Visualization & BI",
+  "blurb": "Charting libraries and business intelligence tools."
+ },
+ {
+  "slug": "data-etl",
+  "name": "Data Pipelines & ETL",
+  "blurb": "Data integration, transformation and quality tools."
+ },
+ {
+  "slug": "3d-graphics",
+  "name": "3D & Graphics",
+  "blurb": "3D engines and libraries for the web and desktop."
+ },
+ {
+  "slug": "company-registries",
+  "name": "Company Registries",
+  "blurb": "Corporate registry data."
  }
 ]

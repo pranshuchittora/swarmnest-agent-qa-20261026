@@ -353,3 +353,7 @@
 /directory/dev-sandbox/upstash-box/ /directory/code-execution/upstash-box/ 301
 /directory/dev-sandbox/together-code-sandbox/ /directory/code-execution/together-code-sandbox/ 301
 /directory/dev-sandbox/microsandbox/ /directory/code-execution/microsandbox/ 301
+/directory/memory-vector-dbs/letta/ /directory/agent-frameworks/letta/ 301
+/directory/open-data/rest-countries/ /directory/knowledge-bases/rest-countries/ 301
+/directory/search-apis/dataforseo/ /directory/seo-tools/dataforseo/ 301
+/directory/memory-vector-dbs/clickhouse/ /directory/data-etl/clickhouse/ 301
