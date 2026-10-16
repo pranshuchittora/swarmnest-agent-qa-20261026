@@ -1,5 +1,8 @@
 const H={'content-type':'application/json; charset=utf-8','access-control-allow-origin':'*','cache-control':'public, max-age=300'};
 const J=(o,s=200)=>new Response(JSON.stringify(o,null,1),{status:s,headers:H});
+const SW=new Set(['to','for','the','a','an','and','of','in','on','with','api','apis','tool','tools']);
+const stem=t=>t.length>5?t.replace(/ations?$/,'at').replace(/(ings?|ions?|ers?|es|ed|s|e)$/,''):t;
+function terms(q){const w=q.split(/\s+/).filter(Boolean);const k=w.filter(t=>!SW.has(t));return (k.length?k:w).map(stem)}
 function score(e,ts){const n=e.name.toLowerCase(),c=(e.category_name+' '+e.category).toLowerCase(),d=e.description.toLowerCase(),x=(e.auth+' '+e.pricing).toLowerCase();let s=0;
 for(const t of ts){let m=0;if(n===t)m=12;else if(n.startsWith(t))m=9;else if(n.includes(t))m=7;else if(c.includes(t))m=4;else if(d.includes(t))m=2;else if(x.includes(t))m=1;if(!m)return 0;s+=m}return s}
 export async function onRequest({request,env}){
@@ -8,7 +11,7 @@ export async function onRequest({request,env}){
  let limit=parseInt(u.searchParams.get('limit')||'20',10);if(!(limit>0))limit=20;limit=Math.min(limit,100);
  if(!q&&!cat)return J({error:'Provide q and/or category. Example: /api/v1/search?q=translate&limit=10',docs:'https://swarmnest.ai/openapi.json'},400);
  const r=await env.ASSETS.fetch(new URL('/directory.json',u));const all=(await r.json()).entries;
- const ts=q?q.split(/\s+/):[];
+ const ts=q?terms(q):[];
  let hits=all.filter(e=>(!cat||e.category===cat)&&(!auth||e.auth===auth)&&(!pricing||e.pricing===pricing)).map(e=>({s:ts.length?score(e,ts):1,e})).filter(h=>h.s>0);
  hits.sort((a,b)=>b.s-a.s||a.e.name.localeCompare(b.e.name));
  return J({query:q,category:cat||null,total:hits.length,count:Math.min(hits.length,limit),results:hits.slice(0,limit).map(h=>({...h.e,score:h.s}))});

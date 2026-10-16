@@ -63,5 +63,15 @@
   "slug": "voice-video-dubbing",
   "name": "Voice & Video Dubbing",
   "blurb": "AI dubbing, voice translation and video localization services that translate spoken audio and video."
+ },
+ {
+  "slug": "databases-backend",
+  "name": "Databases & Backend",
+  "blurb": "Databases and backend platforms agents can build on."
+ },
+ {
+  "slug": "text-to-speech",
+  "name": "Text-to-Speech",
+  "blurb": "Speech synthesis and voice APIs."
  }
 ]
