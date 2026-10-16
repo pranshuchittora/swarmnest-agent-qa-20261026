@@ -73,5 +73,360 @@
   "slug": "text-to-speech",
   "name": "Text-to-Speech",
   "blurb": "Speech synthesis and voice APIs."
+ },
+ {
+  "slug": "image-generation",
+  "name": "Image Generation",
+  "blurb": "Text-to-image models, hosted APIs and open-source tools for generating and editing images."
+ },
+ {
+  "slug": "video-generation",
+  "name": "Video Generation",
+  "blurb": "Text- and image-to-video models and APIs, open and hosted."
+ },
+ {
+  "slug": "embeddings-rerankers",
+  "name": "Embeddings & Rerankers",
+  "blurb": "Embedding models, rerankers and tooling for semantic search and RAG."
+ },
+ {
+  "slug": "ocr-document-parsing",
+  "name": "OCR & Document Parsing",
+  "blurb": "OCR engines and document parsers that turn PDFs, scans and Office files into structured text."
+ },
+ {
+  "slug": "browser-automation",
+  "name": "Browser Automation",
+  "blurb": "Headless browsers, cloud browser infrastructure and agent-driven web automation."
+ },
+ {
+  "slug": "observability-evals",
+  "name": "Observability & Evals",
+  "blurb": "Tracing, monitoring and evaluation tools for LLM apps and agents."
+ },
+ {
+  "slug": "auth-identity",
+  "name": "Auth & Identity",
+  "blurb": "Authentication, identity and agent-authorization platforms and standards."
+ },
+ {
+  "slug": "email-apis",
+  "name": "Email APIs",
+  "blurb": "Transactional and inbound email APIs, inboxes for agents, and email infrastructure."
+ },
+ {
+  "slug": "sms-voice",
+  "name": "SMS & Voice",
+  "blurb": "SMS, voice and telephony APIs and real-time audio infrastructure."
+ },
+ {
+  "slug": "maps-geo",
+  "name": "Maps & Geo",
+  "blurb": "Maps, geocoding, routing and geospatial data and libraries."
+ },
+ {
+  "slug": "finance-market-data",
+  "name": "Finance & Market Data",
+  "blurb": "Stock, fundamentals and economic data APIs and research tools."
+ },
+ {
+  "slug": "weather",
+  "name": "Weather",
+  "blurb": "Weather, forecast and climate data APIs."
+ },
+ {
+  "slug": "news",
+  "name": "News",
+  "blurb": "News search, headline and media APIs for agents that need current events."
+ },
+ {
+  "slug": "academic-research",
+  "name": "Academic & Research",
+  "blurb": "Scholarly search, citation and open-access APIs."
+ },
+ {
+  "slug": "model-hosting-inference",
+  "name": "Model Hosting & Inference",
+  "blurb": "Platforms that host and serve open and proprietary models via API."
+ },
+ {
+  "slug": "fine-tuning",
+  "name": "Fine-tuning & Training",
+  "blurb": "Libraries and services for fine-tuning, training and aligning models."
+ },
+ {
+  "slug": "prompt-management",
+  "name": "Prompt Management",
+  "blurb": "Prompt registries, versioning, optimization and prompt-programming tools."
+ },
+ {
+  "slug": "workflow-automation",
+  "name": "Workflow Automation",
+  "blurb": "No-code and low-code automation platforms that connect apps and agents."
+ },
+ {
+  "slug": "agent-protocols",
+  "name": "Agent Protocols",
+  "blurb": "Open protocols for agent-to-agent communication, tool use, and agent commerce."
+ },
+ {
+  "slug": "agent-marketplaces",
+  "name": "Agent Marketplaces",
+  "blurb": "Marketplaces and registries where agents, skills and tools are published."
+ },
+ {
+  "slug": "datasets",
+  "name": "Datasets",
+  "blurb": "Public datasets and corpora for training, evaluating and grounding models."
+ },
+ {
+  "slug": "security-guardrails",
+  "name": "Security & Guardrails",
+  "blurb": "Guardrails, red-teaming and safety tools for AI systems."
+ },
+ {
+  "slug": "cloud-storage",
+  "name": "Cloud Storage",
+  "blurb": "Object storage, file storage and file-handling APIs."
+ },
+ {
+  "slug": "calendars-scheduling",
+  "name": "Calendars & Scheduling",
+  "blurb": "Calendar and scheduling APIs for agents that book and manage time."
+ },
+ {
+  "slug": "crm-sales",
+  "name": "CRM & Sales",
+  "blurb": "CRM platforms and APIs for managing contacts and pipelines."
+ },
+ {
+  "slug": "code-execution",
+  "name": "Code Execution & Sandboxes",
+  "blurb": "Sandboxes and runtimes for safely running agent-generated code."
+ },
+ {
+  "slug": "support-helpdesk",
+  "name": "Support & Helpdesk",
+  "blurb": "Customer support and helpdesk platforms with APIs."
+ },
+ {
+  "slug": "project-management",
+  "name": "Project Management",
+  "blurb": "Task, issue and project-tracking APIs."
+ },
+ {
+  "slug": "no-code-databases",
+  "name": "No-code Databases",
+  "blurb": "Spreadsheet-style databases and workspace APIs."
+ },
+ {
+  "slug": "lead-enrichment",
+  "name": "Lead Enrichment & Outreach",
+  "blurb": "Contact, company data and outreach tooling."
+ },
+ {
+  "slug": "newsletters",
+  "name": "Newsletter Platforms",
+  "blurb": "Platforms and APIs for newsletters and mailing lists."
+ },
+ {
+  "slug": "email-verification",
+  "name": "Email Verification",
+  "blurb": "APIs that validate and verify email addresses."
+ },
+ {
+  "slug": "email-testing",
+  "name": "Email Testing",
+  "blurb": "Local and hosted SMTP sandboxes for testing email."
+ },
+ {
+  "slug": "meetings-conferencing",
+  "name": "Meetings & Conferencing",
+  "blurb": "Video meeting APIs, meeting bots and transcription."
+ },
+ {
+  "slug": "scheduling-time",
+  "name": "Time & Planning",
+  "blurb": "Time zones, holidays and AI planners."
+ },
+ {
+  "slug": "social-media-apis",
+  "name": "Social Media APIs",
+  "blurb": "APIs for social platforms and online communities."
+ },
+ {
+  "slug": "podcasts-music",
+  "name": "Podcasts & Music",
+  "blurb": "Podcast directories and music catalog APIs."
+ },
+ {
+  "slug": "rss-feeds",
+  "name": "RSS & Feeds",
+  "blurb": "Feed readers, aggregators and feed generators."
+ },
+ {
+  "slug": "content-extraction",
+  "name": "Content Extraction",
+  "blurb": "Libraries for extracting article text from web pages."
+ },
+ {
+  "slug": "ip-geolocation",
+  "name": "IP Geolocation",
+  "blurb": "IP address lookup and geolocation APIs."
+ },
+ {
+  "slug": "crypto-web3",
+  "name": "Crypto & Web3",
+  "blurb": "Crypto prices, exchanges and onchain APIs."
+ },
+ {
+  "slug": "forex-rates",
+  "name": "Currency & Forex Rates",
+  "blurb": "Exchange-rate and currency APIs."
+ },
+ {
+  "slug": "environment-hazards",
+  "name": "Air Quality & Hazards",
+  "blurb": "Air quality, earthquake and natural-hazard data."
+ },
+ {
+  "slug": "chat-platforms",
+  "name": "Chat Platforms",
+  "blurb": "Messaging platform APIs for building bots."
+ },
+ {
+  "slug": "voice-agents",
+  "name": "Voice Agents",
+  "blurb": "Platforms and frameworks for real-time voice AI agents."
+ },
+ {
+  "slug": "data-labeling",
+  "name": "Data Labeling & Synthetic Data",
+  "blurb": "Annotation tools and synthetic-data generators."
+ },
+ {
+  "slug": "api-marketplaces",
+  "name": "API Marketplaces",
+  "blurb": "Marketplaces and catalogs of public APIs."
+ },
+ {
+  "slug": "ai-tool-directories",
+  "name": "AI Tool Directories",
+  "blurb": "Directories and launch platforms that list AI tools."
+ },
+ {
+  "slug": "media-cdn",
+  "name": "Media & Image CDN",
+  "blurb": "Media storage, transformation and delivery."
+ },
+ {
+  "slug": "vulnerability-intel",
+  "name": "Vulnerability & Threat Intel",
+  "blurb": "Vulnerability, malware and reputation data APIs."
+ },
+ {
+  "slug": "code-security",
+  "name": "Code Security",
+  "blurb": "Static analysis, dependency and secret scanning."
+ },
+ {
+  "slug": "secrets-management",
+  "name": "Secrets Management",
+  "blurb": "Tools for storing and distributing secrets."
+ },
+ {
+  "slug": "captcha-bot-protection",
+  "name": "CAPTCHA & Bot Protection",
+  "blurb": "CAPTCHA and bot-detection services."
+ },
+ {
+  "slug": "llm-benchmarks",
+  "name": "LLM Benchmarks & Leaderboards",
+  "blurb": "Leaderboards, benchmarks and evaluation datasets for models."
+ },
+ {
+  "slug": "stock-photo-media",
+  "name": "Stock Photos & Media",
+  "blurb": "Free stock photo and video APIs."
+ },
+ {
+  "slug": "video-hosting",
+  "name": "Video Hosting & Streaming",
+  "blurb": "Video infrastructure for upload, encoding and streaming."
+ },
+ {
+  "slug": "video-editing-tools",
+  "name": "Video Editing & Rendering",
+  "blurb": "Programmatic video editing and rendering tools."
+ },
+ {
+  "slug": "avatar-video",
+  "name": "AI Avatar Video",
+  "blurb": "AI presenter and avatar video generation."
+ },
+ {
+  "slug": "image-editing-apis",
+  "name": "Image Editing APIs",
+  "blurb": "Background removal, upscaling and image cleanup APIs."
+ },
+ {
+  "slug": "llm-sdks-structured",
+  "name": "LLM SDKs & Structured Output",
+  "blurb": "Libraries for structured output and programming LLMs."
+ },
+ {
+  "slug": "prompt-libraries",
+  "name": "Prompt Libraries & Guides",
+  "blurb": "Prompt collections, guides and learning resources."
+ },
+ {
+  "slug": "ml-training-platforms",
+  "name": "ML Training Platforms",
+  "blurb": "Experiment tracking, notebooks and training infrastructure."
+ },
+ {
+  "slug": "gpu-cloud",
+  "name": "GPU Cloud",
+  "blurb": "Rentable GPU compute for AI workloads."
+ },
+ {
+  "slug": "local-inference",
+  "name": "Local Inference",
+  "blurb": "Run models locally on your own hardware."
+ },
+ {
+  "slug": "workflow-orchestration",
+  "name": "Workflow Orchestration",
+  "blurb": "Durable execution engines, task queues and orchestrators."
+ },
+ {
+  "slug": "visual-agent-builders",
+  "name": "Visual Agent Builders",
+  "blurb": "Drag-and-drop builders for agents and LLM flows."
+ },
+ {
+  "slug": "agent-standards-specs",
+  "name": "Agent Standards & Specs",
+  "blurb": "Web and API standards that make sites and tools agent-readable."
+ },
+ {
+  "slug": "agent-payment-protocols",
+  "name": "Agent Payment Protocols",
+  "blurb": "Protocols that let agents pay and transact."
+ },
+ {
+  "slug": "mcp-directories",
+  "name": "MCP Directories",
+  "blurb": "Registries and directories of MCP servers."
+ },
+ {
+  "slug": "research-assistants",
+  "name": "Research Assistants",
+  "blurb": "AI-powered literature and research tools."
+ },
+ {
+  "slug": "patents",
+  "name": "Patents",
+  "blurb": "Patent and trademark data APIs."
  }
 ]
