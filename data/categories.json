@@ -658,5 +658,95 @@
   "slug": "company-registries",
   "name": "Company Registries",
   "blurb": "Corporate registry data."
+ },
+ {
+  "slug": "space-astronomy",
+  "name": "Space & Astronomy",
+  "blurb": "Launch, satellite, planetary and astronomical data for agents."
+ },
+ {
+  "slug": "books-library",
+  "name": "Books & Libraries",
+  "blurb": "Book metadata, library catalogs and public-domain texts."
+ },
+ {
+  "slug": "food-nutrition",
+  "name": "Food & Nutrition",
+  "blurb": "Recipes, nutrition facts, product databases and food data."
+ },
+ {
+  "slug": "games-data",
+  "name": "Games & Game Data",
+  "blurb": "Video game, tabletop and chess databases and APIs."
+ },
+ {
+  "slug": "pdf-document-generation",
+  "name": "PDF & Document Generation",
+  "blurb": "Generate and convert PDFs and documents from HTML or templates."
+ },
+ {
+  "slug": "e-signature",
+  "name": "E-Signature",
+  "blurb": "Electronic signature and document signing APIs."
+ },
+ {
+  "slug": "screenshot-apis",
+  "name": "Screenshot & Link Preview APIs",
+  "blurb": "Capture web page screenshots and link previews."
+ },
+ {
+  "slug": "qr-barcode",
+  "name": "QR Codes & Barcodes",
+  "blurb": "Generate, scan and look up QR codes and barcodes."
+ },
+ {
+  "slug": "dictionaries-language",
+  "name": "Dictionaries & Language Data",
+  "blurb": "Definitions, thesauri, grammar and language resources."
+ },
+ {
+  "slug": "energy-climate",
+  "name": "Energy & Climate",
+  "blurb": "Grid, emissions, energy and climate data."
+ },
+ {
+  "slug": "art-museums",
+  "name": "Art & Museums",
+  "blurb": "Open museum collections and cultural heritage APIs."
+ },
+ {
+  "slug": "vehicles-automotive",
+  "name": "Vehicles & Automotive",
+  "blurb": "VIN decoding, vehicle data, recalls and connected cars."
+ },
+ {
+  "slug": "iot-smart-home",
+  "name": "IoT & Smart Home",
+  "blurb": "Smart home control, IoT platforms and messaging protocols."
+ },
+ {
+  "slug": "ai-coding-assistants",
+  "name": "AI Coding Assistants",
+  "blurb": "Coding agents, AI IDEs and app builders."
+ },
+ {
+  "slug": "message-queues-streaming",
+  "name": "Message Queues & Streaming",
+  "blurb": "Brokers, queues and event streaming systems."
+ },
+ {
+  "slug": "nlp-text-analysis",
+  "name": "NLP & Text Analysis",
+  "blurb": "Libraries and APIs for entities, sentiment and language processing."
+ },
+ {
+  "slug": "science-data",
+  "name": "Science Data",
+  "blurb": "Chemistry, biology, materials and physics databases."
+ },
+ {
+  "slug": "animals-nature",
+  "name": "Animals & Nature",
+  "blurb": "Biodiversity, species, plants and wildlife data."
  }
 ]
