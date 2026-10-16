@@ -10,11 +10,6 @@
   "blurb": "Web search and retrieval endpoints that give agents fresh information."
  },
  {
-  "slug": "scraping-browsing",
-  "name": "Scraping & Browsing",
-  "blurb": "Crawlers, headless browsers and page readers that let agents use the web."
- },
- {
   "slug": "mcp-servers",
   "name": "MCP Servers",
   "blurb": "Model Context Protocol servers and tooling that plug agents into other software."
@@ -25,29 +20,9 @@
   "blurb": "Libraries and platforms for building, orchestrating and running agents."
  },
  {
-  "slug": "memory-vector-dbs",
-  "name": "Memory & Vector DBs",
-  "blurb": "Vector databases and memory layers so agents can store and recall knowledge."
- },
- {
   "slug": "open-data",
   "name": "Open Data",
   "blurb": "Free datasets and public APIs covering knowledge, science, economics and more."
- },
- {
-  "slug": "comms",
-  "name": "Comms",
-  "blurb": "Email, messaging, voice and chat APIs for agents that talk to people."
- },
- {
-  "slug": "dev-sandbox",
-  "name": "Dev & Sandbox",
-  "blurb": "Code execution, hosting, databases and observability for agent infrastructure."
- },
- {
-  "slug": "payments-commerce",
-  "name": "Payments & Commerce",
-  "blurb": "Payment, billing and storefront APIs for agents that sell or spend."
  },
  {
   "slug": "translation-apis",
@@ -56,18 +31,8 @@
  },
  {
   "slug": "speech-transcription",
-  "name": "Speech & Transcription",
-  "blurb": "Speech-to-text and transcription models and APIs, open and hosted, for agents that need to listen."
- },
- {
-  "slug": "voice-video-dubbing",
-  "name": "Voice & Video Dubbing",
-  "blurb": "AI dubbing, voice translation and video localization services that translate spoken audio and video."
- },
- {
-  "slug": "databases-backend",
-  "name": "Databases & Backend",
-  "blurb": "Databases and backend platforms agents can build on."
+  "name": "Speech-to-Text & Transcription",
+  "blurb": "Speech recognition engines and transcription APIs."
  },
  {
   "slug": "text-to-speech",
@@ -255,11 +220,6 @@
   "blurb": "APIs for social platforms and online communities."
  },
  {
-  "slug": "podcasts-music",
-  "name": "Podcasts & Music",
-  "blurb": "Podcast directories and music catalog APIs."
- },
- {
   "slug": "rss-feeds",
   "name": "RSS & Feeds",
   "blurb": "Feed readers, aggregators and feed generators."
@@ -273,11 +233,6 @@
   "slug": "ip-geolocation",
   "name": "IP Geolocation",
   "blurb": "IP address lookup and geolocation APIs."
- },
- {
-  "slug": "crypto-web3",
-  "name": "Crypto & Web3",
-  "blurb": "Crypto prices, exchanges and onchain APIs."
  },
  {
   "slug": "forex-rates",
@@ -345,19 +300,9 @@
   "blurb": "Leaderboards, benchmarks and evaluation datasets for models."
  },
  {
-  "slug": "stock-photo-media",
-  "name": "Stock Photos & Media",
-  "blurb": "Free stock photo and video APIs."
- },
- {
   "slug": "video-hosting",
-  "name": "Video Hosting & Streaming",
-  "blurb": "Video infrastructure for upload, encoding and streaming."
- },
- {
-  "slug": "video-editing-tools",
-  "name": "Video Editing & Rendering",
-  "blurb": "Programmatic video editing and rendering tools."
+  "name": "Video Hosting",
+  "blurb": "Video hosting, encoding and delivery platforms with APIs."
  },
  {
   "slug": "avatar-video",
@@ -475,11 +420,6 @@
   "blurb": "Embeddable in-app chat and messaging SDKs."
  },
  {
-  "slug": "team-chat-selfhosted",
-  "name": "Team Chat & Self-hosted Messaging",
-  "blurb": "Open-source and self-hostable team messaging."
- },
- {
   "slug": "video-conferencing-oss",
   "name": "Open Video Conferencing",
   "blurb": "Self-hostable video conferencing."
@@ -560,21 +500,6 @@
   "blurb": "Film and television metadata and discovery APIs."
  },
  {
-  "slug": "health-medical-data",
-  "name": "Health & Medical Data",
-  "blurb": "Drug, clinical, public health and wearable data."
- },
- {
-  "slug": "travel-transport",
-  "name": "Travel & Transport",
-  "blurb": "Flights, hotels, transit and mobility APIs."
- },
- {
-  "slug": "jobs-hiring",
-  "name": "Jobs & Hiring",
-  "blurb": "Job listings and applicant-tracking APIs."
- },
- {
   "slug": "real-estate",
   "name": "Real Estate",
   "blurb": "Property, rental and housing data."
@@ -625,11 +550,6 @@
   "blurb": "Content management systems with APIs."
  },
  {
-  "slug": "forms-surveys",
-  "name": "Forms & Surveys",
-  "blurb": "Form builders, form backends and surveys."
- },
- {
   "slug": "api-testing-mocking",
   "name": "API Testing & Mocking",
   "blurb": "API clients, mock servers, documentation and load testing."
@@ -663,16 +583,6 @@
   "slug": "space-astronomy",
   "name": "Space & Astronomy",
   "blurb": "Launch, satellite, planetary and astronomical data for agents."
- },
- {
-  "slug": "books-library",
-  "name": "Books & Libraries",
-  "blurb": "Book metadata, library catalogs and public-domain texts."
- },
- {
-  "slug": "food-nutrition",
-  "name": "Food & Nutrition",
-  "blurb": "Recipes, nutrition facts, product databases and food data."
  },
  {
   "slug": "games-data",
@@ -710,11 +620,6 @@
   "blurb": "Grid, emissions, energy and climate data."
  },
  {
-  "slug": "art-museums",
-  "name": "Art & Museums",
-  "blurb": "Open museum collections and cultural heritage APIs."
- },
- {
   "slug": "vehicles-automotive",
   "name": "Vehicles & Automotive",
   "blurb": "VIN decoding, vehicle data, recalls and connected cars."
@@ -730,11 +635,6 @@
   "blurb": "Coding agents, AI IDEs and app builders."
  },
  {
-  "slug": "message-queues-streaming",
-  "name": "Message Queues & Streaming",
-  "blurb": "Brokers, queues and event streaming systems."
- },
- {
   "slug": "nlp-text-analysis",
   "name": "NLP & Text Analysis",
   "blurb": "Libraries and APIs for entities, sentiment and language processing."
@@ -748,5 +648,260 @@
   "slug": "animals-nature",
   "name": "Animals & Nature",
   "blurb": "Biodiversity, species, plants and wildlife data."
+ },
+ {
+  "slug": "message-queues",
+  "name": "Message Queues",
+  "blurb": "Brokers and queues that decouple services and agents with reliable, ordered job delivery."
+ },
+ {
+  "slug": "event-streaming",
+  "name": "Event Streaming",
+  "blurb": "Log-based streaming platforms for high-volume real-time event pipelines."
+ },
+ {
+  "slug": "podcasts",
+  "name": "Podcasts",
+  "blurb": "Podcast directories, search and hosting APIs."
+ },
+ {
+  "slug": "music-apis",
+  "name": "Music APIs",
+  "blurb": "Music catalog, lyrics, playback and artist metadata APIs."
+ },
+ {
+  "slug": "crypto-market-data",
+  "name": "Crypto Prices & Exchanges",
+  "blurb": "Crypto price feeds, exchange APIs and trading libraries."
+ },
+ {
+  "slug": "blockchain-infrastructure",
+  "name": "Blockchain & Web3 Infrastructure",
+  "blurb": "Node providers, indexers, explorers and libraries for building onchain."
+ },
+ {
+  "slug": "stock-photos",
+  "name": "Stock Photos",
+  "blurb": "Free and licensed photo and image libraries with search APIs."
+ },
+ {
+  "slug": "gifs-stickers",
+  "name": "GIFs & Stickers",
+  "blurb": "Animated GIF, meme and sticker search APIs."
+ },
+ {
+  "slug": "sound-effects-audio",
+  "name": "Sound Effects & Audio Libraries",
+  "blurb": "Royalty-free sound effects and audio clip libraries."
+ },
+ {
+  "slug": "team-chat",
+  "name": "Team Chat",
+  "blurb": "Open and self-hostable team chat platforms with bot and plugin APIs."
+ },
+ {
+  "slug": "secure-messaging",
+  "name": "Secure & Decentralized Messaging",
+  "blurb": "Federated, encrypted and peer-to-peer messaging protocols and clients."
+ },
+ {
+  "slug": "web-scraping-apis",
+  "name": "Web Scraping APIs",
+  "blurb": "Managed scraping APIs with proxy rotation, rendering and anti-bot handling."
+ },
+ {
+  "slug": "vector-databases",
+  "name": "Vector Databases",
+  "blurb": "Vector stores and similarity search engines for embeddings and retrieval."
+ },
+ {
+  "slug": "agent-memory",
+  "name": "Agent Memory",
+  "blurb": "Long-term memory layers and knowledge graphs for agents."
+ },
+ {
+  "slug": "backend-as-a-service",
+  "name": "Backend as a Service",
+  "blurb": "Hosted database, auth, storage and functions in one backend."
+ },
+ {
+  "slug": "relational-databases",
+  "name": "Relational Databases",
+  "blurb": "SQL databases, managed Postgres and MySQL-compatible services."
+ },
+ {
+  "slug": "nosql-key-value-stores",
+  "name": "NoSQL & Key-Value Stores",
+  "blurb": "Document, wide-column and key-value databases and storage engines."
+ },
+ {
+  "slug": "graph-databases",
+  "name": "Graph Databases",
+  "blurb": "Databases for connected data and graph queries."
+ },
+ {
+  "slug": "data-warehouses",
+  "name": "Data Warehouses & Analytics Engines",
+  "blurb": "Warehouses and distributed engines for large-scale analytics."
+ },
+ {
+  "slug": "payment-processing",
+  "name": "Payment Processing",
+  "blurb": "Payment gateways and processors with card, wallet and platform APIs."
+ },
+ {
+  "slug": "merchant-of-record",
+  "name": "Merchant of Record & Creator Sales",
+  "blurb": "Platforms that sell digital products and handle tax and compliance for you."
+ },
+ {
+  "slug": "buy-now-pay-later",
+  "name": "Buy Now, Pay Later",
+  "blurb": "Instalment and pay-later checkout providers."
+ },
+ {
+  "slug": "cross-border-payouts",
+  "name": "Payouts & Money Transfer",
+  "blurb": "International transfers, payouts and multi-currency accounts."
+ },
+ {
+  "slug": "ai-dubbing",
+  "name": "AI Dubbing & Localization",
+  "blurb": "Automatic dubbing, lip-sync and voice translation for video."
+ },
+ {
+  "slug": "voice-cloning",
+  "name": "Voice Cloning & Voice Changing",
+  "blurb": "Voice cloning, conversion and synthetic voice creation."
+ },
+ {
+  "slug": "job-search-apis",
+  "name": "Job Search APIs",
+  "blurb": "Job listings and search data from boards and public sources."
+ },
+ {
+  "slug": "applicant-tracking",
+  "name": "Applicant Tracking & Recruiting",
+  "blurb": "ATS and recruiting platforms with job and candidate APIs."
+ },
+ {
+  "slug": "hr-payroll",
+  "name": "HR & Payroll",
+  "blurb": "HR, payroll and global employment APIs."
+ },
+ {
+  "slug": "books-apis",
+  "name": "Books & Ebooks",
+  "blurb": "Book metadata, ISBN lookup and public-domain ebook APIs."
+ },
+ {
+  "slug": "library-catalogs",
+  "name": "Library Catalogs & Archives",
+  "blurb": "National library, archive and digital library catalog APIs."
+ },
+ {
+  "slug": "museum-collections",
+  "name": "Museum Collections",
+  "blurb": "Open art and museum collection APIs with images and metadata."
+ },
+ {
+  "slug": "cultural-heritage",
+  "name": "Cultural Heritage Aggregators",
+  "blurb": "Aggregated cultural collections and art vocabularies."
+ },
+ {
+  "slug": "nutrition-data",
+  "name": "Nutrition & Food Data",
+  "blurb": "Food products, ingredients and nutrient databases."
+ },
+ {
+  "slug": "recipes-cooking",
+  "name": "Recipes & Cooking",
+  "blurb": "Recipe search and meal-planning APIs."
+ },
+ {
+  "slug": "drinks-beverages",
+  "name": "Drinks & Breweries",
+  "blurb": "Cocktail, beer and beverage data APIs."
+ },
+ {
+  "slug": "form-builders",
+  "name": "Form Builders",
+  "blurb": "Hosted form builders with APIs for creating and reading forms."
+ },
+ {
+  "slug": "form-backends",
+  "name": "Form Backends",
+  "blurb": "Endpoints that receive and route HTML form submissions."
+ },
+ {
+  "slug": "survey-tools",
+  "name": "Survey Tools",
+  "blurb": "Survey platforms and research questionnaires with APIs."
+ },
+ {
+  "slug": "live-streaming",
+  "name": "Live Streaming Platforms",
+  "blurb": "Live video platforms with chat, stream and channel APIs."
+ },
+ {
+  "slug": "media-servers",
+  "name": "Media Servers",
+  "blurb": "Self-hosted media libraries and streaming servers."
+ },
+ {
+  "slug": "video-editing",
+  "name": "Video Editing",
+  "blurb": "Editors and AI clipping tools for cutting video."
+ },
+ {
+  "slug": "programmatic-video",
+  "name": "Programmatic Video Rendering",
+  "blurb": "APIs and code frameworks that render video from templates and data."
+ },
+ {
+  "slug": "medical-data-apis",
+  "name": "Medical & Clinical Data",
+  "blurb": "Drug, clinical trial and health-record standards and APIs."
+ },
+ {
+  "slug": "public-health-data",
+  "name": "Public Health Statistics",
+  "blurb": "Disease and population health statistics from agencies."
+ },
+ {
+  "slug": "wearable-health-data",
+  "name": "Wearable & Fitness Data",
+  "blurb": "Wearable and fitness-device data aggregation APIs."
+ },
+ {
+  "slug": "meeting-notes-ai",
+  "name": "AI Meeting Notes",
+  "blurb": "Meeting recorders, transcribers and summarisers."
+ },
+ {
+  "slug": "speech-datasets",
+  "name": "Speech Datasets",
+  "blurb": "Corpora and benchmarks for speech recognition and speaker research."
+ },
+ {
+  "slug": "speaker-diarization",
+  "name": "Speaker Diarization & Recognition",
+  "blurb": "Who-spoke-when and speaker verification toolkits."
+ },
+ {
+  "slug": "travel-booking",
+  "name": "Travel Booking",
+  "blurb": "Flight, hotel and travel search and booking APIs."
+ },
+ {
+  "slug": "flight-tracking",
+  "name": "Flight Tracking",
+  "blurb": "Live flight status and aviation data."
+ },
+ {
+  "slug": "public-transit",
+  "name": "Public Transit",
+  "blurb": "Transit schedules, routing and GTFS data."
  }
 ]

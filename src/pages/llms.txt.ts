@@ -1,6 +1,6 @@
 import { LAUNCH } from '../lib/config';
 import { PERSONAS, PRODUCTS } from '../lib/content';
-import { ALL, CATS, byCat, SITE } from '../lib/data';
+import { ALL, CATS, GROUPS, byCat, SITE } from '../lib/data';
 export const GET = () => new Response(`# Swarmnest
 
 > Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has 8 agent personas, and a marketplace of own products that is coming soon.
@@ -15,8 +15,8 @@ export const GET = () => new Response(`# Swarmnest
 - [Full text version of this site](${SITE}/llms-full.txt)
 - [Sitemap](${SITE}/sitemap.xml)
 
-## Directory categories
-${CATS.map(c=>`- [${c.name}](${SITE}/directory/${c.slug}/): ${c.blurb} (${byCat(c.slug).length} entries)`).join('\n')}
+## Directory categories (${CATS.length} in ${GROUPS.length} groups)
+${GROUPS.map(g=>`### ${g.name}\n${g.blurb}\n${g.cats.map(c=>`- [${c.name}](${SITE}/directory/${c.slug}/): ${c.blurb} (${byCat(c.slug).length} entries)`).join('\n')}`).join('\n\n')}
 
 ## Pages
 - [About](${SITE}/about/)

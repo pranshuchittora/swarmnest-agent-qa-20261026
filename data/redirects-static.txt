@@ -1,0 +1,3 @@
+/api/v1/directory /api/v1/directory.json 200
+/api/v1/directory/ /api/v1/directory.json 200
+/api/v1/categories /api/v1/categories.json 200

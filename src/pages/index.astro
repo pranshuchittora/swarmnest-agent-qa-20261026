@@ -1,6 +1,7 @@
 ---
 import { LAUNCH } from '../lib/config';
 import Signup from '../components/Signup.astro';
+import Groups from '../components/Groups.astro';
 import Base from '../layouts/Base.astro';
 import { ALL, CATS, byCat } from '../lib/data';
 const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-server','langgraph','qdrant','stripe'].map(s=>ALL.find(e=>e.slug===s)!).filter(Boolean);
@@ -13,8 +14,8 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <div id="results" class="grid hidden"></div>
 <p><a class="btn" href="/directory/">Browse the directory</a><a class="btn alt" href="/api/v1/directory.json">Use the JSON API</a></p>
 </section>
-<h2>Categories</h2>
-<div class="grid">{CATS.map(c=><a class="card" href={`/directory/${c.slug}/`}><h3>{c.name}</h3><p>{c.blurb}</p><span class="badge">{byCat(c.slug).length} entries</span></a>)}</div>
+<h2>Browse by group</h2>
+<Groups />
 <h2>Popular picks</h2>
 <div class="grid">{featured.map(e=><a class="card" href={`/directory/${e.category}/${e.slug}/`}><h3>{e.name}</h3><p>{e.description}</p></a>)}</div>
 <h2>Coming next</h2>

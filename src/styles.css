@@ -20,3 +20,7 @@ footer{border-top:1px solid var(--line);margin-top:3rem;padding-bottom:2rem}.sma
 input[type=search],input[type=email]{padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font-size:1rem;width:100%;max-width:420px}
 .hero{padding:1rem 0 .5rem}code,pre{background:var(--card);border:1px solid var(--line);border-radius:6px;font-size:.88rem}code{padding:1px 5px}pre{padding:12px;overflow:auto}
 .hidden{display:none}
+
+.gjump{display:flex;flex-wrap:wrap;gap:8px;margin:1rem 0}.gjump a{border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.9rem;text-decoration:none}
+details.group{margin:.6rem 0;border-top:1px solid var(--line);padding-top:.4rem}details.group summary{cursor:pointer;list-style:none}details.group summary::-webkit-details-marker{display:none}
+details.group summary h2{display:inline;font-size:1.25rem;margin:0}details.group summary::before{content:"▸ ";color:var(--acc)}details.group[open] summary::before{content:"▾ "}

@@ -12,3 +12,37 @@ for (const line of raw) {
 }
 fs.writeFileSync('data/entries.json', JSON.stringify(out,null,1));
 console.log('entries', out.length);
+
+// ---- redirects: every historical URL -> current location in one hop ----
+const cats = JSON.parse(fs.readFileSync('data/categories.json','utf8'));
+const curCats = new Set(cats.map(c=>c.slug));
+const catmap = JSON.parse(fs.readFileSync('data/catmap.json','utf8'));
+const legacy = JSON.parse(fs.readFileSync('data/legacy.json','utf8'));
+const curBySlug = Object.fromEntries(out.map(e=>[e.slug,e.category]));
+const rules = new Map();
+const resolveCat = c => { let n=0; while(!curCats.has(c)){ c=catmap[c]; if(!c||++n>5) return null; } return c; };
+for (const c of legacy.cats) { if (curCats.has(c)) continue; const t=resolveCat(c); if(!t) throw new Error('no catmap for '+c); rules.set(`/directory/${c}/`, `/directory/${t}/`); }
+for (const [c,s] of legacy.entries) {
+  if (curBySlug[s]===c) continue;
+  const from=`/directory/${c}/${s}/`;
+  if (curBySlug[s]) rules.set(from, `/directory/${curBySlug[s]}/${s}/`);
+  else { const t=resolveCat(c); if(t) rules.set(from, `/directory/${t}/`); }
+}
+fs.mkdirSync('public',{recursive:true});
+fs.writeFileSync('public/_redirects', fs.readFileSync('data/redirects-static.txt','utf8').trimEnd()+'\n'+[...rules].map(([a,b])=>`${a} ${b} 301`).join('\n')+'\n');
+console.log('redirect rules', rules.size);
+if (rules.size>1900) throw new Error('too many redirects for _redirects limit');
+
+// ---- shared search: one core for browser + API; vocab for typo correction ----
+const tok = t => t.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+const freq = new Map(); const bump=(w,n)=>{ if(w.length>=3 && !/^[0-9]+$/.test(w)) freq.set(w,(freq.get(w)||0)+n) };
+for (const e of out) { tok(e.name).forEach(w=>bump(w,6)); }
+for (const c of cats) { tok(c.name).forEach(w=>bump(w,8)); tok(c.slug).forEach(w=>bump(w,2)); }
+for (const e of out) { tok(e.description).forEach(w=>bump(w,1)); }
+const vocab=[...freq].filter(([w,f])=>f>=3).sort((a,b)=>b[1]-a[1]||(a[0]<b[0]?-1:1));
+fs.writeFileSync('public/search-vocab.json', JSON.stringify(vocab));
+const core=fs.readFileSync('search/core.js','utf8'), ui=fs.readFileSync('search/ui.js','utf8');
+fs.writeFileSync('public/search.js', core+'\n'+ui);
+fs.mkdirSync('functions/_lib',{recursive:true});
+fs.writeFileSync('functions/_lib/search-core.js', core+'\nexport default SwarmSearchCore;\n');
+console.log('vocab', vocab.length);

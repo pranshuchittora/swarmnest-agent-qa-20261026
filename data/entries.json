@@ -392,7 +392,7 @@
  {
   "name": "Jina Reader",
   "slug": "jina-reader",
-  "category": "scraping-browsing",
+  "category": "content-extraction",
   "description": "Prefix a URL and get an LLM-friendly text version of the page back; a keyless tier exists with rate limits.",
   "url": "https://jina.ai/reader/",
   "docs_url": "https://jina.ai/reader/",
@@ -418,7 +418,7 @@
  {
   "name": "Crawl4AI",
   "slug": "crawl4ai",
-  "category": "scraping-browsing",
+  "category": "content-extraction",
   "description": "Open-source crawler that outputs markdown tuned for LLM pipelines, runnable locally or in Docker.",
   "url": "https://github.com/unclecode/crawl4ai",
   "docs_url": "https://docs.crawl4ai.com",
@@ -431,7 +431,7 @@
  {
   "name": "ScrapingBee",
   "slug": "scrapingbee",
-  "category": "scraping-browsing",
+  "category": "web-scraping-apis",
   "description": "Scraping API that handles proxies, headless rendering and blocks behind a single request.",
   "url": "https://www.scrapingbee.com/",
   "docs_url": "https://www.scrapingbee.com/documentation/",
@@ -444,7 +444,7 @@
  {
   "name": "Bright Data",
   "slug": "bright-data",
-  "category": "scraping-browsing",
+  "category": "web-scraping-apis",
   "description": "Large proxy network with web unlocker, scraper APIs and datasets for data collection at scale.",
   "url": "https://brightdata.com/",
   "docs_url": "https://docs.brightdata.com",
@@ -899,7 +899,7 @@
  {
   "name": "Pinecone",
   "slug": "pinecone",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Fully managed vector database with serverless indexes and integrated embedding and reranking.",
   "url": "https://www.pinecone.io/",
   "docs_url": "https://docs.pinecone.io",
@@ -912,7 +912,7 @@
  {
   "name": "Qdrant",
   "slug": "qdrant",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Open-source vector search engine written in Rust, available self-hosted or as a managed cloud.",
   "url": "https://qdrant.tech/",
   "docs_url": "https://qdrant.tech/documentation/",
@@ -925,7 +925,7 @@
  {
   "name": "Chroma",
   "slug": "chroma",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Developer-friendly open-source embedding database that runs in-process or as a server.",
   "url": "https://www.trychroma.com/",
   "docs_url": "https://docs.trychroma.com",
@@ -938,7 +938,7 @@
  {
   "name": "Cloudflare Vectorize",
   "slug": "cloudflare-vectorize",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Vector database built into Workers for storing and querying embeddings close to your code.",
   "url": "https://developers.cloudflare.com/vectorize/",
   "docs_url": "https://developers.cloudflare.com/vectorize/",
@@ -951,7 +951,7 @@
  {
   "name": "Weaviate",
   "slug": "weaviate",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Open-source vector database with hybrid search and built-in vectorizer modules.",
   "url": "https://weaviate.io/",
   "docs_url": "https://docs.weaviate.io",
@@ -964,7 +964,7 @@
  {
   "name": "Milvus",
   "slug": "milvus",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Open-source, highly scalable vector database, also offered as the managed Zilliz Cloud.",
   "url": "https://milvus.io/",
   "docs_url": "https://milvus.io/docs",
@@ -977,7 +977,7 @@
  {
   "name": "pgvector",
   "slug": "pgvector",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Postgres extension that adds vector columns and similarity search to an ordinary database.",
   "url": "https://github.com/pgvector/pgvector",
   "docs_url": "https://github.com/pgvector/pgvector#readme",
@@ -990,7 +990,7 @@
  {
   "name": "LanceDB",
   "slug": "lancedb",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Embedded, serverless vector database storing data in an open columnar format.",
   "url": "https://lancedb.com/",
   "docs_url": "https://lancedb.github.io/lancedb/",
@@ -1003,7 +1003,7 @@
  {
   "name": "Mem0",
   "slug": "mem0",
-  "category": "memory-vector-dbs",
+  "category": "agent-memory",
   "description": "Memory layer that lets agents remember user facts and preferences across sessions.",
   "url": "https://mem0.ai/",
   "docs_url": "https://docs.mem0.ai",
@@ -1016,7 +1016,7 @@
  {
   "name": "Zep",
   "slug": "zep",
-  "category": "memory-vector-dbs",
+  "category": "agent-memory",
   "description": "Long-term memory for agents built on a temporal knowledge graph of conversations and data.",
   "url": "https://www.getzep.com/",
   "docs_url": "https://help.getzep.com",
@@ -1042,7 +1042,7 @@
  {
   "name": "Turbopuffer",
   "slug": "turbopuffer",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Serverless search engine on object storage combining vector and full-text queries at low cost.",
   "url": "https://turbopuffer.com/",
   "docs_url": "https://turbopuffer.com/docs",
@@ -1055,7 +1055,7 @@
  {
   "name": "Redis Vector Search",
   "slug": "redis-vector-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Vector similarity and hybrid search inside Redis, handy when you already use it for caching.",
   "url": "https://redis.io/docs/latest/develop/ai/search-and-query/",
   "docs_url": "https://redis.io/docs/latest/develop/ai/search-and-query/",
@@ -1549,7 +1549,7 @@
  {
   "name": "Supabase",
   "slug": "supabase",
-  "category": "databases-backend",
+  "category": "backend-as-a-service",
   "description": "Open-source Postgres backend with auth, storage and edge functions, handy for agent app state.",
   "url": "https://supabase.com/",
   "docs_url": "https://supabase.com/docs",
@@ -1562,7 +1562,7 @@
  {
   "name": "Neon",
   "slug": "neon",
-  "category": "databases-backend",
+  "category": "relational-databases",
   "description": "Serverless Postgres with instant branching, popular for giving agents disposable databases.",
   "url": "https://neon.com/",
   "docs_url": "https://neon.com/docs",
@@ -1614,7 +1614,7 @@
  {
   "name": "Stripe",
   "slug": "stripe",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Payments platform with APIs for one-off charges, subscriptions, invoicing and Payment Links.",
   "url": "https://stripe.com/",
   "docs_url": "https://docs.stripe.com/api",
@@ -1627,7 +1627,7 @@
  {
   "name": "Lemon Squeezy",
   "slug": "lemon-squeezy",
-  "category": "payments-commerce",
+  "category": "merchant-of-record",
   "description": "Merchant-of-record platform for digital products that handles sales tax and VAT for you.",
   "url": "https://www.lemonsqueezy.com/",
   "docs_url": "https://docs.lemonsqueezy.com",
@@ -1653,7 +1653,7 @@
  {
   "name": "PayPal Developer",
   "slug": "paypal-developer",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "APIs for accepting PayPal and card payments, subscriptions and payouts.",
   "url": "https://developer.paypal.com/",
   "docs_url": "https://developer.paypal.com/docs/api/overview/",
@@ -1666,7 +1666,7 @@
  {
   "name": "Paddle",
   "slug": "paddle",
-  "category": "payments-commerce",
+  "category": "merchant-of-record",
   "description": "Merchant of record for software sales, handling billing, tax and compliance.",
   "url": "https://www.paddle.com/",
   "docs_url": "https://developer.paddle.com",
@@ -1679,7 +1679,7 @@
  {
   "name": "Square APIs",
   "slug": "square-apis",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Payments, catalog, orders and inventory APIs for in-person and online sellers.",
   "url": "https://developer.squareup.com/",
   "docs_url": "https://developer.squareup.com/docs",
@@ -1692,7 +1692,7 @@
  {
   "name": "Polar",
   "slug": "polar",
-  "category": "payments-commerce",
+  "category": "merchant-of-record",
   "description": "Merchant-of-record billing built for developers selling software, subscriptions and digital products.",
   "url": "https://polar.sh/",
   "docs_url": "https://docs.polar.sh",
@@ -1705,7 +1705,7 @@
  {
   "name": "Coinbase Developer Platform",
   "slug": "coinbase-developer-platform",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "APIs and wallets for onchain payments, including tooling for agents that transact in stablecoins.",
   "url": "https://www.coinbase.com/developer-platform",
   "docs_url": "https://docs.cdp.coinbase.com",
@@ -1731,7 +1731,7 @@
  {
   "name": "Adyen",
   "slug": "adyen",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Global payment platform for enterprises with unified online and in-store processing.",
   "url": "https://www.adyen.com/",
   "docs_url": "https://docs.adyen.com",
@@ -1744,7 +1744,7 @@
  {
   "name": "Wise Platform",
   "slug": "wise-platform",
-  "category": "payments-commerce",
+  "category": "cross-border-payouts",
   "description": "APIs for international transfers and multi-currency accounts at transparent exchange rates.",
   "url": "https://wise.com/",
   "docs_url": "https://docs.wise.com",
@@ -1783,7 +1783,7 @@
  {
   "name": "Gumroad",
   "slug": "gumroad",
-  "category": "payments-commerce",
+  "category": "merchant-of-record",
   "description": "Simple storefront for selling digital goods, with a small API for sales and products.",
   "url": "https://gumroad.com/",
   "docs_url": "https://gumroad.com/api",
@@ -2368,7 +2368,7 @@
  {
   "name": "ElevenLabs Dubbing API",
   "slug": "elevenlabs-dubbing-api",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "API that translates and dubs audio or video into other languages while keeping the original speakers' voices. Consumes plan credits.",
   "url": "https://elevenlabs.io/dubbing-studio",
   "docs_url": "https://elevenlabs.io/docs/api-reference/dubbing/create",
@@ -2381,7 +2381,7 @@
  {
   "name": "HeyGen Video Translation API",
   "slug": "heygen-video-translation-api",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "API that translates a video into other languages with dubbed audio and lip-sync, returning captions as SRT and VTT. Consumes API credits.",
   "url": "https://www.heygen.com/",
   "docs_url": "https://developers.heygen.com/reference/create-video-translation",
@@ -2394,7 +2394,7 @@
  {
   "name": "Rask AI API",
   "slug": "rask-ai-api",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Video and audio dubbing, translation and transcription API with glossaries and optional lip-sync. Uses OAuth 2.0 client credentials.",
   "url": "https://www.rask.ai/",
   "docs_url": "https://docs.api.rask.ai/",
@@ -2433,7 +2433,7 @@
  {
   "name": "DeepL Voice API",
   "slug": "deepl-voice-api",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "DeepL's real-time speech translation API for live captions and interpretation. Available on selected DeepL API plans.",
   "url": "https://www.deepl.com/en/products/voice",
   "docs_url": "https://developers.deepl.com/docs/api-reference/voice",
@@ -3499,7 +3499,7 @@
  {
   "name": "ScraperAPI",
   "slug": "scraperapi",
-  "category": "scraping-browsing",
+  "category": "web-scraping-apis",
   "description": "ScraperAPI is a web scraping API that lets you collect data from any public website without worrying about proxies, browsers, or CAPTCHAs.",
   "url": "https://www.scraperapi.com/",
   "docs_url": "https://docs.scraperapi.com/making-requests/structured-data-collection-method/amazon-product-page-api",
@@ -3512,7 +3512,7 @@
  {
   "name": "Oxylabs",
   "slug": "oxylabs",
-  "category": "scraping-browsing",
+  "category": "web-scraping-apis",
   "description": "Access fresh, reliable web data at any scale with APIs built for AI and premium proxies. Power agents and applications with 177M+ IPs and robust infrastructure.",
   "url": "https://oxylabs.io/",
   "docs_url": "https://oxylabs.io/",
@@ -3551,7 +3551,7 @@
  {
   "name": "Algolia",
   "slug": "algolia",
-  "category": "databases-backend",
+  "category": "site-search-engines",
   "description": "18,000+ organizations trust Algolia to build intuitive, adaptive, high-performing experiences with a unified AI search & retrieval platform spanning agentic, generative, and search.",
   "url": "https://www.algolia.com/",
   "docs_url": "https://www.algolia.com/doc",
@@ -3564,7 +3564,7 @@
  {
   "name": "Typesense",
   "slug": "typesense",
-  "category": "databases-backend",
+  "category": "site-search-engines",
   "description": "Typesense is an open-source search engine for fast, typo-tolerant site and app search, with simple APIs, vector search, and self-hosting.",
   "url": "https://typesense.org/",
   "docs_url": "https://typesense.org/docs/guide/#quick-start",
@@ -3577,7 +3577,7 @@
  {
   "name": "Meilisearch",
   "slug": "meilisearch",
-  "category": "databases-backend",
+  "category": "site-search-engines",
   "description": "Lightning-fast search and AI retrieval, trusted by 20,000+ teams. Fully managed on Meilisearch Cloud, or self-host the open source engine.",
   "url": "https://www.meilisearch.com/",
   "docs_url": "https://www.meilisearch.com/docs",
@@ -3590,7 +3590,7 @@
  {
   "name": "Elasticsearch",
   "slug": "elasticsearch",
-  "category": "databases-backend",
+  "category": "site-search-engines",
   "description": "Elasticsearch is the leading distributed, RESTful, open source search and analytics engine designed for speed, horizontal scalability, reliability, and easy management. Get started for free.",
   "url": "https://www.elastic.co/elasticsearch",
   "docs_url": "https://www.elastic.co/docs/solutions/search/cross-cluster-search",
@@ -3603,7 +3603,7 @@
  {
   "name": "OpenSearch",
   "slug": "opensearch",
-  "category": "databases-backend",
+  "category": "site-search-engines",
   "description": "OpenSearch is a community-driven, Apache 2.0-licensed open source search and analytics suite that makes it easy to ingest, search, visualize, and analyze data.",
   "url": "https://opensearch.org/",
   "docs_url": "https://docs.opensearch.org/latest/index.html",
@@ -3616,7 +3616,7 @@
  {
   "name": "FlexSearch",
   "slug": "flexsearch",
-  "category": "databases-backend",
+  "category": "site-search-engines",
   "description": "Next-generation full-text search library for Browser and Node.js",
   "url": "https://github.com/nextapps-de/flexsearch",
   "docs_url": "https://github.com/nextapps-de/flexsearch",
@@ -3629,7 +3629,7 @@
  {
   "name": "Vespa",
   "slug": "vespa",
-  "category": "databases-backend",
+  "category": "site-search-engines",
   "description": "Vespa is the AI Search Platform for fast, accurate AI search, AI agents, personalization, recommendations, and retrieval.",
   "url": "https://vespa.ai/",
   "docs_url": "https://docs.vespa.ai/",
@@ -3642,7 +3642,7 @@
  {
   "name": "Typesense Cloud",
   "slug": "typesense-cloud",
-  "category": "databases-backend",
+  "category": "site-search-engines",
   "description": "Lightning Fast, Globally Distributed Search-as-a-Service, powered by Typesense Open Source.",
   "url": "https://cloud.typesense.org/",
   "docs_url": "https://cloud.typesense.org/",
@@ -3941,7 +3941,7 @@
  {
   "name": "Weaviate Vector Search",
   "slug": "weaviate-vector-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and.",
   "url": "https://github.com/weaviate/weaviate",
   "docs_url": "https://github.com/weaviate/weaviate/tree/main/docs",
@@ -3954,7 +3954,7 @@
  {
   "name": "Qdrant Vector Search",
   "slug": "qdrant-vector-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
   "url": "https://github.com/qdrant/qdrant",
   "docs_url": "https://github.com/qdrant/qdrant/tree/master/docs",
@@ -3967,7 +3967,7 @@
  {
   "name": "Milvus Vector Database",
   "slug": "milvus-vector-database",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
   "url": "https://github.com/milvus-io/milvus",
   "docs_url": "https://github.com/milvus-io/milvus/tree/master/docs",
@@ -4474,7 +4474,7 @@
  {
   "name": "ScraperBox",
   "slug": "scraperbox",
-  "category": "scraping-browsing",
+  "category": "web-scraping-apis",
   "description": "JNETOTO menghadirkan permainan online profesional dengan akses praktis melalui link alternatif yang mudah digunakan.",
   "url": "https://scraperbox.com/",
   "docs_url": "https://scraperbox.com/",
@@ -4864,7 +4864,7 @@
  {
   "name": "Zenscrape (Free tier)",
   "slug": "zenscrape-free-tier",
-  "category": "scraping-browsing",
+  "category": "web-scraping-apis",
   "description": "Zenscrape offers a robust web scraping API for fast, reliable data extraction. Try our free scraping API to scrape data easily and efficiently.",
   "url": "https://zenscrape.com/",
   "docs_url": "https://app.zenscrape.com/documentation",
@@ -4981,7 +4981,7 @@
  {
   "name": "Scrapingdog",
   "slug": "scrapingdog",
-  "category": "scraping-browsing",
+  "category": "web-scraping-apis",
   "description": "Scrapingdog is your all-in-one Web Scraping API, effortlessly managing proxies and headless browsers, allowing you to extract the data you need with ease.",
   "url": "https://www.scrapingdog.com/",
   "docs_url": "https://www.scrapingdog.com/documentation/",
@@ -5007,7 +5007,7 @@
  {
   "name": "AgentQL",
   "slug": "agentql",
-  "category": "scraping-browsing",
+  "category": "browser-automation",
   "description": "Start building AI agents with natural language queries, connecting web data and enabling precise automation.",
   "url": "https://www.agentql.com/",
   "docs_url": "https://docs.agentql.com/python-sdk/installation",
@@ -5020,7 +5020,7 @@
  {
   "name": "Scrapfly",
   "slug": "scrapfly",
-  "category": "scraping-browsing",
+  "category": "web-scraping-apis",
   "description": "Power web scrapers and AI agents with Scrapfly's web data platform. One API key for reliable access to public web data, managed Chromium over CDP, residential proxies, screenshots, and.",
   "url": "https://scrapfly.io/",
   "docs_url": "https://scrapfly.io/docs/scrape-api/getting-started",
@@ -5371,7 +5371,7 @@
  {
   "name": "Weaviate with Generative Search",
   "slug": "weaviate-with-generative-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and.",
   "url": "https://github.com/weaviate/weaviate",
   "docs_url": "https://github.com/weaviate/weaviate/tree/main/docs",
@@ -5436,7 +5436,7 @@
  {
   "name": "Weaviate AI Agent Integration",
   "slug": "weaviate-ai-agent-integration",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Get an overview of the Weaviate Query Agent and what it can do.",
   "url": "https://docs.weaviate.io/query-agent",
   "docs_url": "https://docs.weaviate.io/query-agent",
@@ -5540,7 +5540,7 @@
  {
   "name": "Faiss",
   "slug": "faiss",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "A library for efficient similarity search and clustering of dense vectors.",
   "url": "https://github.com/facebookresearch/faiss",
   "docs_url": "https://github.com/facebookresearch/faiss",
@@ -5553,7 +5553,7 @@
  {
   "name": "LangChain Memory",
   "slug": "langchain-memory",
-  "category": "memory-vector-dbs",
+  "category": "agent-memory",
   "description": "LangChain provides create_agent: a minimal, highly configurable agent harness. Compose exactly the agent your use case needs from model, tools, prompt, and middleware.",
   "url": "https://docs.langchain.com/oss/python/langchain/overview",
   "docs_url": "https://github.com/langchain-ai/docs/edit/main/src/oss/langchain/overview.mdx",
@@ -5566,7 +5566,7 @@
  {
   "name": "Elasticsearch Vector Search",
   "slug": "elasticsearch-vector-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "The dense_vector field type stores dense vectors of numeric values. Dense vector fields are primarily used for k-nearest neighbor (kNN) search. The dense_vector...",
   "url": "https://www.elastic.co/docs/reference/elasticsearch/mapping-reference/dense-vector",
   "docs_url": "https://www.elastic.co/docs",
@@ -5579,7 +5579,7 @@
  {
   "name": "OpenSearch Vector Search",
   "slug": "opensearch-vector-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "OpenSearch vector search provides a complete vector database solution for building efficient AI applications. Store and search vector embeddings alongside your...",
   "url": "https://docs.opensearch.org/latest/vector-search/",
   "docs_url": "https://docs.opensearch.org/latest/",
@@ -5592,7 +5592,7 @@
  {
   "name": "MongoDB Atlas Vector Search",
   "slug": "mongodb-atlas-vector-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Use MongoDB Vector Search to create vector indexes and perform vector search, including semantic search and hybrid search, on your vector embeddings in MongoDB.",
   "url": "https://www.mongodb.com/docs/vector-search/",
   "docs_url": "https://www.mongodb.com/docs/vector-search/",
@@ -5605,7 +5605,7 @@
  {
   "name": "Azure AI Search Vector Search",
   "slug": "azure-ai-search-vector-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Learn about vector search in Azure AI Search for similarity matching across text, images, and multilingual content using numeric embeddings and vector indexes.",
   "url": "https://learn.microsoft.com/en-us/azure/search/vector-search-overview",
   "docs_url": "https://js.langchain.com/docs/integrations/vectorstores/azure_aisearch",
@@ -5618,7 +5618,7 @@
  {
   "name": "Google Vertex AI Vector Search",
   "slug": "google-vertex-ai-vector-search",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Run queries to get nearest neighbors using the k-nearest neighbors algorithm.",
   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/vector-search/overview",
   "docs_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform",
@@ -5631,7 +5631,7 @@
  {
   "name": "OpenSearch (kNN plugin)",
   "slug": "opensearch-knn-plugin",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "🔎 Open source distributed and RESTful search engine.",
   "url": "https://github.com/opensearch-project/OpenSearch",
   "docs_url": "https://opensearch.org/docs/latest/opensearch/index/",
@@ -5644,7 +5644,7 @@
  {
   "name": "Vald",
   "slug": "vald",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Vald. A Highly Scalable Distributed Vector Search Engine",
   "url": "https://github.com/vdaas/vald",
   "docs_url": "https://github.com/vdaas/vald/tree/main/docs",
@@ -5657,7 +5657,7 @@
  {
   "name": "Vearch",
   "slug": "vearch",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Distributed vector search for AI-native applications",
   "url": "https://github.com/vearch/vearch",
   "docs_url": "https://github.com/vearch/vearch/tree/master/docs",
@@ -5670,7 +5670,7 @@
  {
   "name": "Annoy",
   "slug": "annoy",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk",
   "url": "https://github.com/spotify/annoy",
   "docs_url": "https://github.com/spotify/annoy",
@@ -5683,7 +5683,7 @@
  {
   "name": "HNSWlib",
   "slug": "hnswlib",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Header-only C++/python library for fast approximate nearest neighbors",
   "url": "https://github.com/nmslib/hnswlib",
   "docs_url": "https://github.com/nmslib/hnswlib",
@@ -5696,7 +5696,7 @@
  {
   "name": "NGT",
   "slug": "ngt",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Nearest Neighbor Search with Neighborhood Graph and Tree for High-dimensional Data",
   "url": "https://github.com/NGT-labs/NGT",
   "docs_url": "https://s.yimg.jp/i/docs/research_lab/articles/miwasaki-iieej-jnl-2013.pdf",
@@ -5709,7 +5709,7 @@
  {
   "name": "Redis with Vector Similarity (RedisAI)",
   "slug": "redis-with-vector-similarity-redisai",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "A Redis module for serving tensors and executing deep learning graphs",
   "url": "https://github.com/RedisAI/redis-inference-optimization",
   "docs_url": "https://github.com/RedisAI/redis-inference-optimization/tree/master/docs",
@@ -5722,7 +5722,7 @@
  {
   "name": "ElasticSearch kNN Docker",
   "slug": "elasticsearch-knn-docker",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore.",
   "url": "https://hub.docker.com/_/elasticsearch",
   "docs_url": "https://github.com/docker-library/docs/tree/master/elasticsearch",
@@ -5735,7 +5735,7 @@
  {
   "name": "Weaviate Operator for Kubernetes",
   "slug": "weaviate-operator-for-kubernetes",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "A Kubernetes Operator to automate the management of Weaviate Database Clusters",
   "url": "https://github.com/weaviate/weaviate-operator",
   "docs_url": "https://github.com/weaviate/weaviate-operator/tree/main/docs",
@@ -5748,7 +5748,7 @@
  {
   "name": "LanceDB Python SDK",
   "slug": "lancedb-python-sdk",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
   "url": "https://github.com/lancedb/lancedb",
   "docs_url": "https://lancedb.com/docs",
@@ -5761,7 +5761,7 @@
  {
   "name": "Qdrant Java Client",
   "slug": "qdrant-java-client",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Official Java client for Qdrant .",
   "url": "https://github.com/qdrant/java-client",
   "docs_url": "https://api.qdrant.tech/",
@@ -5774,7 +5774,7 @@
  {
   "name": "Zilliz Cloud",
   "slug": "zilliz-cloud",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Zilliz offers a fully managed Vector Lakebase powered by Milvus, unifying real-time vector search, lake-scale discovery, and AI data operations.",
   "url": "https://zilliz.com/",
   "docs_url": "https://docs.zilliz.com/docs/home",
@@ -5787,7 +5787,7 @@
  {
   "name": "Zep (memory layer)",
   "slug": "zep-memory-layer",
-  "category": "memory-vector-dbs",
+  "category": "agent-memory",
   "description": "Zep / Examples, Integrations, & More.",
   "url": "https://github.com/getzep/zep",
   "docs_url": "https://github.com/getzep/zep",
@@ -5800,7 +5800,7 @@
  {
   "name": "Marqo",
   "slug": "marqo",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "AI-native search, recommendations, and merchandising trained on your catalog. Marqo delivers $130M+ in proven revenue for enterprise retailers.",
   "url": "https://marqo.ai/",
   "docs_url": "https://marqo.ai/",
@@ -5813,7 +5813,7 @@
  {
   "name": "Qdrant Cloud (EU)",
   "slug": "qdrant-cloud-eu",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Managed cloud solution of the Qdrant vector search engine. Cloud-native vector database for high performant vector similarity search.",
   "url": "https://cloud.qdrant.io/",
   "docs_url": "https://cloud.qdrant.io/",
@@ -5826,7 +5826,7 @@
  {
   "name": "VectorFlow",
   "slug": "vectorflow",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Connect, repeat and transform simple shapes into intricate vector artwork. Explore the VectorFlow workspace on Mac and iPad.",
   "url": "https://vectorflow.io/",
   "docs_url": "https://vectorflow.io/",
@@ -5839,7 +5839,7 @@
  {
   "name": "RedisVector (AWS)",
   "slug": "redisvector-aws",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Amazon ElastiCache is a Valkey- and Redis OSS-compatible in-memory data store service that can be used as a database, cache, message broker, and queue for real-time applications.",
   "url": "https://aws.amazon.com/elasticache/redis/",
   "docs_url": "https://docs.aws.amazon.com/elasticache/",
@@ -5852,7 +5852,7 @@
  {
   "name": "OpenSearch (AWS)",
   "slug": "opensearch-aws",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Amazon OpenSearch Service is a managed retrieval engine for AI and search at petabyte scale. Power RAG, semantic search, and observability with serverless scaling.",
   "url": "https://aws.amazon.com/opensearch-service/",
   "docs_url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/opensearch-agent-skills.html",
@@ -5865,7 +5865,7 @@
  {
   "name": "Marqo (Open-source)",
   "slug": "marqo-open-source",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Ecommerce Search and Discovery - marqo.ai.",
   "url": "https://github.com/marqo-ai/marqo",
   "docs_url": "https://docs.marqo.ai",
@@ -5878,7 +5878,7 @@
  {
   "name": "MindsDB (Open-source)",
   "slug": "mindsdb-open-source",
-  "category": "memory-vector-dbs",
+  "category": "data-etl",
   "description": "The unified workspace where open-source models get things done for you.",
   "url": "https://github.com/mindsdb/mindshub",
   "docs_url": "https://github.com/mindsdb/mindshub/tree/main/docs",
@@ -5891,7 +5891,7 @@
  {
   "name": "DiskANN",
   "slug": "diskann",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "A vector indexing library to bring fast, fresh and filtered search to your database",
   "url": "https://github.com/microsoft/DiskANN",
   "docs_url": "https://github.com/microsoft/DiskANN",
@@ -5904,7 +5904,7 @@
  {
   "name": "CockroachDB",
   "slug": "cockroachdb",
-  "category": "memory-vector-dbs",
+  "category": "relational-databases",
   "description": "Cockroach Labs develops CockroachDB and Cockroach Continuum, an agentic database cloud-native, distributed SQL database designed for extreme resilience, seamless horizontal scaling, and.",
   "url": "https://www.cockroachlabs.com/",
   "docs_url": "https://docs.cockroachlabs.com/",
@@ -5917,7 +5917,7 @@
  {
   "name": "TiDB",
   "slug": "tidb",
-  "category": "memory-vector-dbs",
+  "category": "relational-databases",
   "description": "TiDB is the distributed SQL database built for AI agents. Vectors, transactions, and analytics in one engine with ACID guarantees and elastic scale.",
   "url": "https://www.pingcap.com/",
   "docs_url": "https://www.pingcap.com/",
@@ -5930,7 +5930,7 @@
  {
   "name": "SingleStore",
   "slug": "singlestore",
-  "category": "memory-vector-dbs",
+  "category": "relational-databases",
   "description": "SingleStore is the real-time database for AI, apps and analytics. Build intelligent experiences with live reads and writes, one engine for transactions and analytics, and open data access.",
   "url": "https://www.singlestore.com/",
   "docs_url": "https://www.singlestore.com/",
@@ -5956,7 +5956,7 @@
  {
   "name": "Apache Pinot",
   "slug": "apache-pinot",
-  "category": "databases-backend",
+  "category": "data-warehouses",
   "description": "Open-source distributed OLAP database for user-facing apps and AI agents. Query fresh streaming data with sub-second latency, high concurrency, and petabyte-scale performance.",
   "url": "https://pinot.apache.org/",
   "docs_url": "https://docs.pinot.apache.org",
@@ -5969,7 +5969,7 @@
  {
   "name": "Apache Spark",
   "slug": "apache-spark",
-  "category": "databases-backend",
+  "category": "data-warehouses",
   "description": "Apache Spark is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.",
   "url": "https://spark.apache.org/",
   "docs_url": "https://spark.apache.org/docs/latest/quick-start.html",
@@ -5982,7 +5982,7 @@
  {
   "name": "Databricks",
   "slug": "databricks",
-  "category": "databases-backend",
+  "category": "data-warehouses",
   "description": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data + AI Platform.",
   "url": "https://www.databricks.com/",
   "docs_url": "https://www.databricks.com/",
@@ -5995,7 +5995,7 @@
  {
   "name": "Snowflake",
   "slug": "snowflake",
-  "category": "databases-backend",
+  "category": "data-warehouses",
   "description": "Snowflake powers AI, data engineering, applications, and analytics on a trusted, scalable AI Data Cloud—eliminating silos and accelerating innovation.",
   "url": "https://www.snowflake.com/en/",
   "docs_url": "https://www.snowflake.com/en/",
@@ -6008,7 +6008,7 @@
  {
   "name": "BigQuery",
   "slug": "bigquery",
-  "category": "databases-backend",
+  "category": "data-warehouses",
   "description": "BigQuery is the autonomous data and AI platform, automating the entire data life cycle so you can go from data to AI to action faster.",
   "url": "https://cloud.google.com/bigquery",
   "docs_url": "https://cloud.google.com/bigquery",
@@ -6021,7 +6021,7 @@
  {
   "name": "Redshift",
   "slug": "redshift",
-  "category": "databases-backend",
+  "category": "data-warehouses",
   "description": "Amazon Redshift is a fast, fully managed cloud data warehouse that makes it simple and cost-effective to analyze all your data.",
   "url": "https://aws.amazon.com/redshift/",
   "docs_url": "https://aws.amazon.com/redshift/",
@@ -6034,7 +6034,7 @@
  {
   "name": "Cassandra",
   "slug": "cassandra",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "Open Source NoSQL Database Manage massive amounts of data, fast, without losing sleep",
   "url": "https://cassandra.apache.org/_/index.html",
   "docs_url": "https://cassandra.apache.org/doc/latest/",
@@ -6047,7 +6047,7 @@
  {
   "name": "ScyllaDB",
   "slug": "scylladb",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "Get unbreakable low-latency, high-throughput performance for massive AI workloads — from million-OPS feature stores to billion-scale vector search.",
   "url": "https://www.scylladb.com/",
   "docs_url": "https://developers.scylladb.com/stable/",
@@ -6060,7 +6060,7 @@
  {
   "name": "RocksDB",
   "slug": "rocksdb",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "RocksDB is an embeddable persistent key-value store for fast storage.",
   "url": "https://rocksdb.org/",
   "docs_url": "https://rocksdb.org/",
@@ -6073,7 +6073,7 @@
  {
   "name": "LevelDB",
   "slug": "leveldb",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
   "url": "https://github.com/google/leveldb",
   "docs_url": "https://git-scm.com/docs/git-rebase",
@@ -6086,7 +6086,7 @@
  {
   "name": "Pebble",
   "slug": "pebble",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "RocksDB/LevelDB inspired key-value database in Go.",
   "url": "https://github.com/cockroachdb/pebble",
   "docs_url": "https://github.com/cockroachdb/pebble/tree/master/docs",
@@ -6099,7 +6099,7 @@
  {
   "name": "Bolt",
   "slug": "bolt",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "An embedded key/value database for Go.",
   "url": "https://github.com/boltdb/bolt",
   "docs_url": "https://github.com/boltdb/bolt",
@@ -6112,7 +6112,7 @@
  {
   "name": "LMDB",
   "slug": "lmdb",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "Read-only mirror of official repo on openldap.org. Issues and pull requests here are ignored. Use OpenLDAP ITS for issues.",
   "url": "https://github.com/LMDB/lmdb",
   "docs_url": "https://github.com/LMDB/lmdb",
@@ -6125,7 +6125,7 @@
  {
   "name": "PostgreSQL",
   "slug": "postgresql",
-  "category": "databases-backend",
+  "category": "relational-databases",
   "description": "The official site for PostgreSQL, the world's most advanced open source database",
   "url": "https://www.postgresql.org/",
   "docs_url": "https://www.postgresql.org/docs/",
@@ -6138,7 +6138,7 @@
  {
   "name": "SQL Server",
   "slug": "sql-server",
-  "category": "databases-backend",
+  "category": "relational-databases",
   "description": "SQL Server 2025 redefines what's possible for enterprise data. With developer-first features and integration with analytics and AI models, SQL Server 2025 accelerates AI innovation using.",
   "url": "https://www.microsoft.com/en-us/sql-server",
   "docs_url": "https://www.microsoft.com/en-us/sql-server/developer-tools",
@@ -6151,7 +6151,7 @@
  {
   "name": "DB2",
   "slug": "db2",
-  "category": "databases-backend",
+  "category": "relational-databases",
   "description": "IBM Db2 is the database to run your mission-critical workloads. Power low-latency transactions and real-time analytics across any cloud, hybrid or on-prem.",
   "url": "https://www.ibm.com/products/db2",
   "docs_url": "https://www.ibm.com/docs/en/db2/12.1.x?topic=db2-connect-overview",
@@ -6164,7 +6164,7 @@
  {
   "name": "Sybase",
   "slug": "sybase",
-  "category": "databases-backend",
+  "category": "relational-databases",
   "description": "SAP acquired Sybase in 2010 to drive forward the realization of its in-memory computing vision.",
   "url": "https://www.sybase.com/",
   "docs_url": "https://www.sybase.com/",
@@ -6177,7 +6177,7 @@
  {
   "name": "Elastic Search with k-NN plugin",
   "slug": "elastic-search-with-k-nn-plugin",
-  "category": "databases-backend",
+  "category": "vector-databases",
   "description": "Powered by Elasticsearch. Ready to deploy your data? Start free.",
   "url": "https://www.elastic.co/",
   "docs_url": "https://www.elastic.co/",
@@ -6190,7 +6190,7 @@
  {
   "name": "NMSLIB",
   "slug": "nmslib",
-  "category": "databases-backend",
+  "category": "vector-databases",
   "description": "Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.",
   "url": "https://github.com/nmslib/nmslib",
   "docs_url": "https://github.com/nmslib/nmslib/tree/master/docs",
@@ -6203,7 +6203,7 @@
  {
   "name": "RedisGraph",
   "slug": "redisgraph",
-  "category": "databases-backend",
+  "category": "graph-databases",
   "description": "A graph database as a Redis module.",
   "url": "https://github.com/RedisGraph/RedisGraph",
   "docs_url": "https://redis.io/docs/stack/graph/",
@@ -6216,7 +6216,7 @@
  {
   "name": "DuckDB with vector extension",
   "slug": "duckdb-with-vector-extension",
-  "category": "databases-backend",
+  "category": "data-warehouses",
   "description": "DuckDB is a SQL OLAP database management system. Simple, feature-rich, fast & open source.",
   "url": "https://duckdb.org/",
   "docs_url": "https://duckdb.org/docs/current",
@@ -6229,7 +6229,7 @@
  {
   "name": "Neo4j Graph Data Science with vector similarity",
   "slug": "neo4j-graph-data-science-with-vector-similarity",
-  "category": "databases-backend",
+  "category": "graph-databases",
   "description": "Connect data as it's stored with Neo4j. Perform powerful, complex queries at scale and speed with our graph data platform.",
   "url": "https://neo4j.com/",
   "docs_url": "https://neo4j.com/",
@@ -6242,7 +6242,7 @@
  {
   "name": "Cohere Vector Search API (free tier)",
   "slug": "cohere-vector-search-api-free-tier",
-  "category": "databases-backend",
+  "category": "vector-databases",
   "description": "Cohere builds powerful models and AI solutions enabling enterprises to automate processes, empower employees, and turn fragmented data into actionable insights.",
   "url": "https://cohere.com/",
   "docs_url": "https://cohere.com/developers",
@@ -6255,7 +6255,7 @@
  {
   "name": "OpenSearch Dashboards with k-NN",
   "slug": "opensearch-dashboards-with-k-nn",
-  "category": "databases-backend",
+  "category": "vector-databases",
   "description": "OpenSearch Dashboards is the web UI for OpenSearch. Use it to search and explore your data, build visualizations and dashboards, and manage your cluster...",
   "url": "https://docs.opensearch.org/latest/dashboards/",
   "docs_url": "https://docs.opensearch.org/latest/",
@@ -6268,7 +6268,7 @@
  {
   "name": "Redis Labs Cloud Free",
   "slug": "redis-labs-cloud-free",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "Developers love Redis. Unlock the full potential of the Redis database with Redis Enterprise and start building blazing fast apps.",
   "url": "https://redis.io/",
   "docs_url": "https://redis.io/docs/latest/integrate/riot/",
@@ -6281,7 +6281,7 @@
  {
   "name": "Neo4j Community Edition (free)",
   "slug": "neo4j-community-edition-free",
-  "category": "databases-backend",
+  "category": "graph-databases",
   "description": "Experience Neo4j 5 on your desktop. Get started with the free graph database download today and avoid the costs of self-hosted deployment.",
   "url": "https://neo4j.com/download/",
   "docs_url": "https://neo4j.com/download/",
@@ -6294,7 +6294,7 @@
  {
   "name": "ArangoDB Community Edition (free)",
   "slug": "arangodb-community-edition-free",
-  "category": "databases-backend",
+  "category": "graph-databases",
   "description": "Starting with version 3.12.5, the Community Edition includes all Enterprise features with no time limits and is free for non-commercial use and datasets up to",
   "url": "https://arango.ai/downloads/",
   "docs_url": "https://arango.ai/downloads/",
@@ -6307,7 +6307,7 @@
  {
   "name": "Redis",
   "slug": "redis",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "Developers love Redis. Unlock the full potential of the Redis database with Redis Enterprise and start building blazing fast apps.",
   "url": "https://redis.io/",
   "docs_url": "https://redis.io/docs/latest/integrate/riot/",
@@ -6320,7 +6320,7 @@
  {
   "name": "ZeroDB",
   "slug": "zerodb",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "*This project is no longer actively maintained. If you'd like to become the maintainer, please let us know.* ZeroDB is an end-to-end encrypted database.",
   "url": "https://github.com/nucypher/zerodb",
   "docs_url": "https://github.com/nucypher/zerodb/tree/master/docs",
@@ -6333,7 +6333,7 @@
  {
   "name": "MongoDB",
   "slug": "mongodb",
-  "category": "memory-vector-dbs",
+  "category": "nosql-key-value-stores",
   "description": "MongoDB is the intelligent data platform for the AI era. Get your ideas to market faster with flexible, real-time data that scales across any cloud.",
   "url": "https://www.mongodb.com/",
   "docs_url": "https://www.mongodb.com/docs/",
@@ -6346,7 +6346,7 @@
  {
   "name": "AWS Marketplace Vector Databases",
   "slug": "aws-marketplace-vector-databases",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Evaluate vector databases for building RAG pipelines, agentic memory, and semantic search. Subscribe and start building in AWS Marketplace.",
   "url": "https://aws.amazon.com/marketplace/build-learn/vector-databases-for-ai",
   "docs_url": "https://aws.amazon.com/marketplace/build-learn/vector-databases-for-ai",
@@ -6359,7 +6359,7 @@
  {
   "name": "Supermemory",
   "slug": "supermemory",
-  "category": "memory-vector-dbs",
+  "category": "agent-memory",
   "description": "Agents need memory. supermemory is building the default engine for memory and continual learning for agents.",
   "url": "https://supermemory.ai/",
   "docs_url": "https://supermemory.ai/docs/supermemory-mcp/chatgpt-web",
@@ -6385,7 +6385,7 @@
  {
   "name": "Instaclustr",
   "slug": "instaclustr",
-  "category": "databases-backend",
+  "category": "nosql-key-value-stores",
   "description": "NetApp® Instaclustr Managed Platform and support for open source technologies. Apache Kafka®, Apache Cassandra®, OpenSearch®, PostgreSQL®, Cadence, Apache Spark™, and Valkey™.",
   "url": "https://www.instaclustr.com/",
   "docs_url": "https://www.instaclustr.com/",
@@ -6489,7 +6489,7 @@
  {
   "name": "CKAN",
   "slug": "ckan",
-  "category": "databases-backend",
+  "category": "open-data-portals",
   "description": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data.",
   "url": "https://ckan.org/",
   "docs_url": "https://ckan.org/",
@@ -6502,7 +6502,7 @@
  {
   "name": "DataHub",
   "slug": "datahub",
-  "category": "databases-backend",
+  "category": "open-data-portals",
   "description": "The Context Platform for your Data and AI Stack.",
   "url": "https://github.com/datahub-project/datahub",
   "docs_url": "https://github.com/datahub-project/datahub/tree/master/docs-website",
@@ -6515,7 +6515,7 @@
  {
   "name": "Socrata Open Data API (SODA) client library (Python)",
   "slug": "socrata-open-data-api-soda-client-library-python",
-  "category": "databases-backend",
+  "category": "open-data-portals",
   "description": "Python bindings for the Socrata Open Data API.",
   "url": "https://github.com/Socrata/sodapy",
   "docs_url": "http://docs.python-requests.org/en/latest/",
@@ -6593,7 +6593,7 @@
  {
   "name": "Open Food Facts API",
   "slug": "open-food-facts-api",
-  "category": "food-nutrition",
+  "category": "nutrition-data",
   "description": "Open Food Facts database, API server and web interface - 🐪🦋 Perl, CSS and JS coders welcome 😊 For helping in Python, see Robotoff or taxonomy-editor",
   "url": "https://github.com/openfoodfacts/openfoodfacts-server",
   "docs_url": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/",
@@ -6606,7 +6606,7 @@
  {
   "name": "Open Library API",
   "slug": "open-library-api",
-  "category": "books-library",
+  "category": "books-apis",
   "description": "One webpage for every book ever published!",
   "url": "https://github.com/internetarchive/openlibrary",
   "docs_url": "https://github.com/internetarchive/openlibrary/tree/master/docs",
@@ -6996,7 +6996,7 @@
  {
   "name": "Rocket.Chat",
   "slug": "rocketchat",
-  "category": "team-chat-selfhosted",
+  "category": "team-chat",
   "description": "Messaging, voice, video, apps, and AI that connect you with allies and partners on any system. Deployed anywhere, entirely under your control.",
   "url": "https://www.rocket.chat/",
   "docs_url": "https://www.rocket.chat/",
@@ -7009,7 +7009,7 @@
  {
   "name": "Mattermost",
   "slug": "mattermost",
-  "category": "team-chat-selfhosted",
+  "category": "team-chat",
   "description": "Zero-trust collaboration, automation and AI in private cloud, self-hosted, and air-gapped environments. Built for national security, critical infrastructure, and regulated enterprises.",
   "url": "https://mattermost.com/",
   "docs_url": "https://docs.mattermost.com",
@@ -7048,7 +7048,7 @@
  {
   "name": "Zulip",
   "slug": "zulip",
-  "category": "team-chat-selfhosted",
+  "category": "team-chat",
   "description": "Zulip server and web application. Open-source team chat that helps teams stay productive and focused.",
   "url": "https://github.com/zulip/zulip",
   "docs_url": "https://github.com/zulip/zulip/tree/main/docs",
@@ -7061,7 +7061,7 @@
  {
   "name": "Matrix Synapse",
   "slug": "matrix-synapse",
-  "category": "team-chat-selfhosted",
+  "category": "secure-messaging",
   "description": "Synapse: Matrix homeserver written in Python/Twisted.",
   "url": "https://github.com/matrix-org/synapse",
   "docs_url": "https://github.com/matrix-org/synapse/tree/develop/docs",
@@ -7074,7 +7074,7 @@
  {
   "name": "Element (formerly Riot)",
   "slug": "element-formerly-riot",
-  "category": "team-chat-selfhosted",
+  "category": "secure-messaging",
   "description": "A glossy Matrix collaboration client for the web.",
   "url": "https://github.com/element-hq/element-web",
   "docs_url": "https://github.com/element-hq/element-web/tree/develop/docs",
@@ -7113,7 +7113,7 @@
  {
   "name": "Rocket.Chat Mobile",
   "slug": "rocketchat-mobile",
-  "category": "team-chat-selfhosted",
+  "category": "team-chat",
   "description": "The Secure CommsOS™ for mission-critical operations",
   "url": "https://github.com/RocketChat/Rocket.Chat.ReactNative",
   "docs_url": "https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/develop/docs",
@@ -7139,7 +7139,7 @@
  {
   "name": "Wire",
   "slug": "wire",
-  "category": "team-chat-selfhosted",
+  "category": "secure-messaging",
   "description": "Collaborate without compromise with Wire, the trusted platform for millions worldwide.",
   "url": "https://wire.com/en/",
   "docs_url": "https://wire.com/en/",
@@ -7152,7 +7152,7 @@
  {
   "name": "Keybase Chat",
   "slug": "keybase-chat",
-  "category": "team-chat-selfhosted",
+  "category": "secure-messaging",
   "description": "chat is now on Keybase, an open source app for encryption and cryptography.",
   "url": "https://keybase.io/chat",
   "docs_url": "https://keybase.io/docs",
@@ -7178,7 +7178,7 @@
  {
   "name": "Threema Work",
   "slug": "threema-work",
-  "category": "team-chat-selfhosted",
+  "category": "secure-messaging",
   "description": "Threema Work is the privacy-first communication solution for secure business messaging, confidentiality, compliance, and data protection.",
   "url": "https://threema.com/en/products/work",
   "docs_url": "https://threema.com/en/products/work",
@@ -7230,7 +7230,7 @@
  {
   "name": "Tox (decentralized chat)",
   "slug": "tox-decentralized-chat",
-  "category": "team-chat-selfhosted",
+  "category": "secure-messaging",
   "description": "Whether it's corporations or governments, there's just too much digital spying going on today.",
   "url": "https://tox.chat/",
   "docs_url": "https://tox.chat/",
@@ -7243,7 +7243,7 @@
  {
   "name": "Rocket.Chat Apps Engine",
   "slug": "rocketchat-apps-engine",
-  "category": "team-chat-selfhosted",
+  "category": "team-chat",
   "description": "The Rocket.Chat Apps engine and definitions.",
   "url": "https://github.com/RocketChat/Rocket.Chat.Apps-engine",
   "docs_url": "https://github.com/RocketChat/Rocket.Chat.Apps-engine/tree/alpha/docs",
@@ -7256,7 +7256,7 @@
  {
   "name": "Mattermost Plugin API",
   "slug": "mattermost-plugin-api",
-  "category": "team-chat-selfhosted",
+  "category": "team-chat",
   "description": "A hackathon project to explore reworking the Mattermost Plugin API.",
   "url": "https://github.com/mattermost/mattermost-plugin-api",
   "docs_url": "https://github.com/mattermost/mattermost-plugin-api",
@@ -7269,7 +7269,7 @@
  {
   "name": "Glip by RingCentral",
   "slug": "glip-by-ringcentral",
-  "category": "team-chat-selfhosted",
+  "category": "team-chat",
   "description": "AI-powered messaging for seamless collaboration for every team. Chat, video, file sharing, and task management in one platform. Try it for free.",
   "url": "https://www.ringcentral.com/teams/overview.html",
   "docs_url": "https://www.ringcentral.com/teams/overview.html",
@@ -7282,7 +7282,7 @@
  {
   "name": "Mumble (voice chat)",
   "slug": "mumble-voice-chat",
-  "category": "team-chat-selfhosted",
+  "category": "secure-messaging",
   "description": "Mumble is a free, open source, low latency, high quality voice chat application.",
   "url": "https://www.mumble.info/",
   "docs_url": "https://www.mumble.info/",
@@ -7438,7 +7438,7 @@
  {
   "name": "Mattermost API",
   "slug": "mattermost-api",
-  "category": "team-chat-selfhosted",
+  "category": "team-chat",
   "description": "REST API v4 — first-class per-endpoint pages generated from the canonical OpenAPI specification.",
   "url": "https://docs.mattermost.com/api",
   "docs_url": "https://docs.mattermost.com/api",
@@ -7737,7 +7737,7 @@
  {
   "name": "PayPal",
   "slug": "paypal",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "From paying friends to saving money or getting cash back when you shop, explore what the new PayPal app has to offer.",
   "url": "https://www.paypal.com/us/home",
   "docs_url": "https://www.paypal.com/us/home",
@@ -7750,7 +7750,7 @@
  {
   "name": "Braintree",
   "slug": "braintree",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Explore PayPal Braintree and how our end-to-end payment platform can help drive growth. Learn more about PayPal Braintree on the PayPal website.",
   "url": "https://www.braintreepayments.com/",
   "docs_url": "https://developer.paypal.com/braintree/docs/",
@@ -7763,7 +7763,7 @@
  {
   "name": "Authorize.Net",
   "slug": "authorizenet",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Authorize.net is an online payment system and credit card payment processor. We provide secure credit card payment processing systems for subscriptions, retail, and mobile, serving as your.",
   "url": "https://www.authorize.net/",
   "docs_url": "https://www.authorize.net/",
@@ -7776,7 +7776,7 @@
  {
   "name": "Skrill",
   "slug": "skrill",
-  "category": "payments-commerce",
+  "category": "cross-border-payouts",
   "description": "Whether you're placing a bet, gaming online, or sending money internationally, Skrill's digital wallet makes every payment quick and secure.",
   "url": "https://www.skrill.com/en-us/",
   "docs_url": "https://www.skrill.com/en-us/",
@@ -7789,7 +7789,7 @@
  {
   "name": "WorldPay",
   "slug": "worldpay",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "We power global commerce by providing exceptional payments technology and expertise to businesses. Find out how Worldpay can help you.",
   "url": "https://www.worldpay.com/en",
   "docs_url": "https://www.worldpay.com/en",
@@ -7802,7 +7802,7 @@
  {
   "name": "Amazon Pay",
   "slug": "amazon-pay",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Amazon Pay is an online payment service that makes checkout on your site fast and secure for hundreds of millions of Amazon customers around the world.",
   "url": "https://pay.amazon.com/",
   "docs_url": "https://developer.amazon.com/docs/amazon-pay/intro.html",
@@ -7815,7 +7815,7 @@
  {
   "name": "Google Pay",
   "slug": "google-pay",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Discover how this API to request payments works, how to get started, and a list of resources to help complete your integration.",
   "url": "https://developers.google.com/pay/api/web/overview",
   "docs_url": "https://docs.google.com/forms/d/e/1FAIpQLSdnBbqNqM-O6EWOunplX3Mkd6fQJCDUWeRirtfHL8pDqzJyBQ/viewform",
@@ -7828,7 +7828,7 @@
  {
   "name": "Klarna",
   "slug": "klarna",
-  "category": "payments-commerce",
+  "category": "buy-now-pay-later",
   "description": "Manage everyday payments securely with Klarna - online, in store, or with the Klarna Card. Flexible and interest-free options in the United States.",
   "url": "https://www.klarna.com/us/?grs=%2F&grr=empty",
   "docs_url": "https://www.klarna.com/us/?grs=%2F&grr=empty",
@@ -7841,7 +7841,7 @@
  {
   "name": "Afterpay",
   "slug": "afterpay",
-  "category": "payments-commerce",
+  "category": "buy-now-pay-later",
   "description": "Afterpay is fully integrated with all your favorite stores. Shop as usual, then choose Afterpay as your payment method at checkout.",
   "url": "https://www.afterpay.com/en-US",
   "docs_url": "https://www.afterpay.com/en-US",
@@ -7854,7 +7854,7 @@
  {
   "name": "Affirm",
   "slug": "affirm",
-  "category": "payments-commerce",
+  "category": "buy-now-pay-later",
   "description": "Buy now pay later without the fees. Flexible payment options with longer plans, lower payments, and no fees. Pay in 4 interest-free or get more time and see your total cost upfront.",
   "url": "https://www.affirm.com/",
   "docs_url": "https://www.affirm.com/",
@@ -7880,7 +7880,7 @@
  {
   "name": "Stripe Checkout",
   "slug": "stripe-checkout",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Experience seamless online payments with Stripe Checkout. Our optimized low-code solution enhances conversion rates with a simple and secure process.",
   "url": "https://stripe.com/payments/checkout",
   "docs_url": "https://docs.stripe.com",
@@ -7919,7 +7919,7 @@
  {
   "name": "Braintree Marketplace",
   "slug": "braintree-marketplace",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Explore PayPal Braintree and how our end-to-end payment platform can help drive growth. Learn more about PayPal Braintree on the PayPal website.",
   "url": "https://www.paypal.com/us/braintree",
   "docs_url": "https://developer.paypal.com/braintree/docs/",
@@ -7932,7 +7932,7 @@
  {
   "name": "Adyen API",
   "slug": "adyen-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "The Adyen API makes it easy to accept hundreds of payment methods globally. Use the Adyen API Explorer to send test requests and learn about the API.",
   "url": "https://docs.adyen.com/api-explorer",
   "docs_url": "https://docs.adyen.com/api-explorer",
@@ -7945,7 +7945,7 @@
  {
   "name": "Stripe Connect",
   "slug": "stripe-connect",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Stripe Connect is the fastest and easiest way to integrate payments and financial services into your software platform or marketplace.",
   "url": "https://stripe.com/connect",
   "docs_url": "https://docs.stripe.com",
@@ -7971,7 +7971,7 @@
  {
   "name": "Square SDK (Node)",
   "slug": "square-sdk-node",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Javascript client library for the Square Connect APIs - GitHub - square/connect-nodejs-sdk: Javascript client library for the Square Connect APIs",
   "url": "https://github.com/square/connect-nodejs-sdk",
   "docs_url": "https://github.com/square/connect-nodejs-sdk/tree/master/docs",
@@ -8114,7 +8114,7 @@
  {
   "name": "Payoneer",
   "slug": "payoneer",
-  "category": "payments-commerce",
+  "category": "cross-border-payouts",
   "description": "Payoneer empowers millions of businesses with the financial software and services they need to grow and transact globally with confidence.",
   "url": "https://www.payoneer.com/",
   "docs_url": "https://www.payoneer.com/",
@@ -8127,7 +8127,7 @@
  {
   "name": "Checkout.com",
   "slug": "checkoutcom",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Boost your acceptance rate, cut processing costs, fight fraud, and create extraordinary customer experiences with Checkout.com's payment solutions.",
   "url": "https://www.checkout.com/",
   "docs_url": "https://www.checkout.com/docs/get-started",
@@ -8140,7 +8140,7 @@
  {
   "name": "Stripe Terminal",
   "slug": "stripe-terminal",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Stripe Terminal allows businesses to offer seamless and custom in-person payments for a unified commerce experience.",
   "url": "https://stripe.com/terminal",
   "docs_url": "https://docs.stripe.com",
@@ -8153,7 +8153,7 @@
  {
   "name": "Braintree API",
   "slug": "braintree-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Our mission is to empower developers with the tools, resources, and simple-to-use SDKs and APIs to build on one platform, so they can serve merchants from around the world.",
   "url": "https://developer.paypal.com/braintree/docs/",
   "docs_url": "https://developer.paypal.com/braintree/docs/",
@@ -8166,7 +8166,7 @@
  {
   "name": "Wise API",
   "slug": "wise-api",
-  "category": "payments-commerce",
+  "category": "cross-border-payouts",
   "description": "Wise Platform offer domestic and cross-border payments tools for technology platforms, banks and financial institutions.",
   "url": "https://docs.wise.com/",
   "docs_url": "https://docs.wise.com/",
@@ -8179,7 +8179,7 @@
  {
   "name": "Worldpay API",
   "slug": "worldpay-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Spend less time integrating and more time on your own product. Access Worldpay is built with a modern toolset and has code samples in the languages you use.",
   "url": "https://docs.worldpay.com/access/",
   "docs_url": "https://docs.worldpay.com/access/",
@@ -8192,7 +8192,7 @@
  {
   "name": "Stripe Treasury",
   "slug": "stripe-treasury",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Open a business bank account in minutes to receive, store, send, and spend funds alongside payments and earn cashback on card spend. No monthly fees.",
   "url": "https://stripe.com/treasury",
   "docs_url": "https://docs.stripe.com/treasury",
@@ -8205,7 +8205,7 @@
  {
   "name": "PayPal Billing Agreements",
   "slug": "paypal-billing-agreements",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "You can use billing plans and subscriptions to create subscriptions that process recurring PayPal payments for physical or digital goods, or services.",
   "url": "https://developer.paypal.com/api/subscriptions/v1",
   "docs_url": "https://developer.paypal.com/api/subscriptions/v1",
@@ -8218,7 +8218,7 @@
  {
   "name": "Mollie",
   "slug": "mollie",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "One platform to accept payments, manage money, and access funding. Eliminate financial friction and grow your business with Mollie.",
   "url": "https://www.mollie.com/",
   "docs_url": "https://www.mollie.com/",
@@ -8231,7 +8231,7 @@
  {
   "name": "Square Payments API",
   "slug": "square-payments-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Process online, in-app, and in-person payments with Square payment APIs. Manage disputes and subscriptions and perform other payment-related tasks.",
   "url": "https://developer.squareup.com/docs/payments-overview",
   "docs_url": "https://developer.squareup.com/docs",
@@ -8244,7 +8244,7 @@
  {
   "name": "Braintree Payments API",
   "slug": "braintree-payments-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Our mission is to empower developers with the tools, resources, and simple-to-use SDKs and APIs to build on one platform, so they can serve merchants from around the world.",
   "url": "https://developer.paypal.com/braintree/docs",
   "docs_url": "https://developer.paypal.com/braintree/docs/",
@@ -8257,7 +8257,7 @@
  {
   "name": "PayPal REST API",
   "slug": "paypal-rest-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Get started with PayPal REST APIs, including orders, payments, subscriptions, invoicing, and disputes.",
   "url": "https://developer.paypal.com/api/rest",
   "docs_url": "https://developer.paypal.com/api/rest",
@@ -8270,7 +8270,7 @@
  {
   "name": "Square API",
   "slug": "square-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Build solutions that process payments on Square hardware or online, manage products and customers, and handle the operations that keep businesses running.",
   "url": "https://developer.squareup.com/docs",
   "docs_url": "https://developer.squareup.com/docs",
@@ -8283,7 +8283,7 @@
  {
   "name": "Square Web Payments SDK",
   "slug": "square-web-payments-sdk",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Learn about the Square Web Payments SDK for taking payments in a web client.",
   "url": "https://developer.squareup.com/docs/web-payments/overview",
   "docs_url": "https://developer.squareup.com/docs",
@@ -8296,7 +8296,7 @@
  {
   "name": "Stripe Webhooks API",
   "slug": "stripe-webhooks-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Create an event destination to receive events at an HTTPS webhook endpoint. Receiving webhook events allows you to listen to asynchronous events, such as when a customer's bank confirms a.",
   "url": "https://docs.stripe.com/webhooks",
   "docs_url": "https://dashboard.stripe.com/login?redirect=https%3A%2F%2Fdocs.stripe.com%2Fwebhooks",
@@ -8309,7 +8309,7 @@
  {
   "name": "PayPal Webhooks API",
   "slug": "paypal-webhooks-api",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "The PayPal REST APIs use <a href=\"/docs/api/notifications/webhooks/\"/>webhooks</a> for event notification. Webhooks are HTTP callbacks that receive notification messages for events.",
   "url": "https://developer.paypal.com/api/webhooks/v1",
   "docs_url": "https://developer.paypal.com/api/webhooks/v1",
@@ -8361,7 +8361,7 @@
  {
   "name": "Nuvei",
   "slug": "nuvei",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Unify pay-ins, payouts, and data on one intelligent platform. Accept every payment method, optimize performance locally, and scale globally with Nuvei.",
   "url": "https://www.nuvei.com/",
   "docs_url": "https://www.nuvei.com/",
@@ -8374,7 +8374,7 @@
  {
   "name": "Luqra",
   "slug": "luqra",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Luqra is a leading payment processing solution company offering secure, efficient payment services and a robust financial business ERP management platform.",
   "url": "https://www.luqra.com/",
   "docs_url": "https://www.luqra.com/",
@@ -8387,7 +8387,7 @@
  {
   "name": "Shopify Payments",
   "slug": "shopify-payments",
-  "category": "payments-commerce",
+  "category": "payment-processing",
   "description": "Accept payments online, in-store, and on-the-go with Shopify Payments. Get faster payouts, unlock Shop Pay checkout, and access growth tools like Finance, unified retail, and Markets.",
   "url": "https://www.shopify.com/payments",
   "docs_url": "https://www.shopify.com/payments",
@@ -8413,7 +8413,7 @@
  {
   "name": "Nickel",
   "slug": "nickel",
-  "category": "payments-commerce",
+  "category": "cross-border-payouts",
   "description": "Built for America's core businesses. Nickel runs your cashflow — pay vendors, get paid, earn 2% APY, and CC AI accountant Penny on any email.",
   "url": "https://www.nickel.com/",
   "docs_url": "https://www.nickel.com/",
@@ -9271,7 +9271,7 @@
  {
   "name": "PlanetScale Cloud",
   "slug": "planetscale-cloud",
-  "category": "databases-backend",
+  "category": "relational-databases",
   "description": "PlanetScale offers the world’s fastest and most scalable cloud hosting for Vitess, Neki, and Postgres.",
   "url": "https://planetscale.com/",
   "docs_url": "https://planetscale.com/docs/plans/deployment-options",
@@ -9986,7 +9986,7 @@
  {
   "name": "Otter.ai",
   "slug": "otterai",
-  "category": "speech-transcription",
+  "category": "meeting-notes-ai",
   "description": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.",
   "url": "https://otter.ai/",
   "docs_url": "https://otter.ai/",
@@ -10233,7 +10233,7 @@
  {
   "name": "Fireflies.ai Meeting Assistant",
   "slug": "firefliesai-meeting-assistant",
-  "category": "speech-transcription",
+  "category": "meeting-notes-ai",
   "description": "Fireflies takes notes, manages tasks, and automates workflows across meetings, email, chat, CRM, and your apps. Build a searchable knowledge base of your team’s work in one place.",
   "url": "https://fireflies.ai/",
   "docs_url": "https://fireflies.ai/",
@@ -10246,7 +10246,7 @@
  {
   "name": "Otter.ai Business",
   "slug": "otterai-business",
-  "category": "speech-transcription",
+  "category": "meeting-notes-ai",
   "description": "Otter can make teams more collaborative automatically joining meetings and producing live transcriptions that can be annotated, highlighted, and shared.",
   "url": "https://otter.ai/business",
   "docs_url": "https://otter.ai/business",
@@ -10298,7 +10298,7 @@
  {
   "name": "Papercup AI Dubbing & Transcription",
   "slug": "papercup-ai-dubbing-and-transcription",
-  "category": "speech-transcription",
+  "category": "ai-dubbing",
   "description": "Natural-sounding AI dubbing and professional voice-over services. Delivered by cutting-edge synthetic voices and expert voice talent.",
   "url": "https://www.papercup.com/",
   "docs_url": "https://www.papercup.com/",
@@ -10324,7 +10324,7 @@
  {
   "name": "Murf AI Voice & Transcription",
   "slug": "murf-ai-voice-and-transcription",
-  "category": "speech-transcription",
+  "category": "text-to-speech",
   "description": "Generate human-like speech and deploy Conversational agents with Murf AI. The complete AI Voice platform trusted by 10 million+ developers, businesses, and creators.",
   "url": "https://murf.ai/",
   "docs_url": "https://murf.ai/",
@@ -10350,7 +10350,7 @@
  {
   "name": "Aiva.ai Meeting Summaries",
   "slug": "aivaai-meeting-summaries",
-  "category": "speech-transcription",
+  "category": "meeting-notes-ai",
   "description": "AIVA, your AI music generation assistant",
   "url": "https://www.aiva.ai/",
   "docs_url": "https://www.aiva.ai/",
@@ -10389,7 +10389,7 @@
  {
   "name": "Otter.ai Live Captioning",
   "slug": "otterai-live-captioning",
-  "category": "speech-transcription",
+  "category": "meeting-notes-ai",
   "description": "Otter.ai uses artificial intelligence to empower users with real-time transcription meeting notes that are shareable, searchable, accessible and secure.",
   "url": "https://otter.ai/live-caption",
   "docs_url": "https://otter.ai/live-caption",
@@ -10402,7 +10402,7 @@
  {
   "name": "Papercup AI Live Caption",
   "slug": "papercup-ai-live-caption",
-  "category": "speech-transcription",
+  "category": "ai-dubbing",
   "description": "Natural-sounding AI dubbing and professional voice-over services. Delivered by cutting-edge synthetic voices and expert voice talent.",
   "url": "https://www.papercup.com/live-caption",
   "docs_url": "https://www.papercup.com/live-caption",
@@ -10428,7 +10428,7 @@
  {
   "name": "Piper TTS",
   "slug": "piper-tts",
-  "category": "speech-transcription",
+  "category": "text-to-speech",
   "description": "A fast, local neural text to speech system.",
   "url": "https://github.com/rhasspy/piper",
   "docs_url": "https://github.com/rhasspy/piper",
@@ -10441,7 +10441,7 @@
  {
   "name": "Coqui TTS",
   "slug": "coqui-tts",
-  "category": "speech-transcription",
+  "category": "text-to-speech",
   "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
   "url": "https://github.com/coqui-ai/TTS",
   "docs_url": "https://github.com/coqui-ai/TTS/tree/dev/docs",
@@ -10493,7 +10493,7 @@
  {
   "name": "pyannote.audio",
   "slug": "pyannoteaudio",
-  "category": "speech-transcription",
+  "category": "speaker-diarization",
   "description": "Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding - GitHub",
   "url": "https://github.com/pyannote/pyannote-audio",
   "docs_url": "https://docs.pytorch.org/torchcodec/",
@@ -10506,7 +10506,7 @@
  {
   "name": "3D-Speaker",
   "slug": "3d-speaker",
-  "category": "speech-transcription",
+  "category": "speaker-diarization",
   "description": "A Repository for Single- and Multi-modal Speaker Verification, Speaker Recognition and Speaker Diarization",
   "url": "https://github.com/modelscope/3D-Speaker",
   "docs_url": "https://github.com/modelscope/3D-Speaker/tree/main/docs/images",
@@ -10519,7 +10519,7 @@
  {
   "name": "WeSpeaker",
   "slug": "wespeaker",
-  "category": "speech-transcription",
+  "category": "speaker-diarization",
   "description": "Research and Production Oriented Speaker Verification, Recognition and Diarization Toolkit",
   "url": "https://github.com/wenet-e2e/wespeaker",
   "docs_url": "https://github.com/wenet-e2e/wespeaker/tree/master/docs",
@@ -10532,7 +10532,7 @@
  {
   "name": "GigaSpeech",
   "slug": "gigaspeech",
-  "category": "speech-transcription",
+  "category": "speech-datasets",
   "description": "Large, modern dataset for speech recognition.",
   "url": "https://github.com/SpeechColab/GigaSpeech",
   "docs_url": "https://github.com/SpeechColab/GigaSpeech",
@@ -10545,7 +10545,7 @@
  {
   "name": "TIMIT",
   "slug": "timit",
-  "category": "speech-transcription",
+  "category": "speech-datasets",
   "description": "Introduction TIMIT Acoustic-Phonetic Continuous Speech Corpus was a joint effort among the Massachusetts Institute of Technology (MIT), SRI International...",
   "url": "https://catalog.ldc.upenn.edu/LDC93S1",
   "docs_url": "https://catalog.ldc.upenn.edu/docs/LDC93S1/",
@@ -10558,7 +10558,7 @@
  {
   "name": "Switchboard",
   "slug": "switchboard",
-  "category": "speech-transcription",
+  "category": "speech-datasets",
   "description": "Introduction Switchboard-1 Release 2 was developed by Texas Instruments in 1990-1991 and consists of approximately 260 hours of conversational telephone...",
   "url": "https://catalog.ldc.upenn.edu/LDC97S62",
   "docs_url": "https://catalog.ldc.upenn.edu/docs/LDC97S62/",
@@ -10571,7 +10571,7 @@
  {
   "name": "NIST SRE",
   "slug": "nist-sre",
-  "category": "speech-transcription",
+  "category": "speech-datasets",
   "description": "Summary:The goal of the NIST Speaker Recognition Evaluation (SRE) series is to contribute to the direction o",
   "url": "https://www.nist.gov/itl/iad/mltg/speaker-recognition",
   "docs_url": "https://www.nist.gov/itl/iad/mltg/speaker-recognition",
@@ -10597,7 +10597,7 @@
  {
   "name": "Respeecher",
   "slug": "respeecher",
-  "category": "voice-video-dubbing",
+  "category": "voice-cloning",
   "description": "Professional AI voice generator for real production workflows, with free testing and flexible integration for studios and media teams.",
   "url": "https://www.respeecher.com/",
   "docs_url": "https://www.respeecher.com/",
@@ -10610,7 +10610,7 @@
  {
   "name": "Synthesia",
   "slug": "synthesia",
-  "category": "voice-video-dubbing",
+  "category": "avatar-video",
   "description": "Official Synthesia site. The AI video platform trusted by 90%+ of the Fortune 100 to communicate, train, and upskill teams in 140+ languages.",
   "url": "https://www.synthesia.io/",
   "docs_url": "https://www.synthesia.io/",
@@ -10623,7 +10623,7 @@
  {
   "name": "Altered Studio",
   "slug": "altered-studio",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Altered Studio's unique technology allows you to change your voice to any of its carefully curated AI voices to create compelling professional voice-driven performances.",
   "url": "https://www.altered.ai/",
   "docs_url": "https://www.altered.ai/",
@@ -10636,7 +10636,7 @@
  {
   "name": "Voice.ai",
   "slug": "voiceai",
-  "category": "voice-video-dubbing",
+  "category": "voice-cloning",
   "description": "Create lifelike speech using AI voice agents, voice changer, and text to speech from Voice.ai. Thousands of voices with secure, scalable APIs and SDKs.",
   "url": "https://voice.ai/",
   "docs_url": "https://voice.ai/docs/introduction",
@@ -10649,7 +10649,7 @@
  {
   "name": "Google Cloud Text-to-Speech",
   "slug": "google-cloud-text-to-speech",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "Convert text to lifelike audio with Gemini-powered AI voices. Choose from 380+ natural-sounding voices across 75+ languages and variants.",
   "url": "https://cloud.google.com/text-to-speech",
   "docs_url": "https://cloud.google.com/text-to-speech",
@@ -10662,7 +10662,7 @@
  {
   "name": "Amazon Polly",
   "slug": "amazon-polly",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "Amazon Polly turns text into lifelike speech, allowing you to create applications that talk and build entirely new categories of speech-activated applications.",
   "url": "https://aws.amazon.com/polly/",
   "docs_url": "https://docs.aws.amazon.com/polly/latest/dg/voicelist.html",
@@ -10675,7 +10675,7 @@
  {
   "name": "DeepBrain AI AI Studios",
   "slug": "deepbrain-ai-ai-studios",
-  "category": "voice-video-dubbing",
+  "category": "avatar-video",
   "description": "AI Video Generator, Text-to-Video, Generative Videos, Custom Avatar, 2,000+ Avatars, AI Dubbing with Translation, TTS with 150+ Languages, and 7,000+ Video Templates — for HR Training, and.",
   "url": "https://www.aistudios.com/",
   "docs_url": "https://app.aistudios.com/automation/docs",
@@ -10688,7 +10688,7 @@
  {
   "name": "Dubverse",
   "slug": "dubverse",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Dubverse is a Generative AI platform with best in class AI Video Dubbing, AI Text to Speech, Auto Subtitles & API. Dubverse uses artificial intelligence to best in class Video Dubbing",
   "url": "https://dubverse.ai/",
   "docs_url": "https://docs.dubverse.ai/introduction",
@@ -10701,7 +10701,7 @@
  {
   "name": "Speechify Voice Cloning",
   "slug": "speechify-voice-cloning",
-  "category": "voice-video-dubbing",
+  "category": "voice-cloning",
   "description": "Speechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free.",
   "url": "https://speechify.com/",
   "docs_url": "https://speechify.com/",
@@ -10714,7 +10714,7 @@
  {
   "name": "Veed.io Auto Dubbing",
   "slug": "veedio-auto-dubbing",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Generate and edit in one workflow. Create talking heads, edit with AI, dub videos, and add subtitles — all in VEED. Built for marketers and solopreneurs",
   "url": "https://www.veed.io/",
   "docs_url": "https://www.veed.io/",
@@ -10727,7 +10727,7 @@
  {
   "name": "Clipchamp AI Dubbing (Microsoft)",
   "slug": "clipchamp-ai-dubbing-microsoft",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Create videos with royalty-free music and stock footage, use video templates, and export in up to 4K video resolution. Get started in-browser or download the Windows app.",
   "url": "https://clipchamp.com/en/",
   "docs_url": "https://clipchamp.com/en/",
@@ -10740,7 +10740,7 @@
  {
   "name": "Descript Overdub",
   "slug": "descript-overdub",
-  "category": "voice-video-dubbing",
+  "category": "voice-cloning",
   "description": "Use AI to fix mis-matched tone, enhance speaker voices, and remove background noise using Regenerate.",
   "url": "https://www.descript.com/regenerate",
   "docs_url": "https://www.descript.com/regenerate",
@@ -10753,7 +10753,7 @@
  {
   "name": "Resemble AI",
   "slug": "resemble-ai",
-  "category": "voice-video-dubbing",
+  "category": "voice-cloning",
   "description": "Resemble AI powers real-time deepfake detection for enterprise. Verify media and satisfy AI content compliance standards. On-prem or cloud, built to scale.",
   "url": "https://www.resemble.ai/",
   "docs_url": "https://docs.resemble.ai/detect",
@@ -10766,7 +10766,7 @@
  {
   "name": "ElevenLabs Prime Voice AI",
   "slug": "elevenlabs-prime-voice-ai",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "Create lifelike speech with our AI voice generator and voice agents platform. Access 5,000+ voices in 90+ languages with secure APIs and SDKs.",
   "url": "https://elevenlabs.io/",
   "docs_url": "https://elevenlabs.io/docs/overview/intro",
@@ -10779,7 +10779,7 @@
  {
   "name": "Voxygen",
   "slug": "voxygen",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "Donnez vie à vos contenus et applications grâce à notre technologie de synthèse vocale et nos voix IA réalistes et de très haute qualité.",
   "url": "https://www.voxygen.fr/home",
   "docs_url": "https://www.voxygen.fr/home",
@@ -10792,7 +10792,7 @@
  {
   "name": "ReadSpeaker",
   "slug": "readspeaker",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "ReadSpeaker turns text into natural-sounding voice for education and enterprise: web accessibility, custom brand voices, and voice AI for your product, in 90+ languages.",
   "url": "https://www.readspeaker.com/",
   "docs_url": "https://www.readspeaker.com/",
@@ -10805,7 +10805,7 @@
  {
   "name": "Acapela Group",
   "slug": "acapela-group",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "We Create Personalized Digital Voices, Based on VOICE AI, for Any Service, App or Device That Needs to Speak. Over 30 Languages, 200 Voices + Custom Voices.",
   "url": "https://www.acapela-group.com/",
   "docs_url": "https://www.acapela-group.com/",
@@ -10818,7 +10818,7 @@
  {
   "name": "Baidu Speech Synthesis",
   "slug": "baidu-speech-synthesis",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "百度语音识别,提供业界领先的技术,让您的应用长上耳朵.支持车载导航、智能家居、社交聊天、应用助手、娱乐游戏等,助力企业实现多场景智能语音交互.",
   "url": "https://ai.baidu.com/tech/speech",
   "docs_url": "https://ai.baidu.com/docs#/Begin/top",
@@ -10831,7 +10831,7 @@
  {
   "name": "Tencent Cloud TTS",
   "slug": "tencent-cloud-tts",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "Tencent Cloud Text To Speech (TTS) turns text into natural-sounding speech in multiple voices and different languages to close the loop of human-machine interaction.",
   "url": "https://intl.cloud.tencent.com/products/tts",
   "docs_url": "https://intl.cloud.tencent.com/products/tts",
@@ -10844,7 +10844,7 @@
  {
   "name": "Papercup API",
   "slug": "papercup-api",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Natural-sounding AI dubbing and professional voice-over services. Delivered by cutting-edge synthetic voices and expert voice talent.",
   "url": "https://www.papercup.com/api",
   "docs_url": "https://www.papercup.com/api",
@@ -10857,7 +10857,7 @@
  {
   "name": "Voicery",
   "slug": "voicery",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "Voicery creates natural-sounding Text-to-Speech (TTS) engines and custom brand voices for enterprise.",
   "url": "https://voicery.com/",
   "docs_url": "https://voicery.com/",
@@ -10870,7 +10870,7 @@
  {
   "name": "Riva (NVIDIA)",
   "slug": "riva-nvidia",
-  "category": "voice-video-dubbing",
+  "category": "text-to-speech",
   "description": "Find documentation and other resources to build and deploy full optimized, real-time AI pipelines anywhere.",
   "url": "https://developer.nvidia.com/topics/ai/generative-ai/riva",
   "docs_url": "https://docs.nvidia.com/deeplearning/riva/user-guide/docs/index.html",
@@ -10883,7 +10883,7 @@
  {
   "name": "Speechify AI Dubbing",
   "slug": "speechify-ai-dubbing",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Speechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free.",
   "url": "https://speechify.com/",
   "docs_url": "https://speechify.com/",
@@ -11104,7 +11104,7 @@
  {
   "name": "Eleven Labs Dubbing API",
   "slug": "eleven-labs-dubbing-api",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Create, edit, and regenerate dubs in 90+ languages through a single API. Integrate state of the art dubbing with a few lines of code.",
   "url": "https://elevenlabs.io/dubbing-api",
   "docs_url": "https://elevenlabs.io/docs/eleven-api/guides/cookbooks/dubbing",
@@ -11117,7 +11117,7 @@
  {
   "name": "Sarvam AI Dubbing API",
   "slug": "sarvam-ai-dubbing-api",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Localize video and audio into 12 Indian languages with the Sarvam AI Dubbing API. Clone each speaker's voice across languages, control translation tone, and export video, audio, and.",
   "url": "https://docs.sarvam.ai/api/api-guides-tutorials/dubbing/overview",
   "docs_url": "https://docs.sarvam.ai/api/api-guides-tutorials/dubbing/overview.md",
@@ -11130,7 +11130,7 @@
  {
   "name": "Inworld AI Dubbing",
   "slug": "inworld-ai-dubbing",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Dub without re-casting. Clone the performer once and carry their voice into 200+ languages in parallel. Zero data retention by default, so pre-release content stays protected.",
   "url": "https://inworld.ai/dubbing",
   "docs_url": "https://docs.inworld.ai/docs/introduction",
@@ -11143,7 +11143,7 @@
  {
   "name": "Reap.video AI Dubbing",
   "slug": "reapvideo-ai-dubbing",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Dub video you already made into 80+ languages across 143 locales, with regional variants like es-MX and pt-BR, lip-aware timing, and no re-recording.",
   "url": "https://reap.video/ai-dubbing",
   "docs_url": "https://reap.video/api",
@@ -11156,7 +11156,7 @@
  {
   "name": "Noiz.ai",
   "slug": "noizai",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Clone voice, control emotion, and create lifelike speech with Noiz AI. Emotional TTS, multilingual dubbing, voice library, and developer-ready APIs in Noiz.",
   "url": "https://noiz.ai/",
   "docs_url": "https://noiz.ai/",
@@ -11169,7 +11169,7 @@
  {
   "name": "Maestra AI Localization",
   "slug": "maestra-ai-localization",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Unlock your global audience with Maestra AI: Lightning-fast AI-powered transcripts, subtitles, and multilingual voiceovers in 125+ languages, on demand or in real-time.",
   "url": "https://maestra.ai/",
   "docs_url": "https://maestra.ai/",
@@ -11182,7 +11182,7 @@
  {
   "name": "Linly-Dubbing (GitHub)",
   "slug": "linly-dubbing-github",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "智能视频多语言AI配音/翻译工具 - Linly-Dubbing — “AI赋能，语言无界”.",
   "url": "https://github.com/Kedreamix/Linly-Dubbing",
   "docs_url": "https://github.com/Kedreamix/Linly-Dubbing/tree/main/docs",
@@ -11195,7 +11195,7 @@
  {
   "name": "Open Dubbing (GitHub)",
   "slug": "open-dubbing-github",
-  "category": "voice-video-dubbing",
+  "category": "ai-dubbing",
   "description": "Open dubbing is an AI dubbing system which uses machine learning models to automatically translate and synchronize audio dialogue into different languages.",
   "url": "https://github.com/softcatala/open-dubbing",
   "docs_url": "https://platform.openai.com/docs/guides/text-to-speech",
@@ -11767,7 +11767,7 @@
  {
   "name": "Creatomate",
   "slug": "creatomate",
-  "category": "video-editing-tools",
+  "category": "programmatic-video",
   "description": "Template-based video and image rendering API for automated media.",
   "url": "https://creatomate.com/",
   "docs_url": "https://creatomate.com/docs/api/introduction",
@@ -11780,7 +11780,7 @@
  {
   "name": "Shotstack",
   "slug": "shotstack",
-  "category": "video-editing-tools",
+  "category": "programmatic-video",
   "description": "Cloud video editing API for programmatic video creation.",
   "url": "https://shotstack.io/",
   "docs_url": "https://shotstack.io/docs/guide/",
@@ -11793,7 +11793,7 @@
  {
   "name": "JSON2Video",
   "slug": "json2video",
-  "category": "video-editing-tools",
+  "category": "programmatic-video",
   "description": "Create videos programmatically from JSON with a REST API.",
   "url": "https://json2video.com/",
   "docs_url": "https://json2video.com/docs/",
@@ -11806,7 +11806,7 @@
  {
   "name": "Remotion",
   "slug": "remotion",
-  "category": "video-editing-tools",
+  "category": "programmatic-video",
   "description": "Framework for creating videos programmatically with React.",
   "url": "https://www.remotion.dev/",
   "docs_url": "https://www.remotion.dev/docs",
@@ -11819,7 +11819,7 @@
  {
   "name": "FFmpeg",
   "slug": "ffmpeg",
-  "category": "video-editing-tools",
+  "category": "video-editing",
   "description": "The standard open-source toolkit for recording, converting and streaming audio and video.",
   "url": "https://ffmpeg.org/",
   "docs_url": "https://ffmpeg.org/documentation.html",
@@ -11832,7 +11832,7 @@
  {
   "name": "MoviePy",
   "slug": "moviepy",
-  "category": "video-editing-tools",
+  "category": "video-editing",
   "description": "Python library for scripted video editing.",
   "url": "https://zulko.github.io/moviepy/",
   "docs_url": "https://zulko.github.io/moviepy/",
@@ -11884,7 +11884,7 @@
  {
   "name": "Captions",
   "slug": "captions",
-  "category": "video-editing-tools",
+  "category": "video-editing",
   "description": "AI video editing with captions, eye contact and AI avatars.",
   "url": "https://www.captions.ai/",
   "docs_url": "https://www.captions.ai/",
@@ -11897,7 +11897,7 @@
  {
   "name": "OpusClip",
   "slug": "opusclip",
-  "category": "video-editing-tools",
+  "category": "video-editing",
   "description": "Turns long videos into short clips automatically.",
   "url": "https://www.opus.pro/",
   "docs_url": "https://www.opus.pro/",
@@ -11910,7 +11910,7 @@
  {
   "name": "Pexels API",
   "slug": "pexels-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Free stock photo and video search API.",
   "url": "https://www.pexels.com/api/",
   "docs_url": "https://www.pexels.com/api/documentation/",
@@ -11923,7 +11923,7 @@
  {
   "name": "Pixabay API",
   "slug": "pixabay-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Free API for searching royalty-free images and videos.",
   "url": "https://pixabay.com/api/docs/",
   "docs_url": "https://pixabay.com/api/docs/",
@@ -11936,7 +11936,7 @@
  {
   "name": "Unsplash API",
   "slug": "unsplash-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "API access to a large library of free-to-use photos.",
   "url": "https://unsplash.com/developers",
   "docs_url": "https://unsplash.com/documentation",
@@ -14718,7 +14718,7 @@
  {
   "name": "CoinGecko API",
   "slug": "coingecko-api",
-  "category": "crypto-web3",
+  "category": "crypto-market-data",
   "description": "Crypto prices and market data.",
   "url": "https://www.coingecko.com/en/api",
   "docs_url": "https://docs.coingecko.com/",
@@ -14731,7 +14731,7 @@
  {
   "name": "CoinMarketCap API",
   "slug": "coinmarketcap-api",
-  "category": "crypto-web3",
+  "category": "crypto-market-data",
   "description": "Crypto market data API.",
   "url": "https://coinmarketcap.com/api/",
   "docs_url": "https://coinmarketcap.com/api/documentation/v1/",
@@ -14744,7 +14744,7 @@
  {
   "name": "CoinCap",
   "slug": "coincap",
-  "category": "crypto-web3",
+  "category": "crypto-market-data",
   "description": "Crypto asset price API.",
   "url": "https://coincap.io/",
   "docs_url": "https://docs.coincap.io/",
@@ -14757,7 +14757,7 @@
  {
   "name": "Binance API",
   "slug": "binance-api",
-  "category": "crypto-web3",
+  "category": "crypto-market-data",
   "description": "Crypto exchange market data and trading API.",
   "url": "https://www.binance.com/en/binance-api",
   "docs_url": "https://developers.binance.com/docs",
@@ -14770,7 +14770,7 @@
  {
   "name": "Kraken API",
   "slug": "kraken-api",
-  "category": "crypto-web3",
+  "category": "crypto-market-data",
   "description": "Crypto exchange REST and WebSocket API.",
   "url": "https://docs.kraken.com/",
   "docs_url": "https://docs.kraken.com/api/",
@@ -14783,7 +14783,7 @@
  {
   "name": "CCXT",
   "slug": "ccxt",
-  "category": "crypto-web3",
+  "category": "crypto-market-data",
   "description": "Unified library for crypto exchange APIs.",
   "url": "https://github.com/ccxt/ccxt",
   "docs_url": "https://docs.ccxt.com/",
@@ -15524,7 +15524,7 @@
  {
   "name": "Podcast Index",
   "slug": "podcast-index",
-  "category": "podcasts-music",
+  "category": "podcasts",
   "description": "Open podcast directory API.",
   "url": "https://podcastindex.org/",
   "docs_url": "https://podcastindex-org.github.io/docs-api/",
@@ -15537,7 +15537,7 @@
  {
   "name": "ListenNotes",
   "slug": "listennotes",
-  "category": "podcasts-music",
+  "category": "podcasts",
   "description": "Podcast search engine API.",
   "url": "https://www.listennotes.com/api/",
   "docs_url": "https://www.listennotes.com/api/docs/",
@@ -15550,7 +15550,7 @@
  {
   "name": "Spotify Web API",
   "slug": "spotify-web-api",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Spotify catalog and playback API.",
   "url": "https://developer.spotify.com/",
   "docs_url": "https://developer.spotify.com/documentation/web-api",
@@ -18670,7 +18670,7 @@
  {
   "name": "Pinata (IPFS)",
   "slug": "pinata-ipfs",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "IPFS file hosting API.",
   "url": "https://pinata.cloud/",
   "docs_url": "https://docs.pinata.cloud/",
@@ -20100,7 +20100,7 @@
  {
   "name": "Cognee",
   "slug": "cognee",
-  "category": "memory-vector-dbs",
+  "category": "agent-memory",
   "description": "Memory for agents using knowledge graphs.",
   "url": "https://www.cognee.ai/",
   "docs_url": "https://docs.cognee.ai/",
@@ -20113,7 +20113,7 @@
  {
   "name": "Usearch",
   "slug": "usearch",
-  "category": "memory-vector-dbs",
+  "category": "vector-databases",
   "description": "Fast single-file similarity search.",
   "url": "https://github.com/unum-cloud/usearch",
   "docs_url": "https://unum-cloud.github.io/usearch/",
@@ -20126,7 +20126,7 @@
  {
   "name": "Graphiti",
   "slug": "graphiti",
-  "category": "memory-vector-dbs",
+  "category": "agent-memory",
   "description": "Temporal knowledge graph framework for agents.",
   "url": "https://github.com/getzep/graphiti",
   "docs_url": "https://help.getzep.com/graphiti",
@@ -20659,7 +20659,7 @@
  {
   "name": "Google Books API",
   "slug": "google-books-api",
-  "category": "books-library",
+  "category": "books-apis",
   "description": "Book search and metadata.",
   "url": "https://developers.google.com/books",
   "docs_url": "https://developers.google.com/books/docs/v1/getting_started",
@@ -20763,7 +20763,7 @@
  {
   "name": "openFDA",
   "slug": "openfda",
-  "category": "health-medical-data",
+  "category": "medical-data-apis",
   "description": "FDA drug, device and food data APIs.",
   "url": "https://open.fda.gov/",
   "docs_url": "https://open.fda.gov/apis/",
@@ -20776,7 +20776,7 @@
  {
   "name": "RxNorm API",
   "slug": "rxnorm-api",
-  "category": "health-medical-data",
+  "category": "medical-data-apis",
   "description": "Normalized drug names API from NLM.",
   "url": "https://lhncbc.nlm.nih.gov/RxNav/",
   "docs_url": "https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html",
@@ -20789,7 +20789,7 @@
  {
   "name": "ClinicalTrials.gov API",
   "slug": "clinicaltrialsgov-api",
-  "category": "health-medical-data",
+  "category": "medical-data-apis",
   "description": "Clinical trial registry data.",
   "url": "https://clinicaltrials.gov/data-api/api",
   "docs_url": "https://clinicaltrials.gov/data-api/about-api",
@@ -20802,7 +20802,7 @@
  {
   "name": "NIH RePORTER API",
   "slug": "nih-reporter-api",
-  "category": "health-medical-data",
+  "category": "medical-data-apis",
   "description": "NIH-funded research projects.",
   "url": "https://api.reporter.nih.gov/",
   "docs_url": "https://api.reporter.nih.gov/documents/Data%20Elements%20for%20RePORTER%20Project%20API_V2.pdf",
@@ -20815,7 +20815,7 @@
  {
   "name": "disease.sh",
   "slug": "diseasesh",
-  "category": "health-medical-data",
+  "category": "public-health-data",
   "description": "Open disease statistics API.",
   "url": "https://disease.sh/",
   "docs_url": "https://disease.sh/docs/",
@@ -20828,7 +20828,7 @@
  {
   "name": "CDC Data APIs",
   "slug": "cdc-data-apis",
-  "category": "health-medical-data",
+  "category": "public-health-data",
   "description": "CDC open datasets.",
   "url": "https://data.cdc.gov/",
   "docs_url": "https://dev.socrata.com/foundry/data.cdc.gov",
@@ -20841,7 +20841,7 @@
  {
   "name": "WHO Global Health Observatory API",
   "slug": "who-global-health-observatory-api",
-  "category": "health-medical-data",
+  "category": "public-health-data",
   "description": "WHO health indicator data.",
   "url": "https://www.who.int/data/gho",
   "docs_url": "https://www.who.int/data/gho/info/gho-odata-api",
@@ -20854,7 +20854,7 @@
  {
   "name": "FHIR (HL7)",
   "slug": "fhir-hl7",
-  "category": "health-medical-data",
+  "category": "medical-data-apis",
   "description": "Healthcare data exchange standard.",
   "url": "https://hl7.org/fhir/",
   "docs_url": "https://hl7.org/fhir/documentation.html",
@@ -20867,7 +20867,7 @@
  {
   "name": "Open Food Facts",
   "slug": "open-food-facts",
-  "category": "health-medical-data",
+  "category": "nutrition-data",
   "description": "Open food product database.",
   "url": "https://world.openfoodfacts.org/",
   "docs_url": "https://openfoodfacts.github.io/openfoodfacts-server/api/",
@@ -20880,7 +20880,7 @@
  {
   "name": "USDA FoodData Central",
   "slug": "usda-fooddata-central",
-  "category": "food-nutrition",
+  "category": "nutrition-data",
   "description": "Nutrient data for foods.",
   "url": "https://fdc.nal.usda.gov/",
   "docs_url": "https://fdc.nal.usda.gov/api-guide.html",
@@ -20893,7 +20893,7 @@
  {
   "name": "Nutritionix",
   "slug": "nutritionix",
-  "category": "food-nutrition",
+  "category": "nutrition-data",
   "description": "Nutrition database API.",
   "url": "https://www.nutritionix.com/business/api",
   "docs_url": "https://docs.nutritionix.com/",
@@ -20906,7 +20906,7 @@
  {
   "name": "Spoonacular",
   "slug": "spoonacular",
-  "category": "food-nutrition",
+  "category": "recipes-cooking",
   "description": "Recipe and food API.",
   "url": "https://spoonacular.com/food-api",
   "docs_url": "https://spoonacular.com/food-api/docs",
@@ -20919,7 +20919,7 @@
  {
   "name": "TheMealDB",
   "slug": "themealdb",
-  "category": "food-nutrition",
+  "category": "recipes-cooking",
   "description": "Open recipe database.",
   "url": "https://www.themealdb.com/api.php",
   "docs_url": "https://www.themealdb.com/api.php",
@@ -20932,7 +20932,7 @@
  {
   "name": "Edamam",
   "slug": "edamam",
-  "category": "food-nutrition",
+  "category": "nutrition-data",
   "description": "Recipe and nutrition APIs.",
   "url": "https://developer.edamam.com/",
   "docs_url": "https://developer.edamam.com/edamam-docs-recipe-api",
@@ -20945,7 +20945,7 @@
  {
   "name": "Terra API",
   "slug": "terra-api",
-  "category": "health-medical-data",
+  "category": "wearable-health-data",
   "description": "Wearable and health data aggregation.",
   "url": "https://tryterra.co/",
   "docs_url": "https://docs.tryterra.co/",
@@ -20958,7 +20958,7 @@
  {
   "name": "Amadeus for Developers",
   "slug": "amadeus-for-developers",
-  "category": "travel-transport",
+  "category": "travel-booking",
   "description": "Flights, hotels and travel APIs.",
   "url": "https://developers.amadeus.com/",
   "docs_url": "https://developers.amadeus.com/self-service",
@@ -20971,7 +20971,7 @@
  {
   "name": "Duffel",
   "slug": "duffel",
-  "category": "travel-transport",
+  "category": "travel-booking",
   "description": "Flight booking API.",
   "url": "https://duffel.com/",
   "docs_url": "https://duffel.com/docs/api",
@@ -20984,7 +20984,7 @@
  {
   "name": "Skyscanner API",
   "slug": "skyscanner-api",
-  "category": "travel-transport",
+  "category": "travel-booking",
   "description": "Travel search API for partners.",
   "url": "https://developers.skyscanner.net/",
   "docs_url": "https://developers.skyscanner.net/docs/intro",
@@ -20997,7 +20997,7 @@
  {
   "name": "AviationStack",
   "slug": "aviationstack",
-  "category": "travel-transport",
+  "category": "flight-tracking",
   "description": "Real-time flight data API.",
   "url": "https://aviationstack.com/",
   "docs_url": "https://aviationstack.com/documentation",
@@ -21010,7 +21010,7 @@
  {
   "name": "OpenSky Network",
   "slug": "opensky-network",
-  "category": "travel-transport",
+  "category": "flight-tracking",
   "description": "Open live air-traffic data.",
   "url": "https://opensky-network.org/",
   "docs_url": "https://openskynetwork.github.io/opensky-api/",
@@ -21023,7 +21023,7 @@
  {
   "name": "AeroAPI (FlightAware)",
   "slug": "aeroapi-flightaware",
-  "category": "travel-transport",
+  "category": "flight-tracking",
   "description": "Flight tracking API.",
   "url": "https://www.flightaware.com/commercial/aeroapi/",
   "docs_url": "https://www.flightaware.com/aeroapi/portal/documentation",
@@ -21036,7 +21036,7 @@
  {
   "name": "Booking.com Demand API",
   "slug": "bookingcom-demand-api",
-  "category": "travel-transport",
+  "category": "travel-booking",
   "description": "Accommodation search for partners.",
   "url": "https://developers.booking.com/",
   "docs_url": "https://developers.booking.com/demand/docs/open-api/demand-api",
@@ -21049,7 +21049,7 @@
  {
   "name": "Google Places API",
   "slug": "google-places-api",
-  "category": "travel-transport",
+  "category": "maps-geo",
   "description": "Place details, search and reviews.",
   "url": "https://developers.google.com/maps/documentation/places/web-service",
   "docs_url": "https://developers.google.com/maps/documentation/places/web-service/overview",
@@ -21062,7 +21062,7 @@
  {
   "name": "Yelp Fusion API",
   "slug": "yelp-fusion-api",
-  "category": "travel-transport",
+  "category": "maps-geo",
   "description": "Business search and reviews.",
   "url": "https://docs.developer.yelp.com/",
   "docs_url": "https://docs.developer.yelp.com/docs/fusion-intro",
@@ -21075,7 +21075,7 @@
  {
   "name": "Transitland",
   "slug": "transitland",
-  "category": "travel-transport",
+  "category": "public-transit",
   "description": "Open public transit data API.",
   "url": "https://www.transit.land/",
   "docs_url": "https://www.transit.land/documentation/rest-api/",
@@ -21088,7 +21088,7 @@
  {
   "name": "GTFS",
   "slug": "gtfs",
-  "category": "travel-transport",
+  "category": "public-transit",
   "description": "Standard format for public transit schedules.",
   "url": "https://gtfs.org/",
   "docs_url": "https://gtfs.org/documentation/overview/",
@@ -21101,7 +21101,7 @@
  {
   "name": "OpenChargeMap",
   "slug": "openchargemap",
-  "category": "travel-transport",
+  "category": "vehicles-automotive",
   "description": "EV charging station data.",
   "url": "https://openchargemap.org/site/develop/api",
   "docs_url": "https://openchargemap.org/site/develop/api",
@@ -21114,7 +21114,7 @@
  {
   "name": "Rome2Rio",
   "slug": "rome2rio",
-  "category": "travel-transport",
+  "category": "public-transit",
   "description": "Multi-modal travel search.",
   "url": "https://www.rome2rio.com/documentation/search",
   "docs_url": "https://www.rome2rio.com/documentation/search",
@@ -21127,7 +21127,7 @@
  {
   "name": "Uber API",
   "slug": "uber-api",
-  "category": "travel-transport",
+  "category": "travel-booking",
   "description": "Rides and deliveries platform APIs.",
   "url": "https://developer.uber.com/",
   "docs_url": "https://developer.uber.com/docs",
@@ -21140,7 +21140,7 @@
  {
   "name": "Adzuna API",
   "slug": "adzuna-api",
-  "category": "jobs-hiring",
+  "category": "job-search-apis",
   "description": "Job search data API.",
   "url": "https://developer.adzuna.com/",
   "docs_url": "https://developer.adzuna.com/overview",
@@ -21153,7 +21153,7 @@
  {
   "name": "Greenhouse Harvest API",
   "slug": "greenhouse-harvest-api",
-  "category": "jobs-hiring",
+  "category": "applicant-tracking",
   "description": "Applicant tracking API.",
   "url": "https://developers.greenhouse.io/",
   "docs_url": "https://developers.greenhouse.io/harvest.html",
@@ -21166,7 +21166,7 @@
  {
   "name": "Lever API",
   "slug": "lever-api",
-  "category": "jobs-hiring",
+  "category": "applicant-tracking",
   "description": "Applicant tracking API.",
   "url": "https://hire.lever.co/developer/documentation",
   "docs_url": "https://hire.lever.co/developer/documentation",
@@ -21179,7 +21179,7 @@
  {
   "name": "Ashby API",
   "slug": "ashby-api",
-  "category": "jobs-hiring",
+  "category": "applicant-tracking",
   "description": "Recruiting platform API.",
   "url": "https://developers.ashbyhq.com/",
   "docs_url": "https://developers.ashbyhq.com/docs",
@@ -21192,7 +21192,7 @@
  {
   "name": "Remotive API",
   "slug": "remotive-api",
-  "category": "jobs-hiring",
+  "category": "job-search-apis",
   "description": "Remote jobs listing API.",
   "url": "https://remotive.com/api-documentation",
   "docs_url": "https://remotive.com/api-documentation",
@@ -21205,7 +21205,7 @@
  {
   "name": "RemoteOK API",
   "slug": "remoteok-api",
-  "category": "jobs-hiring",
+  "category": "job-search-apis",
   "description": "Remote jobs JSON feed.",
   "url": "https://remoteok.com/api",
   "docs_url": "https://remoteok.com/api",
@@ -21218,7 +21218,7 @@
  {
   "name": "Arbeitnow API",
   "slug": "arbeitnow-api",
-  "category": "jobs-hiring",
+  "category": "job-search-apis",
   "description": "Job board API.",
   "url": "https://www.arbeitnow.com/api",
   "docs_url": "https://documenter.getpostman.com/view/18545278/UVJbJdKh",
@@ -21231,7 +21231,7 @@
  {
   "name": "USAJOBS API",
   "slug": "usajobs-api",
-  "category": "jobs-hiring",
+  "category": "job-search-apis",
   "description": "US federal job listings.",
   "url": "https://developer.usajobs.gov/",
   "docs_url": "https://developer.usajobs.gov/api-reference/get-api-search",
@@ -21244,7 +21244,7 @@
  {
   "name": "Workable API",
   "slug": "workable-api",
-  "category": "jobs-hiring",
+  "category": "applicant-tracking",
   "description": "Hiring platform API.",
   "url": "https://workable.readme.io/",
   "docs_url": "https://workable.readme.io/reference/generate-an-access-token",
@@ -21257,7 +21257,7 @@
  {
   "name": "Recruitee API",
   "slug": "recruitee-api",
-  "category": "jobs-hiring",
+  "category": "applicant-tracking",
   "description": "Hiring platform API.",
   "url": "https://docs.recruitee.com/",
   "docs_url": "https://docs.recruitee.com/reference/intro-to-the-api",
@@ -21270,7 +21270,7 @@
  {
   "name": "BambooHR API",
   "slug": "bamboohr-api",
-  "category": "jobs-hiring",
+  "category": "hr-payroll",
   "description": "HR platform API.",
   "url": "https://documentation.bamboohr.com/",
   "docs_url": "https://documentation.bamboohr.com/docs",
@@ -21283,7 +21283,7 @@
  {
   "name": "Gusto API",
   "slug": "gusto-api",
-  "category": "jobs-hiring",
+  "category": "hr-payroll",
   "description": "Payroll and benefits API.",
   "url": "https://docs.gusto.com/",
   "docs_url": "https://docs.gusto.com/embedded-payroll/docs/introduction",
@@ -21296,7 +21296,7 @@
  {
   "name": "Deel API",
   "slug": "deel-api",
-  "category": "jobs-hiring",
+  "category": "hr-payroll",
   "description": "Global hiring and payroll API.",
   "url": "https://developer.deel.com/",
   "docs_url": "https://developer.deel.com/docs",
@@ -21322,7 +21322,7 @@
  {
   "name": "Rippling API",
   "slug": "rippling-api",
-  "category": "jobs-hiring",
+  "category": "hr-payroll",
   "description": "HR and IT platform API.",
   "url": "https://developer.rippling.com/",
   "docs_url": "https://developer.rippling.com/documentation",
@@ -23363,7 +23363,7 @@
  {
   "name": "Typeform API",
   "slug": "typeform-api",
-  "category": "forms-surveys",
+  "category": "form-builders",
   "description": "Forms and surveys API.",
   "url": "https://www.typeform.com/developers/",
   "docs_url": "https://www.typeform.com/developers/create/",
@@ -23376,7 +23376,7 @@
  {
   "name": "Tally",
   "slug": "tally",
-  "category": "forms-surveys",
+  "category": "form-builders",
   "description": "Free form builder with API.",
   "url": "https://tally.so/",
   "docs_url": "https://developers.tally.so/",
@@ -23389,7 +23389,7 @@
  {
   "name": "Formspree",
   "slug": "formspree",
-  "category": "forms-surveys",
+  "category": "form-backends",
   "description": "Form backend.",
   "url": "https://formspree.io/",
   "docs_url": "https://help.formspree.io/",
@@ -23402,7 +23402,7 @@
  {
   "name": "Basin",
   "slug": "basin",
-  "category": "forms-surveys",
+  "category": "form-backends",
   "description": "Form endpoint service.",
   "url": "https://usebasin.com/",
   "docs_url": "https://usebasin.com/docs",
@@ -23415,7 +23415,7 @@
  {
   "name": "Web3Forms",
   "slug": "web3forms",
-  "category": "forms-surveys",
+  "category": "form-backends",
   "description": "Free form API.",
   "url": "https://web3forms.com/",
   "docs_url": "https://docs.web3forms.com/",
@@ -23428,7 +23428,7 @@
  {
   "name": "Google Forms API",
   "slug": "google-forms-api",
-  "category": "forms-surveys",
+  "category": "form-builders",
   "description": "Create and read Google Forms.",
   "url": "https://developers.google.com/forms",
   "docs_url": "https://developers.google.com/forms/api/guides",
@@ -23441,7 +23441,7 @@
  {
   "name": "SurveyMonkey API",
   "slug": "surveymonkey-api",
-  "category": "forms-surveys",
+  "category": "survey-tools",
   "description": "Survey API.",
   "url": "https://developer.surveymonkey.com/",
   "docs_url": "https://developer.surveymonkey.com/api/v3/",
@@ -23454,7 +23454,7 @@
  {
   "name": "Jotform API",
   "slug": "jotform-api",
-  "category": "forms-surveys",
+  "category": "form-builders",
   "description": "Forms API.",
   "url": "https://api.jotform.com/docs/",
   "docs_url": "https://api.jotform.com/docs/",
@@ -23467,7 +23467,7 @@
  {
   "name": "Fillout",
   "slug": "fillout",
-  "category": "forms-surveys",
+  "category": "form-builders",
   "description": "Forms with REST API.",
   "url": "https://www.fillout.com/",
   "docs_url": "https://www.fillout.com/help/fillout-rest-api",
@@ -23480,7 +23480,7 @@
  {
   "name": "Formbricks",
   "slug": "formbricks",
-  "category": "forms-surveys",
+  "category": "survey-tools",
   "description": "Open-source survey platform.",
   "url": "https://formbricks.com/",
   "docs_url": "https://formbricks.com/docs",
@@ -23493,7 +23493,7 @@
  {
   "name": "LimeSurvey",
   "slug": "limesurvey",
-  "category": "forms-surveys",
+  "category": "survey-tools",
   "description": "Open-source survey tool.",
   "url": "https://www.limesurvey.org/",
   "docs_url": "https://manual.limesurvey.org/RemoteControl_2_API",
@@ -23506,7 +23506,7 @@
  {
   "name": "Getform",
   "slug": "getform",
-  "category": "forms-surveys",
+  "category": "form-backends",
   "description": "Form backend.",
   "url": "https://getform.io/",
   "docs_url": "https://docs.getform.io/",
@@ -26080,7 +26080,7 @@
  {
   "name": "Apple Music API",
   "slug": "apple-music-api",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Catalog and library API for Apple Music.",
   "url": "https://developer.apple.com/musickit/",
   "docs_url": "https://developer.apple.com/documentation/applemusicapi",
@@ -26093,7 +26093,7 @@
  {
   "name": "iTunes Search API",
   "slug": "itunes-search-api",
-  "category": "podcasts-music",
+  "category": "podcasts",
   "description": "Search the iTunes Store and Apple Podcasts.",
   "url": "https://performance-partners.apple.com/search-api",
   "docs_url": "https://performance-partners.apple.com/search-api",
@@ -26106,7 +26106,7 @@
  {
   "name": "Deezer API",
   "slug": "deezer-api",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Music catalog and user data.",
   "url": "https://developers.deezer.com/",
   "docs_url": "https://developers.deezer.com/api",
@@ -26119,7 +26119,7 @@
  {
   "name": "Last.fm API",
   "slug": "lastfm-api",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Scrobbling, music metadata and recommendations.",
   "url": "https://www.last.fm/api",
   "docs_url": "https://www.last.fm/api/intro",
@@ -26132,7 +26132,7 @@
  {
   "name": "Genius API",
   "slug": "genius-api",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Song lyrics annotations and metadata.",
   "url": "https://genius.com/developers",
   "docs_url": "https://docs.genius.com/",
@@ -26145,7 +26145,7 @@
  {
   "name": "SoundCloud API",
   "slug": "soundcloud-api",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Track, user and playlist API.",
   "url": "https://developers.soundcloud.com/",
   "docs_url": "https://developers.soundcloud.com/docs/api/guide",
@@ -26158,7 +26158,7 @@
  {
   "name": "Jamendo API",
   "slug": "jamendo-api",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Free music from independent artists.",
   "url": "https://developer.jamendo.com/",
   "docs_url": "https://developer.jamendo.com/v3.0",
@@ -26171,7 +26171,7 @@
  {
   "name": "Audius API",
   "slug": "audius-api",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Decentralized music streaming API.",
   "url": "https://audius.org/",
   "docs_url": "https://docs.audius.org/api",
@@ -26184,7 +26184,7 @@
  {
   "name": "TheAudioDB",
   "slug": "theaudiodb",
-  "category": "podcasts-music",
+  "category": "music-apis",
   "description": "Artist and album metadata database.",
   "url": "https://www.theaudiodb.com/",
   "docs_url": "https://www.theaudiodb.com/free_music_api",
@@ -26197,7 +26197,7 @@
  {
   "name": "Buzzsprout API",
   "slug": "buzzsprout-api",
-  "category": "podcasts-music",
+  "category": "podcasts",
   "description": "Podcast hosting API.",
   "url": "https://www.buzzsprout.com/",
   "docs_url": "https://github.com/buzzsprout/buzzsprout-api",
@@ -26210,7 +26210,7 @@
  {
   "name": "Openverse API",
   "slug": "openverse-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Search openly licensed images and audio.",
   "url": "https://openverse.org/",
   "docs_url": "https://api.openverse.org/v1/",
@@ -26223,7 +26223,7 @@
  {
   "name": "Wikimedia Commons API",
   "slug": "wikimedia-commons-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Freely usable media files via MediaWiki API.",
   "url": "https://commons.wikimedia.org/",
   "docs_url": "https://www.mediawiki.org/wiki/API:Main_page",
@@ -26236,7 +26236,7 @@
  {
   "name": "Shutterstock API",
   "slug": "shutterstock-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Search and license stock media.",
   "url": "https://www.shutterstock.com/developers",
   "docs_url": "https://api-reference.shutterstock.com/",
@@ -26249,7 +26249,7 @@
  {
   "name": "Getty Images API",
   "slug": "getty-images-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Search and license Getty content.",
   "url": "https://developers.gettyimages.com/",
   "docs_url": "https://developers.gettyimages.com/api/",
@@ -26262,7 +26262,7 @@
  {
   "name": "Adobe Stock API",
   "slug": "adobe-stock-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Search Adobe Stock assets.",
   "url": "https://developer.adobe.com/stock/",
   "docs_url": "https://developer.adobe.com/stock/docs/",
@@ -26275,7 +26275,7 @@
  {
   "name": "Freesound API",
   "slug": "freesound-api",
-  "category": "stock-photo-media",
+  "category": "sound-effects-audio",
   "description": "Creative Commons sound effects database.",
   "url": "https://freesound.org/apiv2/apply",
   "docs_url": "https://freesound.org/docs/api/",
@@ -26288,7 +26288,7 @@
  {
   "name": "Giphy API",
   "slug": "giphy-api",
-  "category": "stock-photo-media",
+  "category": "gifs-stickers",
   "description": "GIFs and stickers search.",
   "url": "https://developers.giphy.com/",
   "docs_url": "https://developers.giphy.com/docs/api",
@@ -26301,7 +26301,7 @@
  {
   "name": "Tenor API",
   "slug": "tenor-api",
-  "category": "stock-photo-media",
+  "category": "gifs-stickers",
   "description": "GIF search from Google.",
   "url": "https://developers.google.com/tenor",
   "docs_url": "https://developers.google.com/tenor/guides/quickstart",
@@ -26314,7 +26314,7 @@
  {
   "name": "Flickr API",
   "slug": "flickr-api",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Photo search and metadata.",
   "url": "https://www.flickr.com/services/api/",
   "docs_url": "https://www.flickr.com/services/api/",
@@ -26327,7 +26327,7 @@
  {
   "name": "NASA Image and Video Library",
   "slug": "nasa-image-and-video-library",
-  "category": "stock-photo-media",
+  "category": "space-astronomy",
   "description": "Public domain NASA media API.",
   "url": "https://images.nasa.gov/",
   "docs_url": "https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf",
@@ -26340,7 +26340,7 @@
  {
   "name": "Europeana API",
   "slug": "europeana-api",
-  "category": "stock-photo-media",
+  "category": "cultural-heritage",
   "description": "European cultural heritage images.",
   "url": "https://www.europeana.eu/",
   "docs_url": "https://pro.europeana.eu/page/apis",
@@ -26353,7 +26353,7 @@
  {
   "name": "Lorem Picsum",
   "slug": "lorem-picsum",
-  "category": "stock-photo-media",
+  "category": "stock-photos",
   "description": "Placeholder photo service.",
   "url": "https://picsum.photos/",
   "docs_url": "https://picsum.photos/",
@@ -26548,7 +26548,7 @@
  {
   "name": "Twitch API",
   "slug": "twitch-api",
-  "category": "video-hosting",
+  "category": "live-streaming",
   "description": "Streams, clips and chat.",
   "url": "https://dev.twitch.tv/",
   "docs_url": "https://dev.twitch.tv/docs/api/",
@@ -26561,7 +26561,7 @@
  {
   "name": "Jellyfin API",
   "slug": "jellyfin-api",
-  "category": "video-hosting",
+  "category": "media-servers",
   "description": "Self-hosted media server API.",
   "url": "https://jellyfin.org/",
   "docs_url": "https://api.jellyfin.org/",
@@ -30214,7 +30214,7 @@
  {
   "name": "Project Gutenberg (Gutendex)",
   "slug": "project-gutenberg-gutendex",
-  "category": "books-library",
+  "category": "books-apis",
   "description": "JSON API for Gutenberg books.",
   "url": "https://gutendex.com/",
   "docs_url": "https://gutendex.com/",
@@ -30227,7 +30227,7 @@
  {
   "name": "Library of Congress API",
   "slug": "library-of-congress-api",
-  "category": "books-library",
+  "category": "library-catalogs",
   "description": "Digital collections.",
   "url": "https://www.loc.gov/apis/",
   "docs_url": "https://www.loc.gov/apis/json-and-yaml/",
@@ -30240,7 +30240,7 @@
  {
   "name": "Hardcover API",
   "slug": "hardcover-api",
-  "category": "books-library",
+  "category": "books-apis",
   "description": "GraphQL book tracking API.",
   "url": "https://hardcover.app/",
   "docs_url": "https://docs.hardcover.app/api/getting-started/",
@@ -30253,7 +30253,7 @@
  {
   "name": "ISBNdb",
   "slug": "isbndb",
-  "category": "books-library",
+  "category": "books-apis",
   "description": "ISBN metadata.",
   "url": "https://isbndb.com/",
   "docs_url": "https://isbndb.com/isbn-database",
@@ -30266,7 +30266,7 @@
  {
   "name": "HathiTrust Bibliographic API",
   "slug": "hathitrust-bibliographic-api",
-  "category": "books-library",
+  "category": "library-catalogs",
   "description": "Digital library metadata.",
   "url": "https://www.hathitrust.org/",
   "docs_url": "https://www.hathitrust.org/the-collection/ar/api",
@@ -30279,7 +30279,7 @@
  {
   "name": "DPLA API",
   "slug": "dpla-api",
-  "category": "books-library",
+  "category": "library-catalogs",
   "description": "Digital Public Library of America.",
   "url": "https://dp.la/",
   "docs_url": "https://pro.dp.la/developers/api-codex",
@@ -30292,7 +30292,7 @@
  {
   "name": "Standard Ebooks",
   "slug": "standard-ebooks",
-  "category": "books-library",
+  "category": "books-apis",
   "description": "Quality public domain ebooks.",
   "url": "https://standardebooks.org/",
   "docs_url": "https://standardebooks.org/tools",
@@ -30305,7 +30305,7 @@
  {
   "name": "Internet Archive Books",
   "slug": "internet-archive-books",
-  "category": "books-library",
+  "category": "books-apis",
   "description": "Free books archive.",
   "url": "https://archive.org/details/texts",
   "docs_url": "https://archive.org/developers/",
@@ -30318,7 +30318,7 @@
  {
   "name": "TheCocktailDB",
   "slug": "thecocktaildb",
-  "category": "food-nutrition",
+  "category": "drinks-beverages",
   "description": "Cocktail recipes.",
   "url": "https://www.thecocktaildb.com/",
   "docs_url": "https://www.thecocktaildb.com/api.php",
@@ -30331,7 +30331,7 @@
  {
   "name": "API Ninjas Nutrition",
   "slug": "api-ninjas-nutrition",
-  "category": "food-nutrition",
+  "category": "nutrition-data",
   "description": "Nutrition lookup.",
   "url": "https://api-ninjas.com/api/nutrition",
   "docs_url": "https://api-ninjas.com/api/nutrition",
@@ -30344,7 +30344,7 @@
  {
   "name": "Brewery DB (Open Brewery DB)",
   "slug": "brewery-db-open-brewery-db",
-  "category": "food-nutrition",
+  "category": "drinks-beverages",
   "description": "Breweries data.",
   "url": "https://www.openbrewerydb.org/",
   "docs_url": "https://www.openbrewerydb.org/documentation",
@@ -30968,7 +30968,7 @@
  {
   "name": "Metropolitan Museum Collection API",
   "slug": "metropolitan-museum-collection-api",
-  "category": "art-museums",
+  "category": "museum-collections",
   "description": "Met Museum open access.",
   "url": "https://metmuseum.github.io/",
   "docs_url": "https://metmuseum.github.io/",
@@ -30981,7 +30981,7 @@
  {
   "name": "Art Institute of Chicago API",
   "slug": "art-institute-of-chicago-api",
-  "category": "art-museums",
+  "category": "museum-collections",
   "description": "Artworks API.",
   "url": "https://api.artic.edu/docs/",
   "docs_url": "https://api.artic.edu/docs/",
@@ -30994,7 +30994,7 @@
  {
   "name": "Rijksmuseum API",
   "slug": "rijksmuseum-api",
-  "category": "art-museums",
+  "category": "museum-collections",
   "description": "Dutch museum collection.",
   "url": "https://data.rijksmuseum.nl/",
   "docs_url": "https://data.rijksmuseum.nl/",
@@ -31007,7 +31007,7 @@
  {
   "name": "Harvard Art Museums API",
   "slug": "harvard-art-museums-api",
-  "category": "art-museums",
+  "category": "museum-collections",
   "description": "Collection API.",
   "url": "https://harvardartmuseums.org/collections/api",
   "docs_url": "https://github.com/harvardartmuseums/api-docs",
@@ -31020,7 +31020,7 @@
  {
   "name": "Cleveland Museum of Art API",
   "slug": "cleveland-museum-of-art-api",
-  "category": "art-museums",
+  "category": "museum-collections",
   "description": "Open access collection.",
   "url": "https://openaccess-api.clevelandart.org/",
   "docs_url": "https://openaccess-api.clevelandart.org/",
@@ -31033,7 +31033,7 @@
  {
   "name": "Smithsonian Open Access API",
   "slug": "smithsonian-open-access-api",
-  "category": "art-museums",
+  "category": "cultural-heritage",
   "description": "Smithsonian collections.",
   "url": "https://www.si.edu/openaccess",
   "docs_url": "https://edan.si.edu/openaccess/apidocs/",
@@ -31046,7 +31046,7 @@
  {
   "name": "Europeana Collections",
   "slug": "europeana-collections",
-  "category": "art-museums",
+  "category": "cultural-heritage",
   "description": "European cultural heritage.",
   "url": "https://www.europeana.eu/en",
   "docs_url": "https://apis.europeana.eu/",
@@ -31059,7 +31059,7 @@
  {
   "name": "Victoria and Albert Museum API",
   "slug": "victoria-and-albert-museum-api",
-  "category": "art-museums",
+  "category": "museum-collections",
   "description": "V&A collections.",
   "url": "https://developers.vam.ac.uk/",
   "docs_url": "https://developers.vam.ac.uk/guide/v2/welcome.html",
@@ -31072,7 +31072,7 @@
  {
   "name": "Cooper Hewitt API",
   "slug": "cooper-hewitt-api",
-  "category": "art-museums",
+  "category": "museum-collections",
   "description": "Design museum data.",
   "url": "https://collection.cooperhewitt.org/api/",
   "docs_url": "https://collection.cooperhewitt.org/api/",
@@ -31085,7 +31085,7 @@
  {
   "name": "Getty Vocabularies",
   "slug": "getty-vocabularies",
-  "category": "art-museums",
+  "category": "cultural-heritage",
   "description": "Linked open art vocabularies.",
   "url": "https://www.getty.edu/research/tools/vocabularies/",
   "docs_url": "https://www.getty.edu/research/tools/vocabularies/lod/",
@@ -31748,7 +31748,7 @@
  {
   "name": "RabbitMQ",
   "slug": "rabbitmq",
-  "category": "message-queues-streaming",
+  "category": "message-queues",
   "description": "Message broker.",
   "url": "https://www.rabbitmq.com/",
   "docs_url": "https://www.rabbitmq.com/docs",
@@ -31761,7 +31761,7 @@
  {
   "name": "NATS",
   "slug": "nats",
-  "category": "message-queues-streaming",
+  "category": "message-queues",
   "description": "Cloud-native messaging.",
   "url": "https://nats.io/",
   "docs_url": "https://docs.nats.io/",
@@ -31774,7 +31774,7 @@
  {
   "name": "Amazon SQS",
   "slug": "amazon-sqs",
-  "category": "message-queues-streaming",
+  "category": "message-queues",
   "description": "Managed message queues.",
   "url": "https://aws.amazon.com/sqs/",
   "docs_url": "https://docs.aws.amazon.com/sqs/",
@@ -31787,7 +31787,7 @@
  {
   "name": "Google Pub/Sub",
   "slug": "google-pub-sub",
-  "category": "message-queues-streaming",
+  "category": "message-queues",
   "description": "Managed messaging.",
   "url": "https://cloud.google.com/pubsub",
   "docs_url": "https://cloud.google.com/pubsub/docs",
@@ -31800,7 +31800,7 @@
  {
   "name": "Upstash QStash",
   "slug": "upstash-qstash",
-  "category": "message-queues-streaming",
+  "category": "message-queues",
   "description": "HTTP-based serverless messaging.",
   "url": "https://upstash.com/qstash",
   "docs_url": "https://upstash.com/docs/qstash",
@@ -31813,7 +31813,7 @@
  {
   "name": "Apache Pulsar",
   "slug": "apache-pulsar",
-  "category": "message-queues-streaming",
+  "category": "event-streaming",
   "description": "Distributed messaging and streaming.",
   "url": "https://pulsar.apache.org/",
   "docs_url": "https://pulsar.apache.org/docs/",
@@ -31826,7 +31826,7 @@
  {
   "name": "Cloudflare Queues",
   "slug": "cloudflare-queues",
-  "category": "message-queues-streaming",
+  "category": "message-queues",
   "description": "Queues for Workers.",
   "url": "https://developers.cloudflare.com/queues/",
   "docs_url": "https://developers.cloudflare.com/queues/",
@@ -31839,7 +31839,7 @@
  {
   "name": "Redis Streams",
   "slug": "redis-streams",
-  "category": "message-queues-streaming",
+  "category": "event-streaming",
   "description": "Append-only log data type.",
   "url": "https://redis.io/docs/latest/develop/data-types/streams/",
   "docs_url": "https://redis.io/docs/latest/develop/data-types/streams/",
@@ -31852,7 +31852,7 @@
  {
   "name": "Azure Service Bus",
   "slug": "azure-service-bus",
-  "category": "message-queues-streaming",
+  "category": "message-queues",
   "description": "Enterprise messaging.",
   "url": "https://azure.microsoft.com/products/service-bus",
   "docs_url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/",
@@ -32333,7 +32333,7 @@
  {
   "name": "Etherscan API",
   "slug": "etherscan-api",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Ethereum explorer API.",
   "url": "https://etherscan.io/apis",
   "docs_url": "https://docs.etherscan.io/",
@@ -32346,7 +32346,7 @@
  {
   "name": "Alchemy",
   "slug": "alchemy",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Blockchain node and data APIs.",
   "url": "https://www.alchemy.com/",
   "docs_url": "https://www.alchemy.com/docs",
@@ -32359,7 +32359,7 @@
  {
   "name": "Infura",
   "slug": "infura",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Ethereum RPC API.",
   "url": "https://www.infura.io/",
   "docs_url": "https://docs.metamask.io/services/",
@@ -32372,7 +32372,7 @@
  {
   "name": "The Graph",
   "slug": "the-graph",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Indexing protocol for blockchain data.",
   "url": "https://thegraph.com/",
   "docs_url": "https://thegraph.com/docs/",
@@ -32385,7 +32385,7 @@
  {
   "name": "Moralis",
   "slug": "moralis",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Web3 data APIs.",
   "url": "https://moralis.io/",
   "docs_url": "https://docs.moralis.io/",
@@ -32398,7 +32398,7 @@
  {
   "name": "Dune API",
   "slug": "dune-api",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Onchain analytics queries.",
   "url": "https://dune.com/",
   "docs_url": "https://docs.dune.com/api-reference/overview/introduction",
@@ -32411,7 +32411,7 @@
  {
   "name": "Helius",
   "slug": "helius",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Solana APIs.",
   "url": "https://www.helius.dev/",
   "docs_url": "https://www.helius.dev/docs",
@@ -32424,7 +32424,7 @@
  {
   "name": "DefiLlama API",
   "slug": "defillama-api",
-  "category": "crypto-web3",
+  "category": "crypto-market-data",
   "description": "DeFi TVL and prices.",
   "url": "https://defillama.com/docs/api",
   "docs_url": "https://defillama.com/docs/api",
@@ -32437,7 +32437,7 @@
  {
   "name": "Coinbase Exchange API",
   "slug": "coinbase-exchange-api",
-  "category": "crypto-web3",
+  "category": "crypto-market-data",
   "description": "Exchange API.",
   "url": "https://docs.cdp.coinbase.com/exchange/introduction/welcome",
   "docs_url": "https://docs.cdp.coinbase.com/exchange/introduction/welcome",
@@ -32450,7 +32450,7 @@
  {
   "name": "Blockchair API",
   "slug": "blockchair-api",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Multi-chain explorer API.",
   "url": "https://blockchair.com/api",
   "docs_url": "https://blockchair.com/api/docs",
@@ -32463,7 +32463,7 @@
  {
   "name": "ethers.js",
   "slug": "ethersjs",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "Ethereum JS library.",
   "url": "https://docs.ethers.org/",
   "docs_url": "https://docs.ethers.org/v6/",
@@ -32476,7 +32476,7 @@
  {
   "name": "viem",
   "slug": "viem",
-  "category": "crypto-web3",
+  "category": "blockchain-infrastructure",
   "description": "TypeScript Ethereum interface.",
   "url": "https://viem.sh/",
   "docs_url": "https://viem.sh/docs/getting-started",
@@ -32632,7 +32632,7 @@
  {
   "name": "OpenShot",
   "slug": "openshot",
-  "category": "video-editing-tools",
+  "category": "video-editing",
   "description": "Open-source video editor.",
   "url": "https://www.openshot.org/",
   "docs_url": "https://www.openshot.org/api/",
@@ -32645,7 +32645,7 @@
  {
   "name": "Kdenlive",
   "slug": "kdenlive",
-  "category": "video-editing-tools",
+  "category": "video-editing",
   "description": "Open-source video editor.",
   "url": "https://kdenlive.org/",
   "docs_url": "https://docs.kdenlive.org/",
@@ -32658,7 +32658,7 @@
  {
   "name": "Cloudinary Video API",
   "slug": "cloudinary-video-api",
-  "category": "video-editing-tools",
+  "category": "programmatic-video",
   "description": "Video transformations.",
   "url": "https://cloudinary.com/documentation/video_manipulation_and_delivery",
   "docs_url": "https://cloudinary.com/documentation/video_manipulation_and_delivery",
@@ -32671,7 +32671,7 @@
  {
   "name": "Plainly",
   "slug": "plainly",
-  "category": "video-editing-tools",
+  "category": "programmatic-video",
   "description": "Automated After Effects video.",
   "url": "https://www.plainlyvideos.com/",
   "docs_url": "https://www.plainlyvideos.com/docs",
@@ -33451,7 +33451,7 @@
  {
   "name": "Netlify Forms",
   "slug": "netlify-forms",
-  "category": "forms-surveys",
+  "category": "form-backends",
   "description": "Built-in form handling.",
   "url": "https://docs.netlify.com/forms/setup/",
   "docs_url": "https://docs.netlify.com/forms/setup/",
@@ -33802,7 +33802,7 @@
  {
   "name": "Greenhouse Job Board API",
   "slug": "greenhouse-job-board-api",
-  "category": "jobs-hiring",
+  "category": "applicant-tracking",
   "description": "Public job postings.",
   "url": "https://developers.greenhouse.io/job-board.html",
   "docs_url": "https://developers.greenhouse.io/job-board.html",
@@ -33815,7 +33815,7 @@
  {
   "name": "Lever Postings API",
   "slug": "lever-postings-api",
-  "category": "jobs-hiring",
+  "category": "applicant-tracking",
   "description": "Public Lever job postings.",
   "url": "https://github.com/lever/postings-api",
   "docs_url": "https://github.com/lever/postings-api",
@@ -33828,7 +33828,7 @@
  {
   "name": "The Muse API",
   "slug": "the-muse-api",
-  "category": "jobs-hiring",
+  "category": "job-search-apis",
   "description": "Jobs and companies.",
   "url": "https://www.themuse.com/developers/api/v2",
   "docs_url": "https://www.themuse.com/developers/api/v2",
@@ -33841,7 +33841,7 @@
  {
   "name": "Indeed Publisher",
   "slug": "indeed-publisher",
-  "category": "jobs-hiring",
+  "category": "job-search-apis",
   "description": "Indeed APIs.",
   "url": "https://opensource.indeedeng.io/api-documentation/",
   "docs_url": "https://opensource.indeedeng.io/api-documentation/",
@@ -33854,7 +33854,7 @@
  {
   "name": "Jooble API",
   "slug": "jooble-api",
-  "category": "jobs-hiring",
+  "category": "job-search-apis",
   "description": "Job search aggregator.",
   "url": "https://jooble.org/api/about",
   "docs_url": "https://jooble.org/api/about",
@@ -33919,7 +33919,7 @@
  {
   "name": "Navitia",
   "slug": "navitia",
-  "category": "travel-transport",
+  "category": "public-transit",
   "description": "Public transport API.",
   "url": "https://www.navitia.io/",
   "docs_url": "https://doc.navitia.io/",
@@ -33932,7 +33932,7 @@
  {
   "name": "TripAdvisor Content API",
   "slug": "tripadvisor-content-api",
-  "category": "travel-transport",
+  "category": "travel-booking",
   "description": "Travel content.",
   "url": "https://www.tripadvisor.com/developers",
   "docs_url": "https://tripadvisor-content-api.readme.io/",
@@ -33945,7 +33945,7 @@
  {
   "name": "Hotelbeds",
   "slug": "hotelbeds",
-  "category": "travel-transport",
+  "category": "travel-booking",
   "description": "Hotel booking API.",
   "url": "https://developer.hotelbeds.com/",
   "docs_url": "https://developer.hotelbeds.com/documentation",

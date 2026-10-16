@@ -1,2 +1,2 @@
-import { CATS, byCat } from '../../../lib/data';
-export const GET = () => new Response(JSON.stringify({categories:CATS.map(c=>({...c,count:byCat(c.slug).length}))},null,1),{headers:{'content-type':'application/json; charset=utf-8','access-control-allow-origin':'*'}});
+import { CATS, GROUPS, byCat, groupOf } from '../../../lib/data';
+export const GET = () => new Response(JSON.stringify({groups:GROUPS.map(g=>({slug:g.slug,name:g.name,blurb:g.blurb,categories:g.cats.map(c=>c.slug)})),categories:CATS.map(c=>({...c,group:groupOf(c.slug)?.slug,count:byCat(c.slug).length}))},null,1),{headers:{'content-type':'application/json; charset=utf-8','access-control-allow-origin':'*'}});
