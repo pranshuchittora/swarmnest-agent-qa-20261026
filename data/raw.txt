@@ -1355,9 +1355,9 @@ datasets|LAION|https://laion.ai/|https://laion.ai/projects/|none|free|Open large
 datasets|ImageNet|https://www.image-net.org/|https://www.image-net.org/download.php|none|free|Landmark image classification dataset.
 datasets|COCO|https://cocodataset.org/|https://cocodataset.org/#download|none|free|Common Objects in Context image dataset.
 datasets|Open Images|https://storage.googleapis.com/openimages/web/index.html|https://storage.googleapis.com/openimages/web/download.html|none|free|Google's large annotated image dataset.
-datasets|Common Voice|https://commonvoice.mozilla.org/|https://commonvoice.mozilla.org/en/datasets|none|free|Mozilla's crowdsourced speech dataset.
-datasets|LibriSpeech|https://www.openslr.org/12|https://www.openslr.org/12|none|free|Speech corpus of read English audiobooks.
-datasets|OpenSLR|https://www.openslr.org/|https://www.openslr.org/resources.php|none|free|Open speech and language resources.
+speech-datasets|Common Voice|https://commonvoice.mozilla.org/|https://commonvoice.mozilla.org/en/datasets|none|free|Mozilla's crowdsourced speech dataset.
+speech-datasets|LibriSpeech|https://www.openslr.org/12|https://www.openslr.org/12|none|free|Speech corpus of read English audiobooks.
+speech-datasets|OpenSLR|https://www.openslr.org/|https://www.openslr.org/resources.php|none|free|Open speech and language resources.
 datasets|Google Dataset Search|https://datasetsearch.research.google.com/|https://datasetsearch.research.google.com/|none|free|Search engine for datasets.
 datasets|UN Data|https://data.un.org/|https://data.un.org/Host.aspx?Content=API|none|free|United Nations statistical data.
 datasets|Our World in Data|https://ourworldindata.org/|https://docs.owid.io/projects/etl/api/|none|free|Research and data on global problems.
@@ -1780,7 +1780,7 @@ feature-flags-config|PostHog Feature Flags|https://posthog.com/feature-flags|htt
 cms-content|Contentful|https://www.contentful.com/|https://www.contentful.com/developers/docs/|key|freemium|Headless CMS.
 cms-content|Sanity|https://www.sanity.io/|https://www.sanity.io/docs|key|freemium|Headless CMS with real-time content.
 cms-content|Strapi|https://strapi.io/|https://docs.strapi.io/|key|freemium|Open-source headless CMS.
-cms-content|Directus|https://directus.io/|https://docs.directus.io/|key|freemium|Open-source data platform and CMS.
+backend-as-a-service|Directus|https://directus.io/|https://docs.directus.io/|key|freemium|Open-source data platform and CMS.
 cms-content|Payload CMS|https://payloadcms.com/|https://payloadcms.com/docs|none|free|Open-source TypeScript CMS.
 cms-content|WordPress REST API|https://developer.wordpress.org/rest-api/|https://developer.wordpress.org/rest-api/reference/|key|free|REST API for WordPress sites.
 cms-content|Ghost Content API|https://ghost.org/docs/content-api/|https://ghost.org/docs/content-api/|key|free|Read-only content API for Ghost.
@@ -1867,9 +1867,9 @@ data-etl|Airbyte|https://airbyte.com/|https://docs.airbyte.com/|key|freemium|Ope
 data-etl|dbt|https://www.getdbt.com/|https://docs.getdbt.com/|none|freemium|Transform data in the warehouse.
 data-etl|Fivetran|https://www.fivetran.com/|https://fivetran.com/docs|key|paid|Managed data pipelines.
 data-etl|Meltano|https://meltano.com/|https://docs.meltano.com/|none|free|Open-source ELT.
-data-etl|Apache Kafka|https://kafka.apache.org/|https://kafka.apache.org/documentation/|none|free|Distributed event streaming.
-data-etl|Redpanda|https://www.redpanda.com/|https://docs.redpanda.com/|key|freemium|Kafka-compatible streaming.
-data-etl|Apache Flink|https://flink.apache.org/|https://nightlies.apache.org/flink/flink-docs-stable/|none|free|Stream processing.
+event-streaming|Apache Kafka|https://kafka.apache.org/|https://kafka.apache.org/documentation/|none|free|Distributed event streaming.
+event-streaming|Redpanda|https://www.redpanda.com/|https://docs.redpanda.com/|key|freemium|Kafka-compatible streaming.
+event-streaming|Apache Flink|https://flink.apache.org/|https://nightlies.apache.org/flink/flink-docs-stable/|none|free|Stream processing.
 data-etl|MotherDuck|https://motherduck.com/|https://motherduck.com/docs/|key|freemium|Cloud DuckDB.
 data-etl|Great Expectations|https://greatexpectations.io/|https://docs.greatexpectations.io/|none|free|Data quality validation.
 data-etl|Apache Iceberg|https://iceberg.apache.org/|https://iceberg.apache.org/docs/latest/|none|free|Open table format.
@@ -2610,3 +2610,208 @@ sports-data|Sportradar|https://developer.sportradar.com/|https://developer.sport
 public-transit|Navitia|https://www.navitia.io/|https://doc.navitia.io/|key|freemium|Public transport API.
 travel-booking|TripAdvisor Content API|https://www.tripadvisor.com/developers|https://tripadvisor-content-api.readme.io/|key|freemium|Travel content.
 travel-booking|Hotelbeds|https://developer.hotelbeds.com/|https://developer.hotelbeds.com/documentation|key|paid|Hotel booking API.
+backend-as-a-service|Firebase|https://firebase.google.com/|https://firebase.google.com/docs|oauth|freemium|Google's app backend with Firestore, auth, storage, hosting and cloud functions behind client SDKs.
+backend-as-a-service|Appwrite|https://appwrite.io/|https://appwrite.io/docs|key|freemium|Open-source backend with databases, auth, storage, functions and realtime, self-hostable or cloud.
+backend-as-a-service|PocketBase|https://pocketbase.io/|https://pocketbase.io/docs/|key|free|Single-file open-source backend in Go with an embedded SQLite database, auth and realtime subscriptions.
+backend-as-a-service|Nhost|https://nhost.io/|https://docs.nhost.io/|key|freemium|Open-source backend built on Postgres and Hasura GraphQL with auth, storage and serverless functions.
+backend-as-a-service|Convex|https://www.convex.dev/|https://docs.convex.dev/|key|freemium|Reactive backend where database queries and server functions are written in TypeScript with live sync to clients.
+backend-as-a-service|AWS Amplify|https://aws.amazon.com/amplify/|https://docs.amplify.aws/|oauth|freemium|AWS toolchain for building full-stack apps with managed auth, data and storage.
+backend-as-a-service|Parse Platform|https://parseplatform.org/|https://docs.parseplatform.org/|key|free|Open-source backend framework with REST and GraphQL APIs, users, cloud code and push.
+backend-as-a-service|Xata|https://xata.io/|https://xata.io/docs|key|freemium|Serverless Postgres platform with branching, search and a typed client.
+backend-as-a-service|Backendless|https://backendless.com/|https://backendless.com/docs/|key|freemium|Visual and code backend with database, user management, real-time and cloud code.
+wearable-health-data|Fitbit Web API|https://dev.fitbit.com/|https://dev.fitbit.com/build/reference/web-api/|oauth|free|Access to activity, sleep, heart-rate and nutrition data from Fitbit users who grant consent.
+wearable-health-data|Oura API|https://cloud.ouraring.com/docs|https://cloud.ouraring.com/v2/docs|oauth|free|Sleep, readiness and activity data from Oura Ring members through OAuth.
+wearable-health-data|Withings API|https://developer.withings.com/|https://developer.withings.com/api-reference/|oauth|free|Weight, blood pressure, sleep and activity data from Withings devices.
+wearable-health-data|Garmin Health API|https://developer.garmin.com/gc-developer-program/health-api/|https://developer.garmin.com/gc-developer-program/health-api/|oauth|free|Daily health and fitness metrics from Garmin wearables for approved partners.
+wearable-health-data|WHOOP API|https://developer.whoop.com/|https://developer.whoop.com/api|oauth|free|Recovery, strain and sleep data from WHOOP members.
+wearable-health-data|Strava API|https://developers.strava.com/|https://developers.strava.com/docs/reference/|oauth|free|Athlete activities, routes and segments from Strava accounts.
+wearable-health-data|Apple HealthKit|https://developer.apple.com/documentation/healthkit|https://developer.apple.com/documentation/healthkit|oauth|free|On-device framework for reading and writing health and fitness data on iOS and watchOS.
+wearable-health-data|Google Health Connect|https://developer.android.com/health-and-fitness/guides/health-connect|https://developer.android.com/health-and-fitness/guides/health-connect|oauth|free|Android API that lets apps share health and fitness data in one on-device store.
+wearable-health-data|Polar AccessLink API|https://www.polar.com/accesslink-api/|https://www.polar.com/accesslink-api/|oauth|free|Training, sleep and activity data from Polar devices.
+wearable-health-data|Open Wearables|https://openwearables.io/|https://docs.openwearables.io/|key|free|Open-source platform that unifies data from many wearable providers behind one API.
+sound-effects-audio|Pixabay Music and Sound Effects|https://pixabay.com/sound-effects/|https://pixabay.com/api/docs/|none|free|Free royalty-free sound effects and music from the Pixabay community.
+sound-effects-audio|Freesound|https://freesound.org/|https://freesound.org/docs/api/|key|free|Collaborative database of Creative Commons licensed sounds and samples.
+sound-effects-audio|Internet Archive Audio|https://archive.org/details/audio|https://archive.org/developers/|none|free|Millions of public domain and Creative Commons audio recordings.
+sound-effects-audio|ElevenLabs Sound Effects|https://elevenlabs.io/sound-effects|https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert|key|freemium|Generates sound effects from text prompts through an API.
+sound-effects-audio|Epidemic Sound|https://www.epidemicsound.com/|https://partner-content-api.epidemicsound.com/docs|key|paid|Licensed music and sound effects library with a partner content API.
+sound-effects-audio|Zapsplat|https://www.zapsplat.com/|https://www.zapsplat.com/|none|freemium|Large library of free and paid sound effects and music.
+sound-effects-audio|Jamendo Music|https://www.jamendo.com/|https://developer.jamendo.com/v3.0|key|free|Creative Commons music catalog with a developer API.
+live-streaming|YouTube Live Streaming API|https://developers.google.com/youtube/v3/live|https://developers.google.com/youtube/v3/live/getting-started|oauth|free|Create and control YouTube live broadcasts and read live chat.
+live-streaming|Kick API|https://docs.kick.com/|https://docs.kick.com/|oauth|free|Public API for Kick channels, livestreams and chat.
+live-streaming|Restream|https://restream.io/|https://developers.restream.io/|oauth|freemium|Multistream a single live video to many platforms, with a developer API.
+live-streaming|OBS Studio|https://obsproject.com/|https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md|key|free|Open-source streaming and recording software with a WebSocket remote-control protocol.
+live-streaming|Mux Live Streaming|https://www.mux.com/live|https://docs.mux.com/guides/start-live-streaming|key|paid|Live video API with RTMP and SRT ingest and adaptive playback.
+live-streaming|Amazon IVS|https://aws.amazon.com/ivs/|https://docs.aws.amazon.com/ivs/|oauth|paid|Managed low-latency live streaming with chat on AWS.
+live-streaming|Twitch EventSub|https://dev.twitch.tv/docs/eventsub/|https://dev.twitch.tv/docs/eventsub/|oauth|free|Webhook and WebSocket notifications for Twitch events such as follows and stream start.
+live-streaming|Owncast|https://owncast.online/|https://owncast.online/docs/|none|free|Self-hosted live streaming and chat server you run on your own domain.
+media-servers|Plex|https://www.plex.tv/|https://developer.plex.tv/pms/|key|freemium|Media server and apps for organising and streaming personal libraries, with a local HTTP API.
+media-servers|Emby|https://emby.media/|https://dev.emby.media/|key|freemium|Media server with REST API for streaming personal video and music.
+media-servers|Navidrome|https://www.navidrome.org/|https://www.navidrome.org/docs/developers/subsonic-api/|key|free|Self-hosted music server that speaks the Subsonic API.
+media-servers|Kodi|https://kodi.tv/|https://kodi.wiki/view/JSON-RPC_API|none|free|Open-source media center with a JSON-RPC control API.
+media-servers|Audiobookshelf|https://www.audiobookshelf.org/|https://api.audiobookshelf.org/|key|free|Self-hosted audiobook and podcast server with a REST API.
+media-servers|Immich|https://immich.app/|https://immich.app/docs/api|key|free|Self-hosted photo and video backup with a REST API.
+media-servers|Sonarr|https://sonarr.tv/|https://sonarr.tv/docs/api/|key|free|TV library manager with a REST API.
+media-servers|Radarr|https://radarr.video/|https://radarr.video/docs/api/|key|free|Movie library manager with a REST API.
+media-servers|Stash|https://stashapp.cc/|https://docs.stashapp.cc/|key|free|Self-hosted media organiser with GraphQL API.
+recipes-cooking|Edamam Recipe Search API|https://developer.edamam.com/edamam-recipe-api|https://developer.edamam.com/edamam-docs-recipe-api|key|freemium|Recipe search with nutrition analysis and diet filters.
+recipes-cooking|Tasty API|https://rapidapi.com/apidojo/api/tasty|https://rapidapi.com/apidojo/api/tasty|key|freemium|Recipes and cooking videos from BuzzFeed Tasty through RapidAPI.
+recipes-cooking|Mealie|https://mealie.io/|https://docs.mealie.io/documentation/getting-started/api-usage/|key|free|Self-hosted recipe manager with a REST API.
+recipes-cooking|Tandoor Recipes|https://tandoor.dev/|https://docs.tandoor.dev/|key|free|Self-hosted recipe manager and meal planner with an API.
+recipes-cooking|Open Recipes|https://github.com/fictivekin/openrecipes|https://github.com/fictivekin/openrecipes|none|free|Open dataset of scraped recipes in a common JSON schema.
+recipes-cooking|Schema.org Recipe|https://schema.org/Recipe|https://schema.org/Recipe|none|free|Structured-data vocabulary used by recipe sites, parseable with recipe scrapers.
+recipes-cooking|recipe-scrapers|https://github.com/hhursev/recipe-scrapers|https://docs.recipe-scrapers.com/|none|free|Python library that extracts recipe data from hundreds of cooking sites.
+recipes-cooking|Forkify API|https://forkify-api.herokuapp.com/|https://forkify-api.herokuapp.com/phrases.html|none|free|Free demo API for recipe search used in tutorials.
+gifs-stickers|Klipy|https://klipy.com/|https://docs.klipy.com/|key|free|GIF, sticker and meme API positioned as a Tenor alternative.
+gifs-stickers|Imgflip API|https://imgflip.com/api|https://imgflip.com/api|none|free|Meme template list and caption generation endpoints.
+gifs-stickers|Memegen.link|https://memegen.link/|https://api.memegen.link/docs/|none|free|Open-source meme image generator with a simple URL API.
+gifs-stickers|Reddit GIFs via Redgifs|https://www.redgifs.com/|https://api.redgifs.com/docs/index.html|oauth|free|Video and GIF hosting with a public API.
+gifs-stickers|Imgur API|https://imgur.com/|https://apidocs.imgur.com/|oauth|freemium|Image and GIF hosting with a public API for upload and gallery search.
+gifs-stickers|Gfycat Archive via Wayback|https://web.archive.org/|https://archive.org/help/wayback_api.php|none|free|Archived GIFs can be recovered using the Internet Archive availability API.
+gifs-stickers|Meme API|https://github.com/D3vd/Meme_Api|https://github.com/D3vd/Meme_Api|none|free|Open-source API that returns random memes from Reddit.
+gifs-stickers|Sticker.ly|https://sticker.ly/|https://sticker.ly/|none|free|Sticker pack creation and sharing app for WhatsApp and Telegram.
+gifs-stickers|Telegram Bot API Stickers|https://core.telegram.org/bots/api#stickers|https://core.telegram.org/bots/api#stickers|key|free|Create and manage sticker sets programmatically through the Telegram Bot API.
+drinks-beverages|Untappd API|https://untappd.com/api/docs|https://untappd.com/api/docs|oauth|free|Beer check-in and catalog data from Untappd for approved apps.
+drinks-beverages|Vivino|https://www.vivino.com/|https://www.vivino.com/|none|free|Wine ratings and marketplace; no official public API.
+drinks-beverages|Wine-Searcher API|https://www.wine-searcher.com/trade/api|https://www.wine-searcher.com/trade/api|key|paid|Commercial wine pricing and availability data.
+drinks-beverages|Open Beer Database|https://openbeerdb.com/|https://openbeerdb.com/|none|free|Open beer and brewery data set.
+drinks-beverages|Coffee API|https://coffee.alexflipnote.dev/|https://coffee.alexflipnote.dev/|none|free|Simple endpoint that returns random coffee images.
+drinks-beverages|Sample APIs Coffee|https://api.sampleapis.com/coffee/hot|https://sampleapis.com/api-list/coffee|none|free|Free sample API listing hot and iced coffee recipes.
+drinks-beverages|CocktailDB Premium|https://www.thecocktaildb.com/api.php|https://www.thecocktaildb.com/api.php|key|freemium|Cocktail recipes, ingredients and images with a free test key and premium tiers.
+drinks-beverages|Whisky Hunter API|https://whiskyhunter.net/api/|https://whiskyhunter.net/api/|none|free|Whisky auction data and distillery information.
+event-streaming|Confluent Cloud|https://www.confluent.io/|https://docs.confluent.io/cloud/current/overview.html|key|freemium|Managed Kafka with connectors, Flink and schema registry.
+event-streaming|Amazon Kinesis|https://aws.amazon.com/kinesis/|https://docs.aws.amazon.com/kinesis/|oauth|paid|Managed real-time data streams on AWS.
+event-streaming|Azure Event Hubs|https://azure.microsoft.com/products/event-hubs|https://learn.microsoft.com/azure/event-hubs/|oauth|paid|Managed event ingestion service with a Kafka-compatible endpoint.
+event-streaming|WarpStream|https://www.warpstream.com/|https://docs.warpstream.com/|key|paid|Kafka-compatible streaming that stores data in object storage.
+event-streaming|StreamNative|https://streamnative.io/|https://docs.streamnative.io/|key|paid|Managed Apache Pulsar and Kafka-protocol streaming.
+event-streaming|Upstash Kafka|https://upstash.com/|https://upstash.com/docs/kafka/overall/getstarted|key|freemium|Serverless Kafka with HTTP and native clients.
+event-streaming|Materialize|https://materialize.com/|https://materialize.com/docs/|key|freemium|Streaming SQL database that keeps views updated as data arrives.
+buy-now-pay-later|Sezzle|https://sezzle.com/|https://docs.sezzle.com/|key|paid|Pay-in-four checkout provider with a merchant API.
+buy-now-pay-later|Zip (Quadpay)|https://zip.co/|https://zip.co/developers|key|paid|Instalment payments for online and in-store merchants.
+buy-now-pay-later|Afterpay Online API|https://developers.afterpay.com/|https://developers.afterpay.com/docs/api|key|paid|Merchant API for adding Afterpay at checkout.
+buy-now-pay-later|Klarna Payments API|https://docs.klarna.com/|https://docs.klarna.com/klarna-payments/|key|paid|Klarna's checkout and payments API for pay later and instalments.
+buy-now-pay-later|Affirm Developer APIs|https://docs.affirm.com/|https://docs.affirm.com/developers/|key|paid|Affirm checkout and transaction APIs for monthly payments.
+buy-now-pay-later|PayPal Pay Later|https://developer.paypal.com/docs/checkout/pay-later/|https://developer.paypal.com/docs/checkout/pay-later/|oauth|paid|Pay Later messaging and checkout through the PayPal SDK.
+buy-now-pay-later|Stripe Klarna and Affirm|https://docs.stripe.com/payments/buy-now-pay-later|https://docs.stripe.com/payments/buy-now-pay-later|key|paid|Offer BNPL methods through Stripe Checkout and Payment Element.
+buy-now-pay-later|Humm|https://www.shophumm.com/|https://docs.shophumm.com/|key|paid|Instalment payments provider in Australia, New Zealand and other markets.
+buy-now-pay-later|Scalapay|https://www.scalapay.com/|https://developers.scalapay.com/|key|paid|European buy now pay later provider with a merchant API.
+buy-now-pay-later|Tabby|https://tabby.ai/|https://docs.tabby.ai/|key|paid|BNPL for the Middle East with a checkout API.
+speaker-diarization|NVIDIA NeMo|https://github.com/NVIDIA/NeMo|https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speaker_diarization/intro.html|none|free|Toolkit with speaker diarization and verification models.
+speaker-diarization|Picovoice Falcon|https://picovoice.ai/platform/falcon/|https://picovoice.ai/docs/falcon/|key|freemium|On-device speaker diarization engine.
+speaker-diarization|Resemblyzer|https://github.com/resemble-ai/Resemblyzer|https://github.com/resemble-ai/Resemblyzer|none|free|Python voice-embedding library for speaker verification and diarization.
+speaker-diarization|SpeechBrain Speaker Recognition|https://speechbrain.github.io/|https://speechbrain.readthedocs.io/|none|free|PyTorch toolkit with speaker verification and diarization recipes.
+speaker-diarization|diart|https://github.com/juanmc2005/diart|https://github.com/juanmc2005/diart|none|free|Real-time speaker diarization in Python.
+speaker-diarization|Pyannote AI|https://www.pyannote.ai/|https://docs.pyannote.ai/|key|freemium|Hosted API from the creators of pyannote.audio.
+speaker-diarization|NVIDIA Sortformer|https://huggingface.co/nvidia/diar_sortformer_4spk-v1|https://huggingface.co/nvidia/diar_sortformer_4spk-v1|none|free|End-to-end neural diarization model for up to four speakers.
+speaker-diarization|Azure Speaker Recognition|https://learn.microsoft.com/azure/ai-services/speech-service/|https://learn.microsoft.com/azure/ai-services/speech-service/speaker-recognition-overview|key|paid|Speaker verification and identification service from Azure AI Speech.
+public-health-data|Our World in Data COVID Dataset|https://github.com/owid/covid-19-data|https://github.com/owid/covid-19-data/tree/master/public/data|none|free|Open dataset of COVID-19 cases, vaccinations and testing.
+public-health-data|Johns Hopkins COVID-19 Data|https://github.com/CSSEGISandData/COVID-19|https://github.com/CSSEGISandData/COVID-19|none|free|Archived global COVID-19 time series from JHU CSSE.
+public-health-data|Healthdata.gov|https://healthdata.gov/|https://healthdata.gov/api/|none|free|US HHS health datasets published through a Socrata API.
+public-health-data|CDC WONDER API|https://wonder.cdc.gov/|https://wonder.cdc.gov/wonder/help/WONDER-API.html|none|free|Query CDC mortality, natality and surveillance data.
+public-health-data|NHS Digital Data|https://digital.nhs.uk/data|https://digital.nhs.uk/developer|key|free|NHS England datasets and developer APIs.
+public-health-data|UK Health Security Agency Data Dashboard|https://ukhsa-dashboard.data.gov.uk/|https://ukhsa-dashboard.data.gov.uk/access-our-data|none|free|Public API for UK health surveillance indicators.
+public-health-data|GBD Results Tool|https://vizhub.healthdata.org/gbd-results/|https://www.healthdata.org/research-analysis/gbd|none|free|Global Burden of Disease estimates from IHME.
+public-health-data|World Bank Health Indicators|https://data.worldbank.org/topic/health|https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation|none|free|Country health indicators through the World Bank API.
+public-health-data|Disease Ontology|https://disease-ontology.org/|https://disease-ontology.org/downloads/|none|free|Standardised ontology of human disease terms.
+flight-tracking|ADS-B Exchange|https://www.adsbexchange.com/|https://www.adsbexchange.com/data/|key|paid|Unfiltered community ADS-B flight data.
+flight-tracking|Flightradar24 API|https://fr24api.flightradar24.com/|https://fr24api.flightradar24.com/docs|key|paid|Live and historic flight data from Flightradar24.
+flight-tracking|AirLabs|https://airlabs.co/|https://airlabs.co/docs/|key|freemium|Real-time flights, airports and airline data API.
+flight-tracking|AviationAPI|https://www.aviationapi.com/|https://docs.aviationapi.com/|none|free|Free US airport, chart and weather data.
+flight-tracking|AirportDB.io|https://airportdb.io/|https://airportdb.io/api-doc|key|freemium|Airport, runway and frequency data API.
+flight-tracking|Aerodatabox|https://aerodatabox.com/|https://doc.aerodatabox.com/|key|freemium|Flight status and airport schedules via RapidAPI.
+flight-tracking|Cirium Flight Status|https://developer.cirium.com/|https://developer.cirium.com/apis|key|paid|Flight status and schedule APIs from Cirium.
+flight-tracking|FAA NOTAM API|https://api.faa.gov/|https://api.faa.gov/s/|key|free|Notices to Air Missions data from the US FAA.
+survey-tools|Qualtrics API|https://www.qualtrics.com/|https://api.qualtrics.com/|key|paid|Survey platform with APIs for surveys, responses and distributions.
+survey-tools|SurveyJS|https://surveyjs.io/|https://surveyjs.io/form-library/documentation/overview|none|freemium|Open-source JavaScript survey and form library.
+survey-tools|Alchemer API|https://www.alchemer.com/|https://apihelp.alchemer.com/|key|paid|Survey platform with a REST API.
+survey-tools|SurveyCTO|https://www.surveycto.com/|https://docs.surveycto.com/|key|paid|Mobile data collection for field research.
+survey-tools|KoboToolbox|https://www.kobotoolbox.org/|https://support.kobotoolbox.org/api.html|key|free|Free data collection for humanitarian fieldwork with a REST API.
+survey-tools|Open Data Kit (ODK)|https://getodk.org/|https://docs.getodk.org/central-api/|key|free|Open-source mobile data collection tools.
+survey-tools|Google Forms Responses|https://developers.google.com/forms/api|https://developers.google.com/forms/api/reference/rest|oauth|free|Read form responses with the Google Forms API.
+survey-tools|Zoho Survey API|https://www.zoho.com/survey/|https://www.zoho.com/survey/api/|oauth|freemium|Zoho's survey tool with a developer API.
+survey-tools|Pollfish|https://www.pollfish.com/|https://www.pollfish.com/docs/|key|paid|Audience survey network with an API for programmatic surveys.
+library-catalogs|WorldCat Search API|https://www.oclc.org/developer/api/oclc-apis/worldcat-search-api.en.html|https://developer.api.oclc.org/|key|paid|OCLC's catalog of library holdings worldwide.
+library-catalogs|Europeana Search API|https://pro.europeana.eu/page/apis|https://pro.europeana.eu/page/search|key|free|Search millions of European library and archive items.
+library-catalogs|Internet Archive Search|https://archive.org/advancedsearch.php|https://archive.org/developers/index-apis.html|none|free|Search and metadata APIs for Internet Archive items.
+library-catalogs|Open Library Search|https://openlibrary.org/dev/docs/api/search|https://openlibrary.org/dev/docs/api/search|none|free|Open Library's search and book data endpoints.
+library-catalogs|Trove API (National Library of Australia)|https://trove.nla.gov.au/|https://trove.nla.gov.au/about/create-something/using-api|key|free|Australian library, archive and newspaper data.
+library-catalogs|Library of Congress Chronicling America|https://chroniclingamerica.loc.gov/|https://chroniclingamerica.loc.gov/about/api/|none|free|Digitised historic US newspapers.
+library-catalogs|Koha|https://koha-community.org/|https://api.koha-community.org/|key|free|Open-source integrated library system with REST API.
+library-catalogs|Z39.50 and SRU|https://www.loc.gov/standards/sru/|https://www.loc.gov/standards/sru/|none|free|Standard search protocols used by library catalogs.
+merchant-of-record|FastSpring|https://fastspring.com/|https://developer.fastspring.com/|key|paid|Merchant of record for software and digital goods.
+merchant-of-record|Paddle Billing|https://www.paddle.com/billing|https://developer.paddle.com/|key|paid|Paddle's billing, tax and subscription API.
+merchant-of-record|2Checkout (Verifone)|https://www.2checkout.com/|https://verifone.cloud/docs/2checkout/|key|paid|Global merchant of record and payment service.
+merchant-of-record|Digital River|https://www.digitalriver.com/|https://docs.digitalriver.com/|key|paid|Merchant-of-record e-commerce platform.
+merchant-of-record|Creem|https://creem.io/|https://docs.creem.io/|key|paid|Merchant of record for indie software sellers.
+merchant-of-record|Dodo Payments|https://dodopayments.com/|https://docs.dodopayments.com/|key|paid|Merchant of record for digital products and SaaS.
+merchant-of-record|Gumroad API|https://gumroad.com/api|https://gumroad.com/api|oauth|paid|API for products, sales and subscribers on Gumroad.
+merchant-of-record|Payhip|https://payhip.com/|https://payhip.com/developers|key|freemium|Sell digital products with tax handling and a developer API.
+merchant-of-record|Lemon Squeezy API|https://docs.lemonsqueezy.com/api|https://docs.lemonsqueezy.com/api|key|paid|Lemon Squeezy REST API for products, orders and licenses.
+merchant-of-record|Polar API|https://docs.polar.sh/api-reference|https://docs.polar.sh/|key|paid|API for products, checkout and benefits on Polar.
+merchant-of-record|Sellfy|https://sellfy.com/|https://sellfy.com/api/|key|paid|Storefront for digital products with an API.
+hr-payroll|Workday|https://www.workday.com/|https://community.workday.com/api|oauth|paid|Enterprise HR and finance suite with web service APIs.
+hr-payroll|Paychex Flex API|https://developer.paychex.com/|https://developer.paychex.com/documentation|oauth|paid|Payroll and HR data API from Paychex.
+hr-payroll|ADP Marketplace API|https://developers.adp.com/|https://developers.adp.com/articles/api/hcm-offering|oauth|paid|ADP's APIs for workforce and payroll data.
+hr-payroll|Finch|https://www.tryfinch.com/|https://developer.tryfinch.com/|key|paid|Unified employment and payroll data API.
+hr-payroll|Justworks|https://www.justworks.com/|https://dev.justworks.com/|key|paid|PEO and payroll provider with partner APIs.
+hr-payroll|Zenefits|https://www.zenefits.com/|https://developers.zenefits.com/|oauth|paid|HR platform with a developer API.
+hr-payroll|Remote API|https://remote.com/|https://developer.remote.com/|key|paid|Global employment and payroll platform with an API.
+hr-payroll|Oyster|https://www.oysterhr.com/|https://docs.oysterhr.com/|key|paid|Global hiring and payroll platform.
+hr-payroll|Personio API|https://developer.personio.de/|https://developer.personio.de/reference|key|paid|European HR software with a REST API.
+hr-payroll|Papaya Global|https://www.papayaglobal.com/|https://developers.papayaglobal.com/|key|paid|Global payroll platform.
+hr-payroll|OrangeHRM|https://www.orangehrm.com/|https://orangehrm.github.io/orangehrm-api-doc/|key|freemium|Open-source HR management system with an API.
+cross-border-payouts|PayPal Payouts|https://developer.paypal.com/docs/payouts/|https://developer.paypal.com/docs/api/payments.payouts-batch/v1/|oauth|paid|Send mass payouts to PayPal and Venmo accounts.
+cross-border-payouts|Stripe Connect Payouts|https://docs.stripe.com/connect/payouts|https://docs.stripe.com/connect/payouts-connected-accounts|key|paid|Pay out to connected accounts in many countries.
+cross-border-payouts|Airwallex|https://www.airwallex.com/|https://www.airwallex.com/docs/|key|paid|Global accounts, FX and payouts API.
+cross-border-payouts|Revolut Business API|https://developer.revolut.com/|https://developer.revolut.com/docs/business/business-api|oauth|paid|Business payments and FX via API.
+cross-border-payouts|Remitly|https://www.remitly.com/|https://www.remitly.com/|none|paid|Consumer money transfers; business partner access by request.
+cross-border-payouts|Thunes|https://www.thunes.com/|https://docs.thunes.com/|key|paid|Cross-border payments network API.
+cross-border-payouts|Rapyd|https://www.rapyd.net/|https://docs.rapyd.net/|key|paid|Global payments and payouts platform.
+cross-border-payouts|dLocal|https://www.dlocal.com/|https://docs.dlocal.com/|key|paid|Payments and payouts in emerging markets.
+cross-border-payouts|Currencycloud|https://www.currencycloud.com/|https://developer.currencycloud.com/|key|paid|Cross-border payments and FX API by Visa.
+cross-border-payouts|Tipalti|https://tipalti.com/|https://documentation.tipalti.com/|key|paid|Global payables and mass payouts.
+graph-databases|Memgraph|https://memgraph.com/|https://memgraph.com/docs|key|freemium|In-memory graph database compatible with Cypher and Bolt.
+graph-databases|Amazon Neptune|https://aws.amazon.com/neptune/|https://docs.aws.amazon.com/neptune/|oauth|paid|Managed graph database supporting property graph and RDF.
+graph-databases|TigerGraph|https://www.tigergraph.com/|https://docs.tigergraph.com/|key|freemium|Distributed graph database for deep link analytics.
+graph-databases|Dgraph|https://dgraph.io/|https://dgraph.io/docs/|key|freemium|Distributed graph database with a GraphQL-native API.
+graph-databases|FalkorDB|https://www.falkordb.com/|https://docs.falkordb.com/|key|freemium|Low-latency graph database used for GraphRAG.
+graph-databases|JanusGraph|https://janusgraph.org/|https://docs.janusgraph.org/|none|free|Scalable open-source graph database using Gremlin.
+graph-databases|NebulaGraph|https://www.nebula-graph.io/|https://docs.nebula-graph.io/|key|free|Distributed open-source graph database.
+graph-databases|SurrealDB|https://surrealdb.com/|https://surrealdb.com/docs|key|freemium|Multi-model database with graph relations, documents and SQL-like queries.
+graph-databases|ArangoDB|https://arangodb.com/|https://docs.arangodb.com/|key|freemium|Multi-model database with graph, document and key-value support.
+graph-databases|Apache AGE|https://age.apache.org/|https://age.apache.org/age-manual/master/index.html|none|free|Graph database extension for PostgreSQL.
+graph-databases|Stardog|https://www.stardog.com/|https://docs.stardog.com/|key|paid|Enterprise knowledge graph platform.
+graph-databases|Apache Jena Fuseki|https://jena.apache.org/|https://jena.apache.org/documentation/fuseki2/|none|free|SPARQL server for RDF data.
+speech-datasets|VoxCeleb|https://www.robots.ox.ac.uk/~vgg/data/voxceleb/|https://www.robots.ox.ac.uk/~vgg/data/voxceleb/|none|free|Large speaker identification dataset from celebrity interviews.
+speech-datasets|LJ Speech|https://keithito.com/LJ-Speech-Dataset/|https://keithito.com/LJ-Speech-Dataset/|none|free|Public domain single-speaker dataset for TTS training.
+speech-datasets|LibriTTS|https://www.openslr.org/60/|https://www.openslr.org/60/|none|free|Multi-speaker English corpus designed for text-to-speech.
+speech-datasets|People's Speech|https://mlcommons.org/datasets/peoples-speech/|https://huggingface.co/datasets/MLCommons/peoples_speech|none|free|Large English conversational speech dataset from MLCommons.
+speech-datasets|FLEURS|https://huggingface.co/datasets/google/fleurs|https://huggingface.co/datasets/google/fleurs|none|free|Google's multilingual speech benchmark across 102 languages.
+speech-datasets|AISHELL|https://www.aishelltech.com/|https://www.openslr.org/33/|none|free|Mandarin Chinese speech corpora.
+speech-datasets|VoxPopuli|https://github.com/facebookresearch/voxpopuli|https://github.com/facebookresearch/voxpopuli|none|free|Meta's multilingual European Parliament speech data.
+speech-datasets|TED-LIUM|https://www.openslr.org/51/|https://www.openslr.org/51/|none|free|Speech recognition corpus from TED talks.
+speech-datasets|ESB Benchmark|https://huggingface.co/datasets/hf-audio/esb-datasets-test-only-sorted|https://arxiv.org/abs/2210.13352|none|free|End-to-end speech benchmark spanning eight English ASR datasets.
+public-transit|OpenTripPlanner|https://www.opentripplanner.org/|https://docs.opentripplanner.org/|none|free|Open-source multimodal trip planner using GTFS and OpenStreetMap.
+public-transit|Mobility Database|https://mobilitydatabase.org/|https://mobilitydata.github.io/mobility-feed-api/SwaggerUI/index.html|key|free|Catalog of GTFS and GTFS Realtime feeds worldwide.
+public-transit|TransitFeeds (OpenMobilityData)|https://transitfeeds.com/|https://transitfeeds.com/api/|key|free|Archive of public transit feeds, now maintained as Mobility Database.
+public-transit|TfL Unified API|https://api.tfl.gov.uk/|https://api-portal.tfl.gov.uk/|key|free|Transport for London live arrivals, journeys and status.
+public-transit|MTA Developer Resources|https://api.mta.info/|https://api.mta.info/#/landing|key|free|Real-time New York subway and bus data.
+public-transit|BART API|https://api.bart.gov/|https://api.bart.gov/docs/overview/index.aspx|key|free|San Francisco Bay Area Rapid Transit real-time information.
+public-transit|Digitransit|https://digitransit.fi/en/developers/|https://digitransit.fi/en/developers/apis/|key|free|Finnish public transport routing and realtime APIs.
+public-transit|Transport API (UK)|https://www.transportapi.com/|https://developer.transportapi.com/docs|key|freemium|UK public transport journey and timetable data.
+public-transit|Citymapper API|https://citymapper.com/api|https://citymapper.3scale.net/|key|paid|Urban routing and transit data from Citymapper.
+public-transit|Deutsche Bahn Open Data|https://data.deutschebahn.com/|https://developers.deutschebahn.com/db-api-marketplace/apis/frontpage|key|free|German rail timetable and station data.
+public-transit|TransLink Open API|https://developer.translink.ca/|https://developer.translink.ca/ServicesRtti|key|free|Vancouver transit real-time data.
+public-transit|OneBusAway|https://onebusaway.org/|https://developer.onebusaway.org/|key|free|Open-source real-time transit information platform.
+public-transit|Trafiklab|https://www.trafiklab.se/|https://www.trafiklab.se/api|key|free|Swedish public transport APIs.
+podcasts|Podchaser API|https://www.podchaser.com/|https://api-docs.podchaser.com/|oauth|freemium|GraphQL API of podcast, episode and creator data.
+podcasts|Spotify Podcasts API|https://developer.spotify.com/documentation/web-api/reference/get-a-show|https://developer.spotify.com/documentation/web-api|oauth|free|Shows and episodes through the Spotify Web API.
+podcasts|Apple Podcasts Connect|https://podcasters.apple.com/|https://podcasters.apple.com/support|none|free|Submit and manage podcasts in Apple Podcasts.
+podcasts|Transistor API|https://transistor.fm/|https://developers.transistor.fm/|key|paid|Podcast hosting platform with an API.
+podcasts|Captivate API|https://www.captivate.fm/|https://api.captivate.fm/|key|paid|Podcast hosting with an API for shows and episodes.
+podcasts|Libsyn API|https://libsyn.com/|https://api.libsyn.com/|oauth|paid|Podcast hosting API from Libsyn.
+podcasts|Anchor RSS Podcasting|https://podcasters.spotify.com/|https://podcasters.spotify.com/|none|free|Spotify for Podcasters free hosting.
+podcasts|Podcast Index Namespace|https://github.com/Podcastindex-org/podcast-namespace|https://github.com/Podcastindex-org/podcast-namespace|none|free|Open RSS extension standard for modern podcast features.
+podcasts|Fyyd API|https://fyyd.de/|https://github.com/eazyfin/fyyd-api|none|free|Open German podcast directory API.
+podcasts|Taddy Podcast API|https://taddy.org/|https://taddy.org/developers|key|freemium|GraphQL podcast search, episodes and transcripts API.
+podcasts|Podscribe|https://podscribe.com/|https://podscribe.com/|none|paid|Podcast advertising analytics.
+podcasts|Castos API|https://castos.com/|https://castos.com/|key|paid|Podcast hosting with an API.

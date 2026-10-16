@@ -41,6 +41,7 @@
 /directory/books-library/open-library-api/ /directory/books-apis/open-library-api/ 301
 /directory/books-library/project-gutenberg-gutendex/ /directory/books-apis/project-gutenberg-gutendex/ 301
 /directory/books-library/standard-ebooks/ /directory/books-apis/standard-ebooks/ 301
+/directory/cms-content/directus/ /directory/backend-as-a-service/directus/ 301
 /directory/comms/agentmail/ /directory/email-apis/agentmail/ 301
 /directory/comms/airship-formerly-urban-airship/ /directory/push-notifications/airship-formerly-urban-airship/ 301
 /directory/comms/bandwidth/ /directory/sms-voice/bandwidth/ 301
@@ -146,6 +147,9 @@
 /directory/crypto-web3/pinata-ipfs/ /directory/blockchain-infrastructure/pinata-ipfs/ 301
 /directory/crypto-web3/the-graph/ /directory/blockchain-infrastructure/the-graph/ 301
 /directory/crypto-web3/viem/ /directory/blockchain-infrastructure/viem/ 301
+/directory/data-etl/apache-flink/ /directory/event-streaming/apache-flink/ 301
+/directory/data-etl/apache-kafka/ /directory/event-streaming/apache-kafka/ 301
+/directory/data-etl/redpanda/ /directory/event-streaming/redpanda/ 301
 /directory/databases-backend/algolia/ /directory/site-search-engines/algolia/ 301
 /directory/databases-backend/apache-pinot/ /directory/data-warehouses/apache-pinot/ 301
 /directory/databases-backend/apache-spark/ /directory/data-warehouses/apache-spark/ 301
@@ -189,6 +193,9 @@
 /directory/databases-backend/typesense/ /directory/site-search-engines/typesense/ 301
 /directory/databases-backend/typesense-cloud/ /directory/site-search-engines/typesense-cloud/ 301
 /directory/databases-backend/vespa/ /directory/site-search-engines/vespa/ 301
+/directory/datasets/common-voice/ /directory/speech-datasets/common-voice/ 301
+/directory/datasets/librispeech/ /directory/speech-datasets/librispeech/ 301
+/directory/datasets/openslr/ /directory/speech-datasets/openslr/ 301
 /directory/dev-sandbox/amazon-elastic-kubernetes-service-eks/ /directory/container-orchestration/amazon-elastic-kubernetes-service-eks/ 301
 /directory/dev-sandbox/asdf/ /directory/developer-tools/asdf/ 301
 /directory/dev-sandbox/aws-cloud9/ /directory/cloud-dev-environments/aws-cloud9/ 301

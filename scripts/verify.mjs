@@ -23,7 +23,7 @@ await pool(smurls,16,async p=>{const r=await get(p);if(r.status!==200){fail('sit
 console.log('sitemap urls',smurls.length,'ok',pages.size);
 // 3 internal links in every page
 const links=new Set();
-for(const [p,h] of pages)for(const m of h.matchAll(/href="([^"#]+)(#[^"]*)?"/g)){let u=m[1];if(u.startsWith('https://swarmnest.ai'))u=u.slice(20);if(!u.startsWith('/')||u.startsWith('//'))continue;links.add(u)}
+for(const [p,h] of pages)for(const m of h.matchAll(/href="([^"#]+)(#[^"]*)?"/g)){let u=m[1];if(u.startsWith('https://swarmnest.ai'))u=u.slice(20);if(!u.startsWith('/')||u.startsWith('//')||u.startsWith('/cdn-cgi/'))continue;links.add(u)}
 const lk=[...links].filter(u=>!smurls.includes(u));
 await pool(lk,16,async u=>{const r=await get(u,'follow');if(r.status!==200)fail('link',`${u} ${r.status}`)});
 console.log('internal links',links.size,'(non-sitemap checked',lk.length+')');
