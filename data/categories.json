@@ -428,5 +428,125 @@
   "slug": "patents",
   "name": "Patents",
   "blurb": "Patent and trademark data APIs."
+ },
+ {
+  "slug": "serverless-hosting",
+  "name": "Serverless & App Hosting",
+  "blurb": "Platforms for deploying apps, functions and containers without managing servers."
+ },
+ {
+  "slug": "ci-cd",
+  "name": "CI/CD",
+  "blurb": "Build, test and deployment pipelines."
+ },
+ {
+  "slug": "container-orchestration",
+  "name": "Containers & Orchestration",
+  "blurb": "Kubernetes, container registries and cluster managers."
+ },
+ {
+  "slug": "cloud-dev-environments",
+  "name": "Cloud Dev Environments",
+  "blurb": "Hosted IDEs and remote development workspaces."
+ },
+ {
+  "slug": "developer-tools",
+  "name": "Developer Tools",
+  "blurb": "Editors, build tools, package managers and CLI utilities."
+ },
+ {
+  "slug": "code-hosting-apis",
+  "name": "Code Hosting APIs",
+  "blurb": "APIs for source hosting and collaboration platforms."
+ },
+ {
+  "slug": "push-notifications",
+  "name": "Push Notifications",
+  "blurb": "Mobile and web push notification services."
+ },
+ {
+  "slug": "live-chat-support",
+  "name": "Live Chat",
+  "blurb": "Website live chat and customer messaging widgets."
+ },
+ {
+  "slug": "chat-sdks",
+  "name": "Chat SDKs",
+  "blurb": "Embeddable in-app chat and messaging SDKs."
+ },
+ {
+  "slug": "team-chat-selfhosted",
+  "name": "Team Chat & Self-hosted Messaging",
+  "blurb": "Open-source and self-hostable team messaging."
+ },
+ {
+  "slug": "video-conferencing-oss",
+  "name": "Open Video Conferencing",
+  "blurb": "Self-hostable video conferencing."
+ },
+ {
+  "slug": "chat-bot-libraries",
+  "name": "Chat Bot Libraries",
+  "blurb": "Language wrappers and SDKs for building chat bots."
+ },
+ {
+  "slug": "proxy-services",
+  "name": "Proxies",
+  "blurb": "Proxy networks and lists for web access."
+ },
+ {
+  "slug": "captcha-solvers",
+  "name": "CAPTCHA Solvers",
+  "blurb": "Services that solve CAPTCHAs."
+ },
+ {
+  "slug": "scraping-libraries",
+  "name": "Scraping Libraries",
+  "blurb": "Crawling and HTML-parsing libraries."
+ },
+ {
+  "slug": "no-code-scrapers",
+  "name": "No-code Scrapers",
+  "blurb": "Point-and-click scraping and site-copy tools."
+ },
+ {
+  "slug": "ecommerce-platforms",
+  "name": "E-commerce Platforms",
+  "blurb": "Storefront platforms and commerce engines with APIs."
+ },
+ {
+  "slug": "agent-payments",
+  "name": "Agent Payments",
+  "blurb": "Payment rails built for AI agents."
+ },
+ {
+  "slug": "billing-invoicing",
+  "name": "Billing & Invoicing",
+  "blurb": "Subscription billing and invoicing products."
+ },
+ {
+  "slug": "site-search-engines",
+  "name": "Search Engines & Site Search",
+  "blurb": "Self-hostable and hosted search engines for your own data."
+ },
+ {
+  "slug": "web-search-engines",
+  "name": "Public Web Search Engines",
+  "blurb": "Consumer web search engines."
+ },
+ {
+  "slug": "knowledge-bases",
+  "name": "Knowledge Bases",
+  "blurb": "Structured and encyclopedic knowledge sources."
+ },
+ {
+  "slug": "government-statistics",
+  "name": "Government Statistics",
+  "blurb": "Official national and international statistics APIs."
+ },
+ {
+  "slug": "open-data-portals",
+  "name": "Open Data Portals",
+  "blurb": "Government and city open data portals and catalogs."
  }
 ]

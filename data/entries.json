@@ -496,7 +496,7 @@
  {
   "name": "Scrapy",
   "slug": "scrapy",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Mature Python framework for writing fast, scalable crawlers and extracting structured data.",
   "url": "https://scrapy.org/",
   "docs_url": "https://docs.scrapy.org",
@@ -1068,7 +1068,7 @@
  {
   "name": "Wikidata",
   "slug": "wikidata",
-  "category": "open-data",
+  "category": "knowledge-bases",
   "description": "Free collaborative knowledge base of structured facts, queryable by SPARQL and a REST API.",
   "url": "https://www.wikidata.org/",
   "docs_url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
@@ -1081,7 +1081,7 @@
  {
   "name": "Wikipedia API",
   "slug": "wikipedia-api",
-  "category": "open-data",
+  "category": "knowledge-bases",
   "description": "Read article text, summaries and search results from Wikipedia and sister projects without a key.",
   "url": "https://www.mediawiki.org/wiki/API:Main_page",
   "docs_url": "https://api.wikimedia.org/wiki/Main_Page",
@@ -1120,7 +1120,7 @@
  {
   "name": "SEC EDGAR",
   "slug": "sec-edgar",
-  "category": "open-data",
+  "category": "finance-market-data",
   "description": "US company filings and financial facts as JSON; requires a descriptive User-Agent header.",
   "url": "https://www.sec.gov/edgar",
   "docs_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
@@ -1172,7 +1172,7 @@
  {
   "name": "World Bank Open Data",
   "slug": "world-bank-open-data",
-  "category": "open-data",
+  "category": "government-statistics",
   "description": "Development indicators for countries worldwide, available via a simple JSON API.",
   "url": "https://data.worldbank.org/",
   "docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
@@ -1250,7 +1250,7 @@
  {
   "name": "Crossref API",
   "slug": "crossref-api",
-  "category": "open-data",
+  "category": "academic-research",
   "description": "Metadata and DOIs for scholarly publications, handy for citation lookups.",
   "url": "https://www.crossref.org/",
   "docs_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
@@ -1380,7 +1380,7 @@
  {
   "name": "Vonage APIs",
   "slug": "vonage-apis",
-  "category": "comms",
+  "category": "sms-voice",
   "description": "SMS, voice and messaging APIs from Vonage for global communications.",
   "url": "https://www.vonage.com/communications-apis/",
   "docs_url": "https://developer.vonage.com",
@@ -1393,7 +1393,7 @@
  {
   "name": "Microsoft Graph",
   "slug": "microsoft-graph",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "One API for Outlook mail, Teams, calendar and files across Microsoft 365.",
   "url": "https://developer.microsoft.com/en-us/graph",
   "docs_url": "https://learn.microsoft.com/en-us/graph/overview",
@@ -1445,7 +1445,7 @@
  {
   "name": "GitHub REST API",
   "slug": "github-rest-api",
-  "category": "dev-sandbox",
+  "category": "code-hosting-apis",
   "description": "Programmatic access to repos, issues, pull requests and Actions, with token or app authentication.",
   "url": "https://docs.github.com/en/rest",
   "docs_url": "https://docs.github.com/en/rest",
@@ -1510,7 +1510,7 @@
  {
   "name": "Vercel",
   "slug": "vercel",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Platform for deploying frontends and serverless functions, with a REST API and sandbox product.",
   "url": "https://vercel.com/",
   "docs_url": "https://vercel.com/docs",
@@ -1549,7 +1549,7 @@
  {
   "name": "Supabase",
   "slug": "supabase",
-  "category": "dev-sandbox",
+  "category": "databases-backend",
   "description": "Open-source Postgres backend with auth, storage and edge functions, handy for agent app state.",
   "url": "https://supabase.com/",
   "docs_url": "https://supabase.com/docs",
@@ -1562,7 +1562,7 @@
  {
   "name": "Neon",
   "slug": "neon",
-  "category": "dev-sandbox",
+  "category": "databases-backend",
   "description": "Serverless Postgres with instant branching, popular for giving agents disposable databases.",
   "url": "https://neon.com/",
   "docs_url": "https://neon.com/docs",
@@ -1575,7 +1575,7 @@
  {
   "name": "Fly.io",
   "slug": "flyio",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Run containers close to users on fast-booting microVMs, with an API for machines.",
   "url": "https://fly.io/",
   "docs_url": "https://fly.io/docs/",
@@ -1640,7 +1640,7 @@
  {
   "name": "Shopify Admin API",
   "slug": "shopify-admin-api",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "GraphQL and REST interfaces for managing products, orders and customers in a Shopify store.",
   "url": "https://shopify.dev/docs/api/admin",
   "docs_url": "https://shopify.dev/docs/api/admin",
@@ -1757,7 +1757,7 @@
  {
   "name": "WooCommerce REST API",
   "slug": "woocommerce-rest-api",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "REST endpoints for managing products and orders in WordPress-based WooCommerce stores.",
   "url": "https://woocommerce.com/",
   "docs_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
@@ -3655,7 +3655,7 @@
  {
   "name": "SearchKit",
   "slug": "searchkit",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Searchkit - UI Widgets for Elasticsearch. React, Vue & Javascript supported",
   "url": "https://www.searchkit.co/",
   "docs_url": "https://www.searchkit.co/docs/getting-started/with-react",
@@ -3681,7 +3681,7 @@
  {
   "name": "Sphinx Search",
   "slug": "sphinx-search",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Sphinx is an open source full text search server, designed with performance, relevance (search quality), and integration simplicity in mind.",
   "url": "https://sphinxsearch.com/",
   "docs_url": "https://sphinxsearch.com/docs/",
@@ -3694,7 +3694,7 @@
  {
   "name": "ZincSearch",
   "slug": "zincsearch",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.",
   "url": "https://github.com/zincsearch/zincsearch",
   "docs_url": "https://zincsearch-docs.zinc.dev",
@@ -3707,7 +3707,7 @@
  {
   "name": "RediSearch",
   "slug": "redisearch",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggregations.",
   "url": "https://github.com/RediSearch/RediSearch",
   "docs_url": "https://redis.io/docs/latest/develop/ai/search-and-query/",
@@ -3720,7 +3720,7 @@
  {
   "name": "Whoosh",
   "slug": "whoosh",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Pure-Python full-text search library.",
   "url": "https://github.com/mchaput/whoosh",
   "docs_url": "https://github.com/mchaput/whoosh/tree/main/docs",
@@ -3746,7 +3746,7 @@
  {
   "name": "Elasticlunr.js",
   "slug": "elasticlunrjs",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Based on lunr.js, but more flexible and customized.",
   "url": "https://github.com/weixsong/elasticlunr.js",
   "docs_url": "http://elasticlunr.com/docs/index.html",
@@ -3759,7 +3759,7 @@
  {
   "name": "ElasticSearch-Python",
   "slug": "elasticsearch-python",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Official Python client for Elasticsearch.",
   "url": "https://github.com/elastic/elasticsearch-py",
   "docs_url": "https://github.com/elastic/elasticsearch-py/tree/main/docs",
@@ -3772,7 +3772,7 @@
  {
   "name": "ElasticSearch-Java",
   "slug": "elasticsearch-java",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Free and Open Source, Distributed, RESTful Search Engine",
   "url": "https://github.com/elastic/elasticsearch",
   "docs_url": "https://github.com/elastic/elasticsearch/tree/main/docs",
@@ -3785,7 +3785,7 @@
  {
   "name": "ElasticSearch-Node",
   "slug": "elasticsearch-node",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Official Elasticsearch client library for Node.js.",
   "url": "https://github.com/elastic/elasticsearch-js",
   "docs_url": "https://github.com/elastic/elasticsearch-js/tree/main/docs",
@@ -3798,7 +3798,7 @@
  {
   "name": "ElasticSearch-Ruby",
   "slug": "elasticsearch-ruby",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Ruby integrations for Elasticsearch.",
   "url": "https://github.com/elastic/elasticsearch-ruby",
   "docs_url": "https://www.elastic.co/docs/reference/elasticsearch/clients/ruby",
@@ -3811,7 +3811,7 @@
  {
   "name": "ElasticSearch-PHP",
   "slug": "elasticsearch-php",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Official PHP client for Elasticsearch.",
   "url": "https://github.com/elastic/elasticsearch-php",
   "docs_url": "https://github.com/elastic/elasticsearch-php/tree/main/docs",
@@ -3824,7 +3824,7 @@
  {
   "name": "ElasticSearch-Go",
   "slug": "elasticsearch-go",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "The official Go client for Elasticsearch.",
   "url": "https://github.com/elastic/go-elasticsearch",
   "docs_url": "https://github.com/elastic/go-elasticsearch/tree/main/docs",
@@ -3837,7 +3837,7 @@
  {
   "name": "ElasticSearch-CSharp",
   "slug": "elasticsearch-csharp",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "This strongly-typed, client library enables working with Elasticsearch. It is the official client maintained and supported by Elastic.",
   "url": "https://github.com/elastic/elasticsearch-net",
   "docs_url": "https://github.com/elastic/elasticsearch-net/tree/main/docs",
@@ -3850,7 +3850,7 @@
  {
   "name": "Meilisearch (self‑hosted)",
   "slug": "meilisearch-self-hosted",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
   "url": "https://github.com/meilisearch/meilisearch",
   "docs_url": "https://github.com/topics/api",
@@ -3863,7 +3863,7 @@
  {
   "name": "Typesense (self‑hosted)",
   "slug": "typesense-self-hosted",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search.",
   "url": "https://github.com/typesense/typesense",
   "docs_url": "https://typesense.org/docs/",
@@ -3876,7 +3876,7 @@
  {
   "name": "Elastic Enterprise Search",
   "slug": "elastic-enterprise-search",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Power ecommerce discovery, customer support, enterprise search, and AI agents with Elasticsearch. Fast, relevant, and secure. Built for production at any scale.",
   "url": "https://www.elastic.co/enterprise-search",
   "docs_url": "https://www.elastic.co/docs/manage-data ",
@@ -3889,7 +3889,7 @@
  {
   "name": "Algolia Search API",
   "slug": "algolia-search-api",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "The Algolia Search API lets you search, configure, and manage your indices and records",
   "url": "https://www.algolia.com/doc/rest-api/search",
   "docs_url": "https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding",
@@ -3902,7 +3902,7 @@
  {
   "name": "Search.io (formerly Swiftype)",
   "slug": "searchio-formerly-swiftype",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "18,000+ organizations trust Algolia to build intuitive, adaptive, high-performing experiences with a unified AI search & retrieval platform spanning agentic, generative, and search.",
   "url": "https://www.algolia.com/",
   "docs_url": "https://www.algolia.com/doc",
@@ -3915,7 +3915,7 @@
  {
   "name": "Zinc Search (self‑hosted)",
   "slug": "zinc-search-self-hosted",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.",
   "url": "https://github.com/zincsearch/zincsearch",
   "docs_url": "https://zincsearch-docs.zinc.dev",
@@ -3993,7 +3993,7 @@
  {
   "name": "Kendra (AWS) – Enterprise Search",
   "slug": "kendra-aws-enterprise-search",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Amazon Kendra offers an intelligent enterprise search solution that increases employee productivity and improves customer satisfaction.",
   "url": "https://aws.amazon.com/kendra/",
   "docs_url": "https://docs.aws.amazon.com/kendra/latest/dg/kendra-availability-change.html",
@@ -4006,7 +4006,7 @@
  {
   "name": "Azure AI Search",
   "slug": "azure-ai-search",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Explore Azure AI Search (formerly Azure Cognitive Search) to power enterprise RAG AI agents with secure, scalable knowledge retrieval from Foundry IQ.",
   "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-search/",
   "docs_url": "https://learn.microsoft.com/en-us/azure/",
@@ -4019,7 +4019,7 @@
  {
   "name": "Yext Answers API",
   "slug": "yext-answers-api",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Yext Search answers every customer question on your website — powered by your verified Knowledge Graph. No redirects. No dead ends. Intelligent answers from a…",
   "url": "https://www.yext.com/platform/search",
   "docs_url": "https://www.yext.com/platform/search",
@@ -4032,7 +4032,7 @@
  {
   "name": "Coveo Search API",
   "slug": "coveo-search-api",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Delve into Coveo Atomic, a feature-rich library that helps in constructing fast and intuitive search interfaces with a collection of reusable components.",
   "url": "https://docs.coveo.com/en/atomic/latest",
   "docs_url": "https://docs.coveo.com/en/3361/",
@@ -4045,7 +4045,7 @@
  {
   "name": "Search.io Site Search",
   "slug": "searchio-site-search",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "18,000+ organizations trust Algolia to build intuitive, adaptive, high-performing experiences with a unified AI search & retrieval platform spanning agentic, generative, and search.",
   "url": "https://www.algolia.com/",
   "docs_url": "https://www.algolia.com/doc",
@@ -4058,7 +4058,7 @@
  {
   "name": "Findify Search API",
   "slug": "findify-search-api",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Turn every search into a sale. Merchandising Cloud is ecommerce site search and merchandising software with AI-ranked search, Smart Collections, and recommendations.",
   "url": "https://findify.io/",
   "docs_url": "https://findify.io/",
@@ -4071,7 +4071,7 @@
  {
   "name": "Swiftype Site Search",
   "slug": "swiftype-site-search",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Power your website or business with fast, relevant, customizable search that takes minutes to set up, not months. Start your free trial today.",
   "url": "https://swiftype.com/site-search",
   "docs_url": "https://swiftype.com/site-search",
@@ -4084,7 +4084,7 @@
  {
   "name": "Swiftype (free tier)",
   "slug": "swiftype-free-tier",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Swiftype is a cloud-based search platform that provides all the tools you need to create fantastic search experiences.",
   "url": "https://swiftype.com/",
   "docs_url": "https://swiftype.com/",
@@ -4097,7 +4097,7 @@
  {
   "name": "DuckDuckGo (public search)",
   "slug": "duckduckgo-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.",
   "url": "https://duckduckgo.com/",
   "docs_url": "https://duckduckgo.com/",
@@ -4110,7 +4110,7 @@
  {
   "name": "Bing (public search)",
   "slug": "bing-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "Search with Microsoft Bing and use the power of AI to find information, explore webpages, images, videos, maps, and more. A smart search engine for the forever curious.",
   "url": "https://www.bing.com/",
   "docs_url": "https://www.bing.com/",
@@ -4123,7 +4123,7 @@
  {
   "name": "Google (public search)",
   "slug": "google-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.",
   "url": "https://www.google.com/",
   "docs_url": "https://www.google.com/",
@@ -4136,7 +4136,7 @@
  {
   "name": "Baidu (public search)",
   "slug": "baidu-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "全球领先的中文搜索引擎、致力于让网民更便捷地获取信息，找到所求。百度超过千亿的中文网页数据库，可以瞬间找到相关的搜索结果。",
   "url": "https://www.baidu.com/",
   "docs_url": "https://www.baidu.com/",
@@ -4149,7 +4149,7 @@
  {
   "name": "Qwant (public search)",
   "slug": "qwant-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "Fast, reliable answers and still in trust: Qwant does not store your search data, does not sell your personal data and is hosted in Europe.",
   "url": "https://www.qwant.com/",
   "docs_url": "https://www.qwant.com/",
@@ -4162,7 +4162,7 @@
  {
   "name": "Swisscows (public search)",
   "slug": "swisscows-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "With our anonymous search engine Swisscows you will find absolute security. No tracking ✓ Search anonymously ✓ Family friendly ✓ at / swisscows.com",
   "url": "https://swisscows.com/en",
   "docs_url": "https://swisscows.com/en",
@@ -4175,7 +4175,7 @@
  {
   "name": "Mojeek (public search)",
   "slug": "mojeek-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "Mojeek is a web search engine that provides unbiased, fast, and relevant search results combined with a no tracking privacy policy.",
   "url": "https://www.mojeek.com/",
   "docs_url": "https://www.mojeek.com/services/search/web-search-api/",
@@ -4188,7 +4188,7 @@
  {
   "name": "Yippy (public search)",
   "slug": "yippy-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "yippy is the umbrella publication for a curated portfolio of independent engines, each one edited to a single, consistent editorial standard.",
   "url": "https://yippy.com/",
   "docs_url": "https://yippy.com/",
@@ -4201,7 +4201,7 @@
  {
   "name": "Dogpile (public search)",
   "slug": "dogpile-public-search",
-  "category": "search-apis",
+  "category": "web-search-engines",
   "description": "Dogpile is a powerful search engine that helps you find more of what you love.",
   "url": "https://www.dogpile.com/",
   "docs_url": "https://www.dogpile.com/",
@@ -4227,7 +4227,7 @@
  {
   "name": "Lunr.js (client-side search)",
   "slug": "lunrjs-client-side-search",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "A bit like Solr, but much smaller and not as bright",
   "url": "https://github.com/olivernn/lunr.js",
   "docs_url": "https://lunrjs.com/docs/index.html",
@@ -4240,7 +4240,7 @@
  {
   "name": "ElasticSearch REST API (free tier)",
   "slug": "elasticsearch-rest-api-free-tier",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Elasticsearch exposes REST APIs that are used by the UI components and can be called directly to configure and access Elasticsearch features. For API...",
   "url": "https://www.elastic.co/docs/reference/elasticsearch/rest-apis",
   "docs_url": "https://www.elastic.co/docs",
@@ -4253,7 +4253,7 @@
  {
   "name": "Meilisearch REST API (free tier)",
   "slug": "meilisearch-rest-api-free-tier",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "How to authenticate with the Meilisearch API using API keys and the Authorization header.",
   "url": "https://www.meilisearch.com/docs/reference/api/authorization",
   "docs_url": "https://www.meilisearch.com/docs/llms.txt",
@@ -4266,7 +4266,7 @@
  {
   "name": "Typesense REST API (free tier)",
   "slug": "typesense-rest-api-free-tier",
-  "category": "search-apis",
+  "category": "site-search-engines",
   "description": "Typesense documentation helps developers install, configure, and use Typesense to build fast, typo-tolerant search experiences for applications.",
   "url": "https://typesense.org/docs/0.24.0/api/",
   "docs_url": "https://typesense.org/docs/30.2/api/",
@@ -4383,7 +4383,7 @@
  {
   "name": "Apache Nutch",
   "slug": "apache-nutch",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Nutch is a highly extensible, highly scalable, matured, production-ready Web crawler which enables fine grained configuration and accomodates a wide variety of data acquisition tasks.",
   "url": "https://nutch.apache.org/",
   "docs_url": "https://nutch.apache.org/",
@@ -4396,7 +4396,7 @@
  {
   "name": "Crawlab",
   "slug": "crawlab",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Distributed web crawler admin platform for spiders management regardless of languages and frameworks. 分布式爬虫管理平台，支持任何语言和框架",
   "url": "https://github.com/crawlab-team/crawlab",
   "docs_url": "https://github.com/crawlab-team/crawlab/tree/main/docs",
@@ -4409,7 +4409,7 @@
  {
   "name": "IPRoyal",
   "slug": "iproyal",
-  "category": "scraping-browsing",
+  "category": "proxy-services",
   "description": "Get a proxy service provider without contracts, non-expiring traffic, and easy self-service.",
   "url": "https://iproyal.com/",
   "docs_url": "https://docs.iproyal.com/proxies/residential/",
@@ -4422,7 +4422,7 @@
  {
   "name": "Proxy-Seller",
   "slug": "proxy-seller",
-  "category": "scraping-browsing",
+  "category": "proxy-services",
   "description": "Buy proxy - private residential, ISP, datacenter IPv4/IPv6, and rotating mobile 4G/5G proxies from $0.75 for social media, online gaming, SEO and other purposes",
   "url": "https://proxy-seller.com/",
   "docs_url": "https://docs.proxy-seller.com/",
@@ -4435,7 +4435,7 @@
  {
   "name": "Webshare",
   "slug": "webshare",
-  "category": "scraping-browsing",
+  "category": "proxy-services",
   "description": "Rotating residential, static ISP, and datacenter proxies with a full API. 80M+ IPs, 195+ countries, 100+ Gbps backbone. Start with 10 free proxies, no credit card.",
   "url": "https://www.webshare.io/",
   "docs_url": "https://apidocs.webshare.io/",
@@ -4448,7 +4448,7 @@
  {
   "name": "Kookeey",
   "slug": "kookeey",
-  "category": "scraping-browsing",
+  "category": "proxy-services",
   "description": "kookeey是全球HTTP企业级代理IP服务商,为客户提供全球海外代理IP,动态住宅代理IP,静态住宅代理IP,全球HTTP代理,socks5代理IP等代理IP服务,拥有全球200+国家地区的私有住宅IP资源,满足您代理IP的需求",
   "url": "https://www.kookeey.com/",
   "docs_url": "https://www.kookeey.com/",
@@ -4461,7 +4461,7 @@
  {
   "name": "Decodo",
   "slug": "decodo",
-  "category": "scraping-browsing",
+  "category": "proxy-services",
   "description": "125M+ residential, mobile, ISP & datacenter proxies, plus a powerful Web Data API. Collect public web data at scale with 99.99% uptime. Start with Decodo today.",
   "url": "https://decodo.com/",
   "docs_url": "https://help.decodo.com/docs/python-sdk",
@@ -4526,7 +4526,7 @@
  {
   "name": "2Captcha",
   "slug": "2captcha",
-  "category": "scraping-browsing",
+  "category": "captcha-solvers",
   "description": "Fastest online captcha solving service starting at just $1 for 1,000 captchas. Service supports APIs including PHP, Python, C++, JAVA, C#, and JavaScript, ensuring seamless integration with.",
   "url": "https://2captcha.com/",
   "docs_url": "https://2captcha.com/api-docs",
@@ -4539,7 +4539,7 @@
  {
   "name": "Anti-Captcha",
   "slug": "anti-captcha",
-  "category": "scraping-browsing",
+  "category": "captcha-solvers",
   "description": "Bypass reCaptcha, image captcha, and others for the cheapest price",
   "url": "https://anti-captcha.com/",
   "docs_url": "https://anti-captcha.com/apidoc",
@@ -4552,7 +4552,7 @@
  {
   "name": "CapMonster",
   "slug": "capmonster",
-  "category": "scraping-browsing",
+  "category": "captcha-solvers",
   "description": "CapMonster Cloud is a fast CAPTCHA solver and automatic solving service. This AI-powered tool supports reCAPTCHA, GeeTest, Cloudflare, and more.",
   "url": "https://capmonster.cloud/en/",
   "docs_url": "https://docs.capmonster.cloud/docs/captchas/recaptcha-v3-enterprise-task?theme=light",
@@ -4578,7 +4578,7 @@
  {
   "name": "turndown",
   "slug": "turndown",
-  "category": "scraping-browsing",
+  "category": "content-extraction",
   "description": "🛏 An HTML to Markdown converter written in JavaScript",
   "url": "https://github.com/mixmark-io/turndown",
   "docs_url": "https://github.com/mixmark-io/turndown",
@@ -4617,7 +4617,7 @@
  {
   "name": "undetected-chromedriver",
   "slug": "undetected-chromedriver",
-  "category": "scraping-browsing",
+  "category": "browser-automation",
   "description": "Custom Selenium Chromedriver / Zero-Config / Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)",
   "url": "https://github.com/ultrafunkamsterdam/undetected-chromedriver",
   "docs_url": "https://github.com/ultrafunkamsterdam/undetected-chromedriver",
@@ -4630,7 +4630,7 @@
  {
   "name": "Patchright",
   "slug": "patchright",
-  "category": "scraping-browsing",
+  "category": "browser-automation",
   "description": "Undetected version of the Playwright testing and automation library.",
   "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
   "docs_url": "https://scrappey.com/docs?utm_source=patchright&utm_medium=github&utm_campaign=repo_readme",
@@ -4643,7 +4643,7 @@
  {
   "name": "HAProxy",
   "slug": "haproxy",
-  "category": "scraping-browsing",
+  "category": "proxy-services",
   "description": "Reliable, High Performance TCP/HTTP Load Balancer",
   "url": "https://www.haproxy.org/",
   "docs_url": "http://docs.haproxy.org/",
@@ -4656,7 +4656,7 @@
  {
   "name": "Colly",
   "slug": "colly",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Elegant Scraper and Crawler Framework for Golang.",
   "url": "https://github.com/gocolly/colly",
   "docs_url": "https://github.com/gocolly/colly",
@@ -4669,7 +4669,7 @@
  {
   "name": "Goutte",
   "slug": "goutte",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Goutte, a simple PHP Web Scraper.",
   "url": "https://github.com/FriendsOfPHP/Goutte",
   "docs_url": "https://github.com/FriendsOfPHP/Goutte",
@@ -4682,7 +4682,7 @@
  {
   "name": "Newspaper3k",
   "slug": "newspaper3k",
-  "category": "scraping-browsing",
+  "category": "content-extraction",
   "description": "newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:",
   "url": "https://github.com/codelucas/newspaper",
   "docs_url": "https://github.com/codelucas/newspaper/tree/master/docs",
@@ -4708,7 +4708,7 @@
  {
   "name": "Scrapy-Selenium",
   "slug": "scrapy-selenium",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Scrapy middleware to handle javascript pages using selenium",
   "url": "https://github.com/clemfromspace/scrapy-selenium",
   "docs_url": "http://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.webdriver",
@@ -4721,7 +4721,7 @@
  {
   "name": "Headless Chrome",
   "slug": "headless-chrome",
-  "category": "scraping-browsing",
+  "category": "browser-automation",
   "description": "JavaScript API for Chrome and Firefox.",
   "url": "https://github.com/puppeteer/puppeteer",
   "docs_url": "https://github.com/puppeteer/puppeteer/tree/main/docs",
@@ -4734,7 +4734,7 @@
  {
   "name": "Headless Firefox",
   "slug": "headless-firefox",
-  "category": "scraping-browsing",
+  "category": "browser-automation",
   "description": "WebDriver Classic proxy for automating Firefox through Marionette",
   "url": "https://github.com/mozilla/geckodriver",
   "docs_url": "https://firefox-source-docs.mozilla.org/testing/geckodriver/",
@@ -4747,7 +4747,7 @@
  {
   "name": "Scrapy-Selector",
   "slug": "scrapy-selector",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
   "url": "https://github.com/scrapy/scrapy",
   "docs_url": "https://github.com/scrapy/scrapy/tree/master/docs",
@@ -4760,7 +4760,7 @@
  {
   "name": "ScrapeStorm",
   "slug": "scrapestorm",
-  "category": "scraping-browsing",
+  "category": "no-code-scrapers",
   "description": "AI-Powered visual website scraper, which can be used to extract data from almost any websites without writing any code. Support all operating systems. Try it for free!",
   "url": "https://www.scrapestorm.com/",
   "docs_url": "https://www.scrapestorm.com/",
@@ -4773,7 +4773,7 @@
  {
   "name": "Octoparse",
   "slug": "octoparse",
-  "category": "scraping-browsing",
+  "category": "no-code-scrapers",
   "description": "No-code web scraping for your business or AI. Turn any URL into clean, structured data with ready-to-run scrapers or build your own. Start free.",
   "url": "https://www.octoparse.com/",
   "docs_url": "https://www.octoparse.com/",
@@ -4786,7 +4786,7 @@
  {
   "name": "HeadlessHQ",
   "slug": "headlesshq",
-  "category": "scraping-browsing",
+  "category": "browser-automation",
   "description": "AI agents for marketing and M&A diligence, coordinated by HQ, asking your approval by default before they publish or launch.",
   "url": "https://headlesshq.com/",
   "docs_url": "https://headlesshq.com/",
@@ -4799,7 +4799,7 @@
  {
   "name": "Cheerio",
   "slug": "cheerio",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "The fast, flexible & elegant library for parsing and manipulating HTML and XML.",
   "url": "https://cheerio.js.org/",
   "docs_url": "https://cheerio.js.org/docs/intro/",
@@ -4812,7 +4812,7 @@
  {
   "name": "Jsoup",
   "slug": "jsoup",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Open source Java HTML parser, with the best of HTML5 DOM methods and CSS selectors, for easy data extraction.",
   "url": "https://jsoup.org/",
   "docs_url": "https://jsoup.org/",
@@ -4825,7 +4825,7 @@
  {
   "name": "WebScraper.io",
   "slug": "webscraperio",
-  "category": "scraping-browsing",
+  "category": "no-code-scrapers",
   "description": "Enterprise web scraping infrastructure for engineering teams, with API access, proxy management, anti-bot handling, and scalable data extraction.",
   "url": "https://webscraper.io/",
   "docs_url": "https://webscraper.io/",
@@ -4838,7 +4838,7 @@
  {
   "name": "Free Proxy List",
   "slug": "free-proxy-list",
-  "category": "scraping-browsing",
+  "category": "proxy-services",
   "description": "Here are the latest 300 free proxies that are just checked and added into our proxy list. The proxy list is updated every 10 minutes to keep fresh.",
   "url": "https://free-proxy-list.net/",
   "docs_url": "https://free-proxy-list.net/",
@@ -4851,7 +4851,7 @@
  {
   "name": "ProxyScrape",
   "slug": "proxyscrape",
-  "category": "scraping-browsing",
+  "category": "proxy-services",
   "description": "Free proxy list with thousands of HTTP, HTTPS, SOCKS4 and SOCKS5 proxies across 180+ countries. Verified by automated checkers and refreshed every minute.",
   "url": "https://proxyscrape.com/free-proxy-list",
   "docs_url": "https://docs.proxyscrape.com/",
@@ -4877,7 +4877,7 @@
  {
   "name": "MechanicalSoup (Python)",
   "slug": "mechanicalsoup-python",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "A Python library for automating interaction with websites.",
   "url": "https://github.com/MechanicalSoup/MechanicalSoup",
   "docs_url": "http://mechanicalsoup.readthedocs.io/en/stable/",
@@ -4890,7 +4890,7 @@
  {
   "name": "Requests-HTML",
   "slug": "requests-html",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Pythonic HTML Parsing for Humans™.",
   "url": "https://github.com/psf/requests-html",
   "docs_url": "https://github.com/psf/requests-html/tree/master/docs",
@@ -4903,7 +4903,7 @@
  {
   "name": "Headless Chrome (via Chrome DevTools)",
   "slug": "headless-chrome-via-chrome-devtools",
-  "category": "scraping-browsing",
+  "category": "browser-automation",
   "description": "Remote debug live content on an Android device from a Windows, Mac, or Linux computer.",
   "url": "https://developer.chrome.com/docs/devtools/remote-debugging/",
   "docs_url": "https://developer.chrome.com/docs",
@@ -4916,7 +4916,7 @@
  {
   "name": "WebCopy (Cyotek)",
   "slug": "webcopy-cyotek",
-  "category": "scraping-browsing",
+  "category": "no-code-scrapers",
   "description": "Cyotek WebCopy is a free tool for automatically downloading the content of a website onto your local device. WebCopy will scan the specified website and download its content.",
   "url": "https://www.cyotek.com/cyotek-webcopy",
   "docs_url": "https://docs.cyotek.com/cyowcopy/current/",
@@ -4929,7 +4929,7 @@
  {
   "name": "HTTrack Website Copier",
   "slug": "httrack-website-copier",
-  "category": "scraping-browsing",
+  "category": "no-code-scrapers",
   "description": "HTTrack is a free (GPL, libre/free software) and easy-to-use offline browser utility.",
   "url": "https://www.httrack.com/",
   "docs_url": "https://www.httrack.com/",
@@ -4942,7 +4942,7 @@
  {
   "name": "Node-fetch",
   "slug": "node-fetch",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "A light-weight module that brings the Fetch API to Node.js",
   "url": "https://github.com/node-fetch/node-fetch",
   "docs_url": "https://github.com/node-fetch/node-fetch",
@@ -4955,7 +4955,7 @@
  {
   "name": "Axios",
   "slug": "axios",
-  "category": "scraping-browsing",
+  "category": "scraping-libraries",
   "description": "Documentation for the axios HTTP project",
   "url": "https://axios.rest/",
   "docs_url": "https://axios.rest/pages/advanced/api-reference",
@@ -4968,7 +4968,7 @@
  {
   "name": "Data Miner (Chrome Extension)",
   "slug": "data-miner-chrome-extension",
-  "category": "scraping-browsing",
+  "category": "no-code-scrapers",
   "description": "Scrape data from any website and import it into Excel, CSV or Google spreadsheets. Works on social media sites, Zoominfo, Zillow, Yellow Pages, Yelp, Indeed and more.",
   "url": "https://dataminer.io",
   "docs_url": "https://dataminer.io",
@@ -4994,7 +4994,7 @@
  {
   "name": "Browse AI",
   "slug": "browse-ai",
-  "category": "scraping-browsing",
+  "category": "no-code-scrapers",
   "description": "Easily scrape web data, monitor webpage changes, and turn websites into APIs with Browse AI.",
   "url": "https://www.browse.ai/",
   "docs_url": "https://www.browse.ai/docs/api/v2",
@@ -6398,7 +6398,7 @@
  {
   "name": "Open Data Network",
   "slug": "open-data-network",
-  "category": "open-data",
+  "category": "open-data-portals",
   "description": "Find the data you need to power your business, app, or analysis from across the open data ecosystem.",
   "url": "https://www.opendatanetwork.com/",
   "docs_url": "https://www.opendatanetwork.com/",
@@ -6411,7 +6411,7 @@
  {
   "name": "Open Data Portal (EU)",
   "slug": "open-data-portal-eu",
-  "category": "open-data",
+  "category": "open-data-portals",
   "description": "Discover the single point of access to open data from European countries, EU institutions, agencies and bodies and other European countries.",
   "url": "https://data.europa.eu/",
   "docs_url": "https://data.europa.eu/",
@@ -6424,7 +6424,7 @@
  {
   "name": "US Census Bureau API",
   "slug": "us-census-bureau-api",
-  "category": "open-data",
+  "category": "government-statistics",
   "description": "We plan on adding all of our publicly available data sets. Here you'll find which of our many data sets are currently available via API.",
   "url": "https://www.census.gov/data/developers/data-sets.html",
   "docs_url": "https://www.census.gov/data/developers/data-sets.html",
@@ -6437,7 +6437,7 @@
  {
   "name": "US National Oceanic and Atmospheric Administration (NOAA) API",
   "slug": "us-national-oceanic-and-atmospheric-administration-noaa-api",
-  "category": "open-data",
+  "category": "environment-hazards",
   "description": "Currently available Web Services from Climate Data Online (CDO).",
   "url": "https://www.ncdc.noaa.gov/cdo-web/webservices/v2",
   "docs_url": "https://www.ncdc.noaa.gov/cdo-web/webservices/v2",
@@ -6463,7 +6463,7 @@
  {
   "name": "USGS Earthquake Hazards Program",
   "slug": "usgs-earthquake-hazards-program",
-  "category": "open-data",
+  "category": "environment-hazards",
   "description": "USGS Earthquake Hazards Program, responsible for monitoring, reporting, and researching earthquakes and earthquake hazards",
   "url": "https://earthquake.usgs.gov/",
   "docs_url": "https://earthquake.usgs.gov/",
@@ -6528,7 +6528,7 @@
  {
   "name": "Data.gov Catalog API",
   "slug": "datagov-catalog-api",
-  "category": "open-data",
+  "category": "government-statistics",
   "description": "Main repository for the data.gov service.",
   "url": "https://github.com/GSA/data.gov",
   "docs_url": "https://github.com/GSA/data.gov/tree/main/docs",
@@ -6567,7 +6567,7 @@
  {
   "name": "FAO Stat API",
   "slug": "fao-stat-api",
-  "category": "open-data",
+  "category": "government-statistics",
   "description": "FAOSTAT provides free access to food and agriculture data for over 245 countries and territories and covers all FAO regional groupings from 1961 to the most recent year available.",
   "url": "https://www.fao.org/faostat/en/",
   "docs_url": "https://www.fao.org/faostat/en/",
@@ -6580,7 +6580,7 @@
  {
   "name": "Open Climate Data (Copernicus) API",
   "slug": "open-climate-data-copernicus-api",
-  "category": "open-data",
+  "category": "environment-hazards",
   "description": "Python API to access the Copernicus Climate Data Store (CDS) - GitHub - ecmwf/cdsapi: Python API to access the Copernicus Climate Data Store (CDS)",
   "url": "https://github.com/ecmwf/cdsapi",
   "docs_url": "https://github.com/ecmwf/cdsapi",
@@ -6606,7 +6606,7 @@
  {
   "name": "Open Library API",
   "slug": "open-library-api",
-  "category": "open-data",
+  "category": "knowledge-bases",
   "description": "One webpage for every book ever published!",
   "url": "https://github.com/internetarchive/openlibrary",
   "docs_url": "https://github.com/internetarchive/openlibrary/tree/master/docs",
@@ -6645,7 +6645,7 @@
  {
   "name": "Open Data Portal of the City of Barcelona",
   "slug": "open-data-portal-of-the-city-of-barcelona",
-  "category": "open-data",
+  "category": "open-data-portals",
   "description": "Please prove that you are Human before accessing this website",
   "url": "https://opendata-ajuntament.barcelona.cat/challenge",
   "docs_url": "https://opendata-ajuntament.barcelona.cat/challenge",
@@ -6658,7 +6658,7 @@
  {
   "name": "Open Data Portal of Singapore (Data.gov.sg)",
   "slug": "open-data-portal-of-singapore-datagovsg",
-  "category": "open-data",
+  "category": "open-data-portals",
   "description": "Singapore's open data platform - making data discoverable, understandable, and usable.",
   "url": "https://data.gov.sg/",
   "docs_url": "https://data.gov.sg/",
@@ -6671,7 +6671,7 @@
  {
   "name": "Open Data Portal of the City of Helsinki (Helsinki Region Transport)",
   "slug": "open-data-portal-of-the-city-of-helsinki-helsinki-region-transport",
-  "category": "open-data",
+  "category": "open-data-portals",
   "description": "HSL Developer Community of Helsinki Regional Transport Authority @HSL_HRT // HSL Kehittäjäyhteisö",
   "url": "https://x.com/HSLdevcom",
   "docs_url": "https://x.com/HSLdevcom",
@@ -6710,7 +6710,7 @@
  {
   "name": "US Census Bureau API (no key)",
   "slug": "us-census-bureau-api-no-key",
-  "category": "open-data",
+  "category": "government-statistics",
   "description": "Developer portal to access services and documentation for the Census Bureau's APIs.",
   "url": "https://www.census.gov/data/developers.html",
   "docs_url": "https://www.census.gov/data/developers.html",
@@ -6723,7 +6723,7 @@
  {
   "name": "US Bureau of Labor Statistics API (no key)",
   "slug": "us-bureau-of-labor-statistics-api-no-key",
-  "category": "open-data",
+  "category": "government-statistics",
   "description": "The Bureau of Labor Statistics is the principal fact-finding agency for the Federal Government in the broad field of labor economics and statistics.",
   "url": "https://www.bls.gov/",
   "docs_url": "https://www.bls.gov/",
@@ -6736,7 +6736,7 @@
  {
   "name": "NASA Earth Observations",
   "slug": "nasa-earth-observations",
-  "category": "open-data",
+  "category": "environment-hazards",
   "description": "NASA's Near-Earth Object (NEO) web-site. Data related to Earth impact risk, close-approaches, and much more.",
   "url": "https://cneos.jpl.nasa.gov",
   "docs_url": "https://cneos.jpl.nasa.gov",
@@ -6775,7 +6775,7 @@
  {
   "name": "Common Data IO – Awesome Open Data Software",
   "slug": "common-data-io-awesome-open-data-software",
-  "category": "open-data",
+  "category": "open-data-portals",
   "description": "Awesome list of the software tools related to opendata: data catalogs, ingestion tools, data prep tools and so on",
   "url": "https://github.com/commondataio/awesome-opendata-software",
   "docs_url": "https://docs.unidata.ucar.edu/tds/4.6/adminguide/index.html",
@@ -6788,7 +6788,7 @@
  {
   "name": "Open Data Discovery – Awesome Data Catalogs",
   "slug": "open-data-discovery-awesome-data-catalogs",
-  "category": "open-data",
+  "category": "open-data-portals",
   "description": "📙 Awesome Data Catalogs and Observability Platforms. - GitHub - opendatadiscovery/awesome-data-catalogs: 📙 Awesome Data Catalogs and Observability Platforms.",
   "url": "https://github.com/opendatadiscovery/awesome-data-catalogs",
   "docs_url": "https://github.com/opendatadiscovery/awesome-data-catalogs",
@@ -6801,7 +6801,7 @@
  {
   "name": "Public APIs Directory",
   "slug": "public-apis-directory",
-  "category": "open-data",
+  "category": "api-marketplaces",
   "description": "A collection of public APIs for developers, categorized and crowdsourced. Animals, books, cryptocurrencies, development, music, weather and much more.",
   "url": "https://publicapis.dev/",
   "docs_url": "https://publicapis.dev/",
@@ -6814,7 +6814,7 @@
  {
   "name": "Slack",
   "slug": "slack",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Boost productivity and save time with Slack‌ — ‌the AI work platform for managing projects, automating workflows, and connecting teams securely. Start working smarter today.",
   "url": "https://slack.com/",
   "docs_url": "https://slack.com/",
@@ -6827,7 +6827,7 @@
  {
   "name": "Discord",
   "slug": "discord",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.",
   "url": "https://discord.com/",
   "docs_url": "https://discord.com/",
@@ -6840,7 +6840,7 @@
  {
   "name": "WhatsApp Business API",
   "slug": "whatsapp-business-api",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Grow customer engagement, marketing, sales and customer service success with business messaging on the platform with more than 2 billion users around the world.",
   "url": "https://whatsappbusiness.com/",
   "docs_url": "https://whatsappbusiness.com/",
@@ -6853,7 +6853,7 @@
  {
   "name": "Twilio Programmable Messaging",
   "slug": "twilio-programmable-messaging",
-  "category": "comms",
+  "category": "sms-voice",
   "description": "Build deeper customer relationships with Twilio's business texting services. Use enterprise-ready messaging APIs and software powered by a global network.",
   "url": "https://www.twilio.com/en-us/messaging",
   "docs_url": "https://www.twilio.com/en-us/messaging",
@@ -6866,7 +6866,7 @@
  {
   "name": "SendBird",
   "slug": "sendbird",
-  "category": "comms",
+  "category": "chat-sdks",
   "description": "Engage your customers and improve customer loyalty with an AI customer experience platform trusted by enterprises worldwide.",
   "url": "https://sendbird.com/",
   "docs_url": "https://sendbird.com/",
@@ -6879,7 +6879,7 @@
  {
   "name": "Pusher Beams",
   "slug": "pusher-beams",
-  "category": "comms",
+  "category": "push-notifications",
   "description": "A push notifications API for developers who need critical information delivered every time. Scalable delivery for all your apps with no complex integration.",
   "url": "https://pusher.com/beams/",
   "docs_url": "https://pusher.com/docs",
@@ -6892,7 +6892,7 @@
  {
   "name": "Firebase Cloud Messaging",
   "slug": "firebase-cloud-messaging",
-  "category": "comms",
+  "category": "push-notifications",
   "description": "Discover Firebase, Google’s mobile and web app development platform that helps developers build apps and games that users will love.",
   "url": "https://firebase.google.com/products/cloud-messaging",
   "docs_url": "https://firebase.google.com/products/cloud-messaging",
@@ -6905,7 +6905,7 @@
  {
   "name": "OneSignal",
   "slug": "onesignal",
-  "category": "comms",
+  "category": "push-notifications",
   "description": "The world's leader for mobile push notifications, web push, SMS, email and in-app messaging. Trusted by 2 million+ businesses to send 12 billion+ messages per…",
   "url": "https://onesignal.com/",
   "docs_url": "https://documentation.onesignal.com/docs/android-sdk-setup",
@@ -6918,7 +6918,7 @@
  {
   "name": "Intercom",
   "slug": "intercom",
-  "category": "comms",
+  "category": "live-chat-support",
   "description": "Intercom is the only helpdesk with a natively integrated AI Agent, Fin, meaning every customer conversation improves the next one, enabling perfect experiences that were never possible.",
   "url": "https://www.intercom.com/",
   "docs_url": "https://www.intercom.com/",
@@ -6931,7 +6931,7 @@
  {
   "name": "Zendesk Chat",
   "slug": "zendesk-chat",
-  "category": "comms",
+  "category": "live-chat-support",
   "description": "Compare 11 live chat software platforms for customer support. Review pricing, features, AI capabilities, integrations, and pros and cons to find the right fit.",
   "url": "https://www.zendesk.com/chat",
   "docs_url": "https://www.zendesk.com/chat",
@@ -6944,7 +6944,7 @@
  {
   "name": "Tawk.to",
   "slug": "tawkto",
-  "category": "comms",
+  "category": "live-chat-support",
   "description": "One free inbox for all your customer channels. Live chat, ticketing, knowledge base, AI assist, and CRM — all in one place. Trusted by 6M+ businesses.",
   "url": "https://www.tawk.to/",
   "docs_url": "https://www.tawk.to/",
@@ -6957,7 +6957,7 @@
  {
   "name": "LiveChat",
   "slug": "livechat",
-  "category": "comms",
+  "category": "live-chat-support",
   "description": "Text is live chat software for your website with an AI Agent that answers 24/7. Qualify leads and track sales from chats. Start your free 14-day trial.",
   "url": "https://www.livechat.com/",
   "docs_url": "https://www.livechat.com/",
@@ -6970,7 +6970,7 @@
  {
   "name": "Olark",
   "slug": "olark",
-  "category": "comms",
+  "category": "live-chat-support",
   "description": "Built for the marketer doing five jobs at once — Olark's AI agent answers questions, qualifies visitors, and knows exactly when to bring in a human.",
   "url": "https://www.olark.com/",
   "docs_url": "https://www.olark.com/",
@@ -6996,7 +6996,7 @@
  {
   "name": "Rocket.Chat",
   "slug": "rocketchat",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "Messaging, voice, video, apps, and AI that connect you with allies and partners on any system. Deployed anywhere, entirely under your control.",
   "url": "https://www.rocket.chat/",
   "docs_url": "https://www.rocket.chat/",
@@ -7009,7 +7009,7 @@
  {
   "name": "Mattermost",
   "slug": "mattermost",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "Zero-trust collaboration, automation and AI in private cloud, self-hosted, and air-gapped environments. Built for national security, critical infrastructure, and regulated enterprises.",
   "url": "https://mattermost.com/",
   "docs_url": "https://docs.mattermost.com",
@@ -7022,7 +7022,7 @@
  {
   "name": "Signal",
   "slug": "signal",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Say \"hello\" to a different messaging experience. An unexpected focus on privacy, combined with all of the features you expect.",
   "url": "https://signal.org/",
   "docs_url": "https://signal.org/",
@@ -7035,7 +7035,7 @@
  {
   "name": "Viber Business API",
   "slug": "viber-business-api",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Learn more about Viber for Business products and offerings: advertising, stickers, chatbots and Business Messages.",
   "url": "https://www.forbusiness.viber.com/en/",
   "docs_url": "https://www.forbusiness.viber.com/en/",
@@ -7048,7 +7048,7 @@
  {
   "name": "Zulip",
   "slug": "zulip",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "Zulip server and web application. Open-source team chat that helps teams stay productive and focused.",
   "url": "https://github.com/zulip/zulip",
   "docs_url": "https://github.com/zulip/zulip/tree/main/docs",
@@ -7061,7 +7061,7 @@
  {
   "name": "Matrix Synapse",
   "slug": "matrix-synapse",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "Synapse: Matrix homeserver written in Python/Twisted.",
   "url": "https://github.com/matrix-org/synapse",
   "docs_url": "https://github.com/matrix-org/synapse/tree/develop/docs",
@@ -7074,7 +7074,7 @@
  {
   "name": "Element (formerly Riot)",
   "slug": "element-formerly-riot",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "A glossy Matrix collaboration client for the web.",
   "url": "https://github.com/element-hq/element-web",
   "docs_url": "https://github.com/element-hq/element-web/tree/develop/docs",
@@ -7087,7 +7087,7 @@
  {
   "name": "Jitsi Meet",
   "slug": "jitsi-meet",
-  "category": "comms",
+  "category": "video-conferencing-oss",
   "description": "Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.",
   "url": "https://github.com/jitsi/jitsi-meet",
   "docs_url": "https://jitsi.github.io/handbook/docs/devops-guide/",
@@ -7100,7 +7100,7 @@
  {
   "name": "Jitsi Videobridge",
   "slug": "jitsi-videobridge",
-  "category": "comms",
+  "category": "video-conferencing-oss",
   "description": "Jitsi Videobridge is a WebRTC compatible video router or SFU that lets build highly scalable video conferencing infrastructure (i.e., up to hundreds of conferences per server).",
   "url": "https://github.com/jitsi/jitsi-videobridge",
   "docs_url": "https://github.com/jitsi/jitsi-videobridge",
@@ -7113,7 +7113,7 @@
  {
   "name": "Rocket.Chat Mobile",
   "slug": "rocketchat-mobile",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "The Secure CommsOS™ for mission-critical operations",
   "url": "https://github.com/RocketChat/Rocket.Chat.ReactNative",
   "docs_url": "https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/develop/docs",
@@ -7139,7 +7139,7 @@
  {
   "name": "Wire",
   "slug": "wire",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "Collaborate without compromise with Wire, the trusted platform for millions worldwide.",
   "url": "https://wire.com/en/",
   "docs_url": "https://wire.com/en/",
@@ -7152,7 +7152,7 @@
  {
   "name": "Keybase Chat",
   "slug": "keybase-chat",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "chat is now on Keybase, an open source app for encryption and cryptography.",
   "url": "https://keybase.io/chat",
   "docs_url": "https://keybase.io/docs",
@@ -7165,7 +7165,7 @@
  {
   "name": "Signal Private Messenger API (Signal Service)",
   "slug": "signal-private-messenger-api-signal-service",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Specifications and software libraries for developers.",
   "url": "https://signal.org/docs/",
   "docs_url": "https://signal.org/docs/specifications/xeddsa/",
@@ -7178,7 +7178,7 @@
  {
   "name": "Threema Work",
   "slug": "threema-work",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "Threema Work is the privacy-first communication solution for secure business messaging, confidentiality, compliance, and data protection.",
   "url": "https://threema.com/en/products/work",
   "docs_url": "https://threema.com/en/products/work",
@@ -7191,7 +7191,7 @@
  {
   "name": "Microsoft Teams Bot Framework",
   "slug": "microsoft-teams-bot-framework",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Learn about bots and the application of bots across industry, and build familiarity with bots in Teams environment and bot development SDKs and libraries.",
   "url": "https://learn.microsoft.com/en-us/previous-versions/microsoftteams/platform/bots/overview",
   "docs_url": "https://learn.microsoft.com/en-us/previous-versions/microsoftteams/platform/bots/overview",
@@ -7204,7 +7204,7 @@
  {
   "name": "Google Chat API",
   "slug": "google-chat-api",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Build on the Chat platform to streamline interactions and workflows across teams.",
   "url": "https://developers.google.com/workspace/chat",
   "docs_url": "https://developers.google.com/workspace/chat",
@@ -7217,7 +7217,7 @@
  {
   "name": "Viber Public Accounts API",
   "slug": "viber-public-accounts-api",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Viber lets everyone in the world connect. Freely. Millions of Viber users call, text, and send photos to each other, worldwide - for free.",
   "url": "https://developers.viber.com/docs/api/",
   "docs_url": "https://developers.viber.com/docs/",
@@ -7230,7 +7230,7 @@
  {
   "name": "Tox (decentralized chat)",
   "slug": "tox-decentralized-chat",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "Whether it's corporations or governments, there's just too much digital spying going on today.",
   "url": "https://tox.chat/",
   "docs_url": "https://tox.chat/",
@@ -7243,7 +7243,7 @@
  {
   "name": "Rocket.Chat Apps Engine",
   "slug": "rocketchat-apps-engine",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "The Rocket.Chat Apps engine and definitions.",
   "url": "https://github.com/RocketChat/Rocket.Chat.Apps-engine",
   "docs_url": "https://github.com/RocketChat/Rocket.Chat.Apps-engine/tree/alpha/docs",
@@ -7256,7 +7256,7 @@
  {
   "name": "Mattermost Plugin API",
   "slug": "mattermost-plugin-api",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "A hackathon project to explore reworking the Mattermost Plugin API.",
   "url": "https://github.com/mattermost/mattermost-plugin-api",
   "docs_url": "https://github.com/mattermost/mattermost-plugin-api",
@@ -7269,7 +7269,7 @@
  {
   "name": "Glip by RingCentral",
   "slug": "glip-by-ringcentral",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "AI-powered messaging for seamless collaboration for every team. Chat, video, file sharing, and task management in one platform. Try it for free.",
   "url": "https://www.ringcentral.com/teams/overview.html",
   "docs_url": "https://www.ringcentral.com/teams/overview.html",
@@ -7282,7 +7282,7 @@
  {
   "name": "Mumble (voice chat)",
   "slug": "mumble-voice-chat",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "Mumble is a free, open source, low latency, high quality voice chat application.",
   "url": "https://www.mumble.info/",
   "docs_url": "https://www.mumble.info/",
@@ -7295,7 +7295,7 @@
  {
   "name": "Rocket.Chat Livechat",
   "slug": "rocketchat-livechat",
-  "category": "comms",
+  "category": "live-chat-support",
   "description": "New Livechat client written in Preact.",
   "url": "https://github.com/RocketChat/Rocket.Chat.Livechat",
   "docs_url": "https://github.com/RocketChat/Rocket.Chat.Livechat",
@@ -7308,7 +7308,7 @@
  {
   "name": "Pushwoosh",
   "slug": "pushwoosh",
-  "category": "comms",
+  "category": "push-notifications",
   "description": "All-in-one customer engagement platform: omnichannel messaging, actionable CDP, advanced segmentation & automation. Turn customer data into high-converting campaigns.",
   "url": "https://www.pushwoosh.com/",
   "docs_url": "https://docs.pushwoosh.com/product/",
@@ -7321,7 +7321,7 @@
  {
   "name": "Airship (formerly Urban Airship)",
   "slug": "airship-formerly-urban-airship",
-  "category": "comms",
+  "category": "push-notifications",
   "description": "Airship is the only mobile-first customer experience platform that delivers measurable results through AI-powered, unified cross-channel experiences.",
   "url": "https://www.airship.com/",
   "docs_url": "https://www.airship.com/",
@@ -7334,7 +7334,7 @@
  {
   "name": "PubNub Chat SDK",
   "slug": "pubnub-chat-sdk",
-  "category": "comms",
+  "category": "chat-sdks",
   "description": "Build scalable, secure chat 💬 apps with PubNub—no limits, no backend worries. Try it free and create the chat experience your users need",
   "url": "https://www.pubnub.com/solutions/chat/",
   "docs_url": "https://www.pubnub.com/docs/general/basics/set-up-your-account",
@@ -7347,7 +7347,7 @@
  {
   "name": "CometChat",
   "slug": "cometchat",
-  "category": "comms",
+  "category": "chat-sdks",
   "description": "In-app chat, voice, and video calling for web and mobile. UI kits, SDKs, and APIs for React, iOS, Android, Flutter, and more. Start free.",
   "url": "https://www.cometchat.com/",
   "docs_url": "https://www.cometchat.com/docs",
@@ -7360,7 +7360,7 @@
  {
   "name": "Stream Chat",
   "slug": "stream-chat",
-  "category": "comms",
+  "category": "chat-sdks",
   "description": "Launch in days (not weeks) with Stream's Chat API & SDK. Try Stream and see how easy it can be to add messaging to your app.",
   "url": "https://getstream.io/chat/",
   "docs_url": "https://getstream.io/docs/",
@@ -7373,7 +7373,7 @@
  {
   "name": "Twilio Conversations",
   "slug": "twilio-conversations",
-  "category": "comms",
+  "category": "chat-sdks",
   "description": "An agentic harness for conversational customer engagement. Build AI agents and human agent augmentation with Conversation Intelligence, Agent Connect, and contextual memory — natively.",
   "url": "https://www.twilio.com/docs/conversations",
   "docs_url": "https://www.twilio.com/docs",
@@ -7386,7 +7386,7 @@
  {
   "name": "Nexmo (Vonage) Messages API",
   "slug": "nexmo-vonage-messages-api",
-  "category": "comms",
+  "category": "sms-voice",
   "description": "Vonage's SMS API enables you to send and receive text messages to and from users worldwide, using our REST APIs. Visit today to learn more.",
   "url": "https://developer.vonage.com/en/messaging/sms/overview",
   "docs_url": "https://developer.vonage.com/documentation",
@@ -7399,7 +7399,7 @@
  {
   "name": "Khoros Care (formerly Spredfast) Messaging",
   "slug": "khoros-care-formerly-spredfast-messaging",
-  "category": "comms",
+  "category": "live-chat-support",
   "description": "Khoros turns customer conversations into intelligence with Aurora AI community and Iris AI social platforms—trusted by the world’s largest brands.",
   "url": "https://khoros.ai:443/",
   "docs_url": "https://khoros.ai:443/",
@@ -7412,7 +7412,7 @@
  {
   "name": "Twilio Programmable Chat (free trial)",
   "slug": "twilio-programmable-chat-free-trial",
-  "category": "comms",
+  "category": "chat-sdks",
   "description": "Be accessible to customers quickly and seamlessly with in-app chat, powered by MessagingX. Drive commerce, support, and satisfaction with chat built right with the Twilio Conversations API.",
   "url": "https://www.twilio.com/en-us/messaging/channels/chat",
   "docs_url": "https://www.twilio.com/en-us/messaging/channels/chat",
@@ -7425,7 +7425,7 @@
  {
   "name": "Signal Private Messenger (open source)",
   "slug": "signal-private-messenger-open-source",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "A private messenger for Windows, macOS, and Linux.",
   "url": "https://github.com/signalapp/Signal-Desktop",
   "docs_url": "https://github.com/signalapp/Signal-Desktop",
@@ -7438,7 +7438,7 @@
  {
   "name": "Mattermost API",
   "slug": "mattermost-api",
-  "category": "comms",
+  "category": "team-chat-selfhosted",
   "description": "REST API v4 — first-class per-endpoint pages generated from the canonical OpenAPI specification.",
   "url": "https://docs.mattermost.com/api",
   "docs_url": "https://docs.mattermost.com/api",
@@ -7451,7 +7451,7 @@
  {
   "name": "Telegram Bot API (Python wrapper)",
   "slug": "telegram-bot-api-python-wrapper",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "We have made you a wrapper you can't refuse.",
   "url": "https://github.com/python-telegram-bot/python-telegram-bot",
   "docs_url": "https://github.com/python-telegram-bot/python-telegram-bot/tree/master/docs",
@@ -7464,7 +7464,7 @@
  {
   "name": "Slack API (Python wrapper)",
   "slug": "slack-api-python-wrapper",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "Slack Developer Kit for Python.",
   "url": "https://github.com/slackapi/python-slack-sdk",
   "docs_url": "https://docs.slack.dev/tools/python-slack-sdk/",
@@ -7477,7 +7477,7 @@
  {
   "name": "Discord.py (Python wrapper)",
   "slug": "discordpy-python-wrapper",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "An API wrapper for Discord written in Python.",
   "url": "https://github.com/Rapptz/discord.py",
   "docs_url": "https://github.com/Rapptz/discord.py/tree/master/docs",
@@ -7490,7 +7490,7 @@
  {
   "name": "Matrix Python SDK",
   "slug": "matrix-python-sdk",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "Matrix Client-Server SDK for Python 2 and 3.",
   "url": "https://github.com/matrix-org/matrix-python-sdk",
   "docs_url": "https://github.com/matrix-org/matrix-python-sdk/tree/master/docs",
@@ -7503,7 +7503,7 @@
  {
   "name": "Discord Webhooks",
   "slug": "discord-webhooks",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Reference for Discord webhook objects and management endpoints.",
   "url": "https://docs.discord.com/developers/resources/webhook",
   "docs_url": "https://docs.discord.com/developers",
@@ -7516,7 +7516,7 @@
  {
   "name": "Slack Webhooks",
   "slug": "slack-webhooks",
-  "category": "comms",
+  "category": "chat-platforms",
   "description": "Incoming webhooks are a way to post messages from apps into Slack. Creating an incoming webhook gives you a unique URL to which you send a JSON payload with the message text and some.",
   "url": "https://api.slack.com/messaging/webhooks",
   "docs_url": "https://api.slack.com/messaging/webhooks",
@@ -7529,7 +7529,7 @@
  {
   "name": "Twilio Programmable SMS (free trial)",
   "slug": "twilio-programmable-sms-free-trial",
-  "category": "comms",
+  "category": "sms-voice",
   "description": "Send and receive text messages with Twilio’s trusted APIs for SMS. Our SMS service makes it easy to build reliable business text messaging at scale.",
   "url": "https://www.twilio.com/en-us/messaging/channels/sms",
   "docs_url": "https://www.twilio.com/en-us/messaging/channels/sms",
@@ -7542,7 +7542,7 @@
  {
   "name": "Twilio Programmable Voice (free trial)",
   "slug": "twilio-programmable-voice-free-trial",
-  "category": "comms",
+  "category": "sms-voice",
   "description": "Scale your calling capabilities in seconds, globally, with Twilio Programmable Voice. Build a custom voice calling experience with a variety of innovative APIs, SDKs, and integrations.",
   "url": "https://www.twilio.com/en-us/voice",
   "docs_url": "https://www.twilio.com/en-us/voice",
@@ -7555,7 +7555,7 @@
  {
   "name": "Twilio Programmable Video (free trial)",
   "slug": "twilio-programmable-video-free-trial",
-  "category": "comms",
+  "category": "video-conferencing-oss",
   "description": "Build real-time, high-quality video applications with the power of Twilio's serverless cloud infrastructure and video SDKs, APIs, and integrations—all built on top of WebRTC.",
   "url": "https://www.twilio.com/en-us/video",
   "docs_url": "https://www.twilio.com/en-us/video",
@@ -7568,7 +7568,7 @@
  {
   "name": "Discord.js (Node.js wrapper)",
   "slug": "discordjs-nodejs-wrapper",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "A powerful JavaScript library for interacting with the Discord API",
   "url": "https://github.com/discordjs/discord.js",
   "docs_url": "https://github.com/discordjs/discord.js/blob/main/tsconfig.docs.json",
@@ -7581,7 +7581,7 @@
  {
   "name": "Slack Node SDK",
   "slug": "slack-node-sdk",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "Slack Developer Kit for Node.js.",
   "url": "https://github.com/slackapi/node-slack-sdk",
   "docs_url": "https://docs.slack.dev/tools/node-slack-sdk/",
@@ -7594,7 +7594,7 @@
  {
   "name": "Matrix JS SDK",
   "slug": "matrix-js-sdk",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "Matrix Client-Server SDK for JavaScript.",
   "url": "https://github.com/matrix-org/matrix-js-sdk",
   "docs_url": "https://github.com/matrix-org/matrix-js-sdk/tree/develop/docs",
@@ -7607,7 +7607,7 @@
  {
   "name": "Signal-CLI (command line)",
   "slug": "signal-cli-command-line",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger.",
   "url": "https://github.com/AsamK/signal-cli",
   "docs_url": "https://github.com/AsamK/signal-cli/tree/master/docs",
@@ -7620,7 +7620,7 @@
  {
   "name": "Discord4J (Java wrapper)",
   "slug": "discord4j-java-wrapper",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot.",
   "url": "https://github.com/Discord4J/Discord4J",
   "docs_url": "https://github.com/topics/api",
@@ -7633,7 +7633,7 @@
  {
   "name": "Slack Java SDK",
   "slug": "slack-java-sdk",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "Slack Developer Kit (including Bolt for Java) for any JVM language",
   "url": "https://github.com/slackapi/java-slack-sdk",
   "docs_url": "https://docs.slack.dev/tools/java-slack-sdk/",
@@ -7646,7 +7646,7 @@
  {
   "name": "Discord Go (discordgo)",
   "slug": "discord-go-discordgo",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "(Golang) Go bindings for Discord.",
   "url": "https://github.com/bwmarrin/discordgo",
   "docs_url": "https://github.com/bwmarrin/discordgo/tree/master/docs",
@@ -7659,7 +7659,7 @@
  {
   "name": "Telegram Bot API (Go wrapper)",
   "slug": "telegram-bot-api-go-wrapper",
-  "category": "comms",
+  "category": "chat-bot-libraries",
   "description": "Golang bindings for the Telegram Bot API.",
   "url": "https://github.com/go-telegram-bot-api/telegram-bot-api",
   "docs_url": "https://github.com/go-telegram-bot-api/telegram-bot-api/tree/master/docs",
@@ -7685,7 +7685,7 @@
  {
   "name": "Vonage",
   "slug": "vonage",
-  "category": "comms",
+  "category": "sms-voice",
   "description": "Vonage offers flexible and scalable voice, messaging, video and data capabilities across Unified Communications, Contact Centers and Communications APIs.",
   "url": "https://www.vonage.com/",
   "docs_url": "https://developer.vonage.com/en/documentation",
@@ -7867,7 +7867,7 @@
  {
   "name": "Stripe Billing",
   "slug": "stripe-billing",
-  "category": "payments-commerce",
+  "category": "billing-invoicing",
   "description": "Power your subscriptions with Stripe Billing. Set up recurring and usage-based pricing with APIs or within the Dashboard. Reduce churn with AI-powered tools.",
   "url": "https://stripe.com/billing",
   "docs_url": "https://docs.stripe.com/billing/scripts",
@@ -7893,7 +7893,7 @@
  {
   "name": "Stripe Invoicing",
   "slug": "stripe-invoicing",
-  "category": "payments-commerce",
+  "category": "billing-invoicing",
   "description": "Create and send invoices online in minutes with Stripe. Use our invoicing software to automate payment collection and recover revenue with AI-powered dunning.",
   "url": "https://stripe.com/invoicing",
   "docs_url": "https://docs.stripe.com",
@@ -7906,7 +7906,7 @@
  {
   "name": "PayPal Invoicing",
   "slug": "paypal-invoicing",
-  "category": "payments-commerce",
+  "category": "billing-invoicing",
   "description": "Discover invoicing solutions with advanced invoice software for creating, managing, and sending invoices online, simplify your billing process.",
   "url": "https://www.paypal.com/us/business/accept-payments/invoice",
   "docs_url": "https://www.paypal.com/us/business/accept-payments/invoice",
@@ -7958,7 +7958,7 @@
  {
   "name": "Stripe CLI",
   "slug": "stripe-cli",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "A command-line tool for Stripe.",
   "url": "https://github.com/stripe/stripe-cli",
   "docs_url": "https://docs.stripe.com/cli",
@@ -7984,7 +7984,7 @@
  {
   "name": "WooCommerce (WordPress)",
   "slug": "woocommerce-wordpress",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "A customizable, open-source ecommerce platform built on WordPress. Build any commerce solution you can imagine.",
   "url": "https://github.com/woocommerce/woocommerce",
   "docs_url": "https://github.com/woocommerce/woocommerce/tree/trunk/docs",
@@ -7997,7 +7997,7 @@
  {
   "name": "PrestaShop",
   "slug": "prestashop",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "PrestaShop is the universal open-source software platform to build your e-commerce solution.",
   "url": "https://github.com/PrestaShop/PrestaShop",
   "docs_url": "https://github.com/PrestaShop/PrestaShop/tree/develop/docs",
@@ -8010,7 +8010,7 @@
  {
   "name": "Shopware",
   "slug": "shopware",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "Shopware 6 is an open commerce platform based on Symfony Framework and Vue and supported by a worldwide community and more than 3.100 community extensions",
   "url": "https://github.com/shopware/shopware",
   "docs_url": "https://github.com/shopware/shopware",
@@ -8023,7 +8023,7 @@
  {
   "name": "Saleor",
   "slug": "saleor",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "Saleor Core: the high performance, composable, headless commerce API.",
   "url": "https://github.com/saleor/saleor",
   "docs_url": "https://github.com/saleor/saleor/tree/main/docs",
@@ -8036,7 +8036,7 @@
  {
   "name": "Sylius",
   "slug": "sylius",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "Headless open-source eCommerce platform on top of PHP/Symfony/API Platform",
   "url": "https://github.com/Sylius/Sylius",
   "docs_url": "https://github.com/topics/api",
@@ -8049,7 +8049,7 @@
  {
   "name": "Spree Commerce",
   "slug": "spree-commerce",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "Open Source Platform for DTC, B2B Commerce, Marketplaces & Omnichannel. REST APIs, TypeScript SDKs, and production-ready Next.js storefront. Self-host it. Own your data. No vendor lock-in.",
   "url": "https://github.com/spree/spree",
   "docs_url": "https://github.com/spree/spree/tree/main/docs",
@@ -8062,7 +8062,7 @@
  {
   "name": "Solidus Commerce",
   "slug": "solidus-commerce",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "🛒 Solidus, the open-source eCommerce framework for industry trailblazers.",
   "url": "https://github.com/solidusio/solidus",
   "docs_url": "https://github.com/solidusio/solidus/tree/main/api",
@@ -8075,7 +8075,7 @@
  {
   "name": "Odoo eCommerce",
   "slug": "odoo-ecommerce",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "Odoo. Open Source Apps To Grow Your Business.",
   "url": "https://github.com/odoo/odoo",
   "docs_url": "https://github.com/odoo/odoo",
@@ -8088,7 +8088,7 @@
  {
   "name": "Craft Commerce",
   "slug": "craft-commerce",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "Composer starter project for Craft CMS.",
   "url": "https://github.com/craftcms/craft",
   "docs_url": "https://craftcms.com/docs",
@@ -8101,7 +8101,7 @@
  {
   "name": "Django Oscar",
   "slug": "django-oscar",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "Domain-driven e-commerce for Django.",
   "url": "https://github.com/django-oscar/django-oscar",
   "docs_url": "https://github.com/django-oscar/django-oscar/tree/master/docs",
@@ -8322,7 +8322,7 @@
  {
   "name": "Nevermined",
   "slug": "nevermined",
-  "category": "payments-commerce",
+  "category": "agent-payments",
   "description": "Payments infrastructure for AI agents. Delegate spending, meter usage, and settle autonomously across MCP, x402, and A2A. Start earning in minutes.",
   "url": "https://nevermined.ai/",
   "docs_url": "https://www.nevermined.ai/docs",
@@ -8335,7 +8335,7 @@
  {
   "name": "Crossmint",
   "slug": "crossmint",
-  "category": "payments-commerce",
+  "category": "agent-payments",
   "description": "All-in-one stablecoin infrastructure for enterprises. Wallets, payments, onramps, orchestration & compliance. Launch in weeks, not months.",
   "url": "https://www.crossmint.com/",
   "docs_url": "https://docs.crossmint.com/introduction/about-crossmint",
@@ -8348,7 +8348,7 @@
  {
   "name": "Agent Cash",
   "slug": "agent-cash",
-  "category": "payments-commerce",
+  "category": "agent-payments",
   "description": "AgentCash lets AI agents buy anything on your behalf. Pay per call, no keys, no subscriptions.",
   "url": "https://agentcash.dev/",
   "docs_url": "https://agentcash.dev/docs/sell-to-agents",
@@ -8400,7 +8400,7 @@
  {
   "name": "BILL AP/AR",
   "slug": "bill-ap-ar",
-  "category": "payments-commerce",
+  "category": "billing-invoicing",
   "description": "The AP, AR, and spend & expense solution that lets you create and pay bills, manage expenses, control budgets, and get the credit your business/firm needs to grow.",
   "url": "https://www.bill.com/",
   "docs_url": "https://www.bill.com/",
@@ -8426,7 +8426,7 @@
  {
   "name": "Snipcart",
   "slug": "snipcart",
-  "category": "payments-commerce",
+  "category": "ecommerce-platforms",
   "description": "Add a shopping cart to your site in minutes. Works with any site builder, CMS, and framework. 20 000+ merchants trust our e-commerce solution for their website. Join them!",
   "url": "https://snipcart.com/",
   "docs_url": "https://snipcart.com/",
@@ -8452,7 +8452,7 @@
  {
   "name": "Google Cloud Functions",
   "slug": "google-cloud-functions",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Scalable pay-as-you-go Function-as-a-Service (FaaS) to run your code with zero server management.",
   "url": "https://cloud.google.com/functions",
   "docs_url": "https://cloud.google.com/functions",
@@ -8465,7 +8465,7 @@
  {
   "name": "Azure Functions",
   "slug": "azure-functions",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Create event-driven, scalable serverless applications and agents using Azure Functions in .NET, Node.js, Python, Java, or PowerShell with Microsoft Azure.",
   "url": "https://azure.microsoft.com/en-us/products/functions/",
   "docs_url": "https://learn.microsoft.com/en-us/azure/",
@@ -8478,7 +8478,7 @@
  {
   "name": "Netlify Functions",
   "slug": "netlify-functions",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Add real features to your app: APIs, AI, payments, scheduled jobs, and more. Netlify Functions deploy with your app, built for you and your agents.",
   "url": "https://www.netlify.com/platform/functions/",
   "docs_url": "https://docs.netlify.com/build/functions/overview/",
@@ -8491,7 +8491,7 @@
  {
   "name": "Render.com",
   "slug": "rendercom",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Deploy and scale any app or agent from your first user to your billionth. Build faster on intuitive cloud infrastructure for the modern web.",
   "url": "https://render.com/",
   "docs_url": "https://render.com/docs/preview-environments",
@@ -8504,7 +8504,7 @@
  {
   "name": "Heroku",
   "slug": "heroku",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Experience fully managed app hosting that just works. Build, deploy, and scale on the battle-tested platform that defines the industry.",
   "url": "https://www.heroku.com/",
   "docs_url": "https://www.heroku.com/developers/",
@@ -8517,7 +8517,7 @@
  {
   "name": "DigitalOcean App Platform",
   "slug": "digitalocean-app-platform",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Build, deploy, and scale apps quickly using a simple, cost-effective solution. Go from code to production in just a few clicks",
   "url": "https://www.digitalocean.com/products/app-platform",
   "docs_url": "https://docs.digitalocean.com/products/app-platform/how-to/create-apps/",
@@ -8530,7 +8530,7 @@
  {
   "name": "GitHub Actions (self‑hosted runners)",
   "slug": "github-actions-self-hosted-runners",
-  "category": "dev-sandbox",
+  "category": "ci-cd",
   "description": "Easily build, package, release, update, and deploy your project in any language—on GitHub or any external system—without having to run code yourself.",
   "url": "https://github.com/features/actions",
   "docs_url": "https://docs.github.com/actions",
@@ -8543,7 +8543,7 @@
  {
   "name": "GitLab CI/CD (shared runners)",
   "slug": "gitlab-ci-cd-shared-runners",
-  "category": "dev-sandbox",
+  "category": "ci-cd",
   "description": "With GitLab's CI/CD automation solution, teams and their AI agents stay in flow and ship secure software faster while improving code quality.",
   "url": "https://about.gitlab.com/solutions/continuous-integration/",
   "docs_url": "https://docs.gitlab.com/user/duo_agent_platform/agents/foundational_agents/ci_expert_agent/",
@@ -8556,7 +8556,7 @@
  {
   "name": "CircleCI (cloud)",
   "slug": "circleci-cloud",
-  "category": "dev-sandbox",
+  "category": "ci-cd",
   "description": "Deliver production-ready software at AI speed. CircleCI helps modern teams validate, test, and ship every change with intelligent automation.",
   "url": "https://circleci.com/",
   "docs_url": "https://circleci.com/docs/",
@@ -8569,7 +8569,7 @@
  {
   "name": "Travis CI",
   "slug": "travis-ci",
-  "category": "dev-sandbox",
+  "category": "ci-cd",
   "description": "Travis CI is the most simple and flexible ci/cd tool available today. Find out how Travis CI can help with continuous integration and continuous delivery.",
   "url": "https://www.travis-ci.com/",
   "docs_url": "https://www.travis-ci.com/quickstart/",
@@ -8582,7 +8582,7 @@
  {
   "name": "AWS Fargate",
   "slug": "aws-fargate",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "AWS Fargate is a serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes (EKS).",
   "url": "https://aws.amazon.com/fargate/",
   "docs_url": "https://aws.amazon.com/fargate/",
@@ -8595,7 +8595,7 @@
  {
   "name": "Google Cloud Run",
   "slug": "google-cloud-run",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Build and deploy scalable containerized apps written in any language (like Go, Python, Java, Node.js, .NET, and Ruby) on a fully managed platform.",
   "url": "https://cloud.google.com/run",
   "docs_url": "https://cloud.google.com/run",
@@ -8608,7 +8608,7 @@
  {
   "name": "Azure Container Apps",
   "slug": "azure-container-apps",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Explore Azure Container Apps, a fully managed serverless container service that quickly builds and deploys AI apps and agents at scale with Microsoft Azure.",
   "url": "https://azure.microsoft.com/en-us/products/container-apps/",
   "docs_url": "https://learn.microsoft.com/en-us/azure/",
@@ -8621,7 +8621,7 @@
  {
   "name": "GitHub Packages (container registry)",
   "slug": "github-packages-container-registry",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "Easily build, package, release, update, and deploy your project in any language—on GitHub or any external system—without having to run code yourself.",
   "url": "https://github.com/features/actions",
   "docs_url": "https://docs.github.com/actions",
@@ -8634,7 +8634,7 @@
  {
   "name": "GitLab Container Registry",
   "slug": "gitlab-container-registry",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "Use the GitLab Container Registry to store container images for your GitLab project.",
   "url": "https://docs.gitlab.com/user/packages/container_registry/",
   "docs_url": "https://docs.gitlab.com/api/container_registry/#change-the-visibility-of-the-container-registry",
@@ -8647,7 +8647,7 @@
  {
   "name": "Koyeb",
   "slug": "koyeb",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Deploy intensive applications across GPUs, CPUs, and Accelerators in minutes - scale in 50+ locations.",
   "url": "https://www.koyeb.com/",
   "docs_url": "https://www.koyeb.com/docs/run-and-scale/autoscaling",
@@ -8660,7 +8660,7 @@
  {
   "name": "Supabase Edge Functions",
   "slug": "supabase-edge-functions",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Run TypeScript functions globally at the edge.",
   "url": "https://supabase.com/docs/guides/functions",
   "docs_url": "https://supabase.com/docs/guides/functions/background-tasks",
@@ -8686,7 +8686,7 @@
  {
   "name": "Railway.app",
   "slug": "railwayapp",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Railway is a full-stack cloud for deploying web apps, servers, databases, and more with automatic scaling, monitoring, and security.",
   "url": "https://railway.com/",
   "docs_url": "https://railway.com/",
@@ -8712,7 +8712,7 @@
  {
   "name": "Coder.com",
   "slug": "codercom",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "Give developers a secure, governed environment to run AI coding agents at scale. Self-hosted infrastructure with full control over agent permissions, audit logging, and compliance.",
   "url": "https://coder.com/",
   "docs_url": "https://coder.com/docs/user-guides/workspace-access/vscode",
@@ -8738,7 +8738,7 @@
  {
   "name": "AWS Cloud9",
   "slug": "aws-cloud9",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.",
   "url": "https://aws.amazon.com/cloud9/",
   "docs_url": "https://aws.amazon.com/cloud9/",
@@ -8751,7 +8751,7 @@
  {
   "name": "Google Cloud Shell",
   "slug": "google-cloud-shell",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "Command-line access to Google Cloud projects and resources.",
   "url": "https://docs.cloud.google.com/shell/docs",
   "docs_url": "https://docs.cloud.google.com/shell/docs",
@@ -8764,7 +8764,7 @@
  {
   "name": "Microsoft Visual Studio Online (now VS Code Spaces)",
   "slug": "microsoft-visual-studio-online-now-vs-code-spaces",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.",
   "url": "https://github.com/features/codespaces/",
   "docs_url": "https://github.com/features/codespaces/",
@@ -8777,7 +8777,7 @@
  {
   "name": "Kubernetes Engine (GKE)",
   "slug": "kubernetes-engine-gke",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "GKE is the industry's first fully managed Kubernetes service with full Kubernetes API, 4-way autoscaling, release channels, and multi-cluster support.",
   "url": "https://cloud.google.com/kubernetes-engine",
   "docs_url": "https://cloud.google.com/kubernetes-engine",
@@ -8790,7 +8790,7 @@
  {
   "name": "Amazon Elastic Kubernetes Service (EKS)",
   "slug": "amazon-elastic-kubernetes-service-eks",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "Amazon Elastic Kubernetes Service (EKS) is a managed service and certified Kubernetes conformant to run Kubernetes on AWS and on-premises.",
   "url": "https://aws.amazon.com/eks/",
   "docs_url": "https://docs.aws.amazon.com/eks/latest/best-practices/introduction.html",
@@ -8803,7 +8803,7 @@
  {
   "name": "Azure Kubernetes Service (AKS)",
   "slug": "azure-kubernetes-service-aks",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "Discover Azure Kubernetes Service (AKS) for secure, scalable containerized app deployment and management with fast delivery on managed Kubernetes clusters.",
   "url": "https://azure.microsoft.com/en-us/products/kubernetes-service/",
   "docs_url": "https://learn.microsoft.com/en-us/azure/",
@@ -8816,7 +8816,7 @@
  {
   "name": "OpenFaaS",
   "slug": "openfaas",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Serverless Functions Made Simple with Kubernetes.",
   "url": "https://www.openfaas.com/",
   "docs_url": "https://docs.openfaas.com/languages/overview/",
@@ -8829,7 +8829,7 @@
  {
   "name": "Kubernetes",
   "slug": "kubernetes",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications.",
   "url": "https://kubernetes.io/",
   "docs_url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
@@ -8855,7 +8855,7 @@
  {
   "name": "Devbox",
   "slug": "devbox",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Instant, easy, and predictable development environments",
   "url": "https://github.com/jetify-com/devbox",
   "docs_url": "https://www.jetify.com/docs/devbox/installing-devbox/",
@@ -8868,7 +8868,7 @@
  {
   "name": "Nix",
   "slug": "nix",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Nix is a tool that takes a unique approach to package management and system configuration. Learn how to make reproducible, declarative and reliable systems.",
   "url": "https://nixos.org/",
   "docs_url": "https://nixos.org/blog/announcements/2026/docs-funding-2026",
@@ -8881,7 +8881,7 @@
  {
   "name": "NixOS",
   "slug": "nixos",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Nix is a tool that takes a unique approach to package management and system configuration. Learn how to make reproducible, declarative and reliable systems.",
   "url": "https://nixos.org/",
   "docs_url": "https://nixos.org/blog/announcements/2026/docs-funding-2026",
@@ -8894,7 +8894,7 @@
  {
   "name": "asdf",
   "slug": "asdf",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Manage multiple runtime versions with a single CLI tool",
   "url": "https://asdf-vm.com/",
   "docs_url": "https://asdf-vm.com/",
@@ -8907,7 +8907,7 @@
  {
   "name": "mise",
   "slug": "mise",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Install a project's tools, set its environment variables, and run its tasks from one mise.toml that works in your shell, editor, and CI.",
   "url": "https://mise.jdx.dev/",
   "docs_url": "https://mise.jdx.dev/",
@@ -8920,7 +8920,7 @@
  {
   "name": "Coder",
   "slug": "coder",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "Secure environments for developers and their agents",
   "url": "https://github.com/coder/coder",
   "docs_url": "https://github.com/coder/coder/tree/main/docs",
@@ -8933,7 +8933,7 @@
  {
   "name": "JupyterHub",
   "slug": "jupyterhub",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "JupyterHub is the best way to serve Jupyter notebook for multiple users. Because JupyterHub manages a separate Jupyter environment for each user, it can be used in a class of students, a.",
   "url": "https://jupyterhub.readthedocs.io/en/stable/",
   "docs_url": "https://jupyterhub-team-compass.readthedocs.io/en/latest/",
@@ -8946,7 +8946,7 @@
  {
   "name": "VS Code",
   "slug": "vs-code",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Visual Studio Code is a free, open source AI code editor. Build with AI agents that plan, code, and debug for you.",
   "url": "https://code.visualstudio.com/",
   "docs_url": "https://code.visualstudio.com/docs/copilot/agents/agents-tutorial",
@@ -8959,7 +8959,7 @@
  {
   "name": "Zed",
   "slug": "zed",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
   "url": "https://zed.dev/",
   "docs_url": "https://zed.dev/",
@@ -8972,7 +8972,7 @@
  {
   "name": "Lazygit",
   "slug": "lazygit",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "simple terminal UI for git commands.",
   "url": "https://github.com/jesseduffield/lazygit",
   "docs_url": "https://github.com/jesseduffield/lazygit/tree/master/docs-master",
@@ -8985,7 +8985,7 @@
  {
   "name": "Zellij",
   "slug": "zellij",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Terminal Workspace with Batteries Included",
   "url": "https://zellij.dev/",
   "docs_url": "https://zellij.dev/",
@@ -8998,7 +8998,7 @@
  {
   "name": "Fish",
   "slug": "fish",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "A smart and user-friendly command line shell",
   "url": "https://fishshell.com/",
   "docs_url": "https://fishshell.com/docs/current/index.html",
@@ -9011,7 +9011,7 @@
  {
   "name": "CMake",
   "slug": "cmake",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "CMake is a powerful and comprehensive solution for managing the software build process. CMake is the de-facto standard for building C++ code, with over 2 million downloads a month.",
   "url": "https://cmake.org/",
   "docs_url": "https://cmake.org/documentation/",
@@ -9024,7 +9024,7 @@
  {
   "name": "Bazel",
   "slug": "bazel",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "From startup to enterprise, choose the Bazel open source project to build and test your multi-language, multi-platform projects.",
   "url": "https://bazel.build/",
   "docs_url": "https://bazel.build/",
@@ -9037,7 +9037,7 @@
  {
   "name": "Buck2",
   "slug": "buck2",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Buck2 is an open-source large-scale build system from Meta. The successor to Buck.",
   "url": "https://buck2.build/",
   "docs_url": "https://buck2.build/docs/about/why/",
@@ -9050,7 +9050,7 @@
  {
   "name": "Gradle",
   "slug": "gradle",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Gradle by Develocity is the open source build system for Java, Android, and Kotlin developers.",
   "url": "https://gradle.org/",
   "docs_url": "https://docs.gradle.org/",
@@ -9063,7 +9063,7 @@
  {
   "name": "Yarn",
   "slug": "yarn",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Yarn, the modern JavaScript package manager",
   "url": "https://yarnpkg.com/",
   "docs_url": "https://yarnpkg.com/",
@@ -9076,7 +9076,7 @@
  {
   "name": "pnpm",
   "slug": "pnpm",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "Fast, disk space efficient package manager",
   "url": "https://pnpm.io/",
   "docs_url": "https://pnpm.io/",
@@ -9089,7 +9089,7 @@
  {
   "name": "Vercel Edge Functions",
   "slug": "vercel-edge-functions",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Build API routes, webhooks, and agent request handlers with Vercel Functions, then test and debug them with Vercel CLI.",
   "url": "https://vercel.com/docs/functions",
   "docs_url": "https://vercel.com/docs",
@@ -9102,7 +9102,7 @@
  {
   "name": "Clever Cloud",
   "slug": "clever-cloud",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Clever Cloud provides you with the best tools to host, deploy and maintain your applications in operational conditions, at a controlled cost.",
   "url": "https://www.clever.cloud/",
   "docs_url": "https://www.clever.cloud/",
@@ -9115,7 +9115,7 @@
  {
   "name": "CodeSandbox",
   "slug": "codesandbox",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "CodeSandbox is a cloud development platform that empowers developers to code, collaborate and ship projects of any size from any device in record time.",
   "url": "https://codesandbox.io/",
   "docs_url": "https://codesandbox.io/docs/sdk#quickstart",
@@ -9128,7 +9128,7 @@
  {
   "name": "StackBlitz",
   "slug": "stackblitz",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "StackBlitz is the collaborative browser-based IDE for web developers. StackBlitz eliminates time-consuming local configuration and lets developers spend more time building.",
   "url": "https://stackblitz.com/",
   "docs_url": "https://stackblitz.com/",
@@ -9141,7 +9141,7 @@
  {
   "name": "CircleCI Server",
   "slug": "circleci-server",
-  "category": "dev-sandbox",
+  "category": "ci-cd",
   "description": "The validation platform built for modern businesses. Stop struggling with toil and start shipping quality software.",
   "url": "https://circleci.com/enterprise/",
   "docs_url": "https://circleci.com/docs/",
@@ -9154,7 +9154,7 @@
  {
   "name": "Drone CI (self‑hosted)",
   "slug": "drone-ci-self-hosted",
-  "category": "dev-sandbox",
+  "category": "ci-cd",
   "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
   "url": "https://github.com/harness/harness",
   "docs_url": "https://developer.harness.io/docs/open-source",
@@ -9167,7 +9167,7 @@
  {
   "name": "CapRover",
   "slug": "caprover",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Deploy and manage apps on your own infrastructure with CapRover, the free and open-source PaaS built on Docker.",
   "url": "https://caprover.com/",
   "docs_url": "https://caprover.com/docs/get-started",
@@ -9180,7 +9180,7 @@
  {
   "name": "Portainer",
   "slug": "portainer",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "Portainer is one platform to deploy, run, secure, and govern Kubernetes across your whole fleet, from a single control plane. A platform is a product, not a project.",
   "url": "https://www.portainer.io/",
   "docs_url": "https://www.portainer.io/",
@@ -9193,7 +9193,7 @@
  {
   "name": "Rancher",
   "slug": "rancher",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "Rancher, the open-source multi-cluster orchestration platform, lets operations teams deploy, manage and secure enterprise Kubernetes. Request a demo!",
   "url": "https://www.rancher.com/",
   "docs_url": "https://www.rancher.com/",
@@ -9206,7 +9206,7 @@
  {
   "name": "MicroK8s",
   "slug": "microk8s",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "High availability Kubernetes with autonomous clusters. MicroK8s is the simplest production-grade conformant K8s for edge and IoT, on Linux, Windows, and macOS.",
   "url": "https://canonical.com/microk8s",
   "docs_url": "https://docs.snapcraft.io/installing-snapd",
@@ -9219,7 +9219,7 @@
  {
   "name": "Nomad by HashiCorp",
   "slug": "nomad-by-hashicorp",
-  "category": "dev-sandbox",
+  "category": "container-orchestration",
   "description": "Explore Nomad product documentation, tutorials, and examples.",
   "url": "https://developer.hashicorp.com/nomad",
   "docs_url": "https://developer.hashicorp.com/nomad/docs",
@@ -9232,7 +9232,7 @@
  {
   "name": "Pulumi Automation API",
   "slug": "pulumi-automation-api",
-  "category": "dev-sandbox",
+  "category": "developer-tools",
   "description": "The Pulumi Automation API is a programmatic interface for running Pulumi programs without the Pulumi CLI. Learn its core concepts and terminology.",
   "url": "https://www.pulumi.com/docs/iac/concepts/automation-api/",
   "docs_url": "https://www.pulumi.com/docs/iac/concepts/automation-api/",
@@ -9245,7 +9245,7 @@
  {
   "name": "Netlify",
   "slug": "netlify",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.",
   "url": "https://www.netlify.com/",
   "docs_url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/",
@@ -9258,7 +9258,7 @@
  {
   "name": "Cloudflare Pages",
   "slug": "cloudflare-pages",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Build, deploy, and deliver full-stack applications quickly with Cloudflare Pages. A serverless platform for frontend developers.",
   "url": "https://www.cloudflare.com/products/pages/",
   "docs_url": "https://www.cloudflare.com/products/pages/",
@@ -9271,7 +9271,7 @@
  {
   "name": "PlanetScale Cloud",
   "slug": "planetscale-cloud",
-  "category": "dev-sandbox",
+  "category": "databases-backend",
   "description": "PlanetScale offers the world’s fastest and most scalable cloud hosting for Vitess, Neki, and Postgres.",
   "url": "https://planetscale.com/",
   "docs_url": "https://planetscale.com/docs/plans/deployment-options",
@@ -9284,7 +9284,7 @@
  {
   "name": "Fly.io API",
   "slug": "flyio-api",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Manage apps, Machines, volumes, certificates and tokens with the Fly.io Machines REST API. Find each resource reference, the OpenAPI spec and the fly-go client.",
   "url": "https://docs.fly.io/machines/api",
   "docs_url": "https://docs.fly.io/api/machines/openapi.json",
@@ -9297,7 +9297,7 @@
  {
   "name": "Fly.io Pricing",
   "slug": "flyio-pricing",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "What Fly.io costs: per-second Machines pricing, metered Sprites usage, Managed Postgres cluster plans, support tiers and compliance.",
   "url": "https://fly.io/pricing/",
   "docs_url": "https://fly.io/pricing/",
@@ -9310,7 +9310,7 @@
  {
   "name": "Fly.io Community",
   "slug": "flyio-community",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Community discussion and support for Fly.io application hosting.",
   "url": "https://community.fly.io/",
   "docs_url": "https://community.fly.io/tag/docs/10",
@@ -9323,7 +9323,7 @@
  {
   "name": "Fly.io Blog",
   "slug": "flyio-blog",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "News, tips, and tricks from the team at Fly",
   "url": "https://fly.io/blog/",
   "docs_url": "https://docs.fly.io/about/brand",
@@ -9336,7 +9336,7 @@
  {
   "name": "Fly.io Support",
   "slug": "flyio-support",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Fly.io support engineers are working developers. Compare support plans, first-response times and what each includes, from personal projects to large teams.",
   "url": "https://fly.io/support/",
   "docs_url": "https://fly.io/support/",
@@ -9349,7 +9349,7 @@
  {
   "name": "Fly.io Security",
   "slug": "flyio-security",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Fly.io was designed by vulnerability researchers. Tenants never share a kernel, and containers run as hardware-isolated microVMs on our own hardware.",
   "url": "https://fly.io/security/",
   "docs_url": "https://fly.io/security/",
@@ -9362,7 +9362,7 @@
  {
   "name": "OpenFaaS Cloud",
   "slug": "openfaas-cloud",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "The Multi-user OpenFaaS Platform.",
   "url": "https://github.com/openfaas/openfaas-cloud",
   "docs_url": "https://docs.openfaas.com/openfaas-cloud/intro/",
@@ -9375,7 +9375,7 @@
  {
   "name": "OpenWhisk (Apache)",
   "slug": "openwhisk-apache",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Apache OpenWhisk is an open source serverless cloud platform",
   "url": "https://github.com/apache/openwhisk",
   "docs_url": "https://github.com/apache/openwhisk/tree/master/docs",
@@ -9388,7 +9388,7 @@
  {
   "name": "Fission (Serverless)",
   "slug": "fission-serverless",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Fast and Simple Serverless Functions for Kubernetes",
   "url": "https://github.com/fission/fission",
   "docs_url": "https://github.com/fission/fission/tree/main/docs",
@@ -9401,7 +9401,7 @@
  {
   "name": "Katacoda Interactive Scenarios",
   "slug": "katacoda-interactive-scenarios",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "Learn the latest technologies with our hands-on labs",
   "url": "https://www.katacoda.com/",
   "docs_url": "https://www.katacoda.com/",
@@ -9414,7 +9414,7 @@
  {
   "name": "Travis CI (Free tier)",
   "slug": "travis-ci-free-tier",
-  "category": "dev-sandbox",
+  "category": "ci-cd",
   "description": "Travis CI is the most simple and flexible ci/cd tool available today. Find out how Travis CI can help with continuous integration and continuous delivery.",
   "url": "https://www.travis-ci.com/",
   "docs_url": "https://www.travis-ci.com/quickstart/",
@@ -9427,7 +9427,7 @@
  {
   "name": "Bitbucket Pipelines (Free tier)",
   "slug": "bitbucket-pipelines-free-tier",
-  "category": "dev-sandbox",
+  "category": "ci-cd",
   "description": "Bitbucket Pipelines brings continuous delivery to Bitbucket Cloud, empowering teams with full branching to deployment visibility and faster feedback loops",
   "url": "https://www.atlassian.com/software/bitbucket/features/pipelines",
   "docs_url": "https://support.atlassian.com/bitbucket-cloud/docs/migrate-to-bitbucket-pipelines/",
@@ -9440,7 +9440,7 @@
  {
   "name": "Render Static Sites (Free tier)",
   "slug": "render-static-sites-free-tier",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Deploy your static sites on Render in just a few clicks. Includes a global CDN, automatic TLS certificates, auto-deploys from Git, and custom domains, all for free.",
   "url": "https://render.com/docs/static-sites",
   "docs_url": "https://render.com/docs/custom-domains",
@@ -9453,7 +9453,7 @@
  {
   "name": "Gitpod Self-Hosted (Open Source)",
   "slug": "gitpod-self-hosted-open-source",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "The developer platform for on-demand cloud development environments to create software faster and more securely.",
   "url": "https://github.com/gitpod-io/gitpod",
   "docs_url": "https://github.com/gitpod-io/gitpod/tree/main/docs",
@@ -9466,7 +9466,7 @@
  {
   "name": "Theia IDE (Open Source)",
   "slug": "theia-ide-open-source",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
   "url": "https://github.com/eclipse-theia/theia",
   "docs_url": "https://github.com/eclipse-theia/theia#documentation",
@@ -9479,7 +9479,7 @@
  {
   "name": "Eclipse Che (Open Source)",
   "slug": "eclipse-che-open-source",
-  "category": "dev-sandbox",
+  "category": "cloud-dev-environments",
   "description": "Kubernetes based Cloud Development Environments for Enterprise Teams",
   "url": "https://github.com/eclipse-che/che",
   "docs_url": "https://eclipse.dev/che/docs",
@@ -9492,7 +9492,7 @@
  {
   "name": "Northflank",
   "slug": "northflank",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Run AI agents, services, databases, and GPUs in secure microVMs. One governed path from commit to production, on our cloud or your own.",
   "url": "https://northflank.com/",
   "docs_url": "https://northflank.com/",
@@ -9518,7 +9518,7 @@
  {
   "name": "Blaxel",
   "slug": "blaxel",
-  "category": "dev-sandbox",
+  "category": "serverless-hosting",
   "description": "Blaxel is infrastructure for autonomous agents: microVMs that boot in milliseconds and resume in ~25ms, shared memory, and programmable networking.",
   "url": "https://blaxel.ai/",
   "docs_url": "https://blaxel.ai/",
@@ -9531,7 +9531,7 @@
  {
   "name": "Upstash Box",
   "slug": "upstash-box",
-  "category": "dev-sandbox",
+  "category": "code-execution",
   "description": "Upstash Box is a persistent cloud computer for AI agents, with Claude Code, Codex and OpenCode built in.",
   "url": "https://upstash.com/box",
   "docs_url": "https://upstash.com/docs/box/overall/quickstart",
@@ -9544,7 +9544,7 @@
  {
   "name": "Together Code Sandbox",
   "slug": "together-code-sandbox",
-  "category": "dev-sandbox",
+  "category": "code-execution",
   "description": "Use fast, secure code sandboxes at scale. Build full-scale AI development environments with instant VM creation, robust snapshotting, and flexible scaling.",
   "url": "https://www.together.ai/sandbox",
   "docs_url": "https://docs.together.ai/docs/together-code-sandbox",
@@ -9557,7 +9557,7 @@
  {
   "name": "Microsandbox",
   "slug": "microsandbox",
-  "category": "dev-sandbox",
+  "category": "code-execution",
   "description": "Open-source microVM sandboxes for AI agents and untrusted code. Run locally on macOS, Linux, and Windows, or request managed cloud access.",
   "url": "https://microsandbox.dev/",
   "docs_url": "https://docs.microsandbox.dev/getting-started/quickstart",
