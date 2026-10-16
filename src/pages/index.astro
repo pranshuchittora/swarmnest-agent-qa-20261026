@@ -25,12 +25,6 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <h2>Newsletter</h2>
 <p>A short weekly note: new tools in the directory, API changes that matter to agent builders, and product launches.</p>
 <Signup list="newsletter" source="home" button="Subscribe" />
-<script type="module">
-const q=document.getElementById('q'),r=document.getElementById('results');let data=null;
-q.addEventListener('input',async()=>{const t=q.value.trim().toLowerCase();if(!t){r.classList.add('hidden');return}
-if(!data)data=await (await fetch('/directory.json')).json();
-const hits=data.entries.filter(e=>(e.name+' '+e.description+' '+e.category_name).toLowerCase().includes(t)).slice(0,12);
-r.classList.remove('hidden');r.replaceChildren(...hits.map(e=>{const a=document.createElement('a');a.className='card';a.href=e.swarmnest_url;const h=document.createElement('h3');h.textContent=e.name;const p=document.createElement('p');p.textContent=e.description;a.append(h,p);return a}));
-if(!hits.length)r.textContent='No matches.'});
-</script>
+<script is:inline src="/search.js"></script>
+<script is:inline>swarmSearch(document.getElementById("q"),document.getElementById("results"),{max:12});</script>
 </Base>

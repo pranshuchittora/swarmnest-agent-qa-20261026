@@ -9,6 +9,7 @@ export const GET = () => new Response(`# Swarmnest
 - [Directory JSON](${SITE}/directory.json): every entry with name, slug, category, description, url, docs_url, auth, pricing
 - [API: list](${SITE}/api/v1/directory.json)
 - [API: one entry](${SITE}/api/v1/directory/{slug}.json): replace {slug}, e.g. ${SITE}/api/v1/directory/${ALL[0].slug}.json
+- [API: search](${SITE}/api/v1/search?q=translate&category=translation-apis&limit=10): GET, params q (keywords, all must match), category (slug), auth (none|key|oauth), pricing (free|freemium|paid), limit (max 100). Returns ranked JSON results. Human search: ${SITE}/search/
 - [API: categories](${SITE}/api/v1/categories.json)
 - [OpenAPI description](${SITE}/openapi.json)
 - [Full text version of this site](${SITE}/llms-full.txt)

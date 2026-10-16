@@ -2004,7 +2004,7 @@
  {
   "name": "OpenAI Whisper",
   "slug": "openai-whisper",
-  "category": "translation-apis",
+  "category": "speech-transcription",
   "description": "Open-source speech recognition model that can also translate speech from many languages into English. Run it locally for free, or use the paid hosted audio API.",
   "url": "https://github.com/openai/whisper",
   "docs_url": "https://platform.openai.com/docs/guides/speech-to-text",
@@ -2368,7 +2368,7 @@
  {
   "name": "ElevenLabs Dubbing API",
   "slug": "elevenlabs-dubbing-api",
-  "category": "translation-apis",
+  "category": "voice-video-dubbing",
   "description": "API that translates and dubs audio or video into other languages while keeping the original speakers' voices. Consumes plan credits.",
   "url": "https://elevenlabs.io/dubbing-studio",
   "docs_url": "https://elevenlabs.io/docs/api-reference/dubbing/create",
@@ -2381,7 +2381,7 @@
  {
   "name": "HeyGen Video Translation API",
   "slug": "heygen-video-translation-api",
-  "category": "translation-apis",
+  "category": "voice-video-dubbing",
   "description": "API that translates a video into other languages with dubbed audio and lip-sync, returning captions as SRT and VTT. Consumes API credits.",
   "url": "https://www.heygen.com/",
   "docs_url": "https://developers.heygen.com/reference/create-video-translation",
@@ -2394,7 +2394,7 @@
  {
   "name": "Rask AI API",
   "slug": "rask-ai-api",
-  "category": "translation-apis",
+  "category": "voice-video-dubbing",
   "description": "Video and audio dubbing, translation and transcription API with glossaries and optional lip-sync. Uses OAuth 2.0 client credentials.",
   "url": "https://www.rask.ai/",
   "docs_url": "https://docs.api.rask.ai/",
@@ -2407,7 +2407,7 @@
  {
   "name": "Soniox",
   "slug": "soniox",
-  "category": "translation-apis",
+  "category": "speech-transcription",
   "description": "Speech platform with real-time speech-to-text that can also return live translation, one-way or two-way, across 60+ languages. Usage-based pricing.",
   "url": "https://soniox.com/",
   "docs_url": "https://soniox.com/docs",
@@ -2420,7 +2420,7 @@
  {
   "name": "Speechmatics",
   "slug": "speechmatics",
-  "category": "translation-apis",
+  "category": "speech-transcription",
   "description": "Speech recognition API with translation of transcripts into other languages, for batch and real-time audio. Has a free tier, then usage-based pricing.",
   "url": "https://www.speechmatics.com/",
   "docs_url": "https://docs.speechmatics.com/",
@@ -2433,7 +2433,7 @@
  {
   "name": "DeepL Voice API",
   "slug": "deepl-voice-api",
-  "category": "translation-apis",
+  "category": "voice-video-dubbing",
   "description": "DeepL's real-time speech translation API for live captions and interpretation. Available on selected DeepL API plans.",
   "url": "https://www.deepl.com/en/products/voice",
   "docs_url": "https://developers.deepl.com/docs/api-reference/voice",

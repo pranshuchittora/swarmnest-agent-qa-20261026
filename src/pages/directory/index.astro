@@ -6,6 +6,11 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <Base title="AI agent tools directory — APIs, MCP servers, frameworks | Swarmnest" description={`Directory of ${ALL.length} tools, APIs and data sources for AI agents across ${CATS.length} categories, from LLM APIs to payments.`} path="/directory/" jsonld={ld}>
 <p class="crumbs"><a href="/">Home</a> › Directory</p>
 <h1>Directory</h1>
-<p class="lead">{ALL.length} entries in {CATS.length} categories. Machine-readable version: <a href="/directory.json">/directory.json</a>.</p>
+<p class="lead">{ALL.length} entries in {CATS.length} categories. Machine-readable version: <a href="/directory.json">/directory.json</a>. Search API: <a href="/api/v1/search?q=translate">/api/v1/search?q=…</a>.</p>
+<p><input id="q" type="search" placeholder="Search all entries…" aria-label="Search the directory" autocomplete="off"></p>
+<div id="results" class="grid hidden"></div>
+<script is:inline src="/search.js"></script>
+<script is:inline>swarmSearch(document.getElementById("q"),document.getElementById("results"),{max:40});</script>
+<h2>Categories</h2>
 <div class="grid">{CATS.map(c=><a class="card" href={`/directory/${c.slug}/`}><h3>{c.name}</h3><p>{c.blurb}</p><span class="badge">{byCat(c.slug).length} entries</span></a>)}</div>
 </Base>
