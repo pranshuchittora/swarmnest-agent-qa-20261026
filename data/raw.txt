@@ -3109,3 +3109,201 @@ science-data|Open Quantum Materials Database|https://oqmd.org/|https://oqmd.org/
 science-data|NCBI Datasets|https://www.ncbi.nlm.nih.gov/datasets/|https://www.ncbi.nlm.nih.gov/datasets/docs/v2/api/|key|free|Genomes data.
 science-data|AlphaFold Protein Structure Database|https://alphafold.ebi.ac.uk/|https://alphafold.ebi.ac.uk/api-docs|none|free|Predicted structures.
 science-data|Galaxy Project|https://galaxyproject.org/|https://galaxyproject.org/develop/api/|key|free|Bioinformatics platform.
+cultural-heritage|Getty Research Portal|https://portal.getty.edu/|https://www.getty.edu/research/tools/vocabularies/lod/index.html|none|free|Getty vocabularies as linked open data.
+cultural-heritage|Culture Grid / Collections Trust|https://collectionstrust.org.uk/|https://collectionstrust.org.uk/|none|free|UK museum documentation standards.
+cultural-heritage|Digitalt Museum|https://digitaltmuseum.org/|https://api.dimu.org/|key|free|Nordic cultural heritage API.
+cultural-heritage|Deutsche Digitale Bibliothek API|https://www.deutsche-digitale-bibliothek.de/|https://api.deutsche-digitale-bibliothek.de/|key|free|German cultural heritage aggregator.
+cultural-heritage|Gallica API (BnF)|https://gallica.bnf.fr/|https://api.bnf.fr/|none|free|French national library digital collections.
+cultural-heritage|Internet Archive Scholar|https://scholar.archive.org/|https://scholar.archive.org/about|none|free|Preserved scholarly works search.
+cultural-heritage|IIIF|https://iiif.io/|https://iiif.io/api/|none|free|Standard APIs for delivering images and presentation data.
+cultural-heritage|Wellcome Collection API|https://wellcomecollection.org/|https://developers.wellcomecollection.org/|none|free|Library and archive collection API.
+cultural-heritage|Art UK|https://artuk.org/|https://artuk.org/|none|free|UK public art collection database.
+meeting-notes-ai|Read AI|https://www.read.ai/|https://docs.read.ai/|key|freemium|Meeting summaries and analytics.
+meeting-notes-ai|Grain|https://grain.com/|https://developers.grain.com/|key|freemium|Meeting recording and highlights.
+meeting-notes-ai|MeetGeek|https://meetgeek.ai/|https://docs.meetgeek.ai/|key|freemium|AI meeting assistant.
+meeting-notes-ai|Granola|https://www.granola.ai/|https://docs.granola.ai/|none|freemium|AI notepad for meetings.
+meeting-notes-ai|Avoma|https://www.avoma.com/|https://dev694.avoma.com/|key|paid|Meeting assistant and revenue intelligence.
+meeting-notes-ai|Gong API|https://www.gong.io/|https://gong.app.gong.io/settings/api/documentation|oauth|paid|Conversation intelligence API.
+meeting-notes-ai|Zoom AI Companion|https://www.zoom.com/en/ai-assistant/|https://developers.zoom.us/docs/api/|oauth|freemium|Zoom's meeting summaries.
+meeting-notes-ai|Bluedot|https://www.bluedothq.com/|https://www.bluedothq.com/|none|freemium|Meeting recorder and notes.
+meeting-notes-ai|Notta|https://www.notta.ai/|https://www.notta.ai/|none|freemium|Transcription and meeting notes.
+meeting-notes-ai|Meetily|https://github.com/Zackriya-Solutions/meeting-minutes|https://github.com/Zackriya-Solutions/meeting-minutes|none|free|Open-source local AI meeting assistant.
+voice-cloning|OpenVoice|https://github.com/myshell-ai/OpenVoice|https://github.com/myshell-ai/OpenVoice|none|free|Instant voice cloning model by MyShell.
+voice-cloning|RVC (Retrieval-based Voice Conversion)|https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI|https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI|none|free|Open-source voice conversion.
+voice-cloning|so-vits-svc|https://github.com/svc-develop-team/so-vits-svc|https://github.com/svc-develop-team/so-vits-svc|none|free|Singing voice conversion.
+voice-cloning|F5-TTS|https://github.com/SWivid/F5-TTS|https://github.com/SWivid/F5-TTS|none|free|Zero-shot voice cloning TTS.
+voice-cloning|ElevenLabs Instant Voice Cloning|https://elevenlabs.io/voice-cloning|https://elevenlabs.io/docs/api-reference/voices/ivc/create|key|freemium|Clone a voice from a short sample.
+voice-cloning|Zonos|https://github.com/Zyphra/Zonos|https://github.com/Zyphra/Zonos|none|free|Open expressive TTS with cloning.
+voice-cloning|Chatterbox|https://github.com/resemble-ai/chatterbox|https://github.com/resemble-ai/chatterbox|none|free|Open-source TTS with voice cloning.
+prompt-management|Arize Phoenix Prompts|https://phoenix.arize.com/|https://docs.arize.com/phoenix/prompt-engineering/overview-prompts|key|free|Prompt management in Phoenix.
+prompt-management|Langtail|https://langtail.com/|https://docs.langtail.com/|key|freemium|Prompt testing and deployment.
+prompt-management|Prompt Hunt|https://www.prompthunt.com/|https://www.prompthunt.com/|none|freemium|Prompt library and playground.
+prompt-management|Maxim AI|https://www.getmaxim.ai/|https://www.getmaxim.ai/docs|key|freemium|Agent evaluation and prompt management.
+prompt-management|Prompteams|https://www.prompteams.com/|https://www.prompteams.com/|key|freemium|Prompt versioning for teams.
+open-data|FiveThirtyEight Data|https://github.com/fivethirtyeight/data|https://github.com/fivethirtyeight/data|none|free|Data behind published stories.
+open-data|Statista|https://www.statista.com/|https://www.statista.com/|none|paid|Market and consumer statistics.
+sound-effects-audio|BBC Sound Effects|https://sound-effects.bbcrewind.co.uk/|https://sound-effects.bbcrewind.co.uk/licensing|none|free|16,000 BBC sound effects for non-commercial use.
+sound-effects-audio|Sonniss GDC Audio|https://sonniss.com/gameaudiogdc/|https://sonniss.com/gameaudiogdc/|none|free|Royalty-free game audio bundles.
+sound-effects-audio|Mixkit|https://mixkit.co/free-sound-effects/|https://mixkit.co/license/|none|free|Free sound effects and music.
+sound-effects-audio|Freesound.org Datasets|https://freesound.org/help/faq/|https://freesound.org/docs/api/|key|free|Large CC sound database.
+sound-effects-audio|SoundBible|https://soundbible.com/|https://soundbible.com/|none|free|Free sound clips.
+sound-effects-audio|Free Music Archive|https://freemusicarchive.org/|https://freemusicarchive.org/api|key|free|Open music library.
+sound-effects-audio|ccMixter|https://ccmixter.org/|http://ccmixter.org/query-api|none|free|Creative Commons music remix community.
+sound-effects-audio|Artlist|https://artlist.io/|https://artlist.io/|none|paid|Licensed music and SFX.
+sound-effects-audio|Soundsnap|https://www.soundsnap.com/|https://www.soundsnap.com/|none|paid|Professional sound effects.
+live-streaming|StreamElements API|https://streamelements.com/|https://docs.streamelements.com/|oauth|free|Streamer tools API.
+live-streaming|Streamlabs API|https://streamlabs.com/|https://dev.streamlabs.com/|oauth|free|Streaming alerts and tools.
+live-streaming|SRT Alliance|https://www.srtalliance.org/|https://github.com/Haivision/srt|none|free|Open low-latency video transport.
+live-streaming|MediaMTX|https://github.com/bluenviron/mediamtx|https://github.com/bluenviron/mediamtx|none|free|Real-time media server for RTSP, RTMP and WebRTC.
+live-streaming|Nginx RTMP Module|https://github.com/arut/nginx-rtmp-module|https://github.com/arut/nginx-rtmp-module/wiki|none|free|RTMP streaming server module.
+live-streaming|Ant Media Server|https://antmedia.io/|https://antmedia.io/docs/|key|freemium|Ultra-low-latency streaming server.
+live-streaming|Wowza Streaming|https://www.wowza.com/|https://docs.wowza.com/|key|paid|Streaming engine and cloud API.
+live-streaming|Dolby OptiView (Millicast)|https://optiview.dolby.com/|https://docs.dolby.io/streaming-apis/docs|key|paid|Real-time streaming with WebRTC.
+live-streaming|Livepeer|https://livepeer.org/|https://docs.livepeer.org/|key|freemium|Decentralised video infrastructure.
+live-streaming|Castr|https://castr.com/|https://docs.castr.com/|key|paid|Live streaming hosting.
+live-streaming|YouTube Live Chat|https://developers.google.com/youtube/v3/live/docs/liveChatMessages|https://developers.google.com/youtube/v3/live/docs/liveChatMessages|oauth|free|Read and post YouTube live chat.
+stock-photos|Burst by Shopify|https://www.shopify.com/stock-photos|https://www.shopify.com/stock-photos|none|free|Free stock photos by Shopify.
+stock-photos|StockSnap|https://stocksnap.io/|https://stocksnap.io/|none|free|Free CC0 stock photos.
+stock-photos|Gratisography|https://gratisography.com/|https://gratisography.com/|none|free|Free quirky stock photos.
+stock-photos|Depositphotos API|https://depositphotos.com/|https://depositphotos.com/api.html|key|paid|Stock content API.
+stock-photos|Storyblocks API|https://www.storyblocks.com/|https://documentation.storyblocks.com/|key|paid|Stock video and photo API.
+stock-photos|Alamy API|https://www.alamy.com/|https://www.alamy.com/|key|paid|Stock photo API.
+stock-photos|iStock|https://www.istockphoto.com/|https://developers.gettyimages.com/|key|paid|Getty-owned stock library.
+stock-photos|Library of Congress Photos|https://www.loc.gov/pictures/|https://www.loc.gov/apis/|none|free|Public domain historical photos.
+stock-photos|Lorem Flickr|https://loremflickr.com/|https://loremflickr.com/|none|free|Placeholder images by keyword from Flickr.
+ml-training-platforms|DVC|https://dvc.org/|https://dvc.org/doc|none|free|Data version control for ML.
+ml-training-platforms|Kubeflow|https://www.kubeflow.org/|https://www.kubeflow.org/docs/|none|free|ML toolkit for Kubernetes.
+ml-training-platforms|Metaflow|https://metaflow.org/|https://docs.metaflow.org/|none|free|Framework for real-life ML projects.
+ml-training-platforms|Determined AI|https://www.determined.ai/|https://docs.determined.ai/|key|free|Open-source deep learning training platform.
+ml-training-platforms|Vertex AI Training|https://cloud.google.com/vertex-ai/docs/training/overview|https://cloud.google.com/vertex-ai/docs/training/overview|oauth|paid|Managed training on Google Cloud.
+ml-training-platforms|Ray Train|https://docs.ray.io/en/latest/train/train.html|https://docs.ray.io/en/latest/train/train.html|none|free|Distributed training library.
+mcp-directories|MCP Hub|https://github.com/ravitemer/mcp-hub|https://github.com/ravitemer/mcp-hub|none|free|Hub for managing MCP servers.
+mcp-directories|OpenTools|https://opentools.com/|https://opentools.com/docs|key|freemium|Registry and API for tool calling.
+mcp-directories|Cursor MCP Directory|https://cursor.directory/mcp|https://cursor.directory/mcp|none|free|Directory of MCP servers for Cursor.
+mcp-directories|mcpservers.org|https://mcpservers.org/|https://mcpservers.org/|none|free|Curated MCP server list.
+mcp-directories|Anthropic Connectors Directory|https://claude.com/connectors|https://support.anthropic.com/|none|free|Connectors for Claude.
+mcp-directories|Zapier MCP|https://zapier.com/mcp|https://docs.zapier.com/mcp/home|key|freemium|MCP access to thousands of apps.
+dictionaries-language|Collins Dictionary API|https://www.collinsdictionary.com/api/v1|https://api.collinsdictionary.com/api/v1/documentation/html/|key|paid|Collins dictionary data.
+dictionaries-language|Wordnik API|https://developer.wordnik.com/|https://developer.wordnik.com/docs|key|freemium|Words, definitions and examples.
+dictionaries-language|Linguee API|https://www.linguee.com/|https://github.com/imankulov/linguee-api|none|free|Unofficial translation dictionary API.
+dictionaries-language|PanLex|https://panlex.org/|https://dev.panlex.org/api/|none|free|Lexical translation database for thousands of languages.
+dictionaries-language|Wiktextract|https://github.com/tatuylonen/wiktextract|https://kaikki.org/|none|free|Machine-readable Wiktionary data.
+dictionaries-language|Open Multilingual WordNet|https://omwn.org/|https://omwn.org/|none|free|WordNets in many languages.
+url-utilities|TinyURL API|https://tinyurl.com/|https://tinyurl.com/app/dev|key|freemium|URL shortening API.
+url-utilities|Rebrandly API|https://www.rebrandly.com/|https://developers.rebrandly.com/|key|freemium|Branded link shortener.
+url-utilities|Cutt.ly API|https://cutt.ly/|https://cutt.ly/api-documentation/cuttly-links-api|key|freemium|Link shortener API.
+url-utilities|is.gd API|https://is.gd/|https://is.gd/apishorteningreference.php|none|free|Simple short URL API.
+url-utilities|Kutt|https://kutt.it/|https://docs.kutt.it/|key|free|Open-source link shortener.
+url-utilities|Shlink|https://shlink.io/|https://shlink.io/documentation/api-docs/|key|free|Self-hosted URL shortener.
+url-utilities|Unshorten.me|https://unshorten.me/|https://unshorten.me/api|none|free|Expand shortened URLs.
+url-utilities|URLScan.io|https://urlscan.io/|https://urlscan.io/docs/api/|key|freemium|Scan and analyse websites.
+qr-barcode|QuickChart QR|https://quickchart.io/qr-code-api/|https://quickchart.io/documentation/qr-codes/|none|free|QR code API.
+qr-barcode|qrcode.js|https://github.com/davidshimjs/qrcodejs|https://github.com/davidshimjs/qrcodejs|none|free|JavaScript QR generator.
+qr-barcode|zxing-js|https://github.com/zxing-js/library|https://zxing-js.github.io/library/|none|free|Barcode scanning in JavaScript.
+qr-barcode|html5-qrcode|https://github.com/mebjas/html5-qrcode|https://scanapp.org/html5-qrcode-docs/|none|free|Scan QR codes from web.
+qr-barcode|QR Code Monkey API|https://www.qrcode-monkey.com/qr-code-api-with-logo/|https://www.qrcode-monkey.com/qr-code-api-with-logo/|none|free|Custom QR codes with logos.
+qr-barcode|Zint Barcode Generator|https://zint.org.uk/|https://zint.org.uk/manual/|none|free|Open-source barcode generator.
+qr-barcode|Dynamsoft Barcode Reader|https://www.dynamsoft.com/barcode-reader/overview/|https://www.dynamsoft.com/barcode-reader/docs/|key|paid|Commercial barcode scanning SDK.
+qr-barcode|Scanbot SDK|https://scanbot.io/|https://docs.scanbot.io/|key|paid|Barcode and document scanning SDK.
+recipes-cooking|Edamam Food Database|https://developer.edamam.com/food-database-api|https://developer.edamam.com/food-database-api-docs|key|freemium|Food and nutrient database.
+recipes-cooking|Whisk API|https://whisk.com/|https://developers.whisk.com/|key|free|Recipe and shopping list API.
+recipes-cooking|Samsung Food|https://samsungfood.com/|https://samsungfood.com/|none|freemium|Recipes and meal planning.
+media-servers|Gonic|https://github.com/sentriz/gonic|https://github.com/sentriz/gonic|none|free|Subsonic-compatible music server.
+media-servers|Funkwhale|https://funkwhale.audio/|https://docs.funkwhale.audio/|key|free|Federated music server.
+media-servers|Airsonic-Advanced|https://github.com/airsonic-advanced/airsonic-advanced|https://airsonic.github.io/|none|free|Self-hosted music streamer.
+media-servers|Stremio Addon SDK|https://github.com/Stremio/stremio-addon-sdk|https://github.com/Stremio/stremio-addon-sdk/blob/master/docs/README.md|none|free|Build catalog addons for Stremio.
+media-servers|Komga|https://komga.org/|https://komga.org/docs/|key|free|Comics and manga server.
+media-servers|Kavita|https://www.kavitareader.com/|https://www.kavitareader.com/docs/|key|free|Digital library server.
+media-servers|Calibre Content Server|https://calibre-ebook.com/|https://manual.calibre-ebook.com/server.html|none|free|Share ebooks from Calibre.
+media-servers|PhotoPrism|https://www.photoprism.app/|https://docs.photoprism.app/|key|freemium|AI-powered photo app.
+media-servers|Overseerr|https://overseerr.dev/|https://api-docs.overseerr.dev/|key|free|Media request management.
+media-servers|Tautulli|https://tautulli.com/|https://github.com/Tautulli/Tautulli/wiki/Tautulli-API-Reference|key|free|Plex monitoring.
+drinks-beverages|Sample API Beers|https://api.sampleapis.com/beers/ale|https://sampleapis.com/api-list/beers|none|free|Sample beer data.
+drinks-beverages|Cocktail Party|https://api-ninjas.com/api/cocktail|https://api-ninjas.com/api/cocktail|key|freemium|Cocktail recipes by API Ninjas.
+drinks-beverages|Wine API (Sample APIs)|https://api.sampleapis.com/wines/reds|https://sampleapis.com/api-list/wines|none|free|Sample wine data.
+backend-as-a-service|Hasura|https://hasura.io/|https://hasura.io/docs/|key|freemium|Instant GraphQL APIs on databases.
+backend-as-a-service|PostgREST|https://postgrest.org/|https://docs.postgrest.org/|none|free|REST API directly from a Postgres schema.
+backend-as-a-service|Back4App|https://www.back4app.com/|https://www.back4app.com/docs/|key|freemium|Parse-based managed backend.
+backend-as-a-service|Instant|https://www.instantdb.com/|https://www.instantdb.com/docs|key|freemium|Real-time client-side database.
+proxy-services|Smartproxy|https://smartproxy.com/|https://help.smartproxy.com/|key|paid|Residential and datacenter proxies.
+proxy-services|SOAX|https://soax.com/|https://helpcenter.soax.com/|key|paid|Proxy network.
+proxy-services|Rayobyte|https://rayobyte.com/|https://rayobyte.com/docs|key|paid|Proxies and scraping.
+proxy-services|Geonode|https://geonode.com/|https://geonode.com/|key|paid|Proxy provider.
+proxy-services|Storm Proxies|https://stormproxies.com/|https://stormproxies.com/|key|paid|Rotating proxies.
+proxy-services|PacketStream|https://packetstream.io/|https://packetstream.io/|key|paid|Peer residential proxy network.
+proxy-services|ProxyMesh|https://proxymesh.com/|https://docs.proxymesh.com/|key|paid|Rotating proxy servers.
+proxy-services|mitmproxy|https://mitmproxy.org/|https://docs.mitmproxy.org/|none|free|Interactive HTTPS proxy.
+nosql-key-value-stores|Valkey|https://valkey.io/|https://valkey.io/docs/|none|free|Open-source Redis fork under the Linux Foundation.
+nosql-key-value-stores|DynamoDB|https://aws.amazon.com/dynamodb/|https://docs.aws.amazon.com/dynamodb/|oauth|paid|Managed key-value and document database.
+nosql-key-value-stores|Couchbase|https://www.couchbase.com/|https://docs.couchbase.com/|key|freemium|Distributed NoSQL document database.
+nosql-key-value-stores|Apache CouchDB|https://couchdb.apache.org/|https://docs.couchdb.org/|none|free|Document database with HTTP API.
+nosql-key-value-stores|Firestore|https://firebase.google.com/products/firestore|https://firebase.google.com/docs/firestore|oauth|freemium|Serverless document database.
+nosql-key-value-stores|Azure Cosmos DB|https://azure.microsoft.com/products/cosmos-db|https://learn.microsoft.com/azure/cosmos-db/|oauth|paid|Multi-model global database.
+nosql-key-value-stores|etcd|https://etcd.io/|https://etcd.io/docs/|none|free|Distributed reliable key-value store.
+nosql-key-value-stores|DragonflyDB|https://www.dragonflydb.io/|https://www.dragonflydb.io/docs|key|freemium|Redis-compatible in-memory store.
+nosql-key-value-stores|FoundationDB|https://www.foundationdb.org/|https://apple.github.io/foundationdb/|none|free|Distributed transactional key-value store.
+nosql-key-value-stores|RavenDB|https://ravendb.net/|https://ravendb.net/docs|key|freemium|Document database.
+nosql-key-value-stores|Memcached|https://memcached.org/|https://github.com/memcached/memcached/wiki|none|free|Distributed memory caching.
+api-marketplaces|RapidAPI Enterprise Hub|https://rapidapi.com/|https://docs.rapidapi.com/|key|freemium|API marketplace and management.
+api-marketplaces|APIs.io|https://apis.io/|https://apis.io/|none|free|Search engine for APIs.
+api-marketplaces|Nordic APIs|https://nordicapis.com/|https://nordicapis.com/|none|free|API industry resources.
+api-marketplaces|AWS Marketplace|https://aws.amazon.com/marketplace|https://docs.aws.amazon.com/marketplace/|oauth|paid|Cloud software and data marketplace.
+chat-sdks|Vercel AI Chatbot|https://github.com/vercel/ai-chatbot|https://github.com/vercel/ai-chatbot|none|free|Open-source chat template.
+chat-sdks|Chatscope UI Kit|https://chatscope.io/|https://chatscope.io/storybook/react/|none|free|React chat UI components.
+chat-sdks|Botpress Webchat|https://botpress.com/|https://botpress.com/docs|key|freemium|Chat widget for agents.
+chat-sdks|Deep Chat|https://deepchat.dev/|https://deepchat.dev/docs/introduction|none|free|Chat component for AI.
+chat-sdks|Chainlit|https://chainlit.io/|https://docs.chainlit.io/|none|free|Python framework for chat UIs.
+chat-sdks|Talkjs|https://talkjs.com/|https://talkjs.com/docs/|key|freemium|Chat API for apps.
+video-conferencing-oss|Galène|https://galene.org/|https://galene.org/|none|free|Simple videoconferencing server.
+video-conferencing-oss|Jitsi iFrame API|https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-iframe/|https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-iframe/|none|free|Embed Jitsi in sites.
+video-conferencing-oss|Kurento|https://www.kurento.org/|https://doc-kurento.readthedocs.io/|none|free|WebRTC media server.
+video-conferencing-oss|Ion SFU|https://github.com/ionorg/ion-sfu|https://github.com/ionorg/ion-sfu|none|free|Go WebRTC SFU.
+video-conferencing-oss|Peerjs|https://peerjs.com/|https://peerjs.com/docs/|none|free|Simple WebRTC peer-to-peer.
+video-conferencing-oss|Zoom Meeting SDK|https://developers.zoom.us/docs/meeting-sdk/|https://developers.zoom.us/docs/meeting-sdk/|key|freemium|Embed Zoom meetings.
+agent-payments|Natural|https://www.natural.co/|https://docs.natural.co/|key|paid|Payments for agents.
+agent-payments|Catena Labs|https://catenalabs.com/|https://catenalabs.com/|key|paid|AI-native financial institution.
+agent-payments|Nekuda|https://www.nekuda.ai/|https://docs.nekuda.ai/|key|paid|Wallet for agentic payments.
+agent-payments|Bitrefill API|https://www.bitrefill.com/|https://docs.bitrefill.com/|key|free|Gift cards and top-ups for agents.
+pdf-document-generation|PDFKit|https://pdfkit.org/|https://pdfkit.org/docs/getting_started.html|none|free|JavaScript PDF generation.
+pdf-document-generation|jsPDF|https://github.com/parallax/jsPDF|https://rawgit.com/MrRio/jsPDF/master/docs/index.html|none|free|Client-side PDF generation.
+pdf-document-generation|React PDF|https://react-pdf.org/|https://react-pdf.org/components|none|free|Render PDFs with React.
+pdf-document-generation|wkhtmltopdf|https://wkhtmltopdf.org/|https://wkhtmltopdf.org/usage/wkhtmltopdf.txt|none|free|HTML to PDF CLI.
+pdf-document-generation|Prince|https://www.princexml.com/|https://www.princexml.com/doc/|none|paid|HTML to PDF with CSS.
+pdf-document-generation|PDFMonkey|https://www.pdfmonkey.io/|https://docs.pdfmonkey.io/|key|freemium|PDF generation API.
+pdf-document-generation|Api2Pdf|https://www.api2pdf.com/|https://www.api2pdf.com/documentation/|key|paid|PDF API.
+pdf-document-generation|CraftMyPDF|https://craftmypdf.com/|https://craftmypdf.com/docs/|key|freemium|Template PDF generation.
+pdf-document-generation|Docmosis|https://www.docmosis.com/|https://www.docmosis.com/support/|key|paid|Document generation.
+pdf-document-generation|Aspose.PDF|https://products.aspose.com/pdf/|https://docs.aspose.com/pdf/|key|paid|PDF library.
+meetings-conferencing|Microsoft Teams Meetings API|https://learn.microsoft.com/graph/api/resources/onlinemeeting|https://learn.microsoft.com/graph/api/resources/onlinemeeting|oauth|paid|Online meetings via Graph.
+meetings-conferencing|Dyte|https://dyte.io/|https://docs.dyte.io/|key|freemium|Real-time video SDK.
+meetings-conferencing|Livekit Meet|https://meet.livekit.io/|https://github.com/livekit-examples/meet|none|free|Open-source video conferencing app.
+meetings-conferencing|GoToMeeting API|https://developer.goto.com/|https://developer.goto.com/GoToMeetingV1|oauth|paid|GoTo meeting API.
+meetings-conferencing|Amazon Chime SDK|https://aws.amazon.com/chime/chime-sdk/|https://docs.aws.amazon.com/chime-sdk/|oauth|paid|Video and audio SDK.
+meetings-conferencing|Twilio Video|https://www.twilio.com/video|https://www.twilio.com/docs/video|key|paid|Programmable video.
+research-assistants|Undermind|https://www.undermind.ai/|https://www.undermind.ai/|none|freemium|Deep literature search.
+research-assistants|OpenAI Deep Research|https://openai.com/index/introducing-deep-research/|https://platform.openai.com/docs/guides/deep-research|key|paid|Deep research agent.
+research-assistants|Gemini Deep Research|https://gemini.google/overview/deep-research/|https://ai.google.dev/gemini-api/docs/deep-research|key|paid|Deep research agent.
+research-assistants|Mendeley API|https://dev.mendeley.com/|https://dev.mendeley.com/|oauth|free|Reference manager API.
+visual-agent-builders|Coze|https://www.coze.com/|https://www.coze.com/docs/|key|freemium|Bot and agent builder.
+visual-agent-builders|Copilot Studio|https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio|https://learn.microsoft.com/microsoft-copilot-studio/|oauth|paid|Microsoft agent builder.
+agent-protocols|A2A Python SDK|https://github.com/a2aproject/a2a-python|https://a2a-protocol.org/latest/|none|free|SDK for the A2A protocol.
+agent-protocols|OpenAI Agents SDK Handoffs|https://openai.github.io/openai-agents-python/|https://openai.github.io/openai-agents-python/handoffs/|none|free|Agent handoff patterns.
+agent-protocols|LangChain Agent Protocol|https://github.com/langchain-ai/agent-protocol|https://github.com/langchain-ai/agent-protocol|none|free|Framework-agnostic agent API.
+agent-protocols|MCP-UI|https://mcpui.dev/|https://mcpui.dev/guide/introduction|none|free|UI components for MCP.
+crm-sales|Zoho CRM|https://www.zoho.com/crm/|https://www.zoho.com/crm/developer/docs/api/v7/|oauth|freemium|CRM API.
+crm-sales|Freshsales|https://www.freshworks.com/crm/sales/|https://developers.freshworks.com/crm/api/|key|freemium|CRM API.
+crm-sales|Insightly|https://www.insightly.com/|https://api.insightly.com/v3.1/Help|key|freemium|CRM API.
+crm-sales|Monday CRM|https://monday.com/crm|https://developer.monday.com/api-reference/|key|paid|CRM on monday.
+crm-sales|Streak|https://www.streak.com/|https://streak.readme.io/|key|freemium|Gmail CRM API.
+crm-sales|EspoCRM|https://www.espocrm.com/|https://docs.espocrm.com/development/api/|key|free|Open-source CRM.
+crm-sales|Dynamics 365 Sales|https://dynamics.microsoft.com/sales/|https://learn.microsoft.com/dynamics365/sales/|oauth|paid|Microsoft CRM.
+crm-sales|Capsule CRM|https://capsulecrm.com/|https://developer.capsulecrm.com/|oauth|freemium|CRM API.
+games-data|PandaScore|https://www.pandascore.co/|https://developers.pandascore.co/|key|freemium|Esports data.
+games-data|BoardGameGeek XML API2|https://boardgamegeek.com/wiki/page/BGG_XML_API2|https://boardgamegeek.com/wiki/page/BGG_XML_API2|none|free|Board game data.
+games-data|SteamSpy|https://steamspy.com/api.php|https://steamspy.com/api.php|none|free|Steam stats.
+games-data|MobyGames API|https://www.mobygames.com/info/api/|https://www.mobygames.com/info/api/|key|freemium|Video game database.
+games-data|Giant Bomb API|https://www.giantbomb.com/api/|https://www.giantbomb.com/api/documentation/|key|free|Games database.
+games-data|Twitch Games|https://dev.twitch.tv/docs/api/reference/#get-games|https://dev.twitch.tv/docs/api/|oauth|free|Game metadata via Twitch.
+games-data|Magic: The Gathering API|https://magicthegathering.io/|https://docs.magicthegathering.io/|none|free|MTG card data.
+games-data|YGOPRODeck API|https://ygoprodeck.com/api-guide/|https://ygoprodeck.com/api-guide/|none|free|Yu-Gi-Oh card database.
+games-data|Pokémon TCG API|https://pokemontcg.io/|https://docs.pokemontcg.io/|key|free|Pokémon trading card data.
