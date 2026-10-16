@@ -903,5 +903,20 @@
   "slug": "public-transit",
   "name": "Public Transit",
   "blurb": "Transit schedules, routing and GTFS data."
+ },
+ {
+  "slug": "geocoding-address",
+  "name": "Geocoding & Address Validation",
+  "blurb": "Turn addresses into coordinates and back, and validate or autocomplete postal addresses."
+ },
+ {
+  "slug": "time-series-databases",
+  "name": "Time-Series Databases",
+  "blurb": "Databases built for metrics, IoT and event data indexed by time."
+ },
+ {
+  "slug": "read-later-bookmarks",
+  "name": "Bookmarks & Read-Later",
+  "blurb": "Bookmark managers and read-later services with APIs for saved content."
  }
 ]

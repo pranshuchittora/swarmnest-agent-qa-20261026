@@ -121,7 +121,8 @@
    "data-viz-bi",
    "message-queues",
    "event-streaming",
-   "datasets"
+   "datasets",
+   "time-series-databases"
   ]
  },
  {
@@ -195,7 +196,8 @@
    "hr-payroll",
    "company-registries",
    "legal-data",
-   "real-estate"
+   "real-estate",
+   "read-later-bookmarks"
   ]
  },
  {
@@ -254,7 +256,8 @@
    "cultural-heritage",
    "nutrition-data",
    "recipes-cooking",
-   "drinks-beverages"
+   "drinks-beverages",
+   "geocoding-address"
   ]
  }
 ]
