@@ -463,6 +463,7 @@
 /directory/movies-tv-data/igdb-api/ /directory/games-data/igdb-api/ 301
 /directory/movies-tv-data/scryfall-api/ /directory/games-data/scryfall-api/ 301
 /directory/movies-tv-data/steam-web-api/ /directory/games-data/steam-web-api/ 301
+/directory/no-code-databases/google-sheets-api/ /directory/spreadsheet-apis/google-sheets-api/ 301
 /directory/ocr-document-parsing/gotenberg/ /directory/pdf-document-generation/gotenberg/ 301
 /directory/ocr-document-parsing/pdfco/ /directory/pdf-document-generation/pdfco/ 301
 /directory/open-data/arxiv-api/ /directory/academic-research/arxiv-api/ 301
@@ -697,6 +698,8 @@
 /directory/search-apis/yippy-public-search/ /directory/web-search-engines/yippy-public-search/ 301
 /directory/search-apis/zinc-search-self-hosted/ /directory/site-search-engines/zinc-search-self-hosted/ 301
 /directory/search-apis/zincsearch/ /directory/site-search-engines/zincsearch/ 301
+/directory/security-guardrails/openai-moderation-api/ /directory/content-moderation/openai-moderation-api/ 301
+/directory/security-guardrails/perspective-api/ /directory/content-moderation/perspective-api/ 301
 /directory/speech-transcription/3d-speaker/ /directory/speaker-diarization/3d-speaker/ 301
 /directory/speech-transcription/aivaai-meeting-summaries/ /directory/meeting-notes-ai/aivaai-meeting-summaries/ 301
 /directory/speech-transcription/coqui-tts/ /directory/text-to-speech/coqui-tts/ 301
@@ -745,6 +748,8 @@
 /directory/team-chat-selfhosted/tox-decentralized-chat/ /directory/secure-messaging/tox-decentralized-chat/ 301
 /directory/team-chat-selfhosted/wire/ /directory/secure-messaging/wire/ 301
 /directory/team-chat-selfhosted/zulip/ /directory/team-chat/zulip/ 301
+/directory/text-to-speech/suno/ /directory/ai-music-generation/suno/ 301
+/directory/text-to-speech/udio/ /directory/ai-music-generation/udio/ 301
 /directory/translation-apis/deepl-voice-api/ /directory/ai-dubbing/deepl-voice-api/ 301
 /directory/translation-apis/elevenlabs-dubbing-api/ /directory/ai-dubbing/elevenlabs-dubbing-api/ 301
 /directory/translation-apis/heygen-video-translation-api/ /directory/ai-dubbing/heygen-video-translation-api/ 301

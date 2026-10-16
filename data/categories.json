@@ -918,5 +918,30 @@
   "slug": "read-later-bookmarks",
   "name": "Bookmarks & Read-Later",
   "blurb": "Bookmark managers and read-later services with APIs for saved content."
+ },
+ {
+  "slug": "ai-music-generation",
+  "name": "AI Music Generation",
+  "blurb": "Models and APIs that generate songs, instrumentals and soundtracks from prompts."
+ },
+ {
+  "slug": "ai-content-detection",
+  "name": "AI Content Detection & Provenance",
+  "blurb": "Detectors, watermarks and provenance standards for AI-generated text, images and audio."
+ },
+ {
+  "slug": "content-moderation",
+  "name": "Content Moderation",
+  "blurb": "APIs that flag unsafe text, images and video for platforms and agents."
+ },
+ {
+  "slug": "presentations-slides",
+  "name": "Presentations & Slides",
+  "blurb": "Slide generation tools, libraries and APIs for decks."
+ },
+ {
+  "slug": "spreadsheet-apis",
+  "name": "Spreadsheet APIs",
+  "blurb": "Programmatic access to spreadsheets and spreadsheet libraries."
  }
 ]
