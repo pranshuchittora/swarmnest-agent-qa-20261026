@@ -1,4 +1,4 @@
-export const PERSONAS = [
+export const TEMPLATES = [
  { slug:'research-analyst', name:'Research Analyst', role:'Finds, reads and cites sources, then writes a short sourced brief.', tone:'Neutral, precise, plain language.',
    instructions:'Break the question into sub-questions. Search for primary sources first. Read each source before citing it. Report findings with a URL for every claim, and flag disagreements between sources. End with a confidence level and open questions.',
    guardrails:['Never cite a page you did not open.','Say "not found" instead of guessing.','Separate facts from your own inference.'],
@@ -40,6 +40,17 @@ export const PERSONAS = [
    tools:['telegram-bot-api','discord-developer-platform','slack-api','jina-reader','resend'],
    prompts:['Write five post options announcing our new feature, each with a different angle.','Summarize this week\'s mentions and flag anything needing a human reply.','Turn this blog post into a short thread draft.'] },
 ];
+export const USECASES = [
+ { slug:'research-a-topic-with-sources', name:'Research a topic with sources', goal:'Get a short, sourced brief on a question, with every claim linked to a page you can check.', outcome:'A cited brief with a confidence level and open questions.', templates:['research-analyst'] },
+ { slug:'answer-customer-questions', name:'Answer customer questions', goal:'Reply to customers from your own docs, and hand off to a person when the agent is unsure.', outcome:'Fast, accurate first replies and clean escalations.', templates:['support-agent'] },
+ { slug:'rank-in-search', name:'Write search-friendly content', goal:'Turn a brief and a source list into articles that match search intent.', outcome:'Outlines, drafts, meta descriptions and internal link ideas for human review.', templates:['seo-writer','research-analyst'] },
+ { slug:'find-prospects', name:'Find prospective customers', goal:'Build a list of companies that fit your ideal customer, from public sources only.', outcome:'A sourced table of companies, websites and why each fits.', templates:['lead-researcher','research-analyst'] },
+ { slug:'analyze-open-data', name:'Analyze open data', goal:'Pull public datasets, clean them and explain what they show.', outcome:'A reproducible analysis with the method, result and caveats.', templates:['data-analyst'] },
+ { slug:'diagnose-deploy-failures', name:'Diagnose failed deploys', goal:'Understand why a release broke and decide the smallest safe fix.', outcome:'A likely cause, a proposed fix and a rollback plan for a human to approve.', templates:['devops-helper'] },
+ { slug:'manage-inbox-and-schedule', name:'Manage your inbox and schedule', goal:'Triage email, draft replies and prepare briefings without sending anything unapproved.', outcome:'Ranked messages, draft replies and a morning briefing.', templates:['executive-assistant'] },
+ { slug:'run-social-media', name:'Run a social media presence', goal:'Draft posts and replies and keep track of mentions while a human stays in control.', outcome:'Post options, timing ideas and a mentions summary.', templates:['social-media-manager','seo-writer'] },
+];
+export const useCasesFor = (t:string)=>USECASES.filter(u=>u.templates.includes(t));
 export const PRODUCTS = [
  { slug:'web-research-skill-pack', title:'Web Research Skill Pack', type:'Skill pack', summary:'Search, read and cite: a reusable skill with a strict JSON output schema for sourced answers.', price:'$19', cents:1900 },
  { slug:'lead-research-workflow', title:'Lead Research Workflow', type:'Workflow', summary:'Find and qualify prospects from public sources. Includes an n8n workflow and a plain-script version.', price:'$29', cents:2900 },
@@ -47,5 +58,5 @@ export const PRODUCTS = [
  { slug:'content-repurposing-workflow', title:'Content Repurposing Workflow', type:'Workflow', summary:'Turn one article or video transcript into posts, a newsletter section and a summary.', price:'$19', cents:1900 },
  { slug:'mcp-server-starter-kit', title:'MCP Server Starter Kit', type:'Starter kit', summary:'A Cloudflare Workers template for building and deploying your own MCP server, with examples.', price:'$24', cents:2400 },
  { slug:'agent-eval-guardrails-pack', title:'Agent Eval & Guardrails Pack', type:'Prompt pack', summary:'Test cases, rubrics and guardrail prompts to check an agent before you trust it.', price:'$29', cents:2900 },
- { slug:'persona-bundle', title:'Persona Bundle', type:'Persona pack', summary:'All eight launch personas as ready-to-use system prompts and JSON.', price:'$9', cents:900 },
+ { slug:'persona-bundle', title:'Agent Templates Bundle', type:'Template pack', summary:'All eight launch agent templates as ready-to-use system prompts and JSON.', price:'$9', cents:900 },
 ];

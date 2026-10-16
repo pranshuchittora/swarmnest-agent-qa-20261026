@@ -11,6 +11,7 @@ const fails=[];const fail=(k,m)=>fails.push(k+': '+m);
 const old=new Set(before);
 for(const c of legacy.cats)old.add(`/directory/${c}/`);
 for(const [c,s] of legacy.entries)old.add(`/directory/${c}/${s}/`);
+for(const t of ['research-analyst','support-agent','seo-writer','lead-researcher','data-analyst','devops-helper','executive-assistant','social-media-manager']){old.add(`/use-cases/${t}/`);old.add(`/api/v1/personas/${t}.json`)}old.add('/api/v1/personas.json');
 const olds=[...old];let nred=0,n200=0;
 await pool(olds,16,async p=>{const r=await get(p);if(r.status===200){n200++;return}
  if(r.status===301){nred++;const loc=r.headers.get('location');const t=new URL(loc,base).pathname;const r2=await get(t);if(r2.status!==200)fail('legacy',`${p} -> ${t} gave ${r2.status}`);return}
@@ -28,7 +29,7 @@ const lk=[...links].filter(u=>!smurls.includes(u));
 await pool(lk,16,async u=>{const r=await get(u,'follow');if(r.status!==200)fail('link',`${u} ${r.status}`)});
 console.log('internal links',links.size,'(non-sitemap checked',lk.length+')');
 // 4 llms.txt, llms-full, api
-const extra=new Set(['/llms.txt','/llms-full.txt','/openapi.json','/directory.json','/api/v1/directory.json','/api/v1/categories.json','/api/v1/personas.json','/api/v1/products.json','/search-index.json','/search-vocab.json','/search.js','/opensearch.xml','/robots.txt','/api/v1/search?q=stripe']);
+const extra=new Set(['/llms.txt','/llms-full.txt','/openapi.json','/directory.json','/api/v1/directory.json','/api/v1/categories.json','/api/v1/agent-templates.json','/api/v1/use-cases.json','/api/v1/products.json','/search-index.json','/search-vocab.json','/search.js','/opensearch.xml','/robots.txt','/api/v1/search?q=stripe']);
 const llms=await (await get('/llms.txt')).text();for(const m of llms.matchAll(/\]\((https:\/\/swarmnest\.ai[^)\s]*)\)/g))extra.add(m[1].replace('https://swarmnest.ai',''));
 const dj=await (await get('/api/v1/directory.json')).json();const list=dj.entries||dj.results||dj;
 for(const e of list)extra.add(`/api/v1/directory/${e.slug}.json`);

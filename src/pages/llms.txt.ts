@@ -1,9 +1,9 @@
 import { LAUNCH } from '../lib/config';
-import { PERSONAS, PRODUCTS } from '../lib/content';
+import { TEMPLATES, USECASES, PRODUCTS } from '../lib/content';
 import { ALL, CATS, GROUPS, byCat, SITE } from '../lib/data';
 export const GET = () => new Response(`# Swarmnest
 
-> Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has 8 agent personas, and a marketplace of own products that is coming soon.
+> Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has 8 use cases with 8 ready-made agent templates, and a marketplace of own products that is coming soon.
 
 ## Machine-readable
 - [Directory JSON](${SITE}/directory.json): every entry with name, slug, category, description, url, docs_url, auth, pricing
@@ -28,9 +28,15 @@ ${GROUPS.map(g=>`### ${g.name}\n${g.blurb}\n${g.cats.map(c=>`- [${c.name}](${SIT
 - [Refunds](${SITE}/refunds/)
 - [Takedown](${SITE}/takedown/)
 
-## Use cases (personas)
-- [Index](${SITE}/use-cases/) and [JSON](${SITE}/api/v1/personas.json)
-${PERSONAS.map(p=>`- [${p.name}](${SITE}/use-cases/${p.slug}/): ${p.role}`).join('\n')}
+## Use cases (jobs to be done)
+- [Index](${SITE}/use-cases/) and [JSON](${SITE}/api/v1/use-cases.json)
+${USECASES.map(u=>`- [${u.name}](${SITE}/use-cases/${u.slug}/): ${u.goal}`).join('
+')}
+
+## Agent templates (ready-made agents: instructions, guardrails, tools, persona and tone)
+- [Index](${SITE}/agent-templates/) and [JSON](${SITE}/api/v1/agent-templates.json)
+${TEMPLATES.map(p=>`- [${p.name}](${SITE}/agent-templates/${p.slug}/): ${p.role}`).join('
+')}
 
 ## Marketplace (${LAUNCH?'for sale':'coming soon, not for sale yet'})
 - [Marketplace](${SITE}/marketplace/) and [JSON](${SITE}/api/v1/products.json)

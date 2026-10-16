@@ -1,13 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { PERSONAS } from '../../lib/content';
+import { USECASES, TEMPLATES } from '../../lib/content';
 import { SITE } from '../../lib/data';
-const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest agent personas',itemListElement:PERSONAS.map((p,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/use-cases/${p.slug}/`,name:p.name}))},
+const ld=[{'@context':'https://schema.org','@type':'CollectionPage',name:'AI agent use cases',description:'Jobs people hand to AI agents, each linked to a ready-made agent template.',url:SITE+'/use-cases/'},
+{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest AI agent use cases',itemListElement:USECASES.map((u,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/use-cases/${u.slug}/`,name:u.name}))},
 {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Use cases',item:SITE+'/use-cases/'}]}];
+const tn=(s:string)=>TEMPLATES.find(t=>t.slug===s)!.name;
 ---
-<Base title="AI agent use cases and bot personas | Swarmnest" description="Eight ready-made AI agent personas with instructions, guardrails, example prompts and the tools they use." path="/use-cases/" jsonld={ld}>
-<h1>Use cases &amp; personas</h1>
-<p class="lead">Eight ready-made agent roles. Each has instructions you can paste into a system prompt, guardrails, example prompts and links to the tools it uses. Also available as <a href="/api/v1/personas.json">JSON</a>.</p>
-<div class="grid">{PERSONAS.map(p=><a class="card" href={`/use-cases/${p.slug}/`}><h3>{p.name}</h3><p>{p.role}</p></a>)}</div>
-<p class="small">A downloadable <a href="/marketplace/persona-bundle/">Persona Bundle</a> is coming to the marketplace.</p>
+<Base title="AI agent use cases: jobs to hand to an agent | Swarmnest" description="Eight practical jobs to give an AI agent, such as researching with sources, finding prospects and triaging email, each with a ready-made agent template and tools." path="/use-cases/" jsonld={ld}>
+<h1>Use cases</h1>
+<p class="lead">A use case is a job you want done. Pick one, then open the <a href="/agent-templates/">agent template</a> that does it, with instructions, tools and a persona. Also available as <a href="/api/v1/use-cases.json">JSON</a>.</p>
+<div class="grid">{USECASES.map(u=><a class="card" href={`/use-cases/${u.slug}/`}><h3>{u.name}</h3><p>{u.goal}</p><p class="small">Templates: {u.templates.map(tn).join(', ')}</p></a>)}</div>
 </Base>

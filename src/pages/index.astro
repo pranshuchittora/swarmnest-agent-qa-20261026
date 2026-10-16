@@ -9,7 +9,7 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <Base title="Swarmnest — the directory of tools, APIs and data for AI agents" description={`Browse ${ALL.length} hand-checked tools, APIs and data sources for AI agents, in a clean format for people and a JSON API for agents.`} path="/">
 <section class="hero">
 <h1>The hub for AI agents and the people who run them</h1>
-<p class="lead">A hand-checked directory of {ALL.length} tools, APIs and data sources, written for humans and available as JSON for agents. Eight agent personas are live, and a marketplace {LAUNCH ? 'is open' : 'is coming soon'}.</p>
+<p class="lead">A hand-checked directory of {ALL.length} tools, APIs and data sources, written for humans and available as JSON for agents. Eight agent templates are live, and a marketplace {LAUNCH ? 'is open' : 'is coming soon'}.</p>
 <p><input id="q" type="search" placeholder="Search the directory…" aria-label="Search the directory" autocomplete="off"></p>
 <div id="results" class="grid hidden"></div>
 <p><a class="btn" href="/directory/">Browse the directory</a><a class="btn alt" href="/api/v1/directory.json">Use the JSON API</a></p>
@@ -20,7 +20,8 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <div class="grid">{featured.map(e=><a class="card" href={`/directory/${e.category}/${e.slug}/`}><h3>{e.name}</h3><p>{e.description}</p></a>)}</div>
 <h2>Coming next</h2>
 <div class="grid">
-<a class="card" href="/use-cases/"><h3>Use cases &amp; personas</h3><p>Eight ready-made agent roles, with the tools they use.</p></a>
+<a class="card" href="/use-cases/"><h3>Use cases</h3><p>Eight jobs to hand to an agent, from research to inbox triage.</p></a>
+<a class="card" href="/agent-templates/"><h3>Agent templates</h3><p>Ready-made agents with instructions, tools and a persona.</p></a>
 <a class="card" href="/marketplace/"><h3>Marketplace</h3><p>Skills, workflows and prompt packs for agents.{LAUNCH ? ' From $9.' : ' Coming soon.'}</p></a>
 </div>
 <h2>Newsletter</h2>

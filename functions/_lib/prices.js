@@ -15,5 +15,5 @@ export const PRODUCT_TITLES = {
  "content-repurposing-workflow": "Content Repurposing Workflow",
  "mcp-server-starter-kit": "MCP Server Starter Kit",
  "agent-eval-guardrails-pack": "Agent Eval & Guardrails Pack",
- "persona-bundle": "Persona Bundle"
+ "persona-bundle": "Agent Templates Bundle"
 };
