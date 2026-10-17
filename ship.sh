@@ -2,7 +2,7 @@
 # usage: ./ship.sh "commit message"   build -> staging verify -> commit/push -> prod deploy -> prod verify
 set -e; cd /workspace/swarmnest-site; export CLOUDFLARE_ACCOUNT_ID=e48ffb81a1db5717af9ab1a0bfb937f8
 before=$(curl -s -A Swarmnest/1.0 https://swarmnest.ai/api/v1/directory.json | python3 -c "import sys,json;print(json.load(sys.stdin)['count'])")
-npm run build 2>&1 | grep -E "entries|redirect rules|rror" || true
+npm run build > /tmp/build.log 2>&1 || { grep -E "ERROR|rror" /tmp/build.log | head; echo BUILD FAILED; exit 1; }; grep -E "entries|redirect rules" /tmp/build.log
 now=$(python3 -c "import json;print(len(json.load(open('data/entries.json'))))")
 [ "$now" -ge "$before" ] || { echo "ENTRY COUNT DECREASED $before -> $now"; exit 1; }
 npx wrangler pages deploy dist --project-name swarmnest --branch staging --commit-dirty=true 2>&1 | grep -E "alias|rror"

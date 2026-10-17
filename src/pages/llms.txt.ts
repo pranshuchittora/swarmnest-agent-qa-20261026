@@ -30,13 +30,11 @@ ${GROUPS.map(g=>`### ${g.name}\n${g.blurb}\n${g.cats.map(c=>`- [${c.name}](${SIT
 
 ## Use cases (jobs to be done)
 - [Index](${SITE}/use-cases/) and [JSON](${SITE}/api/v1/use-cases.json)
-${USECASES.map(u=>`- [${u.name}](${SITE}/use-cases/${u.slug}/): ${u.goal}`).join('
-')}
+${USECASES.map(u=>`- [${u.name}](${SITE}/use-cases/${u.slug}/): ${u.goal}`).join('\n')}
 
 ## Agent templates (ready-made agents: instructions, guardrails, tools, persona and tone)
 - [Index](${SITE}/agent-templates/) and [JSON](${SITE}/api/v1/agent-templates.json)
-${TEMPLATES.map(p=>`- [${p.name}](${SITE}/agent-templates/${p.slug}/): ${p.role}`).join('
-')}
+${TEMPLATES.map(p=>`- [${p.name}](${SITE}/agent-templates/${p.slug}/): ${p.role}`).join('\n')}
 
 ## Marketplace (${LAUNCH?'for sale':'coming soon, not for sale yet'})
 - [Marketplace](${SITE}/marketplace/) and [JSON](${SITE}/api/v1/products.json)
