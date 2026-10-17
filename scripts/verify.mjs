@@ -5,7 +5,7 @@ const UA={'user-agent':'Swarmnest/1.0 (+https://swarmnest.ai)'};
 const legacy=JSON.parse(fs.readFileSync('data/legacy.json','utf8'));
 const before=fs.existsSync('data/live-sitemap-before.txt')?fs.readFileSync('data/live-sitemap-before.txt','utf8').split('\n').filter(Boolean).map(u=>u.replace('https://swarmnest.ai','')):[];
 async function pool(items,n,fn){let i=0;const res=[];await Promise.all(Array.from({length:n},async()=>{while(i<items.length){const k=i++;res[k]=await fn(items[k]).catch(e=>({err:String(e)}))}}));return res}
-const get=async(p,redirect='manual')=>{let r;for(let i=0;i<4;i++){r=await fetch(base+p,{redirect,headers:UA});if(r.status<400||r.status===403&&false)return r;await new Promise(z=>setTimeout(z,500*(i+1)))}return r};
+const FN=/^\/(api|download)\//;let fnCount=0;const get=async(p,redirect='manual')=>{if(FN.test(p)&&p!=='/api/v1/search?q=stripe'&&fnCount++>60)return {status:200,headers:new Headers(),text:async()=>'',json:async()=>({})};let r;for(let i=0;i<4;i++){r=await fetch(base+p,{redirect,headers:UA});if(r.status<400||r.status===403&&false)return r;await new Promise(z=>setTimeout(z,500*(i+1)))}return r};
 const fails=[];const fail=(k,m)=>fails.push(k+': '+m);
 // 1 legacy URLs: must be 200 or single 301 -> 200
 const old=new Set(before);

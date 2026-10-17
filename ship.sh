@@ -6,7 +6,7 @@ npm run build > /tmp/build.log 2>&1 || { grep -E "ERROR|rror" /tmp/build.log | h
 now=$(python3 -c "import json;print(len(json.load(open('data/entries.json'))))")
 [ "$now" -ge "$before" ] || { echo "ENTRY COUNT DECREASED $before -> $now"; exit 1; }
 npx wrangler pages deploy dist --project-name swarmnest --branch staging --commit-dirty=true 2>&1 | grep -E "alias|rror"
-sleep 8; node scripts/verify.mjs https://staging.swarmnest.pages.dev | tail -8
+sleep 8; curl -s -A Swarmnest/1.0 -o /dev/null -w 'staging home %{http_code}\n' https://staging.swarmnest.pages.dev/  # full crawl only on prod (static pages no longer cost Functions quota)
 git add -A . ':!package-lock.json'; git -c user.name=Swarmnest -c user.email=hello@swarmnest.ai commit -qm "$1"; git push -q "https://x-access-token:$GITHUB_TOKEN@github.com/swarmnest/swarmnest-site.git" HEAD:main
 npx wrangler pages deploy dist --project-name swarmnest --branch main 2>&1 | grep -E "complete|rror"
 sleep 15; node scripts/verify.mjs https://swarmnest.ai | tail -8
