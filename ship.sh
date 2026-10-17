@@ -10,4 +10,6 @@ sleep 8; curl -s -A Swarmnest/1.0 -o /dev/null -w 'staging home %{http_code}\n' 
 git add -A . ':!package-lock.json'; git -c user.name=Swarmnest -c user.email=hello@swarmnest.ai commit -qm "$1"; git push -q "https://x-access-token:$GITHUB_TOKEN@github.com/swarmnest/swarmnest-site.git" HEAD:main
 npx wrangler pages deploy dist --project-name swarmnest --branch main 2>&1 | grep -E "complete|rror"
 sleep 15; node scripts/verify.mjs https://swarmnest.ai | tail -8
+node scripts/indexnow.mjs || echo "indexnow failed (non-fatal)"
+if [ -n "$(git status --porcelain data/indexnow-state.json)" ]; then git add data/indexnow-state.json; git -c user.name=Swarmnest -c user.email=hello@swarmnest.ai commit -qm "IndexNow state" && git push -q "https://x-access-token:$GITHUB_TOKEN@github.com/swarmnest/swarmnest-site.git" HEAD:main || echo "state push failed (non-fatal)"; fi
 echo "entries $before -> $now; commit $(git rev-parse --short HEAD)"
