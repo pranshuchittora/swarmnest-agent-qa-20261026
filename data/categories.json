@@ -116,7 +116,7 @@
  },
  {
   "slug": "fine-tuning",
-  "name": "Fine-tuning & Training",
+  "name": "Fine-Tuning & Training",
   "blurb": "Libraries and services for fine-tuning, training and aligning models."
  },
  {
@@ -181,7 +181,7 @@
  },
  {
   "slug": "no-code-databases",
-  "name": "No-code Databases",
+  "name": "No-Code Databases",
   "blurb": "Spreadsheet-style databases and workspace APIs."
  },
  {
@@ -446,12 +446,12 @@
  },
  {
   "slug": "no-code-scrapers",
-  "name": "No-code Scrapers",
+  "name": "No-Code Scrapers",
   "blurb": "Point-and-click scraping and site-copy tools."
  },
  {
   "slug": "ecommerce-platforms",
-  "name": "E-commerce Platforms",
+  "name": "E-Commerce Platforms",
   "blurb": "Storefront platforms and commerce engines with APIs."
  },
  {

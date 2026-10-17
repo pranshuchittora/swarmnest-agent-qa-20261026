@@ -13,17 +13,17 @@ const ld=[{'@context':'https://schema.org','@type':'HowTo',name:`How to set up a
  {'@type':'HowToStep',name:'Connect the tools',text:tools.map(t=>t.name).join(', ')}]},
 {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent templates',item:SITE+'/agent-templates/'},{'@type':'ListItem',position:3,name:p.name,item:SITE+path}]}];
 ---
-<Base title={`${p.name} AI agent template: instructions and tools | Swarmnest`} description={`${p.role} System prompt, guardrails, example prompts, persona and tools for a ${p.name} agent template.`} path={path} jsonld={ld}>
+<Base title={`${p.name} AI Agent Template: Instructions and Tools | Swarmnest`} description={`${p.role} System prompt, guardrails, example prompts, persona and tools for a ${p.name} agent template.`} path={path} jsonld={ld}>
 <p class="small"><a href="/agent-templates/">Agent templates</a> › {p.name}</p>
-<h1>{p.name} agent template</h1>
+<h1>{p.name} Agent Template</h1>
 <p class="lead">{p.role}</p>
-<h2>Use cases</h2>
+<h2>Use Cases</h2>
 <ul>{ucs.map(u=><li><a href={`/use-cases/${u.slug}/`}>{u.name}</a>: {u.goal}</li>)}</ul>
-<h2>Persona and tone</h2><p>{p.tone}</p>
+<h2>Persona and Tone</h2><p>{p.tone}</p>
 <h2>Instructions</h2><p>{p.instructions}</p>
 <h2>Guardrails</h2><ul>{p.guardrails.map(g=><li>{g}</li>)}</ul>
-<h2>Example prompts</h2><ul>{p.prompts.map(g=><li>{g}</li>)}</ul>
-<h2>Tools this template uses</h2>
+<h2>Example Prompts</h2><ul>{p.prompts.map(g=><li>{g}</li>)}</ul>
+<h2>Tools This Template Uses</h2>
 <ul>{tools.map(t=><li><a href={`/directory/${t.category}/${t.slug}/`}>{t.name}</a>: {t.description}</li>)}</ul>
 <p class="small">Starting point only; review and test before relying on it. <a href={`/api/v1/agent-templates/${p.slug}.json`}>JSON</a></p>
 </Base>

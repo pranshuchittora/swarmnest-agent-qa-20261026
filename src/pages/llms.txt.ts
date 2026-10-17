@@ -5,7 +5,7 @@ export const GET = () => new Response(`# Swarmnest
 
 > Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has 8 use cases with 8 ready-made agent templates, and a marketplace of own products that is coming soon.
 
-## Machine-readable
+## Machine-Readable
 - [Directory JSON](${SITE}/directory.json): every entry with name, slug, category, description, url, docs_url, auth, pricing
 - [API: list](${SITE}/api/v1/directory.json)
 - [API: one entry](${SITE}/api/v1/directory/{slug}.json): replace {slug}, e.g. ${SITE}/api/v1/directory/${ALL[0].slug}.json
@@ -15,7 +15,7 @@ export const GET = () => new Response(`# Swarmnest
 - [Full text version of this site](${SITE}/llms-full.txt)
 - [Sitemap](${SITE}/sitemap.xml)
 
-## Directory categories (${CATS.length} in ${GROUPS.length} groups)
+## Directory Categories (${CATS.length} in ${GROUPS.length} groups)
 ${GROUPS.map(g=>`### ${g.name}\n${g.blurb}\n${g.cats.map(c=>`- [${c.name}](${SITE}/directory/${c.slug}/): ${c.blurb} (${byCat(c.slug).length} entries)`).join('\n')}`).join('\n\n')}
 
 ## Pages
@@ -28,15 +28,15 @@ ${GROUPS.map(g=>`### ${g.name}\n${g.blurb}\n${g.cats.map(c=>`- [${c.name}](${SIT
 - [Refunds](${SITE}/refunds/)
 - [Takedown](${SITE}/takedown/)
 
-## Use cases (jobs to be done)
+## Use Cases (Jobs to Be Done)
 - [Index](${SITE}/use-cases/) and [JSON](${SITE}/api/v1/use-cases.json)
 ${USECASES.map(u=>`- [${u.name}](${SITE}/use-cases/${u.slug}/): ${u.goal}`).join('\n')}
 
-## Agent templates (ready-made agents: instructions, guardrails, tools, persona and tone)
+## Agent Templates (Ready-Made Agents: Instructions, Guardrails, Tools, Persona and Tone)
 - [Index](${SITE}/agent-templates/) and [JSON](${SITE}/api/v1/agent-templates.json)
 ${TEMPLATES.map(p=>`- [${p.name}](${SITE}/agent-templates/${p.slug}/): ${p.role}`).join('\n')}
 
-## Marketplace (${LAUNCH?'for sale':'coming soon, not for sale yet'})
+## Marketplace (${LAUNCH?'for sale':'Coming Soon, Not for Sale Yet'})
 - [Marketplace](${SITE}/marketplace/) and [JSON](${SITE}/api/v1/products.json)
 ${PRODUCTS.map(p=>`- [${p.title}](${SITE}/marketplace/${p.slug}/): ${p.summary}${LAUNCH?' ('+p.price+')':''}`).join('\n')}
 

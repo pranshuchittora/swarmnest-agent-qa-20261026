@@ -11,6 +11,6 @@ export const LEGAL: [string, string, string][] = [
   ['/api-terms/','API Terms','Rules for the public JSON API, llms.txt and other machine-readable data.'],
   ['/takedown/','Takedown & Corrections','Copyright (DMCA) notices, counter-notices and directory correction or removal requests.'],
   ['/dmca/','DMCA Designated Agent','Where to send copyright notices.'],
-  ['/creator-agreement/','Creator Agreement (draft)','Draft terms for third-party sellers, once the marketplace opens to them.'],
+  ['/creator-agreement/','Creator Agreement (Draft)','Draft terms for third-party sellers, once the marketplace opens to them.'],
   ['/accessibility/','Accessibility Statement','Our accessibility goals, known limitations and how to report a problem.'],
 ];

@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import { ALL, CATS, GROUPS, byCat, SITE } from '../../lib/data';
 const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Directory',item:SITE+'/directory/'}]}];
 ---
-<Base title="AI agent tools directory — APIs, MCP servers, frameworks | Swarmnest" description={`Directory of ${ALL.length} tools, APIs and data sources for AI agents across ${CATS.length} categories, from LLM APIs to payments.`} path="/directory/" jsonld={ld}>
+<Base title="AI Agent Tools Directory — APIs, MCP Servers, Frameworks | Swarmnest" description={`Directory of ${ALL.length} tools, APIs and data sources for AI agents across ${CATS.length} categories, from LLM APIs to payments.`} path="/directory/" jsonld={ld}>
 <p class="crumbs"><a href="/">Home</a> › Directory</p>
 <h1>Directory</h1>
 <p class="lead">{ALL.length} entries in {CATS.length} categories in {GROUPS.length} groups. Machine-readable version: <a href="/directory.json">/directory.json</a>. Search API: <a href="/api/v1/search?q=translate">/api/v1/search?q=…</a>.</p>
@@ -12,6 +12,6 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <div id="results" class="grid hidden"></div>
 <script is:inline src="/search.js"></script>
 <script is:inline>swarmSearch(document.getElementById("q"),document.getElementById("results"),{max:40});</script>
-<h2>Browse by group</h2>
+<h2>Browse by Group</h2>
 <Groups open={true} />
 </Base>

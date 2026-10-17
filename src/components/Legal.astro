@@ -10,6 +10,6 @@ const others = LEGAL.filter(([u]) => u !== path);
 <h1>{heading}</h1>
 <p class="small">Last updated Oct 15, 2026. This is a plain-English draft written by Swarmnest. It has not yet been reviewed by a lawyer and it is not legal advice. Questions: <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a>.</p>
 <slot />
-<h2>Related policies</h2>
+<h2>Related Policies</h2>
 <p class="small">{others.map(([u, t], i) => <Fragment>{i > 0 ? ' · ' : ''}<a href={u}>{t}</a></Fragment>)}</p>
 </Base>

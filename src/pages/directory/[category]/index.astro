@@ -6,7 +6,7 @@ const { c } = Astro.props; const list = byCat(c.slug);
 const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Directory',item:SITE+'/directory/'},{'@type':'ListItem',position:3,name:c.name,item:`${SITE}/directory/${c.slug}/`}]},
 {'@context':'https://schema.org','@type':'ItemList',name:c.name,itemListElement:list.map((e,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/directory/${c.slug}/${e.slug}/`,name:e.name}))}];
 ---
-<Base title={`${c.name} for AI agents — ${list.length} tools | Swarmnest`} description={`${c.blurb} ${list.length} hand-checked entries with pricing and auth details.`} path={`/directory/${c.slug}/`} jsonld={ld}>
+<Base title={`${c.name} for AI Agents — ${list.length} Tools | Swarmnest`} description={`${c.blurb} ${list.length} hand-checked entries with pricing and auth details.`} path={`/directory/${c.slug}/`} jsonld={ld}>
 <p class="crumbs"><a href="/">Home</a> › <a href="/directory/">Directory</a> › {c.name}</p>
 <h1>{c.name}</h1><p class="lead">{c.blurb}</p>
 <p class="small">JSON: <a href={`/api/v1/directory.json`}>/api/v1/directory.json</a> (filter on <code>category={c.slug}</code>)</p>

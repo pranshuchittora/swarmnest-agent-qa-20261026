@@ -2,9 +2,9 @@
 import Base from '../layouts/Base.astro';
 import { ALL, SITE } from '../lib/data';
 ---
-<Base title="Search the directory | Swarmnest" description={`Search ${ALL.length} tools, APIs and data sources for AI agents by name, description or category.`} path="/search/">
+<Base title="Search the Directory | Swarmnest" description={`Search ${ALL.length} tools, APIs and data sources for AI agents by name, description or category.`} path="/search/">
 <p class="crumbs"><a href="/">Home</a> › Search</p>
-<h1>Search the directory</h1>
+<h1>Search the Directory</h1>
 <p><input id="q" type="search" placeholder="Search tools, APIs, categories…" aria-label="Search the directory" autocomplete="off" autofocus></p>
 <p class="small">Agents: use <a href="/api/v1/search?q=translate">/api/v1/search?q=…</a> (JSON).</p>
 <div id="results" class="grid hidden"></div>
