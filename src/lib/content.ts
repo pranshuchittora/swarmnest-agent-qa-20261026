@@ -58,5 +58,5 @@ export const PRODUCTS = [
  { slug:'content-repurposing-workflow', title:'Content Repurposing Workflow', type:'Workflow', summary:'Turn one article or video transcript into posts, a newsletter section and a summary.', price:'$19', cents:1900 },
  { slug:'mcp-server-starter-kit', title:'MCP Server Starter Kit', type:'Starter kit', summary:'A Cloudflare Workers template for building and deploying your own MCP server, with examples.', price:'$24', cents:2400 },
  { slug:'agent-eval-guardrails-pack', title:'Agent Eval & Guardrails Pack', type:'Prompt pack', summary:'Test cases, rubrics and guardrail prompts to check an agent before you trust it.', price:'$29', cents:2900 },
- { slug:'persona-bundle', title:'Agent Templates Bundle', type:'Template pack', summary:'All eight launch agent templates as ready-to-use system prompts and JSON.', price:'$9', cents:900 },
+ { slug:'agent-templates-bundle', title:'Agent Templates Bundle', type:'Template pack', summary:'All eight launch agent templates as ready-to-use system prompts and JSON.', price:'$9', cents:900 },
 ];

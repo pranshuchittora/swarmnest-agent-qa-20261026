@@ -26,3 +26,5 @@
 /use-cases/social-media-manager/ /agent-templates/social-media-manager/ 301
 /api/v1/personas/social-media-manager.json /api/v1/agent-templates/social-media-manager.json 301
 /api/v1/personas.json /api/v1/agent-templates.json 301
+/marketplace/persona-bundle /marketplace/agent-templates-bundle/ 301
+/marketplace/persona-bundle/ /marketplace/agent-templates-bundle/ 301

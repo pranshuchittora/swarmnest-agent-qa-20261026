@@ -5,7 +5,7 @@ export const PRICE_TO_SLUG = {
  "price_1UQiiw6aC1E09RZY9mPSHrqo": "content-repurposing-workflow",
  "price_1UQiix6aC1E09RZYuCUJk2Mt": "mcp-server-starter-kit",
  "price_1UQiiy6aC1E09RZYupaHKFmA": "agent-eval-guardrails-pack",
- "price_1UQiiz6aC1E09RZY6BordMgo": "persona-bundle"
+ "price_1UQiiz6aC1E09RZY6BordMgo": "agent-templates-bundle"
 };
 export const FILE_VERSION = 'v1.0';
 export const PRODUCT_TITLES = {
@@ -15,5 +15,8 @@ export const PRODUCT_TITLES = {
  "content-repurposing-workflow": "Content Repurposing Workflow",
  "mcp-server-starter-kit": "MCP Server Starter Kit",
  "agent-eval-guardrails-pack": "Agent Eval & Guardrails Pack",
- "persona-bundle": "Agent Templates Bundle"
+ "agent-templates-bundle": "Agent Templates Bundle"
 };
+// Slugs renamed after launch; tokens issued before the rename still resolve.
+export const LEGACY_SLUGS = { "persona-bundle": "agent-templates-bundle" };
+export const canonicalSlug = (s) => LEGACY_SLUGS[s] || s;

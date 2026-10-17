@@ -1,5 +1,5 @@
 import { fileKey, MAX_DOWNLOADS } from '../_lib/fulfil.js';
-import { PRODUCT_TITLES } from '../_lib/prices.js';
+import { PRODUCT_TITLES, canonicalSlug } from '../_lib/prices.js';
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const base = { 'cache-control': 'no-store', 'x-robots-tag': 'noindex' };
 const txt = (body, status) => new Response(body, { status, headers: { ...base, 'content-type': 'text/plain; charset=utf-8' } });
@@ -15,7 +15,7 @@ export async function onRequestGet(ctx) {
   const raw = await env.SIGNUPS.get('dl:' + t);
   const rec = raw && JSON.parse(raw);
   if (!rec || rec.expires < Date.now()) return txt('This download link has expired. Open your purchase confirmation page again for a fresh link, or contact hello@swarmnest.ai.', 410);
-  const slug = rec.slug;
+  const slug = canonicalSlug(rec.slug);
   const sub = parts[1];
 
   if (!sub) {

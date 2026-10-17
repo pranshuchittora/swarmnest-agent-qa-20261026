@@ -8,5 +8,5 @@ export const BUY_URLS: Record<string,string> = {
   "content-repurposing-workflow": "https://buy.stripe.com/3cIdR2eI9fh35uP7w3dIA03",
   "mcp-server-starter-kit": "https://buy.stripe.com/4gMdR2gQh4Cpg9t8A7dIA04",
   "agent-eval-guardrails-pack": "https://buy.stripe.com/3cI9AMdE5ecZ5uP3fNdIA05",
-  "persona-bundle": "https://buy.stripe.com/bJe3coarTgl76yTeYvdIA06"
+  "agent-templates-bundle": "https://buy.stripe.com/bJe3coarTgl76yTeYvdIA06"
 };

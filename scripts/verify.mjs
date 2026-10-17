@@ -12,7 +12,7 @@ const old=new Set(before);
 for(const c of legacy.cats)old.add(`/directory/${c}/`);
 for(const [c,s] of legacy.entries)old.add(`/directory/${c}/${s}/`);
 for(const t of ['research-analyst','support-agent','seo-writer','lead-researcher','data-analyst','devops-helper','executive-assistant','social-media-manager']){old.add(`/use-cases/${t}/`);old.add(`/api/v1/personas/${t}.json`)}old.add('/api/v1/personas.json');
-const olds=[...old];let nred=0,n200=0;
+old.add('/marketplace/persona-bundle/');const olds=[...old];let nred=0,n200=0;
 await pool(olds,16,async p=>{const r=await get(p);if(r.status===200){n200++;return}
  if(r.status===301){nred++;const loc=r.headers.get('location');const t=new URL(loc,base).pathname;const r2=await get(t);if(r2.status!==200)fail('legacy',`${p} -> ${t} gave ${r2.status}`);return}
  fail('legacy',`${p} status ${r.status}`)});
