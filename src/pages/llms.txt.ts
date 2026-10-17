@@ -28,7 +28,7 @@ ${GROUPS.map(g=>`### ${g.name}\n${g.blurb}\n${g.cats.map(c=>`- [${c.name}](${SIT
 - [Refunds](${SITE}/refunds/)
 - [Takedown](${SITE}/takedown/)
 
-## Use Cases (Jobs to Be Done)
+## AI Agent Use Cases: Jobs Agents Can Do
 - [Index](${SITE}/use-cases/) and [JSON](${SITE}/api/v1/use-cases.json)
 ${USECASES.map(u=>`- [${u.name}](${SITE}/use-cases/${u.slug}/): ${u.goal}`).join('\n')}
 
