@@ -79,6 +79,46 @@
       "price_cents": 4500,
       "payment_link_id": "plink_1US0kq6aC1E09RZY3mLWo8Ey",
       "buy_url": "https://buy.stripe.com/bJe7sE9nP6Kx3mH7w3dIA0d"
+    },
+    {
+      "slug": "workflow-reliability-pack",
+      "product_id": "prod_VSxLu7vi0taOrI",
+      "price_id": "price_1US1Qk6aC1E09RZY9el16zUf",
+      "price_cents": 1900,
+      "payment_link_id": "plink_1US1Qk6aC1E09RZY1NyPCgMb",
+      "buy_url": "https://buy.stripe.com/5kQ6oA1Vn7OBg9t2bJdIA0e"
+    },
+    {
+      "slug": "coding-agent-skills-pack",
+      "product_id": "prod_VSxLRu66u8CtqN",
+      "price_id": "price_1US1Ql6aC1E09RZYprJbqJiR",
+      "price_cents": 2400,
+      "payment_link_id": "plink_1US1Qm6aC1E09RZYH5Reo2lm",
+      "buy_url": "https://buy.stripe.com/9B6bIU1Vnd8Ve1l3fNdIA0f"
+    },
+    {
+      "slug": "project-memory-kit",
+      "product_id": "prod_VSxLxyQOv24gNc",
+      "price_id": "price_1US1Qn6aC1E09RZY2Z1UsY9Y",
+      "price_cents": 1200,
+      "payment_link_id": "plink_1US1Qn6aC1E09RZY1LK0w4DI",
+      "buy_url": "https://buy.stripe.com/28EfZa9nPd8VaP9cQndIA0g"
+    },
+    {
+      "slug": "ai-sdr-outbound-workflow",
+      "product_id": "prod_VSxLSJRZqpANSj",
+      "price_id": "price_1US1Qo6aC1E09RZYILPvqS1l",
+      "price_cents": 3500,
+      "payment_link_id": "plink_1US1Qp6aC1E09RZY2emXDXui",
+      "buy_url": "https://buy.stripe.com/bJe4gs8jLecZcXh9EbdIA0h"
+    },
+    {
+      "slug": "ai-receptionist-kit",
+      "product_id": "prod_VSxLVSFePHMkR4",
+      "price_id": "price_1US1Qq6aC1E09RZYJb2wyks9",
+      "price_cents": 2900,
+      "payment_link_id": "plink_1US1Qq6aC1E09RZYYCzuo7eu",
+      "buy_url": "https://buy.stripe.com/5kQ6oAfMd9WJaP9bMjdIA0i"
     }
   ],
   "account": "acct_1UQhDQ6aC1E09RZY",

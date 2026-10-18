@@ -6,6 +6,11 @@ export const PRICE_TO_SLUG = {
  "price_1US0kg6aC1E09RZYdU0gGW7z": "mcp-server-starter-kit",
  "price_1UQiiy6aC1E09RZYupaHKFmA": "agent-eval-guardrails-pack",
  "price_1UQiiz6aC1E09RZY6BordMgo": "agent-templates-pack",
+ "price_1US1Qk6aC1E09RZY9el16zUf": "workflow-reliability-pack",
+ "price_1US1Ql6aC1E09RZYprJbqJiR": "coding-agent-skills-pack",
+ "price_1US1Qn6aC1E09RZY2Z1UsY9Y": "project-memory-kit",
+ "price_1US1Qo6aC1E09RZYILPvqS1l": "ai-sdr-outbound-workflow",
+ "price_1US1Qq6aC1E09RZYJb2wyks9": "ai-receptionist-kit",
  "price_1US0kh6aC1E09RZYSlBSwq7O": "all-products-bundle",
  "price_1US0kh6aC1E09RZY82raKJSK": "agent-builder-bundle",
  "price_1US0ki6aC1E09RZYhRSnVhxk": "growth-bundle"
@@ -25,6 +30,11 @@ export const PRODUCT_TITLES = {
  "mcp-server-starter-kit": "MCP Server Starter Kit",
  "agent-eval-guardrails-pack": "Agent Eval & Guardrails Pack",
  "agent-templates-pack": "Agent Templates Pack",
+ "workflow-reliability-pack": "Workflow Reliability Pack",
+ "coding-agent-skills-pack": "Coding Agent Skills Pack",
+ "project-memory-kit": "Project Memory Kit",
+ "ai-sdr-outbound-workflow": "AI SDR Outbound Workflow",
+ "ai-receptionist-kit": "AI Receptionist Kit",
  "all-products-bundle": "All Products Bundle",
  "agent-builder-bundle": "Agent Builder Bundle",
  "growth-bundle": "Growth Bundle"
