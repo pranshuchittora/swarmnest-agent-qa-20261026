@@ -27,6 +27,7 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <div class="pills">{CATEGORIES.map(c=><a href={`/agent-skills/category/${c.slug}/`}>{c.name} ({c.count})</a>)}</div>
 <h2>Guides</h2>
 <div class="grid">{GUIDES.map(g=><a class="card" href={`/agent-skills/guides/${g.slug}/`}><h3>{g.title}</h3><p>{g.blurb}</p></a>)}</div>
+<div class="notice">Want tested skills with scripts, evals and templates? See the <a href="/marketplace/">Swarmnest Marketplace</a>. It is separate from this directory: this directory lists free public skills from other sources, the marketplace sells products made by Swarmnest.</div>
 <h2>For Agents and Scripts</h2>
 <p>Static JSON: <a href="/api/v1/agent-skills.json">/api/v1/agent-skills.json</a>. Per platform: <code>/api/v1/agent-skills/platform/{'{platform}'}.json</code>. Per category: <code>/api/v1/agent-skills/category/{'{category}'}.json</code>.</p>
 <script is:inline src="/search.js"></script>

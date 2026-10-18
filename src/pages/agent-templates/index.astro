@@ -10,5 +10,5 @@ const ld=[{'@context':'https://schema.org','@type':'CollectionPage',name:'AI age
 <h1>Agent Templates</h1>
 <p class="lead">Eight ready-made agents. Each template has instructions you can paste into a system prompt, guardrails, example prompts, a persona (the tone and character) and links to the tools it uses. Not sure which to pick? Start from a <a href="/use-cases/">use case</a>. Also available as <a href="/api/v1/agent-templates.json">JSON</a>.</p>
 <div class="grid">{TEMPLATES.map(p=><a class="card" href={`/agent-templates/${p.slug}/`}><h3>{p.name}</h3><p>{p.role}</p><p class="small">Use cases: {useCasesFor(p.slug).map(u=>u.name).join(', ')}</p></a>)}</div>
-<p class="small">A downloadable <a href="/marketplace/agent-templates-bundle/">Agent Templates Bundle</a> is coming to the marketplace.</p>
+<p class="small">A downloadable <a href="/marketplace/agent-templates-pack/">Agent Templates Pack</a> is coming to the marketplace.</p>
 </Base>

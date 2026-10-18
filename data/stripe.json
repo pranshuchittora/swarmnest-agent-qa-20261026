@@ -3,9 +3,11 @@
     {
       "slug": "web-research-skill-pack",
       "product_id": "prod_VRbwpjY8NpR7hM",
-      "price_id": "price_1UQiit6aC1E09RZYMYrWB82m",
-      "price_cents": 1900,
-      "payment_link_id": "plink_1UQiiu6aC1E09RZYADZeUAns"
+      "price_id": "price_1US0ke6aC1E09RZYMS75q671",
+      "price_cents": 1500,
+      "payment_link_id": "plink_1US0kl6aC1E09RZYnr2Yj742",
+      "old_price_id": "price_1UQiit6aC1E09RZYMYrWB82m",
+      "buy_url": "https://buy.stripe.com/28EbIU1Vn6Kx1ezbMjdIA07"
     },
     {
       "slug": "lead-research-workflow",
@@ -17,9 +19,11 @@
     {
       "slug": "customer-support-prompt-pack",
       "product_id": "prod_VRbwdLZAaXadmf",
-      "price_id": "price_1UQiiv6aC1E09RZYXejhssVQ",
-      "price_cents": 1500,
-      "payment_link_id": "plink_1UQiiw6aC1E09RZYxnl9TtZH"
+      "price_id": "price_1US0kf6aC1E09RZYN0cm0lyO",
+      "price_cents": 1200,
+      "payment_link_id": "plink_1US0km6aC1E09RZYEZgE2GLk",
+      "old_price_id": "price_1UQiiv6aC1E09RZYXejhssVQ",
+      "buy_url": "https://buy.stripe.com/28E4gsbvX1qd0avbMjdIA08"
     },
     {
       "slug": "content-repurposing-workflow",
@@ -31,9 +35,11 @@
     {
       "slug": "mcp-server-starter-kit",
       "product_id": "prod_VRbw8jENqkdS4E",
-      "price_id": "price_1UQiix6aC1E09RZYuCUJk2Mt",
-      "price_cents": 2400,
-      "payment_link_id": "plink_1UQiiy6aC1E09RZY6wbhD3DM"
+      "price_id": "price_1US0kg6aC1E09RZYdU0gGW7z",
+      "price_cents": 2900,
+      "payment_link_id": "plink_1US0kn6aC1E09RZYOWuAl2dI",
+      "old_price_id": "price_1UQiix6aC1E09RZYuCUJk2Mt",
+      "buy_url": "https://buy.stripe.com/8x2aEQgQhecZf5p2bJdIA09"
     },
     {
       "slug": "agent-eval-guardrails-pack",
@@ -43,11 +49,36 @@
       "payment_link_id": "plink_1UQiiy6aC1E09RZY561yF4tm"
     },
     {
-      "slug": "agent-templates-bundle",
+      "slug": "agent-templates-pack",
       "product_id": "prod_VRbwYZ2UO3c2A4",
       "price_id": "price_1UQiiz6aC1E09RZY6BordMgo",
       "price_cents": 900,
-      "payment_link_id": "plink_1UQiiz6aC1E09RZY7ngscrT2"
+      "payment_link_id": "plink_1US0ko6aC1E09RZYZljPPFEO",
+      "buy_url": "https://buy.stripe.com/7sY28k43v8SFcXh9EbdIA0a"
+    },
+    {
+      "slug": "all-products-bundle",
+      "product_id": "prod_VSwdFUzKxvkM9z",
+      "price_id": "price_1US0kh6aC1E09RZYSlBSwq7O",
+      "price_cents": 5900,
+      "payment_link_id": "plink_1US0kp6aC1E09RZY0ZHlbsZz",
+      "buy_url": "https://buy.stripe.com/aFabIU1Vn5Gtf5p03BdIA0b"
+    },
+    {
+      "slug": "agent-builder-bundle",
+      "product_id": "prod_VSwdHP0Z1VkXaf",
+      "price_id": "price_1US0kh6aC1E09RZY82raKJSK",
+      "price_cents": 4900,
+      "payment_link_id": "plink_1US0kq6aC1E09RZYIZxmh1xO",
+      "buy_url": "https://buy.stripe.com/eVqbIU1Vn2uh1ezcQndIA0c"
+    },
+    {
+      "slug": "growth-bundle",
+      "product_id": "prod_VSwdlfVqhl1nXh",
+      "price_id": "price_1US0ki6aC1E09RZYhRSnVhxk",
+      "price_cents": 4500,
+      "payment_link_id": "plink_1US0kq6aC1E09RZY3mLWo8Ey",
+      "buy_url": "https://buy.stripe.com/bJe7sE9nP6Kx3mH7w3dIA0d"
     }
   ],
   "account": "acct_1UQhDQ6aC1E09RZY",

@@ -1,4 +1,4 @@
-import { PRICE_TO_SLUG, FILE_VERSION } from './prices.js';
+import { PRICE_TO_SLUG, LEGACY_PRICE_TO_SLUG, FILE_VERSION } from './prices.js';
 export const TTL_SECONDS = 72 * 3600;
 export const MAX_DOWNLOADS = 10;
 const hex = (b) => [...new Uint8Array(b)].map((x) => x.toString(16).padStart(2, '0')).join('');
@@ -13,7 +13,7 @@ export async function stripeGet(env, path, fetchImpl) {
 export function sessionToSlug(session) {
   if (!session || session.object !== 'checkout.session' || session.payment_status !== 'paid') return null;
   const items = session.line_items?.data || [];
-  for (const li of items) { const s = PRICE_TO_SLUG[li.price?.id]; if (s) return s; }
+  for (const li of items) { const s = (PRICE_TO_SLUG[li.price?.id] || LEGACY_PRICE_TO_SLUG[li.price?.id]); if (s) return s; }
   return null;
 }
 // Idempotent: one grant per session; issues a fresh time-limited token on each call.
