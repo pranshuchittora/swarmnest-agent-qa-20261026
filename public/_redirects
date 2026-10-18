@@ -779,6 +779,7 @@
 /directory/team-chat-selfhosted/wire/ /directory/secure-messaging/wire/ 301
 /directory/team-chat-selfhosted/zulip/ /directory/team-chat/zulip/ 301
 /directory/text-to-speech/musicgen-audiocraft/ /directory/ai-music-generation/musicgen-audiocraft/ 301
+/directory/text-to-speech/playht/ /directory/text-to-speech/ 301
 /directory/text-to-speech/stable-audio/ /directory/ai-music-generation/stable-audio/ 301
 /directory/text-to-speech/suno/ /directory/ai-music-generation/suno/ 301
 /directory/text-to-speech/udio/ /directory/ai-music-generation/udio/ 301

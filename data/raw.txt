@@ -1551,7 +1551,6 @@ text-to-speech|OpenAI Text-to-Speech|https://platform.openai.com/docs/guides/tex
 text-to-speech|Cartesia|https://cartesia.ai/|https://docs.cartesia.ai/|key|freemium|Low-latency TTS for voice agents.
 text-to-speech|Deepgram Aura|https://deepgram.com/product/text-to-speech|https://developers.deepgram.com/docs/text-to-speech|key|paid|Deepgram's TTS API.
 text-to-speech|Azure AI Speech TTS|https://azure.microsoft.com/products/ai-services/text-to-speech|https://learn.microsoft.com/azure/ai-services/speech-service/|key|freemium|Neural voices from Microsoft.
-text-to-speech|PlayHT|https://play.ht/|https://docs.play.ht/|key|freemium|TTS and voice cloning API.
 text-to-speech|WellSaid Labs|https://wellsaidlabs.com/|https://docs.wellsaidlabs.com/|key|paid|Enterprise TTS.
 text-to-speech|LMNT|https://lmnt.com/|https://docs.lmnt.com/|key|freemium|Fast TTS API.
 text-to-speech|Kokoro|https://huggingface.co/hexgrad/Kokoro-82M|https://huggingface.co/hexgrad/Kokoro-82M|none|free|Small open-weight TTS model.
