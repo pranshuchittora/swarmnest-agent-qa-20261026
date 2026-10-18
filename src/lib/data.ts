@@ -10,7 +10,7 @@ export const byCat = (slug: string) => ALL.filter(e => e.category === slug);
 export const authLabel: Record<string,string> = { none: 'No auth', key: 'API key', oauth: 'OAuth', unknown: 'See docs' };
 export const priceLabel: Record<string,string> = { free: 'Free', freemium: 'Free tier', paid: 'Paid', unknown: 'See site' };
 export const entryJson = (e: Entry) => ({ ...e, category_name: catName(e.category), swarmnest_url: `${SITE}/directory/${e.category}/${e.slug}/` });
-export const BUILD_DATE = '2026-10-14';
+export const BUILD_DATE = '2026-10-18';
 
 const _assigned = new Set(groupsRaw.flatMap(g=>g.cats));
 const _more = categories.filter(c=>!_assigned.has(c.slug)).map(c=>c.slug);

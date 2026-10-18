@@ -943,5 +943,45 @@
   "slug": "spreadsheet-apis",
   "name": "Spreadsheet APIs",
   "blurb": "Programmatic access to spreadsheets and spreadsheet libraries."
+ },
+ {
+  "slug": "shipping-logistics",
+  "name": "Shipping & Package Tracking",
+  "blurb": "Multi-carrier shipping, label, rate and parcel tracking APIs."
+ },
+ {
+  "slug": "computer-vision",
+  "name": "Computer Vision APIs",
+  "blurb": "Image recognition, object detection and segmentation APIs and libraries."
+ },
+ {
+  "slug": "icon-libraries",
+  "name": "Icon Libraries",
+  "blurb": "Open-source icon sets and icon search APIs for apps and websites."
+ },
+ {
+  "slug": "web-fonts",
+  "name": "Web Fonts",
+  "blurb": "Font catalogs, font APIs and open-source type foundries for the web."
+ },
+ {
+  "slug": "web-animation",
+  "name": "Web Animation",
+  "blurb": "Animation libraries, runtimes and motion tools for web and app interfaces."
+ },
+ {
+  "slug": "diagrams-whiteboards",
+  "name": "Diagrams & Whiteboards",
+  "blurb": "Diagram-as-code tools, whiteboards and canvas SDKs for visual thinking."
+ },
+ {
+  "slug": "synthetic-data",
+  "name": "Synthetic Data",
+  "blurb": "Generators and platforms for synthetic, fake and privacy-safe test data."
+ },
+ {
+  "slug": "nonprofit-charity-apis",
+  "name": "Nonprofit & Charity APIs",
+  "blurb": "Nonprofit registries, charity ratings and donation APIs."
  }
 ]

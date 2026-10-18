@@ -25,7 +25,9 @@ for (const c of legacy.cats) { if (curCats.has(c)) continue; const t=resolveCat(
 for (const [c,s] of legacy.entries) {
   if (curBySlug[s]===c) continue;
   const from=`/directory/${c}/${s}/`;
+  const rn = (legacy.renames||{})[s]; // renamed entries: old slug -> new slug
   if (curBySlug[s]) rules.set(from, `/directory/${curBySlug[s]}/${s}/`);
+  else if (rn && curBySlug[rn]) rules.set(from, `/directory/${curBySlug[rn]}/${rn}/`);
   else { const t=resolveCat(c); if(t) rules.set(from, `/directory/${t}/`); }
 }
 fs.mkdirSync('public',{recursive:true});

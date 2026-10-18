@@ -16,6 +16,7 @@
    "prompt-management",
    "prompt-libraries",
    "nlp-text-analysis",
+   "computer-vision",
    "data-labeling",
    "ai-coding-assistants",
    "translation-apis",
@@ -96,10 +97,13 @@
    "meeting-notes-ai",
    "stock-photos",
    "gifs-stickers",
+   "icon-libraries",
+   "web-fonts",
    "sound-effects-audio",
    "podcasts",
    "music-apis",
    "3d-graphics",
+   "web-animation",
    "ocr-document-parsing",
    "pdf-document-generation",
    "qr-barcode",
@@ -124,6 +128,7 @@
    "message-queues",
    "event-streaming",
    "datasets",
+   "synthetic-data",
    "time-series-databases"
   ]
  },
@@ -184,6 +189,7 @@
    "billing-invoicing",
    "accounting-tax",
    "ecommerce-platforms",
+   "shipping-logistics",
    "crm-sales",
    "lead-enrichment",
    "support-helpdesk",
@@ -202,6 +208,7 @@
    "real-estate",
    "read-later-bookmarks",
    "presentations-slides",
+   "diagrams-whiteboards",
    "spreadsheet-apis"
   ]
  },
@@ -223,6 +230,7 @@
   "cats": [
    "open-data",
    "open-data-portals",
+   "nonprofit-charity-apis",
    "government-statistics",
    "science-data",
    "academic-research",

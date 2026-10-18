@@ -186,6 +186,8 @@
 /directory/data-etl/clickhouse/ /directory/data-warehouses/clickhouse/ 301
 /directory/data-etl/motherduck/ /directory/data-warehouses/motherduck/ 301
 /directory/data-etl/redpanda/ /directory/event-streaming/redpanda/ 301
+/directory/data-labeling/distilabel/ /directory/synthetic-data/distilabel/ 301
+/directory/data-labeling/synthetic-data-vault/ /directory/synthetic-data/synthetic-data-vault/ 301
 /directory/databases-backend/algolia/ /directory/site-search-engines/algolia/ 301
 /directory/databases-backend/apache-pinot/ /directory/data-warehouses/apache-pinot/ 301
 /directory/databases-backend/apache-spark/ /directory/data-warehouses/apache-spark/ 301
@@ -420,6 +422,7 @@
 /directory/maps-geo/opencage/ /directory/geocoding-address/opencage/ 301
 /directory/maps-geo/photon/ /directory/geocoding-address/photon/ 301
 /directory/maps-geo/what3words/ /directory/geocoding-address/what3words/ 301
+/directory/meeting-notes-ai/aivaai-meeting-summaries/ /directory/ai-music-generation/aiva/ 301
 /directory/memory-vector-dbs/annoy/ /directory/vector-databases/annoy/ 301
 /directory/memory-vector-dbs/aws-marketplace-vector-databases/ /directory/vector-databases/aws-marketplace-vector-databases/ 301
 /directory/memory-vector-dbs/azure-ai-search-vector-search/ /directory/vector-databases/azure-ai-search-vector-search/ 301
@@ -728,7 +731,7 @@
 /directory/security-guardrails/openai-moderation-api/ /directory/content-moderation/openai-moderation-api/ 301
 /directory/security-guardrails/perspective-api/ /directory/content-moderation/perspective-api/ 301
 /directory/speech-transcription/3d-speaker/ /directory/speaker-diarization/3d-speaker/ 301
-/directory/speech-transcription/aivaai-meeting-summaries/ /directory/meeting-notes-ai/aivaai-meeting-summaries/ 301
+/directory/speech-transcription/aivaai-meeting-summaries/ /directory/ai-music-generation/aiva/ 301
 /directory/speech-transcription/coqui-tts/ /directory/text-to-speech/coqui-tts/ 301
 /directory/speech-transcription/firefliesai-meeting-assistant/ /directory/meeting-notes-ai/firefliesai-meeting-assistant/ 301
 /directory/speech-transcription/gigaspeech/ /directory/speech-datasets/gigaspeech/ 301
@@ -775,6 +778,8 @@
 /directory/team-chat-selfhosted/tox-decentralized-chat/ /directory/secure-messaging/tox-decentralized-chat/ 301
 /directory/team-chat-selfhosted/wire/ /directory/secure-messaging/wire/ 301
 /directory/team-chat-selfhosted/zulip/ /directory/team-chat/zulip/ 301
+/directory/text-to-speech/musicgen-audiocraft/ /directory/ai-music-generation/musicgen-audiocraft/ 301
+/directory/text-to-speech/stable-audio/ /directory/ai-music-generation/stable-audio/ 301
 /directory/text-to-speech/suno/ /directory/ai-music-generation/suno/ 301
 /directory/text-to-speech/udio/ /directory/ai-music-generation/udio/ 301
 /directory/translation-apis/deepl-voice-api/ /directory/ai-dubbing/deepl-voice-api/ 301
