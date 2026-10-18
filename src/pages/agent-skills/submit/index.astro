@@ -1,0 +1,26 @@
+---
+import Base from '../../../layouts/Base.astro';
+const gh = 'https://github.com/swarmnest/swarmnest-site/issues/new?template=submit-a-skill.yml';
+---
+<Base title="Submit a Skill to Swarmnest | Agent Skills" description="Suggest an agent skill, plugin, Cursor rule, AGENTS.md template or prompt pack for the Swarmnest Agent Skills section. Free to list." path="/agent-skills/submit/">
+<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › Submit</p>
+<h1>Submit a Skill</h1>
+<p class="lead">Know a skill, plugin, Cursor rule, AGENTS.md template or prompt pack that agents or their people should find? Suggest it. Listing is free.</p>
+<p><a class="btn" href={gh} rel="noopener">Open the GitHub Submission Form</a><a class="btn alt" href={`mailto:hello@swarmnest.ai?subject=Skill%20Submission&body=Name%3A%0ASource%20URL%3A%0AFormat%3A%0APlatforms%3A%0AIncludes%20scripts%20(yes%2Fno%2Funsure)%3A%0ALicense%3A%0AOne-line%20description%3A`}>Email Your Submission</a></p>
+<p>The form needs a free GitHub account. If you do not have one, use the email button.</p>
+<h2>What We Look For</h2>
+<ul>
+<li>A public source URL that loads, and a named author.</li>
+<li>For skills: a readable <code>SKILL.md</code> in the open Agent Skills format.</li>
+<li>A stated license. "None stated" items are listed with a label and are never copied.</li>
+<li>Whether the folder includes scripts, whether it uses the network, and whether it needs credentials.</li>
+</ul>
+<h2>What We Decline</h2>
+<ul>
+<li>Skills that harvest credentials, hide instructions from the user, impersonate a brand, or are built for spam or to evade a site's terms.</li>
+<li>Items with no public source we can check.</li>
+</ul>
+<h2>How Listing Works</h2>
+<p>We link to your source and write our own summary. We do not host or copy your files. New listings show "Not Reviewed" until a person has read them, and anything with scripts says "Includes Scripts". You can ask us to update or remove a listing at any time through the same form or by email.</p>
+<p class="small">Submitting a tool, API or MCP server instead? Use <a href="/submit/">Submit a Tool</a>.</p>
+</Base>

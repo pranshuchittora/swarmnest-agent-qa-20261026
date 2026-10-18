@@ -1,0 +1,41 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SkillCard from '../../../components/SkillCard.astro';
+import { SKILLS, SITE, fmtByKey, platName, labelsOf, slugify, skillPath, scriptsLabel } from '../../../lib/skills';
+export function getStaticPaths(){ return SKILLS.map(s=>({params:{slug:s.slug},props:{s}})); }
+const { s } = Astro.props; const f = fmtByKey(s.format); const cs = slugify(s.category); const l = labelsOf(s);
+const related = SKILLS.filter(x=>x.category===s.category&&x.slug!==s.slug).slice(0,4);
+const path = skillPath(s);
+const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent Skills',item:SITE+'/agent-skills/'},{'@type':'ListItem',position:3,name:s.category,item:`${SITE}/agent-skills/category/${cs}/`},{'@type':'ListItem',position:4,name:s.title,item:SITE+path}]},
+{'@context':'https://schema.org','@type':'SoftwareSourceCode',name:s.title,description:s.summary,codeRepository:`https://github.com/${s.repo}`,url:SITE+path,author:{'@type':'Organization',name:s.author,url:s.author_url},...(s.license&&!/None|Source/.test(s.license)?{license:`https://spdx.org/licenses/${s.license}`}:{}),isAccessibleForFree:true}];
+const short = s.reviewed_commit.slice(0,7);
+const desc = `${s.title}: ${s.summary}`.slice(0,155);
+---
+<Base title={`${s.title} — ${f.short} for ${s.category.replace(/ Skills$/,'')} | Swarmnest`} description={desc} path={path} jsonld={ld}>
+<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › <a href={`/agent-skills/category/${cs}/`}>{s.category}</a> › {s.title}</p>
+<h1>{s.title}</h1><p class="lead">{s.summary}</p>
+<p>{l.map(x=><span class={`badge ${x==='Includes Scripts'||x==='Uses Network'||x==='Needs Credentials'||x==='Uses Hooks'?'warn':x==='Instructions Only'?'ok':''}`}>{x}</span>)}</p>
+<p><a class="btn" href={s.source_url} rel="noopener nofollow" target="_blank">View Source on GitHub</a></p>
+<div class="notice"><strong>Listed at commit {short} on {s.scan_date}. Not reviewed by a human.</strong> Read it before installing.{s.has_scripts===true && ' This one includes scripts or code that your agent may run on your machine.'}</div>
+<div class="install"><h2>Install in 30 Seconds</h2>
+{s.install.map((i,n)=><div><p class="small" style="margin:.5rem 0 0">{platName(i.platform)==='any-skills-client'?'Any Agent Skills Client':platName(i.platform)==='any-agent'?'Any Agent':platName(i.platform)}</p><div class="row"><pre id={`i${n}`}>{i.steps}</pre>{(i.method==='cli'||/^(gemini|npx|\/plugin)/.test(i.steps))&&<button type="button" class="cp" data-t={`i${n}`}>Copy</button>}</div></div>)}
+<p class="small">These are the standard install paths for each tool. Check the source README for anything specific to this item.</p></div>
+<table>
+<tr><th>Category</th><td><a href={`/agent-skills/category/${cs}/`}>{s.category}</a></td></tr>
+<tr><th>Format</th><td><a href={`/agent-skills/format/${f.slug}/`}>{f.name}</a></td></tr>
+<tr><th>Author</th><td><a href={s.author_url} rel="noopener nofollow">{s.author}</a></td></tr>
+<tr><th>License</th><td>{s.license}{s.redistributable===false && ' (we link only, never copy or mirror)'}</td></tr>
+<tr><th>Platforms (Declared)</th><td>{s.platforms_declared.length?s.platforms_declared.map(p=><a class="badge" href={`/agent-skills/platform/${p}/`}>{platName(p)}</a>):'Not stated'}</td></tr>
+<tr><th>Platforms (Tested)</th><td>None yet. "Declared" means the source repository's README mentions the platform (keyword match). We have not tested it.</td></tr>
+<tr><th>Runtime Needs</th><td>{s.runtime_needs.join(', ')}</td></tr>
+<tr><th>Scripts</th><td>{scriptsLabel(s)}. {s.scan_notes}</td></tr>
+{s.format==='agent-skill'&&<tr><th>Spec Check</th><td>{s.spec_valid?'Passes our basic SKILL.md check (name matches folder, name and description present and within limits).':'Did not pass our basic SKILL.md check (for example the folder name differs from the skill name). It may still work in your tool.'}</td></tr>}
+<tr><th>Source</th><td><a href={s.source_url} rel="noopener nofollow">{s.repo}</a>{s.path_in_repo?` · ${s.path_in_repo}`:''}</td></tr>
+<tr><th>Source Status</th><td>HTTP {s.http_status} on {s.last_verified}</td></tr>
+<tr><th>Review Status</th><td>{s.review_status}</td></tr>
+</table>
+<p class="small">The summary is written by Swarmnest. We link to the source and do not host or copy it. Labels come from an automated scan of the repository folder ("Uses Network" and "Needs Credentials" are keyword matches), not a security review. Not affiliated with {s.author}. <a href={`mailto:hello@swarmnest.ai?subject=Correction%3A%20${encodeURIComponent(s.title)}`}>Suggest a correction</a>.</p>
+<h2>More in {s.category}</h2>
+<div class="grid">{related.map(r=><SkillCard s={r} />)}</div>
+<script is:inline>document.querySelectorAll('.cp').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById(b.dataset.t).textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent='Copied'}).catch(function(){var r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.t));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected'});setTimeout(function(){b.textContent='Copy'},1500)})})</script>
+</Base>

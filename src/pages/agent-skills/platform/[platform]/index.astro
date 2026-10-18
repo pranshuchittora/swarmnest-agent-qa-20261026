@@ -1,0 +1,19 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import SkillCard from '../../../../components/SkillCard.astro';
+import SkillSearch from '../../../../components/SkillSearch.astro';
+import { SKILLS, platformsUsed, SITE, skillPath } from '../../../../lib/skills';
+export function getStaticPaths(){ return platformsUsed.map(p=>({params:{platform:p.slug},props:{p}})); }
+const { p } = Astro.props; const list = SKILLS.filter(s=>s.platforms_declared.includes(p.slug));
+const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent Skills',item:SITE+'/agent-skills/'},{'@type':'ListItem',position:3,name:`Skills For ${p.name}`,item:`${SITE}/agent-skills/platform/${p.slug}/`}]},{'@context':'https://schema.org','@type':'ItemList',name:`Skills For ${p.name}`,itemListElement:list.map((s,i)=>({'@type':'ListItem',position:i+1,url:SITE+skillPath(s),name:s.title}))}];
+const note = p.slug==='any-skills-client' ? 'These are skills with no scripts or code, so any tool that reads the open SKILL.md format should be able to use them. We have not tested them in every tool.' : p.slug==='any-model' ? 'Plain-text prompts that work with any chat model.' : `Listings whose source repository README mentions ${p.name} (a keyword match, so check the source for details). "Declared" is not "tested": we have not run these yet.`;
+---
+<Base title={`Skills For ${p.name} — ${list.length} Listings | Swarmnest`} description={`${list.length} skills, plugins, rules and templates that declare support for ${p.name}, with safety labels and source links.`} path={`/agent-skills/platform/${p.slug}/`} jsonld={ld}>
+<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › Skills For {p.name}</p>
+<h1>Skills For {p.name}</h1>
+<p class="lead">{list.length} listings. {note} JSON: <a href={`/api/v1/agent-skills/platform/${p.slug}.json`}>/api/v1/agent-skills/platform/{p.slug}.json</a></p>
+<SkillSearch plat={p.slug} label={`Search Skills For ${p.name}`} />
+<div class="grid" id="ss-list">{list.map(s=><SkillCard s={s} />)}</div>
+<script is:inline src="/search.js"></script>
+<script is:inline src="/agent-skills-search.js"></script>
+</Base>

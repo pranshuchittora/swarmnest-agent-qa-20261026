@@ -29,7 +29,7 @@ const lk=[...links].filter(u=>!smurls.includes(u));
 await pool(lk,16,async u=>{const r=await get(u,'follow');if(r.status!==200)fail('link',`${u} ${r.status}`)});
 console.log('internal links',links.size,'(non-sitemap checked',lk.length+')');
 // 4 llms.txt, llms-full, api
-const extra=new Set(['/llms.txt','/llms-full.txt','/openapi.json','/directory.json','/api/v1/directory.json','/api/v1/categories.json','/api/v1/agent-templates.json','/api/v1/use-cases.json','/api/v1/products.json','/search-index.json','/search-vocab.json','/search.js','/opensearch.xml','/robots.txt','/api/v1/search?q=stripe']);
+const extra=new Set(['/llms.txt','/llms-full.txt','/openapi.json','/directory.json','/api/v1/directory.json','/api/v1/categories.json','/api/v1/agent-templates.json','/api/v1/use-cases.json','/api/v1/products.json','/api/v1/agent-skills.json','/agent-skills-index.json','/agent-skills-vocab.json','/agent-skills-search.js','/search-index.json','/search-vocab.json','/search.js','/opensearch.xml','/robots.txt','/api/v1/search?q=stripe']);
 const llms=await (await get('/llms.txt')).text();for(const m of llms.matchAll(/\]\((https:\/\/swarmnest\.ai[^)\s]*)\)/g))extra.add(m[1].replace('https://swarmnest.ai',''));
 const dj=await (await get('/api/v1/directory.json')).json();const list=dj.entries||dj.results||dj;
 for(const e of list)extra.add(`/api/v1/directory/${e.slug}.json`);

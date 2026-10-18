@@ -1,0 +1,73 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { GUIDES, SITE, SKILLS } from '../../../../lib/skills';
+export function getStaticPaths(){ return GUIDES.map(g=>({params:{guide:g.slug},props:{g}})); }
+const { g } = Astro.props; const path=`/agent-skills/guides/${g.slug}/`;
+const ex = ['anthropics-skill-creator','openai-skill-creator-system','openai-plugin-creator-system'].map(x=>SKILLS.find(s=>s.slug===x)).filter(Boolean) as typeof SKILLS;
+const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent Skills',item:SITE+'/agent-skills/'},{'@type':'ListItem',position:3,name:'Guides',item:SITE+'/agent-skills/guides/'},{'@type':'ListItem',position:4,name:g.title,item:SITE+path}]},
+{'@context':'https://schema.org','@type':'Article',headline:g.title,description:g.blurb,dateModified:g.updated,datePublished:g.updated,author:{'@type':'Organization',name:'Swarmnest'},mainEntityOfPage:SITE+path}];
+---
+<Base title="Migrate a Custom GPT to a Skill (Before Dec 11, 2026) | Swarmnest" description="Custom GPTs retire on Dec 11, 2026. What transfers, what does not, and how to turn your GPT's instructions into a skill or plugin. Free guide." path={path} jsonld={ld} type="article">
+<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › <a href="/agent-skills/guides/">Guides</a> › {g.title}</p>
+<h1>{g.title}</h1>
+<p class="small">Updated {g.updated}. Facts below come from OpenAI's own help pages, linked at the end. Dates are OpenAI's planned dates and can change, so check the notice for your account.</p>
+<div class="notice"><strong>Key Dates (Planned, per OpenAI).</strong> <strong>Oct 26, 2026:</strong> creation of new custom GPTs ends. Drafts you want to migrate must be published first. Existing, unmigrated GPTs can still be edited. <strong>Dec 11, 2026:</strong> custom GPTs and their pages become inaccessible. <strong>Feb 11, 2027:</strong> only for Enterprise workspaces with an approved deferral.</div>
+<h2>The Short Version</h2>
+<ul>
+<li>OpenAI is replacing custom GPTs with <strong>plugins</strong>. A plugin is a package that can contain skills, apps, or both.</li>
+<li>When you use OpenAI's <strong>Migrate to plugin</strong> button, your GPT's instructions become a <strong>skill</strong> inside a new private plugin, and its knowledge files are copied in as reference files.</li>
+<li>Custom actions, the selected model, drafts and sharing settings do <strong>not</strong> carry over.</li>
+<li>After you migrate, the original GPT becomes read-only. It keeps working until the retirement date.</li>
+</ul>
+<h2>Step 1: Get Ready</h2>
+<ol>
+<li>List the GPTs you rely on, and whether you created them. Only the creator, or a workspace admin, can migrate a GPT.</li>
+<li>Publish any draft you want to keep. Migration uses the latest <em>published</em> version. Publishing does not mean sharing publicly.</li>
+<li>Save a few prompts you use often, plus one hard case, and the answers you liked. You will use them to compare the replacement.</li>
+<li>Write down what your GPT uses: instructions, knowledge files, custom actions, and connected apps.</li>
+</ol>
+<h2>Step 2: Migrate With OpenAI's Button</h2>
+<p>When migration is available for your account, go to <strong>My GPTs</strong>, find the GPT under <strong>Created by me</strong>, and choose <strong>Migrate to plugin</strong>. OpenAI says migration may reach different accounts at different times, so you may not see the button yet. If you do not see it, you must be the creator or a workspace admin, the GPT must be published, and plugins must be enabled for you.</p>
+<p>The new plugin starts private. It is not installed for anyone and nobody else can use it until you share it.</p>
+<h2>What Transfers and What Does Not</h2>
+<table>
+<tr><th>Your GPT Has</th><th>In the Plugin</th></tr>
+<tr><td>Instructions</td><td>Become a skill in the plugin. Review the wording.</td></tr>
+<tr><td>Knowledge files</td><td>Copied into the plugin as reference files. Test that they are used the way you expect.</td></tr>
+<tr><td>Connected apps</td><td>Added to the plugin as apps.</td></tr>
+<tr><td>Custom actions</td><td><strong>Do not transfer.</strong> Rebuild them with a supported app or a custom MCP server.</td></tr>
+<tr><td>Selected model</td><td>Does not carry over. Enterprise defaults apply in Enterprise workspaces.</td></tr>
+<tr><td>Drafts and unpublished edits</td><td>Do not transfer.</td></tr>
+<tr><td>Sharing settings</td><td>Not copied. Share the replacement again.</td></tr>
+<tr><td>Conversation starters and past chats</td><td>May not copy over. Save useful prompts yourself.</td></tr>
+</table>
+<h2>Step 3: Test</h2>
+<p>Try the plugin on your saved prompts and the hard case. Check that the right skill is chosen, that it follows your format, that it uses your reference files, and that the tools it needs are available. Test both picking the plugin yourself and asking in plain words, because automatic skill selection depends on the request. If a needed capability is missing, keep using the original until you have a tested replacement.</p>
+<h2>Step 4: Share and Switch</h2>
+<p>Share the plugin with the people who used your GPT, ask one of them to install and try it, and tell your team what changed. Make future edits in the plugin, not the old GPT. Your existing conversations with custom GPTs stay accessible after retirement. OpenAI says you can still migrate a GPT after retirement, even though the GPT itself will no longer run.</p>
+<h2>Using Your GPT's Instructions as a Portable Skill</h2>
+<p class="small">This section is Swarmnest's own guidance, not OpenAI's.</p>
+<p>A skill is a folder with a <code>SKILL.md</code> file: a short header with a <code>name</code> and a <code>description</code>, then your instructions in Markdown. If you want your GPT's behavior to work outside ChatGPT, you can copy your instructions into a <code>SKILL.md</code> by hand and put your knowledge files in a <code>references/</code> folder next to it. The same folder works in tools that read the open format, such as Codex, Claude, Cursor and Gemini CLI, though each tool installs it in its own way. See any listing's "Install in 30 Seconds" box. Tips:</p>
+<ul>
+<li>Write the <code>description</code> as "what it does and when to use it". Agents read only that line first to decide whether to load the skill.</li>
+<li>Keep instructions short and move long material into reference files.</li>
+<li>Replace each custom action with an MCP server or a script. Browse <a href="/directory/mcp-servers/">MCP servers in our directory</a>. Scripts make a skill software, so we label them "Includes Scripts".</li>
+<li>Do not paste secrets or API keys into a skill.</li>
+</ul>
+{ex.length>0&&<div><h3>Skills That Help You Write Skills</h3><div class="grid">{ex.map(s=><a class="card" href={`/agent-skills/${s.slug}/`}><h3>{s.title}</h3><p>{s.summary}</p></a>)}</div></div>}
+<h2>If You Use Someone Else's GPT</h2>
+<p>You cannot migrate it. Check the GPT's notice and ask its creator, or a workspace admin, to migrate it and share the replacement with you.</p>
+<h2>Sources (Checked Oct 18, 2026)</h2>
+<ul>
+<li><a href="https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq" rel="noopener nofollow">OpenAI Help Center: Custom GPT retirement and migration FAQ</a>, for dates, what transfers and who can migrate.</li>
+<li><a href="https://learn.chatgpt.com/docs/migrate-custom-gpts" rel="noopener nofollow">ChatGPT Learn: Moving your custom GPT workflows to plugins</a>, for the steps and the comparison with plugins.</li>
+<li><a href="https://help.openai.com/en/articles/8554397-creating-and-editing-gpts" rel="noopener nofollow">OpenAI Help Center: Creating and editing GPTs</a>, which notes that personal ChatGPT plans (Free, Go, Plus, Pro) can no longer create or publish new GPTs.</li>
+</ul>
+<h3>Not Verified</h3>
+<ul>
+<li>Exact migration availability per account. OpenAI's own pages give different target dates (Sep 17 and Sep 22, 2026) and say it varies by account.</li>
+<li>Whether the Oct 26, 2026 creation cutoff applies the same way to every plan. OpenAI's FAQ lists it for affected Enterprise workspaces and says other plans are expected to follow the same timeline.</li>
+<li>Gemini Gems have their own timeline. A guide for that is planned.</li>
+</ul>
+<p class="small">Not affiliated with OpenAI. This guide is general information, not legal or business advice.</p>
+</Base>

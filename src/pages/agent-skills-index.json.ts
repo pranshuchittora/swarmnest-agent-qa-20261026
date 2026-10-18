@@ -1,0 +1,2 @@
+import { SKILLS, fmtByKey, slugify, skillPath } from '../lib/skills';
+export const GET=()=>new Response(JSON.stringify(SKILLS.map(s=>[s.title,s.summary,slugify(s.category),s.category,fmtByKey(s.format).slug,s.platforms_declared.join(' '),s.has_scripts===true?'s':s.has_scripts===false?'i':'u',skillPath(s),fmtByKey(s.format).short])),{headers:{'content-type':'application/json; charset=utf-8','access-control-allow-origin':'*','cache-control':'public, max-age=300'}});

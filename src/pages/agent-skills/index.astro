@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import SkillCard from '../../components/SkillCard.astro';
+import SkillSearch from '../../components/SkillSearch.astro';
+import { SKILLS, FORMATS, CATEGORIES, platformsUsed, GUIDES, SITE } from '../../lib/skills';
+const count = (k:string)=>SKILLS.filter(s=>s.format===k).length;
+const feat = ['anthropics-skill-creator','openai-playwright','vercel-labs-react-best-practices','cloudflare-workers-best-practices','stripe-stripe-best-practices','supabase-supabase-postgres-best-practices','addyosmani-test-driven-development','obra-systematic-debugging'].map(sl=>SKILLS.find(s=>s.slug===sl)).filter(Boolean) as typeof SKILLS;
+const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent Skills',item:SITE+'/agent-skills/'}]},{'@context':'https://schema.org','@type':'CollectionPage',name:'Agent Skills Directory',url:SITE+'/agent-skills/',description:`${SKILLS.length} agent skills, plugins, rules and templates with safety labels.`}];
+---
+<Base title="Agent Skills Directory — SKILL.md Skills, Plugins, Cursor Rules | Swarmnest" description={`Browse ${SKILLS.length} agent skills, plugin bundles, Cursor rules, AGENTS.md templates and prompt packs, with platform compatibility and Includes Scripts or Instructions Only labels.`} path="/agent-skills/" jsonld={ld}>
+<p class="crumbs"><a href="/">Home</a> › Agent Skills</p>
+<h1>Agent Skills</h1>
+<p class="lead">{SKILLS.length} skills, plugins, rules and templates from official and well-known public sources. Every listing links to its source, shows which platforms say they support it, and says plainly whether it includes scripts.</p>
+<SkillSearch />
+<noscript><p class="small">Search needs JavaScript. You can still browse by category, platform and format below.</p></noscript>
+<div class="notice"><strong>Read before you install.</strong> Every listing is "Not Reviewed" by a human. Labels come from an automated check of the source folder on {SKILLS[0].scan_date}. Skills that include scripts run code on your machine. <a href="/agent-skills/guides/">Guides</a> · <a href="/agent-skills/submit/">Submit a Skill</a></div>
+<div id="ss-list">
+<h2>Featured Skills</h2>
+<div class="grid">{feat.map(s=><SkillCard s={s} />)}</div>
+</div>
+<h2>Browse by Format</h2>
+<div class="grid">{FORMATS.map(f=><a class="card" href={`/agent-skills/format/${f.slug}/`}><h3>{f.name}</h3><p>{f.blurb}</p><span class="badge">{count(f.key)} {count(f.key)===1?'Listing':'Listings'}</span></a>)}</div>
+<h2>Skills for Each Platform</h2>
+<div class="pills">{platformsUsed.map(p=><a href={`/agent-skills/platform/${p.slug}/`}>{p.name}</a>)}</div>
+<p class="small">"Declared" means the source repository says the platform is supported. We have not tested these yet.</p>
+<h2>Browse by Category</h2>
+<div class="pills">{CATEGORIES.map(c=><a href={`/agent-skills/category/${c.slug}/`}>{c.name} ({c.count})</a>)}</div>
+<h2>Guides</h2>
+<div class="grid">{GUIDES.map(g=><a class="card" href={`/agent-skills/guides/${g.slug}/`}><h3>{g.title}</h3><p>{g.blurb}</p></a>)}</div>
+<h2>For Agents and Scripts</h2>
+<p>Static JSON: <a href="/api/v1/agent-skills.json">/api/v1/agent-skills.json</a>. Per platform: <code>/api/v1/agent-skills/platform/{'{platform}'}.json</code>. Per category: <code>/api/v1/agent-skills/category/{'{category}'}.json</code>.</p>
+<script is:inline src="/search.js"></script>
+<script is:inline src="/agent-skills-search.js"></script>
+</Base>

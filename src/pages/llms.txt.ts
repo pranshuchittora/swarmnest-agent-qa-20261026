@@ -1,6 +1,7 @@
 import { LAUNCH } from '../lib/config';
 import { TEMPLATES, USECASES, PRODUCTS } from '../lib/content';
 import { ALL, CATS, GROUPS, byCat, SITE } from '../lib/data';
+import { SKILLS, CATEGORIES, FORMATS, platformsUsed, GUIDES } from '../lib/skills';
 export const GET = () => new Response(`# Swarmnest
 
 > Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has 8 use cases with 8 ready-made agent templates, and a marketplace of own products that is coming soon.
@@ -17,6 +18,14 @@ export const GET = () => new Response(`# Swarmnest
 
 ## Directory Categories (${CATS.length} in ${GROUPS.length} groups)
 ${GROUPS.map(g=>`### ${g.name}\n${g.blurb}\n${g.cats.map(c=>`- [${c.name}](${SITE}/directory/${c.slug}/): ${c.blurb} (${byCat(c.slug).length} entries)`).join('\n')}`).join('\n\n')}
+
+## Agent Skills (${SKILLS.length} Skills, Plugins, Rules and Templates; Not Reviewed by a Human)
+- [Hub and search](${SITE}/agent-skills/) and [JSON](${SITE}/api/v1/agent-skills.json): static JSON of every listing with format, category, declared platforms, has_scripts (true, false or null), uses_network, needs_credentials, license and source_url
+- Formats: ${FORMATS.map(f=>`[${f.name}](${SITE}/agent-skills/format/${f.slug}/)`).join(', ')}
+- Platforms (declared by the source, not tested): ${platformsUsed.map(p=>`[${p.name}](${SITE}/agent-skills/platform/${p.slug}/)`).join(', ')}. JSON per platform: ${SITE}/api/v1/agent-skills/platform/{platform}.json
+- Categories (${CATEGORIES.length}): ${CATEGORIES.map(c=>`[${c.name}](${SITE}/agent-skills/category/${c.slug}/)`).join(', ')}. JSON per category: ${SITE}/api/v1/agent-skills/category/{category}.json
+${GUIDES.map(g=>`- [${g.title}](${SITE}/agent-skills/guides/${g.slug}/): ${g.blurb}`).join('\n')}
+- [Submit a skill](${SITE}/agent-skills/submit/)
 
 ## Pages
 - [About](${SITE}/about/)
