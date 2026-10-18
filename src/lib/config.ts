@@ -14,7 +14,7 @@ export const BUY_URLS: Record<string,string> = {
   "project-memory-kit": "https://buy.stripe.com/28EfZa9nPd8VaP9cQndIA0g",
   "ai-sdr-outbound-workflow": "https://buy.stripe.com/bJe4gs8jLecZcXh9EbdIA0h",
   "ai-receptionist-kit": "https://buy.stripe.com/5kQ6oAfMd9WJaP9bMjdIA0i",
-  "all-products-bundle": "https://buy.stripe.com/aFabIU1Vn5Gtf5p03BdIA0b",
+  "all-products-bundle": "https://buy.stripe.com/28E7sE2Zrb0N6yT7w3dIA0k",
   "agent-builder-bundle": "https://buy.stripe.com/eVqbIU1Vn2uh1ezcQndIA0c",
   "growth-bundle": "https://buy.stripe.com/00wdR2eI9b0N5uP6rZdIA0j"
 };

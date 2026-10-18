@@ -6,7 +6,7 @@ import { SITE } from '../../lib/data';
 import { LAUNCH } from '../../lib/config';
 const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest marketplace',itemListElement:PRODUCTS.map((p,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/marketplace/${p.slug}/`,name:p.title}))}];
 ---
-<Base title="Marketplace for AI Agent Skills, Workflows and Prompt Packs | Swarmnest" description={`Seven tested agent skills, workflows and prompt packs, plus three bundles, built by Swarmnest, from $9. ${LAUNCH?'Instant download after purchase.':'Coming soon.'}`} path="/marketplace/" jsonld={ld}>
+<Base title="Marketplace for AI Agent Skills, Workflows and Prompt Packs | Swarmnest" description={`Twelve tested agent skills, workflows and prompt packs, plus three bundles, built by Swarmnest, from $9. ${LAUNCH?'Instant download after purchase.':'Coming soon.'}`} path="/marketplace/" jsonld={ld}>
 <h1>Marketplace</h1>
 <p class="lead">Skills, workflows and prompt packs for AI agents, made by Swarmnest. {LAUNCH ? 'Pay once, get an instant download (readable files plus a zip). One-time price, personal and commercial use.' : 'Launching soon. Prices are shown below.'}</p>
 <div class="notice">Looking for free skills from other creators? Browse the <a href="/agent-skills/">Agent Skills directory</a>. It is a separate, free index; everything on this page is made and sold by Swarmnest.</div>

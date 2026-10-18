@@ -11,12 +11,13 @@ export const PRICE_TO_SLUG = {
  "price_1US1Qn6aC1E09RZY2Z1UsY9Y": "project-memory-kit",
  "price_1US1Qo6aC1E09RZYILPvqS1l": "ai-sdr-outbound-workflow",
  "price_1US1Qq6aC1E09RZYJb2wyks9": "ai-receptionist-kit",
- "price_1US0kh6aC1E09RZYSlBSwq7O": "all-products-bundle",
+ "price_1US34j6aC1E09RZYxQKbMfrh": "all-products-bundle",
  "price_1US0kh6aC1E09RZY82raKJSK": "agent-builder-bundle",
  "price_1US2YS6aC1E09RZYnE4iyAoC": "growth-bundle"
 };
 // Archived prices (amount changed before launch); kept so any older checkout session still fulfils the right product.
 export const LEGACY_PRICE_TO_SLUG = {
+ "price_1US0kh6aC1E09RZYSlBSwq7O": "all-products-bundle",
  "price_1US0ki6aC1E09RZYhRSnVhxk": "growth-bundle",
  "price_1UQiit6aC1E09RZYMYrWB82m": "web-research-skill-pack",
  "price_1UQiiv6aC1E09RZYXejhssVQ": "customer-support-prompt-pack",
@@ -43,3 +44,9 @@ export const PRODUCT_TITLES = {
 // Slugs renamed after launch; tokens issued before the rename still resolve.
 export const LEGACY_SLUGS = { "persona-bundle": "agent-templates-pack", "agent-templates-bundle": "agent-templates-pack" };
 export const canonicalSlug = (s) => LEGACY_SLUGS[s] || s;
+// Bundle zips share their members' files; per-file KV keys are stored once per product and resolved here (saves KV writes).
+export const BUNDLE_MEMBERS = {
+ "all-products-bundle": ["web-research-skill-pack","lead-research-workflow","customer-support-prompt-pack","content-repurposing-workflow","mcp-server-starter-kit","agent-eval-guardrails-pack","agent-templates-pack","workflow-reliability-pack","coding-agent-skills-pack","project-memory-kit","ai-sdr-outbound-workflow","ai-receptionist-kit"],
+ "agent-builder-bundle": ["mcp-server-starter-kit","agent-eval-guardrails-pack","web-research-skill-pack","agent-templates-pack"],
+ "growth-bundle": ["lead-research-workflow","content-repurposing-workflow","customer-support-prompt-pack","ai-sdr-outbound-workflow"]
+};

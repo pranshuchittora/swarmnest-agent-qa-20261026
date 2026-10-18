@@ -1,5 +1,5 @@
 import { fileKey, MAX_DOWNLOADS } from '../_lib/fulfil.js';
-import { PRODUCT_TITLES, canonicalSlug } from '../_lib/prices.js';
+import { PRODUCT_TITLES, canonicalSlug, BUNDLE_MEMBERS } from '../_lib/prices.js';
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const base = { 'cache-control': 'no-store', 'x-robots-tag': 'noindex' };
 const txt = (body, status) => new Response(body, { status, headers: { ...base, 'content-type': 'text/plain; charset=utf-8' } });
@@ -39,7 +39,8 @@ export async function onRequestGet(ctx) {
   if (sub === 'f' && parts.length > 2) {
     const rel = parts.slice(2).map((s) => { try { return decodeURIComponent(s); } catch { return ''; } }).join('/');
     if (!safePath(rel)) return txt('Not found', 404);
-    const body = await env.FILES.get(`pf:${slug}:${rel}`);
+    let body = await env.FILES.get(`pf:${slug}:${rel}`);
+    if (body === null && BUNDLE_MEMBERS[slug]) { const [m, ...rest] = rel.split('/'); if (rest.length && BUNDLE_MEMBERS[slug].includes(m)) body = await env.FILES.get(`pf:${m}:${rest.join('/')}`); }
     if (body === null) return txt('Not found', 404);
     const dl = new URL(ctx.request.url).searchParams.get('dl') === '1';
     const name = rel.split('/').pop().replace(/[^\w.\-]+/g, '_');

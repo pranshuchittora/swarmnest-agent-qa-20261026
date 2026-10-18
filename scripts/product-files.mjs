@@ -1,5 +1,6 @@
 // Reads product zips -> src/lib/product-files.json (listing) and a KV bulk file for individual-file delivery.
 // Usage: node scripts/product-files.mjs [distDir] [bulkOut]
+import { BUNDLE_MEMBERS } from '../functions/_lib/prices.js';
 import { execFileSync } from 'child_process'; import { readdirSync, writeFileSync } from 'fs';
 const dist = process.argv[2] || '/workspace/swarmnest-products/dist';
 const bulkOut = process.argv[3] || '/workspace/kv-files-bulk.json';
@@ -13,6 +14,7 @@ for (const z of readdirSync(dist).filter((f) => f.endsWith('.zip'))) {
     const rel = n.split('/').slice(1).join('/');
     if (buf.includes(0)) continue; // skip binary
     files.push(rel);
+    if (BUNDLE_MEMBERS[slug] && rel.includes('/') && BUNDLE_MEMBERS[slug].includes(rel.split('/')[0])) continue; // resolved from the member's own keys at read time
     bulk.push({ key: `pf:${slug}:${rel}`, value: buf.toString('utf8') });
   }
   files.sort(); listing[slug] = files;

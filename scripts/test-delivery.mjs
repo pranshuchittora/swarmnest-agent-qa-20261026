@@ -33,3 +33,22 @@ const t=Math.floor(Date.now()/1000), sig=createHmac('sha256','wh').update(`${t}.
 store.clear();
 const res=await hook({request:{text:async()=>body,headers:{get:()=>`t=${t},v1=${sig}`}},env:{...env,STRIPE_WEBHOOK_SECRET:'wh',STRIPE_API_KEY:'x'}});
 ok(res.status===200&&JSON.parse(store.get('order:cs_test_abc')).emailed===false,'webhook ok without RESEND key');
+// idempotency: a second event for the same session (retry, or async_payment_succeeded) creates no second token and no second email
+{
+  const toks=()=>[...store.keys()].filter(k=>k.startsWith('dl:')).length;
+  let mails=0; const realFetch=globalThis.fetch;
+  globalThis.fetch=async(u,o)=>{ if(String(u).includes('resend.com')){mails++;return {ok:true,status:200};} return realFetch(u,o); };
+  const send=async(evId,type)=>{ const b=JSON.stringify({id:evId,type,data:{object:{id:'cs_test_idem1',customer_details:{email:'a@b.co'}}}}); const tt=Math.floor(Date.now()/1000), sg=createHmac('sha256','wh').update(`${tt}.${b}`).digest('hex'); return hook({request:{text:async()=>b,headers:{get:()=>`t=${tt},v1=${sg}`}},env:{...env,STRIPE_WEBHOOK_SECRET:'wh',STRIPE_API_KEY:'x',RESEND_API_KEY:'k'}}); };
+  store.clear(); await send('evt_a','checkout.session.completed'); await send('evt_a','checkout.session.completed'); await send('evt_b','checkout.session.async_payment_succeeded');
+  ok(toks()===1&&mails===1,'webhook idempotent per session (1 token, 1 email)');
+  globalThis.fetch=realFetch;
+}
+// bundle files resolve from the member product's keys
+{
+  const b=new Map(); const kv2={get:async(k)=>b.has(k)?b.get(k):null,put:async(k,v)=>{b.set(k,v)}}; const TB='b'.repeat(64);
+  b.set('dl:'+TB,JSON.stringify({slug:'growth-bundle',expires:Date.now()+1e6,count:0})); b.set('pf:lead-research-workflow:README.md','# lead'); b.set('pf:growth-bundle:START-HERE.md','# start');
+  const g=(p)=>dl({params:{path:[TB,...p]},env:{SIGNUPS:kv2,FILES:kv2},request:{url:'https://x/'}});
+  let r=await g(['f','lead-research-workflow','README.md']); ok(r.status===200&&await r.text()==='# lead','bundle member file resolves');
+  r=await g(['f','START-HERE.md']); ok(r.status===200,'bundle root file');
+  r=await g(['f','mcp-server-starter-kit','README.md']); ok(r.status===404,'non-member path 404');
+}
