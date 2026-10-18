@@ -75,10 +75,11 @@
     {
       "slug": "growth-bundle",
       "product_id": "prod_VSwdlfVqhl1nXh",
-      "price_id": "price_1US0ki6aC1E09RZYhRSnVhxk",
-      "price_cents": 4500,
-      "payment_link_id": "plink_1US0kq6aC1E09RZY3mLWo8Ey",
-      "buy_url": "https://buy.stripe.com/bJe7sE9nP6Kx3mH7w3dIA0d"
+      "price_id": "price_1US2YS6aC1E09RZYnE4iyAoC",
+      "price_cents": 5900,
+      "payment_link_id": "plink_1US2YT6aC1E09RZY2RsDzP2k",
+      "buy_url": "https://buy.stripe.com/00wdR2eI9b0N5uP6rZdIA0j",
+      "old_price_id": "price_1US0ki6aC1E09RZYhRSnVhxk"
     },
     {
       "slug": "workflow-reliability-pack",

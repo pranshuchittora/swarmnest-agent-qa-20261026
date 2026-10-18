@@ -13,10 +13,11 @@ export const PRICE_TO_SLUG = {
  "price_1US1Qq6aC1E09RZYJb2wyks9": "ai-receptionist-kit",
  "price_1US0kh6aC1E09RZYSlBSwq7O": "all-products-bundle",
  "price_1US0kh6aC1E09RZY82raKJSK": "agent-builder-bundle",
- "price_1US0ki6aC1E09RZYhRSnVhxk": "growth-bundle"
+ "price_1US2YS6aC1E09RZYnE4iyAoC": "growth-bundle"
 };
 // Archived prices (amount changed before launch); kept so any older checkout session still fulfils the right product.
 export const LEGACY_PRICE_TO_SLUG = {
+ "price_1US0ki6aC1E09RZYhRSnVhxk": "growth-bundle",
  "price_1UQiit6aC1E09RZYMYrWB82m": "web-research-skill-pack",
  "price_1UQiiv6aC1E09RZYXejhssVQ": "customer-support-prompt-pack",
  "price_1UQiix6aC1E09RZYuCUJk2Mt": "mcp-server-starter-kit"

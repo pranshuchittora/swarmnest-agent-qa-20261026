@@ -16,5 +16,5 @@ export const BUY_URLS: Record<string,string> = {
   "ai-receptionist-kit": "https://buy.stripe.com/5kQ6oAfMd9WJaP9bMjdIA0i",
   "all-products-bundle": "https://buy.stripe.com/aFabIU1Vn5Gtf5p03BdIA0b",
   "agent-builder-bundle": "https://buy.stripe.com/eVqbIU1Vn2uh1ezcQndIA0c",
-  "growth-bundle": "https://buy.stripe.com/bJe7sE9nP6Kx3mH7w3dIA0d"
+  "growth-bundle": "https://buy.stripe.com/00wdR2eI9b0N5uP6rZdIA0j"
 };
