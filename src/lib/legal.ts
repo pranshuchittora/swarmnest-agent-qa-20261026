@@ -1,10 +1,12 @@
 export const LEGAL: [string, string, string][] = [
-  ['/terms/','Terms of Use','The main rules for using swarmnest.ai, buying products and using our data.'],
+  ['/terms/','Terms of Sale and Use','The main rules for using swarmnest.ai, buying products and using our data.'],
   ['/privacy/','Privacy Policy','What personal information we collect, why, who we share it with and your rights.'],
   ['/cookies/','Cookie Notice','Which cookies and similar technologies are involved, and why there is no cookie banner.'],
   ['/do-not-sell/','Do Not Sell or Share','Our California (CCPA) notice: we do not sell or share personal information.'],
   ['/acceptable-use/','Acceptable Use Policy','What you may not do with the site, the API or our products.'],
   ['/license/','Product License','What you can and cannot do with prompt packs, workflows and skills you buy.'],
+  ['/digital-products-disclaimer/','Digital Products Disclaimer','No guarantees of results, scripts run at your own risk, AI output can be wrong, and what "Not Reviewed" means.'],
+  ['/directory-disclaimer/','Directory and Listing Disclaimer','Third-party tools are not endorsed, listings may be out of date, and how to request a correction or removal.'],
   ['/refunds/','Refund Policy','Our 14-day window for defective or undelivered digital products, and how to ask.'],
   ['/tax/','Sales Tax Notes','How sales tax and VAT are handled at checkout.'],
   ['/disclosure/','Sponsored & Affiliate Disclosure','How we label paid placements and affiliate links.'],

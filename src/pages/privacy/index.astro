@@ -14,6 +14,10 @@ import Legal from '../../components/Legal.astro';
 <p>We collect your email address, the date you signed up, which form you used (newsletter or a product waitlist), your approximate country (from Cloudflare) and the wording you agreed to. This is stored in Cloudflare KV, our hosting provider's key-value store. We will ask you to confirm by email before sending marketing. If we use an email service to send the newsletter, it may record whether emails are delivered, opened or clicked, so we can see what is useful. We will name that service in this policy when the newsletter launches.</p>
 <h3>When You Buy Something</h3>
 <p>Checkout is handled by Stripe. Stripe collects your payment details, email address, and billing details such as name, country and postal code (and sometimes a full address or tax ID, where needed to calculate tax). We do not receive or store your full card number. Stripe gives us your name, email, billing country and postal code, what you bought, the amount, tax charged, and limited card details such as the card brand and last four digits. Stripe also uses device and transaction data to prevent fraud. Stripe's use of your information is described in the <a href="https://stripe.com/privacy" rel="noopener">Stripe Privacy Policy</a>.</p>
+<h3>Delivery Emails and Download Links</h3>
+<p>After a successful payment, Stripe notifies our server. We create a download link that works for 72 hours and up to 10 zip downloads, store a record of the link (a random token, the product, the order reference, an expiry time and a download count) in Cloudflare KV, and email the link to the address you gave at checkout using Resend, our transactional email provider. Resend processes your email address and the message content to deliver it and may record delivery status. We also store a small order record (order reference, your email address, the product and whether the email was sent) in Cloudflare KV. Anyone who has the link can download the files, so please do not share it.</p>
+<h3>When You Use the Search API or Download Files</h3>
+<p>Our own code does not keep logs of search queries or API calls. Cloudflare processes the request data described above as our host. Queries are used only to return results.</p>
 <h3>If We Add Accounts or Third-Party Sellers</h3>
 <p>We would collect your login email, profile details and purchase history; for sellers, the identity, business, tax and payout information that we and Stripe need to pay you and meet legal obligations. We will update this policy before launching those features.</p>
 <p>We do not intentionally collect sensitive personal information (such as health data, precise location or government ID numbers) from buyers, and we ask you not to send it to us.</p>
@@ -33,7 +37,7 @@ import Legal from '../../components/Legal.astro';
 <h2>3. Who We Share It With</h2>
 <p>We do not sell personal information, and we do not share it for cross-context behavioral advertising. We share it only with:</p>
 <ul>
-<li><strong>Service providers</strong> that process it for us: Cloudflare (hosting, security, analytics), Stripe (payments, tax calculation, fraud prevention), our email provider for the hello@swarmnest.ai mailbox, and, once launched, our newsletter provider. They may only use it to provide their services to us.</li>
+<li><strong>Service providers</strong> that process it for us: Cloudflare (hosting, security, analytics), Stripe (payments, tax calculation, fraud prevention), Resend (delivery emails with download links), our email provider for the hello@swarmnest.ai mailbox, and, once launched, our newsletter provider. They may only use it to provide their services to us.</li>
 <li><strong>Creators</strong>, if we later open the marketplace to outside sellers: when you buy a creator's product, we may share your name, email and order details with that creator so they can support the product and meet their own legal duties.</li>
 <li><strong>People who send copyright notices or counter-notices</strong>, as required by the DMCA process described on our <a href="/takedown/">Takedown page</a>.</li>
 <li><strong>Authorities and others where the law requires</strong>, or where needed to protect rights, safety or the Service, such as in response to valid legal process.</li>
@@ -48,6 +52,7 @@ import Legal from '../../components/Legal.astro';
 <li>Order and payment records: as long as needed for tax, accounting and legal purposes, generally up to 7 years after the purchase.</li>
 <li>Emails and submissions: as long as needed to deal with them, and generally no longer than 2 years after our last contact, unless we need them for a legal claim. Copyright notices and counter-notices may be kept longer as a record.</li>
 <li>Newsletter and waitlist: until you unsubscribe or ask us to delete your address. We may keep a minimal record that you unsubscribed so we do not email you again.</li>
+<li>Download link records: removed automatically about 72 hours after they are created (they stop working at that time). Order records in Cloudflare KV (email, product, order reference): up to about 13 months, then removed automatically; Stripe keeps its own payment records as described above.</li>
 <li>Request logs and analytics: held by Cloudflare for limited periods under its own retention practices; we keep only aggregated statistics.</li>
 </ul>
 
