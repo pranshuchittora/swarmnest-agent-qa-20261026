@@ -31,16 +31,16 @@ const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,descri
 <h2>What's Included</h2>
 <ul class="small">{files.map(f=><li><code>{f}</code></li>)}</ul>
 <h2>License and Refunds</h2>
-<p class="small">One buyer per purchase{p.bundle?' (covers every product in the bundle)':''}; personal and commercial use; no resale or redistribution. Every purchase has a 14-day satisfaction window: if something is missing, broken or not as described, we fix it, replace it or refund you. Read the <a href="/terms/">Terms of Sale and Use</a>, the <a href="/license/">product license</a> and <a href="/refunds/">refund policy</a>. Questions: hello@swarmnest.ai.</p>
+<p class="small">One buyer per purchase{p.bundle?' (covers every product in the bundle)':''}; personal and commercial use; no resale or redistribution. Every purchase has a 14-day satisfaction window: if something is missing, broken or not as described, we fix it, replace it or refund you. Read the <a href="/terms/">Terms of Sale and Use</a>, the <a href="/license/">product license</a> and <a href="/refunds/">refund policy</a>. Questions: support@swarmnest.ai.</p>
 <p class="small">Looking for free skills made by others? Browse the <a href="/agent-skills/">Agent Skills directory</a>. It is a separate, free index of public skills; the products here are made and sold by Swarmnest.</p>
 <h2>Already Bought This?</h2>
-<p class="small">Your download link lasts 72 hours. To get a fresh one, open the confirmation page from your receipt or email (the page address ends with <code>?thanks=1&amp;session_id=…</code>). Bookmark that page and it will always give you a new link. A way to look up past orders by email is coming; until then write hello@swarmnest.ai from your purchase email.</p>
+<p class="small">Your download link lasts 72 hours. To get a fresh one, open the confirmation page from your receipt or email (the page address ends with <code>?thanks=1&amp;session_id=…</code>). Bookmark that page and it will always give you a new link. A way to look up past orders by email is coming; until then write support@swarmnest.ai from your purchase email.</p>
 </Base>
 
 <script is:inline>
 (function(){var q=new URLSearchParams(location.search);if(q.get('thanks')!=='1')return;var id=q.get('session_id');var box=document.getElementById('thanks'),m=document.getElementById('thanks-msg');box.hidden=false;
-if(!id){m.textContent='Missing order reference. Email hello@swarmnest.ai.';return;}
+if(!id){m.textContent='Missing order reference. Email support@swarmnest.ai.';return;}
 fetch('/api/fulfill?session_id='+encodeURIComponent(id)).then(function(r){return r.json()}).then(function(d){
 if(d.ok){m.innerHTML='Payment confirmed. <a href="'+d.url+'"><strong>Open your download page</strong></a>: tap any file to read it (works on iPhone), or get the zip. The link is valid 72 hours. <strong>Bookmark this page</strong>: opening it again always gives you a fresh link. We also email the link to your purchase address (check spam if it does not arrive).';}
-else{m.textContent=d.error+' If you were charged, email hello@swarmnest.ai.';}}).catch(function(){m.textContent='Could not verify payment. Reload, or email hello@swarmnest.ai.';});})();
+else{m.textContent=d.error+' If you were charged, email support@swarmnest.ai.';}}).catch(function(){m.textContent='Could not verify payment. Reload, or email support@swarmnest.ai.';});})();
 </script>

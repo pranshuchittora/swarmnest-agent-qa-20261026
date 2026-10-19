@@ -23,6 +23,7 @@ store.set('dl:'+T,JSON.stringify({slug:'agent-templates-pack',expires:Date.now()
 ok((await sendDeliveryEmail({},{to:'a@b.co',slug:'agent-templates-pack',token:T,sessionId:'cs_test_1'})).skipped,'noop without key');
 let sent; const f=async(u,o)=>{sent={u,o};return {ok:true,status:200}};
 ok((await sendDeliveryEmail({RESEND_API_KEY:'k'},{to:'a@b.co',slug:'agent-templates-pack',token:T,sessionId:'cs_test_1'},f)).sent && JSON.parse(sent.o.body).text.includes('/download/'+T),'sends');
+{ const b=JSON.parse(sent.o.body); ok(b.reply_to==='support@swarmnest.ai'&&b.text.includes('support@swarmnest.ai')&&b.html.includes('support@swarmnest.ai')&&b.from.includes('hello@swarmnest.ai'),'email reply-to and support line'); }
 ok((await sendDeliveryEmail({RESEND_API_KEY:'k'},{to:null,slug:'agent-templates-pack',token:T,sessionId:'c'},f)).skipped,'no recipient');
 ok(!(await sendDeliveryEmail({RESEND_API_KEY:'k'},{to:'a@b.co',slug:'agent-templates-pack',token:T,sessionId:'c'},async()=>{throw new Error('x')})).sent,'fetch error swallowed');
 // webhook with no key

@@ -6,8 +6,8 @@ export function buildDeliveryEmail({ slug, token, sessionId, origin = 'https://s
   const link = `${origin}/download/${token}`;
   const again = `${origin}/marketplace/${slug}/?thanks=1&session_id=${encodeURIComponent(sessionId)}`;
   const subject = `Your download: ${title}`;
-  const text = `Thanks for buying ${title}.\n\nDownload your files (view each file or get the zip):\n${link}\n\nThis link works for 72 hours and up to 10 zip downloads. If it expires, open this page to get a fresh link:\n${again}\n\nLicense: ${origin}/license/  Refunds: ${origin}/refunds/\nQuestions: reply to this email or write hello@swarmnest.ai\n`;
-  const html = `<p>Thanks for buying <strong>${esc(title)}</strong>.</p><p><a href="${esc(link)}">Open your download page</a> (view each file, or get the zip).</p><p>This link works for 72 hours and up to 10 zip downloads. If it expires, <a href="${esc(again)}">open this page for a fresh link</a>.</p><p><a href="${origin}/license/">License</a> · <a href="${origin}/refunds/">Refunds</a><br>Questions: reply to this email or write hello@swarmnest.ai</p>`;
+  const text = `Thanks for buying ${title}.\n\nDownload your files (view each file or get the zip):\n${link}\n\nThis link works for 72 hours and up to 10 zip downloads. If it expires, open this page to get a fresh link:\n${again}\n\nLicense: ${origin}/license/  Refunds: ${origin}/refunds/\nQuestions: reply to this email or write support@swarmnest.ai\n`;
+  const html = `<p>Thanks for buying <strong>${esc(title)}</strong>.</p><p><a href="${esc(link)}">Open your download page</a> (view each file, or get the zip).</p><p>This link works for 72 hours and up to 10 zip downloads. If it expires, <a href="${esc(again)}">open this page for a fresh link</a>.</p><p><a href="${origin}/license/">License</a> · <a href="${origin}/refunds/">Refunds</a><br>Questions: reply to this email or write support@swarmnest.ai</p>`;
   return { subject, text, html };
 }
 // No-ops (returns {skipped:true}) when RESEND_API_KEY is absent or no recipient. Never throws.
@@ -19,7 +19,7 @@ export async function sendDeliveryEmail(env, { to, slug, token, sessionId }, fet
     const r = await (fetchImpl || ((u, o) => fetch(u, o)))('https://api.resend.com/emails', {
       method: 'POST',
       headers: { Authorization: 'Bearer ' + env.RESEND_API_KEY, 'content-type': 'application/json', 'Idempotency-Key': 'delivery-' + sessionId },
-      body: JSON.stringify({ from: FROM, to: [to], reply_to: 'hello@swarmnest.ai', subject: m.subject, text: m.text, html: m.html }),
+      body: JSON.stringify({ from: FROM, to: [to], reply_to: 'support@swarmnest.ai', subject: m.subject, text: m.text, html: m.html }),
     });
     return { sent: r.ok, status: r.status };
   } catch (e) { return { sent: false, error: 'exception' }; }
