@@ -5,123 +5,141 @@
       "product_id": "prod_VRbwpjY8NpR7hM",
       "price_id": "price_1US0ke6aC1E09RZYMS75q671",
       "price_cents": 1500,
-      "payment_link_id": "plink_1US0kl6aC1E09RZYnr2Yj742",
+      "payment_link_id": "plink_1US7wj6aC1E09RZYau6vOPQZ",
       "old_price_id": "price_1UQiit6aC1E09RZYMYrWB82m",
-      "buy_url": "https://buy.stripe.com/28EbIU1Vn6Kx1ezbMjdIA07"
+      "buy_url": "https://buy.stripe.com/4gMbIUgQhc4Rg9t6rZdIA0m",
+      "old_payment_link_id": "plink_1US0kl6aC1E09RZYnr2Yj742"
     },
     {
       "slug": "lead-research-workflow",
       "product_id": "prod_VRbwVjs04K5df9",
       "price_id": "price_1UQiiu6aC1E09RZYeRUgmMIk",
       "price_cents": 2900,
-      "payment_link_id": "plink_1UQiiv6aC1E09RZYkRq9P9L3"
+      "payment_link_id": "plink_1US7wk6aC1E09RZYaZMCfWwM",
+      "old_payment_link_id": "plink_1UQiiv6aC1E09RZYkRq9P9L3",
+      "buy_url": "https://buy.stripe.com/00w8wI1Vn8SF9L517FdIA0n"
     },
     {
       "slug": "customer-support-prompt-pack",
       "product_id": "prod_VRbwdLZAaXadmf",
       "price_id": "price_1US0kf6aC1E09RZYN0cm0lyO",
       "price_cents": 1200,
-      "payment_link_id": "plink_1US0km6aC1E09RZYEZgE2GLk",
+      "payment_link_id": "plink_1US7wl6aC1E09RZY91YQheMM",
       "old_price_id": "price_1UQiiv6aC1E09RZYXejhssVQ",
-      "buy_url": "https://buy.stripe.com/28E4gsbvX1qd0avbMjdIA08"
+      "buy_url": "https://buy.stripe.com/3cI7sE57z5Gt3mH3fNdIA0o",
+      "old_payment_link_id": "plink_1US0km6aC1E09RZYEZgE2GLk"
     },
     {
       "slug": "content-repurposing-workflow",
       "product_id": "prod_VRbw1K1m3h0ang",
       "price_id": "price_1UQiiw6aC1E09RZY9mPSHrqo",
       "price_cents": 1900,
-      "payment_link_id": "plink_1UQiix6aC1E09RZY437lq2fp"
+      "payment_link_id": "plink_1US7wm6aC1E09RZYACD4C3kN",
+      "old_payment_link_id": "plink_1UQiix6aC1E09RZY437lq2fp",
+      "buy_url": "https://buy.stripe.com/dRm5kwfMd8SF0av7w3dIA0p"
     },
     {
       "slug": "mcp-server-starter-kit",
       "product_id": "prod_VRbw8jENqkdS4E",
       "price_id": "price_1US0kg6aC1E09RZYdU0gGW7z",
       "price_cents": 2900,
-      "payment_link_id": "plink_1US0kn6aC1E09RZYOWuAl2dI",
+      "payment_link_id": "plink_1US7wn6aC1E09RZYDxbODnVE",
       "old_price_id": "price_1UQiix6aC1E09RZYuCUJk2Mt",
-      "buy_url": "https://buy.stripe.com/8x2aEQgQhecZf5p2bJdIA09"
+      "buy_url": "https://buy.stripe.com/8x29AM0Rj0m9f5pcQndIA0q",
+      "old_payment_link_id": "plink_1US0kn6aC1E09RZYOWuAl2dI"
     },
     {
       "slug": "agent-eval-guardrails-pack",
       "product_id": "prod_VRbwhnhy1sstLu",
       "price_id": "price_1UQiiy6aC1E09RZYupaHKFmA",
       "price_cents": 2900,
-      "payment_link_id": "plink_1UQiiy6aC1E09RZY561yF4tm"
+      "payment_link_id": "plink_1US7wp6aC1E09RZYLdPP43r2",
+      "old_payment_link_id": "plink_1UQiiy6aC1E09RZY561yF4tm",
+      "buy_url": "https://buy.stripe.com/dRmdR27fHgl7f5p5nVdIA0r"
     },
     {
       "slug": "agent-templates-pack",
       "product_id": "prod_VRbwYZ2UO3c2A4",
       "price_id": "price_1UQiiz6aC1E09RZY6BordMgo",
       "price_cents": 900,
-      "payment_link_id": "plink_1US0ko6aC1E09RZYZljPPFEO",
-      "buy_url": "https://buy.stripe.com/7sY28k43v8SFcXh9EbdIA0a"
+      "payment_link_id": "plink_1US7wq6aC1E09RZYZik5TTsh",
+      "buy_url": "https://buy.stripe.com/00waEQeI96Kx3mHaIfdIA0s",
+      "old_payment_link_id": "plink_1US0ko6aC1E09RZYZljPPFEO"
     },
     {
       "slug": "all-products-bundle",
       "product_id": "prod_VSwdFUzKxvkM9z",
       "price_id": "price_1US34j6aC1E09RZYxQKbMfrh",
       "price_cents": 15900,
-      "payment_link_id": "plink_1US34k6aC1E09RZYw7Tss7hL",
-      "buy_url": "https://buy.stripe.com/28E7sE2Zrb0N6yT7w3dIA0k",
+      "payment_link_id": "plink_1US7wr6aC1E09RZYAk5Xdzux",
+      "buy_url": "https://buy.stripe.com/bJe8wIeI9ecZ3mHdUrdIA0t",
       "old_price_id": "price_1US0kh6aC1E09RZYSlBSwq7O",
-      "regular_price_cents": 17900
+      "regular_price_cents": 17900,
+      "old_payment_link_id": "plink_1US34k6aC1E09RZYw7Tss7hL"
     },
     {
       "slug": "agent-builder-bundle",
       "product_id": "prod_VSwdHP0Z1VkXaf",
       "price_id": "price_1US0kh6aC1E09RZY82raKJSK",
       "price_cents": 4900,
-      "payment_link_id": "plink_1US0kq6aC1E09RZYIZxmh1xO",
-      "buy_url": "https://buy.stripe.com/eVqbIU1Vn2uh1ezcQndIA0c"
+      "payment_link_id": "plink_1US7ws6aC1E09RZYcrUo4eYm",
+      "buy_url": "https://buy.stripe.com/9B6eV643vd8V3mHbMjdIA0u",
+      "old_payment_link_id": "plink_1US0kq6aC1E09RZYIZxmh1xO"
     },
     {
       "slug": "growth-bundle",
       "product_id": "prod_VSwdlfVqhl1nXh",
       "price_id": "price_1US2YS6aC1E09RZYnE4iyAoC",
       "price_cents": 5900,
-      "payment_link_id": "plink_1US2YT6aC1E09RZY2RsDzP2k",
-      "buy_url": "https://buy.stripe.com/00wdR2eI9b0N5uP6rZdIA0j",
-      "old_price_id": "price_1US0ki6aC1E09RZYhRSnVhxk"
+      "payment_link_id": "plink_1US7wt6aC1E09RZYNAmExyDy",
+      "buy_url": "https://buy.stripe.com/bJe3coeI9b0N7CX7w3dIA0v",
+      "old_price_id": "price_1US0ki6aC1E09RZYhRSnVhxk",
+      "old_payment_link_id": "plink_1US2YT6aC1E09RZY2RsDzP2k"
     },
     {
       "slug": "workflow-reliability-pack",
       "product_id": "prod_VSxLu7vi0taOrI",
       "price_id": "price_1US1Qk6aC1E09RZY9el16zUf",
       "price_cents": 1900,
-      "payment_link_id": "plink_1US1Qk6aC1E09RZY1NyPCgMb",
-      "buy_url": "https://buy.stripe.com/5kQ6oA1Vn7OBg9t2bJdIA0e"
+      "payment_link_id": "plink_1US7wu6aC1E09RZYKggJCNG3",
+      "buy_url": "https://buy.stripe.com/6oUfZa0Rj1qd1ezdUrdIA0w",
+      "old_payment_link_id": "plink_1US1Qk6aC1E09RZY1NyPCgMb"
     },
     {
       "slug": "coding-agent-skills-pack",
       "product_id": "prod_VSxLRu66u8CtqN",
       "price_id": "price_1US1Ql6aC1E09RZYprJbqJiR",
       "price_cents": 2400,
-      "payment_link_id": "plink_1US1Qm6aC1E09RZYH5Reo2lm",
-      "buy_url": "https://buy.stripe.com/9B6bIU1Vnd8Ve1l3fNdIA0f"
+      "payment_link_id": "plink_1US7wv6aC1E09RZY0VwX1kSC",
+      "buy_url": "https://buy.stripe.com/9B6bIU8jL0m9f5pg2zdIA0x",
+      "old_payment_link_id": "plink_1US1Qm6aC1E09RZYH5Reo2lm"
     },
     {
       "slug": "project-memory-kit",
       "product_id": "prod_VSxLxyQOv24gNc",
       "price_id": "price_1US1Qn6aC1E09RZY2Z1UsY9Y",
       "price_cents": 1200,
-      "payment_link_id": "plink_1US1Qn6aC1E09RZY1LK0w4DI",
-      "buy_url": "https://buy.stripe.com/28EfZa9nPd8VaP9cQndIA0g"
+      "payment_link_id": "plink_1US7ww6aC1E09RZYVZsrrImv",
+      "buy_url": "https://buy.stripe.com/bJebIUfMdb0NaP95nVdIA0y",
+      "old_payment_link_id": "plink_1US1Qn6aC1E09RZY1LK0w4DI"
     },
     {
       "slug": "ai-sdr-outbound-workflow",
       "product_id": "prod_VSxLSJRZqpANSj",
       "price_id": "price_1US1Qo6aC1E09RZYILPvqS1l",
       "price_cents": 3500,
-      "payment_link_id": "plink_1US1Qp6aC1E09RZY2emXDXui",
-      "buy_url": "https://buy.stripe.com/bJe4gs8jLecZcXh9EbdIA0h"
+      "payment_link_id": "plink_1US7wy6aC1E09RZYUhMbhP7K",
+      "buy_url": "https://buy.stripe.com/6oU5kw8jL1qd9L54jRdIA0z",
+      "old_payment_link_id": "plink_1US1Qp6aC1E09RZY2emXDXui"
     },
     {
       "slug": "ai-receptionist-kit",
       "product_id": "prod_VSxLVSFePHMkR4",
       "price_id": "price_1US1Qq6aC1E09RZYJb2wyks9",
       "price_cents": 2900,
-      "payment_link_id": "plink_1US1Qq6aC1E09RZYYCzuo7eu",
-      "buy_url": "https://buy.stripe.com/5kQ6oAfMd9WJaP9bMjdIA0i"
+      "payment_link_id": "plink_1US7wz6aC1E09RZYct2KtTgJ",
+      "buy_url": "https://buy.stripe.com/14AbIUgQhd8Vf5pg2zdIA0A",
+      "old_payment_link_id": "plink_1US1Qq6aC1E09RZYYCzuo7eu"
     }
   ],
   "account": "acct_1UQhDQ6aC1E09RZY",

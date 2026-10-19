@@ -2,19 +2,19 @@
 // (otherwise the buy page says the link is inactive). Then: npm run build && wrangler pages deploy.
 export const LAUNCH = false;
 export const BUY_URLS: Record<string,string> = {
-  "web-research-skill-pack": "https://buy.stripe.com/28EbIU1Vn6Kx1ezbMjdIA07",
-  "lead-research-workflow": "https://buy.stripe.com/5kQ7sE57zfh35uP2bJdIA01",
-  "customer-support-prompt-pack": "https://buy.stripe.com/28E4gsbvX1qd0avbMjdIA08",
-  "content-repurposing-workflow": "https://buy.stripe.com/3cIdR2eI9fh35uP7w3dIA03",
-  "mcp-server-starter-kit": "https://buy.stripe.com/8x2aEQgQhecZf5p2bJdIA09",
-  "agent-eval-guardrails-pack": "https://buy.stripe.com/3cI9AMdE5ecZ5uP3fNdIA05",
-  "agent-templates-pack": "https://buy.stripe.com/7sY28k43v8SFcXh9EbdIA0a",
-  "workflow-reliability-pack": "https://buy.stripe.com/5kQ6oA1Vn7OBg9t2bJdIA0e",
-  "coding-agent-skills-pack": "https://buy.stripe.com/9B6bIU1Vnd8Ve1l3fNdIA0f",
-  "project-memory-kit": "https://buy.stripe.com/28EfZa9nPd8VaP9cQndIA0g",
-  "ai-sdr-outbound-workflow": "https://buy.stripe.com/bJe4gs8jLecZcXh9EbdIA0h",
-  "ai-receptionist-kit": "https://buy.stripe.com/5kQ6oAfMd9WJaP9bMjdIA0i",
-  "all-products-bundle": "https://buy.stripe.com/28E7sE2Zrb0N6yT7w3dIA0k",
-  "agent-builder-bundle": "https://buy.stripe.com/eVqbIU1Vn2uh1ezcQndIA0c",
-  "growth-bundle": "https://buy.stripe.com/00wdR2eI9b0N5uP6rZdIA0j"
+  "web-research-skill-pack": "https://buy.stripe.com/4gMbIUgQhc4Rg9t6rZdIA0m",
+  "lead-research-workflow": "https://buy.stripe.com/00w8wI1Vn8SF9L517FdIA0n",
+  "customer-support-prompt-pack": "https://buy.stripe.com/3cI7sE57z5Gt3mH3fNdIA0o",
+  "content-repurposing-workflow": "https://buy.stripe.com/dRm5kwfMd8SF0av7w3dIA0p",
+  "mcp-server-starter-kit": "https://buy.stripe.com/8x29AM0Rj0m9f5pcQndIA0q",
+  "agent-eval-guardrails-pack": "https://buy.stripe.com/dRmdR27fHgl7f5p5nVdIA0r",
+  "agent-templates-pack": "https://buy.stripe.com/00waEQeI96Kx3mHaIfdIA0s",
+  "workflow-reliability-pack": "https://buy.stripe.com/6oUfZa0Rj1qd1ezdUrdIA0w",
+  "coding-agent-skills-pack": "https://buy.stripe.com/9B6bIU8jL0m9f5pg2zdIA0x",
+  "project-memory-kit": "https://buy.stripe.com/bJebIUfMdb0NaP95nVdIA0y",
+  "ai-sdr-outbound-workflow": "https://buy.stripe.com/6oU5kw8jL1qd9L54jRdIA0z",
+  "ai-receptionist-kit": "https://buy.stripe.com/14AbIUgQhd8Vf5pg2zdIA0A",
+  "all-products-bundle": "https://buy.stripe.com/bJe8wIeI9ecZ3mHdUrdIA0t",
+  "agent-builder-bundle": "https://buy.stripe.com/9B6eV643vd8V3mHbMjdIA0u",
+  "growth-bundle": "https://buy.stripe.com/bJe3coeI9b0N7CX7w3dIA0v"
 };
