@@ -22,7 +22,7 @@ const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 <link rel="alternate" type="application/json" href="/directory.json" title="Directory (JSON)">
 <meta property="og:site_name" content="Swarmnest"><meta property="og:type" content={type}>
 <meta property="og:title" content={title}><meta property="og:description" content={description}>
-<meta property="og:url" content={canonical}><meta property="og:image" content={SITE+'/og.png'}>
+<meta property="og:url" content={canonical}><meta property="og:image" content={SITE+'/og-v2.png'}>
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content={title}><meta name="twitter:description" content={description}>
 {ld.map(o => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
 </head>
