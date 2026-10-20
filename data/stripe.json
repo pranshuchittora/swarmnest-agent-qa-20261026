@@ -140,6 +140,15 @@
       "payment_link_id": "plink_1US7wz6aC1E09RZYct2KtTgJ",
       "buy_url": "https://buy.stripe.com/14AbIUgQhd8Vf5pg2zdIA0A",
       "old_payment_link_id": "plink_1US1Qq6aC1E09RZYYCzuo7eu"
+    },
+    {
+      "slug": "macos-app-dev-skills-pack",
+      "product_id": "prod_VTPynel9zx46DB",
+      "price_id": "price_1UST8v6aC1E09RZYqQDh3hbR",
+      "price_cents": 1700,
+      "payment_link_id": "plink_1UST9z6aC1E09RZYFhMVWOJF",
+      "buy_url": "https://buy.stripe.com/5kQ6oA1Vn6Kx8H1g2zdIA0B",
+      "statement_descriptor": "SWARMNEST"
     }
   ],
   "account": "acct_1UQhDQ6aC1E09RZY",

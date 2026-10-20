@@ -4,7 +4,7 @@ import { SITE } from '../lib/data';
 interface Props { title: string; description: string; path: string; jsonld?: object[]; type?: string; }
 const { title, description, path, jsonld = [], type = 'website' } = Astro.props;
 const canonical = SITE + path;
-const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarmnest',url:SITE,logo:SITE+'/favicon.svg',email:'hello@swarmnest.ai',description:'A directory of tools, APIs and data sources for AI agents, with agent use cases and a marketplace coming soon.' };
+const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarmnest',url:SITE,logo:SITE+'/icon-512.png',email:'hello@swarmnest.ai',description:'A directory of tools, APIs, data sources and Agent Skills for AI agents, with use cases, agent templates and a marketplace of tested skill packs and workflows.' };
 const site = { '@context':'https://schema.org','@type':'WebSite',name:'Swarmnest',url:SITE,potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:SITE+'/search/?q={search_term_string}'},'query-input':'required name=search_term_string'} };
 const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 ---
@@ -15,8 +15,12 @@ const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 <title>{title}</title>
 <meta name="description" content={description}>
 <link rel="canonical" href={canonical}>
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico?v=3" sizes="48x48">
+<link rel="icon" href="/favicon.svg?v=3" type="image/svg+xml">
+<link rel="icon" href="/icon-192.png?v=3" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#111827">
 <link rel="search" type="application/opensearchdescription+xml" title="Swarmnest" href="/opensearch.xml">
 <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt">
 <link rel="alternate" type="application/json" href="/directory.json" title="Directory (JSON)">
@@ -35,7 +39,7 @@ const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 <footer><div class="wrap">
  <div class="sponsor"><strong>Sponsor / Advertise</strong> — reach people building with AI agents. <a href="mailto:hello@swarmnest.ai?subject=Sponsorship">Get in Touch</a>.</div>
  <p class="small">Swarmnest is not affiliated with the tools listed. Names and trademarks belong to their owners. Sponsored listings and affiliate links, if any, are labelled and never affect what we list or how we rank it. See our <a href="/disclosure/">Sponsored &amp; Affiliate Disclosure</a>.</p>
- <p class="small"><a href="/about/">About</a> · <a href="/support/">Support</a> · <a href="/submit/">Submit a Tool</a> · <a href="/agent-skills/">Agent Skills</a> · <a href="/llms.txt">llms.txt</a> · <a href="/openapi.json">OpenAPI</a> · <a href="/search/">Search</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a></p>
+ <p class="small"><a href="/about/">About</a> · <a href="/support/">Support</a> · <a href="/submit/">Submit a Tool</a> · <a href="/agent-skills/">Agent Skills</a> · <a href="/agent-skills/category/apple-macos-skills/">macOS Skills</a> · <a href="/llms.txt">llms.txt</a> · <a href="/openapi.json">OpenAPI</a> · <a href="/search/">Search</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a></p>
  <p class="small"><a href="/legal/">Legal</a>: <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="/cookies/">Cookies</a> · <a href="/do-not-sell/">Do Not Sell or Share</a> · <a href="/acceptable-use/">Acceptable Use</a> · <a href="/license/">License</a> · <a href="/digital-products-disclaimer/">Digital Products Disclaimer</a> · <a href="/directory-disclaimer/">Directory Disclaimer</a> · <a href="/refunds/">Refunds</a> · <a href="/tax/">Sales Tax</a> · <a href="/disclosure/">Disclosure</a> · <a href="/api-terms/">API Terms</a> · <a href="/takedown/">Takedown</a> · <a href="/dmca/">DMCA</a> · <a href="/creator-agreement/">Creators</a> · <a href="/accessibility/">Accessibility</a></p>
 </div></footer>
 </body></html>

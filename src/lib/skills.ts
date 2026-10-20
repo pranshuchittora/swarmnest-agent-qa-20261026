@@ -29,7 +29,22 @@ export const platformsUsed = PLATFORMS.filter(p=>SKILLS.some(s=>s.platforms_decl
 export const scriptsLabel = (s: Skill) => s.has_scripts===true ? 'Includes Scripts' : s.has_scripts===false ? 'Instructions Only' : 'Scripts Unknown';
 export const labelsOf = (s: Skill) => { const l = [scriptsLabel(s)]; if (s.uses_network) l.push('Uses Network'); if (s.needs_credentials) l.push('Needs Credentials'); if ((s.safety_labels||[]).includes('Uses Hooks')) l.push('Uses Hooks'); l.push(s.review_status); return l; };
 export const skillPath = (s: Skill) => `${SECTION}${s.slug}/`;
-export const compact = (s: Skill) => ({ slug:s.slug, title:s.title, summary:s.summary, category:s.category, category_slug:slugify(s.category), format:fmtByKey(s.format).slug, platforms:s.platforms_declared, has_scripts:s.has_scripts, uses_network:s.uses_network, needs_credentials:s.needs_credentials, license:s.license, review_status:s.review_status, author:s.author, source_url:s.source_url, url:SITE+skillPath(s) });
+export const compact = (s: Skill) => ({ slug:s.slug, os:(s as any).os||[], os_reason:(s as any).os_reason||null, title:s.title, summary:s.summary, category:s.category, category_slug:slugify(s.category), format:fmtByKey(s.format).slug, platforms:s.platforms_declared, has_scripts:s.has_scripts, uses_network:s.uses_network, needs_credentials:s.needs_credentials, license:s.license, review_status:s.review_status, author:s.author, source_url:s.source_url, url:SITE+skillPath(s) });
 export const GUIDES = [
  { slug:'migrate-a-custom-gpt-to-a-skill', title:'Migrate a Custom GPT to a Skill', blurb:'Custom GPTs retire on Dec 11, 2026. Here is what moves, what does not, and how to rebuild yours as a skill or plugin.', updated:'2026-10-18' }
 ];
+export const OS_ALL = [ { slug:'macos', name:'macOS', cat:'apple-macos-skills' }, { slug:'ios', name:'iOS', cat:'apple-ios-skills' }, { slug:'linux', name:'Linux', cat:'linux-skills' }, { slug:'windows', name:'Windows', cat:'' } ];
+export const osOf = (s: Skill): string[] => ((s as any).os || []) as string[];
+export const OS_USED = OS_ALL.filter(o=>SKILLS.some(s=>osOf(s).includes(o.name))).map(o=>({ ...o, count: SKILLS.filter(s=>osOf(s).includes(o.name)).length }));
+// Category cross-links (shown on category pages). Keys and values are category slugs.
+export const RELATED_CATS: Record<string,string[]> = {
+ 'apple-macos-skills':['apple-ios-skills','linux-skills','swift-swiftui-and-xcode-skills','mac-automation-skills','mac-admin-skills','mac-computer-use-skills','app-store-connect-skills','homebrew-skills'],
+ 'linux-skills':['apple-macos-skills','homebrew-skills'],
+ 'apple-ios-skills':['apple-macos-skills','swift-swiftui-and-xcode-skills','app-store-connect-skills'],
+ 'swift-swiftui-and-xcode-skills':['apple-macos-skills','apple-ios-skills','app-store-connect-skills'],
+ 'mac-automation-skills':['apple-macos-skills','mac-admin-skills','mac-computer-use-skills'],
+ 'mac-admin-skills':['apple-macos-skills','mac-automation-skills','homebrew-skills','linux-skills'],
+ 'mac-computer-use-skills':['mac-automation-skills','apple-macos-skills','browser-automation-skills'],
+ 'app-store-connect-skills':['apple-macos-skills','apple-ios-skills','swift-swiftui-and-xcode-skills'],
+ 'homebrew-skills':['apple-macos-skills','mac-admin-skills','linux-skills']
+};

@@ -1,5 +1,5 @@
 ---
-import { PLATFORMS, FORMATS, platformsUsed } from '../lib/skills';
+import { PLATFORMS, FORMATS, platformsUsed, OS_USED } from '../lib/skills';
 const { cat = '', plat = '', fmt = '', label = 'Search Agent Skills' } = Astro.props;
 ---
 <form id="ss" class="cs js-only" role="search" aria-label={label} hidden onsubmit="return false" data-cat={cat} data-plat={plat} data-fmt={fmt}>
@@ -8,6 +8,7 @@ const { cat = '', plat = '', fmt = '', label = 'Search Agent Skills' } = Astro.p
 <div class="ss-sel">
 {!plat && <label>Platform <select id="ssp"><option value="">All Platforms</option>{platformsUsed.map(p=><option value={p.slug}>{p.name}</option>)}</select></label>}
 {!fmt && <label>Format <select id="ssf"><option value="">All Formats</option>{FORMATS.filter(f=>f.key!=='legacy-gpt').map(f=><option value={f.slug}>{f.short}</option>)}</select></label>}
+<label>OS <select id="sso"><option value="">All</option>{OS_USED.map(o=><option value={o.slug}>{o.name}</option>)}<option value="any">Any OS (General)</option></select></label>
 <label>Scripts <select id="sss"><option value="">Any</option><option value="i">Instructions Only</option><option value="s">Includes Scripts</option></select></label>
 </div>
 <p id="ss-status" class="small" role="status" aria-live="polite"></p>

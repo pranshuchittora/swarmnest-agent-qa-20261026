@@ -7,6 +7,7 @@
    "llm-apis",
    "model-hosting-inference",
    "local-inference",
+   "mac-local-llm-runners",
    "gpu-cloud",
    "fine-tuning",
    "ml-training-platforms",
@@ -31,6 +32,7 @@
   "cats": [
    "agent-frameworks",
    "mcp-servers",
+   "macos-mcp-servers",
    "mcp-directories",
    "agent-protocols",
    "agent-standards-specs",
@@ -46,7 +48,9 @@
    "code-execution",
    "agent-payments",
    "agent-payment-protocols",
-   "chat-bot-libraries"
+   "chat-bot-libraries",
+   "mac-ai-agent-apps",
+   "mac-computer-use"
   ]
  },
  {

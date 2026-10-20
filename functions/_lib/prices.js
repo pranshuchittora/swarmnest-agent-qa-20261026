@@ -11,6 +11,7 @@ export const PRICE_TO_SLUG = {
  "price_1US1Qn6aC1E09RZY2Z1UsY9Y": "project-memory-kit",
  "price_1US1Qo6aC1E09RZYILPvqS1l": "ai-sdr-outbound-workflow",
  "price_1US1Qq6aC1E09RZYJb2wyks9": "ai-receptionist-kit",
+ "price_1UST8v6aC1E09RZYqQDh3hbR": "macos-app-dev-skills-pack",
  "price_1US34j6aC1E09RZYxQKbMfrh": "all-products-bundle",
  "price_1US0kh6aC1E09RZY82raKJSK": "agent-builder-bundle",
  "price_1US2YS6aC1E09RZYnE4iyAoC": "growth-bundle"
@@ -37,6 +38,7 @@ export const PRODUCT_TITLES = {
  "project-memory-kit": "Project Memory Kit",
  "ai-sdr-outbound-workflow": "AI SDR Outbound Workflow",
  "ai-receptionist-kit": "AI Receptionist Kit",
+ "macos-app-dev-skills-pack": "macOS App Development Skills Pack",
  "all-products-bundle": "All Products Bundle",
  "agent-builder-bundle": "Agent Builder Bundle",
  "growth-bundle": "Growth Bundle"

@@ -1,9 +1,9 @@
 ---
-import { skillPath, labelsOf, platName, fmtByKey } from '../lib/skills';
+import { skillPath, labelsOf, platName, fmtByKey, osOf } from '../lib/skills';
 const { s } = Astro.props;
 const l = labelsOf(s);
 ---
-<a class="card" href={skillPath(s)} data-plat={s.platforms_declared.join(' ')} data-fmt={fmtByKey(s.format).slug} data-scripts={s.has_scripts===true?'s':s.has_scripts===false?'i':'u'}>
+<a class="card" href={skillPath(s)} data-plat={s.platforms_declared.join(' ')} data-fmt={fmtByKey(s.format).slug} data-os={osOf(s).join(' ').toLowerCase()} data-scripts={s.has_scripts===true?'s':s.has_scripts===false?'i':'u'}>
 <h3>{s.title}</h3><p>{s.summary}</p>
-<span class={`badge ${s.has_scripts===true?'warn':s.has_scripts===false?'ok':''}`}>{l[0]}</span>{l.slice(1).filter(x=>x!=='Not Reviewed').map(x=><span class="badge warn">{x}</span>)}<span class="badge">Not Reviewed</span><span class="badge">{fmtByKey(s.format).short}</span>
+<span class={`badge ${s.has_scripts===true?'warn':s.has_scripts===false?'ok':''}`}>{l[0]}</span>{l.slice(1).filter(x=>x!=='Not Reviewed').map(x=><span class="badge warn">{x}</span>)}<span class="badge">Not Reviewed</span><span class="badge">{fmtByKey(s.format).short}</span>{osOf(s).map(o=><span class="badge os">{o}</span>)}
 </a>

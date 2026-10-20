@@ -983,5 +983,25 @@
   "slug": "nonprofit-charity-apis",
   "name": "Nonprofit & Charity APIs",
   "blurb": "Nonprofit registries, charity ratings and donation APIs."
+ },
+ {
+  "slug": "macos-mcp-servers",
+  "name": "macOS MCP Servers",
+  "blurb": "MCP servers that connect agents to Mac apps and system features such as Messages, Calendar, Reminders, Shortcuts, Xcode and the Accessibility API."
+ },
+ {
+  "slug": "mac-ai-agent-apps",
+  "name": "Mac AI Agent Apps",
+  "blurb": "Native AI assistant and agent apps for macOS that work across your apps, files and screen."
+ },
+ {
+  "slug": "mac-computer-use",
+  "name": "Computer Use Tools for Mac",
+  "blurb": "Agents, drivers and virtual machines that let AI operate a Mac desktop by seeing the screen and using the mouse and keyboard."
+ },
+ {
+  "slug": "mac-local-llm-runners",
+  "name": "Local LLM Runners for Mac",
+  "blurb": "Apps, servers and libraries for running language models on Apple Silicon Macs, most built on MLX or Apple frameworks."
  }
 ]

@@ -2,9 +2,10 @@
 import Base from '../../../../layouts/Base.astro';
 import SkillCard from '../../../../components/SkillCard.astro';
 import SkillSearch from '../../../../components/SkillSearch.astro';
-import { SKILLS, CATEGORIES, SITE, skillPath } from '../../../../lib/skills';
+import { SKILLS, CATEGORIES, SITE, skillPath, RELATED_CATS } from '../../../../lib/skills';
 export function getStaticPaths(){ return CATEGORIES.map(c=>({params:{category:c.slug},props:{c}})); }
 const { c } = Astro.props; const list = SKILLS.filter(s=>s.category===c.name);
+const rel=(RELATED_CATS[c.slug]||[]).map(sl=>CATEGORIES.find(x=>x.slug===sl)).filter(Boolean) as typeof CATEGORIES;
 const nS = list.filter(s=>s.has_scripts===true).length;
 const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent Skills',item:SITE+'/agent-skills/'},{'@type':'ListItem',position:3,name:c.name,item:`${SITE}/agent-skills/category/${c.slug}/`}]},{'@context':'https://schema.org','@type':'ItemList',name:c.name,itemListElement:list.map((s,i)=>({'@type':'ListItem',position:i+1,url:SITE+skillPath(s),name:s.title}))}];
 ---
@@ -12,6 +13,7 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › {c.name}</p>
 <h1>{c.name}</h1>
 <p class="lead">{list.length} {list.length===1?'listing':'listings'}: {list.length-nS} instructions only, {nS} with scripts. JSON: <a href={`/api/v1/agent-skills/category/${c.slug}.json`}>/api/v1/agent-skills/category/{c.slug}.json</a></p>
+{rel.length>0&&<><p class="small" style="margin-bottom:0">Related Categories</p><div class="pills">{rel.map(r=><a href={`/agent-skills/category/${r.slug}/`}>{r.name} ({r.count})</a>)}</div></>}
 <SkillSearch cat={c.slug} label={`Search ${c.name}`} />
 <div class="grid" id="ss-list">{list.map(s=><SkillCard s={s} />)}</div>
 <script is:inline src="/search.js"></script>

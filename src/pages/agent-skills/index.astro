@@ -2,7 +2,10 @@
 import Base from '../../layouts/Base.astro';
 import SkillCard from '../../components/SkillCard.astro';
 import SkillSearch from '../../components/SkillSearch.astro';
-import { SKILLS, FORMATS, CATEGORIES, platformsUsed, GUIDES, SITE } from '../../lib/skills';
+import { SKILLS, FORMATS, CATEGORIES, platformsUsed, GUIDES, SITE, OS_USED } from '../../lib/skills';
+const catCount=(sl:string)=>CATEGORIES.find(c=>c.slug===sl)?.count||0;
+const osTotal=(n:string)=>OS_USED.find(o=>o.name===n)?.count||0;
+const OSCARDS=[{name:'macOS',cat:'apple-macos-skills',os:'macos',blurb:'Mac apps, AppKit, notarization, automation and Mac admin.'},{name:'iOS',cat:'apple-ios-skills',os:'ios',blurb:'iPhone and iPad apps, frameworks and design guidelines.'},{name:'Linux',cat:'linux-skills',os:'linux',blurb:'Shell, system admin, security and services.'},{name:'Swift, SwiftUI and Xcode',cat:'swift-swiftui-and-xcode-skills',os:'',blurb:'Swift language, SwiftUI and Xcode builds for Apple platforms.'}];
 const count = (k:string)=>SKILLS.filter(s=>s.format===k).length;
 const feat = ['anthropics-skill-creator','openai-playwright','vercel-labs-react-best-practices','cloudflare-workers-best-practices','stripe-stripe-best-practices','supabase-supabase-postgres-best-practices','addyosmani-test-driven-development','obra-systematic-debugging'].map(sl=>SKILLS.find(s=>s.slug===sl)).filter(Boolean) as typeof SKILLS;
 const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent Skills',item:SITE+'/agent-skills/'}]},{'@context':'https://schema.org','@type':'CollectionPage',name:'Agent Skills Directory',url:SITE+'/agent-skills/',description:`${SKILLS.length} agent skills, plugins, rules and templates with safety labels.`}];
@@ -12,6 +15,8 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <h1>Agent Skills</h1>
 <p class="lead">{SKILLS.length} skills, plugins, rules and templates from official and well-known public sources. Every listing links to its source, shows which platforms say they support it, and says plainly whether it includes scripts.</p>
 <SkillSearch />
+<h2>Browse by Operating System</h2>
+<div class="oscards">{OSCARDS.map(o=><div class="oscard"><a class="osmain" href={`/agent-skills/category/${o.cat}/`}><strong>{o.name}</strong><span class="osn">{catCount(o.cat)} {o.name==='Swift, SwiftUI and Xcode'?'Skills':o.name+' Skills'}</span><span class="small">{o.blurb}</span></a>{o.os&&<a class="osall small" href={`/agent-skills/?os=${o.os}`}>All {osTotal(o.name)} {o.name} skills across categories</a>}</div>)}</div>
 <noscript><p class="small">Search needs JavaScript. You can still browse by category, platform and format below.</p></noscript>
 <div class="notice"><strong>Read before you install.</strong> Every listing is "Not Reviewed" by a human. Labels come from an automated check of the source folder on {SKILLS[0].scan_date}. Skills that include scripts run code on your machine. <a href="/agent-skills/guides/">Guides</a> · <a href="/agent-skills/submit/">Submit a Skill</a></div>
 <div id="ss-list">
