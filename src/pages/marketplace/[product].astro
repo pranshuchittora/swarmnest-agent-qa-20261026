@@ -16,25 +16,25 @@ const others=PRODUCTS.filter(x=>x.bundle&&x.slug!==p.slug&&!p.bundle&&x.includes
 const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,description:p.summary,brand:{'@type':'Brand',name:'Swarmnest'},offers:{'@type':'Offer',availability:LAUNCH?'https://schema.org/InStock':'https://schema.org/PreOrder',priceCurrency:'USD',price:String(p.cents/100),url:SITE+path}},
 {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Marketplace',item:SITE+'/marketplace/'},{'@type':'ListItem',position:3,name:p.title,item:SITE+path}]}];
 ---
-<Base title={`${p.title} (${p.price}) | Swarmnest`} description={`${p.summary} ${p.price}${p.regularCents?` launch price (regular ${usd(p.regularCents)})`:''}, one-time purchase, instant download.`} path={path} jsonld={ld}>
+<Base title={`${p.title} (${p.price}) | Swarmnest`} description={`${p.summary} ${p.price}${p.regularCents?` sale price (regular ${usd(p.regularCents)})`:''}, one-time purchase, instant download.`} path={path} jsonld={ld}>
 <p class="small"><a href="/marketplace/">Marketplace</a> › {p.title}</p>
 <div id="thanks" hidden class="lead"><h2>Thank You for Your Purchase</h2><p id="thanks-msg">Verifying your payment…</p></div>
 <h1>{p.title}</h1>
 <p class="lead">{p.summary}</p>
-<p><strong>Type:</strong> {p.type}<br><strong>Price:</strong> {p.price} USD, one-time{p.regularCents ? <> (launch price; regular price {usd(p.regularCents)})</> : null}{p.valueCents ? <><br><strong>Bought separately:</strong> {usd(p.valueCents)}</> : null}<br><strong>Format:</strong> readable text files (Markdown, JSON, scripts) plus a zip</p>
+<p><strong>Type:</strong> {p.type}<br><strong>Price:</strong> {p.price} USD, one-time{p.regularCents ? <> (sale price; regular price {usd(p.regularCents)})</> : null}{p.valueCents ? <><br><strong>Bought separately:</strong> {usd(p.valueCents)}</> : null}<br><strong>Format:</strong> readable text files (Markdown, JSON, scripts) plus a zip</p>
 <p>
 {LAUNCH && buy ? <a class="btn" href={buy}>Buy Now: {p.price}</a> : <span class="btn alt" aria-disabled="true">Coming Soon: {p.price}</span>}
 </p>
 {LAUNCH ? <p class="small">Secure checkout by Stripe. You get a download page right after paying, and a copy by email. We currently sell to customers in the United States only.</p> : <><h2>Get Notified at Launch</h2><Signup list="waitlist" source={`product:${p.slug}`} interest={p.slug} button="Notify Me" /></>}
 {p.bundle && <><h2>Products in This Bundle</h2><ul>{inc.map(x=><li><a href={`/marketplace/${x.slug}/`}>{x.title}</a> ({x.price}): {x.summary}</li>)}</ul></>}
-{others.length>0 && <><h2>Also Available in a Bundle</h2><ul class="small">{others.map(b=><li><a href={`/marketplace/${b.slug}/`}>{b.title}</a>: {b.price}{b.regularCents?` launch price (regular ${usd(b.regularCents)})`:''}, {b.includes.length} products</li>)}</ul></>}
+{others.length>0 && <><h2>Also Available in a Bundle</h2><ul class="small">{others.map(b=><li><a href={`/marketplace/${b.slug}/`}>{b.title}</a>: {b.price}{b.regularCents?` sale price (regular ${usd(b.regularCents)})`:''}, {b.includes.length} products</li>)}</ul></>}
 <h2>What's Included</h2>
 <ul class="small">{files.map(f=><li><code>{f}</code></li>)}</ul>
 <h2>License and Refunds</h2>
 <p class="small">{"We currently sell to customers in the United States only. "}One buyer per purchase{p.bundle?' (covers every product in the bundle)':''}; personal and commercial use; no resale or redistribution. Every purchase has a 14-day satisfaction window: if something is missing, broken or not as described, we fix it, replace it or refund you. Read the <a href="/terms/">Terms of Sale and Use</a>, the <a href="/license/">product license</a> and <a href="/refunds/">refund policy</a>. Questions: support@swarmnest.ai.</p>
 <p class="small">Looking for free skills made by others? Browse the <a href="/agent-skills/">Agent Skills directory</a>. It is a separate, free index of public skills; the products here are made and sold by Swarmnest.</p>
 <h2>Already Bought This?</h2>
-<p class="small">Your download link lasts 72 hours. To get a fresh one, open the confirmation page from your receipt or email (the page address ends with <code>?thanks=1&amp;session_id=…</code>). Bookmark that page and it will always give you a new link. A way to look up past orders by email is coming; until then write support@swarmnest.ai from your purchase email.</p>
+<p class="small">Your download link lasts 72 hours. To get a fresh one, open the confirmation page from your receipt or email (the page address ends with <code>?thanks=1&amp;session_id=…</code>). Bookmark that page and it will always give you a new link. To look up a past order, write to support@swarmnest.ai from your purchase email.</p>
 </Base>
 
 <script is:inline>

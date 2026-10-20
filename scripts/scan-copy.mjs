@@ -4,7 +4,9 @@
 import { readdirSync, readFileSync, statSync } from 'fs';
 import { join, relative } from 'path';
 const dist = process.argv[2] || new URL('../dist', import.meta.url).pathname;
-const TERMS = ['draft', 'not yet', 'lawyer', 'attorney', 'not legal advice', 'not reviewed', 'not tested', 'untested', 'placeholder', 'todo', 'tbd', 'fixme', 'xxx', 'coming soon', 'soon after launch', 'under construction', 'work in progress', 'wip', 'example\\.com', 'example\\.org', 'lorem ipsum', 'internal notes?', 'note to self', 'do not publish', 'for internal use', 'tba', 'to be (?:published|announced|added|confirmed|determined)', 'not for sale yet'];
+const TERMS = ['draft', 'not yet', 'lawyer', 'attorney', 'not legal advice', 'not reviewed', 'not tested', 'untested', 'placeholder', 'todo', 'tbd', 'fixme', 'xxx', 'coming soon', 'soon after launch', 'under construction', 'work in progress', 'wip', 'example\\.com', 'example\\.org', 'lorem ipsum', 'internal notes?', 'note to self', 'do not publish', 'for internal use', 'tba', 'to be (?:published|announced|added|confirmed|determined)', 'not for sale yet',
+  // Wording that makes the site look new, small or unsponsored (user rule, Oct 2026).
+  'where things stand', 'just launched', 'recently launched', 'newly launched', 'no sponsors yet', 'no sponsored listings', 'be the first to (?:advertise|sponsor)', 'first sponsor', 'founding (?:sponsors?|prices?|rates?)', 'early days', 'brand[- ]new (?:site|website|project)', 'young project', 'just getting started', 'low traffic', 'small audience', 'growing audience', 'nobody advertises', 'no advertisers'];
 const RE = new RegExp(`(?<![\\w-])(?:${TERMS.join('|')})(?![\\w-])`, 'gi');
 // Allowlisted phrases (removed before matching): real product names, and customer-facing instructions about the customer's own drafts.
 export const ALLOW = [
