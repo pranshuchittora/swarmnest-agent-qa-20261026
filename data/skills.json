@@ -19062,5 +19062,5209 @@
   "last_verified": "2026-10-18",
   "price": "free",
   "pairs_with": []
+ },
+ {
+  "slug": "twostraws-swiftui-pro",
+  "name": "swiftui-pro",
+  "title": "SwiftUI Pro",
+  "summary": "SwiftUI Pro is a skill for Swift, SwiftUI and Xcode development, published by Paul Hudson (Hacking with Swift) in the twostraws/SwiftUI-Agent-Skill repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "paul-hudson-hacking-with-swift",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Paul Hudson (Hacking with Swift)",
+  "author_url": "https://github.com/twostraws",
+  "source_url": "https://github.com/twostraws/SwiftUI-Agent-Skill/tree/main/swiftui-pro",
+  "repo": "twostraws/SwiftUI-Agent-Skill",
+  "path_in_repo": "swiftui-pro",
+  "reviewed_commit": "ce32af1693b9e78a7d22ff48001c97a304d32063",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/swiftui-pro/ in your project, or ~/.claude/skills/swiftui-pro/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swiftui-pro/ in your repo, or ~/.agents/skills/swiftui-pro/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/swiftui-pro/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add twostraws/SwiftUI-Agent-Skill --skill swiftui-pro"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "twostraws-swift-concurrency-pro",
+  "name": "swift-concurrency-pro",
+  "title": "Swift Concurrency Pro",
+  "summary": "Swift Concurrency Pro is a skill for Swift, SwiftUI and Xcode development, published by Paul Hudson (Hacking with Swift) in the twostraws/Swift-Concurrency-Agent-Skill repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "paul-hudson-hacking-with-swift",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Paul Hudson (Hacking with Swift)",
+  "author_url": "https://github.com/twostraws",
+  "source_url": "https://github.com/twostraws/Swift-Concurrency-Agent-Skill/tree/main/swift-concurrency-pro",
+  "repo": "twostraws/Swift-Concurrency-Agent-Skill",
+  "path_in_repo": "swift-concurrency-pro",
+  "reviewed_commit": "bee3f69ba17142da148d3c5406f148ed62592b69",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/swift-concurrency-pro/ in your project, or ~/.claude/skills/swift-concurrency-pro/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swift-concurrency-pro/ in your repo, or ~/.agents/skills/swift-concurrency-pro/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/swift-concurrency-pro/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add twostraws/Swift-Concurrency-Agent-Skill --skill swift-concurrency-pro"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "twostraws-swiftdata-pro",
+  "name": "swiftdata-pro",
+  "title": "SwiftData Pro",
+  "summary": "SwiftData Pro is a skill for Swift, SwiftUI and Xcode development, published by Paul Hudson (Hacking with Swift) in the twostraws/SwiftData-Agent-Skill repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "paul-hudson-hacking-with-swift",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Paul Hudson (Hacking with Swift)",
+  "author_url": "https://github.com/twostraws",
+  "source_url": "https://github.com/twostraws/SwiftData-Agent-Skill/tree/main/swiftdata-pro",
+  "repo": "twostraws/SwiftData-Agent-Skill",
+  "path_in_repo": "swiftdata-pro",
+  "reviewed_commit": "8051f177a0076e7fd45bdf4ee687b070ba58fdc6",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/swiftdata-pro/ in your project, or ~/.claude/skills/swiftdata-pro/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swiftdata-pro/ in your repo, or ~/.agents/skills/swiftdata-pro/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/swiftdata-pro/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add twostraws/SwiftData-Agent-Skill --skill swiftdata-pro"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "twostraws-swift-testing-pro",
+  "name": "swift-testing-pro",
+  "title": "Swift Testing Pro",
+  "summary": "Swift Testing Pro is a skill for Swift, SwiftUI and Xcode development, published by Paul Hudson (Hacking with Swift) in the twostraws/Swift-Testing-Agent-Skill repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "paul-hudson-hacking-with-swift",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Paul Hudson (Hacking with Swift)",
+  "author_url": "https://github.com/twostraws",
+  "source_url": "https://github.com/twostraws/Swift-Testing-Agent-Skill/tree/main/swift-testing-pro",
+  "repo": "twostraws/Swift-Testing-Agent-Skill",
+  "path_in_repo": "swift-testing-pro",
+  "reviewed_commit": "2d6bba14a3c8bf3694f218b92fffe617c41ae43e",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/swift-testing-pro/ in your project, or ~/.claude/skills/swift-testing-pro/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swift-testing-pro/ in your repo, or ~/.agents/skills/swift-testing-pro/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/swift-testing-pro/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add twostraws/Swift-Testing-Agent-Skill --skill swift-testing-pro"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-swiftui-expert-skill",
+  "name": "swiftui-expert-skill",
+  "title": "SwiftUI Expert",
+  "summary": "SwiftUI Expert is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/SwiftUI-Agent-Skill repository. It ships with code the agent may run.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/skills/swiftui-expert-skill",
+  "repo": "AvdLee/SwiftUI-Agent-Skill",
+  "path_in_repo": "skills/swiftui-expert-skill",
+  "reviewed_commit": "204dba7c67256a8b707ee3fbc5759a824191974f",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "chatgpt",
+   "codex",
+   "gemini-cli",
+   "cursor"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/swiftui-expert-skill/ in your project, or ~/.claude/skills/swiftui-expert-skill/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swiftui-expert-skill/ in your repo, or ~/.agents/skills/swiftui-expert-skill/ for personal use."
+   },
+   {
+    "platform": "gemini-cli",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .gemini/skills/swiftui-expert-skill/ or .agents/skills/swiftui-expert-skill/, or install from Git with: gemini skills install <repo-url>"
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/swiftui-expert-skill/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/SwiftUI-Agent-Skill --skill swiftui-expert-skill"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (13 code files).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-swift-concurrency",
+  "name": "swift-concurrency",
+  "title": "Swift Concurrency",
+  "summary": "Swift Concurrency is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Swift-Concurrency-Agent-Skill repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Swift-Concurrency-Agent-Skill/tree/main/skills/swift-concurrency",
+  "repo": "AvdLee/Swift-Concurrency-Agent-Skill",
+  "path_in_repo": "skills/swift-concurrency",
+  "reviewed_commit": "d5770817d2622e1585b1f7eaebc791a9cb0959c8",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "chatgpt",
+   "codex",
+   "gemini-cli",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/swift-concurrency/ in your project, or ~/.claude/skills/swift-concurrency/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swift-concurrency/ in your repo, or ~/.agents/skills/swift-concurrency/ for personal use."
+   },
+   {
+    "platform": "gemini-cli",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .gemini/skills/swift-concurrency/ or .agents/skills/swift-concurrency/, or install from Git with: gemini skills install <repo-url>"
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/swift-concurrency/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Swift-Concurrency-Agent-Skill --skill swift-concurrency"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-swift-testing-expert",
+  "name": "swift-testing-expert",
+  "title": "Swift Testing Expert",
+  "summary": "Swift Testing Expert is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Swift-Testing-Agent-Skill repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Swift-Testing-Agent-Skill/tree/main/swift-testing-expert",
+  "repo": "AvdLee/Swift-Testing-Agent-Skill",
+  "path_in_repo": "swift-testing-expert",
+  "reviewed_commit": "798e9b1a2bcac164d4f0c781908199e754f0bab6",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/swift-testing-expert/ in your project, or ~/.claude/skills/swift-testing-expert/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swift-testing-expert/ in your repo, or ~/.agents/skills/swift-testing-expert/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/swift-testing-expert/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Swift-Testing-Agent-Skill --skill swift-testing-expert"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-spm-build-analysis",
+  "name": "spm-build-analysis",
+  "title": "SPM Build Analysis",
+  "summary": "SPM Build Analysis is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Xcode-Build-Optimization-Agent-Skill repository. It ships with code the agent may run.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill/tree/main/skills/spm-build-analysis",
+  "repo": "AvdLee/Xcode-Build-Optimization-Agent-Skill",
+  "path_in_repo": "skills/spm-build-analysis",
+  "reviewed_commit": "6bd7b596cd688b1127ded00e812b1b6937ec35d6",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/spm-build-analysis/ in your project, or ~/.claude/skills/spm-build-analysis/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/spm-build-analysis/ in your repo, or ~/.agents/skills/spm-build-analysis/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/spm-build-analysis/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Xcode-Build-Optimization-Agent-Skill --skill spm-build-analysis"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (1 code file).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-xcode-build-benchmark",
+  "name": "xcode-build-benchmark",
+  "title": "Xcode Build Benchmark",
+  "summary": "Xcode Build Benchmark is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Xcode-Build-Optimization-Agent-Skill repository. It ships with code the agent may run.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill/tree/main/skills/xcode-build-benchmark",
+  "repo": "AvdLee/Xcode-Build-Optimization-Agent-Skill",
+  "path_in_repo": "skills/xcode-build-benchmark",
+  "reviewed_commit": "6bd7b596cd688b1127ded00e812b1b6937ec35d6",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/xcode-build-benchmark/ in your project, or ~/.claude/skills/xcode-build-benchmark/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/xcode-build-benchmark/ in your repo, or ~/.agents/skills/xcode-build-benchmark/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/xcode-build-benchmark/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Xcode-Build-Optimization-Agent-Skill --skill xcode-build-benchmark"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (1 code file).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-xcode-build-fixer",
+  "name": "xcode-build-fixer",
+  "title": "Xcode Build Fixer",
+  "summary": "Xcode Build Fixer is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Xcode-Build-Optimization-Agent-Skill repository. It ships with code the agent may run.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill/tree/main/skills/xcode-build-fixer",
+  "repo": "AvdLee/Xcode-Build-Optimization-Agent-Skill",
+  "path_in_repo": "skills/xcode-build-fixer",
+  "reviewed_commit": "6bd7b596cd688b1127ded00e812b1b6937ec35d6",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/xcode-build-fixer/ in your project, or ~/.claude/skills/xcode-build-fixer/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/xcode-build-fixer/ in your repo, or ~/.agents/skills/xcode-build-fixer/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/xcode-build-fixer/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Xcode-Build-Optimization-Agent-Skill --skill xcode-build-fixer"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (1 code file).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-xcode-build-orchestrator",
+  "name": "xcode-build-orchestrator",
+  "title": "Xcode Build Orchestrator",
+  "summary": "Xcode Build Orchestrator is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Xcode-Build-Optimization-Agent-Skill repository. It ships with code the agent may run.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill/tree/main/skills/xcode-build-orchestrator",
+  "repo": "AvdLee/Xcode-Build-Optimization-Agent-Skill",
+  "path_in_repo": "skills/xcode-build-orchestrator",
+  "reviewed_commit": "6bd7b596cd688b1127ded00e812b1b6937ec35d6",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/xcode-build-orchestrator/ in your project, or ~/.claude/skills/xcode-build-orchestrator/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/xcode-build-orchestrator/ in your repo, or ~/.agents/skills/xcode-build-orchestrator/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/xcode-build-orchestrator/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Xcode-Build-Optimization-Agent-Skill --skill xcode-build-orchestrator"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (3 code files).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-xcode-compilation-analyzer",
+  "name": "xcode-compilation-analyzer",
+  "title": "Xcode Compilation Analyzer",
+  "summary": "Xcode Compilation Analyzer is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Xcode-Build-Optimization-Agent-Skill repository. It ships with code the agent may run.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill/tree/main/skills/xcode-compilation-analyzer",
+  "repo": "AvdLee/Xcode-Build-Optimization-Agent-Skill",
+  "path_in_repo": "skills/xcode-compilation-analyzer",
+  "reviewed_commit": "6bd7b596cd688b1127ded00e812b1b6937ec35d6",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/xcode-compilation-analyzer/ in your project, or ~/.claude/skills/xcode-compilation-analyzer/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/xcode-compilation-analyzer/ in your repo, or ~/.agents/skills/xcode-compilation-analyzer/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/xcode-compilation-analyzer/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Xcode-Build-Optimization-Agent-Skill --skill xcode-compilation-analyzer"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (1 code file).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-xcode-project-analyzer",
+  "name": "xcode-project-analyzer",
+  "title": "Xcode Project Analyzer",
+  "summary": "Xcode Project Analyzer is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Xcode-Build-Optimization-Agent-Skill repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill/tree/main/skills/xcode-project-analyzer",
+  "repo": "AvdLee/Xcode-Build-Optimization-Agent-Skill",
+  "path_in_repo": "skills/xcode-project-analyzer",
+  "reviewed_commit": "6bd7b596cd688b1127ded00e812b1b6937ec35d6",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/xcode-project-analyzer/ in your project, or ~/.claude/skills/xcode-project-analyzer/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/xcode-project-analyzer/ in your repo, or ~/.agents/skills/xcode-project-analyzer/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/xcode-project-analyzer/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Xcode-Build-Optimization-Agent-Skill --skill xcode-project-analyzer"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-core-data-expert",
+  "name": "core-data-expert",
+  "title": "Core Data Expert",
+  "summary": "Core Data Expert is a skill for Swift, SwiftUI and Xcode development, published by Antoine van der Lee in the AvdLee/Core-Data-Agent-Skill repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Core-Data-Agent-Skill/tree/main/core-data-expert",
+  "repo": "AvdLee/Core-Data-Agent-Skill",
+  "path_in_repo": "core-data-expert",
+  "reviewed_commit": "855ca7d0df50e82b00c12881dd9cd23c19ef5f49",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/core-data-expert/ in your project, or ~/.claude/skills/core-data-expert/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/core-data-expert/ in your repo, or ~/.agents/skills/core-data-expert/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/core-data-expert/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Core-Data-Agent-Skill --skill core-data-expert"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "avdlee-xcode-disk-cleanup",
+  "name": "xcode-disk-cleanup",
+  "title": "Xcode Disk Cleanup",
+  "summary": "Xcode Disk Cleanup is a skill for building and shipping macOS apps, published by Antoine van der Lee in the AvdLee/Xcode-Disk-Cleanup-Agent-Skill repository. It ships with code the agent may run.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "antoine-van-der-lee",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Antoine van der Lee",
+  "author_url": "https://github.com/AvdLee",
+  "source_url": "https://github.com/AvdLee/Xcode-Disk-Cleanup-Agent-Skill/tree/main/xcode-disk-cleanup",
+  "repo": "AvdLee/Xcode-Disk-Cleanup-Agent-Skill",
+  "path_in_repo": "xcode-disk-cleanup",
+  "reviewed_commit": "304e86e619ac49cb12cb69969a0588400b17d64f",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/xcode-disk-cleanup/ in your project, or ~/.claude/skills/xcode-disk-cleanup/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/xcode-disk-cleanup/ in your repo, or ~/.agents/skills/xcode-disk-cleanup/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/xcode-disk-cleanup/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add AvdLee/Xcode-Disk-Cleanup-Agent-Skill --skill xcode-disk-cleanup"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": true,
+  "safety_labels": [
+   "Includes Scripts",
+   "Needs Credentials"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (1 code file).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-app-store-changelog",
+  "name": "app-store-changelog",
+  "title": "App Store Changelog",
+  "summary": "App Store Changelog is a skill for building iOS and iPadOS apps, published by Thomas Ricouard in the Dimillian/Skills repository. It ships with code the agent may run.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/app-store-changelog",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "app-store-changelog",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "shell"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/app-store-changelog/ in your repo, or ~/.agents/skills/app-store-changelog/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill app-store-changelog"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (1 code file).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-ios-debugger-agent",
+  "name": "ios-debugger-agent",
+  "title": "iOS Debugger Agent",
+  "summary": "iOS Debugger Agent is a skill for building iOS and iPadOS apps, published by Thomas Ricouard in the Dimillian/Skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/ios-debugger-agent",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "ios-debugger-agent",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/ios-debugger-agent/ in your repo, or ~/.agents/skills/ios-debugger-agent/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill ios-debugger-agent"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-macos-menubar-tuist-app",
+  "name": "macos-menubar-tuist-app",
+  "title": "macOS Menubar Tuist App",
+  "summary": "macOS Menubar Tuist App is a skill for building and shipping macOS apps, published by Thomas Ricouard in the Dimillian/Skills repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/macos-menubar-tuist-app",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "macos-menubar-tuist-app",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/macos-menubar-tuist-app/ in your repo, or ~/.agents/skills/macos-menubar-tuist-app/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill macos-menubar-tuist-app"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-macos-spm-app-packaging",
+  "name": "macos-spm-app-packaging",
+  "title": "macOS SPM App Packaging",
+  "summary": "macOS SPM App Packaging is a skill for building and shipping macOS apps, published by Thomas Ricouard in the Dimillian/Skills repository. It ships with code the agent may run.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/macos-spm-app-packaging",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "macos-spm-app-packaging",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "shell"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/macos-spm-app-packaging/ in your repo, or ~/.agents/skills/macos-spm-app-packaging/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill macos-spm-app-packaging"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": true,
+  "safety_labels": [
+   "Includes Scripts",
+   "Needs Credentials"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (9 code files).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-swift-concurrency-expert",
+  "name": "swift-concurrency-expert",
+  "title": "Swift Concurrency Expert",
+  "summary": "Swift Concurrency Expert is a skill for Swift, SwiftUI and Xcode development, published by Thomas Ricouard in the Dimillian/Skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/swift-concurrency-expert",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "swift-concurrency-expert",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swift-concurrency-expert/ in your repo, or ~/.agents/skills/swift-concurrency-expert/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill swift-concurrency-expert"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-swiftui-liquid-glass",
+  "name": "swiftui-liquid-glass",
+  "title": "SwiftUI Liquid Glass",
+  "summary": "SwiftUI Liquid Glass is a skill for Swift, SwiftUI and Xcode development, published by Thomas Ricouard in the Dimillian/Skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/swiftui-liquid-glass",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "swiftui-liquid-glass",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swiftui-liquid-glass/ in your repo, or ~/.agents/skills/swiftui-liquid-glass/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill swiftui-liquid-glass"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-swiftui-performance-audit",
+  "name": "swiftui-performance-audit",
+  "title": "SwiftUI Performance Audit",
+  "summary": "SwiftUI Performance Audit is a skill for Swift, SwiftUI and Xcode development, published by Thomas Ricouard in the Dimillian/Skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/swiftui-performance-audit",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "swiftui-performance-audit",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swiftui-performance-audit/ in your repo, or ~/.agents/skills/swiftui-performance-audit/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill swiftui-performance-audit"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-swiftui-ui-patterns",
+  "name": "swiftui-ui-patterns",
+  "title": "SwiftUI UI Patterns",
+  "summary": "SwiftUI UI Patterns is a skill for Swift, SwiftUI and Xcode development, published by Thomas Ricouard in the Dimillian/Skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/swiftui-ui-patterns",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "swiftui-ui-patterns",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swiftui-ui-patterns/ in your repo, or ~/.agents/skills/swiftui-ui-patterns/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill swiftui-ui-patterns"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dimillian-swiftui-view-refactor",
+  "name": "swiftui-view-refactor",
+  "title": "SwiftUI View Refactor",
+  "summary": "SwiftUI View Refactor is a skill for Swift, SwiftUI and Xcode development, published by Thomas Ricouard in the Dimillian/Skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "thomas-ricouard",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Thomas Ricouard",
+  "author_url": "https://github.com/Dimillian",
+  "source_url": "https://github.com/Dimillian/Skills/tree/main/swiftui-view-refactor",
+  "repo": "Dimillian/Skills",
+  "path_in_repo": "swiftui-view-refactor",
+  "reviewed_commit": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "codex",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/swiftui-view-refactor/ in your repo, or ~/.agents/skills/swiftui-view-refactor/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Dimillian/Skills --skill swiftui-view-refactor"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-activitykit",
+  "name": "activitykit",
+  "title": "ActivityKit",
+  "summary": "ActivityKit is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/activitykit",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/activitykit",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-app-intents",
+  "name": "app-intents",
+  "title": "App Intents",
+  "summary": "App Intents is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/app-intents",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/app-intents",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-app-store-review",
+  "name": "app-store-review",
+  "title": "App Store Review",
+  "summary": "App Store Review is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/app-store-review",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/app-store-review",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": true,
+  "safety_labels": [
+   "Instructions Only",
+   "Needs Credentials"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-cloudkit",
+  "name": "cloudkit",
+  "title": "CloudKit",
+  "summary": "CloudKit is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/cloudkit",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/cloudkit",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-healthkit",
+  "name": "healthkit",
+  "title": "HealthKit",
+  "summary": "HealthKit is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/healthkit",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/healthkit",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-ios-accessibility",
+  "name": "ios-accessibility",
+  "title": "iOS Accessibility",
+  "summary": "iOS Accessibility is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/ios-accessibility",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/ios-accessibility",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-ios-localization",
+  "name": "ios-localization",
+  "title": "iOS Localization",
+  "summary": "iOS Localization is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/ios-localization",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/ios-localization",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-push-notifications",
+  "name": "push-notifications",
+  "title": "Push Notifications",
+  "summary": "Push Notifications is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/push-notifications",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/push-notifications",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-storekit",
+  "name": "storekit",
+  "title": "StoreKit",
+  "summary": "StoreKit is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/storekit",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/storekit",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-swift-architecture",
+  "name": "swift-architecture",
+  "title": "Swift Architecture",
+  "summary": "Swift Architecture is a skill for Swift, SwiftUI and Xcode development, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swift-architecture",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/swift-architecture",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-swift-charts",
+  "name": "swift-charts",
+  "title": "Swift Charts",
+  "summary": "Swift Charts is a skill for Swift, SwiftUI and Xcode development, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swift-charts",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/swift-charts",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-swift-codable",
+  "name": "swift-codable",
+  "title": "Swift Codable",
+  "summary": "Swift Codable is a skill for Swift, SwiftUI and Xcode development, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swift-codable",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/swift-codable",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-swift-language",
+  "name": "swift-language",
+  "title": "Swift Language",
+  "summary": "Swift Language is a skill for Swift, SwiftUI and Xcode development, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swift-language",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/swift-language",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-swiftlint",
+  "name": "swiftlint",
+  "title": "SwiftLint",
+  "summary": "SwiftLint is a skill for Swift, SwiftUI and Xcode development, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swiftlint",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/swiftlint",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-swiftui-animation",
+  "name": "swiftui-animation",
+  "title": "SwiftUI Animation",
+  "summary": "SwiftUI Animation is a skill for Swift, SwiftUI and Xcode development, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swiftui-animation",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/swiftui-animation",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-swiftui-navigation",
+  "name": "swiftui-navigation",
+  "title": "SwiftUI Navigation",
+  "summary": "SwiftUI Navigation is a skill for Swift, SwiftUI and Xcode development, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swiftui-navigation",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/swiftui-navigation",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "dpearson2699-widgetkit",
+  "name": "widgetkit",
+  "title": "WidgetKit",
+  "summary": "WidgetKit is a skill for building iOS and iPadOS apps, published by dpearson2699 in the dpearson2699/swift-ios-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "dpearson2699",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "dpearson2699",
+  "author_url": "https://github.com/dpearson2699",
+  "source_url": "https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/widgetkit",
+  "repo": "dpearson2699/swift-ios-skills",
+  "path_in_repo": "skills/widgetkit",
+  "reviewed_commit": "8d90fd121a263355a4fb44fd082af1416a5c1c2a",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "link-only",
+    "steps": "Read the license in the dpearson2699/swift-ios-skills repository first, then follow its install instructions."
+   }
+  ],
+  "license": "Source-Available",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "fayazara-auto-update",
+  "name": "macos-auto-update",
+  "title": "macOS Auto Update",
+  "summary": "macOS Auto Update is a skill for building and shipping macOS apps, published by Fayaz Ahmed in the fayazara/macos-app-skills repository. It ships with code the agent may run.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "fayaz-ahmed",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Fayaz Ahmed",
+  "author_url": "https://github.com/fayazara",
+  "source_url": "https://github.com/fayazara/macos-app-skills/tree/main/auto-update",
+  "repo": "fayazara/macos-app-skills",
+  "path_in_repo": "auto-update",
+  "reviewed_commit": "a60365ae85bfc3d1f2f8b260b080d77bfb2f3ec0",
+  "format": "agent-skill",
+  "spec_valid": false,
+  "platforms_declared": [
+   "claude-code",
+   "cursor",
+   "opencode"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "unknown"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/auto-update/ in your project, or ~/.claude/skills/auto-update/ for all projects."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/auto-update/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add fayazara/macos-app-skills --skill macos-auto-update"
+   }
+  ],
+  "license": "None Stated",
+  "redistributable": false,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (1 code file).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "fayazara-build",
+  "name": "macos-build",
+  "title": "macOS App Build",
+  "summary": "macOS App Build is a skill for building and shipping macOS apps, published by Fayaz Ahmed in the fayazara/macos-app-skills repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "fayaz-ahmed",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Fayaz Ahmed",
+  "author_url": "https://github.com/fayazara",
+  "source_url": "https://github.com/fayazara/macos-app-skills/tree/main/build",
+  "repo": "fayazara/macos-app-skills",
+  "path_in_repo": "build",
+  "reviewed_commit": "a60365ae85bfc3d1f2f8b260b080d77bfb2f3ec0",
+  "format": "agent-skill",
+  "spec_valid": false,
+  "platforms_declared": [
+   "claude-code",
+   "cursor",
+   "opencode",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/build/ in your project, or ~/.claude/skills/build/ for all projects."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/build/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add fayazara/macos-app-skills --skill macos-build"
+   }
+  ],
+  "license": "None Stated",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "fayazara-macos-patterns",
+  "name": "macos-patterns",
+  "title": "macOS Patterns",
+  "summary": "macOS Patterns is a skill for building and shipping macOS apps, published by Fayaz Ahmed in the fayazara/macos-app-skills repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "fayaz-ahmed",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Fayaz Ahmed",
+  "author_url": "https://github.com/fayazara",
+  "source_url": "https://github.com/fayazara/macos-app-skills/tree/main/macos-patterns",
+  "repo": "fayazara/macos-app-skills",
+  "path_in_repo": "macos-patterns",
+  "reviewed_commit": "a60365ae85bfc3d1f2f8b260b080d77bfb2f3ec0",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "cursor",
+   "opencode",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/macos-patterns/ in your project, or ~/.claude/skills/macos-patterns/ for all projects."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/macos-patterns/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add fayazara/macos-app-skills --skill macos-patterns"
+   }
+  ],
+  "license": "None Stated",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "fayazara-notch-ui",
+  "name": "macos-notch-ui",
+  "title": "macOS Notch UI",
+  "summary": "macOS Notch UI is a skill for building and shipping macOS apps, published by Fayaz Ahmed in the fayazara/macos-app-skills repository. It ships with code the agent may run.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "fayaz-ahmed",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Fayaz Ahmed",
+  "author_url": "https://github.com/fayazara",
+  "source_url": "https://github.com/fayazara/macos-app-skills/tree/main/notch-ui",
+  "repo": "fayazara/macos-app-skills",
+  "path_in_repo": "notch-ui",
+  "reviewed_commit": "a60365ae85bfc3d1f2f8b260b080d77bfb2f3ec0",
+  "format": "agent-skill",
+  "spec_valid": false,
+  "platforms_declared": [
+   "claude-code",
+   "cursor",
+   "opencode"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "unknown"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/notch-ui/ in your project, or ~/.claude/skills/notch-ui/ for all projects."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/notch-ui/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add fayazara/macos-app-skills --skill macos-notch-ui"
+   }
+  ],
+  "license": "None Stated",
+  "redistributable": false,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (2 code files).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "fayazara-release",
+  "name": "macos-release",
+  "title": "macOS App Release",
+  "summary": "macOS App Release is a skill for building and shipping macOS apps, published by Fayaz Ahmed in the fayazara/macos-app-skills repository. It ships with code the agent may run.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "fayaz-ahmed",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Fayaz Ahmed",
+  "author_url": "https://github.com/fayazara",
+  "source_url": "https://github.com/fayazara/macos-app-skills/tree/main/release",
+  "repo": "fayazara/macos-app-skills",
+  "path_in_repo": "release",
+  "reviewed_commit": "a60365ae85bfc3d1f2f8b260b080d77bfb2f3ec0",
+  "format": "agent-skill",
+  "spec_valid": false,
+  "platforms_declared": [
+   "claude-code",
+   "cursor",
+   "opencode"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "go"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/release/ in your project, or ~/.claude/skills/release/ for all projects."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/release/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add fayazara/macos-app-skills --skill macos-release"
+   }
+  ],
+  "license": "None Stated",
+  "redistributable": false,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (2 code files).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "fayazara-settings-ui",
+  "name": "macos-settings-ui",
+  "title": "macOS Settings UI",
+  "summary": "macOS Settings UI is a skill for building and shipping macOS apps, published by Fayaz Ahmed in the fayazara/macos-app-skills repository. It ships with code the agent may run.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "fayaz-ahmed",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Fayaz Ahmed",
+  "author_url": "https://github.com/fayazara",
+  "source_url": "https://github.com/fayazara/macos-app-skills/tree/main/settings-ui",
+  "repo": "fayazara/macos-app-skills",
+  "path_in_repo": "settings-ui",
+  "reviewed_commit": "a60365ae85bfc3d1f2f8b260b080d77bfb2f3ec0",
+  "format": "agent-skill",
+  "spec_valid": false,
+  "platforms_declared": [
+   "claude-code",
+   "cursor",
+   "opencode"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "unknown"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/settings-ui/ in your project, or ~/.claude/skills/settings-ui/ for all projects."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/settings-ui/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add fayazara/macos-app-skills --skill macos-settings-ui"
+   }
+  ],
+  "license": "None Stated",
+  "redistributable": false,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (3 code files).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "prisma-labs-dev-apple-docs-index",
+  "name": "apple-docs-index",
+  "title": "Apple Docs Index",
+  "summary": "Apple Docs Index is a skill for Swift, SwiftUI and Xcode development, published by Prisma Labs in the Prisma-Labs-Dev/apple-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "prisma-labs",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Prisma Labs",
+  "author_url": "https://github.com/Prisma-Labs-Dev",
+  "source_url": "https://github.com/Prisma-Labs-Dev/apple-skills/tree/main/skills/apple-docs-index",
+  "repo": "Prisma-Labs-Dev/apple-skills",
+  "path_in_repo": "skills/apple-docs-index",
+  "reviewed_commit": "498626005e65783ebe8570a103b2335cf397768c",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/apple-docs-index/ in your project, or ~/.claude/skills/apple-docs-index/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/apple-docs-index/ in your repo, or ~/.agents/skills/apple-docs-index/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/apple-docs-index/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Prisma-Labs-Dev/apple-skills --skill apple-docs-index"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "prisma-labs-dev-combine",
+  "name": "combine",
+  "title": "Combine",
+  "summary": "Combine is a skill for Swift, SwiftUI and Xcode development, published by Prisma Labs in the Prisma-Labs-Dev/apple-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "prisma-labs",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Prisma Labs",
+  "author_url": "https://github.com/Prisma-Labs-Dev",
+  "source_url": "https://github.com/Prisma-Labs-Dev/apple-skills/tree/main/skills/combine",
+  "repo": "Prisma-Labs-Dev/apple-skills",
+  "path_in_repo": "skills/combine",
+  "reviewed_commit": "498626005e65783ebe8570a103b2335cf397768c",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/combine/ in your project, or ~/.claude/skills/combine/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/combine/ in your repo, or ~/.agents/skills/combine/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/combine/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Prisma-Labs-Dev/apple-skills --skill combine"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "prisma-labs-dev-core-animation",
+  "name": "core-animation",
+  "title": "Core Animation",
+  "summary": "Core Animation is a skill for Swift, SwiftUI and Xcode development, published by Prisma Labs in the Prisma-Labs-Dev/apple-skills repository. It is instructions only.",
+  "category": "Swift, SwiftUI and Xcode Skills",
+  "tags": [
+   "prisma-labs",
+   "agent-skill",
+   "swift",
+   "swiftui"
+  ],
+  "author": "Prisma Labs",
+  "author_url": "https://github.com/Prisma-Labs-Dev",
+  "source_url": "https://github.com/Prisma-Labs-Dev/apple-skills/tree/main/skills/core-animation",
+  "repo": "Prisma-Labs-Dev/apple-skills",
+  "path_in_repo": "skills/core-animation",
+  "reviewed_commit": "498626005e65783ebe8570a103b2335cf397768c",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/core-animation/ in your project, or ~/.claude/skills/core-animation/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/core-animation/ in your repo, or ~/.agents/skills/core-animation/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/core-animation/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Prisma-Labs-Dev/apple-skills --skill core-animation"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "prisma-labs-dev-ios-liquid-glass",
+  "name": "ios-liquid-glass",
+  "title": "iOS Liquid Glass",
+  "summary": "iOS Liquid Glass is a skill for building iOS and iPadOS apps, published by Prisma Labs in the Prisma-Labs-Dev/apple-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "prisma-labs",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "Prisma Labs",
+  "author_url": "https://github.com/Prisma-Labs-Dev",
+  "source_url": "https://github.com/Prisma-Labs-Dev/apple-skills/tree/main/skills/ios-liquid-glass",
+  "repo": "Prisma-Labs-Dev/apple-skills",
+  "path_in_repo": "skills/ios-liquid-glass",
+  "reviewed_commit": "498626005e65783ebe8570a103b2335cf397768c",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/ios-liquid-glass/ in your project, or ~/.claude/skills/ios-liquid-glass/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/ios-liquid-glass/ in your repo, or ~/.agents/skills/ios-liquid-glass/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/ios-liquid-glass/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Prisma-Labs-Dev/apple-skills --skill ios-liquid-glass"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "prisma-labs-dev-uikit",
+  "name": "uikit",
+  "title": "UIKit",
+  "summary": "UIKit is a skill for building iOS and iPadOS apps, published by Prisma Labs in the Prisma-Labs-Dev/apple-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "prisma-labs",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "Prisma Labs",
+  "author_url": "https://github.com/Prisma-Labs-Dev",
+  "source_url": "https://github.com/Prisma-Labs-Dev/apple-skills/tree/main/skills/uikit",
+  "repo": "Prisma-Labs-Dev/apple-skills",
+  "path_in_repo": "skills/uikit",
+  "reviewed_commit": "498626005e65783ebe8570a103b2335cf397768c",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/uikit/ in your project, or ~/.claude/skills/uikit/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/uikit/ in your repo, or ~/.agents/skills/uikit/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/uikit/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Prisma-Labs-Dev/apple-skills --skill uikit"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "prisma-labs-dev-usernotifications",
+  "name": "usernotifications",
+  "title": "User Notifications",
+  "summary": "User Notifications is a skill for building iOS and iPadOS apps, published by Prisma Labs in the Prisma-Labs-Dev/apple-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "prisma-labs",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "Prisma Labs",
+  "author_url": "https://github.com/Prisma-Labs-Dev",
+  "source_url": "https://github.com/Prisma-Labs-Dev/apple-skills/tree/main/skills/usernotifications",
+  "repo": "Prisma-Labs-Dev/apple-skills",
+  "path_in_repo": "skills/usernotifications",
+  "reviewed_commit": "498626005e65783ebe8570a103b2335cf397768c",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/usernotifications/ in your project, or ~/.claude/skills/usernotifications/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/usernotifications/ in your repo, or ~/.agents/skills/usernotifications/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/usernotifications/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Prisma-Labs-Dev/apple-skills --skill usernotifications"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "prisma-labs-dev-xcuitest",
+  "name": "xcuitest",
+  "title": "XCUITest",
+  "summary": "XCUITest is a skill for building iOS and iPadOS apps, published by Prisma Labs in the Prisma-Labs-Dev/apple-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "prisma-labs",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "Prisma Labs",
+  "author_url": "https://github.com/Prisma-Labs-Dev",
+  "source_url": "https://github.com/Prisma-Labs-Dev/apple-skills/tree/main/skills/xcuitest",
+  "repo": "Prisma-Labs-Dev/apple-skills",
+  "path_in_repo": "skills/xcuitest",
+  "reviewed_commit": "498626005e65783ebe8570a103b2335cf397768c",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/xcuitest/ in your project, or ~/.claude/skills/xcuitest/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/xcuitest/ in your repo, or ~/.agents/skills/xcuitest/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/xcuitest/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Prisma-Labs-Dev/apple-skills --skill xcuitest"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "conorluddy-ios-simulator-skill",
+  "name": "ios-simulator-skill",
+  "title": "iOS Simulator",
+  "summary": "iOS Simulator is a skill for building iOS and iPadOS apps, published by Conor Luddy in the conorluddy/ios-simulator-skill repository. It ships with code the agent may run.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "conor-luddy",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "Conor Luddy",
+  "author_url": "https://github.com/conorluddy",
+  "source_url": "https://github.com/conorluddy/ios-simulator-skill/tree/main/ios-simulator-skill/skills/ios-simulator-skill",
+  "repo": "conorluddy/ios-simulator-skill",
+  "path_in_repo": "ios-simulator-skill/skills/ios-simulator-skill",
+  "reviewed_commit": "e38b3ad5cc2585140c91b9c0f974124c3add31dc",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/ios-simulator-skill/ in your project, or ~/.claude/skills/ios-simulator-skill/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/ios-simulator-skill/ in your repo, or ~/.agents/skills/ios-simulator-skill/ for personal use."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add conorluddy/ios-simulator-skill --skill ios-simulator-skill"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Includes Scripts"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "Script or code files found in the skill folder (44 code files).",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "ehmo-ios",
+  "name": "ios-design-guidelines",
+  "title": "iOS Design Guidelines",
+  "summary": "iOS Design Guidelines is a skill for building iOS and iPadOS apps, published by ehmo in the ehmo/platform-design-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "ehmo",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "ehmo",
+  "author_url": "https://github.com/ehmo",
+  "source_url": "https://github.com/ehmo/platform-design-skills/tree/main/skills/ios",
+  "repo": "ehmo/platform-design-skills",
+  "path_in_repo": "skills/ios",
+  "reviewed_commit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "format": "agent-skill",
+  "spec_valid": false,
+  "platforms_declared": [
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add ehmo/platform-design-skills --skill ios-design-guidelines"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "ehmo-ipados",
+  "name": "ipados-design-guidelines",
+  "title": "iPadOS Design Guidelines",
+  "summary": "iPadOS Design Guidelines is a skill for building iOS and iPadOS apps, published by ehmo in the ehmo/platform-design-skills repository. It is instructions only.",
+  "category": "Apple iOS Skills",
+  "tags": [
+   "ehmo",
+   "agent-skill",
+   "apple",
+   "ios"
+  ],
+  "author": "ehmo",
+  "author_url": "https://github.com/ehmo",
+  "source_url": "https://github.com/ehmo/platform-design-skills/tree/main/skills/ipados",
+  "repo": "ehmo/platform-design-skills",
+  "path_in_repo": "skills/ipados",
+  "reviewed_commit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "format": "agent-skill",
+  "spec_valid": false,
+  "platforms_declared": [
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add ehmo/platform-design-skills --skill ipados-design-guidelines"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "ehmo-macos",
+  "name": "macos-design-guidelines",
+  "title": "macOS Design Guidelines",
+  "summary": "macOS Design Guidelines is a skill for building and shipping macOS apps, published by ehmo in the ehmo/platform-design-skills repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "ehmo",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "ehmo",
+  "author_url": "https://github.com/ehmo",
+  "source_url": "https://github.com/ehmo/platform-design-skills/tree/main/skills/macos",
+  "repo": "ehmo/platform-design-skills",
+  "path_in_repo": "skills/macos",
+  "reviewed_commit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "format": "agent-skill",
+  "spec_valid": false,
+  "platforms_declared": [
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add ehmo/platform-design-skills --skill macos-design-guidelines"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "xopoko-macos-appkit-bridge",
+  "name": "macos-appkit-bridge",
+  "title": "macOS AppKit Bridge",
+  "summary": "macOS AppKit Bridge is a skill for building and shipping macOS apps, published by Xopoko in the Xopoko/build-swift-apps repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "xopoko",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Xopoko",
+  "author_url": "https://github.com/Xopoko",
+  "source_url": "https://github.com/Xopoko/build-swift-apps/tree/main/skills/macos-appkit-bridge",
+  "repo": "Xopoko/build-swift-apps",
+  "path_in_repo": "skills/macos-appkit-bridge",
+  "reviewed_commit": "3d3a30a7c685f2d1f6b0c0a32588e04f8267864b",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/macos-appkit-bridge/ in your project, or ~/.claude/skills/macos-appkit-bridge/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/macos-appkit-bridge/ in your repo, or ~/.agents/skills/macos-appkit-bridge/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/macos-appkit-bridge/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Xopoko/build-swift-apps --skill macos-appkit-bridge"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "xopoko-macos-notarization-packager",
+  "name": "macos-notarization-packager",
+  "title": "macOS Notarization Packager",
+  "summary": "macOS Notarization Packager is a skill for building and shipping macOS apps, published by Xopoko in the Xopoko/build-swift-apps repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "xopoko",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Xopoko",
+  "author_url": "https://github.com/Xopoko",
+  "source_url": "https://github.com/Xopoko/build-swift-apps/tree/main/skills/macos-notarization-packager",
+  "repo": "Xopoko/build-swift-apps",
+  "path_in_repo": "skills/macos-notarization-packager",
+  "reviewed_commit": "3d3a30a7c685f2d1f6b0c0a32588e04f8267864b",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/macos-notarization-packager/ in your project, or ~/.claude/skills/macos-notarization-packager/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/macos-notarization-packager/ in your repo, or ~/.agents/skills/macos-notarization-packager/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/macos-notarization-packager/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Xopoko/build-swift-apps --skill macos-notarization-packager"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "xopoko-macos-runtime-debugger",
+  "name": "macos-runtime-debugger",
+  "title": "macOS Runtime Debugger",
+  "summary": "macOS Runtime Debugger is a skill for building and shipping macOS apps, published by Xopoko in the Xopoko/build-swift-apps repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "xopoko",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Xopoko",
+  "author_url": "https://github.com/Xopoko",
+  "source_url": "https://github.com/Xopoko/build-swift-apps/tree/main/skills/macos-runtime-debugger",
+  "repo": "Xopoko/build-swift-apps",
+  "path_in_repo": "skills/macos-runtime-debugger",
+  "reviewed_commit": "3d3a30a7c685f2d1f6b0c0a32588e04f8267864b",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/macos-runtime-debugger/ in your project, or ~/.claude/skills/macos-runtime-debugger/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/macos-runtime-debugger/ in your repo, or ~/.agents/skills/macos-runtime-debugger/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/macos-runtime-debugger/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Xopoko/build-swift-apps --skill macos-runtime-debugger"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "xopoko-macos-signing-inspector",
+  "name": "macos-signing-inspector",
+  "title": "macOS Signing Inspector",
+  "summary": "macOS Signing Inspector is a skill for building and shipping macOS apps, published by Xopoko in the Xopoko/build-swift-apps repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "xopoko",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Xopoko",
+  "author_url": "https://github.com/Xopoko",
+  "source_url": "https://github.com/Xopoko/build-swift-apps/tree/main/skills/macos-signing-inspector",
+  "repo": "Xopoko/build-swift-apps",
+  "path_in_repo": "skills/macos-signing-inspector",
+  "reviewed_commit": "3d3a30a7c685f2d1f6b0c0a32588e04f8267864b",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/macos-signing-inspector/ in your project, or ~/.claude/skills/macos-signing-inspector/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/macos-signing-inspector/ in your repo, or ~/.agents/skills/macos-signing-inspector/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/macos-signing-inspector/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Xopoko/build-swift-apps --skill macos-signing-inspector"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "xopoko-macos-window-architect",
+  "name": "macos-window-architect",
+  "title": "macOS Window Architect",
+  "summary": "macOS Window Architect is a skill for building and shipping macOS apps, published by Xopoko in the Xopoko/build-swift-apps repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "xopoko",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "Xopoko",
+  "author_url": "https://github.com/Xopoko",
+  "source_url": "https://github.com/Xopoko/build-swift-apps/tree/main/skills/macos-window-architect",
+  "repo": "Xopoko/build-swift-apps",
+  "path_in_repo": "skills/macos-window-architect",
+  "reviewed_commit": "3d3a30a7c685f2d1f6b0c0a32588e04f8267864b",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/macos-window-architect/ in your project, or ~/.claude/skills/macos-window-architect/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/macos-window-architect/ in your repo, or ~/.agents/skills/macos-window-architect/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/macos-window-architect/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add Xopoko/build-swift-apps --skill macos-window-architect"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-rsync",
+  "name": "rsync",
+  "title": "rsync",
+  "summary": "rsync is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/backup/rsync",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "backup/rsync",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/rsync/ in your project, or ~/.claude/skills/rsync/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill rsync"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-tar-compression",
+  "name": "tar-compression",
+  "title": "Tar Compression",
+  "summary": "Tar Compression is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/backup/tar-compression",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "backup/tar-compression",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/tar-compression/ in your project, or ~/.claude/skills/tar-compression/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill tar-compression"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-container-ops",
+  "name": "container-ops",
+  "title": "Docker Container Ops",
+  "summary": "Docker Container Ops is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/docker/container-ops",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "docker/container-ops",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/container-ops/ in your project, or ~/.claude/skills/container-ops/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill container-ops"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-file-operations",
+  "name": "file-operations",
+  "title": "Linux File Operations",
+  "summary": "Linux File Operations is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/linux/file-operations",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "linux/file-operations",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/file-operations/ in your project, or ~/.claude/skills/file-operations/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill file-operations"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-network-tools",
+  "name": "network-tools",
+  "title": "Linux Network Tools",
+  "summary": "Linux Network Tools is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/linux/network-tools",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "linux/network-tools",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/network-tools/ in your project, or ~/.claude/skills/network-tools/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill network-tools"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-process-management",
+  "name": "process-management",
+  "title": "Linux Process Management",
+  "summary": "Linux Process Management is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/linux/process-management",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "linux/process-management",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/process-management/ in your project, or ~/.claude/skills/process-management/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill process-management"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-shell-scripting",
+  "name": "shell-scripting",
+  "title": "Shell Scripting",
+  "summary": "Shell Scripting is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/linux/shell-scripting",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "linux/shell-scripting",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/shell-scripting/ in your project, or ~/.claude/skills/shell-scripting/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill shell-scripting"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-system-admin",
+  "name": "system-admin",
+  "title": "Linux System Admin",
+  "summary": "Linux System Admin is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/linux/system-admin",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "linux/system-admin",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/system-admin/ in your project, or ~/.claude/skills/system-admin/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill system-admin"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-user-permissions",
+  "name": "user-permissions",
+  "title": "Linux Users and Permissions",
+  "summary": "Linux Users and Permissions is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/linux/user-permissions",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "linux/user-permissions",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/user-permissions/ in your project, or ~/.claude/skills/user-permissions/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill user-permissions"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-troubleshooting",
+  "name": "troubleshooting",
+  "title": "Linux Performance Troubleshooting",
+  "summary": "Linux Performance Troubleshooting is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/performance/troubleshooting",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "performance/troubleshooting",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/troubleshooting/ in your project, or ~/.claude/skills/troubleshooting/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill troubleshooting"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-tuning",
+  "name": "tuning",
+  "title": "Linux Performance Tuning",
+  "summary": "Linux Performance Tuning is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/performance/tuning",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "performance/tuning",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/tuning/ in your project, or ~/.claude/skills/tuning/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill tuning"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-audit",
+  "name": "audit",
+  "title": "Linux Security Audit",
+  "summary": "Linux Security Audit is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/security/audit",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "security/audit",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/audit/ in your project, or ~/.claude/skills/audit/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill audit"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-firewall",
+  "name": "firewall",
+  "title": "Linux Firewall",
+  "summary": "Linux Firewall is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/security/firewall",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "security/firewall",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/firewall/ in your project, or ~/.claude/skills/firewall/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill firewall"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-hardening",
+  "name": "hardening",
+  "title": "Linux Server Hardening",
+  "summary": "Linux Server Hardening is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/security/hardening",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "security/hardening",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/hardening/ in your project, or ~/.claude/skills/hardening/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill hardening"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-cron",
+  "name": "cron",
+  "title": "Cron Jobs",
+  "summary": "Cron Jobs is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/server/cron",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "server/cron",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/cron/ in your project, or ~/.claude/skills/cron/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill cron"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-log-analysis",
+  "name": "log-analysis",
+  "title": "Linux Log Analysis",
+  "summary": "Linux Log Analysis is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/server/log-analysis",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "server/log-analysis",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/log-analysis/ in your project, or ~/.claude/skills/log-analysis/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill log-analysis"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-ssh",
+  "name": "ssh",
+  "title": "SSH Server",
+  "summary": "SSH Server is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/server/ssh",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "server/ssh",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/ssh/ in your project, or ~/.claude/skills/ssh/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill ssh"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "chaterm-systemd",
+  "name": "systemd",
+  "title": "Systemd Services",
+  "summary": "Systemd Services is a skill for Linux administration and the shell, published by Chaterm in the chaterm/terminal-skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "chaterm",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "Chaterm",
+  "author_url": "https://github.com/chaterm",
+  "source_url": "https://github.com/chaterm/terminal-skills/tree/main/server/systemd",
+  "repo": "chaterm/terminal-skills",
+  "path_in_repo": "server/systemd",
+  "reviewed_commit": "464c2954287ad0c0b9addb1ebfbb2150ddc0de24",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/systemd/ in your project, or ~/.claude/skills/systemd/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add chaterm/terminal-skills --skill systemd"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "terminalskills-iptables",
+  "name": "iptables",
+  "title": "iptables",
+  "summary": "iptables is a skill for Linux administration and the shell, published by TerminalSkills in the TerminalSkills/skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "terminalskills",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "TerminalSkills",
+  "author_url": "https://github.com/TerminalSkills",
+  "source_url": "https://github.com/TerminalSkills/skills/tree/main/skills/iptables",
+  "repo": "TerminalSkills/skills",
+  "path_in_repo": "skills/iptables",
+  "reviewed_commit": "6edcf94159d9f46b0759d2e1b59dd545cfaca254",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "codex",
+   "gemini-cli",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/iptables/ in your project, or ~/.claude/skills/iptables/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/iptables/ in your repo, or ~/.agents/skills/iptables/ for personal use."
+   },
+   {
+    "platform": "gemini-cli",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .gemini/skills/iptables/ or .agents/skills/iptables/, or install from Git with: gemini skills install <repo-url>"
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/iptables/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add TerminalSkills/skills --skill iptables"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "terminalskills-kali-linux",
+  "name": "kali-linux",
+  "title": "Kali Linux",
+  "summary": "Kali Linux is a skill for Linux administration and the shell, published by TerminalSkills in the TerminalSkills/skills repository. It is instructions only.",
+  "category": "Linux Skills",
+  "tags": [
+   "terminalskills",
+   "agent-skill",
+   "linux"
+  ],
+  "author": "TerminalSkills",
+  "author_url": "https://github.com/TerminalSkills",
+  "source_url": "https://github.com/TerminalSkills/skills/tree/main/skills/kali-linux",
+  "repo": "TerminalSkills/skills",
+  "path_in_repo": "skills/kali-linux",
+  "reviewed_commit": "6edcf94159d9f46b0759d2e1b59dd545cfaca254",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "codex",
+   "gemini-cli",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/kali-linux/ in your project, or ~/.claude/skills/kali-linux/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/kali-linux/ in your repo, or ~/.agents/skills/kali-linux/ for personal use."
+   },
+   {
+    "platform": "gemini-cli",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .gemini/skills/kali-linux/ or .agents/skills/kali-linux/, or install from Git with: gemini skills install <repo-url>"
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/kali-linux/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add TerminalSkills/skills --skill kali-linux"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
+ },
+ {
+  "slug": "daymade-macos-permissions",
+  "name": "macos-permissions",
+  "title": "macOS Permissions",
+  "summary": "macOS Permissions is a skill for building and shipping macOS apps, published by daymade in the daymade/claude-code-skills repository. It is instructions only.",
+  "category": "Apple macOS Skills",
+  "tags": [
+   "daymade",
+   "agent-skill",
+   "apple",
+   "macos"
+  ],
+  "author": "daymade",
+  "author_url": "https://github.com/daymade",
+  "source_url": "https://github.com/daymade/claude-code-skills/tree/main/daymade-macos/macos-permissions",
+  "repo": "daymade/claude-code-skills",
+  "path_in_repo": "daymade-macos/macos-permissions",
+  "reviewed_commit": "91fae3cbfdf51da5eca551da1f8eaf3a1acad8f3",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "claude-apps",
+   "chatgpt",
+   "codex",
+   "cursor",
+   "github-copilot",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/macos-permissions/ in your project, or ~/.claude/skills/macos-permissions/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/macos-permissions/ in your repo, or ~/.agents/skills/macos-permissions/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/macos-permissions/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add daymade/claude-code-skills --skill macos-permissions"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": false,
+  "needs_credentials": false,
+  "safety_labels": [
+   "Instructions Only"
+  ],
+  "review_status": "Not Reviewed",
+  "scan_date": "2026-10-19",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-19",
+  "price": "free",
+  "pairs_with": []
  }
 ]
