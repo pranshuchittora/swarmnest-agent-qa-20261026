@@ -1,13 +1,14 @@
 ---
 import '../styles.css';
 import { SITE } from '../lib/data';
+import { LEGAL } from '../lib/legal';
 interface Props { title: string; description: string; path: string; jsonld?: object[]; type?: string; noindex?: boolean; }
 const { title, description, path, jsonld = [], type = 'website', noindex = false } = Astro.props;
 const canonical = SITE + path;
 const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarmnest',url:SITE,logo:SITE+'/icon-512.png',email:'hello@swarmnest.ai',description:'A directory of tools, APIs, data sources and Agent Skills for AI agents, with use cases, agent templates and a marketplace of tested skill packs and workflows.' };
 const site = { '@context':'https://schema.org','@type':'WebSite',name:'Swarmnest',url:SITE,potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:SITE+'/search/?q={search_term_string}'},'query-input':'required name=search_term_string'} };
-// Pages that sell ads don't show the footer ad box.
-const NO_AD = ['/advertise/', '/advertise/details/', '/sponsorship-terms/'];
+// Pages that sell ads, and all legal/policy pages, don't show the footer ad box.
+const NO_AD = ['/advertise/', '/advertise/details/', '/legal/', ...LEGAL.map(([u]) => u)];
 const showAd = !NO_AD.includes(path);
 const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 ---
