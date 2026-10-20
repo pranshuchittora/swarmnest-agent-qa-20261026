@@ -15,14 +15,12 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <h1>Agent Skills</h1>
 <p class="lead">{SKILLS.length} skills, plugins, rules and templates from official and well-known public sources. Every listing links to its source, shows which platforms say they support it, and says plainly whether it includes scripts.</p>
 <SkillSearch />
-<h2>Browse by Operating System</h2>
-<div class="oscards">{OSCARDS.map(o=><div class="oscard"><a class="osmain" href={`/agent-skills/category/${o.cat}/`}><strong>{o.name}</strong><span class="osn">{catCount(o.cat)} {o.name==='Swift, SwiftUI and Xcode'?'Skills':o.name+' Skills'}</span><span class="small">{o.blurb}</span></a>{o.os&&<a class="osall small" href={`/agent-skills/?os=${o.os}`}>All {osTotal(o.name)} {o.name} skills across categories</a>}</div>)}</div>
 <noscript><p class="small">Search needs JavaScript. You can still browse by category, platform and format below.</p></noscript>
-<div class="notice"><strong>Read before you install.</strong> Every listing is a third-party skill. Labels come from an automated check of the source folder on {SKILLS[0].scan_date}. Skills that include scripts run code on your machine. <a href="/agent-skills/guides/">Guides</a> · <a href="/agent-skills/submit/">Submit a Skill</a></div>
 <div id="ss-list">
 <h2>Featured Skills</h2>
 <div class="grid">{feat.map(s=><SkillCard s={s} />)}</div>
 </div>
+<div class="notice"><strong>Read before you install.</strong> Every listing is a third-party skill. Labels come from an automated check of the source folder on {SKILLS[0].scan_date}. Skills that include scripts run code on your machine. <a href="/agent-skills/guides/">Guides</a> · <a href="/agent-skills/submit/">Submit a Skill</a></div>
 <h2>Browse by Format</h2>
 <div class="grid">{FORMATS.map(f=><a class="card" href={`/agent-skills/format/${f.slug}/`}><h3>{f.name}</h3><p>{f.blurb}</p><span class="badge">{count(f.key)} {count(f.key)===1?'Listing':'Listings'}</span></a>)}</div>
 <h2>Skills for Each Platform</h2>
@@ -30,6 +28,8 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <p class="small">Platforms listed by the source: the source repository says the platform is supported.</p>
 <h2>Browse by Category</h2>
 <div class="pills">{CATEGORIES.map(c=><a href={`/agent-skills/category/${c.slug}/`}>{c.name} ({c.count})</a>)}</div>
+<h2>Browse by Operating System</h2>
+<div class="oscards">{OSCARDS.map(o=><div class="oscard"><a class="osmain" href={`/agent-skills/category/${o.cat}/`}><strong>{o.name}</strong><span class="osn">{catCount(o.cat)} {o.name==='Swift, SwiftUI and Xcode'?'Skills':o.name+' Skills'}</span><span class="small">{o.blurb}</span></a>{o.os&&<a class="osall small" href={`/agent-skills/?os=${o.os}`}>All {osTotal(o.name)} {o.name} skills across categories</a>}</div>)}</div>
 <h2>Guides</h2>
 <div class="grid">{GUIDES.map(g=><a class="card" href={`/agent-skills/guides/${g.slug}/`}><h3>{g.title}</h3><p>{g.blurb}</p></a>)}</div>
 <div class="notice">Want tested skills with scripts, evals and templates? See the <a href="/marketplace/">Swarmnest Marketplace</a>. It is separate from this directory: this directory lists free public skills from other sources, the marketplace sells products made by Swarmnest.</div>
