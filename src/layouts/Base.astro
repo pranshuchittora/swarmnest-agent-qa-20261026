@@ -6,6 +6,9 @@ const { title, description, path, jsonld = [], type = 'website', noindex = false
 const canonical = SITE + path;
 const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarmnest',url:SITE,logo:SITE+'/icon-512.png',email:'hello@swarmnest.ai',description:'A directory of tools, APIs, data sources and Agent Skills for AI agents, with use cases, agent templates and a marketplace of tested skill packs and workflows.' };
 const site = { '@context':'https://schema.org','@type':'WebSite',name:'Swarmnest',url:SITE,potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:SITE+'/search/?q={search_term_string}'},'query-input':'required name=search_term_string'} };
+// Pages that sell ads don't show the footer ad box.
+const NO_AD = ['/advertise/', '/advertise/details/', '/sponsorship-terms/'];
+const showAd = !NO_AD.includes(path);
 const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 ---
 <!doctype html>
@@ -40,7 +43,7 @@ const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 </div></header>
 <main class="wrap"><slot /></main>
 <footer><div class="wrap">
- <div class="sponsor"><a href="/advertise/"><strong>Sponsor / Advertise</strong></a> — reach people building with AI agents. <a href="/advertise/">See Placements and Prices</a>.</div>
+ {showAd && <div class="sponsor"><a href="/advertise/"><strong>Sponsor / Advertise</strong></a> — reach people building with AI agents. <a href="/advertise/">See Placements and Prices</a>.</div>}
  <p class="small">Swarmnest is not affiliated with the tools listed. Names and trademarks belong to their owners. Sponsored listings and affiliate links, if any, are labelled and never affect what we list or how we rank it. See our <a href="/disclosure/">Sponsored &amp; Affiliate Disclosure</a>.</p>
  <p class="small"><a href="/about/">About</a> · <a href="/support/">Support</a> · <a href="/submit/">Submit a Tool</a> · <a href="/agent-skills/">Agent Skills</a> · <a href="/agent-skills/category/apple-macos-skills/">macOS Skills</a> · <a href="/llms.txt">llms.txt</a> · <a href="/openapi.json">OpenAPI</a> · <a href="/search/">Search</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a></p>
  <p class="small"><a href="/legal/">Legal</a>: <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="/cookies/">Cookies</a> · <a href="/do-not-sell/">Do Not Sell or Share</a> · <a href="/acceptable-use/">Acceptable Use</a> · <a href="/license/">License</a> · <a href="/digital-products-disclaimer/">Digital Products Disclaimer</a> · <a href="/directory-disclaimer/">Directory Disclaimer</a> · <a href="/refunds/">Refunds</a> · <a href="/tax/">Sales Tax</a> · <a href="/disclosure/">Disclosure</a> · <a href="/sponsorship-terms/">Sponsorship Terms</a> · <a href="/api-terms/">API Terms</a> · <a href="/takedown/">Takedown</a> · <a href="/dmca/">DMCA</a> · <a href="/creator-agreement/">Creators</a> · <a href="/accessibility/">Accessibility</a></p>
