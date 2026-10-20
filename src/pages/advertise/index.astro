@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SPONSOR_BUY, BILLING_PORTAL } from '../../lib/config';
+import traffic from '../../../data/traffic-log.csv?raw';
+const rows = traffic.trim().split('\n').slice(1).map((l) => l.split(',')).filter((r) => r.length >= 3);
+const days = rows.length, visits = rows.reduce((a, r) => a + +r[1], 0), views = rows.reduce((a, r) => a + +r[2], 0);
+const fmtD = (s: string) => new Date(s + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+const range = days ? `${fmtD(rows[0][0])} to ${fmtD(rows[days - 1][0])}` : '';
+const vDay = days ? Math.round(visits / days) : 0, pDay = days ? Math.round(views / days) : 0;
+const PLANS = [
+  { slug: 'featured-listing', name: 'Featured Listing', price: 29, what: 'Your existing directory or Agent Skills entry, shown in the Sponsored slot on its own category page. The regular list below it does not change.', fit: 'Best for tools already listed on Swarmnest.' },
+  { slug: 'category-sponsor', name: 'Category Sponsor', price: 49, what: 'One static Sponsored card on one directory or Agent Skills category page of your choice. One sponsor per category at a time.', fit: 'Best for reaching one audience, such as MCP servers or macOS skills.' },
+  { slug: 'sitewide-sponsor', name: 'Sitewide Sponsor', price: 99, what: 'One static Sponsored card on the Swarmnest homepage. One sponsor at a time.', fit: 'Best for a launch or a broad developer tool.' },
+];
+---
+<Base title="Advertise on Swarmnest: Sponsored Placements for AI Agent Tools" description="Sponsor Swarmnest with a Featured Listing ($29), Category Sponsor ($49) or Sitewide Sponsor ($99) per month. Every order is reviewed first, clearly labeled, and never affects ranking." path="/advertise/">
+<p class="crumbs"><a href="/">Home</a> › Advertise</p>
+<h1>Advertise on Swarmnest</h1>
+<div id="adthanks" class="adnote" hidden><strong>Thank You, Your Order Is In.</strong> Nothing goes live until we review it, usually within 2 business days. We will email you from hello@swarmnest.ai. If we decline it, you get a full refund. To add a logo or change your text, reply to the Stripe receipt or write to <a href="mailto:hello@swarmnest.ai?subject=Sponsorship%20order">hello@swarmnest.ai</a>.</div>
+<p class="lead">Reach people who build and run AI agents: developers looking for MCP servers, Agent Skills, APIs and data sources. One small, clearly labeled card per page. No pop-ups, no tracking, no motion.</p>
+<h2>Founding Prices</h2>
+<p class="small">Monthly by default and cancel anytime, or pay once for 30 days. These founding prices will go up as traffic grows. Monthly sponsors get at least 14 days' notice by email before any change.</p>
+<div class="adgrid">
+{PLANS.map((p) => (
+  <div class="adcard">
+    <h3>{p.name}</h3>
+    <div class="adprice">${p.price}<small>/month</small></div>
+    <p>{p.what}</p>
+    <p class="small">{p.fit}</p>
+    <a class="adbuy" href={SPONSOR_BUY[p.slug].monthly}>Sponsor Monthly — ${p.price}/mo</a>
+    <a class="adonce" href={SPONSOR_BUY[p.slug].once}>Or pay once for 30 days (${p.price}, no renewal)</a>
+  </div>
+))}
+</div>
+<h2>How It Works</h2>
+<ol>
+<li>Choose a placement and check out with Stripe. Tell us the listing or website to promote in the checkout form.</li>
+<li>We review every order before it goes live, usually within 2 business days. If we decline it, we refund you in full.</li>
+<li>Once approved, your card appears in the Sponsored slot, labeled "Sponsored", with a <code>rel="sponsored"</code> link.</li>
+<li>Monthly plans renew each month until you cancel. One-time orders run for 30 days from going live and then stop.</li>
+</ol>
+<h2>What You Get, and What You Do Not</h2>
+<ul>
+<li><strong>You get:</strong> a static card with your name, a headline of up to 40 characters, one sentence of up to 160 characters and one link.</li>
+<li><strong>Payment never changes:</strong> whether a tool is listed, where it ranks, its description, its labels or OS and format tags. Organic lists and sorting stay exactly the same.</li>
+<li><strong>We do not sell:</strong> Verified badges, SEO or "dofollow" links, paid inclusion in the directory, or guaranteed clicks. Submitting a tool stays free.</li>
+<li><strong>We accept:</strong> products relevant to AI agents and developers. We decline crypto or financial schemes, adult content, malware and misleading claims.</li>
+</ul>
+<h2>Audience, Honestly</h2>
+<p>Swarmnest is new. From {range} we averaged about <strong>{vDay} visits and {pDay} pageviews a day</strong> ({visits} visits and {views} pageviews over {days} days, from our own traffic log). That is why the prices are low. We will update these numbers here as the site grows.</p>
+<h2 id="manage">Manage or Cancel a Subscription</h2>
+<p>Open the <a href={BILLING_PORTAL} rel="nofollow">Stripe Billing Portal</a> and enter the email you used at checkout. Stripe emails you a sign-in link. From there you can cancel, update your card or download invoices. Cancelling stops renewal and your placement runs until the end of the period you paid for. You can also email <a href="mailto:support@swarmnest.ai?subject=Cancel%20sponsorship">support@swarmnest.ai</a> and we will cancel it for you.</p>
+<h2>Custom Deals</h2>
+<p>Want something else, such as several categories, a longer run or an invoice? <a class="btn alt" href="mailto:hello@swarmnest.ai?subject=Sponsorship">Contact Us</a></p>
+<p class="small">Read the <a href="/sponsorship-terms/">Sponsorship Terms</a> and our <a href="/disclosure/">Sponsored &amp; Affiliate Disclosure</a>. We currently sell to customers with a US billing address only.</p>
+<script is:inline>if(/[?&]thanks=1/.test(location.search))document.getElementById('adthanks').hidden=false;</script>
+</Base>

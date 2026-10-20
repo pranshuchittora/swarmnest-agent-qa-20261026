@@ -9,6 +9,7 @@ export const LEGAL: [string, string, string][] = [
   ['/directory-disclaimer/','Directory and Listing Disclaimer','Third-party tools are not endorsed, listings may be out of date, and how to request a correction or removal.'],
   ['/refunds/','Refund Policy','Our 14-day window for defective or undelivered digital products, and how to ask.'],
   ['/tax/','Sales Tax Notes','How sales tax and VAT are handled at checkout.'],
+  ['/sponsorship-terms/','Sponsorship Terms','Rules for Featured Listings, Category Sponsors and Sitewide Sponsors: review, refunds, labels and cancellation.'],
   ['/disclosure/','Sponsored & Affiliate Disclosure','How we label paid placements and affiliate links.'],
   ['/api-terms/','API Terms','Rules for the public JSON API, llms.txt and other machine-readable data.'],
   ['/takedown/','Takedown & Corrections','Copyright (DMCA) notices, counter-notices and directory correction or removal requests.'],

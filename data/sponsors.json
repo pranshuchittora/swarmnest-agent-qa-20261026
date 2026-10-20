@@ -1,0 +1,6 @@
+{
+ "_help": "Turn a sponsor on by adding an object below, then run ./ship.sh. Keys for 'categories' and 'featured' are 'directory/<category-slug>' or 'agent-skills/<category-slug>'. Fields: name, headline (max 40 chars), text (max 160 chars), url (https), start and end (YYYY-MM-DD, inclusive, checked at build time), and optional order (Stripe session or subscription id, for your records). One slot per page: a category sponsor wins over a featured listing; the homepage shows the sitewide sponsor. With nothing active, the slot shows a Swarmnest house card.",
+ "sitewide": null,
+ "categories": {},
+ "featured": {}
+}

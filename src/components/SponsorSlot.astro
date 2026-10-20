@@ -1,0 +1,25 @@
+---
+// One static slot per page. Not sticky, not animated, fixed min-height (no layout shift).
+import { sponsorFor, houseFor } from '../lib/sponsors';
+const { key = '' } = Astro.props;
+const sp = sponsorFor(key);
+const house = sp ? null : houseFor(key);
+const short = (s: string) => (s.length > 160 ? s.slice(0, 157) + '…' : s);
+---
+<aside class="slot" aria-label={sp ? 'Sponsored' : 'From Swarmnest'}>
+{sp ? (
+  <a class="slotc" href={sp.s.url} rel="sponsored noopener">
+    <span class="slotl">Sponsored</span>
+    <strong>{sp.s.headline.slice(0, 40)}</strong>
+    <span class="slott">{short(sp.s.text)}</span>
+    <span class="slotn">{sp.s.name}</span>
+  </a>
+) : house && (
+  <a class="slotc" href={`/marketplace/${house.slug}/`}>
+    <span class="slotl house">Swarmnest Product</span>
+    <strong>{house.title} · {house.price}</strong>
+    <span class="slott">{short(house.summary)}</span>
+  </a>
+)}
+<a class="slota small" href="/advertise/">Advertise Here</a>
+</aside>

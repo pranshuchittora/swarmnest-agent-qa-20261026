@@ -36,6 +36,8 @@ ${GUIDES.map(g=>`- [${g.title}](${SITE}/agent-skills/guides/${g.slug}/): ${g.blu
 - [All legal policies](${SITE}/legal/)
 - [Refunds](${SITE}/refunds/)
 - [Takedown](${SITE}/takedown/)
+- [Advertise](${SITE}/advertise/): labeled sponsored placements, $29 to $99 a month; never affects ranking
+- [Sponsorship terms](${SITE}/sponsorship-terms/)
 
 ## AI Agent Use Cases: Jobs Agents Can Do
 - [Index](${SITE}/use-cases/) and [JSON](${SITE}/api/v1/use-cases.json)

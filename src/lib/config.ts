@@ -19,3 +19,20 @@ export const BUY_URLS: Record<string,string> = {
   "agent-builder-bundle": "https://buy.stripe.com/9B6eV643vd8V3mHbMjdIA0u",
   "growth-bundle": "https://buy.stripe.com/bJe3coeI9b0N7CX7w3dIA0v"
 };
+
+// Sponsorship Payment Links (Oct 2026): monthly subscription (primary) and one-time 30 days (secondary).
+export const SPONSOR_BUY: Record<string,{monthly:string;once:string}> = {
+ "featured-listing": {
+  "monthly": "https://buy.stripe.com/28EeV6dE50m92iDbMjdIA0C",
+  "once": "https://buy.stripe.com/3cI7sEbvX0m96yT17FdIA0D"
+ },
+ "category-sponsor": {
+  "monthly": "https://buy.stripe.com/eVq8wI8jL1qdf5p6rZdIA0E",
+  "once": "https://buy.stripe.com/cNi28kfMd3yle1lg2zdIA0F"
+ },
+ "sitewide-sponsor": {
+  "monthly": "https://buy.stripe.com/fZu28kdE5gl7g9t3fNdIA0G",
+  "once": "https://buy.stripe.com/4gMfZa0Rjfh36yT4jRdIA0H"
+ }
+};
+export const BILLING_PORTAL = "https://billing.stripe.com/p/login/3cI6oAarT7OBf5p2bJdIA00";

@@ -52,3 +52,69 @@ export const BUNDLE_MEMBERS = {
  "agent-builder-bundle": ["mcp-server-starter-kit","agent-eval-guardrails-pack","web-research-skill-pack","agent-templates-pack"],
  "growth-bundle": ["lead-research-workflow","content-repurposing-workflow","customer-support-prompt-pack","ai-sdr-outbound-workflow"]
 };
+
+// Sponsorship placements (Oct 2026). Not downloadable products: the webhook never issues file grants for these.
+export const SPONSOR_LINKS = {
+ "plink_1USTRV6aC1E09RZYiACre6CK": {
+  "slug": "featured-listing",
+  "title": "Featured Listing",
+  "mode": "monthly"
+ },
+ "plink_1USTRV6aC1E09RZYQruC2kOq": {
+  "slug": "featured-listing",
+  "title": "Featured Listing",
+  "mode": "once"
+ },
+ "plink_1USTRY6aC1E09RZY1rTU8HOq": {
+  "slug": "category-sponsor",
+  "title": "Category Sponsor",
+  "mode": "monthly"
+ },
+ "plink_1USTRY6aC1E09RZYnXuhQ69U": {
+  "slug": "category-sponsor",
+  "title": "Category Sponsor",
+  "mode": "once"
+ },
+ "plink_1USTRa6aC1E09RZYThibEPD3": {
+  "slug": "sitewide-sponsor",
+  "title": "Sitewide Sponsor",
+  "mode": "monthly"
+ },
+ "plink_1USTRa6aC1E09RZYed8V55f3": {
+  "slug": "sitewide-sponsor",
+  "title": "Sitewide Sponsor",
+  "mode": "once"
+ }
+};
+export const SPONSOR_PRICES = {
+ "price_1USTRU6aC1E09RZYGkZbUKQL": {
+  "slug": "featured-listing",
+  "title": "Featured Listing",
+  "mode": "monthly"
+ },
+ "price_1USTRU6aC1E09RZYbnNoXvM1": {
+  "slug": "featured-listing",
+  "title": "Featured Listing",
+  "mode": "once"
+ },
+ "price_1USTRW6aC1E09RZYIDMDm9uO": {
+  "slug": "category-sponsor",
+  "title": "Category Sponsor",
+  "mode": "monthly"
+ },
+ "price_1USTRX6aC1E09RZYIlWBc2Ej": {
+  "slug": "category-sponsor",
+  "title": "Category Sponsor",
+  "mode": "once"
+ },
+ "price_1USTRZ6aC1E09RZYyJwQURUh": {
+  "slug": "sitewide-sponsor",
+  "title": "Sitewide Sponsor",
+  "mode": "monthly"
+ },
+ "price_1USTRZ6aC1E09RZYbPp1VRwG": {
+  "slug": "sitewide-sponsor",
+  "title": "Sitewide Sponsor",
+  "mode": "once"
+ }
+};

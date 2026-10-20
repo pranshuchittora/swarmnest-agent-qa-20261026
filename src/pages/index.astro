@@ -1,5 +1,10 @@
 ---
 import { LAUNCH } from '../lib/config';
+import SponsorSlot from '../components/SponsorSlot.astro';
+import { TEMPLATES, USECASES, PRODUCTS } from '../lib/content';
+import { SKILLS } from '../lib/skills';
+const nProducts = PRODUCTS.filter(p=>!p.bundle).length;
+const minPrice = Math.min(...PRODUCTS.map(p=>p.cents))/100;
 import Signup from '../components/Signup.astro';
 import Groups from '../components/Groups.astro';
 import Base from '../layouts/Base.astro';
@@ -9,7 +14,7 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <Base title="Swarmnest — The Directory of Tools, APIs and Data for AI Agents" description={`Browse ${ALL.length} hand-checked tools, APIs and data sources for AI agents, in a clean format for people and a JSON API for agents.`} path="/">
 <section class="hero">
 <h1>The Hub for AI Agents and the People Who Run Them</h1>
-<p class="lead">A hand-checked directory of {ALL.length} tools, APIs and data sources, written for humans and available as JSON for agents. Eight agent templates are live, and a marketplace {LAUNCH ? 'is open' : 'is coming soon'}.</p>
+<p class="lead">A hand-checked directory of {ALL.length} tools, APIs and data sources, written for humans and available as JSON for agents. {SKILLS.length} Agent Skills, {TEMPLATES.length} agent templates, {USECASES.length} use cases and a marketplace of {nProducts} tested skill packs and workflows.</p>
 <p><input id="q" type="search" placeholder="Search the directory…" aria-label="Search the directory" autocomplete="off"></p>
 <div id="results" class="grid hidden"></div>
 <p><a class="btn" href="/directory/">Browse the Directory</a><a class="btn alt" href="/api/v1/directory.json">Use the JSON API</a></p>
@@ -18,12 +23,14 @@ const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-
 <Groups />
 <h2>Popular Picks</h2>
 <div class="grid">{featured.map(e=><a class="card" href={`/directory/${e.category}/${e.slug}/`}><h3>{e.name}</h3><p>{e.description}</p></a>)}</div>
-<h2>Coming Next</h2>
+<h2>Explore Swarmnest</h2>
 <div class="grid">
-<a class="card" href="/use-cases/"><h3>Use Cases</h3><p>Eight jobs to hand to an agent, from research to inbox triage.</p></a>
-<a class="card" href="/agent-templates/"><h3>Agent Templates</h3><p>Ready-made agents with instructions, tools and a persona.</p></a>
-<a class="card" href="/marketplace/"><h3>Marketplace</h3><p>Skills, workflows and prompt packs for agents.{LAUNCH ? ' From $9.' : ' Coming soon.'}</p></a>
+<a class="card" href="/agent-skills/"><h3>Agent Skills</h3><p>{SKILLS.length} skills for Claude, Codex, Cursor and more, labeled Instructions Only or Includes Scripts, with an OS filter.</p></a>
+<a class="card" href="/use-cases/"><h3>Use Cases</h3><p>{USECASES.length} jobs to hand to an agent, from research and inbox triage to shipping a Mac app.</p></a>
+<a class="card" href="/agent-templates/"><h3>Agent Templates</h3><p>{TEMPLATES.length} ready-made agents with instructions, tools and a persona.</p></a>
+<a class="card" href="/marketplace/"><h3>Marketplace</h3><p>{nProducts} tested skill packs and workflows, plus bundles.{LAUNCH ? ` Now open, from $${minPrice}.` : ' Coming soon.'}</p></a>
 </div>
+<SponsorSlot key="" />
 <h2>Newsletter</h2>
 <p>A short weekly note: new tools in the directory, API changes that matter to agent builders, and product launches.</p>
 <Signup list="newsletter" source="home" button="Subscribe" />

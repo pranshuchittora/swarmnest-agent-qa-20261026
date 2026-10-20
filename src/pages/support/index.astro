@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { BILLING_PORTAL } from '../../lib/config';
 ---
 <Base title="Support" description="Get help with a Swarmnest purchase: download links, refunds, license questions and bugs. Email support@swarmnest.ai." path="/support/">
 <h1>Support</h1>
@@ -22,6 +23,9 @@ import Base from '../../layouts/Base.astro';
 
 <h3>My Card Statement Shows an Unknown Charge</h3>
 <p>Swarmnest purchases appear on your statement as <strong>SWARMNEST</strong>. If you do not recognize a charge, email us before contacting your bank.</p>
+
+<h3>How Do I Cancel a Sponsorship?</h3>
+<p>Monthly sponsorships can be cancelled anytime in the <a href={BILLING_PORTAL} rel="nofollow">Stripe Billing Portal</a>: enter the email you used at checkout and Stripe sends you a sign-in link. Cancelling stops renewal; your placement runs until the end of the paid period. You can also email us and we will cancel it for you. One-time 30-day orders do not renew, so there is nothing to cancel. See <a href="/advertise/#manage">Advertise</a> and the <a href="/sponsorship-terms/">Sponsorship Terms</a>.</p>
 
 <h3>Which Taxes Apply?</h3>
 <p>See <a href="/tax/">Sales Tax Notes</a>.</p>

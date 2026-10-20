@@ -2,6 +2,7 @@
 import Base from '../../../../layouts/Base.astro';
 import SkillCard from '../../../../components/SkillCard.astro';
 import SkillSearch from '../../../../components/SkillSearch.astro';
+import SponsorSlot from '../../../../components/SponsorSlot.astro';
 import { SKILLS, CATEGORIES, SITE, skillPath, RELATED_CATS } from '../../../../lib/skills';
 export function getStaticPaths(){ return CATEGORIES.map(c=>({params:{category:c.slug},props:{c}})); }
 const { c } = Astro.props; const list = SKILLS.filter(s=>s.category===c.name);
@@ -14,6 +15,7 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <h1>{c.name}</h1>
 <p class="lead">{list.length} {list.length===1?'listing':'listings'}: {list.length-nS} instructions only, {nS} with scripts. JSON: <a href={`/api/v1/agent-skills/category/${c.slug}.json`}>/api/v1/agent-skills/category/{c.slug}.json</a></p>
 {rel.length>0&&<><p class="small" style="margin-bottom:0">Related Categories</p><div class="pills">{rel.map(r=><a href={`/agent-skills/category/${r.slug}/`}>{r.name} ({r.count})</a>)}</div></>}
+<SponsorSlot key={`agent-skills/${c.slug}`} />
 <SkillSearch cat={c.slug} label={`Search ${c.name}`} />
 <div class="grid" id="ss-list">{list.map(s=><SkillCard s={s} />)}</div>
 <script is:inline src="/search.js"></script>

@@ -1,10 +1,13 @@
 import { verifyStripeSignature, grantForSession } from '../_lib/fulfil.js';
 import { sendDeliveryEmail } from '../_lib/email.js';
+import { handleSponsorEvent } from '../_lib/sponsor.js';
 export async function onRequestPost({ request, env }) {
   const body = await request.text();
   if (!(await verifyStripeSignature(body, request.headers.get('stripe-signature'), env.STRIPE_WEBHOOK_SECRET)))
     return new Response('bad signature', { status: 400 });
   const ev = JSON.parse(body);
+  // Sponsorships (Featured Listing, Category Sponsor, Sitewide Sponsor): logged and emailed for approval; no file delivery.
+  if (await handleSponsorEvent(env, ev)) return new Response('ok');
   if (ev.type === 'checkout.session.completed' || ev.type === 'checkout.session.async_payment_succeeded') {
     const id = ev.data.object.id;
     // One order per checkout session (covers retries and completed + async_payment_succeeded for the same session): one read, two writes.
@@ -15,5 +18,6 @@ export async function onRequestPost({ request, env }) {
       await env.SIGNUPS.put('order:' + id, JSON.stringify({ at: new Date().toISOString(), email, slug: g?.slug || null, emailed: !!mail.sent }), { expirationTtl: 60 * 60 * 24 * 400 });
     }
   }
+  // Any other event type (e.g. invoice.paid for a non-sponsor) is acknowledged and ignored.
   return new Response('ok');
 }

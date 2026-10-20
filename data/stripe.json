@@ -153,5 +153,66 @@
   ],
   "account": "acct_1UQhDQ6aC1E09RZY",
   "statement_descriptor": "SWARMNEST",
-  "tax": "automatic_tax disabled"
+  "tax": "automatic_tax disabled",
+  "sponsorships": [
+    {
+      "slug": "featured-listing",
+      "name": "Featured Listing",
+      "price_cents": 2900,
+      "product_id": "prod_VTQIeYQLwEDhSs",
+      "monthly_price_id": "price_1USTRU6aC1E09RZYGkZbUKQL",
+      "once_price_id": "price_1USTRU6aC1E09RZYbnNoXvM1",
+      "monthly_link_id": "plink_1USTRV6aC1E09RZYiACre6CK",
+      "monthly_link": "https://buy.stripe.com/28EeV6dE50m92iDbMjdIA0C",
+      "once_link_id": "plink_1USTRV6aC1E09RZYQruC2kOq",
+      "once_link": "https://buy.stripe.com/3cI7sEbvX0m96yT17FdIA0D",
+      "active": [
+        true,
+        true
+      ],
+      "livemode": true,
+      "statement_descriptor": "SWARMNEST"
+    },
+    {
+      "slug": "category-sponsor",
+      "name": "Category Sponsor",
+      "price_cents": 4900,
+      "product_id": "prod_VTQIAtBAy1xzAu",
+      "monthly_price_id": "price_1USTRW6aC1E09RZYIDMDm9uO",
+      "once_price_id": "price_1USTRX6aC1E09RZYIlWBc2Ej",
+      "monthly_link_id": "plink_1USTRY6aC1E09RZY1rTU8HOq",
+      "monthly_link": "https://buy.stripe.com/eVq8wI8jL1qdf5p6rZdIA0E",
+      "once_link_id": "plink_1USTRY6aC1E09RZYnXuhQ69U",
+      "once_link": "https://buy.stripe.com/cNi28kfMd3yle1lg2zdIA0F",
+      "active": [
+        true,
+        true
+      ],
+      "livemode": true,
+      "statement_descriptor": "SWARMNEST"
+    },
+    {
+      "slug": "sitewide-sponsor",
+      "name": "Sitewide Sponsor",
+      "price_cents": 9900,
+      "product_id": "prod_VTQI2gzUvnHEP5",
+      "monthly_price_id": "price_1USTRZ6aC1E09RZYyJwQURUh",
+      "once_price_id": "price_1USTRZ6aC1E09RZYbPp1VRwG",
+      "monthly_link_id": "plink_1USTRa6aC1E09RZYThibEPD3",
+      "monthly_link": "https://buy.stripe.com/fZu28kdE5gl7g9t3fNdIA0G",
+      "once_link_id": "plink_1USTRa6aC1E09RZYed8V55f3",
+      "once_link": "https://buy.stripe.com/4gMfZa0Rjfh36yT4jRdIA0H",
+      "active": [
+        true,
+        true
+      ],
+      "livemode": true,
+      "statement_descriptor": "SWARMNEST"
+    }
+  ],
+  "billing_portal": {
+    "configuration_id": "bpc_1USTRg6aC1E09RZYFYLlKbGp",
+    "login_url": "https://billing.stripe.com/p/login/3cI6oAarT7OBf5p2bJdIA00",
+    "cancel_mode": "at_period_end"
+  }
 }
