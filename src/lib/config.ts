@@ -1,6 +1,6 @@
 // Flip to true to show live Buy buttons. ALSO re-activate the Stripe payment links first
 // (otherwise the buy page says the link is inactive). Then: npm run build && wrangler pages deploy.
-export const LAUNCH = false;
+export const LAUNCH = true;
 export const BUY_URLS: Record<string,string> = {
   "web-research-skill-pack": "https://buy.stripe.com/4gMbIUgQhc4Rg9t6rZdIA0m",
   "lead-research-workflow": "https://buy.stripe.com/00w8wI1Vn8SF9L517FdIA0n",
