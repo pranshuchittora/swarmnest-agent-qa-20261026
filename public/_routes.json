@@ -1,1 +1,1 @@
-{"version":1,"include":["/","/api/v1/search","/api/subscribe","/api/fulfill","/api/stripe-webhook","/download/*"],"exclude":[]}
+{"version":1,"include":["/","/api/v1/search","/api/subscribe","/api/fulfill","/api/stripe-webhook","/api/sponsor/*","/download/*"],"exclude":[]}
