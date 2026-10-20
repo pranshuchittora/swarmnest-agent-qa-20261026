@@ -9,7 +9,10 @@ const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarm
 const site = { '@context':'https://schema.org','@type':'WebSite',name:'Swarmnest',url:SITE,potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:SITE+'/search/?q={search_term_string}'},'query-input':'required name=search_term_string'} };
 // Pages that sell ads, and all legal/policy pages, don't show the footer ad box.
 const NO_AD = ['/advertise/', '/advertise/details/', '/legal/', ...LEGAL.map(([u]) => u)];
-const showAd = !NO_AD.includes(path);
+// Also hidden on support/submit pages, the 404 page and every Marketplace product page (not the /marketplace/ index).
+NO_AD.push('/support/', '/submit/', '/agent-skills/submit/', '/404/');
+const NO_AD_PREFIX = ['/marketplace/'];
+const showAd = !NO_AD.includes(path) && !NO_AD_PREFIX.some(p => path.startsWith(p) && path !== p);
 const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 ---
 <!doctype html>
