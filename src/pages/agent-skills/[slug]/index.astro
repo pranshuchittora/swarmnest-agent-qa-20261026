@@ -17,7 +17,7 @@ const desc = `${s.title}: ${s.summary}`.slice(0,155);
 <p>{osOf(s).map(o=><a class="badge os" href={`/agent-skills/?os=${o.toLowerCase()}`}>{o}</a>)}{l.map(x=><span class={`badge ${x==='Includes Scripts'||x==='Uses Network'||x==='Needs Credentials'||x==='Uses Hooks'?'warn':x==='Instructions Only'?'ok':''}`}>{x}</span>)}</p>
 {(s as any).os_reason&&<p class="small">{osOf(s).join(', ')}: {(s as any).os_reason}</p>}
 <p><a class="btn" href={s.source_url} rel="noopener nofollow" target="_blank">View Source on GitHub</a></p>
-<div class="notice"><strong>Listed at commit {short} on {s.scan_date}. Not reviewed by a human.</strong> Read it before installing.{s.has_scripts===true && ' This one includes scripts or code that your agent may run on your machine.'}</div>
+<div class="notice"><strong>Third-party skill, listed from commit {short} on {s.scan_date}.</strong> Read it before installing.{s.has_scripts===true && ' This one includes scripts or code that your agent may run on your machine.'}</div>
 <div class="install"><h2>Install in 30 Seconds</h2>
 {s.install.map((i,n)=><div><p class="small" style="margin:.5rem 0 0">{platName(i.platform)==='any-skills-client'?'Any Agent Skills Client':platName(i.platform)==='any-agent'?'Any Agent':platName(i.platform)}</p><div class="row"><pre id={`i${n}`}>{i.steps}</pre>{(i.method==='cli'||/^(gemini|npx|\/plugin)/.test(i.steps))&&<button type="button" class="cp" data-t={`i${n}`}>Copy</button>}</div></div>)}
 <p class="small">These are the standard install paths for each tool. Check the source README for anything specific to this item.</p></div>
@@ -26,15 +26,14 @@ const desc = `${s.title}: ${s.summary}`.slice(0,155);
 <tr><th>Format</th><td><a href={`/agent-skills/format/${f.slug}/`}>{f.name}</a></td></tr>
 <tr><th>Author</th><td><a href={s.author_url} rel="noopener nofollow">{s.author}</a></td></tr>
 <tr><th>License</th><td>{s.license}{s.redistributable===false && ' (we link only, never copy or mirror)'}</td></tr>
-<tr><th>Platforms (Declared)</th><td>{s.platforms_declared.length?s.platforms_declared.map(p=><a class="badge" href={`/agent-skills/platform/${p}/`}>{platName(p)}</a>):'Not stated'}</td></tr>
-<tr><th>Platforms (Tested)</th><td>None yet. "Declared" means the source repository's README mentions the platform (keyword match). We have not tested it.</td></tr>
+<tr><th>Platforms Listed by the Source</th><td>{s.platforms_declared.length?s.platforms_declared.map(p=><a class="badge" href={`/agent-skills/platform/${p}/`}>{platName(p)}</a>):'Not stated'}</td></tr>
 <tr><th>Operating System</th><td>{osOf(s).length?osOf(s).map(o=><a class="badge os" href={`/agent-skills/?os=${o.toLowerCase()}`}>{o}</a>):'Any OS (general or cross-platform)'}{(s as any).os_reason&&<><br><span class="small">{(s as any).os_reason}</span></>}</td></tr>
 <tr><th>Runtime Needs</th><td>{s.runtime_needs.join(', ')}</td></tr>
 <tr><th>Scripts</th><td>{scriptsLabel(s)}. {s.scan_notes}</td></tr>
 {s.format==='agent-skill'&&<tr><th>Spec Check</th><td>{s.spec_valid?'Passes our basic SKILL.md check (name matches folder, name and description present and within limits).':'Did not pass our basic SKILL.md check (for example the folder name differs from the skill name). It may still work in your tool.'}</td></tr>}
 <tr><th>Source</th><td><a href={s.source_url} rel="noopener nofollow">{s.repo}</a>{s.path_in_repo?` · ${s.path_in_repo}`:''}</td></tr>
 <tr><th>Source Status</th><td>HTTP {s.http_status} on {s.last_verified}</td></tr>
-<tr><th>Review Status</th><td>{s.review_status}</td></tr>
+<tr><th>Listing Type</th><td>{s.review_status}</td></tr>
 </table>
 <p class="small">The summary is written by Swarmnest. We link to the source and do not host or copy it. Labels come from an automated scan of the repository folder ("Uses Network" and "Needs Credentials" are keyword matches), not a security review. Not affiliated with {s.author}. <a href={`mailto:hello@swarmnest.ai?subject=Correction%3A%20${encodeURIComponent(s.title)}`}>Suggest a correction</a>.</p>
 <h2>More in {s.category}</h2>

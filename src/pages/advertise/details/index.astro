@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="Ad Details | Swarmnest" description="Send the details for your Swarmnest sponsorship: brand name, headline, one sentence, destination link and logo." path="/advertise/details/" noindex>
+<p class="crumbs"><a href="/">Home</a> › <a href="/advertise/">Advertise</a> › Ad Details</p>
+<h1>Ad Details</h1>
+<div class="adnote"><strong>Thank You, Your Order Is In.</strong> Nothing goes live until we review it, usually within 2 business days. If we decline it, you get a full refund. Fill in your ad below. You can come back with the link in your email and edit it until we approve it.</div>
+<p id="sd-status" class="small" role="status" aria-live="polite">Checking your order…</p>
+<noscript><p>This form needs JavaScript. You can also email your ad details and logo to <a href="mailto:support@swarmnest.ai?subject=Ad%20details">support@swarmnest.ai</a>.</p></noscript>
+<form id="sd" class="sdform" hidden novalidate>
+<p id="sd-order" class="small"></p>
+<label>Brand Name <span class="small">(up to 40 characters)</span><input id="sd-name" name="name" maxlength="40" required autocomplete="organization"><span class="sdc" data-for="sd-name"></span><span class="sderr" data-err="name"></span></label>
+<label>Headline <span class="small">(up to 40 characters)</span><input id="sd-headline" name="headline" maxlength="40" required><span class="sdc" data-for="sd-headline"></span><span class="sderr" data-err="headline"></span></label>
+<label>One Sentence <span class="small">(up to 160 characters)</span><textarea id="sd-sentence" name="sentence" maxlength="160" rows="3" required></textarea><span class="sdc" data-for="sd-sentence"></span><span class="sderr" data-err="sentence"></span></label>
+<label>Destination URL <span class="small">(must start with https://)</span><input id="sd-url" name="url" type="url" inputmode="url" maxlength="300" required autocomplete="url"><span class="sderr" data-err="url"></span></label>
+<label>Contact Email<input id="sd-email" name="email" type="email" maxlength="254" required autocomplete="email"><span class="sderr" data-err="email"></span></label>
+<label>Logo <span class="small">(PNG, JPEG or WebP, roughly square, at least 64 × 64, up to 300 KB)</span><input id="sd-logo" type="file" accept="image/png,image/jpeg,image/webp"><span class="sderr" data-err="logo"></span></label>
+<div class="sdlogo"><img id="sd-logo-prev" alt="" hidden width="64" height="64"><button type="button" id="sd-logo-rm" class="btn alt" hidden>Remove Logo</button></div>
+<div id="sd-banner-wrap" hidden><label>Homepage Banner <span class="small">(optional, Sitewide Sponsor only. About 3:1, recommended 1200 × 400, at least 900 × 300. PNG, JPEG or WebP, still images only, up to 400 KB. It replaces the logo and text on the homepage card.)</span><input id="sd-banner" type="file" accept="image/png,image/jpeg,image/webp"><span class="sderr" data-err="banner"></span></label>
+<div class="sdlogo"><img id="sd-banner-prev" class="sdbanprev" alt="" hidden width="300" height="100"><button type="button" id="sd-banner-rm" class="btn alt" hidden>Remove Banner</button></div></div>
+<label>Notes for Us <span class="small">(optional, up to 1000 characters)</span><textarea id="sd-notes" name="notes" maxlength="1000" rows="3"></textarea><span class="sderr" data-err="notes"></span></label>
+<h2>Preview</h2>
+<p class="small">This is how your card will look. It is always labeled "Sponsored".</p>
+<div class="slot"><a class="slotc" id="sd-card" href="#sd" rel="sponsored noopener"><span class="slotl">Sponsored</span><span class="slotban" id="sd-card-ban" hidden><img id="sd-card-banimg" alt="" width="1200" height="400"></span><span class="slotrow" id="sd-card-row"><img id="sd-card-logo" class="slotimg" alt="" width="40" height="40" hidden><span><strong id="sd-card-h">Your Headline</strong><span class="slott" id="sd-card-s">Your one sentence about the product.</span><span class="slotn" id="sd-card-n">Your Brand</span></span></span></a></div>
+<p><button type="submit" class="adbuy" id="sd-submit">Save Ad Details</button></p>
+<p class="small">By saving, you confirm you may use this text, logo and link, and that they follow our <a href="/sponsorship-terms/">Sponsorship Terms</a>. We may edit or decline creative that does not meet them.</p>
+</form>
+<div id="sd-done" class="adnote" hidden role="status"></div>
+<script is:inline src="/sponsor-details.js"></script>
+</Base>

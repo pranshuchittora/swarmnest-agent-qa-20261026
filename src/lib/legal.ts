@@ -5,7 +5,7 @@ export const LEGAL: [string, string, string][] = [
   ['/do-not-sell/','Do Not Sell or Share','Our California (CCPA) notice: we do not sell or share personal information.'],
   ['/acceptable-use/','Acceptable Use Policy','What you may not do with the site, the API or our products.'],
   ['/license/','Product License','What you can and cannot do with prompt packs, workflows and skills you buy.'],
-  ['/digital-products-disclaimer/','Digital Products Disclaimer','No guarantees of results, scripts run at your own risk, AI output can be wrong, and what "Not Reviewed" means.'],
+  ['/digital-products-disclaimer/','Digital Products Disclaimer','No guarantees of results, scripts run at your own risk, AI output can be wrong, and what the "Third-Party" label on directory skills means.'],
   ['/directory-disclaimer/','Directory and Listing Disclaimer','Third-party tools are not endorsed, listings may be out of date, and how to request a correction or removal.'],
   ['/refunds/','Refund Policy','Our 14-day window for defective or undelivered digital products, and how to ask.'],
   ['/tax/','Sales Tax Notes','How sales tax and VAT are handled at checkout.'],
@@ -14,6 +14,6 @@ export const LEGAL: [string, string, string][] = [
   ['/api-terms/','API Terms','Rules for the public JSON API, llms.txt and other machine-readable data.'],
   ['/takedown/','Takedown & Corrections','Copyright (DMCA) notices, counter-notices and directory correction or removal requests.'],
   ['/dmca/','DMCA Designated Agent','Where to send copyright notices.'],
-  ['/creator-agreement/','Creator Agreement (Draft)','Draft terms for third-party sellers, once the marketplace opens to them.'],
+  ['/creator-agreement/','Creator Agreement','Terms for third-party creators who sell on the Swarmnest marketplace.'],
   ['/accessibility/','Accessibility Statement','Our accessibility goals, known limitations and how to report a problem.'],
 ];

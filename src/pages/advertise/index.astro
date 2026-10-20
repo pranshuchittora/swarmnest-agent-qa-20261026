@@ -4,7 +4,7 @@ import { SPONSOR_BUY, BILLING_PORTAL } from '../../lib/config';
 const PLANS = [
   { slug: 'featured-listing', name: 'Featured Listing', price: 29, what: 'Your existing directory or Agent Skills entry, shown in the Sponsored slot on its own category page. The regular list below it does not change.', fit: 'Best for tools already listed on Swarmnest.' },
   { slug: 'category-sponsor', name: 'Category Sponsor', price: 49, what: 'One static Sponsored card on one directory or Agent Skills category page of your choice. One sponsor per category at a time.', fit: 'Best for reaching one audience, such as MCP servers or macOS skills.' },
-  { slug: 'sitewide-sponsor', name: 'Sitewide Sponsor', price: 99, what: 'One static Sponsored card on the Swarmnest homepage. One sponsor at a time.', fit: 'Best for a launch or a broad developer tool.' },
+  { slug: 'sitewide-sponsor', name: 'Sitewide Sponsor', price: 99, what: 'One static Sponsored card on the Swarmnest homepage. One sponsor at a time. Optional 3:1 homepage banner (1200 × 400 recommended) in place of the logo and text.', fit: 'Best for a launch or a broad developer tool.' },
 ];
 ---
 <Base title="Advertise on Swarmnest: Sponsored Placements for AI Agent Tools" description="Sponsor Swarmnest with a Featured Listing ($29), Category Sponsor ($49) or Sitewide Sponsor ($99) per month. Every order is reviewed first, clearly labeled, and never affects ranking." path="/advertise/">
@@ -28,13 +28,14 @@ const PLANS = [
 <h2>How It Works</h2>
 <ol>
 <li>Choose a placement and check out with Stripe. Tell us the listing or website to promote in the checkout form.</li>
-<li>We review every order before it goes live, usually within 2 business days. If we decline it, we refund you in full.</li>
+<li>Right after checkout you land on the Ad Details form (we also email you the link). Add your brand name, a headline, one sentence, your link and a square logo (Sitewide Sponsors can also add a homepage banner), and see a live preview of your card. You can edit your details until we approve them.</li>
+<li>We review every order and its ad before it goes live, usually within 2 business days. We may edit or decline the ad. If we decline it, we refund you in full.</li>
 <li>Once approved, your card appears in the Sponsored slot, labeled "Sponsored", with a <code>rel="sponsored"</code> link.</li>
 <li>Monthly plans renew each month until you cancel. One-time orders run for 30 days from going live and then stop.</li>
 </ol>
 <h2>What You Get, and What You Do Not</h2>
 <ul>
-<li><strong>You get:</strong> a static card with your name, a headline of up to 40 characters, one sentence of up to 160 characters and one link.</li>
+<li><strong>You get:</strong> a static card with your logo, your brand name, a headline of up to 40 characters, one sentence of up to 160 characters and one link.</li>
 <li><strong>Payment never changes:</strong> whether a tool is listed, where it ranks, its description, its labels or OS and format tags. Organic lists and sorting stay exactly the same.</li>
 <li><strong>We do not sell:</strong> Verified badges, SEO or "dofollow" links, paid inclusion in the directory, or guaranteed clicks. Submitting a tool stays free.</li>
 <li><strong>We accept:</strong> products relevant to AI agents and developers. We decline crypto or financial schemes, adult content, malware and misleading claims.</li>

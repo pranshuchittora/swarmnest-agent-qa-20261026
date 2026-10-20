@@ -48,7 +48,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -107,7 +107,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -167,7 +167,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -227,7 +227,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -289,7 +289,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (4 code files).",
   "status": "active",
@@ -349,7 +349,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -409,7 +409,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -463,7 +463,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (15 code files, scripts/ directory present).",
   "status": "active",
@@ -522,7 +522,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -581,7 +581,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -641,7 +641,7 @@
    "Includes Scripts",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files, scripts/ directory present).",
   "status": "active",
@@ -694,7 +694,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (8 code files, scripts/ directory present).",
   "status": "active",
@@ -748,7 +748,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (15 code files, scripts/ directory present).",
   "status": "active",
@@ -807,7 +807,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (10 code files, scripts/ directory present).",
   "status": "active",
@@ -866,7 +866,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (4 code files).",
   "status": "active",
@@ -926,7 +926,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -984,7 +984,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files, scripts/ directory present).",
   "status": "active",
@@ -1043,7 +1043,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (4 code files, scripts/ directory present).",
   "status": "active",
@@ -1096,7 +1096,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (12 code files, scripts/ directory present).",
   "status": "active",
@@ -1154,7 +1154,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -1212,7 +1212,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -1272,7 +1272,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -1332,7 +1332,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -1389,7 +1389,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -1445,7 +1445,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -1502,7 +1502,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -1559,7 +1559,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -1616,7 +1616,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -1672,7 +1672,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (9 code files, scripts/ directory present).",
   "status": "active",
@@ -1729,7 +1729,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -1785,7 +1785,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -1842,7 +1842,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -1899,7 +1899,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -1956,7 +1956,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -2015,7 +2015,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (8 code files, scripts/ directory present).",
   "status": "active",
@@ -2072,7 +2072,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -2132,7 +2132,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2189,7 +2189,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (15 code files, scripts/ directory present).",
   "status": "active",
@@ -2249,7 +2249,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2308,7 +2308,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2367,7 +2367,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2426,7 +2426,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2485,7 +2485,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2543,7 +2543,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files, scripts/ directory present).",
   "status": "active",
@@ -2600,7 +2600,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2658,7 +2658,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2715,7 +2715,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -2775,7 +2775,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2833,7 +2833,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (6 code files, scripts/ directory present).",
   "status": "active",
@@ -2890,7 +2890,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -2947,7 +2947,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (4 code files, scripts/ directory present).",
   "status": "active",
@@ -3005,7 +3005,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3065,7 +3065,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3122,7 +3122,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -3179,7 +3179,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -3238,7 +3238,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -3296,7 +3296,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3357,7 +3357,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3416,7 +3416,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -3473,7 +3473,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -3530,7 +3530,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (3 code files, scripts/ directory present).",
   "status": "active",
@@ -3588,7 +3588,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (3 code files, scripts/ directory present).",
   "status": "active",
@@ -3641,7 +3641,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3695,7 +3695,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files).",
   "status": "active",
@@ -3747,7 +3747,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3799,7 +3799,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3851,7 +3851,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3905,7 +3905,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -3959,7 +3959,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (90 code files, scripts/ directory present).",
   "status": "active",
@@ -4013,7 +4013,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4066,7 +4066,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4140,7 +4140,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4211,7 +4211,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4282,7 +4282,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4353,7 +4353,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4423,7 +4423,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4494,7 +4494,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4565,7 +4565,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4636,7 +4636,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4707,7 +4707,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4777,7 +4777,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4847,7 +4847,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4917,7 +4917,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -4988,7 +4988,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5059,7 +5059,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5131,7 +5131,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (5 code files, scripts/ directory present).",
   "status": "active",
@@ -5201,7 +5201,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5272,7 +5272,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5342,7 +5342,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5413,7 +5413,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5477,7 +5477,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5543,7 +5543,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5597,7 +5597,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5651,7 +5651,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5705,7 +5705,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5761,7 +5761,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5813,7 +5813,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (3 code files, scripts/ directory present).",
   "status": "active",
@@ -5868,7 +5868,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5921,7 +5921,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -5975,7 +5975,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -6028,7 +6028,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -6082,7 +6082,7 @@
    "Includes Scripts",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files, scripts/ directory present).",
   "status": "active",
@@ -6135,7 +6135,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -6188,7 +6188,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -6242,7 +6242,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (3 code files, scripts/ directory present).",
   "status": "active",
@@ -6319,7 +6319,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -6397,7 +6397,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -6474,7 +6474,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -6550,7 +6550,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files, scripts/ directory present).",
   "status": "active",
@@ -6626,7 +6626,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -6702,7 +6702,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files, scripts/ directory present).",
   "status": "active",
@@ -6778,7 +6778,7 @@
    "Includes Scripts",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (6 code files, scripts/ directory present).",
   "status": "active",
@@ -6855,7 +6855,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -6932,7 +6932,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7009,7 +7009,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7085,7 +7085,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (3 code files, scripts/ directory present).",
   "status": "active",
@@ -7163,7 +7163,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7238,7 +7238,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7314,7 +7314,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (8 code files, scripts/ directory present).",
   "status": "active",
@@ -7391,7 +7391,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7468,7 +7468,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7544,7 +7544,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -7622,7 +7622,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7699,7 +7699,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7777,7 +7777,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (6 code files).",
   "status": "active",
@@ -7853,7 +7853,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -7929,7 +7929,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (5 code files, scripts/ directory present).",
   "status": "active",
@@ -8005,7 +8005,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8081,7 +8081,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (14 code files, scripts/ directory present).",
   "status": "active",
@@ -8159,7 +8159,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8235,7 +8235,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8305,7 +8305,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8375,7 +8375,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8445,7 +8445,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8515,7 +8515,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8585,7 +8585,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8656,7 +8656,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8726,7 +8726,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8796,7 +8796,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8866,7 +8866,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -8937,7 +8937,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9022,7 +9022,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9109,7 +9109,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9195,7 +9195,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9280,7 +9280,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9365,7 +9365,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9450,7 +9450,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9535,7 +9535,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9619,7 +9619,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9704,7 +9704,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9788,7 +9788,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9873,7 +9873,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -9957,7 +9957,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10043,7 +10043,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10126,7 +10126,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -10211,7 +10211,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10295,7 +10295,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10380,7 +10380,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10465,7 +10465,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10549,7 +10549,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10634,7 +10634,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10719,7 +10719,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10804,7 +10804,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10888,7 +10888,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -10973,7 +10973,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11058,7 +11058,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11128,7 +11128,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11199,7 +11199,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11269,7 +11269,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11340,7 +11340,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11410,7 +11410,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11481,7 +11481,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11552,7 +11552,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11622,7 +11622,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11692,7 +11692,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11763,7 +11763,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11833,7 +11833,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11904,7 +11904,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -11974,7 +11974,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12045,7 +12045,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12115,7 +12115,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12194,7 +12194,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12273,7 +12273,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12352,7 +12352,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12431,7 +12431,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12510,7 +12510,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12588,7 +12588,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12667,7 +12667,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12746,7 +12746,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12825,7 +12825,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12904,7 +12904,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -12984,7 +12984,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -13064,7 +13064,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -13148,7 +13148,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (22 code files, scripts/ directory present).",
   "status": "active",
@@ -13218,7 +13218,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -13290,7 +13290,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -13361,7 +13361,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -13432,7 +13432,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -13504,7 +13504,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -13575,7 +13575,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -13646,7 +13646,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files, scripts/ directory present).",
   "status": "active",
@@ -13717,7 +13717,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (3 code files, scripts/ directory present).",
   "status": "active",
@@ -13789,7 +13789,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (36 code files, scripts/ directory present).",
   "status": "active",
@@ -13862,7 +13862,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -13933,7 +13933,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files, scripts/ directory present).",
   "status": "active",
@@ -14016,7 +14016,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (4 code files, scripts/ directory present).",
   "status": "active",
@@ -14099,7 +14099,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -14183,7 +14183,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -14267,7 +14267,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (0 code files, scripts/ directory present).",
   "status": "active",
@@ -14351,7 +14351,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -14435,7 +14435,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -14519,7 +14519,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -14603,7 +14603,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (0 code files, scripts/ directory present).",
   "status": "active",
@@ -14686,7 +14686,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files).",
   "status": "active",
@@ -14769,7 +14769,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -14853,7 +14853,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -14937,7 +14937,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -15020,7 +15020,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -15103,7 +15103,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -15186,7 +15186,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -15240,7 +15240,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -15292,7 +15292,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file, scripts/ directory present).",
   "status": "active",
@@ -15345,7 +15345,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -15399,7 +15399,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -15451,7 +15451,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (2 code files).",
   "status": "active",
@@ -15503,7 +15503,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -15556,7 +15556,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -15610,7 +15610,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -15661,7 +15661,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains slash commands, subagents; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -15712,7 +15712,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 1 skill; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -15763,7 +15763,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 1 skill, slash commands; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -15815,7 +15815,7 @@
    "Includes Scripts",
    "Uses Hooks"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 1 skill, subagents, hooks; 22 code files, hooks present, scripts/ present.",
   "status": "active",
@@ -15867,7 +15867,7 @@
    "Includes Scripts",
    "Uses Hooks"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains slash commands, subagents, hooks; 60 code files, hooks present, scripts/ present.",
   "status": "active",
@@ -15918,7 +15918,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains slash commands; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -15969,7 +15969,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains subagents; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16020,7 +16020,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains slash commands; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16072,7 +16072,7 @@
    "Includes Scripts",
    "Uses Hooks"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains hooks; 1 code file, hooks present.",
   "status": "active",
@@ -16123,7 +16123,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains slash commands, subagents; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16174,7 +16174,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 1 skill; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16226,7 +16226,7 @@
    "Includes Scripts",
    "Uses Hooks"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 1 skill, slash commands, subagents, hooks; 10 code files, hooks present.",
   "status": "active",
@@ -16278,7 +16278,7 @@
    "Includes Scripts",
    "Uses Hooks"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains hooks; 1 code file, hooks present.",
   "status": "active",
@@ -16329,7 +16329,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 1 skill; 2 code files, scripts/ present.",
   "status": "active",
@@ -16380,7 +16380,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 2 skills, subagents; 1 code file, scripts/ present.",
   "status": "active",
@@ -16431,7 +16431,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 3 skills; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16482,7 +16482,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 1 skill; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16533,7 +16533,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 7 skills, slash commands, subagents; 10 code files, scripts/ present.",
   "status": "active",
@@ -16584,7 +16584,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains slash commands, subagents; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16636,7 +16636,7 @@
    "Includes Scripts",
    "Uses Hooks"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains slash commands, hooks; 2 code files, hooks present, scripts/ present.",
   "status": "active",
@@ -16688,7 +16688,7 @@
    "Includes Scripts",
    "Uses Hooks"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains hooks; 35 code files, hooks present.",
   "status": "active",
@@ -16739,7 +16739,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 1 skill, subagents; 10 code files, scripts/ present.",
   "status": "active",
@@ -16790,7 +16790,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 9 skills, slash commands, subagents; 1 code file.",
   "status": "active",
@@ -16841,7 +16841,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 8 skills, subagents; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16892,7 +16892,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 3 skills, slash commands, subagents; no executable code files, hooks or scripts/ directory found.",
   "status": "active",
@@ -16943,7 +16943,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Plugin folder contains 4 skills, subagents; 1 code file, scripts/ present.",
   "status": "active",
@@ -16995,7 +16995,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17047,7 +17047,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17099,7 +17099,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17151,7 +17151,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17203,7 +17203,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17255,7 +17255,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17307,7 +17307,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17359,7 +17359,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17411,7 +17411,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17463,7 +17463,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17515,7 +17515,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17567,7 +17567,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17619,7 +17619,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17671,7 +17671,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17723,7 +17723,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17775,7 +17775,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17827,7 +17827,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17879,7 +17879,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17931,7 +17931,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -17983,7 +17983,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -18035,7 +18035,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -18087,7 +18087,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -18139,7 +18139,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -18191,7 +18191,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -18243,7 +18243,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -18295,7 +18295,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -18347,7 +18347,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single .mdc rule file (text instructions). No code files.",
   "status": "active",
@@ -18404,7 +18404,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18461,7 +18461,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18518,7 +18518,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18575,7 +18575,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18632,7 +18632,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18689,7 +18689,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18746,7 +18746,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18803,7 +18803,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18860,7 +18860,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18917,7 +18917,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -18974,7 +18974,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -19031,7 +19031,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -19088,7 +19088,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -19145,7 +19145,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -19202,7 +19202,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Single Markdown instruction file. No code files.",
   "status": "active",
@@ -19253,7 +19253,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Listed folder or file contains Markdown prompts only; no code files in the listed path.",
   "status": "active",
@@ -19304,7 +19304,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Listed folder or file contains Markdown prompts only; no code files in the listed path.",
   "status": "active",
@@ -19355,7 +19355,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-18",
   "scan_notes": "Listed folder or file contains Markdown prompts only; no code files in the listed path.",
   "status": "active",
@@ -19425,7 +19425,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -19500,7 +19500,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -19575,7 +19575,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -19649,7 +19649,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -19729,7 +19729,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (13 code files).",
   "status": "active",
@@ -19810,7 +19810,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -19884,7 +19884,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -19957,7 +19957,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -20030,7 +20030,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -20103,7 +20103,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -20176,7 +20176,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (3 code files).",
   "status": "active",
@@ -20249,7 +20249,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -20323,7 +20323,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -20398,7 +20398,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -20472,7 +20472,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -20532,7 +20532,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -20593,7 +20593,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -20654,7 +20654,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -20715,7 +20715,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (9 code files).",
   "status": "active",
@@ -20776,7 +20776,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -20838,7 +20838,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -20900,7 +20900,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -20962,7 +20962,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21024,7 +21024,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21086,7 +21086,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21147,7 +21147,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21209,7 +21209,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21270,7 +21270,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21331,7 +21331,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21392,7 +21392,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21453,7 +21453,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21514,7 +21514,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21575,7 +21575,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21636,7 +21636,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21698,7 +21698,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21761,7 +21761,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21823,7 +21823,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21885,7 +21885,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -21947,7 +21947,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22009,7 +22009,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22072,7 +22072,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22139,7 +22139,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -22207,7 +22207,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22275,7 +22275,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22342,7 +22342,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (2 code files).",
   "status": "active",
@@ -22409,7 +22409,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (2 code files).",
   "status": "active",
@@ -22476,7 +22476,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (3 code files).",
   "status": "active",
@@ -22549,7 +22549,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22623,7 +22623,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22697,7 +22697,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22771,7 +22771,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22844,7 +22844,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22917,7 +22917,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -22990,7 +22990,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23056,7 +23056,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (44 code files).",
   "status": "active",
@@ -23111,7 +23111,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23166,7 +23166,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23221,7 +23221,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23294,7 +23294,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23367,7 +23367,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23440,7 +23440,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23513,7 +23513,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23586,7 +23586,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23647,7 +23647,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23708,7 +23708,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23769,7 +23769,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23830,7 +23830,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23892,7 +23892,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -23953,7 +23953,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24014,7 +24014,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24075,7 +24075,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24136,7 +24136,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24197,7 +24197,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24258,7 +24258,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24319,7 +24319,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24380,7 +24380,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24441,7 +24441,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24502,7 +24502,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24563,7 +24563,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24625,7 +24625,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24686,7 +24686,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24765,7 +24765,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24844,7 +24844,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24921,7 +24921,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files found in the skill folder.",
   "status": "active",
@@ -24991,7 +24991,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25061,7 +25061,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25131,7 +25131,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25201,7 +25201,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25271,7 +25271,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25341,7 +25341,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25411,7 +25411,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25481,7 +25481,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25551,7 +25551,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25621,7 +25621,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25691,7 +25691,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25763,7 +25763,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25835,7 +25835,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25907,7 +25907,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -25979,7 +25979,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26051,7 +26051,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26124,7 +26124,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26197,7 +26197,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26270,7 +26270,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26342,7 +26342,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26415,7 +26415,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (7 code files).",
   "status": "active",
@@ -26487,7 +26487,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26560,7 +26560,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (3 code files).",
   "status": "active",
@@ -26632,7 +26632,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26704,7 +26704,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (4 code files).",
   "status": "active",
@@ -26777,7 +26777,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26851,7 +26851,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (14 code files).",
   "status": "active",
@@ -26925,7 +26925,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -26997,7 +26997,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -27069,7 +27069,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27141,7 +27141,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27213,7 +27213,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27285,7 +27285,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27357,7 +27357,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27429,7 +27429,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27502,7 +27502,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27574,7 +27574,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27647,7 +27647,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27719,7 +27719,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27792,7 +27792,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27864,7 +27864,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -27931,7 +27931,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28005,7 +28005,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28078,7 +28078,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28151,7 +28151,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28223,7 +28223,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28295,7 +28295,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28367,7 +28367,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28440,7 +28440,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28512,7 +28512,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28585,7 +28585,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28658,7 +28658,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28726,7 +28726,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28799,7 +28799,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -28872,7 +28872,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -28946,7 +28946,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (42 code files).",
   "status": "active",
@@ -29022,7 +29022,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (3 code files).",
   "status": "active",
@@ -29094,7 +29094,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (7 code files).",
   "status": "active",
@@ -29166,7 +29166,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -29238,7 +29238,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (3 code files).",
   "status": "active",
@@ -29311,7 +29311,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (5 code files).",
   "status": "active",
@@ -29384,7 +29384,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (6 code files).",
   "status": "active",
@@ -29456,7 +29456,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (6 code files).",
   "status": "active",
@@ -29528,7 +29528,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -29601,7 +29601,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (5 code files).",
   "status": "active",
@@ -29674,7 +29674,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (4 code files).",
   "status": "active",
@@ -29746,7 +29746,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -29818,7 +29818,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -29891,7 +29891,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (6 code files).",
   "status": "active",
@@ -29963,7 +29963,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (3 code files).",
   "status": "active",
@@ -30035,7 +30035,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30107,7 +30107,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30180,7 +30180,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30253,7 +30253,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30326,7 +30326,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30398,7 +30398,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30470,7 +30470,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -30542,7 +30542,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30611,7 +30611,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (6 code files).",
   "status": "active",
@@ -30683,7 +30683,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30757,7 +30757,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30829,7 +30829,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30901,7 +30901,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -30973,7 +30973,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31046,7 +31046,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31119,7 +31119,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31191,7 +31191,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31263,7 +31263,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31335,7 +31335,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31407,7 +31407,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31479,7 +31479,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31551,7 +31551,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (10 code files).",
   "status": "active",
@@ -31619,7 +31619,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (10 code files).",
   "status": "active",
@@ -31686,7 +31686,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (3 code files).",
   "status": "active",
@@ -31754,7 +31754,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (4 code files).",
   "status": "active",
@@ -31827,7 +31827,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -31899,7 +31899,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -31972,7 +31972,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32044,7 +32044,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32117,7 +32117,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32189,7 +32189,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32261,7 +32261,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32334,7 +32334,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32406,7 +32406,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32478,7 +32478,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32551,7 +32551,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -32624,7 +32624,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (8 code files).",
   "status": "active",
@@ -32696,7 +32696,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -32769,7 +32769,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (4 code files).",
   "status": "active",
@@ -32841,7 +32841,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32913,7 +32913,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -32985,7 +32985,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -33057,7 +33057,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -33129,7 +33129,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (12 code files).",
   "status": "active",
@@ -33201,7 +33201,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -33273,7 +33273,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (25 code files).",
   "status": "active",
@@ -33345,7 +33345,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -33417,7 +33417,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -33491,7 +33491,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (15 code files).",
   "status": "active",
@@ -33564,7 +33564,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -33637,7 +33637,7 @@
    "Includes Scripts",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (8 code files).",
   "status": "active",
@@ -33710,7 +33710,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -33784,7 +33784,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -33859,7 +33859,7 @@
    "Instructions Only",
    "Uses Network"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -33931,7 +33931,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34004,7 +34004,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34079,7 +34079,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34152,7 +34152,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34225,7 +34225,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34297,7 +34297,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -34369,7 +34369,7 @@
   "safety_labels": [
    "Includes Scripts"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "Script or code files found in the skill folder (1 code file).",
   "status": "active",
@@ -34442,7 +34442,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34518,7 +34518,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34587,7 +34587,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34661,7 +34661,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34736,7 +34736,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34809,7 +34809,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34884,7 +34884,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -34958,7 +34958,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35031,7 +35031,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35105,7 +35105,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35178,7 +35178,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35251,7 +35251,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35325,7 +35325,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35398,7 +35398,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35471,7 +35471,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35546,7 +35546,7 @@
    "Uses Network",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35620,7 +35620,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35693,7 +35693,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35767,7 +35767,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35840,7 +35840,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35913,7 +35913,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -35987,7 +35987,7 @@
    "Instructions Only",
    "Needs Credentials"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -36060,7 +36060,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -36133,7 +36133,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -36206,7 +36206,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -36279,7 +36279,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -36352,7 +36352,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",
@@ -36425,7 +36425,7 @@
   "safety_labels": [
    "Instructions Only"
   ],
-  "review_status": "Not Reviewed",
+  "review_status": "Third-Party",
   "scan_date": "2026-10-19",
   "scan_notes": "No scripts/ directory and no executable code files in the skill folder.",
   "status": "active",

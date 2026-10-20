@@ -3,7 +3,7 @@ import fs from 'node:fs';
 const d = JSON.parse(fs.readFileSync('data/skills.json','utf8'));
 const FORMATS=['agent-skill','plugin','cursor-rule','agents-md','prompt-pack','legacy-gpt'];
 const PLATS=['claude-code','claude-apps','claude-api','chatgpt','codex','gemini-app','gemini-cli','antigravity','cursor','github-copilot','kiro','opencode','goose','openclaw','langchain-deep-agents','crewai','microsoft-agent-framework','any-skills-client','any-model'];
-const REVIEW=['Not Reviewed','Reviewed','Review Flagged'];
+const REVIEW=['Third-Party','Reviewed','Review Flagged'];
 const STATUS=['active','stale','broken','archived'];
 const req={slug:'string',name:'string',title:'string',summary:'string',category:'string',tags:'array',author:'string',author_url:'string',source_url:'string',repo:'string',reviewed_commit:'string',format:'string',platforms_declared:'array',platforms_tested:'array',runtime_needs:'array',install:'array',license:'string',uses_network:'boolean',needs_credentials:'boolean',safety_labels:'array',review_status:'string',scan_date:'string',scan_notes:'string',status:'string',last_verified:'string',price:'string'};
 const errs=[];const seen=new Set();const e=(s,m)=>errs.push(`${s.slug||'?'}: ${m}`);

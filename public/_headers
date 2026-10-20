@@ -5,3 +5,7 @@
 
 /download/*
   X-Robots-Tag: noindex
+
+/advertise/details/*
+  X-Robots-Tag: noindex
+  Referrer-Policy: no-referrer

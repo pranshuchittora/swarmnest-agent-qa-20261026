@@ -1,8 +1,8 @@
 ---
 import '../styles.css';
 import { SITE } from '../lib/data';
-interface Props { title: string; description: string; path: string; jsonld?: object[]; type?: string; }
-const { title, description, path, jsonld = [], type = 'website' } = Astro.props;
+interface Props { title: string; description: string; path: string; jsonld?: object[]; type?: string; noindex?: boolean; }
+const { title, description, path, jsonld = [], type = 'website', noindex = false } = Astro.props;
 const canonical = SITE + path;
 const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarmnest',url:SITE,logo:SITE+'/icon-512.png',email:'hello@swarmnest.ai',description:'A directory of tools, APIs, data sources and Agent Skills for AI agents, with use cases, agent templates and a marketplace of tested skill packs and workflows.' };
 const site = { '@context':'https://schema.org','@type':'WebSite',name:'Swarmnest',url:SITE,potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:SITE+'/search/?q={search_term_string}'},'query-input':'required name=search_term_string'} };
@@ -14,6 +14,7 @@ const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title>
 <meta name="description" content={description}>
+{noindex && <meta name="robots" content="noindex, nofollow">}
 <link rel="canonical" href={canonical}>
 <link rel="icon" href="/favicon.ico?v=3" sizes="48x48">
 <link rel="icon" href="/favicon-48.png?v=3" type="image/png" sizes="48x48">

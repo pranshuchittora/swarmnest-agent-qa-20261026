@@ -9,7 +9,7 @@ function val(el){return el?el.value:''}
 function pass(e){var p=scope.plat||val(sp);if(p&&e.plats.indexOf(' '+p+' ')<0)return false;var os=val(so);if(os){var l=(' '+e.os.toLowerCase()+' ');if(os==='any'){if(e.os)return false}else if(l.indexOf(' '+os+' ')<0)return false}return true}
 function badge(t,c){var b=document.createElement('span');b.className='badge'+(c?' '+c:'');b.textContent=t;return b}
 function card(e){var a=document.createElement('a');a.className='card';a.href=e.path;var h=document.createElement('h3');h.textContent=e.name;var p=document.createElement('p');p.textContent=e.description;
-a.append(h,p,badge(e.pricing==='s'?'Includes Scripts':e.pricing==='i'?'Instructions Only':'Scripts Unknown',e.pricing==='s'?'warn':e.pricing==='i'?'ok':''),badge('Not Reviewed'),badge(e.fmtname));if(e.os)e.os.split(' ').forEach(function(o){a.append(badge(o,'os'))});return a}
+a.append(h,p,badge(e.pricing==='s'?'Includes Scripts':e.pricing==='i'?'Instructions Only':'Scripts Unknown',e.pricing==='s'?'warn':e.pricing==='i'?'ok':''),badge('Third-Party'),badge(e.fmtname));if(e.os)e.os.split(' ').forEach(function(o){a.append(badge(o,'os'))});return a}
 function apply(){var term=q.value.trim(),fm=scope.fmt||val(sf),sc=val(sx),pl=scope.plat||val(sp),os=val(so),active=term||fm||sc||pl||os;
 if(!active){out.hidden=true;out.replaceChildren();if(list)list.hidden=false;st.textContent='';return}
 load().then(function(){if(q.value.trim()!==term)return;var o={};if(scope.cat)o.category=scope.cat;if(fm)o.auth=fm;if(sc)o.pricing=sc;

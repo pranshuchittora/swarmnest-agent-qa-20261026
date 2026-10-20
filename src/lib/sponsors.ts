@@ -1,6 +1,6 @@
 import raw from '../../data/sponsors.json';
 import { PRODUCTS } from './content';
-export type Sponsor = { name: string; headline: string; text: string; url: string; start?: string; end?: string; order?: string };
+export type Sponsor = { name: string; headline: string; text: string; url: string; logo?: string; banner?: string; start?: string; end?: string; order?: string };
 const today = new Date().toISOString().slice(0, 10);
 const live = (s: Sponsor | null | undefined): s is Sponsor => !!s && !!s.url && /^https?:\/\//.test(s.url) && (!s.start || s.start <= today) && (!s.end || today <= s.end);
 const R = raw as unknown as { sitewide: Sponsor | null; categories: Record<string, Sponsor>; featured: Record<string, Sponsor | Sponsor[]> };
