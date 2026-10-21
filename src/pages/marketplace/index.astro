@@ -9,7 +9,6 @@ const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest ma
 <Base title="Marketplace for AI Agent Skills, Workflows and Prompt Packs | Swarmnest" description={`Twelve tested agent skills, workflows and prompt packs, plus three bundles, built by Swarmnest, from $9. ${LAUNCH?'Instant download after purchase.':'Coming soon.'}`} path="/marketplace/" jsonld={ld}>
 <h1>Marketplace</h1>
 <p class="lead">Skills, workflows and prompt packs for AI agents, made by Swarmnest. {LAUNCH ? 'Pay once, get an instant download (readable files plus a zip). One-time price, personal and commercial use. We currently sell to customers in the United States only.' : 'Launching soon. Prices are shown below.'}</p>
-<div class="notice">Looking for free skills from other creators? Browse the <a href="/agent-skills/">Agent Skills directory</a>. It is a separate, free index; everything on this page is made and sold by Swarmnest.</div>
 <h2>Products</h2>
 <div class="grid">{PRODUCTS.filter(p=>!p.bundle).map(p=><a class="card" href={`/marketplace/${p.slug}/`}><h3>{p.title}</h3><p class="small">{p.type} · <strong>{p.price}</strong>{LAUNCH ? '' : ' · coming soon'}</p><p>{p.summary}</p></a>)}</div>
 <h2>Bundles</h2>
