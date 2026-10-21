@@ -3788,3 +3788,6 @@
 200 https://locallyai.app/
 200 https://github.com/johnmai-dev/ChatMLX
 200 https://github.com/arcee-ai/fastmlx
+200 https://xquik.com
+200 https://robottraining.jobs
+200 https://www.bluedoai.com/

@@ -49502,5 +49502,44 @@
   "http_status": 200,
   "last_checked_at": "2026-10-14",
   "status": "active"
+ },
+ {
+  "name": "Xquik",
+  "slug": "xquik",
+  "category": "social-media-apis",
+  "description": "An independent X (Twitter) data service for searching posts, exporting followers and replies, and fetching profiles through a REST API, SDKs, signed webhooks and a remote MCP server for agents.",
+  "url": "https://xquik.com",
+  "docs_url": "https://docs.xquik.com",
+  "auth": "key",
+  "pricing": "paid",
+  "http_status": 200,
+  "last_checked_at": "2026-10-14",
+  "status": "active"
+ },
+ {
+  "name": "RobotTraining.jobs",
+  "slug": "robottrainingjobs",
+  "category": "job-search-apis",
+  "description": "A job board for robot operator, teleoperation and robot-training data roles, with a keyless remote MCP server and open JSON and CSV feeds of current listings.",
+  "url": "https://robottraining.jobs",
+  "docs_url": "https://robottraining.jobs/data",
+  "auth": "none",
+  "pricing": "free",
+  "http_status": 200,
+  "last_checked_at": "2026-10-14",
+  "status": "active"
+ },
+ {
+  "name": "BlueDoAI Model API",
+  "slug": "bluedoai-model-api",
+  "category": "llm-apis",
+  "description": "An OpenAI-compatible gateway to Chinese models such as DeepSeek, Kimi and GLM under one API key, billed by usage in CNY, with a separate task API for video generation.",
+  "url": "https://www.bluedoai.com/",
+  "docs_url": "https://www.bluedoai.com/api-access/",
+  "auth": "key",
+  "pricing": "paid",
+  "http_status": 200,
+  "last_checked_at": "2026-10-14",
+  "status": "active"
  }
 ]

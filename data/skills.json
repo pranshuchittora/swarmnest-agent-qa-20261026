@@ -36438,5 +36438,209 @@
    "iOS"
   ],
   "os_reason": "Ships iOS and Mac apps through App Store Connect."
+ },
+ {
+  "slug": "rivalsee-botsee",
+  "name": "botsee",
+  "title": "BotSee",
+  "summary": "BotSee is a skill for measuring how a brand shows up in AI assistant answers, published by RivalSee in the botsee-skill repository. It runs question benchmarks across models and returns competitor, keyword and cited-source records through the BotSee API. It ships with code the agent may run.",
+  "category": "Marketing Skills",
+  "tags": [
+   "rivalsee",
+   "agent-skill",
+   "ai-seo",
+   "marketing"
+  ],
+  "author": "RivalSee",
+  "author_url": "https://github.com/RivalSee",
+  "source_url": "https://github.com/RivalSee/botsee-skill/tree/main/skills/botsee",
+  "repo": "RivalSee/botsee-skill",
+  "path_in_repo": "skills/botsee",
+  "reviewed_commit": "2591a14584d8b0b599360870898bd0ea17543f16",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "python"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/botsee/ in your project, or ~/.claude/skills/botsee/ for all projects."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add RivalSee/botsee-skill --skill botsee"
+   }
+  ],
+  "license": "MIT",
+  "redistributable": true,
+  "has_scripts": true,
+  "uses_network": true,
+  "needs_credentials": true,
+  "safety_labels": [
+   "Includes Scripts",
+   "Uses Network",
+   "Needs Credentials"
+  ],
+  "review_status": "Third-Party",
+  "scan_date": "2026-10-20",
+  "scan_notes": "Script or code files found in the skill folder (1 code file). Calls the BotSee API and needs a BotSee API key; hosted usage is billed in credits.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-20",
+  "price": "free",
+  "pairs_with": [],
+  "os": []
+ },
+ {
+  "slug": "xcrawl-api-xcrawl",
+  "name": "xcrawl",
+  "title": "XCrawl",
+  "summary": "XCrawl is a skill for scraping, crawling, mapping and searching the web through the XCrawl web data API, published by XCrawl in the xcrawl-skills repository. It returns clean JSON or Markdown and links to sibling skills for scrape, map, crawl and search. It is instructions only.",
+  "category": "Browser Automation Skills",
+  "tags": [
+   "xcrawl",
+   "agent-skill",
+   "web-scraping",
+   "crawling"
+  ],
+  "author": "XCrawl",
+  "author_url": "https://github.com/xcrawl-api",
+  "source_url": "https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills/xcrawl",
+  "repo": "xcrawl-api/xcrawl-skills",
+  "path_in_repo": "skills/xcrawl",
+  "reviewed_commit": "768158d9cd1e318742845b2eb7b9b37ae75f2c27",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "openclaw",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/xcrawl/ in your project, or ~/.claude/skills/xcrawl/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/xcrawl/ in your repo, or ~/.agents/skills/xcrawl/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/xcrawl/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add xcrawl-api/xcrawl-skills --skill xcrawl"
+   }
+  ],
+  "license": "None Stated",
+  "redistributable": false,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": true,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network",
+   "Needs Credentials"
+  ],
+  "review_status": "Third-Party",
+  "scan_date": "2026-10-20",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder. The instructions have the agent run curl or node requests against the XCrawl API using a key stored in ~/.xcrawl/config.json.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-20",
+  "price": "free",
+  "pairs_with": [],
+  "os": []
+ },
+ {
+  "slug": "vectoreeai-vectoree",
+  "name": "vectoree",
+  "title": "Vectoree",
+  "summary": "Vectoree is a skill for giving a coding agent a backend, published by Vectoree in the vectoree-skills repository. It connects a project to model calls through an OpenAI-compatible gateway, app-user auth, Postgres and object storage using the Vectoree CLI. It is instructions only.",
+  "category": "AI App Building Skills",
+  "tags": [
+   "vectoree",
+   "agent-skill",
+   "backend",
+   "ai"
+  ],
+  "author": "Vectoree",
+  "author_url": "https://github.com/VectoreeAI",
+  "source_url": "https://github.com/VectoreeAI/vectoree-skills/tree/main/skills/vectoree",
+  "repo": "VectoreeAI/vectoree-skills",
+  "path_in_repo": "skills/vectoree",
+  "reviewed_commit": "dd95eb4a610946014dda7c4ea4cce49af70a74c9",
+  "format": "agent-skill",
+  "spec_valid": true,
+  "platforms_declared": [
+   "claude-code",
+   "codex",
+   "cursor",
+   "any-skills-client"
+  ],
+  "platforms_tested": [],
+  "runtime_needs": [
+   "none"
+  ],
+  "install": [
+   {
+    "platform": "claude-code",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .claude/skills/vectoree/ in your project, or ~/.claude/skills/vectoree/ for all projects."
+   },
+   {
+    "platform": "codex",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .agents/skills/vectoree/ in your repo, or ~/.agents/skills/vectoree/ for personal use."
+   },
+   {
+    "platform": "cursor",
+    "method": "copy-folder",
+    "steps": "Copy the skill folder into .cursor/skills/vectoree/ (Cursor also reads .agents/skills/ and .claude/skills/)."
+   },
+   {
+    "platform": "any-skills-client",
+    "method": "cli",
+    "steps": "npx skills add VectoreeAI/vectoree-skills --skill vectoree"
+   }
+  ],
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "has_scripts": false,
+  "uses_network": true,
+  "needs_credentials": true,
+  "safety_labels": [
+   "Instructions Only",
+   "Uses Network",
+   "Needs Credentials"
+  ],
+  "review_status": "Third-Party",
+  "scan_date": "2026-10-20",
+  "scan_notes": "No scripts/ directory and no executable code files found in the skill folder. The instructions have the agent run the Vectoree CLI (npx @vectoree/cli), which needs a Vectoree account; usage is billed from a prepaid wallet.",
+  "status": "active",
+  "http_status": 200,
+  "last_verified": "2026-10-20",
+  "price": "free",
+  "pairs_with": [],
+  "os": []
  }
 ]
