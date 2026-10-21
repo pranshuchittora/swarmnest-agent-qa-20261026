@@ -31,3 +31,5 @@
 /marketplace/agent-templates-bundle /marketplace/agent-templates-pack/ 301
 /marketplace/agent-templates-bundle/ /marketplace/agent-templates-pack/ 301
 /directory/group/ /directory/ 301
+/directory/group/dev-infrastructure/ /directory/group/coding-developer-tools/ 301
+/directory/group/finance-markets/ /directory/group/business/ 301

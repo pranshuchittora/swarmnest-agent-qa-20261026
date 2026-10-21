@@ -1,0 +1,128 @@
+{
+ "imcp": [
+  "macOS"
+ ],
+ "peekaboo-mcp": [
+  "macOS"
+ ],
+ "macos-use-mcp-server": [
+  "macOS"
+ ],
+ "applescript-mcp": [
+  "macOS"
+ ],
+ "xcodebuildmcp-mobilebuildmcp": [
+  "macOS"
+ ],
+ "apple-events-mcp-server": [
+  "macOS"
+ ],
+ "mac-messages-mcp": [
+  "macOS"
+ ],
+ "things-mcp": [
+  "macOS"
+ ],
+ "apple-shortcuts-mcp-server": [
+  "macOS"
+ ],
+ "automation-mcp": [
+  "macOS"
+ ],
+ "apple-docs-mcp": [
+  "macOS"
+ ],
+ "che-ical-mcp": [
+  "macOS"
+ ],
+ "apple-music-mcp": [
+  "macOS"
+ ],
+ "claude-for-mac": [
+  "macOS"
+ ],
+ "chatgpt-for-mac": [
+  "macOS"
+ ],
+ "raycast-ai": [
+  "macOS"
+ ],
+ "boltai": [
+  "macOS"
+ ],
+ "fazm": [
+  "macOS"
+ ],
+ "elephas": [
+  "macOS"
+ ],
+ "enconvo": [
+  "macOS"
+ ],
+ "kerlig": [
+  "macOS"
+ ],
+ "alter": [
+  "macOS"
+ ],
+ "flowdown": [
+  "macOS"
+ ],
+ "cua": [
+  "macOS"
+ ],
+ "lume": [
+  "macOS"
+ ],
+ "turix-cua": [
+  "macOS"
+ ],
+ "agent-s": [
+  "macOS"
+ ],
+ "ui-tars-desktop": [
+  "macOS"
+ ],
+ "tart": [
+  "macOS"
+ ],
+ "open-interpreter": [
+  "macOS"
+ ],
+ "osaurus": [
+  "macOS"
+ ],
+ "enchanted": [
+  "macOS"
+ ],
+ "ollamac": [
+  "macOS"
+ ],
+ "mlx-vlm": [
+  "macOS"
+ ],
+ "mlx-swift": [
+  "macOS"
+ ],
+ "lm-studio-mlx-engine": [
+  "macOS"
+ ],
+ "vllm-mlx": [
+  "macOS"
+ ],
+ "apple-foundation-models-framework": [
+  "macOS"
+ ],
+ "private-llm": [
+  "macOS"
+ ],
+ "locally-ai": [
+  "macOS"
+ ],
+ "chatmlx": [
+  "macOS"
+ ],
+ "fastmlx": [
+  "macOS"
+ ]
+}

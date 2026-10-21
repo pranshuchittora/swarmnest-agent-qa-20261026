@@ -1,6 +1,8 @@
 // "Related on Swarmnest": one topic map that links the same idea across the Directory, Agent Skills,
 // the Marketplace, Use Cases and Agent Templates. Unknown slugs are dropped at build time.
 import { CATS } from './data';
+import catmap from '../../data/catmap.json';
+const CM = catmap as Record<string, string>;
 import { CATEGORIES } from './skills';
 import { PRODUCTS, USECASES, TEMPLATES } from './content';
 type Topic = { dir?: string[]; skills?: string[]; products?: string[]; usecases?: string[]; templates?: string[]; hub?: [string, string][] };
@@ -24,7 +26,7 @@ const TOPICS: Topic[] = [
   { dir: ['llm-apis', 'model-hosting-inference', 'local-inference', 'mac-local-llm-runners'], skills: ['ai-app-building-skills', 'machine-learning-skills'], products: ['agent-builder-bundle'] },
 ];
 export type RelLink = { href: string; name: string; kind: string };
-const dir = (s: string): RelLink | null => { const c = CATS.find((x) => x.slug === s); return c ? { href: `/directory/${s}/`, name: c.name, kind: 'Directory' } : null; };
+const dir = (s0: string): RelLink | null => { const s = CATS.some((x) => x.slug === s0) ? s0 : (CM[s0] || s0); const c = CATS.find((x) => x.slug === s); return c ? { href: `/directory/${s}/`, name: c.name, kind: 'Directory' } : null; };
 const skl = (s: string): RelLink | null => { const c = CATEGORIES.find((x) => x.slug === s); return c ? { href: `/agent-skills/category/${s}/`, name: c.name, kind: 'Agent Skills' } : null; };
 const prd = (s: string): RelLink | null => { const p = PRODUCTS.find((x) => x.slug === s); return p ? { href: `/marketplace/${s}/`, name: p.title, kind: `Marketplace · ${p.price}` } : null; };
 const uc = (s: string): RelLink | null => { const u = USECASES.find((x) => x.slug === s); return u ? { href: `/use-cases/${s}/`, name: u.name, kind: 'Use Case' } : null; };
@@ -32,7 +34,7 @@ const tpl = (s: string): RelLink | null => { const t = TEMPLATES.find((x) => x.s
 const linksOf = (t: Topic): RelLink[] => [
   ...(t.hub || []).map(([href, name]) => ({ href, name, kind: 'Hub' })),
   ...(t.products || []).map(prd), ...(t.skills || []).map(skl), ...(t.dir || []).map(dir), ...(t.usecases || []).map(uc), ...(t.templates || []).map(tpl),
-].filter(Boolean) as RelLink[];
+].filter((l, i, a) => l && a.findIndex((x) => x && x.href === l.href) === i) as RelLink[];
 // self: the current page path. Returns links from every topic that contains this page, without the page itself.
 export function relatedFor(self: string, max = 8): RelLink[] {
   const seen = new Set([self]); const out: RelLink[] = [];

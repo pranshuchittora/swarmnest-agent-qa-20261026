@@ -10,6 +10,15 @@ for (const line of raw) {
   const slug = slugify(name); if (seen.has(slug)) throw new Error('dup '+slug); seen.add(slug);
   out.push({ name, slug, category, description: d.join('|'), url, docs_url, auth, pricing, http_status: status[url] ?? null, last_checked_at: checked, status: 'active' });
 }
+// facets: operating systems (explicit tags in data/entry-os.json, else from the text) and open source
+const osOver = fs.existsSync('data/entry-os.json') ? JSON.parse(fs.readFileSync('data/entry-os.json','utf8')) : {};
+const OSRX = [['macOS',/\bMac\b|macOS|Mac OS|Apple Silicon|\bMLX\b/],['Windows',/\bWindows\b(?! of)/],['Linux',/\bLinux\b/],['iOS',/\biOS\b|\biPhone\b/],['Android',/\bAndroid\b/]];
+for (const e of out) {
+  const t = e.name+' '+e.description.replace(/context windows?|time windows?|browser windows?|screenshots and windows/gi,'');
+  const os = new Set(osOver[e.slug]||[]); for (const [n,rx] of OSRX) if (rx.test(t)) os.add(n);
+  e.os = [...os];
+  e.open_source = /^https?:\/\/(www\.)?(github\.com|gitlab\.com|codeberg\.org)\//.test(e.url) || /open[- ]source/i.test(e.description);
+}
 fs.writeFileSync('data/entries.json', JSON.stringify(out,null,1));
 console.log('entries', out.length);
 

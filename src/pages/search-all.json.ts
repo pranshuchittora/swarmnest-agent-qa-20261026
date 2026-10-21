@@ -6,13 +6,13 @@ import { PRODUCTS, USECASES, TEMPLATES } from '../lib/content';
 import { NAV_GROUPS, groupPath, groupForCat, catCount } from '../lib/nav';
 // Extra words people type for a category (synonyms). Matched like category text.
 const ALIAS: Record<string, string> = {
-  'mcp-servers': 'mcp model context protocol server servers', 'macos-mcp-servers': 'mcp mac macos apple', 'mcp-directories': 'mcp registry',
+  'mcp-servers': 'mcp model context protocol server servers mac macos', 'ai-tool-directories': 'mcp registry registries directory directories', 'agent-marketplaces': 'marketplace marketplaces api catalog',
   'llm-apis': 'llm llms large language model gpt claude gemini', 'ai-coding-assistants': 'coding agents code agent agents ai coding copilot',
   'vector-databases': 'vector db vectordb embeddings store', 'browser-automation': 'browser agent headless chrome playwright puppeteer',
   'text-to-speech': 'tts voice synthesis', 'speech-transcription': 'stt asr speech to text transcription', 'agent-frameworks': 'agent agents framework frameworks',
-  'mac-ai-agent-apps': 'mac macos apple desktop', 'mac-computer-use': 'mac macos computer use desktop control', 'mac-local-llm-runners': 'mac macos local llm ollama',
+  'mac-ai-agent-apps': 'mac macos apple desktop computer use control', 'search-apis': 'search engine engines serp google bing', 'captcha-bot-protection': 'captcha solver bot', 'form-builders': 'form forms survey surveys', 'stock-photos': 'icons fonts gif gifs images', 'recipes-cooking': 'food recipe recipes nutrition drinks cocktail beer', 'museum-collections': 'museum art library archive heritage', 'chat-platforms': 'slack discord telegram whatsapp team chat', 'code-security': 'vulnerability cve threat sast',
   'web-scraping-apis': 'scrape scraper crawler crawl', 'scraping-libraries': 'scrape scraper crawler crawl', 'code-execution': 'sandbox sandboxes code interpreter',
-  'workflow-automation': 'zapier n8n automation automate', 'local-inference': 'local llm offline ollama', 'embeddings-rerankers': 'embedding embeddings rerank',
+  'workflow-automation': 'zapier n8n automation automate', 'local-inference': 'local llm offline ollama mlx mac macos', 'embeddings-rerankers': 'embedding embeddings rerank',
   'observability-evals': 'evals eval tracing monitoring llm', 'security-guardrails': 'guardrails safety prompt injection', 'ocr-document-parsing': 'ocr pdf parsing',
 };
 const SK_ALIAS: Record<string, string> = {

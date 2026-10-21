@@ -6,13 +6,13 @@
  },
  {
   "slug": "search-apis",
-  "name": "Search APIs",
-  "blurb": "Web search and retrieval endpoints that give agents fresh information."
+  "name": "Web Search APIs & Engines",
+  "blurb": "Web search and retrieval APIs that give agents fresh information, plus the public search engines behind them."
  },
  {
   "slug": "mcp-servers",
   "name": "MCP Servers",
-  "blurb": "Model Context Protocol servers and tooling that plug agents into other software."
+  "blurb": "Model Context Protocol servers and tooling that plug agents into other software, including Mac apps (use the macOS filter)."
  },
  {
   "slug": "agent-frameworks",
@@ -22,7 +22,7 @@
  {
   "slug": "open-data",
   "name": "Open Data",
-  "blurb": "Free datasets and public APIs covering knowledge, science, economics and more."
+  "blurb": "Open datasets, public APIs and government and city open data portals."
  },
  {
   "slug": "translation-apis",
@@ -32,7 +32,7 @@
  {
   "slug": "speech-transcription",
   "name": "Speech-to-Text & Transcription",
-  "blurb": "Speech recognition engines and transcription APIs."
+  "blurb": "Speech recognition engines, transcription APIs and speaker diarization toolkits."
  },
  {
   "slug": "text-to-speech",
@@ -116,13 +116,13 @@
  },
  {
   "slug": "fine-tuning",
-  "name": "Fine-Tuning & Training",
-  "blurb": "Libraries and services for fine-tuning, training and aligning models."
+  "name": "Training & Fine-Tuning",
+  "blurb": "Libraries, platforms and experiment tracking for training, fine-tuning and aligning models."
  },
  {
   "slug": "prompt-management",
-  "name": "Prompt Management",
-  "blurb": "Prompt registries, versioning, optimization and prompt-programming tools."
+  "name": "Prompt Management & Libraries",
+  "blurb": "Prompt registries, versioning and optimization tools, plus prompt collections and guides."
  },
  {
   "slug": "workflow-automation",
@@ -131,13 +131,13 @@
  },
  {
   "slug": "agent-protocols",
-  "name": "Agent Protocols",
-  "blurb": "Open protocols for agent-to-agent communication, tool use, and agent commerce."
+  "name": "Agent Protocols & Standards",
+  "blurb": "Open protocols and web standards for agent-to-agent communication, tool use and agent-readable sites."
  },
  {
   "slug": "agent-marketplaces",
-  "name": "Agent Marketplaces",
-  "blurb": "Marketplaces and registries where agents, skills and tools are published."
+  "name": "Agent & API Marketplaces",
+  "blurb": "Marketplaces and catalogs where agents, skills, tools and public APIs are published."
  },
  {
   "slug": "datasets",
@@ -156,8 +156,8 @@
  },
  {
   "slug": "calendars-scheduling",
-  "name": "Calendars & Scheduling",
-  "blurb": "Calendar and scheduling APIs for agents that book and manage time."
+  "name": "Calendars, Scheduling & Time",
+  "blurb": "Calendar, booking, time zone and holiday APIs for agents that manage time."
  },
  {
   "slug": "crm-sales",
@@ -171,8 +171,8 @@
  },
  {
   "slug": "support-helpdesk",
-  "name": "Support & Helpdesk",
-  "blurb": "Customer support and helpdesk platforms with APIs."
+  "name": "Customer Support & Live Chat",
+  "blurb": "Helpdesk platforms, website live chat and customer messaging with APIs."
  },
  {
   "slug": "project-management",
@@ -196,23 +196,13 @@
  },
  {
   "slug": "email-verification",
-  "name": "Email Verification",
-  "blurb": "APIs that validate and verify email addresses."
- },
- {
-  "slug": "email-testing",
-  "name": "Email Testing",
-  "blurb": "Local and hosted SMTP sandboxes for testing email."
+  "name": "Email Testing & Verification",
+  "blurb": "APIs that validate email addresses, and SMTP sandboxes for testing email."
  },
  {
   "slug": "meetings-conferencing",
-  "name": "Meetings & Conferencing",
-  "blurb": "Video meeting APIs, meeting bots and transcription."
- },
- {
-  "slug": "scheduling-time",
-  "name": "Time & Planning",
-  "blurb": "Time zones, holidays and AI planners."
+  "name": "Video Meetings & Conferencing",
+  "blurb": "Video meeting APIs, meeting bots and self-hostable video conferencing."
  },
  {
   "slug": "social-media-apis",
@@ -246,8 +236,8 @@
  },
  {
   "slug": "chat-platforms",
-  "name": "Chat Platforms",
-  "blurb": "Messaging platform APIs for building bots."
+  "name": "Team Chat & Messaging Platforms",
+  "blurb": "Messaging platform APIs for bots, and open, self-hostable team chat."
  },
  {
   "slug": "voice-agents",
@@ -257,17 +247,12 @@
  {
   "slug": "data-labeling",
   "name": "Data Labeling & Synthetic Data",
-  "blurb": "Annotation tools and synthetic-data generators."
- },
- {
-  "slug": "api-marketplaces",
-  "name": "API Marketplaces",
-  "blurb": "Marketplaces and catalogs of public APIs."
+  "blurb": "Annotation tools and generators for synthetic, fake and privacy-safe data."
  },
  {
   "slug": "ai-tool-directories",
-  "name": "AI Tool Directories",
-  "blurb": "Directories and launch platforms that list AI tools."
+  "name": "AI Tool & MCP Directories",
+  "blurb": "Directories, registries and launch platforms that list AI tools and MCP servers."
  },
  {
   "slug": "media-cdn",
@@ -275,14 +260,9 @@
   "blurb": "Media storage, transformation and delivery."
  },
  {
-  "slug": "vulnerability-intel",
-  "name": "Vulnerability & Threat Intel",
-  "blurb": "Vulnerability, malware and reputation data APIs."
- },
- {
   "slug": "code-security",
-  "name": "Code Security",
-  "blurb": "Static analysis, dependency and secret scanning."
+  "name": "Security Scanning & Threat Intel",
+  "blurb": "Static analysis, dependency and secret scanning, plus vulnerability and threat intelligence data."
  },
  {
   "slug": "secrets-management",
@@ -291,8 +271,8 @@
  },
  {
   "slug": "captcha-bot-protection",
-  "name": "CAPTCHA & Bot Protection",
-  "blurb": "CAPTCHA and bot-detection services."
+  "name": "CAPTCHA Solving & Bot Protection",
+  "blurb": "CAPTCHA and bot-detection services, and services that solve CAPTCHAs."
  },
  {
   "slug": "llm-benchmarks",
@@ -301,8 +281,8 @@
  },
  {
   "slug": "video-hosting",
-  "name": "Video Hosting",
-  "blurb": "Video hosting, encoding and delivery platforms with APIs."
+  "name": "Video Hosting & Streaming",
+  "blurb": "Video hosting, encoding, delivery and live streaming platforms with APIs."
  },
  {
   "slug": "avatar-video",
@@ -320,16 +300,6 @@
   "blurb": "Libraries for structured output and programming LLMs."
  },
  {
-  "slug": "prompt-libraries",
-  "name": "Prompt Libraries & Guides",
-  "blurb": "Prompt collections, guides and learning resources."
- },
- {
-  "slug": "ml-training-platforms",
-  "name": "ML Training Platforms",
-  "blurb": "Experiment tracking, notebooks and training infrastructure."
- },
- {
   "slug": "gpu-cloud",
   "name": "GPU Cloud",
   "blurb": "Rentable GPU compute for AI workloads."
@@ -337,7 +307,7 @@
  {
   "slug": "local-inference",
   "name": "Local Inference",
-  "blurb": "Run models locally on your own hardware."
+  "blurb": "Run models on your own hardware, including Apple Silicon Macs (use the macOS filter)."
  },
  {
   "slug": "workflow-orchestration",
@@ -348,21 +318,6 @@
   "slug": "visual-agent-builders",
   "name": "Visual Agent Builders",
   "blurb": "Drag-and-drop builders for agents and LLM flows."
- },
- {
-  "slug": "agent-standards-specs",
-  "name": "Agent Standards & Specs",
-  "blurb": "Web and API standards that make sites and tools agent-readable."
- },
- {
-  "slug": "agent-payment-protocols",
-  "name": "Agent Payment Protocols",
-  "blurb": "Protocols that let agents pay and transact."
- },
- {
-  "slug": "mcp-directories",
-  "name": "MCP Directories",
-  "blurb": "Registries and directories of MCP servers."
  },
  {
   "slug": "research-assistants",
@@ -410,34 +365,14 @@
   "blurb": "Mobile and web push notification services."
  },
  {
-  "slug": "live-chat-support",
-  "name": "Live Chat",
-  "blurb": "Website live chat and customer messaging widgets."
- },
- {
   "slug": "chat-sdks",
-  "name": "Chat SDKs",
-  "blurb": "Embeddable in-app chat and messaging SDKs."
- },
- {
-  "slug": "video-conferencing-oss",
-  "name": "Open Video Conferencing",
-  "blurb": "Self-hostable video conferencing."
- },
- {
-  "slug": "chat-bot-libraries",
-  "name": "Chat Bot Libraries",
-  "blurb": "Language wrappers and SDKs for building chat bots."
+  "name": "Chat SDKs & Bot Libraries",
+  "blurb": "Embeddable in-app chat SDKs and language libraries for building chat bots."
  },
  {
   "slug": "proxy-services",
   "name": "Proxies",
   "blurb": "Proxy networks and lists for web access."
- },
- {
-  "slug": "captcha-solvers",
-  "name": "CAPTCHA Solvers",
-  "blurb": "Services that solve CAPTCHAs."
  },
  {
   "slug": "scraping-libraries",
@@ -457,7 +392,7 @@
  {
   "slug": "agent-payments",
   "name": "Agent Payments",
-  "blurb": "Payment rails built for AI agents."
+  "blurb": "Payment rails and protocols that let AI agents pay and transact."
  },
  {
   "slug": "billing-invoicing",
@@ -466,13 +401,8 @@
  },
  {
   "slug": "site-search-engines",
-  "name": "Search Engines & Site Search",
+  "name": "Site Search",
   "blurb": "Self-hostable and hosted search engines for your own data."
- },
- {
-  "slug": "web-search-engines",
-  "name": "Public Web Search Engines",
-  "blurb": "Consumer web search engines."
  },
  {
   "slug": "knowledge-bases",
@@ -481,13 +411,8 @@
  },
  {
   "slug": "government-statistics",
-  "name": "Government Statistics",
-  "blurb": "Official national and international statistics APIs."
- },
- {
-  "slug": "open-data-portals",
-  "name": "Open Data Portals",
-  "blurb": "Government and city open data portals and catalogs."
+  "name": "Government & Public Health Statistics",
+  "blurb": "Official national, international and public health statistics APIs."
  },
  {
   "slug": "sports-data",
@@ -571,8 +496,8 @@
  },
  {
   "slug": "3d-graphics",
-  "name": "3D & Graphics",
-  "blurb": "3D engines and libraries for the web and desktop."
+  "name": "3D, Graphics & Animation",
+  "blurb": "3D engines, graphics and animation libraries for web, app and desktop."
  },
  {
   "slug": "company-registries",
@@ -681,23 +606,13 @@
  },
  {
   "slug": "stock-photos",
-  "name": "Stock Photos",
-  "blurb": "Free and licensed photo and image libraries with search APIs."
- },
- {
-  "slug": "gifs-stickers",
-  "name": "GIFs & Stickers",
-  "blurb": "Animated GIF, meme and sticker search APIs."
+  "name": "Stock Media & Design Assets",
+  "blurb": "Stock photos, GIFs, icons and web fonts with search APIs."
  },
  {
   "slug": "sound-effects-audio",
   "name": "Sound Effects & Audio Libraries",
   "blurb": "Royalty-free sound effects and audio clip libraries."
- },
- {
-  "slug": "team-chat",
-  "name": "Team Chat",
-  "blurb": "Open and self-hostable team chat platforms with bot and plugin APIs."
  },
  {
   "slug": "secure-messaging",
@@ -795,54 +710,19 @@
   "blurb": "Book metadata, ISBN lookup and public-domain ebook APIs."
  },
  {
-  "slug": "library-catalogs",
-  "name": "Library Catalogs & Archives",
-  "blurb": "National library, archive and digital library catalog APIs."
- },
- {
   "slug": "museum-collections",
-  "name": "Museum Collections",
-  "blurb": "Open art and museum collection APIs with images and metadata."
- },
- {
-  "slug": "cultural-heritage",
-  "name": "Cultural Heritage Aggregators",
-  "blurb": "Aggregated cultural collections and art vocabularies."
- },
- {
-  "slug": "nutrition-data",
-  "name": "Nutrition & Food Data",
-  "blurb": "Food products, ingredients and nutrient databases."
+  "name": "Museums, Libraries & Archives",
+  "blurb": "Museum, cultural heritage, library and archive collection APIs."
  },
  {
   "slug": "recipes-cooking",
-  "name": "Recipes & Cooking",
-  "blurb": "Recipe search and meal-planning APIs."
- },
- {
-  "slug": "drinks-beverages",
-  "name": "Drinks & Breweries",
-  "blurb": "Cocktail, beer and beverage data APIs."
+  "name": "Food, Drink & Nutrition",
+  "blurb": "Recipe, meal-planning, nutrition, cocktail and beverage data APIs."
  },
  {
   "slug": "form-builders",
-  "name": "Form Builders",
-  "blurb": "Hosted form builders with APIs for creating and reading forms."
- },
- {
-  "slug": "form-backends",
-  "name": "Form Backends",
-  "blurb": "Endpoints that receive and route HTML form submissions."
- },
- {
-  "slug": "survey-tools",
-  "name": "Survey Tools",
-  "blurb": "Survey platforms and research questionnaires with APIs."
- },
- {
-  "slug": "live-streaming",
-  "name": "Live Streaming Platforms",
-  "blurb": "Live video platforms with chat, stream and channel APIs."
+  "name": "Forms & Surveys",
+  "blurb": "Form builders, form backends and survey platforms with APIs."
  },
  {
   "slug": "media-servers",
@@ -865,11 +745,6 @@
   "blurb": "Drug, clinical trial and health-record standards and APIs."
  },
  {
-  "slug": "public-health-data",
-  "name": "Public Health Statistics",
-  "blurb": "Disease and population health statistics from agencies."
- },
- {
   "slug": "wearable-health-data",
   "name": "Wearable & Fitness Data",
   "blurb": "Wearable and fitness-device data aggregation APIs."
@@ -883,11 +758,6 @@
   "slug": "speech-datasets",
   "name": "Speech Datasets",
   "blurb": "Corpora and benchmarks for speech recognition and speaker research."
- },
- {
-  "slug": "speaker-diarization",
-  "name": "Speaker Diarization & Recognition",
-  "blurb": "Who-spoke-when and speaker verification toolkits."
  },
  {
   "slug": "travel-booking",
@@ -955,29 +825,9 @@
   "blurb": "Image recognition, object detection and segmentation APIs and libraries."
  },
  {
-  "slug": "icon-libraries",
-  "name": "Icon Libraries",
-  "blurb": "Open-source icon sets and icon search APIs for apps and websites."
- },
- {
-  "slug": "web-fonts",
-  "name": "Web Fonts",
-  "blurb": "Font catalogs, font APIs and open-source type foundries for the web."
- },
- {
-  "slug": "web-animation",
-  "name": "Web Animation",
-  "blurb": "Animation libraries, runtimes and motion tools for web and app interfaces."
- },
- {
   "slug": "diagrams-whiteboards",
   "name": "Diagrams & Whiteboards",
   "blurb": "Diagram-as-code tools, whiteboards and canvas SDKs for visual thinking."
- },
- {
-  "slug": "synthetic-data",
-  "name": "Synthetic Data",
-  "blurb": "Generators and platforms for synthetic, fake and privacy-safe test data."
  },
  {
   "slug": "nonprofit-charity-apis",
@@ -985,23 +835,8 @@
   "blurb": "Nonprofit registries, charity ratings and donation APIs."
  },
  {
-  "slug": "macos-mcp-servers",
-  "name": "macOS MCP Servers",
-  "blurb": "MCP servers that connect agents to Mac apps and system features such as Messages, Calendar, Reminders, Shortcuts, Xcode and the Accessibility API."
- },
- {
   "slug": "mac-ai-agent-apps",
-  "name": "Mac AI Agent Apps",
-  "blurb": "Native AI assistant and agent apps for macOS that work across your apps, files and screen."
- },
- {
-  "slug": "mac-computer-use",
-  "name": "Computer Use Tools for Mac",
-  "blurb": "Agents, drivers and virtual machines that let AI operate a Mac desktop by seeing the screen and using the mouse and keyboard."
- },
- {
-  "slug": "mac-local-llm-runners",
-  "name": "Local LLM Runners for Mac",
-  "blurb": "Apps, servers and libraries for running language models on Apple Silicon Macs, most built on MLX or Apple frameworks."
+  "name": "Mac Agent Apps & Computer Use",
+  "blurb": "Native AI agent apps for macOS, and computer-use agents and tools that operate a desktop by seeing the screen."
  }
 ]

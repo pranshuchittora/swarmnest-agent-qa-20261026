@@ -19,6 +19,8 @@ const desc = `${e.name}: ${e.description}`.slice(0,155);
 <tr><th>Category</th><td><a href={`/directory/${e.category}/`}>{cn}</a></td></tr>
 <tr><th>Authentication</th><td>{authLabel[e.auth]}</td></tr>
 <tr><th>Pricing</th><td>{priceLabel[e.pricing]}</td></tr>
+{e.open_source && <tr><th>Source</th><td>Open Source</td></tr>}
+{(e.os||[]).length>0 && <tr><th>Operating System</th><td>{e.os.map(o=><a class="badge os" href={`/directory/${e.category}/?os=${o}`}>{o}</a>)}</td></tr>}
 <tr><th>Website</th><td><a href={e.url} rel="noopener nofollow">{e.url}</a></td></tr>
 <tr><th>Docs</th><td><a href={e.docs_url} rel="noopener nofollow">{e.docs_url}</a></td></tr>
 <tr><th>Last checked</th><td>{e.last_checked_at}</td></tr>

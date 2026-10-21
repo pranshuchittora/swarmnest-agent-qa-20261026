@@ -1,0 +1,20 @@
+---
+// Static, client-side filters for directory category and group pages (public/dir-filters.js). No Functions, no KV.
+import type { Entry } from '../lib/data';
+const { entries, mode = 'cat', label = 'Search This Category', placeholder = 'Search…' } = Astro.props as { entries: Entry[]; mode?: 'cat'|'group'; label?: string; placeholder?: string };
+const OS_ORDER = ['macOS','Windows','Linux','iOS','Android'];
+const osList = OS_ORDER.filter(o => entries.some(e => (e.os||[]).includes(o)));
+const has = (k: string, v: string) => entries.some(e => (e as any)[k] === v);
+const hasOss = entries.some(e => e.open_source);
+---
+<form id="df" class="cs js-only" role="search" aria-label={label} hidden onsubmit="return false" data-mode={mode}>
+{mode === 'cat' && <><label for="cq" class="cs-l">{label}</label>
+<input id="cq" type="search" placeholder={placeholder} autocomplete="off" enterkeyhint="search"></>}
+{mode === 'group' && <p class="cs-l">Filter Tools in This Group</p>}
+<div class="ss-sel">
+<label>Pricing <select data-f="p"><option value="">All</option>{has('pricing','free') && <option value="free">Free</option>}{has('pricing','freemium') && <option value="freemium">Freemium</option>}{has('pricing','paid') && <option value="paid">Paid</option>}{hasOss && <option value="oss">Open Source</option>}</select></label>
+<label>Auth <select data-f="a"><option value="">All</option>{has('auth','none') && <option value="none">No Auth</option>}{has('auth','key') && <option value="key">API Key</option>}{has('auth','oauth') && <option value="oauth">OAuth</option>}</select></label>
+{osList.length > 0 && <label>OS <select data-f="os"><option value="">All</option>{osList.map(o => <option value={o}>{o}</option>)}</select></label>}
+</div>
+<p id="cs-status" class="small" role="status" aria-live="polite"></p>
+</form>
