@@ -1,8 +1,10 @@
 ---
+import Crumbs from '../../components/Crumbs.astro';
 import Base from '../../layouts/Base.astro';
 import { LEGAL } from '../../lib/legal';
 ---
 <Base title="Legal | Swarmnest" description="Terms, privacy, refunds, licensing, disclosure, API terms and takedown policies for swarmnest.ai." path="/legal/">
+<Crumbs items={[['Home','/'],['Legal']]} />
 <h1>Legal</h1>
 <p class="lead">The policies that apply to swarmnest.ai, written in plain English.</p>
 <p class="small">Last updated Oct 18, 2026. Swarmnest is operated from California, USA. Contact: <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a>.</p>

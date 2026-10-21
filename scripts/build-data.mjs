@@ -41,10 +41,13 @@ const freq = new Map(); const bump=(w,n)=>{ if(w.length>=3 && !/^[0-9]+$/.test(w
 for (const e of out) { tok(e.name).forEach(w=>bump(w,6)); }
 for (const c of cats) { tok(c.name).forEach(w=>bump(w,8)); tok(c.slug).forEach(w=>bump(w,2)); }
 for (const e of out) { tok(e.description).forEach(w=>bump(w,1)); }
+try { const sk=JSON.parse(fs.readFileSync('data/skills.json','utf8')); const arr=Array.isArray(sk)?sk:(sk.skills||[]); for (const x of arr) { tok(x.title||'').forEach(w=>bump(w,4)); tok(x.category||'').forEach(w=>bump(w,4)); } } catch {}
+for (const w of ['macos','mcp','swiftui','xcode','marketplace','template','templates','skills','pack','bundle']) bump(w,10);
 const vocab=[...freq].filter(([w,f])=>f>=3).sort((a,b)=>b[1]-a[1]||(a[0]<b[0]?-1:1));
 fs.writeFileSync('public/search-vocab.json', JSON.stringify(vocab));
 const core=fs.readFileSync('search/core.js','utf8'), ui=fs.readFileSync('search/ui.js','utf8');
 fs.writeFileSync('public/search.js', core+'\n'+ui);
+fs.writeFileSync('public/search-all.js', core+'\n'+fs.readFileSync('search/ui-all.js','utf8'));
 fs.mkdirSync('functions/_lib',{recursive:true});
 fs.writeFileSync('functions/_lib/search-core.js', core+'\nexport default SwarmSearchCore;\n');
 console.log('vocab', vocab.length);

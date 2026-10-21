@@ -1,0 +1,11 @@
+---
+import { relatedFor } from '../lib/related';
+const { self, max = 8 } = Astro.props;
+const links = relatedFor(self, max);
+---
+{links.length > 0 && (
+<section class="related" aria-labelledby="related-h">
+<h2 id="related-h">Related on Swarmnest</h2>
+<ul>{links.map((l) => <li><a href={l.href}><span class="rn">{l.name}</span><span class="rk">{l.kind}</span></a></li>)}</ul>
+</section>
+)}

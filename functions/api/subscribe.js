@@ -32,6 +32,6 @@ export async function onRequestPost({ request, env }) {
 function reply(request, status, message) {
   const accept = request.headers.get('accept') || '';
   if (accept.includes('application/json')) return Response.json({ ok: status < 400, message }, { status });
-  const html = `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Swarmnest</title><body style="font-family:system-ui;max-width:32rem;margin:4rem auto;padding:0 1rem"><p>${message}</p><p><a href="/">Back to Swarmnest</a></p></body>`;
+  const html = `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta name="color-scheme" content="dark"><title>Swarmnest</title><body style="font-family:system-ui;max-width:32rem;margin:4rem auto;padding:0 1rem;background:#0b0f17;color:#e5e7eb"><style>a{color:#fbbf24}</style><p>${message}</p><p><a href="/">Back to Swarmnest</a></p></body>`;
   return new Response(html, { status, headers: { 'content-type': 'text/html; charset=utf-8' } });
 }

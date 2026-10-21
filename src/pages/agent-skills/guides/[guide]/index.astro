@@ -1,4 +1,5 @@
 ---
+import Crumbs from '../../../../components/Crumbs.astro';
 import Base from '../../../../layouts/Base.astro';
 import { GUIDES, SITE, SKILLS } from '../../../../lib/skills';
 export function getStaticPaths(){ return GUIDES.map(g=>({params:{guide:g.slug},props:{g}})); }
@@ -8,7 +9,7 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 {'@context':'https://schema.org','@type':'Article',headline:g.title,description:g.blurb,dateModified:g.updated,datePublished:g.updated,author:{'@type':'Organization',name:'Swarmnest'},mainEntityOfPage:SITE+path}];
 ---
 <Base title="Migrate a Custom GPT to a Skill (Before Dec 11, 2026) | Swarmnest" description="Custom GPTs retire on Dec 11, 2026. What transfers, what does not, and how to turn your GPT's instructions into a skill or plugin. Free guide." path={path} jsonld={ld} type="article">
-<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › <a href="/agent-skills/guides/">Guides</a> › {g.title}</p>
+<Crumbs items={[['Home','/'],['Agent Skills','/agent-skills/'],['Guides','/agent-skills/guides/'],[g.title]]} />
 <h1>{g.title}</h1>
 <p class="small">Updated {g.updated}. Facts below come from OpenAI's own help pages, linked at the end. Dates are OpenAI's planned dates and can change, so check the notice for your account.</p>
 <div class="notice"><strong>Key Dates (Planned, per OpenAI).</strong> <strong>Oct 26, 2026:</strong> creation of new custom GPTs ends. Drafts you want to migrate must be published first. Existing, unmigrated GPTs can still be edited. <strong>Dec 11, 2026:</strong> custom GPTs and their pages become inaccessible. <strong>Feb 11, 2027:</strong> only for Enterprise workspaces with an approved deferral.</div>

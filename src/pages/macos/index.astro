@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import SkillCard from '../../components/SkillCard.astro';
+import { CATS, byCat, SITE } from '../../lib/data';
+import { SKILLS, CATEGORIES, OS_USED } from '../../lib/skills';
+import { PRODUCTS, USECASES, TEMPLATES } from '../../lib/content';
+const dirCats = ['macos-mcp-servers','mac-ai-agent-apps','mac-computer-use','mac-local-llm-runners'].map(s=>CATS.find(c=>c.slug===s)).filter(Boolean) as typeof CATS;
+const skCats = ['apple-macos-skills','swift-swiftui-and-xcode-skills','mac-automation-skills','mac-admin-skills','mac-computer-use-skills','homebrew-skills','app-store-connect-skills','apple-ios-skills'].map(s=>CATEGORIES.find(c=>c.slug===s)).filter(Boolean) as typeof CATEGORIES;
+const macSkills = OS_USED.find(o=>o.name==='macOS')?.count || 0;
+const pack = PRODUCTS.find(p=>p.slug==='macos-app-dev-skills-pack');
+const ucs = ['build-and-ship-a-mac-app','automate-your-mac'].map(s=>USECASES.find(u=>u.slug===s)).filter(Boolean) as typeof USECASES;
+const tps = ['mac-app-developer','mac-automation-assistant'].map(s=>TEMPLATES.find(t=>t.slug===s)).filter(Boolean) as typeof TEMPLATES;
+const picks = SKILLS.filter(s=>s.category==='Apple macOS Skills').slice(0,4);
+const nDir = dirCats.reduce((n,c)=>n+byCat(c.slug).length,0);
+const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'macOS Hub',item:SITE+'/macos/'}]},
+{'@context':'https://schema.org','@type':'CollectionPage',name:'macOS Hub for AI Agents',url:SITE+'/macos/',description:'Mac tools, MCP servers, Agent Skills, use cases and the macOS App Development Skills Pack.'}];
+---
+<Base title="macOS Hub: Mac MCP Servers, Agent Skills and Tools for AI Agents | Swarmnest" description={`Everything for AI agents on the Mac in one place: ${nDir} Mac tools and MCP servers, ${macSkills} macOS Agent Skills, use cases, templates and the macOS App Development Skills Pack.`} path="/macos/" jsonld={ld}>
+<Crumbs items={[['Home','/'],['macOS Hub']]} />
+<h1>macOS Hub</h1>
+<p class="lead">Tools, MCP servers, Agent Skills and packs for running and building with AI agents on the Mac.</p>
+<ul class="chips" aria-label="Jump To"><li><a href="#mac-tools">Mac Tools</a></li><li><a href="#mac-skills">macOS Skills</a></li><li><a href="#mac-pack">macOS Pack</a></li><li><a href="#mac-uses">Use Cases</a></li></ul>
+<h2 id="mac-tools">Mac Tools in the Directory</h2>
+<ul class="catlist">{dirCats.map(c=><li><a href={`/directory/${c.slug}/`}><span>{c.name}<span class="g">{c.blurb}</span></span><span class="n">{byCat(c.slug).length}</span></a></li>)}</ul>
+<h2 id="mac-skills">macOS Agent Skills</h2>
+<p><a class="btn" href="/agent-skills/?os=macos">All {macSkills} macOS Skills</a></p>
+<ul class="catlist">{skCats.map(c=><li><a href={`/agent-skills/category/${c.slug}/`}><span>{c.name}</span><span class="n">{c.count}</span></a></li>)}</ul>
+{picks.length>0 && <div class="grid">{picks.map(s=><SkillCard s={s} />)}</div>}
+{pack && <>
+<h2 id="mac-pack">macOS App Development Skills Pack</h2>
+<a class="card" href={`/marketplace/${pack.slug}/`}><h3>{pack.title} · {pack.price}</h3><p>{pack.summary}</p><span class="badge t">Made by Swarmnest</span></a>
+</>}
+<h2 id="mac-uses">Use Cases and Templates</h2>
+<div class="grid">{ucs.map(u=><a class="card" href={`/use-cases/${u.slug}/`}><h3>{u.name}</h3><p>{u.goal}</p><span class="badge">Use Case</span></a>)}{tps.map(t=><a class="card" href={`/agent-templates/${t.slug}/`}><h3>{t.name}</h3><p>{t.role}</p><span class="badge">Agent Template</span></a>)}</div>
+</Base>

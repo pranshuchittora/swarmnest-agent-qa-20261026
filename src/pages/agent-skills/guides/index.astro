@@ -1,9 +1,10 @@
 ---
+import Crumbs from '../../../components/Crumbs.astro';
 import Base from '../../../layouts/Base.astro';
 import { GUIDES, SITE } from '../../../lib/skills';
 ---
 <Base title="Agent Skills Guides | Swarmnest" description="Free guides for moving to and working with agent skills, including migrating a Custom GPT." path="/agent-skills/guides/">
-<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › Guides</p>
+<Crumbs items={[['Home','/'],['Agent Skills','/agent-skills/'],['Guides']]} />
 <h1>Agent Skills Guides</h1>
 <div class="grid">{GUIDES.map(g=><a class="card" href={`/agent-skills/guides/${g.slug}/`}><h3>{g.title}</h3><p>{g.blurb}</p></a>)}</div>
 </Base>

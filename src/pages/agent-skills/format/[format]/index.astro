@@ -1,4 +1,5 @@
 ---
+import Crumbs from '../../../../components/Crumbs.astro';
 import Base from '../../../../layouts/Base.astro';
 import SkillCard from '../../../../components/SkillCard.astro';
 import SkillSearch from '../../../../components/SkillSearch.astro';
@@ -8,7 +9,7 @@ const { f } = Astro.props; const list = SKILLS.filter(s=>s.format===f.key);
 const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent Skills',item:SITE+'/agent-skills/'},{'@type':'ListItem',position:3,name:f.name,item:`${SITE}/agent-skills/format/${f.slug}/`}]},{'@context':'https://schema.org','@type':'ItemList',name:f.name,itemListElement:list.map((s,i)=>({'@type':'ListItem',position:i+1,url:SITE+skillPath(s),name:s.title}))}];
 ---
 <Base title={`${f.name} — ${list.length} Listings | Swarmnest`} description={`${f.blurb} ${list.length} listings.`.slice(0,155)} path={`/agent-skills/format/${f.slug}/`} jsonld={ld}>
-<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › {f.name}</p>
+<Crumbs items={[['Home','/'],['Agent Skills','/agent-skills/'],[f.name]]} />
 <h1>{f.name}</h1>
 <p class="lead">{f.blurb}</p>
 <p><strong>Portability:</strong> {f.portable}</p>

@@ -1,4 +1,5 @@
 ---
+import Crumbs from '../../../components/Crumbs.astro';
 import Base from '../../../layouts/Base.astro';
 import { ALL, catName, byCat, SITE, authLabel, priceLabel } from '../../../lib/data';
 export function getStaticPaths(){ return ALL.map(e=>({params:{category:e.category,slug:e.slug},props:{e}})); }
@@ -10,7 +11,7 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 const desc = `${e.name}: ${e.description}`.slice(0,155);
 ---
 <Base title={`${e.name} — ${cn} for AI Agents | Swarmnest`} description={desc} path={path} jsonld={ld}>
-<p class="crumbs"><a href="/">Home</a> › <a href="/directory/">Directory</a> › <a href={`/directory/${e.category}/`}>{cn}</a> › {e.name}</p>
+<Crumbs items={[['Home','/'],['Directory','/directory/'],[cn,`/directory/${e.category}/`],[e.name]]} />
 <h1>{e.name}</h1><p class="lead">{e.description}</p>
 <p><a class="btn" href={e.url} rel="noopener nofollow" target="_blank">Visit {e.name}</a><a class="btn alt" href={e.docs_url} rel="noopener nofollow" target="_blank">Docs</a></p>
 {(e.slug==='agent-skills'||e.slug==='agent-skills-specification')&&<p><a class="btn" href="/agent-skills/">Browse Agent Skills</a></p>}

@@ -1,4 +1,5 @@
 ---
+import Crumbs from '../../../../components/Crumbs.astro';
 import Base from '../../../../layouts/Base.astro';
 import SkillCard from '../../../../components/SkillCard.astro';
 import SkillSearch from '../../../../components/SkillSearch.astro';
@@ -9,7 +10,7 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 const note = p.slug==='any-skills-client' ? 'These are skills with no scripts or code, so they should work in any tool that reads the open SKILL.md format.' : p.slug==='any-model' ? 'Plain-text prompts that work with any chat model.' : `Listings whose source repository README mentions ${p.name} (platforms listed by the source; check the source for details).`;
 ---
 <Base title={`Skills For ${p.name} — ${list.length} Listings | Swarmnest`} description={`${list.length} skills, plugins, rules and templates that declare support for ${p.name}, with safety labels and source links.`} path={`/agent-skills/platform/${p.slug}/`} jsonld={ld}>
-<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › Skills For {p.name}</p>
+<Crumbs items={[['Home','/'],['Agent Skills','/agent-skills/'],[`Skills For ${p.name}`]]} />
 <h1>Skills For {p.name}</h1>
 <p class="lead">{list.length} listings. {note} JSON: <a href={`/api/v1/agent-skills/platform/${p.slug}.json`}>/api/v1/agent-skills/platform/{p.slug}.json</a></p>
 <SkillSearch plat={p.slug} label={`Search Skills For ${p.name}`} />

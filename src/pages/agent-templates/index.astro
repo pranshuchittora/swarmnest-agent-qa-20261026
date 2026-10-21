@@ -1,14 +1,19 @@
 ---
+import DirTabs from '../../components/DirTabs.astro';
+import Crumbs from '../../components/Crumbs.astro';
 import Base from '../../layouts/Base.astro';
 import { TEMPLATES, useCasesFor } from '../../lib/content';
 import { SITE } from '../../lib/data';
 const ld=[{'@context':'https://schema.org','@type':'CollectionPage',name:'AI agent templates',description:'Ready-made AI agent templates with instructions, guardrails, example prompts and tools.',url:SITE+'/agent-templates/'},
 {'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest agent templates',itemListElement:TEMPLATES.map((p,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/agent-templates/${p.slug}/`,name:p.name}))},
-{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent templates',item:SITE+'/agent-templates/'}]}];
+{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Directory',item:SITE+'/directory/'},{'@type':'ListItem',position:3,name:'Agent Templates',item:SITE+'/agent-templates/'}]}];
 ---
-<Base title="AI Agent Templates: Ready-Made Bots with Instructions and Tools | Swarmnest" description="Eight ready-made AI agent templates. Each has instructions you can paste into a system prompt, guardrails, example prompts, a persona and tone, and the tools it uses." path="/agent-templates/" jsonld={ld}>
+<Base title="AI Agent Templates: Ready-Made Bots with Instructions and Tools | Swarmnest" description={`${TEMPLATES.length} ready-made AI agent templates. Each has instructions you can paste into a system prompt, guardrails, example prompts, a persona and tone, and the tools it uses.`} path="/agent-templates/" jsonld={ld}>
+<Crumbs items={[['Home','/'],['Directory','/directory/'],['Agent Templates']]} />
 <h1>Agent Templates</h1>
-<p class="lead">Eight ready-made agents. Each template has instructions you can paste into a system prompt, guardrails, example prompts, a persona (the tone and character) and links to the tools it uses. Not sure which to pick? Start from a <a href="/use-cases/">use case</a>. Also available as <a href="/api/v1/agent-templates.json">JSON</a>.</p>
+<DirTabs active="templates" />
+<p class="lead">{TEMPLATES.length} ready-made agents. Each template has instructions you can paste into a system prompt, guardrails, example prompts, a persona (the tone and character) and links to the tools it uses. Not sure which to pick? Start from a <a href="/use-cases/">use case</a>. Also available as <a href="/api/v1/agent-templates.json">JSON</a>.</p>
+<h2 class="vh">All Agent Templates</h2>
 <div class="grid">{TEMPLATES.map(p=><a class="card" href={`/agent-templates/${p.slug}/`}><h3>{p.name}</h3><p>{p.role}</p><p class="small">Use cases: {useCasesFor(p.slug).map(u=>u.name).join(', ')}</p></a>)}</div>
 <p class="small">A downloadable <a href="/marketplace/agent-templates-pack/">Agent Templates Pack</a> is available in the marketplace.</p>
 </Base>

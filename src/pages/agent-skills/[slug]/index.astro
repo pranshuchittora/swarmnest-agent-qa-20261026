@@ -1,4 +1,5 @@
 ---
+import Crumbs from '../../../components/Crumbs.astro';
 import Base from '../../../layouts/Base.astro';
 import SkillCard from '../../../components/SkillCard.astro';
 import { SKILLS, SITE, fmtByKey, platName, labelsOf, slugify, skillPath, scriptsLabel, osOf, OS_ALL } from '../../../lib/skills';
@@ -12,7 +13,7 @@ const short = s.reviewed_commit.slice(0,7);
 const desc = `${s.title}: ${s.summary}`.slice(0,155);
 ---
 <Base title={`${s.title} — ${f.short} for ${s.category.replace(/ Skills$/,'')} | Swarmnest`} description={desc} path={path} jsonld={ld}>
-<p class="crumbs"><a href="/">Home</a> › <a href="/agent-skills/">Agent Skills</a> › <a href={`/agent-skills/category/${cs}/`}>{s.category}</a> › {s.title}</p>
+<Crumbs items={[['Home','/'],['Agent Skills','/agent-skills/'],[s.category,`/agent-skills/category/${cs}/`],[s.title]]} />
 <h1>{s.title}</h1><p class="lead">{s.summary}</p>
 <p>{osOf(s).map(o=><a class="badge os" href={`/agent-skills/?os=${o.toLowerCase()}`}>{o}</a>)}{l.map(x=><span class={`badge ${x==='Includes Scripts'||x==='Uses Network'||x==='Needs Credentials'||x==='Uses Hooks'?'warn':x==='Instructions Only'?'ok':''}`}>{x}</span>)}</p>
 {(s as any).os_reason&&<p class="small">{osOf(s).join(', ')}: {(s as any).os_reason}</p>}

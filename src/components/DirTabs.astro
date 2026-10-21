@@ -1,0 +1,7 @@
+---
+const { active } = Astro.props as { active: 'tools' | 'templates' };
+---
+<nav class="tabs" aria-label="Directory Sections">
+<a href="/directory/" aria-current={active === 'tools' ? 'page' : undefined}>Tools</a>
+<a href="/agent-templates/" aria-current={active === 'templates' ? 'page' : undefined}>Templates</a>
+</nav>

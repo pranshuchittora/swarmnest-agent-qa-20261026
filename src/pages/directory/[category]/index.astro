@@ -1,14 +1,18 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import SponsorSlot from '../../../components/SponsorSlot.astro';
+import Crumbs from '../../../components/Crumbs.astro';
+import Related from '../../../components/Related.astro';
+import { groupForCat, groupPath } from '../../../lib/nav';
 import { CATS, byCat, SITE, authLabel, priceLabel } from '../../../lib/data';
 export function getStaticPaths(){ return CATS.map(c=>({params:{category:c.slug},props:{c}})); }
 const { c } = Astro.props; const list = byCat(c.slug);
-const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Directory',item:SITE+'/directory/'},{'@type':'ListItem',position:3,name:c.name,item:`${SITE}/directory/${c.slug}/`}]},
+const grp = groupForCat(c.slug); const sib = grp ? grp.cats.filter(x=>x.slug!==c.slug) : [];
+const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Directory',item:SITE+'/directory/'},...(grp?[{'@type':'ListItem',position:3,name:grp.name,item:SITE+groupPath(grp.slug)}]:[]),{'@type':'ListItem',position:grp?4:3,name:c.name,item:`${SITE}/directory/${c.slug}/`}]},
 {'@context':'https://schema.org','@type':'ItemList',name:c.name,itemListElement:list.map((e,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/directory/${c.slug}/${e.slug}/`,name:e.name}))}];
 ---
 <Base title={`${c.name} for AI Agents — ${list.length} Tools | Swarmnest`} description={`${c.blurb} ${list.length} hand-checked entries with pricing and auth details.`} path={`/directory/${c.slug}/`} jsonld={ld}>
-<p class="crumbs"><a href="/">Home</a> › <a href="/directory/">Directory</a> › {c.name}</p>
+<Crumbs items={[['Home','/'],['Directory','/directory/'],...(grp?[[grp.name,groupPath(grp.slug)]]:[]),[c.name]] as [string,string?][]} />
 <h1>{c.name}</h1><p class="lead">{c.blurb}</p>
 <p class="small">JSON: <a href={`/api/v1/directory.json`}>/api/v1/directory.json</a> (filter on <code>category={c.slug}</code>)</p>
 <SponsorSlot key={`directory/${c.slug}`} />
@@ -18,9 +22,15 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <div class="cs-chips" role="group" aria-label="Filters"><button type="button" class="chip" data-f="pricing" data-v="free" aria-pressed="false">Free</button><button type="button" class="chip" data-f="auth" data-v="none" aria-pressed="false">No Auth</button></div>
 <p id="cs-status" class="small" role="status" aria-live="polite"></p>
 </form>
+<h2 class="vh">{c.name}</h2>
 <div id="cs-results" class="grid" hidden></div>
 <div class="grid" id="cs-list" data-cat={c.slug}>{list.map(e=><a class="card" data-pricing={e.pricing} data-auth={e.auth} href={`/directory/${c.slug}/${e.slug}/`}><h3>{e.name}</h3><p>{e.description}</p><span class="badge">{priceLabel[e.pricing]}</span><span class="badge">{authLabel[e.auth]}</span></a>)}</div>
-<style>.cs{margin:1rem 0}.cs-l{display:block;font-weight:600;margin-bottom:.4rem}.cs input[type=search]{width:100%;box-sizing:border-box;font-size:16px;padding:.7rem .8rem;border-radius:8px;border:1px solid #64748b;background:#0b1220;color:inherit}.cs-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0}.chip{font:inherit;font-size:16px;min-height:44px;padding:.4rem 1rem;border-radius:999px;border:1px solid #64748b;background:transparent;color:inherit;cursor:pointer}.chip[aria-pressed=true]{background:#f59e0b;border-color:#f59e0b;color:#0b1220;font-weight:600}.cs[hidden],.grid[hidden]{display:none}</style>
+{grp && sib.length>0 && <section aria-labelledby="more-h">
+<div class="grp-h"><h2 id="more-h">More in {grp.name}</h2><a class="small" href={groupPath(grp.slug)}>See the Group</a></div>
+<ul class="catlist c3">{sib.map(x=><li><a href={`/directory/${x.slug}/`}><span>{x.name}</span><span class="n">{x.count}</span></a></li>)}</ul>
+</section>}
+<Related self={`/directory/${c.slug}/`} max={6} />
+<style>.cs{margin:1rem 0}.cs-l{display:block;font-weight:600;margin-bottom:.4rem}.cs input[type=search]{width:100%;box-sizing:border-box;font-size:16px;padding:.7rem .8rem;border-radius:8px;border:1px solid #64748b;background:var(--card);color:var(--fg);color:inherit}.cs-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0}.chip{font:inherit;font-size:16px;min-height:44px;padding:.4rem 1rem;border-radius:999px;border:1px solid #64748b;background:transparent;color:inherit;cursor:pointer}.chip[aria-pressed=true]{background:#f59e0b;border-color:#f59e0b;color:#0b1220;font-weight:600}.cs[hidden],.grid[hidden]{display:none}</style>
 <script is:inline src="/search.js"></script>
 <script is:inline src="/category-search.js"></script>
 </Base>

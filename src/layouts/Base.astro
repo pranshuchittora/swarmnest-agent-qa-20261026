@@ -2,6 +2,7 @@
 import '../styles.css';
 import { SITE } from '../lib/data';
 import { LEGAL } from '../lib/legal';
+import { NAV_GROUPS, groupPath } from '../lib/nav';
 interface Props { title: string; description: string; path: string; jsonld?: object[]; type?: string; noindex?: boolean; }
 const { title, description, path, jsonld = [], type = 'website', noindex = false } = Astro.props;
 const canonical = SITE + path;
@@ -13,12 +14,14 @@ const NO_AD = ['/advertise/', '/advertise/details/', '/legal/', ...LEGAL.map(([u
 NO_AD.push('/support/', '/submit/', '/agent-skills/submit/', '/404/');
 const NO_AD_PREFIX = ['/marketplace/'];
 const showAd = !NO_AD.includes(path) && !NO_AD_PREFIX.some(p => path.startsWith(p) && path !== p);
+const sec = path.startsWith('/agent-skills/') ? 'skills' : path.startsWith('/marketplace/') ? 'market' : path.startsWith('/advertise/') ? 'adv' : (path.startsWith('/directory/') || path.startsWith('/agent-templates/') || path === '/macos/') ? 'dir' : '';
+const cur = (k: string) => (sec === k ? 'page' : undefined);
 const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" class="nojs">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><script is:inline>document.documentElement.className="js"</script><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title>
 <meta name="description" content={description}>
 {noindex && <meta name="robots" content="noindex, nofollow">}
@@ -30,7 +33,8 @@ const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 <link rel="icon" href="/icon-192.png?v=3" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3">
 <link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#111827">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0b0f17">
 <link rel="search" type="application/opensearchdescription+xml" title="Swarmnest" href="/opensearch.xml">
 <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt">
 <link rel="alternate" type="application/json" href="/directory.json" title="Directory (JSON)">
@@ -41,15 +45,59 @@ const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
 {ld.map(o => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
 </head>
 <body>
-<header class="top"><div class="wrap bar">
+<a class="skip" href="#main">Skip to Content</a>
+<header class="top" id="top">
+<div class="wrap bar">
+ <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="mmenu"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Menu</span></button>
  <a class="brand" href="/"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><use href="/favicon.svg#i"/></svg> Swarmnest</a>
- <nav><a href="/directory/">Directory</a><a href="/search/">Search</a><a href="/use-cases/">Use Cases</a><a href="/agent-templates/">Agent Templates</a><a href="/agent-skills/">Agent Skills</a><a href="/marketplace/">Marketplace</a><a href="/api/v1/directory.json">API</a><a href="/submit/">Submit a Tool</a></nav>
-</div></header>
-<main class="wrap"><slot /></main>
+ <nav class="mainnav" aria-label="Main">
+  <a class="nl nojs-only" href="/directory/" aria-current={cur('dir')}>Directory</a>
+  <button type="button" class="nl js-only dir-btn" id="dir-btn" aria-expanded="false" aria-controls="dpanel" aria-current={cur('dir') ? 'true' : undefined}>Directory <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+  <a class="nl" href="/agent-skills/" aria-current={cur('skills')}>Agent Skills</a>
+  <a class="nl" href="/marketplace/" aria-current={cur('market')}>Marketplace</a>
+  <a class="nl" href="/advertise/" aria-current={cur('adv')}>Advertise</a>
+ </nav>
+ <a class="search-btn" href="/search/" aria-current={path === '/search/' ? 'page' : undefined}><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Search</span></a>
+</div>
+<div class="dpanel" id="dpanel" hidden>
+ <div class="wrap">
+  <p class="dp-top"><a href="/directory/">Directory Home</a><a href="/directory/all-categories/">All Categories A–Z</a><a href="/agent-templates/">Agent Templates</a><a href="/macos/">macOS Hub</a></p>
+  <div class="dp-grid">{NAV_GROUPS.map((g) => (
+   <div class="dp-g"><a class="dp-gh" href={groupPath(g.slug)}>{g.name} <span>({g.total})</span></a>
+   <ul>{g.top.map((c) => <li><a href={`/directory/${c.slug}/`}>{c.name}</a></li>)}<li><a class="dp-all" href={groupPath(g.slug)}>All {g.cats.length} Categories</a></li></ul></div>
+  ))}</div>
+ </div>
+</div>
+<div class="mmenu" id="mmenu" hidden>
+ <div class="wrap">
+  <form class="mm-search" action="/search/" method="get" role="search" aria-label="Site Search"><label for="mm-q" class="vh">Search Swarmnest</label><input id="mm-q" name="q" type="search" placeholder="Search tools, skills and packs…" autocomplete="off" enterkeyhint="search"><button type="submit">Search</button></form>
+  <nav aria-label="Menu">
+  <h2 class="mm-h">Browse</h2>
+  <ul class="mm-list">
+   <li><a href="/directory/">Directory</a></li><li><a href="/agent-skills/">Agent Skills</a></li><li><a href="/marketplace/">Marketplace</a></li>
+   <li><a href="/use-cases/">Use Cases</a></li><li><a href="/agent-templates/">Agent Templates</a></li><li><a href="/macos/">macOS Hub</a></li><li><a href="/directory/all-categories/">All Categories A–Z</a></li>
+  </ul>
+  <h2 class="mm-h">Directory Groups</h2>
+  <ul class="mm-list">{NAV_GROUPS.map((g) => <li><a href={groupPath(g.slug)}>{g.name} <span class="mm-n">{g.total}</span></a></li>)}</ul>
+  <h2 class="mm-h">More</h2>
+  <ul class="mm-list">
+   <li><a href="/advertise/">Advertise</a></li><li><a href="/submit/">Submit a Tool</a></li><li><a href="/about/">About</a></li><li><a href="/support/">Support</a></li><li><a href="/api/v1/directory.json">API (JSON)</a></li>
+  </ul>
+  </nav>
+  <button type="button" class="mm-close" id="mm-close">Close Menu</button>
+ </div>
+</div>
+</header>
+<main class="wrap" id="main" tabindex="-1"><slot /></main>
 <footer><div class="wrap">
  {showAd && <div class="sponsor"><a href="/advertise/"><strong>Sponsor / Advertise</strong></a> — reach people building with AI agents. <a href="/advertise/">See Placements and Prices</a>.</div>}
+ <nav class="fcols" aria-label="Footer">
+  <div><h2>Explore</h2><ul><li><a href="/directory/">Directory</a></li><li><a href="/agent-skills/">Agent Skills</a></li><li><a href="/marketplace/">Marketplace</a></li><li><a href="/use-cases/">Use Cases</a></li><li><a href="/agent-templates/">Agent Templates</a></li><li><a href="/macos/">macOS Hub</a></li><li><a href="/directory/all-categories/">All Categories A–Z</a></li><li><a href="/search/">Search</a></li></ul></div>
+  <div><h2>For Developers</h2><ul><li><a href="/api/v1/directory.json">API (JSON)</a></li><li><a href="/openapi.json">OpenAPI</a></li><li><a href="/llms.txt">llms.txt</a></li><li><a href="/sitemap.xml">Sitemap</a></li><li><a href="/submit/">Submit a Tool</a></li><li><a href="/agent-skills/submit/">Submit a Skill</a></li></ul></div>
+  <div><h2>Company</h2><ul><li><a href="/about/">About</a></li><li><a href="/support/">Support</a></li><li><a href="/advertise/">Advertise</a></li><li><a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a></li></ul></div>
+ </nav>
  <p class="small">Swarmnest is not affiliated with the tools listed. Names and trademarks belong to their owners. Sponsored listings and affiliate links, if any, are labelled and never affect what we list or how we rank it. See our <a href="/disclosure/">Sponsored &amp; Affiliate Disclosure</a>.</p>
- <p class="small"><a href="/about/">About</a> · <a href="/support/">Support</a> · <a href="/submit/">Submit a Tool</a> · <a href="/agent-skills/">Agent Skills</a> · <a href="/agent-skills/category/apple-macos-skills/">macOS Skills</a> · <a href="/llms.txt">llms.txt</a> · <a href="/openapi.json">OpenAPI</a> · <a href="/search/">Search</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a></p>
- <p class="small"><a href="/legal/">Legal</a>: <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="/cookies/">Cookies</a> · <a href="/do-not-sell/">Do Not Sell or Share</a> · <a href="/acceptable-use/">Acceptable Use</a> · <a href="/license/">License</a> · <a href="/digital-products-disclaimer/">Digital Products Disclaimer</a> · <a href="/directory-disclaimer/">Directory Disclaimer</a> · <a href="/refunds/">Refunds</a> · <a href="/tax/">Sales Tax</a> · <a href="/disclosure/">Disclosure</a> · <a href="/sponsorship-terms/">Sponsorship Terms</a> · <a href="/api-terms/">API Terms</a> · <a href="/takedown/">Takedown</a> · <a href="/dmca/">DMCA</a> · <a href="/creator-agreement/">Creators</a> · <a href="/accessibility/">Accessibility</a></p>
+ <nav class="flegal" aria-label="Legal"><h2 class="vh">Legal</h2><ul><li><a href="/legal/">Legal</a></li>{LEGAL.map(([u, t]) => <li><a href={u}>{t}</a></li>)}</ul></nav>
 </div></footer>
+<script is:inline src="/nav.js"></script>
 </body></html>

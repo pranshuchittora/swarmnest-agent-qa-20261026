@@ -1,4 +1,5 @@
 ---
+import Crumbs from '../../components/Crumbs.astro';
 import Base from '../../layouts/Base.astro';
 import SkillCard from '../../components/SkillCard.astro';
 import SkillSearch from '../../components/SkillSearch.astro';
@@ -11,7 +12,7 @@ const feat = ['anthropics-skill-creator','openai-playwright','vercel-labs-react-
 const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Agent Skills',item:SITE+'/agent-skills/'}]},{'@context':'https://schema.org','@type':'CollectionPage',name:'Agent Skills Directory',url:SITE+'/agent-skills/',description:`${SKILLS.length} agent skills, plugins, rules and templates with safety labels.`}];
 ---
 <Base title="Agent Skills Directory — SKILL.md Skills, Plugins, Cursor Rules | Swarmnest" description={`Browse ${SKILLS.length} agent skills, plugin bundles, Cursor rules, AGENTS.md templates and prompt packs, with platform compatibility and Includes Scripts or Instructions Only labels.`} path="/agent-skills/" jsonld={ld}>
-<p class="crumbs"><a href="/">Home</a> › Agent Skills</p>
+<Crumbs items={[['Home','/'],['Agent Skills']]} />
 <h1>Agent Skills</h1>
 <p class="lead">{SKILLS.length} skills, plugins, rules and templates from official and well-known public sources. Every listing links to its source, shows which platforms say they support it, and says plainly whether it includes scripts. Every skill is made by its own developer, so review the source before installing; see our <a href="/directory-disclaimer/">Directory Disclaimer</a> and <a href="/terms/">Terms</a>.</p>
 <SkillSearch />

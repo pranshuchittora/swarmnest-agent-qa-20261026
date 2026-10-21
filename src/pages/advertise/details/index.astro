@@ -1,8 +1,9 @@
 ---
+import Crumbs from '../../../components/Crumbs.astro';
 import Base from '../../../layouts/Base.astro';
 ---
 <Base title="Ad Details | Swarmnest" description="Send the details for your Swarmnest sponsorship: brand name, headline, one sentence, destination link and logo." path="/advertise/details/" noindex>
-<p class="crumbs"><a href="/">Home</a> › <a href="/advertise/">Advertise</a> › Ad Details</p>
+<Crumbs items={[['Home','/'],['Advertise','/advertise/'],['Ad Details']]} />
 <h1>Ad Details</h1>
 <div class="adnote"><strong>Thank You, Your Order Is In.</strong> Nothing goes live until we review it, usually within 2 business days. If we decline it, you get a full refund. Fill in your ad below. You can come back with the link in your email and edit it until we approve it.</div>
 <p id="sd-status" class="small" role="status" aria-live="polite">Checking your order…</p>

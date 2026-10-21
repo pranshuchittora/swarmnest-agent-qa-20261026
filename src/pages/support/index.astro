@@ -1,8 +1,10 @@
 ---
+import Crumbs from '../../components/Crumbs.astro';
 import Base from '../../layouts/Base.astro';
 import { BILLING_PORTAL } from '../../lib/config';
 ---
 <Base title="Support" description="Get help with a Swarmnest purchase: download links, refunds, license questions and bugs. Email support@swarmnest.ai." path="/support/">
+<Crumbs items={[['Home','/'],['Support']]} />
 <h1>Support</h1>
 <p class="lead">Help with a Swarmnest purchase, download or product.</p>
 <p>Email <a href="mailto:support@swarmnest.ai?subject=Support%20request">support@swarmnest.ai</a>. Please include the email you used at checkout, the product name and your order reference (it is on your receipt). We aim to reply within 3 business days.</p>

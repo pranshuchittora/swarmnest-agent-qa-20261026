@@ -30,6 +30,7 @@
 /marketplace/persona-bundle/ /marketplace/agent-templates-pack/ 301
 /marketplace/agent-templates-bundle /marketplace/agent-templates-pack/ 301
 /marketplace/agent-templates-bundle/ /marketplace/agent-templates-pack/ 301
+/directory/group/ /directory/ 301
 /directory/art-museums/ /directory/museum-collections/ 301
 /directory/books-library/ /directory/books-apis/ 301
 /directory/comms/ /directory/email-apis/ 301

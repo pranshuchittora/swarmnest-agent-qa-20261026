@@ -1,13 +1,26 @@
 ---
+import Crumbs from '../components/Crumbs.astro';
 import Base from '../layouts/Base.astro';
-import { ALL, SITE } from '../lib/data';
+import { ALL, CATS } from '../lib/data';
+import { SKILLS } from '../lib/skills';
+import { CHIPS } from '../lib/nav';
 ---
-<Base title="Search the Directory | Swarmnest" description={`Search ${ALL.length} tools, APIs and data sources for AI agents by name, description or category.`} path="/search/">
-<p class="crumbs"><a href="/">Home</a> › Search</p>
-<h1>Search the Directory</h1>
-<p><input id="q" type="search" placeholder="Search tools, APIs, categories…" aria-label="Search the directory" autocomplete="off" autofocus></p>
-<p class="small">Agents: use <a href="/api/v1/search?q=translate">/api/v1/search?q=…</a> (JSON).</p>
+<Base title="Search Swarmnest: Tools, Categories, Agent Skills and Packs" description={`Search ${ALL.length} tools, ${CATS.length} categories, ${SKILLS.length} Agent Skills, Marketplace packs, use cases and agent templates for AI agents.`} path="/search/">
+<Crumbs items={[['Home','/'],['Search']]} />
+<h1>Search</h1>
+<form class="hsearch" action="/search/" method="get" role="search" aria-label="Search Swarmnest" onsubmit="return false">
+<label for="q" class="vh">Search tools, categories, skills and packs</label>
+<input id="q" name="q" type="search" placeholder="Search tools, MCP servers, skills…" autocomplete="off" enterkeyhint="search" autofocus>
+</form>
+<div class="sr-tabs" id="sr-tabs" role="group" aria-label="Filter Results">
+<button type="button" data-tab="all" aria-pressed="true">All</button><button type="button" data-tab="dir" aria-pressed="false">Directory</button><button type="button" data-tab="skills" aria-pressed="false">Agent Skills</button><button type="button" data-tab="market" aria-pressed="false">Marketplace</button>
+</div>
+<p id="q-status" class="vh" role="status" aria-live="polite"></p>
+<h2 class="vh">Results</h2>
 <div id="results" class="grid hidden"></div>
-<script is:inline src="/search.js"></script>
-<script is:inline>var q=document.getElementById('q');var u=new URLSearchParams(location.search).get('q');if(u)q.value=u;swarmSearch(q,document.getElementById('results'),{max:60});</script>
+<h2>Popular</h2>
+<ul class="chips">{CHIPS.map(c=><li><a href={c.href}>{c.name}</a></li>)}<li><a href="/macos/">macOS Hub</a></li><li><a href="/directory/all-categories/">All Categories A–Z</a></li></ul>
+<p class="small">Agents: use <a href="/api/v1/search?q=translate">/api/v1/search?q=…</a> (JSON, directory tools).</p>
+<script is:inline src="/search-all.js"></script>
+<script is:inline>(function(){var q=document.getElementById('q');var u=new URLSearchParams(location.search).get('q');if(u)q.value=u;var s=swarmSearchAll(q,document.getElementById('results'),{max:60,maxCats:8,more:false,status:document.getElementById('q-status'),tabs:document.getElementById('sr-tabs')});q.addEventListener('input',function(){var v=q.value.trim();history.replaceState(null,'',v?'?q='+encodeURIComponent(v):location.pathname)})})();</script>
 </Base>

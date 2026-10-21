@@ -3,37 +3,45 @@ import { LAUNCH } from '../lib/config';
 import SponsorSlot from '../components/SponsorSlot.astro';
 import { TEMPLATES, USECASES, PRODUCTS } from '../lib/content';
 import { SKILLS } from '../lib/skills';
+import Signup from '../components/Signup.astro';
+import Base from '../layouts/Base.astro';
+import { ALL, CATS } from '../lib/data';
+import { NAV_GROUPS, POPULAR_CATS, CHIPS, groupPath } from '../lib/nav';
 const nProducts = PRODUCTS.filter(p=>!p.bundle).length;
 const minPrice = Math.min(...PRODUCTS.map(p=>p.cents))/100;
-import Signup from '../components/Signup.astro';
-import Groups from '../components/Groups.astro';
-import Base from '../layouts/Base.astro';
-import { ALL, CATS, byCat } from '../lib/data';
 const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-server','langgraph','qdrant','stripe'].map(s=>ALL.find(e=>e.slug===s)!).filter(Boolean);
 ---
 <Base title="Swarmnest — The Directory of Tools, APIs and Data for AI Agents" description={`Browse ${ALL.length} hand-checked tools, APIs and data sources for AI agents, in a clean format for people and a JSON API for agents.`} path="/">
-<section class="hero">
-<h1>The Hub for AI Agents and the People Who Run Them</h1>
-<p class="lead">A hand-checked directory of {ALL.length} tools, APIs and data sources, written for humans and available as JSON for agents. {SKILLS.length} Agent Skills, {TEMPLATES.length} agent templates, {USECASES.length} use cases and a marketplace of {nProducts} tested skill packs and workflows.</p>
-<p><input id="q" type="search" placeholder="Search the directory…" aria-label="Search the directory" autocomplete="off"></p>
+<section class="hero" aria-labelledby="home-h1">
+<h1 id="home-h1">The Hub for AI Agents and the People Who Run Them</h1>
+<p class="lead">Tools, MCP servers, Agent Skills and tested packs for building with AI agents.</p>
+<form class="hsearch" action="/search/" method="get" role="search" aria-label="Search Swarmnest">
+<label for="q" class="vh">Search tools, skills and packs</label>
+<input id="q" name="q" type="search" placeholder="Search tools, MCP servers, skills…" autocomplete="off" enterkeyhint="search">
+<button type="submit">Search</button>
+</form>
+<p id="q-status" class="vh" role="status" aria-live="polite"></p>
 <div id="results" class="grid hidden"></div>
-<p><a class="btn" href="/directory/">Browse the Directory</a><a class="btn alt" href="/api/v1/directory.json">Use the JSON API</a></p>
+<h2 class="vh">Popular</h2>
+<ul class="chips" aria-label="Popular Categories">{CHIPS.map(c=><li><a href={c.href}>{c.name}</a></li>)}</ul>
 </section>
-<h2>Browse by Group</h2>
-<Groups />
+<h2>Start Here</h2>
+<div class="tiles">
+<a class="tile" href="/directory/"><strong>Directory</strong><span>{ALL.length.toLocaleString('en-US')} tools in {CATS.length} categories</span></a>
+<a class="tile" href="/agent-skills/"><strong>Agent Skills</strong><span>{SKILLS.length} skills for Claude, Codex, Cursor and more</span></a>
+<a class="tile" href="/marketplace/"><strong>Marketplace</strong><span>{nProducts} tested packs{LAUNCH ? `, from $${minPrice}` : ''}</span></a>
+<a class="tile" href="/use-cases/"><strong>Use Cases</strong><span>{USECASES.length} jobs for agents, with {TEMPLATES.length} templates</span></a>
+</div>
+<h2>Popular Categories</h2>
+<ul class="catlist">{POPULAR_CATS.map(c=><li><a href={c.href}><span>{c.name}</span><span class="n">{c.count}</span></a></li>)}</ul>
+<div class="grp-h"><h2>Browse by Group</h2><a class="small" href="/directory/all-categories/">All Categories A–Z</a></div>
+<ul class="catlist">{NAV_GROUPS.map(g=><li><a href={groupPath(g.slug)}><span>{g.name}<span class="g">{g.cats.length} categories</span></span><span class="n">{g.total}</span></a></li>)}</ul>
+<SponsorSlot key="" />
 <h2>Popular Picks</h2>
 <div class="grid">{featured.map(e=><a class="card" href={`/directory/${e.category}/${e.slug}/`}><h3>{e.name}</h3><p>{e.description}</p></a>)}</div>
-<h2>Explore Swarmnest</h2>
-<div class="grid">
-<a class="card" href="/agent-skills/"><h3>Agent Skills</h3><p>{SKILLS.length} skills for Claude, Codex, Cursor and more, labeled Instructions Only or Includes Scripts, with an OS filter.</p></a>
-<a class="card" href="/use-cases/"><h3>Use Cases</h3><p>{USECASES.length} jobs to hand to an agent, from research and inbox triage to shipping a Mac app.</p></a>
-<a class="card" href="/agent-templates/"><h3>Agent Templates</h3><p>{TEMPLATES.length} ready-made agents with instructions, tools and a persona.</p></a>
-<a class="card" href="/marketplace/"><h3>Marketplace</h3><p>{nProducts} tested skill packs and workflows, plus bundles.{LAUNCH ? ` Now open, from $${minPrice}.` : ' Coming soon.'}</p></a>
-</div>
-<SponsorSlot key="" />
 <h2>Newsletter</h2>
 <p>A short weekly note: new tools in the directory, API changes that matter to agent builders, and product launches.</p>
 <Signup list="newsletter" source="home" button="Subscribe" />
-<script is:inline src="/search.js"></script>
-<script is:inline>swarmSearch(document.getElementById("q"),document.getElementById("results"),{max:12});</script>
+<script is:inline src="/search-all.js"></script>
+<script is:inline>swarmSearchAll(document.getElementById("q"),document.getElementById("results"),{max:8,status:document.getElementById("q-status")});</script>
 </Base>

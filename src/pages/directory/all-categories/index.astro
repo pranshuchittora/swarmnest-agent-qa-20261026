@@ -1,0 +1,24 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Crumbs from '../../../components/Crumbs.astro';
+import { CATS, SITE } from '../../../lib/data';
+import { groupForCat, catCount } from '../../../lib/nav';
+import { CATEGORIES } from '../../../lib/skills';
+const dir = CATS.map(c=>({ name:c.name, href:`/directory/${c.slug}/`, n:catCount(c.slug), sub:groupForCat(c.slug)?.name||'' }));
+const sk = CATEGORIES.map(c=>({ name:c.name, href:`/agent-skills/category/${c.slug}/`, n:c.count, sub:'Agent Skills' }));
+const all = [...dir, ...sk].sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));
+const letter = (s:string)=>{ const ch=s[0].toUpperCase(); return /[A-Z]/.test(ch)?ch:'#'; };
+const letters = [...new Set(all.map(x=>letter(x.name)))];
+const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Directory',item:SITE+'/directory/'},{'@type':'ListItem',position:3,name:'All Categories A–Z',item:SITE+'/directory/all-categories/'}]}];
+---
+<Base title={`All Categories A–Z: ${CATS.length} Directory and ${CATEGORIES.length} Agent Skills Categories | Swarmnest`} description={`Every Swarmnest category on one page: ${CATS.length} directory categories of tools, APIs and data for AI agents, and ${CATEGORIES.length} Agent Skills categories, with counts.`} path="/directory/all-categories/" jsonld={ld}>
+<Crumbs items={[['Home','/'],['Directory','/directory/'],['All Categories A–Z']]} />
+<h1>All Categories A–Z</h1>
+<p class="lead">{CATS.length} directory categories and {CATEGORIES.length} Agent Skills categories, with the number of listings in each.</p>
+<nav class="az-jump" aria-label="Jump to Letter">{letters.map(l=><a href={`#l-${l}`}>{l}</a>)}</nav>
+{letters.map(l=>(
+<section aria-labelledby={`l-${l}`}>
+<h2 id={`l-${l}`}>{l}</h2>
+<ul class="catlist c3">{all.filter(x=>letter(x.name)===l).map(x=><li><a href={x.href}><span>{x.name}<span class="g">{x.sub}</span></span><span class="n">{x.n}</span></a></li>)}</ul>
+</section>))}
+</Base>

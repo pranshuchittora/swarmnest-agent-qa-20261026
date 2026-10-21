@@ -1,4 +1,5 @@
 ---
+import Crumbs from './Crumbs.astro';
 import Base from '../layouts/Base.astro';
 import { LEGAL } from '../lib/legal';
 interface Props { title: string; heading: string; description: string; path: string; }
@@ -6,7 +7,7 @@ const { title, heading, description, path } = Astro.props;
 const others = LEGAL.filter(([u]) => u !== path);
 ---
 <Base title={`${title} | Swarmnest`} description={description} path={path}>
-<p class="crumbs"><a href="/">Home</a> / <a href="/legal/">Legal</a></p>
+<Crumbs items={[['Home','/'],['Legal','/legal/'],[title]]} />
 <h1>{heading}</h1>
 <p class="small">Last updated Oct 18, 2026. Questions: <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a>.</p>
 <slot />
