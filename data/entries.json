@@ -49541,5 +49541,18 @@
   "http_status": 200,
   "last_checked_at": "2026-10-14",
   "status": "active"
+ },
+ {
+  "name": "SocialDataX MCP Servers",
+  "slug": "socialdatax-mcp-servers",
+  "category": "social-media-apis",
+  "description": "A set of hosted MCP servers for researching public social media content, one per platform: TikTok, Douyin, Kuaishou, Bilibili, Haokan, Xiaohongshu (RedNote), Weibo, WeChat Channels, Toutiao, Zhihu, Baidu Tieba, Instagram, YouTube and X, plus a text content-review checker. Uses an API key with usage-based credits; each server has its own open GitHub repository.",
+  "url": "https://socialdatax.com/ai/",
+  "docs_url": "https://github.com/DevinChen2014",
+  "auth": "key",
+  "pricing": "paid",
+  "http_status": 200,
+  "last_checked_at": "2026-10-14",
+  "status": "active"
  }
 ]

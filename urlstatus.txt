@@ -3791,3 +3791,4 @@
 200 https://xquik.com
 200 https://robottraining.jobs
 200 https://www.bluedoai.com/
+200 https://socialdatax.com/ai/
