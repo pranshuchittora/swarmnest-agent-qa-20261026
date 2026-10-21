@@ -1,7 +1,7 @@
 ---
 import Signup from '../../components/Signup.astro';
 import Base from '../../layouts/Base.astro';
-import { PRODUCTS } from '../../lib/content';
+import { PRODUCTS, savingsCents } from '../../lib/content';
 import { SITE } from '../../lib/data';
 import { LAUNCH } from '../../lib/config';
 const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest marketplace',itemListElement:PRODUCTS.map((p,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/marketplace/${p.slug}/`,name:p.title}))}];
@@ -14,7 +14,7 @@ const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest ma
 <div class="grid">{PRODUCTS.filter(p=>!p.bundle).map(p=><a class="card" href={`/marketplace/${p.slug}/`}><h3>{p.title}</h3><p class="small">{p.type} · <strong>{p.price}</strong>{LAUNCH ? '' : ' · coming soon'}</p><p>{p.summary}</p></a>)}</div>
 <h2>Bundles</h2>
 <p class="small">Same products, one download, lower price. Every purchase has a 14-day satisfaction window.</p>
-<div class="grid">{PRODUCTS.filter(p=>p.bundle).map(p=><a class="card" href={`/marketplace/${p.slug}/`}><h3>{p.title}</h3><p class="small">{p.includes.length} products · <strong>{p.price}</strong>{p.regularCents ? ` sale price (regular $${p.regularCents/100})` : ''} · bought separately ${p.valueCents/100}{LAUNCH ? '' : ' · coming soon'}</p><p>{p.summary}</p></a>)}</div>
+<div class="grid">{PRODUCTS.filter(p=>p.bundle).map(p=><a class="card" href={`/marketplace/${p.slug}/`}><h3>{p.title}</h3><p class="small">{p.includes.length} products · <strong>{p.price}</strong>{savingsCents(p) ? ` · save $${savingsCents(p)/100} vs. buying separately` : ''}{LAUNCH ? '' : ' · coming soon'}</p><p>{p.summary}</p></a>)}</div>
 {!LAUNCH && <><h2>Get Notified at Launch</h2><Signup list="waitlist" source="marketplace" button="Notify Me" /></>}
 <p class="small">See the <a href="/license/">product license</a>, <a href="/refunds/">refund policy</a> and <a href="/tax/">tax notes</a>. Selling something? See <a href="/creator-agreement/">the creator agreement</a> and <a href="/takedown/">Takedown</a>.</p>
 </Base>

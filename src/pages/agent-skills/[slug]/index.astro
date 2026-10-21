@@ -17,7 +17,7 @@ const desc = `${s.title}: ${s.summary}`.slice(0,155);
 <p>{osOf(s).map(o=><a class="badge os" href={`/agent-skills/?os=${o.toLowerCase()}`}>{o}</a>)}{l.map(x=><span class={`badge ${x==='Includes Scripts'||x==='Uses Network'||x==='Needs Credentials'||x==='Uses Hooks'?'warn':x==='Instructions Only'?'ok':''}`}>{x}</span>)}</p>
 {(s as any).os_reason&&<p class="small">{osOf(s).join(', ')}: {(s as any).os_reason}</p>}
 <p><a class="btn" href={s.source_url} rel="noopener nofollow" target="_blank">View Source on GitHub</a></p>
-<div class="notice"><strong>Third-party skill, listed from commit {short} on {s.scan_date}.</strong> Read it before installing.{s.has_scripts===true && ' This one includes scripts or code that your agent may run on your machine.'}</div>
+<p class="srcnote">Third-party skill. Review the source before installing.{s.has_scripts===true && <><br>Includes scripts that run code on your machine.</>}</p>
 <div class="install"><h2>Install in 30 Seconds</h2>
 {s.install.map((i,n)=><div><p class="small" style="margin:.5rem 0 0">{platName(i.platform)==='any-skills-client'?'Any Agent Skills Client':platName(i.platform)==='any-agent'?'Any Agent':platName(i.platform)}</p><div class="row"><pre id={`i${n}`}>{i.steps}</pre>{(i.method==='cli'||/^(gemini|npx|\/plugin)/.test(i.steps))&&<button type="button" class="cp" data-t={`i${n}`}>Copy</button>}</div></div>)}
 <p class="small">These are the standard install paths for each tool. Check the source README for anything specific to this item.</p></div>

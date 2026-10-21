@@ -12,13 +12,28 @@ export function sponsorFor(key: string): { kind: 'sitewide' | 'category' | 'feat
   const f = first(R.featured?.[key]); return f ? { kind: 'featured', s: f } : null;
 }
 // House card: one of our own packs, picked to fit the page where we can, otherwise stable by page key.
-const FIT: [RegExp, string][] = [[/mac|apple|swift|ios|app-store|homebrew/, 'macos-app-dev-skills-pack'], [/coding|code|devops|git|test/, 'coding-agent-skills-pack'], [/mcp/, 'mcp-server-starter-kit'], [/search|scrap|crawl|research/, 'web-research-skill-pack'], [/workflow|automation|n8n/, 'workflow-reliability-pack'], [/support|crm|sales|email/, 'customer-support-prompt-pack'], [/eval|guardrail|observab|safety/, 'agent-eval-guardrails-pack']];
+// Matched against whole slug words (split on / and -), so 'mac' never matches 'machine' and 'code' never matches 'no-code'.
+const W = (t: string) => new RegExp(`(?:^|[/-])(?:${t})(?=$|-)`);
+const FIT: [RegExp, string][] = [
+  [W('no-code'), 'workflow-reliability-pack'],
+  [W('mac|macos|apple|swift|swiftui|xcode|ios|homebrew|app-store'), 'macos-app-dev-skills-pack'],
+  [W('mcp|cloudflare|cloud-deployment|serverless|azure|agent-protocols|agent-standards'), 'mcp-server-starter-kit'],
+  [W('agents-md|agentsmd|documentation|planning|product-management'), 'project-memory-kit'],
+  [W('agent-frameworks|visual-agent-builders|agent-workflow|skill-authoring|plugin-bundles|prompt|prompt-packs|prompt-libraries|prompt-management'), 'agent-templates-pack'],
+  [W('evals?|guardrails|observability|safety|benchmarks'), 'agent-eval-guardrails-pack'],
+  [W('coding|code|debugging|git|linux|testing|review|software|developer|ci-cd|cursor|frontend|security|database'), 'coding-agent-skills-pack'],
+  [W('search|scraping|scrapers|crawl|research|academic|extraction'), 'web-research-skill-pack'],
+  [W('workflow|automation|n8n|orchestration'), 'workflow-reliability-pack'],
+  [W('lead|crm'), 'lead-research-workflow'],
+  [W('support|helpdesk|live-chat'), 'customer-support-prompt-pack'],
+  [W('email'), 'ai-sdr-outbound-workflow'],
+  [W('content|writing|marketing|social|newsletters'), 'content-repurposing-workflow'],
+  [W('voice|sms|speech'), 'ai-receptionist-kit'],
+];
 export function houseFor(key: string) {
-  const singles = PRODUCTS.filter((p) => !p.bundle);
   const fit = FIT.find(([re]) => re.test(key))?.[1];
-  if (fit) { const p = singles.find((x) => x.slug === fit); if (p) return p; }
-  if (!key) return PRODUCTS.find((p) => p.slug === 'all-products-bundle') || singles[0];
-  let h = 0; for (const ch of key) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-  return singles[h % singles.length];
+  const pick = (slug: string) => PRODUCTS.find((x) => x.slug === slug);
+  // Homepage: everything in one bundle. Other pages with no close match: the Agent Builder Bundle.
+  return (fit && pick(fit)) || (!key ? pick('all-products-bundle') : pick('agent-builder-bundle')) || PRODUCTS[0];
 }
 export const SPONSOR_ACTIVE_COUNT = [R.sitewide, ...Object.values(R.categories || {}), ...Object.values(R.featured || {}).flat()].filter(live).length;

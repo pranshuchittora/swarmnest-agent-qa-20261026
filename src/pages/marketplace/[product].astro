@@ -1,7 +1,7 @@
 ---
 import Signup from '../../components/Signup.astro';
 import Base from '../../layouts/Base.astro';
-import { PRODUCTS } from '../../lib/content';
+import { PRODUCTS, savingsCents } from '../../lib/content';
 import { SITE } from '../../lib/data';
 import { LAUNCH, BUY_URLS } from '../../lib/config';
 import FILES from '../../lib/product-files.json';
@@ -16,18 +16,18 @@ const others=PRODUCTS.filter(x=>x.bundle&&x.slug!==p.slug&&!p.bundle&&x.includes
 const ld=[{'@context':'https://schema.org','@type':'Product',name:p.title,description:p.summary,brand:{'@type':'Brand',name:'Swarmnest'},offers:{'@type':'Offer',availability:LAUNCH?'https://schema.org/InStock':'https://schema.org/PreOrder',priceCurrency:'USD',price:String(p.cents/100),url:SITE+path}},
 {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Marketplace',item:SITE+'/marketplace/'},{'@type':'ListItem',position:3,name:p.title,item:SITE+path}]}];
 ---
-<Base title={`${p.title} (${p.price}) | Swarmnest`} description={`${p.summary} ${p.price}${p.regularCents?` sale price (regular ${usd(p.regularCents)})`:''}, one-time purchase, instant download.`} path={path} jsonld={ld}>
+<Base title={`${p.title} (${p.price}) | Swarmnest`} description={`${p.summary} ${p.price}, one-time purchase, instant download.`} path={path} jsonld={ld}>
 <p class="small"><a href="/marketplace/">Marketplace</a> › {p.title}</p>
 <div id="thanks" hidden class="lead"><h2>Thank You for Your Purchase</h2><p id="thanks-msg">Verifying your payment…</p></div>
 <h1>{p.title}</h1>
 <p class="lead">{p.summary}</p>
-<p><strong>Type:</strong> {p.type}<br><strong>Price:</strong> {p.price} USD, one-time{p.regularCents ? <> (sale price; regular price {usd(p.regularCents)})</> : null}{p.valueCents ? <><br><strong>Bought separately:</strong> {usd(p.valueCents)}</> : null}<br><strong>Format:</strong> readable text files (Markdown, JSON, scripts) plus a zip</p>
+<p><strong>Type:</strong> {p.type}<br><strong>Price:</strong> {p.price} USD, one-time{p.valueCents && savingsCents(p) ? <><br><strong>Bought separately:</strong> {usd(p.valueCents)} (save {usd(savingsCents(p))})</> : null}<br><strong>Format:</strong> readable text files (Markdown, JSON, scripts) plus a zip</p>
 <p>
 {LAUNCH && buy ? <a class="btn" href={buy}>Buy Now: {p.price}</a> : <span class="btn alt" aria-disabled="true">Coming Soon: {p.price}</span>}
 </p>
 {LAUNCH ? <p class="small">Secure checkout by Stripe. You get a download page right after paying, and a copy by email. We currently sell to customers in the United States only.</p> : <><h2>Get Notified at Launch</h2><Signup list="waitlist" source={`product:${p.slug}`} interest={p.slug} button="Notify Me" /></>}
 {p.bundle && <><h2>Products in This Bundle</h2><ul>{inc.map(x=><li><a href={`/marketplace/${x.slug}/`}>{x.title}</a> ({x.price}): {x.summary}</li>)}</ul></>}
-{others.length>0 && <><h2>Also Available in a Bundle</h2><ul class="small">{others.map(b=><li><a href={`/marketplace/${b.slug}/`}>{b.title}</a>: {b.price}{b.regularCents?` sale price (regular ${usd(b.regularCents)})`:''}, {b.includes.length} products</li>)}</ul></>}
+{others.length>0 && <><h2>Also Available in a Bundle</h2><ul class="small">{others.map(b=><li><a href={`/marketplace/${b.slug}/`}>{b.title}</a>: {b.price}, {b.includes.length} products{savingsCents(b)?`, save ${usd(savingsCents(b))} vs. buying separately`:''}</li>)}</ul></>}
 <h2>What's Included</h2>
 <ul class="small">{files.map(f=><li><code>{f}</code></li>)}</ul>
 <h2>License and Refunds</h2>

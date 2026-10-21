@@ -13,14 +13,13 @@ const ld=[{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElem
 <Base title="Agent Skills Directory — SKILL.md Skills, Plugins, Cursor Rules | Swarmnest" description={`Browse ${SKILLS.length} agent skills, plugin bundles, Cursor rules, AGENTS.md templates and prompt packs, with platform compatibility and Includes Scripts or Instructions Only labels.`} path="/agent-skills/" jsonld={ld}>
 <p class="crumbs"><a href="/">Home</a> › Agent Skills</p>
 <h1>Agent Skills</h1>
-<p class="lead">{SKILLS.length} skills, plugins, rules and templates from official and well-known public sources. Every listing links to its source, shows which platforms say they support it, and says plainly whether it includes scripts.</p>
+<p class="lead">{SKILLS.length} skills, plugins, rules and templates from official and well-known public sources. Every listing links to its source, shows which platforms say they support it, and says plainly whether it includes scripts. Every skill is made by its own developer, so review the source before installing; see our <a href="/directory-disclaimer/">Directory Disclaimer</a> and <a href="/terms/">Terms</a>.</p>
 <SkillSearch />
 <noscript><p class="small">Search needs JavaScript. You can still browse by category, platform and format below.</p></noscript>
 <div id="ss-list">
 <h2>Featured Skills</h2>
 <div class="grid">{feat.map(s=><SkillCard s={s} />)}</div>
 </div>
-<div class="notice"><strong>Read before you install.</strong> Every listing is a third-party skill. Labels come from an automated check of the source folder on {SKILLS[0].scan_date}. Skills that include scripts run code on your machine. <a href="/agent-skills/guides/">Guides</a> · <a href="/agent-skills/submit/">Submit a Skill</a></div>
 <h2>Browse by Format</h2>
 <div class="grid">{FORMATS.map(f=><a class="card" href={`/agent-skills/format/${f.slug}/`}><h3>{f.name}</h3><p>{f.blurb}</p><span class="badge">{count(f.key)} {count(f.key)===1?'Listing':'Listings'}</span></a>)}</div>
 <h2>Skills for Each Platform</h2>
