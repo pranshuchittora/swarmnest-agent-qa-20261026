@@ -9,3 +9,13 @@
 /advertise/details/*
   X-Robots-Tag: noindex
   Referrer-Policy: no-referrer
+
+/mcp/server-card
+  Content-Type: application/mcp-server-card+json; charset=utf-8
+  Access-Control-Allow-Origin: *
+/.well-known/mcp/server-card
+  Content-Type: application/mcp-server-card+json; charset=utf-8
+  Access-Control-Allow-Origin: *
+/.well-known/mcp-server-card
+  Content-Type: application/mcp-server-card+json; charset=utf-8
+  Access-Control-Allow-Origin: *

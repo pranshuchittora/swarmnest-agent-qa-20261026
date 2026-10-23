@@ -1,0 +1,76 @@
+---
+import Crumbs from '../../components/Crumbs.astro';
+import Base from '../../layouts/Base.astro';
+import { ALL, CATS, GROUPS, SITE } from '../../lib/data';
+import { SKILLS } from '../../lib/skills';
+import { PRODUCTS } from '../../lib/content';
+import { TOOLS, ENDPOINT, SUPPORTED } from '../../../functions/_lib/mcp-core.js';
+const REPO = 'https://github.com/swarmnest/swarmnest-mcp';
+const n = ALL.length.toLocaleString('en-US');
+const j = (o:any) => JSON.stringify(o, null, 2);
+const snippets = [
+ { id:'claude-code', name:'Claude Code', where:'Run in your terminal:', code:`claude mcp add --transport http swarmnest ${ENDPOINT}` },
+ { id:'claude-desktop', name:'Claude Desktop and Claude.ai', where:'Settings → Connectors → Add Custom Connector, then paste this URL:', code:ENDPOINT },
+ { id:'cursor', name:'Cursor', where:'Add to ~/.cursor/mcp.json (all projects) or .cursor/mcp.json (one project):', code:j({mcpServers:{swarmnest:{url:ENDPOINT}}}) },
+ { id:'vscode', name:'VS Code (GitHub Copilot)', where:'Add to .vscode/mcp.json, or run MCP: Add Server and choose HTTP:', code:j({servers:{swarmnest:{type:'http',url:ENDPOINT}}}) },
+ { id:'windsurf', name:'Windsurf', where:'Add to ~/.codeium/windsurf/mcp_config.json:', code:j({mcpServers:{swarmnest:{serverUrl:ENDPOINT}}}) },
+ { id:'codex', name:'Codex', where:'Add to ~/.codex/config.toml:', code:`[mcp_servers.swarmnest]\nurl = "${ENDPOINT}"` },
+ { id:'gemini', name:'Gemini CLI', where:'Add to ~/.gemini/settings.json:', code:j({mcpServers:{swarmnest:{httpUrl:ENDPOINT}}}) },
+ { id:'remote', name:'Any Client Without Remote Support (npx mcp-remote)', where:'For clients that only run local servers, including the Claude Desktop config file. Needs Node.js:', code:j({mcpServers:{swarmnest:{command:'npx',args:['-y','mcp-remote',ENDPOINT]}}}) }
+];
+const curl = `curl -s ${ENDPOINT} \\\n  -H 'Content-Type: application/json' \\\n  -H 'Accept: application/json, text/event-stream' \\\n  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"search_directory","arguments":{"query":"web scraping","pricing":"freemium","limit":5}}}'`;
+const prompts = [
+ 'Find three free web scraping APIs that work without an API key and link their Swarmnest pages.',
+ 'Which MCP servers can read and write Postgres? Compare their auth and pricing.',
+ 'List the Swarmnest categories in the Agent Building group with their entry counts.',
+ 'Search Agent Skills for PDF handling that work in Claude Code and show me how to install the best one.',
+ 'Find macOS automation tools for agents and tell me which are open source.',
+ 'What skill packs and bundles does the Swarmnest Marketplace sell, and what does each cost?'
+];
+const desc = `Connect Claude, Cursor, VS Code, Windsurf or any MCP client to Swarmnest. Search ${n} AI agent tools, APIs and MCP servers, ${SKILLS.length} Agent Skills and Marketplace packs. Free, no API key.`;
+const ld = [
+ {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},{'@type':'ListItem',position:2,name:'Swarmnest MCP Server',item:SITE+'/mcp-server/'}]},
+ {'@context':'https://schema.org','@type':'SoftwareApplication',name:'Swarmnest MCP Server',applicationCategory:'DeveloperApplication',operatingSystem:'Any',url:SITE+'/mcp-server/',description:desc,offers:{'@type':'Offer',price:'0',priceCurrency:'USD'},sameAs:[REPO],publisher:{'@type':'Organization',name:'Swarmnest',url:SITE+'/'}},
+ {'@context':'https://schema.org','@type':'FAQPage',mainEntity:[
+  {'@type':'Question',name:'What is the Swarmnest MCP server URL?',acceptedAnswer:{'@type':'Answer',text:`${ENDPOINT} (Streamable HTTP). No API key or sign-in is needed.`}},
+  {'@type':'Question',name:'What can the Swarmnest MCP server do?',acceptedAnswer:{'@type':'Answer',text:`It gives AI agents ${TOOLS.length} read-only tools: ${TOOLS.map(t=>t.name).join(', ')}. They search ${n} directory entries in ${CATS.length} categories, ${SKILLS.length} Agent Skills and the Swarmnest Marketplace.`}},
+  {'@type':'Question',name:'Does it cost anything?',acceptedAnswer:{'@type':'Answer',text:'No. The server is free to use and read-only.'}}]}
+];
+---
+<Base title="Swarmnest MCP Server — Search AI Agent Tools and Skills From Your Agent | Swarmnest" description={desc} path="/mcp-server/" jsonld={ld}>
+<Crumbs items={[['Home','/'],['Swarmnest MCP Server']]} />
+<h1>Swarmnest MCP Server</h1>
+<p class="lead">Give your AI agent the whole Swarmnest directory: {n} hand-checked tools, APIs and MCP servers in {CATS.length} categories, {SKILLS.length} Agent Skills and the Marketplace. One remote URL, free, read-only, no API key.</p>
+<div class="install"><h2>Server URL</h2>
+<div class="row"><pre id="ep">{ENDPOINT}</pre><button type="button" class="cp" data-t="ep">Copy</button></div>
+<p class="small">Transport: Streamable HTTP. Protocol versions: {SUPPORTED.join(', ')}. Source and self-hosting notes on <a href={REPO} rel="noopener">GitHub</a>.</p></div>
+<p><a class="btn" href="#setup">Set It Up</a><a class="btn alt" href="#tools">See the Tools</a></p>
+
+<h2 id="setup">Set Up in Your Client</h2>
+{snippets.map(s=><div class="install" id={s.id}><h3>{s.name}</h3><p class="small">{s.where}</p><div class="row"><pre id={`s-${s.id}`}>{s.code}</pre><button type="button" class="cp" data-t={`s-${s.id}`}>Copy</button></div></div>)}
+<p class="small">If your config file already has other servers, add the <code>swarmnest</code> entry next to them. Restart or reload the client after editing a config file.</p>
+
+<h2 id="tools">Tools</h2>
+<p>All {TOOLS.length} tools are read-only and return canonical swarmnest.ai links, so your agent can cite where each result came from.</p>
+<table class="tools">
+{TOOLS.map(t=><tr><th><code>{t.name}</code></th><td><strong>{t.title}.</strong> {t.description}<br><span class="small">Arguments: {Object.entries(t.inputSchema.properties).map(([k,v]:any)=>`${k}${(t.inputSchema as any).required?.includes(k)?'':' (optional)'}`).join(', ')}</span></td></tr>)}
+</table>
+<p class="small">Results are capped at 25 per call; use <code>offset</code> to page. Agent Skills are made by third-party developers, so every skill result carries an install warning: review the source before installing.</p>
+
+<h2 id="prompts">Example Prompts</h2>
+<ul>{prompts.map(p=><li>{p}</li>)}</ul>
+
+<h2 id="curl">Try It With curl</h2>
+<div class="install"><div class="row"><pre id="s-curl">{curl}</pre><button type="button" class="cp" data-t="s-curl">Copy</button></div>
+<p class="small">Methods: <code>tools/list</code>, <code>tools/call</code>, <code>initialize</code>, <code>server/discover</code> and <code>ping</code>. Responses are plain JSON. Server card: <a href="/mcp/server-card">/mcp/server-card</a>.</p></div>
+
+<h2 id="more">More Ways to Use Swarmnest Data</h2>
+<ul>
+<li><a href="/api/v1/search?q=translate">Search API</a> and <a href="/openapi.json">OpenAPI description</a></li>
+<li><a href="/api/v1/directory.json">Directory JSON</a>, <a href="/api/v1/categories.json">Categories JSON</a> and <a href="/api/v1/agent-skills.json">Agent Skills JSON</a></li>
+<li><a href="/llms.txt">llms.txt</a> for chatbots and crawlers</li>
+<li>Browse <a href="/directory/mcp-servers/">MCP Servers</a> in the directory, or the <a href="/marketplace/mcp-server-starter-kit/">MCP Server Starter Kit</a> to build your own</li>
+</ul>
+<p class="small">Use of the server is covered by our <a href="/api-terms/">API Terms</a>. Questions: <a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a>.</p>
+<script is:inline>document.querySelectorAll('.cp').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById(b.dataset.t).textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent='Copied'}).catch(function(){var r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.t));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected'});setTimeout(function(){b.textContent='Copy'},1500)})})</script>
+</Base>

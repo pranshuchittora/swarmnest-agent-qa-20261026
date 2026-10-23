@@ -1,0 +1,222 @@
+/* Swarmnest MCP server core: read-only tools over the static Swarmnest JSON snapshots.
+   Streamable HTTP, JSON responses only (no SSE), stateless, dual-era:
+   - modern (2026-07-28): per-request _meta, server/discover, resultType
+   - legacy (2025-11-25 and earlier): initialize handshake, ping, notifications/initialized */
+import Core from './search-core.js';
+
+export const SITE = 'https://swarmnest.ai';
+export const ENDPOINT = SITE + '/mcp';
+export const DOCS = SITE + '/mcp-server/';
+export const SERVER_INFO = { name: 'swarmnest', title: 'Swarmnest', version: '1.0.0', websiteUrl: DOCS, description: 'Search the Swarmnest directory of AI agent tools, APIs and MCP servers, Agent Skills and Marketplace products.' };
+export const MODERN = ['2026-07-28'];
+export const LEGACY = ['2025-11-25', '2025-06-18', '2025-03-26', '2024-11-05'];
+export const SUPPORTED = [...MODERN, ...LEGACY];
+const PV = 'io.modelcontextprotocol/protocolVersion';
+const SKILL_WARNING = 'Third-party skill. Review the source before installing.';
+const SCRIPTS_WARNING = 'Includes scripts that run code on your machine.';
+const SKILLS_WARNING = 'Every skill is a third-party skill made by its own developer. Review the source before installing. Skills with has_scripts: true include scripts that run code on your machine.';
+const MAX = 25;
+const OS = { macos: 'macOS', ios: 'iOS', linux: 'Linux', windows: 'Windows' };
+
+export const INSTRUCTIONS = `Swarmnest (${SITE}) is a hand-checked directory of AI agent tools, APIs, MCP servers and data sources, plus a catalog of Agent Skills and a marketplace of agent skill packs. All tools are read-only and need no API key. Typical flow: search_directory (or list_categories first to pick a category slug), then get_entry for full details. For skills, search_skills then get_skill for install steps. Every result includes a canonical swarmnest.ai URL; cite it when you recommend something. Skills are third-party: tell the user to review the source before installing.`;
+
+// ---------- tool definitions (descriptions are what agents read, keep them precise) ----------
+const RO = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
+const limitP = { type: 'integer', minimum: 1, maximum: MAX, default: 10, description: `Max results to return (1-${MAX}, default 10).` };
+const offsetP = { type: 'integer', minimum: 0, maximum: 5000, default: 0, description: 'Results to skip, for paging (default 0).' };
+const osP = { type: 'string', enum: ['macOS', 'iOS', 'Linux', 'Windows'], description: 'Only items specific to this operating system.' };
+export const TOOLS = [
+  { name: 'search_directory', title: 'Search the Swarmnest Directory',
+    description: 'Search the Swarmnest directory of AI agent tools: MCP servers, LLM APIs, agent frameworks, coding agents, browser automation, vector databases, web scraping, search, speech and text-to-speech APIs, data sources and more (thousands of hand-checked entries in 160+ categories). Keyword search over name, category and description with typo correction; all keywords must match. Filter by category slug (see list_categories), pricing, auth type or operating system. Returns name, description, category, pricing, auth, the vendor URL, docs URL and the canonical swarmnest.ai listing URL. Use it to find or compare tools for a job, e.g. "pdf parsing", "web search api", "postgres mcp server".',
+    inputSchema: { type: 'object', properties: {
+      query: { type: 'string', maxLength: 200, description: 'Keywords, e.g. "speech to text", "github mcp", "vector database". Optional when category or os is given.' },
+      category: { type: 'string', maxLength: 80, description: 'Category slug, e.g. "mcp-servers", "llm-apis", "browser-automation". Get slugs from list_categories.' },
+      pricing: { type: 'string', enum: ['free', 'freemium', 'paid', 'unknown'], description: 'free, freemium (free tier), paid, or unknown.' },
+      auth: { type: 'string', enum: ['none', 'key', 'oauth', 'unknown'], description: 'Authentication the tool needs: none, key (API key), oauth, or unknown.' },
+      os: osP, limit: limitP, offset: offsetP }, additionalProperties: false },
+    annotations: { title: 'Search the Swarmnest Directory', ...RO } },
+  { name: 'get_entry', title: 'Get a Directory Entry',
+    description: 'Get the full Swarmnest directory record for one tool by its slug (from search_directory results): name, description, category, vendor URL, docs URL, auth, pricing, operating systems, open-source flag, last link check and the canonical swarmnest.ai URL. Unknown slugs return close matches.',
+    inputSchema: { type: 'object', properties: { slug: { type: 'string', maxLength: 120, description: 'Entry slug, e.g. "openai-api" or "playwright-mcp".' } }, required: ['slug'], additionalProperties: false },
+    annotations: { title: 'Get a Directory Entry', ...RO } },
+  { name: 'list_categories', title: 'List Directory Categories',
+    description: 'List every Swarmnest directory category with its slug, name, short description, entry count and group (e.g. Agent Building, AI Models, Data & Search). Use the slugs as the category filter in search_directory. Optionally limit to one group.',
+    inputSchema: { type: 'object', properties: { group: { type: 'string', maxLength: 80, description: 'Optional group slug, e.g. "agent-building". Omit for all groups.' } }, additionalProperties: false },
+    annotations: { title: 'List Directory Categories', ...RO } },
+  { name: 'search_skills', title: 'Search Agent Skills',
+    description: 'Search the Swarmnest catalog of Agent Skills: SKILL.md skills, plugin bundles, Cursor rules, AGENTS.md templates and prompt packs for Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot and other agents. Keyword search over title, summary and category; filter by skill category, format, platform or operating system. Each result says whether the skill includes scripts, uses the network or needs credentials, plus its license, author, source URL and canonical swarmnest.ai URL. All skills are third-party: review the source before installing.',
+    inputSchema: { type: 'object', properties: {
+      query: { type: 'string', maxLength: 200, description: 'Keywords, e.g. "pdf", "code review", "swiftui". Optional when a filter is given.' },
+      category: { type: 'string', maxLength: 80, description: 'Skill category slug or name, e.g. "documentation-skills".' },
+      format: { type: 'string', enum: ['skill-md', 'plugin-bundles', 'cursor-rules', 'agents-md-templates', 'prompt-packs'], description: 'Skill format.' },
+      platform: { type: 'string', maxLength: 40, description: 'Platform slug the source says it supports, e.g. "claude-code", "codex", "cursor", "gemini-cli", "github-copilot".' },
+      os: osP, limit: limitP, offset: offsetP }, additionalProperties: false },
+    annotations: { title: 'Search Agent Skills', ...RO } },
+  { name: 'get_skill', title: 'Get an Agent Skill',
+    description: 'Get one Agent Skill by slug (from search_skills): summary, format, declared platforms, install steps per platform, scripts/network/credentials labels, license, author, source URL and canonical swarmnest.ai URL. Third-party: review the source before installing.',
+    inputSchema: { type: 'object', properties: { slug: { type: 'string', maxLength: 160, description: 'Skill slug, e.g. "anthropics-pdf".' } }, required: ['slug'], additionalProperties: false },
+    annotations: { title: 'Get an Agent Skill', ...RO } },
+  { name: 'list_marketplace_products', title: 'List Marketplace Products',
+    description: 'List the agent skill packs, workflows and bundles sold in the Swarmnest Marketplace (US only), with name, type, summary, price in USD, what each bundle includes, the product page URL and the checkout URL.',
+    inputSchema: { type: 'object', properties: { type: { type: 'string', enum: ['all', 'products', 'bundles'], default: 'all', description: 'all (default), products (single items) or bundles.' } }, additionalProperties: false },
+    annotations: { title: 'List Marketplace Products', ...RO } }
+];
+
+// ---------- data, loaded lazily from static assets and cached per isolate ----------
+const C = {};
+async function json(get, path) { const r = await get(path); if (!r.ok) throw new Error('asset ' + path + ' ' + r.status); return r.json(); }
+async function dir(get) {
+  if (C.dir) return C.dir;
+  const [d, v] = await Promise.all([json(get, '/api-index.json'), json(get, '/search-vocab.json')]);
+  const rows = Core.prepare(d.rows.map(r => ({ name: r[0], slug: r[1], category: r[2], category_name: r[3], description: r[4], url: r[5], docs_url: r[6], auth: r[7], pricing: r[8], os: r[12] ? r[12].split(' ') : [], swarmnest_url: `${SITE}/directory/${r[2]}/${r[1]}/` })));
+  return (C.dir = { rows, catmap: d.catmap || {}, voc: v, known: Core.mkVocab(v) });
+}
+async function cats(get) { return C.cats || (C.cats = await json(get, '/api/v1/categories.json')); }
+async function skills(get) {
+  if (C.sk) return C.sk;
+  const d = await json(get, '/api/v1/agent-skills.json');
+  const rows = Core.prepare(d.skills.map(s => ({ ...s, name: s.title, category_name: s.category, category: s.category_slug, description: s.summary, auth: s.format, pricing: s.platforms.join(' ') })));
+  return (C.sk = { d, rows });
+}
+async function products(get) { return C.pr || (C.pr = await json(get, '/api/v1/products.json')); }
+
+// ---------- validation ----------
+class Bad extends Error {}
+const str = (a, k, max, re) => { const v = a[k]; if (v === undefined || v === null || v === '') return undefined; if (typeof v !== 'string') throw new Bad(`${k} must be a string`); const t = v.trim(); if (t.length > max) throw new Bad(`${k} is longer than ${max} characters`); if (re && !re.test(t)) throw new Bad(`${k} has an invalid format`); return t; };
+const oneOf = (a, k, list) => { const v = str(a, k, 40); if (v === undefined) return undefined; const m = list.find(x => x.toLowerCase() === v.toLowerCase()); if (!m) throw new Bad(`${k} must be one of: ${list.join(', ')}`); return m; };
+const int = (a, k, def, min, max) => { let v = a[k]; if (v === undefined || v === null || v === '') return def; if (typeof v === 'string' && /^\d+$/.test(v)) v = +v; if (!Number.isInteger(v)) throw new Bad(`${k} must be an integer`); return Math.max(min, Math.min(max, v)); };
+const known = (a, allowed) => { for (const k of Object.keys(a)) if (!allowed.includes(k)) throw new Bad(`Unknown argument "${k}". Allowed: ${allowed.join(', ')}`); };
+const SLUG = /^[a-z0-9][a-z0-9._-]*$/i;
+const osArg = a => { const v = str(a, 'os', 20); if (v === undefined) return undefined; const o = OS[v.toLowerCase()]; if (!o) throw new Bad('os must be one of: macOS, iOS, Linux, Windows'); return o; };
+const pubE = e => ({ name: e.name, slug: e.slug, description: e.description, category: e.category, category_name: e.category_name, pricing: e.pricing, auth: e.auth, os: e.os, url: e.url, docs_url: e.docs_url, swarmnest_url: e.swarmnest_url });
+const pubS = s => ({ slug: s.slug, title: s.title, summary: s.summary, category: s.category_name, category_slug: s.category, format: s.format, platforms: s.platforms, os: s.os, has_scripts: s.has_scripts, uses_network: s.uses_network, needs_credentials: s.needs_credentials, license: s.license, author: s.author, source_url: s.source_url, swarmnest_url: s.url, ...(s.has_scripts === true ? { warning: SCRIPTS_WARNING } : {}) });
+
+// close matches for an unknown slug: whole slug as words, else the longest words one at a time
+function near(rows, voc, kn, slug) {
+  const w = slug.split(/[-_.]+/).filter(x => x.length > 2), seen = new Set(), out = [];
+  for (const q of [w.join(' '), ...w.slice().sort((a, b) => b.length - a.length)]) {
+    if (!q) continue;
+    for (const h of Core.run(rows, voc, kn, q, {}).hits.slice(0, 5)) if (!seen.has(h.e.slug)) { seen.add(h.e.slug); out.push(h.e); }
+    if (out.length >= 5) break;
+  }
+  return out.slice(0, 5);
+}
+
+// ---------- tools ----------
+const H = {
+  async search_directory(a, get) {
+    known(a, ['query', 'category', 'pricing', 'auth', 'os', 'limit', 'offset']);
+    const q = str(a, 'query', 200) || '', os = osArg(a), limit = int(a, 'limit', 10, 1, MAX), offset = int(a, 'offset', 0, 0, 5000);
+    let category = str(a, 'category', 80, SLUG); const pricing = oneOf(a, 'pricing', ['free', 'freemium', 'paid', 'unknown']), auth = oneOf(a, 'auth', ['none', 'key', 'oauth', 'unknown']);
+    if (!q && !category && !os) throw new Bad('Provide query, category or os. Example: {"query":"web scraping","limit":5}');
+    const D = await dir(get);
+    if (category) { category = category.toLowerCase(); if (D.catmap[category]) category = D.catmap[category]; const c = await cats(get); if (!c.categories.some(x => x.slug === category)) throw new Bad(`Unknown category "${category}". Call list_categories for valid slugs.`); }
+    const rows = os ? D.rows.filter(e => e.os.includes(os)) : D.rows;
+    const r = Core.run(rows, D.voc, D.known, q, { category, auth, pricing }); if (!q) r.hits.sort((x, y) => x.e.name.localeCompare(y.e.name));
+    const hits = r.hits.slice(offset, offset + limit).map(h => pubE(h.e));
+    return { query: r.query, corrected_query: r.corrected, filters: { category: category || null, pricing: pricing || null, auth: auth || null, os: os || null }, total: r.total, offset, count: hits.length, results: hits,
+      more: r.total > offset + hits.length ? `Showing ${offset + 1}-${offset + hits.length} of ${r.total}. Use offset ${offset + hits.length} for more.` : undefined,
+      browse_url: category ? `${SITE}/directory/${category}/` : `${SITE}/search/?q=${encodeURIComponent(q)}` };
+  },
+  async get_entry(a, get) {
+    known(a, ['slug']);
+    const slug = str(a, 'slug', 120, SLUG); if (!slug) throw new Bad('slug is required');
+    const s = slug.toLowerCase(), r = await get(`/api/v1/directory/${encodeURIComponent(s)}.json`);
+    if (r.ok && (r.headers.get('content-type') || '').includes('json')) { const e = await r.json(); const { http_status, ...rest } = e; return { entry: { ...rest, link_check: { http_status, checked_at: e.last_checked_at } } }; }
+    const D = await dir(get); const m = near(D.rows, D.voc, D.known, s).map(e => e.slug);
+    throw new Bad(`No entry with slug "${s}".${m.length ? ' Close matches: ' + m.join(', ') : ' Try search_directory.'}`);
+  },
+  async list_categories(a, get) {
+    known(a, ['group']);
+    const g = str(a, 'group', 80, SLUG), c = await cats(get);
+    const groups = c.groups.filter(x => !g || x.slug === g.toLowerCase());
+    if (g && !groups.length) throw new Bad(`Unknown group "${g}". Groups: ${c.groups.map(x => x.slug).join(', ')}`);
+    const by = Object.fromEntries(c.categories.map(x => [x.slug, x]));
+    const out = groups.map(x => ({ slug: x.slug, name: x.name, description: x.blurb, url: `${SITE}/directory/group/${x.slug}/`, categories: x.categories.map(s => by[s]).filter(Boolean).map(k => ({ slug: k.slug, name: k.name, description: k.blurb, count: k.count, url: `${SITE}/directory/${k.slug}/` })) }));
+    const n = out.reduce((t, x) => t + x.categories.length, 0), e = out.reduce((t, x) => t + x.categories.reduce((u, k) => u + k.count, 0), 0);
+    return { group_count: out.length, category_count: n, entry_count: e, groups: out, all_categories_url: `${SITE}/directory/all-categories/` };
+  },
+  async search_skills(a, get) {
+    known(a, ['query', 'category', 'format', 'platform', 'os', 'limit', 'offset']);
+    const q = str(a, 'query', 200) || '', os = osArg(a), limit = int(a, 'limit', 10, 1, MAX), offset = int(a, 'offset', 0, 0, 5000);
+    const format = oneOf(a, 'format', ['skill-md', 'plugin-bundles', 'cursor-rules', 'agents-md-templates', 'prompt-packs']);
+    let category = str(a, 'category', 80), platform = str(a, 'platform', 40, SLUG);
+    if (!q && !category && !format && !platform && !os) throw new Bad('Provide query or a filter (category, format, platform, os). Example: {"query":"pdf","limit":5}');
+    const S = await skills(get);
+    if (category) { const k = S.d.categories.find(x => x.slug === category.toLowerCase() || x.name.toLowerCase() === category.toLowerCase()); if (!k) throw new Bad(`Unknown skill category "${category}". Categories: ${S.d.categories.map(x => x.slug).join(', ')}`); category = k.slug; }
+    if (platform) { platform = platform.toLowerCase(); if (!S.d.platforms.some(p => p.slug === platform)) throw new Bad(`Unknown platform "${platform}". Platforms: ${S.d.platforms.map(p => p.slug).join(', ')}`); }
+    const rows = S.rows.filter(s => (!format || s.format === format) && (!platform || s.platforms.includes(platform)) && (!os || s.os.includes(os)));
+    const r = Core.run(rows, [], {}, q, { category }); if (!q) r.hits.sort((x, y) => x.e.name.localeCompare(y.e.name));
+    const hits = r.hits.slice(offset, offset + limit).map(h => pubS(h.e));
+    return { install_warning: SKILLS_WARNING, query: r.query, filters: { category: category || null, format: format || null, platform: platform || null, os: os || null }, total: r.total, offset, count: hits.length, results: hits,
+      more: r.total > offset + hits.length ? `Showing ${offset + 1}-${offset + hits.length} of ${r.total}. Use offset ${offset + hits.length} for more.` : undefined,
+      browse_url: category ? `${SITE}/agent-skills/category/${category}/` : `${SITE}/agent-skills/` };
+  },
+  async get_skill(a, get) {
+    known(a, ['slug']);
+    const slug = str(a, 'slug', 160, SLUG); if (!slug) throw new Bad('slug is required');
+    const s = slug.toLowerCase(), r = await get(`/api/v1/agent-skills/${encodeURIComponent(s)}.json`);
+    if (r.ok && (r.headers.get('content-type') || '').includes('json')) { const k = await r.json(); return { install_warning: k.has_scripts === true ? `${SKILL_WARNING} ${SCRIPTS_WARNING}` : SKILL_WARNING, skill: k }; }
+    const S = await skills(get); const m = near(S.rows, [], {}, s).map(e => e.slug);
+    throw new Bad(`No skill with slug "${s}".${m.length ? ' Close matches: ' + m.join(', ') : ' Try search_skills.'}`);
+  },
+  async list_marketplace_products(a, get) {
+    known(a, ['type']);
+    const t = oneOf(a, 'type', ['all', 'products', 'bundles']) || 'all', d = await products(get);
+    const list = d.products.filter(p => t === 'all' || (t === 'bundles' ? p.bundle : !p.bundle)).map(p => ({ slug: p.slug, name: p.title, type: p.type, summary: p.summary, price_usd: p.price_usd, price: '$' + p.price_usd, ...(p.bundle ? { bundle: true, includes: p.includes, bought_separately_usd: p.bought_separately_usd, savings_usd: p.savings_usd } : {}), url: p.url, ...(p.buy_url ? { buy_url: p.buy_url } : {}) }));
+    return { count: list.length, availability: 'US only. Digital download: a download page right after paying, and a copy by email.', marketplace_url: `${SITE}/marketplace/`, products: list };
+  }
+};
+
+// ---------- JSON-RPC ----------
+const ok = (id, result) => ({ jsonrpc: '2.0', id, result: { resultType: 'complete', ...result, _meta: { 'io.modelcontextprotocol/serverInfo': { name: SERVER_INFO.name, version: SERVER_INFO.version } } } });
+const err = (id, code, message, data) => ({ jsonrpc: '2.0', id: id ?? null, error: { code, message, ...(data ? { data } : {}) } });
+const CAPS = { tools: { listChanged: false } };
+
+// returns {status, body} ; body undefined means 202 with no body
+export async function handle(msg, ctx) {
+  const { get, headerVersion, headers = {} } = ctx;
+  if (!msg || typeof msg !== 'object' || Array.isArray(msg) || msg.jsonrpc !== '2.0' || typeof msg.method !== 'string') return { status: 400, body: err(msg && msg.id, -32600, 'Invalid Request: expected a JSON-RPC 2.0 request object') };
+  const { id, method } = msg, params = msg.params && typeof msg.params === 'object' ? msg.params : {};
+  const isNote = !('id' in msg);
+  if (isNote) return { status: 202 };
+  const metaV = params._meta && params._meta[PV];
+  const modern = typeof metaV === 'string' && method !== 'initialize';
+  if (modern) {
+    if (headerVersion && headerVersion !== metaV) return { status: 400, body: err(id, -32020, 'Header mismatch: MCP-Protocol-Version does not match _meta protocolVersion') };
+    if (headers.method && headers.method !== method) return { status: 400, body: err(id, -32020, 'Header mismatch: Mcp-Method does not match the request method') };
+    if (!SUPPORTED.includes(metaV)) return { status: 400, body: err(id, -32022, 'Unsupported protocol version', { supported: SUPPORTED, requested: metaV }) };
+  } else if (headerVersion && method !== 'initialize' && !SUPPORTED.includes(headerVersion)) {
+    return { status: 400, body: err(id, -32600, `Unsupported MCP-Protocol-Version "${headerVersion}". Supported: ${SUPPORTED.join(', ')}`) };
+  }
+  switch (method) {
+    case 'initialize': {
+      const want = params.protocolVersion;
+      const v = LEGACY.includes(want) ? want : LEGACY[0];
+      return { status: 200, body: ok(id, { protocolVersion: v, capabilities: CAPS, serverInfo: SERVER_INFO, instructions: INSTRUCTIONS }) };
+    }
+    case 'server/discover':
+      return { status: 200, body: ok(id, { supportedVersions: SUPPORTED, capabilities: CAPS, instructions: INSTRUCTIONS, ttlMs: 3600000, cacheScope: 'public' }) };
+    case 'ping': return { status: 200, body: ok(id, {}) };
+    case 'tools/list': return { status: 200, body: ok(id, { tools: TOOLS, ttlMs: 3600000, cacheScope: 'public' }) };
+    case 'tools/call': {
+      const name = params.name, args = params.arguments == null ? {} : params.arguments;
+      if (headers.name && modern && headers.name !== name) return { status: 400, body: err(id, -32020, 'Header mismatch: Mcp-Name does not match params.name') };
+      if (typeof name !== 'string' || !H[name]) return { status: 200, body: err(id, -32602, `Unknown tool "${name}". Tools: ${TOOLS.map(t => t.name).join(', ')}`) };
+      if (typeof args !== 'object' || Array.isArray(args)) return { status: 200, body: ok(id, toolErr('arguments must be an object')) };
+      try {
+        const out = await H[name](args, get);
+        const clean = JSON.parse(JSON.stringify(out));
+        return { status: 200, body: ok(id, { content: [{ type: 'text', text: JSON.stringify(clean, null, 1) }], structuredContent: clean, isError: false }) };
+      } catch (e) {
+        if (e instanceof Bad) return { status: 200, body: ok(id, toolErr(e.message)) };
+        return { status: 200, body: err(id, -32603, 'Internal error') };
+      }
+    }
+    case 'resources/list': return { status: 200, body: ok(id, { resources: [], ttlMs: 3600000, cacheScope: 'public' }) };
+    case 'resources/templates/list': return { status: 200, body: ok(id, { resourceTemplates: [], ttlMs: 3600000, cacheScope: 'public' }) };
+    case 'prompts/list': return { status: 200, body: ok(id, { prompts: [], ttlMs: 3600000, cacheScope: 'public' }) };
+    default: return { status: modern ? 404 : 200, body: err(id, -32601, `Method not found: ${method}`) };
+  }
+}
+const toolErr = m => ({ content: [{ type: 'text', text: m }], isError: true });

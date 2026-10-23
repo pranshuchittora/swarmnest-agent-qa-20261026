@@ -7,6 +7,7 @@ export const GET = () => new Response(`# Swarmnest
 > Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has ${USECASES.length} use cases, ${TEMPLATES.length} ready-made agent templates, and a marketplace of Swarmnest's own products.
 
 ## Machine-Readable
+- [MCP server](${SITE}/mcp): remote Model Context Protocol endpoint (Streamable HTTP, no API key) with read-only tools search_directory, get_entry, list_categories, search_skills, get_skill and list_marketplace_products. Setup for Claude, Cursor, VS Code and Windsurf: ${SITE}/mcp-server/
 - [Directory JSON](${SITE}/directory.json): every entry with name, slug, category, description, url, docs_url, auth, pricing
 - [API: list](${SITE}/api/v1/directory.json)
 - [API: one entry](${SITE}/api/v1/directory/{slug}.json): replace {slug}, e.g. ${SITE}/api/v1/directory/${ALL[0].slug}.json
@@ -23,7 +24,7 @@ ${GROUPS.map(g=>`### ${g.name}\n${g.blurb}\n${g.cats.map(c=>`- [${c.name}](${SIT
 - [Hub and search](${SITE}/agent-skills/) and [JSON](${SITE}/api/v1/agent-skills.json): static JSON of every listing with format, category, declared platforms, has_scripts (true, false or null), uses_network, needs_credentials, license and source_url
 - Formats: ${FORMATS.map(f=>`[${f.name}](${SITE}/agent-skills/format/${f.slug}/)`).join(', ')}
 - Platforms (as declared by the source): ${platformsUsed.map(p=>`[${p.name}](${SITE}/agent-skills/platform/${p.slug}/)`).join(', ')}. JSON per platform: ${SITE}/api/v1/agent-skills/platform/{platform}.json
-- Categories (${CATEGORIES.length}): ${CATEGORIES.map(c=>`[${c.name}](${SITE}/agent-skills/category/${c.slug}/)`).join(', ')}. JSON per category: ${SITE}/api/v1/agent-skills/category/{category}.json
+- Categories (${CATEGORIES.length}): ${CATEGORIES.map(c=>`[${c.name}](${SITE}/agent-skills/category/${c.slug}/)`).join(', ')}. JSON per category: ${SITE}/api/v1/agent-skills/category/{category}.json. One skill with install steps: ${SITE}/api/v1/agent-skills/{slug}.json
 ${GUIDES.map(g=>`- [${g.title}](${SITE}/agent-skills/guides/${g.slug}/): ${g.blurb}`).join('\n')}
 - [Submit a skill](${SITE}/agent-skills/submit/)
 

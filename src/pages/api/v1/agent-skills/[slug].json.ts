@@ -1,0 +1,4 @@
+import { SKILLS, compact, labelsOf, platName } from '../../../../lib/skills';
+export function getStaticPaths(){ return SKILLS.map(s=>({params:{slug:s.slug},props:{s}})); }
+const WARN='Third-party skill. Review the source before installing.';
+export const GET=({props}:any)=>{const s=props.s;return new Response(JSON.stringify({...compact(s),install_warning:s.has_scripts===true?WARN+' Includes scripts that run code on your machine.':WARN,labels:labelsOf(s),repo:s.repo,path_in_repo:s.path_in_repo||null,reviewed_commit:s.reviewed_commit,runtime_needs:s.runtime_needs,scan_notes:s.scan_notes,install:s.install.map((i:any)=>({platform:i.platform,platform_name:platName(i.platform),method:i.method,steps:i.steps})),last_verified:s.last_verified},null,1),{headers:{'content-type':'application/json; charset=utf-8','access-control-allow-origin':'*','cache-control':'public, max-age=300'}});};
