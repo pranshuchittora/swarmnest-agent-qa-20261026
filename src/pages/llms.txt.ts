@@ -4,7 +4,7 @@ import { ALL, CATS, GROUPS, byCat, SITE } from '../lib/data';
 import { SKILLS, CATEGORIES, FORMATS, platformsUsed, GUIDES } from '../lib/skills';
 export const GET = () => new Response(`# Swarmnest
 
-> Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has 8 use cases with 8 ready-made agent templates, and a marketplace of Swarmnest's own products.
+> Swarmnest is a hub for AI agents and the people who run them. Its core is a hand-checked directory of ${ALL.length} tools, APIs, MCP servers and data sources, available as human pages and as JSON. It also has ${USECASES.length} use cases, ${TEMPLATES.length} ready-made agent templates, and a marketplace of Swarmnest's own products.
 
 ## Machine-Readable
 - [Directory JSON](${SITE}/directory.json): every entry with name, slug, category, description, url, docs_url, auth, pricing

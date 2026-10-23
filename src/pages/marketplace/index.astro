@@ -5,9 +5,10 @@ import Base from '../../layouts/Base.astro';
 import { PRODUCTS, savingsCents } from '../../lib/content';
 import { SITE } from '../../lib/data';
 import { LAUNCH } from '../../lib/config';
+const nPacks=PRODUCTS.filter(p=>!p.bundle).length, nBundles=PRODUCTS.filter(p=>p.bundle).length;
 const ld=[{'@context':'https://schema.org','@type':'ItemList',name:'Swarmnest marketplace',itemListElement:PRODUCTS.map((p,i)=>({'@type':'ListItem',position:i+1,url:`${SITE}/marketplace/${p.slug}/`,name:p.title}))}];
 ---
-<Base title="Marketplace for AI Agent Skills, Workflows and Prompt Packs | Swarmnest" description={`Twelve tested agent skills, workflows and prompt packs, plus three bundles, built by Swarmnest, from $9. ${LAUNCH?'Instant download after purchase.':'Coming soon.'}`} path="/marketplace/" jsonld={ld}>
+<Base title="Marketplace for AI Agent Skills, Workflows and Prompt Packs | Swarmnest" description={`${nPacks} tested agent skills, workflows and prompt packs, plus ${nBundles} bundles, built by Swarmnest, from $9. ${LAUNCH?'Instant download after purchase.':'Coming soon.'}`} path="/marketplace/" jsonld={ld}>
 <Crumbs items={[['Home','/'],['Marketplace']]} />
 <h1>Marketplace</h1>
 <p class="lead">Skills, workflows and prompt packs for AI agents, made by Swarmnest. {LAUNCH ? 'Pay once, get an instant download (readable files plus a zip). One-time price, personal and commercial use. We currently sell to customers in the United States only.' : 'Launching soon. Prices are shown below.'}</p>

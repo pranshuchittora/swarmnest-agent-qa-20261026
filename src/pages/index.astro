@@ -11,7 +11,7 @@ const nProducts = PRODUCTS.filter(p=>!p.bundle).length;
 const minPrice = Math.min(...PRODUCTS.map(p=>p.cents))/100;
 const featured = ['openai-api','anthropic-api','firecrawl','tavily','github-mcp-server','langgraph','qdrant','stripe'].map(s=>ALL.find(e=>e.slug===s)!).filter(Boolean);
 ---
-<Base title="Swarmnest — The Directory of Tools, APIs and Data for AI Agents" description={`Browse ${ALL.length} hand-checked tools, APIs and data sources for AI agents, in a clean format for people and a JSON API for agents.`} path="/">
+<Base title="Swarmnest — AI Agent Tools, MCP Servers and Agent Skills" description={`Browse ${ALL.length} hand-checked tools, MCP servers, APIs and data sources for AI agents, plus ${SKILLS.length} Agent Skills, with a JSON API for agents.`} path="/">
 <section class="hero" aria-labelledby="home-h1">
 <h1 id="home-h1">The Hub for AI Agents and the People Who Run Them</h1>
 <p class="lead">Tools, MCP servers, Agent Skills and tested packs for building with AI agents.</p>

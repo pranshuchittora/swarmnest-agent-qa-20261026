@@ -6,7 +6,7 @@ import { NAV_GROUPS, groupPath } from '../lib/nav';
 interface Props { title: string; description: string; path: string; jsonld?: object[]; type?: string; noindex?: boolean; }
 const { title, description, path, jsonld = [], type = 'website', noindex = false } = Astro.props;
 const canonical = SITE + path;
-const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarmnest',url:SITE,logo:SITE+'/icon-512.png',email:'hello@swarmnest.ai',description:'A directory of tools, APIs, data sources and Agent Skills for AI agents, with use cases, agent templates and a marketplace of tested skill packs and workflows.' };
+const org = { '@context':'https://schema.org','@type':'Organization',name:'Swarmnest',url:SITE,logo:SITE+'/icon-512.png',email:'hello@swarmnest.ai',sameAs:['https://x.com/Swarmnest_ai'],description:'A directory of tools, APIs, data sources and Agent Skills for AI agents, with use cases, agent templates and a marketplace of tested skill packs and workflows.' };
 const site = { '@context':'https://schema.org','@type':'WebSite',name:'Swarmnest',url:SITE,potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:SITE+'/search/?q={search_term_string}'},'query-input':'required name=search_term_string'} };
 // Pages that sell ads, and all legal/policy pages, don't show the footer ad box.
 const NO_AD = ['/advertise/', '/advertise/details/', '/legal/', ...LEGAL.map(([u]) => u)];
@@ -94,7 +94,7 @@ const ld = [org, ...(path==='/'?[site]:[]), ...jsonld];
  <nav class="fcols" aria-label="Footer">
   <div><h2>Explore</h2><ul><li><a href="/directory/">Directory</a></li><li><a href="/agent-skills/">Agent Skills</a></li><li><a href="/marketplace/">Marketplace</a></li><li><a href="/use-cases/">Use Cases</a></li><li><a href="/agent-templates/">Agent Templates</a></li><li><a href="/macos/">macOS Hub</a></li><li><a href="/directory/all-categories/">All Categories A–Z</a></li><li><a href="/search/">Search</a></li></ul></div>
   <div><h2>For Developers</h2><ul><li><a href="/api/v1/directory.json">API (JSON)</a></li><li><a href="/openapi.json">OpenAPI</a></li><li><a href="/llms.txt">llms.txt</a></li><li><a href="/sitemap.xml">Sitemap</a></li><li><a href="/submit/">Submit a Tool</a></li><li><a href="/agent-skills/submit/">Submit a Skill</a></li></ul></div>
-  <div><h2>Company</h2><ul><li><a href="/about/">About</a></li><li><a href="/support/">Support</a></li><li><a href="/advertise/">Advertise</a></li><li><a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a></li></ul></div>
+  <div><h2>Company</h2><ul><li><a href="/about/">About</a></li><li><a href="/support/">Support</a></li><li><a href="/advertise/">Advertise</a></li><li><a href="https://x.com/Swarmnest_ai" rel="me noopener">Swarmnest on X</a></li><li><a href="mailto:hello@swarmnest.ai">hello@swarmnest.ai</a></li></ul></div>
  </nav>
  <p class="small">Swarmnest is not affiliated with the tools listed. Names and trademarks belong to their owners. Sponsored listings and affiliate links, if any, are labelled and never affect what we list or how we rank it. See our <a href="/disclosure/">Sponsored &amp; Affiliate Disclosure</a>.</p>
  <nav class="flegal" aria-label="Legal"><h2 class="vh">Legal</h2><ul><li><a href="/legal/">Legal</a></li>{LEGAL.map(([u, t]) => <li><a href={u}>{t}</a></li>)}</ul></nav>
