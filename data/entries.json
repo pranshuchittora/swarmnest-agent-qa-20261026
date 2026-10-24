@@ -57342,5 +57342,20 @@
   "status": "active",
   "os": [],
   "open_source": false
+ },
+ {
+  "name": "HyperGSC",
+  "slug": "hypergsc",
+  "category": "seo-tools",
+  "description": "A hosted, read-only Google Search Console MCP server that lets Claude, ChatGPT, Codex, Cursor and other remote MCP clients analyze clicks, impressions, queries, pages and indexing for the properties you authorize, with a free plan for one property and paid plans for more history and properties.",
+  "url": "https://hypergsc.com",
+  "docs_url": "https://hypergsc.com/google-search-console-mcp",
+  "auth": "oauth",
+  "pricing": "freemium",
+  "http_status": 200,
+  "last_checked_at": "2026-10-14",
+  "status": "active",
+  "os": [],
+  "open_source": false
  }
 ]
