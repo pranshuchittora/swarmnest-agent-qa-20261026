@@ -15,6 +15,11 @@
   "blurb": "Model Context Protocol servers and tooling that plug agents into other software, including Mac apps (use the macOS filter)."
  },
  {
+  "slug": "mcp-sdks-dev-tools",
+  "name": "MCP SDKs & Developer Tools",
+  "blurb": "Official and community SDKs, frameworks, inspectors, proxies and gateways for building and testing MCP servers and clients."
+ },
+ {
   "slug": "agent-frameworks",
   "name": "Agent Frameworks",
   "blurb": "Libraries and platforms for building, orchestrating and running agents."

@@ -120,6 +120,11 @@
 /directory/agent-standards-specs/securitytxt/ /directory/agent-protocols/securitytxt/ 301
 /directory/agent-standards-specs/webmcp/ /directory/agent-protocols/webmcp/ 301
 /directory/agent-standards-specs/well-known-uris-rfc-8615/ /directory/agent-protocols/well-known-uris-rfc-8615/ 301
+/directory/ai-coding-assistants/roo-code/ /directory/ai-coding-assistants/ 301
+/directory/ai-dubbing/papercup-ai-dubbing-and-transcription/ /directory/ai-dubbing/ 301
+/directory/ai-dubbing/papercup-ai-live-caption/ /directory/ai-dubbing/ 301
+/directory/ai-dubbing/papercup-api/ /directory/ai-dubbing/ 301
+/directory/animals-nature/fishwatch-api/ /directory/animals-nature/ 301
 /directory/api-marketplaces/apilayer/ /directory/agent-marketplaces/apilayer/ 301
 /directory/api-marketplaces/apimarket/ /directory/agent-marketplaces/apimarket/ 301
 /directory/api-marketplaces/apisguru/ /directory/agent-marketplaces/apisguru/ 301
@@ -514,6 +519,8 @@
 /directory/email-testing/papercut-smtp/ /directory/email-verification/papercut-smtp/ 301
 /directory/email-testing/smtp4dev/ /directory/email-verification/smtp4dev/ 301
 /directory/email-testing/testmailapp/ /directory/email-verification/testmailapp/ 301
+/directory/event-streaming/upstash-kafka/ /directory/event-streaming/ 301
+/directory/fine-tuning/predibase/ /directory/fine-tuning/ 301
 /directory/food-nutrition/api-ninjas-nutrition/ /directory/recipes-cooking/api-ninjas-nutrition/ 301
 /directory/food-nutrition/brewery-db-open-brewery-db/ /directory/recipes-cooking/brewery-db-open-brewery-db/ 301
 /directory/food-nutrition/edamam/ /directory/recipes-cooking/edamam/ 301
@@ -597,6 +604,7 @@
 /directory/icon-libraries/simple-icons/ /directory/stock-photos/simple-icons/ 301
 /directory/icon-libraries/streamline-api/ /directory/stock-photos/streamline-api/ 301
 /directory/icon-libraries/tabler-icons/ /directory/stock-photos/tabler-icons/ 301
+/directory/job-search-apis/indeed-publisher/ /directory/job-search-apis/ 301
 /directory/jobs-hiring/adzuna-api/ /directory/job-search-apis/adzuna-api/ 301
 /directory/jobs-hiring/arbeitnow-api/ /directory/job-search-apis/arbeitnow-api/ 301
 /directory/jobs-hiring/ashby-api/ /directory/applicant-tracking/ashby-api/ 301
@@ -605,7 +613,7 @@
 /directory/jobs-hiring/greenhouse-harvest-api/ /directory/applicant-tracking/greenhouse-harvest-api/ 301
 /directory/jobs-hiring/greenhouse-job-board-api/ /directory/applicant-tracking/greenhouse-job-board-api/ 301
 /directory/jobs-hiring/gusto-api/ /directory/hr-payroll/gusto-api/ 301
-/directory/jobs-hiring/indeed-publisher/ /directory/job-search-apis/indeed-publisher/ 301
+/directory/jobs-hiring/indeed-publisher/ /directory/job-search-apis/ 301
 /directory/jobs-hiring/jooble-api/ /directory/job-search-apis/jooble-api/ 301
 /directory/jobs-hiring/lever-api/ /directory/applicant-tracking/lever-api/ 301
 /directory/jobs-hiring/lever-postings-api/ /directory/applicant-tracking/lever-postings-api/ 301
@@ -712,14 +720,23 @@
 /directory/mcp-directories/zapier-mcp/ /directory/ai-tool-directories/zapier-mcp/ 301
 /directory/mcp-servers/ai21-labs-api/ /directory/llm-apis/ai21-labs-api/ 301
 /directory/mcp-servers/cohere-sdk-python/ /directory/llm-sdks-structured/cohere-sdk-python/ 301
+/directory/mcp-servers/docker-mcp-toolkit/ /directory/mcp-sdks-dev-tools/docker-mcp-toolkit/ 301
+/directory/mcp-servers/fastmcp/ /directory/mcp-sdks-dev-tools/fastmcp/ 301
 /directory/mcp-servers/google-vertex-ai/ /directory/model-hosting-inference/google-vertex-ai/ 301
 /directory/mcp-servers/groq-sdk-javascript/ /directory/llm-sdks-structured/groq-sdk-javascript/ 301
 /directory/mcp-servers/groq-sdk-python/ /directory/llm-sdks-structured/groq-sdk-python/ 301
 /directory/mcp-servers/hugging-face-spaces/ /directory/model-hosting-inference/hugging-face-spaces/ 301
+/directory/mcp-servers/mcp-inspector/ /directory/mcp-sdks-dev-tools/mcp-inspector/ 301
+/directory/mcp-servers/mcp-python-sdk/ /directory/mcp-sdks-dev-tools/mcp-python-sdk/ 301
+/directory/mcp-servers/mcp-remote/ /directory/mcp-sdks-dev-tools/mcp-remote/ 301
+/directory/mcp-servers/mcp-typescript-sdk/ /directory/mcp-sdks-dev-tools/mcp-typescript-sdk/ 301
+/directory/mcp-servers/model-context-protocol/ /directory/agent-protocols/model-context-protocol/ 301
 /directory/mcp-servers/modelscope-hub/ /directory/model-hosting-inference/modelscope-hub/ 301
+/directory/mcp-servers/official-mcp-registry/ /directory/ai-tool-directories/official-mcp-registry/ 301
 /directory/mcp-servers/openai-api-gateway-openapi-spec/ /directory/llm-sdks-structured/openai-api-gateway-openapi-spec/ 301
 /directory/mcp-servers/openai-sdk-javascript/ /directory/llm-sdks-structured/openai-sdk-javascript/ 301
 /directory/mcp-servers/openai-sdk-python/ /directory/llm-sdks-structured/openai-sdk-python/ 301
+/directory/mcp-servers/smithery/ /directory/ai-tool-directories/smithery/ 301
 /directory/mcp-servers/stability-ai-api/ /directory/image-generation/stability-ai-api/ 301
 /directory/mcp-servers/stability-sdk-python/ /directory/image-generation/stability-sdk-python/ 301
 /directory/meeting-notes-ai/aivaai-meeting-summaries/ /directory/ai-music-generation/aiva/ 301
@@ -809,6 +826,8 @@
 /directory/movies-tv-data/igdb-api/ /directory/games-data/igdb-api/ 301
 /directory/movies-tv-data/scryfall-api/ /directory/games-data/scryfall-api/ 301
 /directory/movies-tv-data/steam-web-api/ /directory/games-data/steam-web-api/ 301
+/directory/music-apis/napster-api/ /directory/music-apis/ 301
+/directory/nlp-text-analysis/monkeylearn/ /directory/nlp-text-analysis/ 301
 /directory/no-code-databases/google-sheets-api/ /directory/spreadsheet-apis/google-sheets-api/ 301
 /directory/nutrition-data/api-ninjas-nutrition/ /directory/recipes-cooking/api-ninjas-nutrition/ 301
 /directory/nutrition-data/bonjour-nutrition/ /directory/recipes-cooking/bonjour-nutrition/ 301
@@ -996,6 +1015,9 @@
 /directory/public-health-data/who-data-api/ /directory/government-statistics/who-data-api/ 301
 /directory/public-health-data/who-global-health-observatory-api/ /directory/government-statistics/who-global-health-observatory-api/ 301
 /directory/public-health-data/world-bank-health-indicators/ /directory/government-statistics/world-bank-health-indicators/ 301
+/directory/public-transit/citymapper-api/ /directory/public-transit/ 301
+/directory/public-transit/transitfeeds-openmobilitydata/ /directory/public-transit/ 301
+/directory/read-later-bookmarks/pocket/ /directory/read-later-bookmarks/ 301
 /directory/scheduling-time/abstract-holidays-api/ /directory/calendars-scheduling/abstract-holidays-api/ 301
 /directory/scheduling-time/calendarific/ /directory/calendars-scheduling/calendarific/ 301
 /directory/scheduling-time/clockify-api/ /directory/calendars-scheduling/clockify-api/ 301
@@ -1142,8 +1164,8 @@
 /directory/speech-transcription/otterai/ /directory/meeting-notes-ai/otterai/ 301
 /directory/speech-transcription/otterai-business/ /directory/meeting-notes-ai/otterai-business/ 301
 /directory/speech-transcription/otterai-live-captioning/ /directory/meeting-notes-ai/otterai-live-captioning/ 301
-/directory/speech-transcription/papercup-ai-dubbing-and-transcription/ /directory/ai-dubbing/papercup-ai-dubbing-and-transcription/ 301
-/directory/speech-transcription/papercup-ai-live-caption/ /directory/ai-dubbing/papercup-ai-live-caption/ 301
+/directory/speech-transcription/papercup-ai-dubbing-and-transcription/ /directory/speech-transcription/ 301
+/directory/speech-transcription/papercup-ai-live-caption/ /directory/speech-transcription/ 301
 /directory/speech-transcription/piper-tts/ /directory/text-to-speech/piper-tts/ 301
 /directory/speech-transcription/switchboard/ /directory/speech-datasets/switchboard/ 301
 /directory/speech-transcription/timit/ /directory/speech-datasets/timit/ 301
@@ -1307,7 +1329,7 @@
 /directory/voice-video-dubbing/maestra-ai-localization/ /directory/ai-dubbing/maestra-ai-localization/ 301
 /directory/voice-video-dubbing/noizai/ /directory/ai-dubbing/noizai/ 301
 /directory/voice-video-dubbing/open-dubbing-github/ /directory/ai-dubbing/open-dubbing-github/ 301
-/directory/voice-video-dubbing/papercup-api/ /directory/ai-dubbing/papercup-api/ 301
+/directory/voice-video-dubbing/papercup-api/ /directory/ai-dubbing/ 301
 /directory/voice-video-dubbing/rask-ai-api/ /directory/ai-dubbing/rask-ai-api/ 301
 /directory/voice-video-dubbing/readspeaker/ /directory/text-to-speech/readspeaker/ 301
 /directory/voice-video-dubbing/reapvideo-ai-dubbing/ /directory/ai-dubbing/reapvideo-ai-dubbing/ 301
@@ -1375,7 +1397,7 @@
 /directory/web-search-engines/qwant-public-search/ /directory/search-apis/qwant-public-search/ 301
 /directory/web-search-engines/seznam-search/ /directory/search-apis/seznam-search/ 301
 /directory/web-search-engines/startpage/ /directory/search-apis/startpage/ 301
-/directory/web-search-engines/stract/ /directory/search-apis/stract/ 301
+/directory/web-search-engines/stract/ /directory/search-apis/ 301
 /directory/web-search-engines/swisscows-public-search/ /directory/search-apis/swisscows-public-search/ 301
 /directory/web-search-engines/yacy/ /directory/search-apis/yacy/ 301
 /directory/web-search-engines/yandex-search-api/ /directory/search-apis/yandex-search-api/ 301
@@ -1412,3 +1434,4 @@
 /directory/mac-local-llm-runners/locally-ai/ /directory/local-inference/locally-ai/ 301
 /directory/mac-local-llm-runners/chatmlx/ /directory/local-inference/chatmlx/ 301
 /directory/mac-local-llm-runners/fastmlx/ /directory/local-inference/fastmlx/ 301
+/directory/search-apis/stract/ /directory/search-apis/ 301

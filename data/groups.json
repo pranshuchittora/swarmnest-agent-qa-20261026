@@ -5,6 +5,7 @@
   "blurb": "MCP servers, frameworks, memory, protocols and marketplaces for agents.",
   "cats": [
    "mcp-servers",
+   "mcp-sdks-dev-tools",
    "agent-frameworks",
    "agent-memory",
    "code-execution",
