@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "date": "2026-10-23",
+      "source": "launch (MCP server announcement)",
+      "bufferPostId": "6adb9999bd33ce99c3e19bd2",
+      "status": "sent",
+      "link": "https://swarmnest.ai/mcp-server/",
+      "text": "Swarmnest now has its own MCP server.\n\nAsk your agent to search 3,800+ AI tools, MCP servers and 545 agent skills right from Claude, Cursor or VS Code. Read-only, no sign-in needed.\n\nSetup: https://swarmnest.ai/mcp-server/"
+    },
+    {
+      "date": "2026-10-24",
+      "source": "plan post 13 (Agent Eval & Guardrails Pack, spare; schedule starts Oct 26)",
+      "bufferPostId": "6adcd8098b3d437ddcc9865a",
+      "status": "scheduled",
+      "dueAt": "2026-10-24T12:00:00-07:00",
+      "link": "https://swarmnest.ai/marketplace/agent-eval-guardrails-pack/",
+      "text": "Test your agent before you trust it. The Agent Eval & Guardrails Pack: 70 test cases, rubrics, judge prompts and guardrail prompts, with a runner that scores most of them automatically.\n\nhttps://swarmnest.ai/marketplace/agent-eval-guardrails-pack/"
+    }
+  ],
+  "planPostsUsed": [
+    13
+  ]
+}
