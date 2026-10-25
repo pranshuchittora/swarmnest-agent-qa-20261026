@@ -20785,6 +20785,11 @@
   "mac-local-llm-runners"
  ],
  "renames": {
-  "aivaai-meeting-summaries": "aiva"
+  "aivaai-meeting-summaries": "aiva",
+  "redisgraph": "falkordb",
+  "flyio-blog": "flyio",
+  "flyio-support": "flyio",
+  "flyio-security": "flyio",
+  "openfaas-cloud": "openfaas"
  }
 }

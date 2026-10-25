@@ -475,7 +475,6 @@ relational-databases|DB2|https://www.ibm.com/products/db2|https://www.ibm.com/do
 relational-databases|Sybase|https://www.sybase.com/|https://www.sybase.com/|unknown|unknown|SAP acquired Sybase in 2010 to drive forward the realization of its in-memory computing vision.
 vector-databases|Elastic Search with k-NN plugin|https://www.elastic.co/|https://www.elastic.co/|unknown|unknown|Powered by Elasticsearch. Ready to deploy your data? Start free.
 vector-databases|NMSLIB|https://github.com/nmslib/nmslib|https://github.com/nmslib/nmslib/tree/master/docs|none|free|Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
-graph-databases|RedisGraph|https://github.com/RedisGraph/RedisGraph|https://github.com/RedisGraph/RedisGraph|none|free|A graph database as a Redis module.
 data-warehouses|DuckDB with vector extension|https://duckdb.org/|https://duckdb.org/docs/current|unknown|unknown|DuckDB is a SQL OLAP database management system. Simple, feature-rich, fast & open source.
 graph-databases|Neo4j Graph Data Science with vector similarity|https://neo4j.com/|https://neo4j.com/|unknown|freemium|Connect data as it's stored with Neo4j. Perform powerful, complex queries at scale and speed with our graph data platform.
 vector-databases|Cohere Vector Search API (free tier)|https://cohere.com/|https://cohere.com/developers|key|freemium|Cohere builds powerful models and AI solutions enabling enterprises to automate processes, empower employees, and turn fragmented data into actionable insights.
@@ -715,10 +714,6 @@ relational-databases|PlanetScale Cloud|https://planetscale.com/|https://planetsc
 serverless-hosting|Fly.io API|https://docs.fly.io/machines/api|https://docs.fly.io/api/machines/openapi.json|key|freemium|Manage apps, Machines, volumes, certificates and tokens with the Fly.io Machines REST API. Find each resource reference, the OpenAPI spec and the fly-go client.
 serverless-hosting|Fly.io Pricing|https://fly.io/pricing/|https://fly.io/pricing/|unknown|unknown|What Fly.io costs: per-second Machines pricing, metered Sprites usage, Managed Postgres cluster plans, support tiers and compliance.
 serverless-hosting|Fly.io Community|https://community.fly.io/|https://community.fly.io/tag/docs/10|unknown|unknown|Community discussion and support for Fly.io application hosting.
-serverless-hosting|Fly.io Blog|https://fly.io/blog/|https://docs.fly.io/about/brand|key|freemium|News, tips, and tricks from the team at Fly
-serverless-hosting|Fly.io Support|https://fly.io/support/|https://fly.io/support/|unknown|freemium|Fly.io support engineers are working developers. Compare support plans, first-response times and what each includes, from personal projects to large teams.
-serverless-hosting|Fly.io Security|https://fly.io/security/|https://fly.io/security/|unknown|freemium|Fly.io was designed by vulnerability researchers. Tenants never share a kernel, and containers run as hardware-isolated microVMs on our own hardware.
-serverless-hosting|OpenFaaS Cloud|https://github.com/openfaas/openfaas-cloud|https://github.com/openfaas/openfaas-cloud|none|free|The Multi-user OpenFaaS Platform.
 serverless-hosting|OpenWhisk (Apache)|https://github.com/apache/openwhisk|https://github.com/apache/openwhisk/tree/master/docs|none|free|Apache OpenWhisk is an open source serverless cloud platform
 serverless-hosting|Fission (Serverless)|https://github.com/fission/fission|https://github.com/fission/fission/tree/main/docs|none|free|Fast and Simple Serverless Functions for Kubernetes
 cloud-dev-environments|Katacoda Interactive Scenarios|https://www.katacoda.com/|https://www.katacoda.com/|unknown|unknown|Learn the latest technologies with our hands-on labs
@@ -931,7 +926,6 @@ embeddings-rerankers|Azure OpenAI Embeddings|https://learn.microsoft.com/azure/a
 embeddings-rerankers|Mixedbread|https://www.mixedbread.com/|https://www.mixedbread.com/docs|key|freemium|Embedding and reranking models and search API.
 embeddings-rerankers|Text Embeddings Inference|https://github.com/huggingface/text-embeddings-inference|https://huggingface.co/docs/text-embeddings-inference|none|free|Hugging Face's fast inference server for embedding and reranker models.
 embeddings-rerankers|FastEmbed|https://github.com/qdrant/fastembed|https://qdrant.github.io/fastembed/|none|free|Lightweight, fast Python library for generating embeddings from Qdrant.
-embeddings-rerankers|Together AI Embeddings|https://docs.together.ai/docs/embeddings-overview|https://docs.together.ai/docs/embeddings-overview|key|paid|Embedding models hosted on Together AI.
 embeddings-rerankers|ColBERT|https://github.com/stanford-futuredata/ColBERT|https://github.com/stanford-futuredata/ColBERT|none|free|Late-interaction retrieval model and library from Stanford.
 embeddings-rerankers|RAGatouille|https://github.com/AnswerDotAI/RAGatouille|https://github.com/AnswerDotAI/RAGatouille|none|free|Python library that makes ColBERT-style retrieval easy to use in RAG pipelines.
 embeddings-rerankers|FlashRank|https://github.com/PrithivirajDamodaran/FlashRank|https://github.com/PrithivirajDamodaran/FlashRank|none|free|Ultra-light CPU-friendly reranking library.
@@ -1251,7 +1245,6 @@ fine-tuning|DeepSpeed|https://github.com/deepspeedai/DeepSpeed|https://www.deeps
 fine-tuning|OpenAI Fine-tuning|https://platform.openai.com/docs/guides/fine-tuning|https://platform.openai.com/docs/guides/fine-tuning|key|paid|Fine-tune OpenAI models through the API.
 fine-tuning|Together AI Fine-tuning|https://docs.together.ai/docs/fine-tuning-overview|https://docs.together.ai/docs/fine-tuning-overview|key|paid|Managed fine-tuning of open models.
 fine-tuning|Fireworks Fine-tuning|https://docs.fireworks.ai/fine-tuning/finetuning-intro|https://docs.fireworks.ai/fine-tuning/finetuning-intro|key|paid|Fine-tune and deploy LoRA models.
-fine-tuning|Mistral Fine-tuning|https://docs.mistral.ai/resources/deprecated/finetuning|https://docs.mistral.ai/resources/deprecated/finetuning|key|paid|Fine-tune Mistral models via API.
 fine-tuning|OpenPipe|https://openpipe.ai/|https://openpipe.ai/|key|paid|Distill and fine-tune models from production logs.
 fine-tuning|Weights & Biases|https://wandb.ai/|https://docs.wandb.ai/|key|freemium|Experiment tracking and model training tools.
 fine-tuning|MLflow|https://mlflow.org/|https://mlflow.org/docs/latest/|none|free|Open-source ML lifecycle platform.
@@ -2048,7 +2041,6 @@ visual-agent-builders|Wordware|https://www.wordware.ai/|https://docs.wordware.ai
 agent-marketplaces|Relevance AI Marketplace|https://relevanceai.com/agents|https://relevanceai.com/docs|key|freemium|Agent templates marketplace.
 agent-marketplaces|Microsoft Copilot Studio Agents|https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio|https://learn.microsoft.com/en-us/microsoft-copilot-studio/|oauth|paid|Build and publish agents for Microsoft 365.
 agent-marketplaces|Salesforce AgentExchange|https://www.salesforce.com/agentforce/agentexchange/|https://developer.salesforce.com/docs/einstein/genai/overview|oauth|paid|Marketplace for Agentforce agents.
-agent-marketplaces|Agent.ai|https://agent.ai/|https://agent.ai/|key|freemium|Professional network and marketplace for agents.
 agent-marketplaces|Fetch.ai Agentverse|https://agentverse.ai/|https://docs.agentverse.ai/|key|freemium|Registry and hosting for autonomous agents.
 agent-marketplaces|Olas Mech Marketplace|https://olas.network/|https://docs.autonolas.network/|key|free|On-chain marketplace for agent services.
 agent-marketplaces|Virtuals Protocol|https://app.virtuals.io/|https://whitepaper.virtuals.io/|none|free|Marketplace for tokenized AI agents.
@@ -2427,7 +2419,6 @@ ai-coding-assistants|Aider|https://aider.chat/|https://aider.chat/docs/|key|free
 ai-coding-assistants|Continue|https://www.continue.dev/|https://docs.continue.dev/|key|free|Open-source AI code assistant.
 ai-coding-assistants|Gemini CLI|https://github.com/google-gemini/gemini-cli|https://github.com/google-gemini/gemini-cli/tree/main/docs|oauth|free|Open-source terminal agent for Gemini.
 ai-coding-assistants|Sourcegraph Amp|https://ampcode.com/|https://ampcode.com/manual|oauth|paid|Agentic coding tool.
-ai-coding-assistants|Tabnine|https://www.tabnine.com/|https://docs.tabnine.com/|oauth|paid|AI code completion.
 ai-coding-assistants|v0|https://v0.app/|https://v0.dev/docs|oauth|freemium|Generate UI from prompts.
 ai-coding-assistants|Bolt.new|https://bolt.new/|https://support.bolt.new/|oauth|freemium|Prompt-to-app builder.
 ai-coding-assistants|Lovable|https://lovable.dev/|https://docs.lovable.dev/|oauth|freemium|Prompt-to-app builder.

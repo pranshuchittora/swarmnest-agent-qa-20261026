@@ -86,6 +86,7 @@
 /directory/macos-mcp-servers/ /directory/mcp-servers/ 301
 /directory/mac-computer-use/ /directory/mac-ai-agent-apps/ 301
 /directory/mac-local-llm-runners/ /directory/local-inference/ 301
+/directory/agent-marketplaces/agentai/ /directory/agent-marketplaces/ 301
 /directory/agent-payment-protocols/agent-payments-protocol-ap2/ /directory/agent-payments/agent-payments-protocol-ap2/ 301
 /directory/agent-payment-protocols/agentic-commerce-protocol/ /directory/agent-payments/agentic-commerce-protocol/ 301
 /directory/agent-payment-protocols/coinbase-payments-mcp/ /directory/agent-payments/coinbase-payments-mcp/ 301
@@ -121,6 +122,7 @@
 /directory/agent-standards-specs/webmcp/ /directory/agent-protocols/webmcp/ 301
 /directory/agent-standards-specs/well-known-uris-rfc-8615/ /directory/agent-protocols/well-known-uris-rfc-8615/ 301
 /directory/ai-coding-assistants/roo-code/ /directory/ai-coding-assistants/ 301
+/directory/ai-coding-assistants/tabnine/ /directory/ai-coding-assistants/ 301
 /directory/ai-dubbing/papercup-ai-dubbing-and-transcription/ /directory/ai-dubbing/ 301
 /directory/ai-dubbing/papercup-ai-live-caption/ /directory/ai-dubbing/ 301
 /directory/ai-dubbing/papercup-api/ /directory/ai-dubbing/ 301
@@ -363,7 +365,7 @@
 /directory/databases-backend/postgresql/ /directory/relational-databases/postgresql/ 301
 /directory/databases-backend/redis/ /directory/nosql-key-value-stores/redis/ 301
 /directory/databases-backend/redis-labs-cloud-free/ /directory/nosql-key-value-stores/redis-labs-cloud-free/ 301
-/directory/databases-backend/redisgraph/ /directory/graph-databases/redisgraph/ 301
+/directory/databases-backend/redisgraph/ /directory/graph-databases/falkordb/ 301
 /directory/databases-backend/redshift/ /directory/data-warehouses/redshift/ 301
 /directory/databases-backend/rocksdb/ /directory/nosql-key-value-stores/rocksdb/ 301
 /directory/databases-backend/scylladb/ /directory/nosql-key-value-stores/scylladb/ 301
@@ -413,11 +415,11 @@
 /directory/dev-sandbox/fission-serverless/ /directory/serverless-hosting/fission-serverless/ 301
 /directory/dev-sandbox/flyio/ /directory/serverless-hosting/flyio/ 301
 /directory/dev-sandbox/flyio-api/ /directory/serverless-hosting/flyio-api/ 301
-/directory/dev-sandbox/flyio-blog/ /directory/serverless-hosting/flyio-blog/ 301
+/directory/dev-sandbox/flyio-blog/ /directory/serverless-hosting/flyio/ 301
 /directory/dev-sandbox/flyio-community/ /directory/serverless-hosting/flyio-community/ 301
 /directory/dev-sandbox/flyio-pricing/ /directory/serverless-hosting/flyio-pricing/ 301
-/directory/dev-sandbox/flyio-security/ /directory/serverless-hosting/flyio-security/ 301
-/directory/dev-sandbox/flyio-support/ /directory/serverless-hosting/flyio-support/ 301
+/directory/dev-sandbox/flyio-security/ /directory/serverless-hosting/flyio/ 301
+/directory/dev-sandbox/flyio-support/ /directory/serverless-hosting/flyio/ 301
 /directory/dev-sandbox/github-actions-self-hosted-runners/ /directory/ci-cd/github-actions-self-hosted-runners/ 301
 /directory/dev-sandbox/github-codespaces/ /directory/code-execution/github-codespaces/ 301
 /directory/dev-sandbox/github-packages-container-registry/ /directory/container-orchestration/github-packages-container-registry/ 301
@@ -452,7 +454,7 @@
 /directory/dev-sandbox/nomad-by-hashicorp/ /directory/container-orchestration/nomad-by-hashicorp/ 301
 /directory/dev-sandbox/northflank/ /directory/serverless-hosting/northflank/ 301
 /directory/dev-sandbox/openfaas/ /directory/serverless-hosting/openfaas/ 301
-/directory/dev-sandbox/openfaas-cloud/ /directory/serverless-hosting/openfaas-cloud/ 301
+/directory/dev-sandbox/openfaas-cloud/ /directory/serverless-hosting/openfaas/ 301
 /directory/dev-sandbox/openwhisk-apache/ /directory/serverless-hosting/openwhisk-apache/ 301
 /directory/dev-sandbox/planetscale-cloud/ /directory/relational-databases/planetscale-cloud/ 301
 /directory/dev-sandbox/pnpm/ /directory/developer-tools/pnpm/ 301
@@ -519,7 +521,9 @@
 /directory/email-testing/papercut-smtp/ /directory/email-verification/papercut-smtp/ 301
 /directory/email-testing/smtp4dev/ /directory/email-verification/smtp4dev/ 301
 /directory/email-testing/testmailapp/ /directory/email-verification/testmailapp/ 301
+/directory/embeddings-rerankers/together-ai-embeddings/ /directory/embeddings-rerankers/ 301
 /directory/event-streaming/upstash-kafka/ /directory/event-streaming/ 301
+/directory/fine-tuning/mistral-fine-tuning/ /directory/fine-tuning/ 301
 /directory/fine-tuning/predibase/ /directory/fine-tuning/ 301
 /directory/food-nutrition/api-ninjas-nutrition/ /directory/recipes-cooking/api-ninjas-nutrition/ 301
 /directory/food-nutrition/brewery-db-open-brewery-db/ /directory/recipes-cooking/brewery-db-open-brewery-db/ 301
@@ -576,6 +580,7 @@
 /directory/gifs-stickers/stickerly/ /directory/stock-photos/stickerly/ 301
 /directory/gifs-stickers/telegram-bot-api-stickers/ /directory/stock-photos/telegram-bot-api-stickers/ 301
 /directory/gifs-stickers/tenor-api/ /directory/stock-photos/tenor-api/ 301
+/directory/graph-databases/redisgraph/ /directory/graph-databases/falkordb/ 301
 /directory/health-medical-data/cdc-data-apis/ /directory/government-statistics/cdc-data-apis/ 301
 /directory/health-medical-data/clinicaltrialsgov-api/ /directory/medical-data-apis/clinicaltrialsgov-api/ 301
 /directory/health-medical-data/diseasesh/ /directory/government-statistics/diseasesh/ 301
@@ -1139,6 +1144,10 @@
 /directory/search-apis/zincsearch/ /directory/site-search-engines/zincsearch/ 301
 /directory/security-guardrails/openai-moderation-api/ /directory/content-moderation/openai-moderation-api/ 301
 /directory/security-guardrails/perspective-api/ /directory/content-moderation/perspective-api/ 301
+/directory/serverless-hosting/flyio-blog/ /directory/serverless-hosting/flyio/ 301
+/directory/serverless-hosting/flyio-security/ /directory/serverless-hosting/flyio/ 301
+/directory/serverless-hosting/flyio-support/ /directory/serverless-hosting/flyio/ 301
+/directory/serverless-hosting/openfaas-cloud/ /directory/serverless-hosting/openfaas/ 301
 /directory/speaker-diarization/3d-speaker/ /directory/speech-transcription/3d-speaker/ 301
 /directory/speaker-diarization/azure-speaker-recognition/ /directory/speech-transcription/azure-speaker-recognition/ 301
 /directory/speaker-diarization/diarizen/ /directory/speech-transcription/diarizen/ 301
